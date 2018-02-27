@@ -1,3 +1,4 @@
 MIDIGuitar64.dll
+*.json
 *.txt
 'midiControllers [co-channel replacement when ready to test].maxpat'
