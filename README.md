@@ -1,7 +1,7 @@
-# Amanuensis
+# The Amanuensis
 The Amanuensis is an automated songwriting and recording system aimed at ridding the process of anything left-brained, so one need never leave a creative, spontaneous and improvisational state of mind, from the inception of the song until its final master. The program will construct a cohesive song structure, using the best of what you give it, looping around you and growing in real-time as you play. All you have to do is jam and fully written songs will flow out behind you wherever you go.
 
-Currently The Amanuensis is nearing a fully fleshed-out Beta 1.0. The main task at hand is cleaning up the UI.
+**Currently The Amanuensis is nearing a fully fleshed-out Beta 1.0. The main task at hand is cleaning up the UI.**
 
 This version relies on MIDI to denote played notes and uses it to identify when a steady beat has been achieved. Longer steady spans are retained while the shorter ones they overlap are discarded. This is essentially the criteria used to determine which portions of your jam are "best" and works well in practice, although any other method could be implemented in future versions.
 
@@ -11,9 +11,9 @@ These VSTs and samples are preloaded into The Amanuensis itself so no other soft
 
 For increased automation, there is a function that will "shuffle" your instrument at specified intervals of time or after periods of silence. In addition to giving you a new sound this will also switch you to a random MIDI channel, thereby allowing you to work with another layer of the song. Each song can be comprised of up to 16 tracks (one for each MIDI channel) which are each analyzed for rhythm and built independently, as well as simultaneously. This means an entire band can write a song together or a single player can rotate through every instrument. The number keys as well as + and - can also be used to jump to other channels.
 
-If you're interested in using The Amanuensis or helping develop it, feel free to get a hold of me and I'll be glad to help you get it up and running!
+**If you're interested in using The Amanuensis or helping develop it, feel free to get a hold of me and I'll be glad to help you get it up and running!**
 
-Version 2.0
+## Version 2.0
 
 At this point perhaps the best use of any open-source effort would be in creating a brand-new version 2.0 from the ground up. One major upgrade would be to decouple The Amanuensis from its reliance on MIDI. Although more difficult to get working correctly, this would be more streamlined and straightforward from a user's perspective, as well as address certain idiosyncrasies such as what happens when MIDI notes have long attacks or when dealing with glissando in vocals or other instruments. This could be accomplished by reworking the algorithm that judges what parts of the music are best. Instead of relying entirely on analyzing rhythm, i.e. specific moments in time, a more comprehensive machine learning approach could be implemented.
 
@@ -23,7 +23,7 @@ At any given moment then, a percentage score could be calculated based on what t
 
 It is also the eventual goal for this system to blend seamlessly into any situation, so music truly can flow out from you wherever you go. I imagine walking down the street and because the sensors on your feet are picking up a steady repetition, a beat starts up spontaneously. Then, as you're compelled to start tapping your fingers on your thigh, the sensors there begin adding a melody of some kind to this inchoate song. A personal soundtrack of new, original music at all times. This is basically my goal in life. The first requirement in moving toward this reality would be an Amanuensis for mobile devices. For this reason it might be ideal to write version 2.0 using JUCE, which I hear is totally cross-platform. A more in-depth framework and one I have not used, but if it's going to be done, it should probably be done right.
 
-Versions Beyond
+## Versions Beyond
 
 The absolute best way to play music is with other people. If your band's not around and the AI (trained to play just like you) isn't stimulating enough, it would be great to be able to jump online and write music with any random person in the world. I find this feedback loop, the give and take with foreign minds, to be essential. Sites like JamKazam.com are great, but if augmented with The Amanuensis, they could be taken to another level. Jamming with The Amanuensis becomes a lot like a game, a far more open-ended version of Guitar Hero with the goal to score highly and create the best music possible. An online matchmaking system could be every bit like those in videogames, throwing players together to compete against (or with) each other to write songs.
 
