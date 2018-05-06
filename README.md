@@ -1,7 +1,16 @@
 # The Amanuensis
 The Amanuensis is an automated songwriting and recording system aimed at ridding the process of anything left-brained, so one need never leave a creative, spontaneous and improvisational state of mind, from the inception of the song until its final master. The program will construct a cohesive song structure, using the best of what you give it, looping around you and growing in real-time as you play. All you have to do is jam and fully written songs will flow out behind you wherever you go.
 
-**Currently The Amanuensis is nearing a fully fleshed-out Beta 1.0. The main task at hand is cleaning up the UI.**
+*Right now The Amanuensis is Windows only (want to help me change that?). You will also need to have Python installed (I'm using 3.5) and Max 7.
+
+To begin simply open Amanuensis.maxpat. When it loads, click "settings". Choose the appropriate audio driver, your drum samples folder, your VST instruments folder and where you would like the resulting recordings and project files to be saved. I generally use a 10 ms tolerance, but you may want to raise that at first until you get the feel for it, so that it's easier for the system to catch a steady rhythm. 8 seconds is a good standard maximum interval between beats. Compressors are optional but consume processing power when on.
+
+Select a track and set up the settings for it as you see fit, depending on what instrument you want to use. Just about anything can be used to play The Amanuensis.
+That's about it. Just start playing and as soon as you have a steady rhythm going you should hear it start looping along with you. I recommend first laying down a beat of some kind and then moving on to other tracks to add a melody, etc. if you're having trouble getting it to catch on, play longer, play more steadily or go back to the settings and raise the tolerance.
+
+NOTE: There actually are some caveats to getting VSTs set up and playing at the moment. Get a hold of me or check out the open issues; I'll try to post one about it ASAP.
+
+If you have any questions at all, please do not hesitate to contact me at to_the_sun at mail dot com!*
 
 This version relies on MIDI to denote played notes and uses it to identify when a steady beat has been achieved. Longer steady spans are retained while the shorter ones they overlap are discarded. This is essentially the criteria used to determine which portions of your jam are "best" and works well in practice, although any other method could be implemented in future versions.
 
