@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 26.0, 144.0, 1298.0, 558.0 ],
+		"rect" : [ 42.0, 144.0, 1298.0, 558.0 ],
 		"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,7 +41,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-35",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -54,7 +54,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -329,7 +329,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-21",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -373,7 +373,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autoname 1 @autorestore 0",
-					"varname" : "u971050991"
+					"varname" : "u187025347"
 				}
 
 			}
@@ -701,7 +701,47 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "To the Sun",
+										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-11",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 30.0, 190.0, 31.0, 20.0 ],
+													"style" : "",
+													"text" : "gate"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "int", "int" ],
+													"patching_rect" : [ 200.0, 140.0, 29.5, 20.0 ],
+													"style" : "",
+													"text" : "t i 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-8",
+													"linecount" : 7,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 58.5, 130.0, 150.0, 87.0 ],
+													"style" : "",
+													"text" : " ignore spans that have not finished recording i.e. art in a_tracks yet. Trade-off for separate read/write heads is that a span could start playing right in its middle when it's captured"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-49",
 													"linecount" : 10,
@@ -1103,7 +1143,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 200.0, 140.0, 41.0, 20.0 ],
+													"patching_rect" : [ 200.0, 120.0, 41.0, 20.0 ],
 													"style" : "",
 													"text" : "r span"
 												}
@@ -1287,7 +1327,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 30.0, 150.0, 52.0, 20.0 ],
+													"patching_rect" : [ 30.0, 210.0, 52.0, 20.0 ],
 													"style" : "",
 													"text" : "zl ecils 1"
 												}
@@ -1312,8 +1352,15 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-13", 0 ],
+													"destination" : [ "obj-3", 0 ],
 													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"source" : [ "obj-11", 0 ]
 												}
 
 											}
@@ -1328,6 +1375,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-21", 0 ],
 													"source" : [ "obj-12", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-11", 0 ],
+													"source" : [ "obj-13", 1 ]
 												}
 
 											}
@@ -1492,6 +1546,20 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-11", 0 ],
+													"source" : [ "obj-3", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-13", 0 ],
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-27", 0 ],
 													"midpoints" : [ 39.5, 474.5, 19.5, 474.5 ],
 													"order" : 1,
@@ -1597,15 +1665,15 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-4", 0 ],
-													"source" : [ "obj-45", 0 ]
+													"destination" : [ "obj-11", 1 ],
+													"source" : [ "obj-45", 1 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"source" : [ "obj-45", 1 ]
+													"destination" : [ "obj-4", 0 ],
+													"source" : [ "obj-45", 0 ]
 												}
 
 											}
@@ -13355,7 +13423,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 12.0,
 													"id" : "obj-14",
-													"items" : [ "[2018-5-2-20-25-15]", ",", "[2018-5-2-20-55-1]", ",", "[2018-5-3-12-59-14]", ",", "[2018-5-3-15-5-0]", ",", "[2018-5-3-15-9-25]", ",", "[2018-5-3-16-9-31]", ",", "[2018-5-3-17-13-21]", ",", "[2018-5-3-17-14-8]", ",", "[2018-5-3-17-41-27]", ",", "[2018-5-3-19-37-12]", ",", "[2018-5-3-20-37-39]", ",", "[2018-5-3-21-45-39]", ",", "[2018-5-4-13-19-44]", ",", "[2018-5-4-14-14-36]" ],
+													"items" : [ "[2018-5-10-20-3-42]", ",", "[2018-5-10-20-34-35]", ",", "[2018-5-11-16-56-10]", ",", "[2018-5-11-18-10-39]", ",", "[2018-5-11-18-39-56]", ",", "[2018-5-11-20-36-48]" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -38851,6 +38919,45 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-28::obj-65" : [ "toggle[1]", "toggle[1]", 0 ],
+			"obj-28::obj-35" : [ "Subfolder Depth", "Subfolder Depth", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "logExternally(Frame+Phasor).maxpat",
+				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "polyplaybars~.maxpat",
+				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "logExternally(Frame+Poly).maxpat",
+				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "catalog.txt",
+				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mxj.mxe64",
+				"type" : "mx64"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Custom Default",
 				"default" : 				{

@@ -9,7 +9,7 @@ The Amanuensis is an automated songwriting and recording system aimed at ridding
 
 *That's about it. Just start playing and as soon as you have a steady rhythm going you should hear it start looping along with you. I recommend first laying down a beat of some kind and then moving on to other tracks to add a melody, etc. if you're having trouble getting it to catch on, play longer, play more steadily or go back to the settings and raise the tolerance.*
 
-*NOTE: There actually are some caveats to getting VSTs set up and playing at the moment. Get a hold of me or check out the open issues; I'll try to post one about it ASAP.*
+*NOTE: There actually are some caveats to getting VSTs set up and playing at the moment. Get a hold of me or check out issue #5*
 
 *If you have any questions at all, please do not hesitate to contact me at to_the_sun at mail dot com!*
 
