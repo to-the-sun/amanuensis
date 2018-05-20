@@ -1,9 +1,9 @@
 # The Amanuensis
 The Amanuensis is an automated songwriting and recording system aimed at ridding the process of anything left-brained, so one need never leave a creative, spontaneous and improvisational state of mind, from the inception of the song until its final master. The program will construct a cohesive song structure, using the best of what you give it, looping around you and growing in real-time as you play. All you have to do is jam and fully written songs will flow out behind you wherever you go.
 
-*Right now The Amanuensis is Windows only (want to help me change that?). You will also need to have Python installed (I'm using 3.5) and Max 7.*
+*Right now The Amanuensis is Windows only (want to help me change that?). You will also need to have Python installed (I'm using 3.5) and Max 7. Also, if you're not already aware the built-in Windows audio drivers don't cut it when it comes to professional recording applications. So if you don't have an interface or some hardware of that kind, you'll have to download ASIO4ALL (http://www.asio4all.org/) and use that.*
 
-*To begin simply open Amanuensis.maxpat. When it loads, click "settings". Choose the appropriate audio driver, your drum samples folder, your VST instruments folder and where you would like the resulting recordings and project files to be saved. I generally use a 10 ms tolerance, but you may want to raise that at first until you get the feel for it, so that it's easier for the system to catch a steady rhythm. 8 seconds is a good standard maximum interval between beats. Compressors are optional but consume processing power when on.*
+*To begin simply open Amanuensis.maxpat. When it loads, click "settings". Choose the appropriate audio driver, your drum samples folder, your VST instruments folder and where you would like the resulting recordings and project files to be saved. I generally use a 9 millisecond tolerance, but you may want to raise that at first until you get the feel for it, so that it's easier for the system to catch a steady rhythm. 8 seconds is a good standard memory span. Compressors are optional but consume processing power when on.*
 
 *Select a track and set up the settings for it as you see fit, depending on what instrument you want to use. Just about anything can be used to play The Amanuensis.*
 
