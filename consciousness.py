@@ -107,13 +107,13 @@ while 1:
                     if abs(center - mode[spout[3]]) > stats['tolerance']:   #if not for logs, these if statements could be combined
                         unstable[spout[3]] = spout[0]
                         steady[spout[3]] = 0
-                        log(["unstable because the mode beat changed too drastically"])
+                        #log(["unstable because the mode beat changed too drastically"])
                     mode[spout[3]] = center
                     log(["mode beat: ", mode[spout[3]]])
                     if steady[spout[3]] < 3 and (spout[0] - stable[spout[3]] > beat or interval > beat):
                         unstable[spout[3]] = spout[0]
                         steady[spout[3]] = 0
-                        log(["unstable because it went for longer than a beat without maintaining stability. Longer by ",  spout[0] - stable[spout[3]] - beat, "(or there was no input for over a beat)"])
+                        #log(["unstable because it went for longer than a beat without maintaining stability. Longer by ",  spout[0] - stable[spout[3]] - beat, "(or there was no input for over a beat)"])
                     stats['likelihood'] = 0
                     home = spout[0] - atom
                     summit = dense(rhythm, home)
@@ -140,8 +140,8 @@ while 1:
                             else:
                                 plateauing = 0
                                 summit = dense(rhythm, ms)
-                    log([ "center (landing in rhythm):",(width / 2) + edge])
-                    log([ "distance from center:",abs(spout[0] - ((width / 2) + edge))])
+                    #log([ "center (landing in rhythm):",(width / 2) + edge])
+                    #log([ "distance from center:",abs(spout[0] - ((width / 2) + edge))])
                     log([ "stats['likelihood']", stats['likelihood']])
                     if steady[spout[3]] > 3:  #3 is arbitrary: minimum number constituting a pattern
                         stats['lock'] = 1
@@ -164,7 +164,7 @@ while 1:
                         greater = 0
                         lesser = 0
                         fundamental = 1
-                        log(["mode versus comparison:", mode[spout[3]], "versus", comparison])
+                        #log(["mode versus comparison:", mode[spout[3]], "versus", comparison])
                         if mode[spout[3]] >= comparison:
                             greater = mode[spout[3]]
                             lesser = comparison
@@ -173,8 +173,8 @@ while 1:
                             greater = comparison
                             lesser = mode[spout[3]]
                             fundamental = mode[spout[3]] * math.floor((greater / lesser) + .5)
-                        log([ "fundamental", fundamental])
-                        log([lesser, "*.08" , "=", lesser *.08])
+                        #log([ "fundamental", fundamental])
+                        #log([lesser, "*.08" , "=", lesser *.08])
                         if greater and lesser and greater % lesser <= lesser * .08:  #.08 is arbitrary: smallest possible distinct beat (40) / the standard beat (500)
                             log([greater, "%", lesser, "=", greater% lesser])
                             stats['tempo'] = fundamental / stats['click']

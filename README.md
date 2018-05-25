@@ -5,7 +5,7 @@ The Amanuensis is an automated songwriting and recording system aimed at ridding
 
 *To begin simply open Amanuensis.maxpat. When it loads, click "settings". Choose the appropriate audio driver, your drum samples folder, your VST instruments folder and where you would like the resulting recordings and project files to be saved. I generally use a 9 millisecond tolerance, but you may want to raise that at first until you get the feel for it, so that it's easier for the system to catch a steady rhythm. 8 seconds is a good standard memory span. Compressors are optional but consume processing power when on.*
 
-*Select a track and set up the settings for it as you see fit, depending on what instrument you want to use. Just about anything can be used to play The Amanuensis.*
+*Select a track and set up the settings for it as you see fit, depending on what instrument you want to use. Just about anything can be used to play The Amanuensis. Just remember, whatever sounds you give it to* record, *it* runs *on MIDI, so that must also be present for the rhythmic analysis to occur.*
 
 *That's about it. Just start playing and as soon as you have a steady rhythm going you should hear it start looping along with you. I recommend first laying down a beat of some kind and then moving on to other tracks to add a melody, etc. if you're having trouble getting it to catch on, play longer, play more steadily or go back to the settings and raise the tolerance.*
 
