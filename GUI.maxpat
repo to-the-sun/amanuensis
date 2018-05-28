@@ -969,7 +969,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 26.0, 116.0, 1298.0, 586.0 ],
+						"rect" : [ 42.0, 116.0, 1298.0, 586.0 ],
 						"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 						"editing_bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 						"bglocked" : 0,
@@ -2863,6 +2863,45 @@
 										"subpatcher_template" : "To the Sun",
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-10",
+													"linecount" : 5,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 140.0, 200.0, 155.0, 64.0 ],
+													"style" : "",
+													"text" : " references to the same audio input are thinned for efficiency. Multiple MIDI channels can refer and record into the same palette"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-8",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 350.0, 340.0, 123.0, 20.0 ],
+													"style" : "",
+													"text" : "prepend audiochannels"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-7",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 350.0, 360.0, 150.0, 20.0 ],
+													"style" : "",
+													"text" : "logExternally(Frame+Phasor)"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-6",
 													"maxclass" : "newobj",
 													"numinlets" : 0,
@@ -2918,7 +2957,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 200.0, 200.0, 50.0, 20.0 ],
+													"patching_rect" : [ 400.0, 200.0, 50.0, 20.0 ],
 													"style" : "",
 													"text" : "15"
 												}
@@ -3480,6 +3519,15 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-4", 0 ],
+													"order" : 1,
+													"source" : [ "obj-6", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-8", 0 ],
+													"order" : 0,
 													"source" : [ "obj-6", 0 ]
 												}
 
@@ -3544,6 +3592,13 @@
 													"destination" : [ "obj-82", 1 ],
 													"order" : 0,
 													"source" : [ "obj-78", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-7", 0 ],
+													"source" : [ "obj-8", 0 ]
 												}
 
 											}
@@ -4472,6 +4527,32 @@
 										"subpatcher_template" : "To the Sun",
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 326.0, 200.0, 150.0, 20.0 ],
+													"style" : "",
+													"text" : "logExternally(Frame+Phasor)"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 326.0, 170.0, 310.0, 20.0 ],
+													"style" : "",
+													"text" : "append track-palette Association stored in midi-audiopositions"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-90",
 													"maxclass" : "newobj",
 													"numinlets" : 0,
@@ -4695,6 +4776,13 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-15", 0 ],
 													"source" : [ "obj-65", 0 ]
 												}
@@ -4730,7 +4818,16 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"order" : 0,
+													"source" : [ "obj-73", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-66", 0 ],
+													"order" : 1,
 													"source" : [ "obj-73", 0 ]
 												}
 
@@ -11530,102 +11627,102 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-8::obj-33" : [ "recording_source[7]", "recording_source", 1 ],
-			"obj-10::obj-35::obj-3" : [ "Current[19]", "Current", 0 ],
-			"obj-14::obj-35::obj-3" : [ "Current[25]", "Current", 0 ],
-			"obj-7::obj-33" : [ "recording_source[6]", "recording_source", 1 ],
-			"obj-3::obj-35::obj-17" : [ "1_Duration[2]", "Duration", 0 ],
-			"obj-13::obj-35::obj-17" : [ "12_Duration[2]", "Duration", 0 ],
-			"obj-6::obj-35::obj-45" : [ "Monitoring[5]", "Gain", 0 ],
-			"obj-1::obj-35::obj-5" : [ "Current[6]", "Current", 0 ],
+			"obj-2::obj-35::obj-17" : [ "5_Duration[2]", "Duration", 0 ],
+			"obj-2::obj-33" : [ "recording_source[4]", "recording_source", 1 ],
+			"obj-11::obj-35::obj-45" : [ "Monitoring[10]", "Gain", 0 ],
+			"obj-11::obj-35::obj-3" : [ "Current[21]", "Current", 0 ],
+			"obj-16::obj-35::obj-45" : [ "Monitoring[14]", "Gain", 0 ],
+			"obj-5::obj-33" : [ "recording_source[2]", "recording_source", 1 ],
+			"obj-15::obj-35::obj-27" : [ "14_Duration[4]", "Duration", 0 ],
+			"obj-13::obj-35::obj-27" : [ "12_Duration[4]", "Duration", 0 ],
+			"obj-5::obj-35::obj-3" : [ "Current[5]", "Current", 0 ],
+			"obj-6::obj-35::obj-5" : [ "Current[10]", "Current", 0 ],
 			"obj-1::obj-35::obj-27" : [ "4_Duration[4]", "Duration", 0 ],
-			"obj-16::obj-35::obj-27" : [ "15_Duration[4]", "Duration", 0 ],
-			"obj-14::obj-35::obj-5" : [ "Current[24]", "Current", 0 ],
+			"obj-2::obj-35::obj-3" : [ "Current[9]", "Current", 0 ],
+			"obj-8::obj-35::obj-3" : [ "Current[15]", "Current", 0 ],
+			"obj-9::obj-35::obj-17" : [ "9_Duration[2]", "Duration", 0 ],
+			"obj-10::obj-35::obj-3" : [ "Current[19]", "Current", 0 ],
+			"obj-7::obj-35::obj-17" : [ "7_Duration[2]", "Duration", 0 ],
+			"obj-4::obj-35::obj-3" : [ "Current[2]", "Current", 0 ],
+			"obj-17::obj-35::obj-3" : [ "Current[30]", "Current", 0 ],
+			"obj-3::obj-35::obj-45" : [ "Monitoring", "Gain", 0 ],
+			"obj-5::obj-35::obj-27" : [ "3_Duration[4]", "Duration", 0 ],
+			"obj-7::obj-35::obj-3" : [ "Current[12]", "Current", 0 ],
+			"obj-14::obj-35::obj-3" : [ "Current[25]", "Current", 0 ],
 			"obj-3::obj-33" : [ "recording_source", "recording_source", 1 ],
-			"obj-4::obj-35::obj-27" : [ "2_Duration[4]", "Duration", 0 ],
-			"obj-13::obj-35::obj-45" : [ "Monitoring[11]", "Gain", 0 ],
-			"obj-9::obj-35::obj-5" : [ "Current[17]", "Current", 0 ],
-			"obj-10::obj-35::obj-17" : [ "10_Duration[2]", "Duration", 0 ],
+			"obj-15::obj-33" : [ "recording_source[13]", "recording_source", 1 ],
+			"obj-2::obj-35::obj-45" : [ "Monitoring[4]", "Gain", 0 ],
+			"obj-6::obj-35::obj-27" : [ "6_Duration[4]", "Duration", 0 ],
+			"obj-8::obj-35::obj-17" : [ "8_Duration[2]", "Duration", 0 ],
+			"obj-10::obj-35::obj-5" : [ "Current[18]", "Current", 0 ],
+			"obj-15::obj-35::obj-5" : [ "Current[27]", "Current", 0 ],
 			"obj-16::obj-35::obj-5" : [ "Current[29]", "Current", 0 ],
+			"obj-4::obj-35::obj-27" : [ "2_Duration[4]", "Duration", 0 ],
+			"obj-13::obj-35::obj-3" : [ "Current[22]", "Current", 0 ],
+			"obj-13::obj-33" : [ "recording_source[11]", "recording_source", 1 ],
+			"obj-17::obj-35::obj-27" : [ "16_Duration[4]", "Duration", 0 ],
+			"obj-4::obj-35::obj-45" : [ "Monitoring[1]", "Gain", 0 ],
+			"obj-2::obj-35::obj-27" : [ "5_Duration[4]", "Duration", 0 ],
+			"obj-10::obj-33" : [ "recording_source[9]", "recording_source", 1 ],
+			"obj-1::obj-35::obj-45" : [ "Monitoring[3]", "Gain", 0 ],
+			"obj-9::obj-35::obj-45" : [ "Monitoring[8]", "Gain", 0 ],
+			"obj-14::obj-35::obj-17" : [ "13_Duration[2]", "Duration", 0 ],
+			"obj-9::obj-35::obj-3" : [ "Current[16]", "Current", 0 ],
+			"obj-8::obj-33" : [ "recording_source[7]", "recording_source", 1 ],
+			"obj-14::obj-35::obj-45" : [ "Monitoring[12]", "Gain", 0 ],
 			"obj-3::obj-35::obj-5" : [ "Current[1]", "Current", 0 ],
 			"obj-4::obj-33" : [ "recording_source[1]", "recording_source", 1 ],
-			"obj-14::obj-35::obj-27" : [ "13_Duration[4]", "Duration", 0 ],
-			"obj-17::obj-35::obj-3" : [ "Current[30]", "Current", 0 ],
-			"obj-6::obj-35::obj-3" : [ "Current[11]", "Current", 0 ],
-			"obj-6::obj-35::obj-27" : [ "6_Duration[4]", "Duration", 0 ],
-			"obj-8::obj-35::obj-45" : [ "Monitoring[7]", "Gain", 0 ],
-			"obj-1::obj-35::obj-3" : [ "Current[7]", "Current", 0 ],
-			"obj-5::obj-35::obj-5" : [ "Current[4]", "Current", 0 ],
-			"obj-4::obj-35::obj-45" : [ "Monitoring[1]", "Gain", 0 ],
-			"obj-11::obj-35::obj-5" : [ "Current[20]", "Current", 0 ],
-			"obj-5::obj-35::obj-17" : [ "3_Duration[2]", "Duration", 0 ],
-			"obj-9::obj-35::obj-17" : [ "9_Duration[2]", "Duration", 0 ],
-			"obj-11::obj-35::obj-17" : [ "11_Duration[2]", "Duration", 0 ],
-			"obj-16::obj-35::obj-45" : [ "Monitoring[14]", "Gain", 0 ],
-			"obj-1::obj-33" : [ "recording_source[3]", "recording_source", 1 ],
-			"obj-15::obj-35::obj-17" : [ "14_Duration[2]", "Duration", 0 ],
-			"obj-2::obj-33" : [ "recording_source[4]", "recording_source", 1 ],
-			"obj-6::obj-35::obj-5" : [ "Current[10]", "Current", 0 ],
-			"obj-11::obj-35::obj-45" : [ "Monitoring[10]", "Gain", 0 ],
-			"obj-15::obj-35::obj-3" : [ "Current[26]", "Current", 0 ],
-			"obj-3::obj-35::obj-27" : [ "1_Duration[4]", "Duration", 0 ],
-			"obj-13::obj-35::obj-27" : [ "12_Duration[4]", "Duration", 0 ],
-			"obj-15::obj-35::obj-5" : [ "Current[27]", "Current", 0 ],
-			"obj-7::obj-35::obj-17" : [ "7_Duration[2]", "Duration", 0 ],
-			"obj-9::obj-33" : [ "recording_source[8]", "recording_source", 1 ],
-			"obj-13::obj-35::obj-5" : [ "Current[23]", "Current", 0 ],
-			"obj-1::obj-35::obj-45" : [ "Monitoring[3]", "Gain", 0 ],
-			"obj-17::obj-35::obj-17" : [ "16_Duration[2]", "Duration", 0 ],
-			"obj-2::obj-35::obj-3" : [ "Current[9]", "Current", 0 ],
-			"obj-14::obj-35::obj-45" : [ "Monitoring[12]", "Gain", 0 ],
-			"obj-4::obj-35::obj-5" : [ "Current[3]", "Current", 0 ],
-			"obj-11::obj-35::obj-3" : [ "Current[21]", "Current", 0 ],
-			"obj-16::obj-33" : [ "recording_source[14]", "recording_source", 1 ],
-			"obj-10::obj-35::obj-27" : [ "10_Duration[4]", "Duration", 0 ],
-			"obj-7::obj-35::obj-45" : [ "Monitoring[6]", "Gain", 0 ],
-			"obj-2::obj-35::obj-17" : [ "5_Duration[2]", "Duration", 0 ],
-			"obj-7::obj-35::obj-5" : [ "Current[13]", "Current", 0 ],
-			"obj-11::obj-33" : [ "recording_source[10]", "recording_source", 1 ],
-			"obj-8::obj-35::obj-3" : [ "Current[15]", "Current", 0 ],
-			"obj-13::obj-35::obj-3" : [ "Current[22]", "Current", 0 ],
-			"obj-17::obj-33" : [ "recording_source[15]", "recording_source", 1 ],
-			"obj-8::obj-35::obj-17" : [ "8_Duration[2]", "Duration", 0 ],
-			"obj-13::obj-33" : [ "recording_source[11]", "recording_source", 1 ],
-			"obj-2::obj-35::obj-45" : [ "Monitoring[4]", "Gain", 0 ],
-			"obj-14::obj-33" : [ "recording_source[12]", "recording_source", 1 ],
-			"obj-5::obj-35::obj-27" : [ "3_Duration[4]", "Duration", 0 ],
-			"obj-9::obj-35::obj-27" : [ "9_Duration[4]", "Duration", 0 ],
-			"obj-11::obj-35::obj-27" : [ "11_Duration[4]", "Duration", 0 ],
-			"obj-17::obj-35::obj-5" : [ "Current[31]", "Current", 0 ],
-			"obj-1::obj-35::obj-17" : [ "4_Duration[2]", "Duration", 0 ],
-			"obj-16::obj-35::obj-17" : [ "15_Duration[2]", "Duration", 0 ],
-			"obj-15::obj-35::obj-27" : [ "14_Duration[4]", "Duration", 0 ],
-			"obj-4::obj-35::obj-17" : [ "2_Duration[2]", "Duration", 0 ],
-			"obj-3::obj-35::obj-3" : [ "Current", "Current", 0 ],
-			"obj-10::obj-35::obj-45" : [ "Monitoring[9]", "Gain", 0 ],
-			"obj-17::obj-35::obj-45" : [ "Monitoring[15]", "Gain", 0 ],
-			"obj-5::obj-33" : [ "recording_source[2]", "recording_source", 1 ],
-			"obj-6::obj-35::obj-17" : [ "6_Duration[2]", "Duration", 0 ],
-			"obj-7::obj-35::obj-27" : [ "7_Duration[4]", "Duration", 0 ],
-			"obj-14::obj-35::obj-17" : [ "13_Duration[2]", "Duration", 0 ],
-			"obj-7::obj-35::obj-3" : [ "Current[12]", "Current", 0 ],
-			"obj-17::obj-35::obj-27" : [ "16_Duration[4]", "Duration", 0 ],
-			"obj-2::obj-35::obj-5" : [ "Current[8]", "Current", 0 ],
-			"obj-10::obj-35::obj-5" : [ "Current[18]", "Current", 0 ],
-			"obj-5::obj-35::obj-45" : [ "Monitoring[2]", "Gain", 0 ],
-			"obj-5::obj-35::obj-3" : [ "Current[5]", "Current", 0 ],
-			"obj-9::obj-35::obj-45" : [ "Monitoring[8]", "Gain", 0 ],
-			"obj-4::obj-35::obj-3" : [ "Current[2]", "Current", 0 ],
-			"obj-8::obj-35::obj-5" : [ "Current[14]", "Current", 0 ],
-			"obj-10::obj-33" : [ "recording_source[9]", "recording_source", 1 ],
-			"obj-15::obj-33" : [ "recording_source[13]", "recording_source", 1 ],
-			"obj-16::obj-35::obj-3" : [ "Current[28]", "Current", 0 ],
-			"obj-3::obj-35::obj-45" : [ "Monitoring", "Gain", 0 ],
-			"obj-2::obj-35::obj-27" : [ "5_Duration[4]", "Duration", 0 ],
-			"obj-9::obj-35::obj-3" : [ "Current[16]", "Current", 0 ],
-			"obj-15::obj-35::obj-45" : [ "Monitoring[13]", "Gain", 0 ],
+			"obj-6::obj-35::obj-45" : [ "Monitoring[5]", "Gain", 0 ],
 			"obj-6::obj-33" : [ "recording_source[5]", "recording_source", 1 ],
-			"obj-8::obj-35::obj-27" : [ "8_Duration[4]", "Duration", 0 ]
+			"obj-9::obj-35::obj-27" : [ "9_Duration[4]", "Duration", 0 ],
+			"obj-10::obj-35::obj-17" : [ "10_Duration[2]", "Duration", 0 ],
+			"obj-5::obj-35::obj-5" : [ "Current[4]", "Current", 0 ],
+			"obj-8::obj-35::obj-45" : [ "Monitoring[7]", "Gain", 0 ],
+			"obj-16::obj-35::obj-17" : [ "15_Duration[2]", "Duration", 0 ],
+			"obj-17::obj-35::obj-45" : [ "Monitoring[15]", "Gain", 0 ],
+			"obj-7::obj-35::obj-27" : [ "7_Duration[4]", "Duration", 0 ],
+			"obj-8::obj-35::obj-5" : [ "Current[14]", "Current", 0 ],
+			"obj-1::obj-33" : [ "recording_source[3]", "recording_source", 1 ],
+			"obj-16::obj-33" : [ "recording_source[14]", "recording_source", 1 ],
+			"obj-3::obj-35::obj-17" : [ "1_Duration[2]", "Duration", 0 ],
+			"obj-17::obj-35::obj-5" : [ "Current[31]", "Current", 0 ],
+			"obj-11::obj-35::obj-17" : [ "11_Duration[2]", "Duration", 0 ],
+			"obj-11::obj-35::obj-5" : [ "Current[20]", "Current", 0 ],
+			"obj-14::obj-35::obj-5" : [ "Current[24]", "Current", 0 ],
+			"obj-3::obj-35::obj-3" : [ "Current", "Current", 0 ],
+			"obj-5::obj-35::obj-45" : [ "Monitoring[2]", "Gain", 0 ],
+			"obj-8::obj-35::obj-27" : [ "8_Duration[4]", "Duration", 0 ],
+			"obj-15::obj-35::obj-17" : [ "14_Duration[2]", "Duration", 0 ],
+			"obj-2::obj-35::obj-5" : [ "Current[8]", "Current", 0 ],
+			"obj-10::obj-35::obj-45" : [ "Monitoring[9]", "Gain", 0 ],
+			"obj-13::obj-35::obj-17" : [ "12_Duration[2]", "Duration", 0 ],
+			"obj-13::obj-35::obj-45" : [ "Monitoring[11]", "Gain", 0 ],
+			"obj-15::obj-35::obj-3" : [ "Current[26]", "Current", 0 ],
+			"obj-1::obj-35::obj-17" : [ "4_Duration[2]", "Duration", 0 ],
+			"obj-15::obj-35::obj-45" : [ "Monitoring[13]", "Gain", 0 ],
+			"obj-14::obj-35::obj-27" : [ "13_Duration[4]", "Duration", 0 ],
+			"obj-4::obj-35::obj-5" : [ "Current[3]", "Current", 0 ],
+			"obj-7::obj-35::obj-45" : [ "Monitoring[6]", "Gain", 0 ],
+			"obj-1::obj-35::obj-3" : [ "Current[7]", "Current", 0 ],
+			"obj-7::obj-35::obj-5" : [ "Current[13]", "Current", 0 ],
+			"obj-14::obj-33" : [ "recording_source[12]", "recording_source", 1 ],
+			"obj-17::obj-35::obj-17" : [ "16_Duration[2]", "Duration", 0 ],
+			"obj-9::obj-35::obj-5" : [ "Current[17]", "Current", 0 ],
+			"obj-5::obj-35::obj-17" : [ "3_Duration[2]", "Duration", 0 ],
+			"obj-10::obj-35::obj-27" : [ "10_Duration[4]", "Duration", 0 ],
+			"obj-11::obj-33" : [ "recording_source[10]", "recording_source", 1 ],
+			"obj-17::obj-33" : [ "recording_source[15]", "recording_source", 1 ],
+			"obj-16::obj-35::obj-27" : [ "15_Duration[4]", "Duration", 0 ],
+			"obj-6::obj-35::obj-3" : [ "Current[11]", "Current", 0 ],
+			"obj-9::obj-33" : [ "recording_source[8]", "recording_source", 1 ],
+			"obj-16::obj-35::obj-3" : [ "Current[28]", "Current", 0 ],
+			"obj-6::obj-35::obj-17" : [ "6_Duration[2]", "Duration", 0 ],
+			"obj-13::obj-35::obj-5" : [ "Current[23]", "Current", 0 ],
+			"obj-4::obj-35::obj-17" : [ "2_Duration[2]", "Duration", 0 ],
+			"obj-7::obj-33" : [ "recording_source[6]", "recording_source", 1 ],
+			"obj-3::obj-35::obj-27" : [ "1_Duration[4]", "Duration", 0 ],
+			"obj-1::obj-35::obj-5" : [ "Current[6]", "Current", 0 ],
+			"obj-11::obj-35::obj-27" : [ "11_Duration[4]", "Duration", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
