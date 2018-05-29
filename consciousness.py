@@ -176,7 +176,7 @@ while 1:
                         #log([ "fundamental", fundamental])
                         #log([lesser, "*.08" , "=", lesser *.08])
                         if greater and lesser and greater % lesser <= lesser * .08:  #.08 is arbitrary: smallest possible distinct beat (40) / the standard beat (500)
-                            log([greater, "%", lesser, "=", greater% lesser])
+                            #log([greater, "%", lesser, "=", greater% lesser])
                             stats['tempo'] = fundamental / stats['click']
                             comparison = fundamental
                         drain = ' '.join(map(str, [' '.join(map(str, spout)), stats['recording'], stats['likelihood'], 1, stats['tempo'], stats['click']]))

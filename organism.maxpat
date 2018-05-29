@@ -31407,7 +31407,6 @@
 														"tags" : "",
 														"style" : "",
 														"subpatcher_template" : "To the Sun",
-														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-17",
@@ -41937,11 +41936,11 @@
 																	"id" : "obj-7",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "float", "int" ],
-																	"patching_rect" : [ 394.5, 180.0, 42.5, 20.0 ],
+																	"numoutlets" : 3,
+																	"outlettype" : [ "float", "float", "int" ],
+																	"patching_rect" : [ 380.928558, 180.0, 40.0, 20.0 ],
 																	"style" : "",
-																	"text" : "t f 7"
+																	"text" : "t f f 7"
 																}
 
 															}
@@ -42316,7 +42315,7 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-7", 0 ],
-																	"midpoints" : [ 421.428558, 174.5, 404.0, 174.5 ],
+																	"midpoints" : [ 421.428558, 174.5, 390.428558, 174.5 ],
 																	"source" : [ "obj-35", 1 ]
 																}
 
@@ -42444,8 +42443,6 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-15", 0 ],
-																	"midpoints" : [ 404.0, 204.5, 390.0, 204.5 ],
-																	"order" : 1,
 																	"source" : [ "obj-7", 0 ]
 																}
 
@@ -42453,15 +42450,14 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-6", 1 ],
-																	"source" : [ "obj-7", 1 ]
+																	"source" : [ "obj-7", 2 ]
 																}
 
 															}
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-6", 0 ],
-																	"order" : 0,
-																	"source" : [ "obj-7", 0 ]
+																	"source" : [ "obj-7", 1 ]
 																}
 
 															}
@@ -59088,6 +59084,7 @@
 																		"tags" : "",
 																		"style" : "",
 																		"subpatcher_template" : "To the Sun",
+																		"visible" : 1,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
 																					"comment" : "",
@@ -59138,45 +59135,6 @@
 																					"patching_rect" : [ 219.5, 220.0, 166.0, 20.0 ],
 																					"style" : "",
 																					"text" : "prepend total bars in song set to"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-19",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 34.5, 340.0, 53.0, 20.0 ],
-																					"style" : "",
-																					"text" : "print test"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-18",
-																					"maxclass" : "toggle",
-																					"numinlets" : 1,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "int" ],
-																					"parameter_enable" : 0,
-																					"patching_rect" : [ 34.5, 270.0, 24.0, 24.0 ],
-																					"style" : ""
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"format" : 6,
-																					"id" : "obj-14",
-																					"maxclass" : "flonum",
-																					"numinlets" : 1,
-																					"numoutlets" : 2,
-																					"outlettype" : [ "", "bang" ],
-																					"parameter_enable" : 0,
-																					"patching_rect" : [ 95.0, 270.0, 50.0, 20.0 ],
-																					"style" : ""
 																				}
 
 																			}
@@ -59241,17 +59199,16 @@
 																			}
 , 																			{
 																				"patchline" : 																				{
-																					"destination" : [ "obj-1", 0 ],
-																					"order" : 0,
+																					"destination" : [ "obj-5", 0 ],
 																					"source" : [ "obj-4", 0 ]
 																				}
 
 																			}
 , 																			{
 																				"patchline" : 																				{
-																					"destination" : [ "obj-5", 0 ],
-																					"order" : 1,
-																					"source" : [ "obj-4", 0 ]
+																					"destination" : [ "obj-1", 0 ],
+																					"order" : 0,
+																					"source" : [ "obj-5", 0 ]
 																				}
 
 																			}
@@ -59265,6 +59222,7 @@
 , 																			{
 																				"patchline" : 																				{
 																					"destination" : [ "obj-6", 0 ],
+																					"order" : 1,
 																					"source" : [ "obj-5", 0 ]
 																				}
 
@@ -63827,13 +63785,14 @@
 , 																											{
 																												"box" : 																												{
 																													"id" : "obj-5",
+																													"linecount" : 2,
 																													"maxclass" : "message",
 																													"numinlets" : 2,
 																													"numoutlets" : 1,
 																													"outlettype" : [ "" ],
 																													"patching_rect" : [ 114.5, 150.0, 50.0, 20.0 ],
 																													"style" : "",
-																													"text" : "-1.38322"
+																													"text" : "-93.038548"
 																												}
 
 																											}
@@ -65444,13 +65403,14 @@
 , 																															{
 																																"box" : 																																{
 																																	"id" : "obj-24",
+																																	"linecount" : 2,
 																																	"maxclass" : "message",
 																																	"numinlets" : 2,
 																																	"numoutlets" : 1,
 																																	"outlettype" : [ "" ],
 																																	"patching_rect" : [ 309.0, 370.0, 50.0, 20.0 ],
 																																	"style" : "",
-																																	"text" : "-1.38322"
+																																	"text" : "-93.038548"
 																																}
 
 																															}

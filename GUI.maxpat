@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 116.0, 1298.0, 586.0 ],
+		"rect" : [ 26.0, 116.0, 1298.0, 586.0 ],
 		"bgcolor" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 		"editing_bgcolor" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 		"bglocked" : 0,
@@ -39,6 +39,45 @@
 		"style" : "",
 		"subpatcher_template" : "To the Sun",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 320.0, 20.0, 57.0, 20.0 ],
+					"style" : "",
+					"text" : "r ---tempo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 291.0, 100.0, 65.0, 20.0 ],
+					"style" : "",
+					"text" : "peek~ stats"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 230.0, 120.0, 80.0, 20.0 ],
+					"style" : "",
+					"text" : "* 1."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-36",
 					"maxclass" : "newobj",
@@ -71,7 +110,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.0, 60.0, 83.0, 20.0 ],
+					"patching_rect" : [ 370.0, 100.0, 83.0, 20.0 ],
 					"style" : "",
 					"text" : "r ---conscious?"
 				}
@@ -84,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 370.0, 80.0, 75.0, 20.0 ],
+					"patching_rect" : [ 370.0, 120.0, 75.0, 20.0 ],
 					"style" : "",
 					"text" : "substitute 1 0"
 				}
@@ -97,7 +136,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 325.0, 225.0, 29.5, 20.0 ],
+					"patching_rect" : [ 325.0, 265.0, 29.5, 20.0 ],
 					"style" : "",
 					"text" : "+ 1."
 				}
@@ -110,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 325.0, 245.0, 113.0, 20.0 ],
+					"patching_rect" : [ 325.0, 285.0, 113.0, 20.0 ],
 					"style" : "",
 					"text" : "prepend setminmax 1"
 				}
@@ -123,7 +162,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 325.0, 205.0, 65.0, 20.0 ],
+					"patching_rect" : [ 325.0, 245.0, 65.0, 20.0 ],
 					"style" : "",
 					"text" : "peek~ stats"
 				}
@@ -136,7 +175,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 325.0, 185.0, 29.5, 20.0 ],
+					"patching_rect" : [ 325.0, 225.0, 29.5, 20.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -149,7 +188,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 325.0, 165.0, 85.0, 20.0 ],
+					"patching_rect" : [ 325.0, 205.0, 85.0, 20.0 ],
 					"style" : "",
 					"text" : "r ---draw_spans"
 				}
@@ -167,7 +206,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 228.0, 185.0, 56.0, 20.0 ],
+					"patching_rect" : [ 228.0, 225.0, 56.0, 20.0 ],
 					"sig" : 0.0,
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -181,7 +220,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 228.0, 165.0, 97.0, 20.0 ],
+					"patching_rect" : [ 228.0, 205.0, 97.0, 20.0 ],
 					"style" : "",
 					"text" : "receive~ ---phasor"
 				}
@@ -198,7 +237,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 265.0, 280.0, 38.5, 20.0 ],
+					"patching_rect" : [ 265.0, 320.0, 38.5, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 1000.0, 18.0 ],
 					"slidercolor" : [ 0.0, 0.0, 0.0, 0.73 ],
@@ -228,7 +267,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 311.0, 60.0, 65.0, 20.0 ],
+					"patching_rect" : [ 311.0, 70.0, 65.0, 20.0 ],
 					"style" : "",
 					"text" : "peek~ stats"
 				}
@@ -239,11 +278,11 @@
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 230.0, 40.0, 100.0, 20.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 230.0, 50.0, 100.0, 20.0 ],
 					"style" : "",
-					"text" : "t 1 6"
+					"text" : "t 1 7 6"
 				}
 
 			}
@@ -254,7 +293,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 230.0, 60.0, 65.0, 20.0 ],
+					"patching_rect" : [ 230.0, 70.0, 65.0, 20.0 ],
 					"style" : "",
 					"text" : "peek~ stats"
 				}
@@ -267,7 +306,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 230.0, 80.0, 29.5, 20.0 ],
+					"patching_rect" : [ 230.0, 100.0, 29.5, 20.0 ],
 					"style" : "",
 					"text" : "* 1."
 				}
@@ -416,7 +455,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "float" ],
 									"patching_rect" : [ 50.0, 50.0, 25.0, 25.0 ],
 									"style" : ""
 								}
@@ -762,7 +801,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 230.0, 110.0, 68.0, 20.0 ],
+					"patching_rect" : [ 230.0, 150.0, 68.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -785,7 +824,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.0, 130.0, 67.0, 20.0 ],
+					"patching_rect" : [ 230.0, 170.0, 67.0, 20.0 ],
 					"style" : "",
 					"text" : "prepend set"
 				}
@@ -798,7 +837,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 150.0, 144.0, 18.0 ],
+					"patching_rect" : [ 230.0, 190.0, 144.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 865.0, 0.0, 135.0, 18.0 ],
 					"style" : "",
@@ -11522,7 +11561,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
+					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -11544,6 +11583,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-27", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-27", 1 ]
 				}
 
@@ -11599,6 +11645,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 1 ],
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
@@ -11627,102 +11694,102 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-35::obj-17" : [ "5_Duration[2]", "Duration", 0 ],
-			"obj-2::obj-33" : [ "recording_source[4]", "recording_source", 1 ],
-			"obj-11::obj-35::obj-45" : [ "Monitoring[10]", "Gain", 0 ],
-			"obj-11::obj-35::obj-3" : [ "Current[21]", "Current", 0 ],
-			"obj-16::obj-35::obj-45" : [ "Monitoring[14]", "Gain", 0 ],
+			"obj-2::obj-35::obj-27" : [ "5_Duration[4]", "Duration", 0 ],
+			"obj-16::obj-35::obj-5" : [ "Current[29]", "Current", 0 ],
+			"obj-7::obj-35::obj-45" : [ "Monitoring[6]", "Gain", 0 ],
+			"obj-7::obj-33" : [ "recording_source[6]", "recording_source", 1 ],
+			"obj-7::obj-35::obj-17" : [ "7_Duration[2]", "Duration", 0 ],
+			"obj-10::obj-35::obj-45" : [ "Monitoring[9]", "Gain", 0 ],
+			"obj-5::obj-35::obj-5" : [ "Current[4]", "Current", 0 ],
+			"obj-8::obj-35::obj-3" : [ "Current[15]", "Current", 0 ],
+			"obj-6::obj-35::obj-3" : [ "Current[11]", "Current", 0 ],
+			"obj-13::obj-35::obj-17" : [ "12_Duration[2]", "Duration", 0 ],
+			"obj-9::obj-35::obj-17" : [ "9_Duration[2]", "Duration", 0 ],
+			"obj-13::obj-33" : [ "recording_source[11]", "recording_source", 1 ],
+			"obj-3::obj-35::obj-45" : [ "Monitoring", "Gain", 0 ],
+			"obj-10::obj-35::obj-27" : [ "10_Duration[4]", "Duration", 0 ],
+			"obj-10::obj-33" : [ "recording_source[9]", "recording_source", 1 ],
+			"obj-16::obj-35::obj-3" : [ "Current[28]", "Current", 0 ],
 			"obj-5::obj-33" : [ "recording_source[2]", "recording_source", 1 ],
-			"obj-15::obj-35::obj-27" : [ "14_Duration[4]", "Duration", 0 ],
+			"obj-14::obj-35::obj-3" : [ "Current[25]", "Current", 0 ],
+			"obj-11::obj-35::obj-5" : [ "Current[20]", "Current", 0 ],
+			"obj-4::obj-35::obj-17" : [ "2_Duration[2]", "Duration", 0 ],
+			"obj-1::obj-35::obj-5" : [ "Current[6]", "Current", 0 ],
+			"obj-9::obj-35::obj-5" : [ "Current[17]", "Current", 0 ],
+			"obj-16::obj-35::obj-27" : [ "15_Duration[4]", "Duration", 0 ],
+			"obj-4::obj-35::obj-3" : [ "Current[2]", "Current", 0 ],
+			"obj-16::obj-33" : [ "recording_source[14]", "recording_source", 1 ],
+			"obj-3::obj-35::obj-27" : [ "1_Duration[4]", "Duration", 0 ],
+			"obj-1::obj-35::obj-17" : [ "4_Duration[2]", "Duration", 0 ],
+			"obj-17::obj-35::obj-45" : [ "Monitoring[15]", "Gain", 0 ],
+			"obj-3::obj-35::obj-3" : [ "Current", "Current", 0 ],
+			"obj-15::obj-35::obj-5" : [ "Current[27]", "Current", 0 ],
+			"obj-13::obj-35::obj-5" : [ "Current[23]", "Current", 0 ],
+			"obj-2::obj-35::obj-45" : [ "Monitoring[4]", "Gain", 0 ],
+			"obj-6::obj-35::obj-45" : [ "Monitoring[5]", "Gain", 0 ],
+			"obj-6::obj-35::obj-17" : [ "6_Duration[2]", "Duration", 0 ],
+			"obj-17::obj-35::obj-17" : [ "16_Duration[2]", "Duration", 0 ],
+			"obj-6::obj-33" : [ "recording_source[5]", "recording_source", 1 ],
+			"obj-8::obj-35::obj-17" : [ "8_Duration[2]", "Duration", 0 ],
+			"obj-9::obj-35::obj-3" : [ "Current[16]", "Current", 0 ],
+			"obj-4::obj-35::obj-5" : [ "Current[3]", "Current", 0 ],
+			"obj-7::obj-35::obj-3" : [ "Current[12]", "Current", 0 ],
+			"obj-14::obj-35::obj-17" : [ "13_Duration[2]", "Duration", 0 ],
+			"obj-7::obj-35::obj-27" : [ "7_Duration[4]", "Duration", 0 ],
+			"obj-9::obj-33" : [ "recording_source[8]", "recording_source", 1 ],
+			"obj-15::obj-35::obj-3" : [ "Current[26]", "Current", 0 ],
+			"obj-4::obj-33" : [ "recording_source[1]", "recording_source", 1 ],
+			"obj-13::obj-35::obj-3" : [ "Current[22]", "Current", 0 ],
+			"obj-5::obj-35::obj-17" : [ "3_Duration[2]", "Duration", 0 ],
+			"obj-2::obj-35::obj-3" : [ "Current[9]", "Current", 0 ],
+			"obj-10::obj-35::obj-5" : [ "Current[18]", "Current", 0 ],
 			"obj-13::obj-35::obj-27" : [ "12_Duration[4]", "Duration", 0 ],
 			"obj-5::obj-35::obj-3" : [ "Current[5]", "Current", 0 ],
-			"obj-6::obj-35::obj-5" : [ "Current[10]", "Current", 0 ],
-			"obj-1::obj-35::obj-27" : [ "4_Duration[4]", "Duration", 0 ],
-			"obj-2::obj-35::obj-3" : [ "Current[9]", "Current", 0 ],
-			"obj-8::obj-35::obj-3" : [ "Current[15]", "Current", 0 ],
-			"obj-9::obj-35::obj-17" : [ "9_Duration[2]", "Duration", 0 ],
-			"obj-10::obj-35::obj-3" : [ "Current[19]", "Current", 0 ],
-			"obj-7::obj-35::obj-17" : [ "7_Duration[2]", "Duration", 0 ],
-			"obj-4::obj-35::obj-3" : [ "Current[2]", "Current", 0 ],
-			"obj-17::obj-35::obj-3" : [ "Current[30]", "Current", 0 ],
-			"obj-3::obj-35::obj-45" : [ "Monitoring", "Gain", 0 ],
-			"obj-5::obj-35::obj-27" : [ "3_Duration[4]", "Duration", 0 ],
-			"obj-7::obj-35::obj-3" : [ "Current[12]", "Current", 0 ],
-			"obj-14::obj-35::obj-3" : [ "Current[25]", "Current", 0 ],
-			"obj-3::obj-33" : [ "recording_source", "recording_source", 1 ],
+			"obj-8::obj-35::obj-45" : [ "Monitoring[7]", "Gain", 0 ],
+			"obj-9::obj-35::obj-27" : [ "9_Duration[4]", "Duration", 0 ],
 			"obj-15::obj-33" : [ "recording_source[13]", "recording_source", 1 ],
-			"obj-2::obj-35::obj-45" : [ "Monitoring[4]", "Gain", 0 ],
-			"obj-6::obj-35::obj-27" : [ "6_Duration[4]", "Duration", 0 ],
-			"obj-8::obj-35::obj-17" : [ "8_Duration[2]", "Duration", 0 ],
-			"obj-10::obj-35::obj-5" : [ "Current[18]", "Current", 0 ],
-			"obj-15::obj-35::obj-5" : [ "Current[27]", "Current", 0 ],
-			"obj-16::obj-35::obj-5" : [ "Current[29]", "Current", 0 ],
+			"obj-11::obj-35::obj-17" : [ "11_Duration[2]", "Duration", 0 ],
+			"obj-15::obj-35::obj-17" : [ "14_Duration[2]", "Duration", 0 ],
+			"obj-2::obj-33" : [ "recording_source[4]", "recording_source", 1 ],
+			"obj-16::obj-35::obj-45" : [ "Monitoring[14]", "Gain", 0 ],
 			"obj-4::obj-35::obj-27" : [ "2_Duration[4]", "Duration", 0 ],
-			"obj-13::obj-35::obj-3" : [ "Current[22]", "Current", 0 ],
-			"obj-13::obj-33" : [ "recording_source[11]", "recording_source", 1 ],
-			"obj-17::obj-35::obj-27" : [ "16_Duration[4]", "Duration", 0 ],
-			"obj-4::obj-35::obj-45" : [ "Monitoring[1]", "Gain", 0 ],
-			"obj-2::obj-35::obj-27" : [ "5_Duration[4]", "Duration", 0 ],
-			"obj-10::obj-33" : [ "recording_source[9]", "recording_source", 1 ],
-			"obj-1::obj-35::obj-45" : [ "Monitoring[3]", "Gain", 0 ],
-			"obj-9::obj-35::obj-45" : [ "Monitoring[8]", "Gain", 0 ],
-			"obj-14::obj-35::obj-17" : [ "13_Duration[2]", "Duration", 0 ],
-			"obj-9::obj-35::obj-3" : [ "Current[16]", "Current", 0 ],
-			"obj-8::obj-33" : [ "recording_source[7]", "recording_source", 1 ],
+			"obj-2::obj-35::obj-17" : [ "5_Duration[2]", "Duration", 0 ],
 			"obj-14::obj-35::obj-45" : [ "Monitoring[12]", "Gain", 0 ],
 			"obj-3::obj-35::obj-5" : [ "Current[1]", "Current", 0 ],
-			"obj-4::obj-33" : [ "recording_source[1]", "recording_source", 1 ],
-			"obj-6::obj-35::obj-45" : [ "Monitoring[5]", "Gain", 0 ],
-			"obj-6::obj-33" : [ "recording_source[5]", "recording_source", 1 ],
-			"obj-9::obj-35::obj-27" : [ "9_Duration[4]", "Duration", 0 ],
-			"obj-10::obj-35::obj-17" : [ "10_Duration[2]", "Duration", 0 ],
-			"obj-5::obj-35::obj-5" : [ "Current[4]", "Current", 0 ],
-			"obj-8::obj-35::obj-45" : [ "Monitoring[7]", "Gain", 0 ],
-			"obj-16::obj-35::obj-17" : [ "15_Duration[2]", "Duration", 0 ],
-			"obj-17::obj-35::obj-45" : [ "Monitoring[15]", "Gain", 0 ],
-			"obj-7::obj-35::obj-27" : [ "7_Duration[4]", "Duration", 0 ],
+			"obj-11::obj-35::obj-3" : [ "Current[21]", "Current", 0 ],
+			"obj-1::obj-35::obj-45" : [ "Monitoring[3]", "Gain", 0 ],
+			"obj-1::obj-35::obj-27" : [ "4_Duration[4]", "Duration", 0 ],
+			"obj-17::obj-35::obj-3" : [ "Current[30]", "Current", 0 ],
+			"obj-3::obj-33" : [ "recording_source", "recording_source", 1 ],
 			"obj-8::obj-35::obj-5" : [ "Current[14]", "Current", 0 ],
-			"obj-1::obj-33" : [ "recording_source[3]", "recording_source", 1 ],
-			"obj-16::obj-33" : [ "recording_source[14]", "recording_source", 1 ],
-			"obj-3::obj-35::obj-17" : [ "1_Duration[2]", "Duration", 0 ],
-			"obj-17::obj-35::obj-5" : [ "Current[31]", "Current", 0 ],
-			"obj-11::obj-35::obj-17" : [ "11_Duration[2]", "Duration", 0 ],
-			"obj-11::obj-35::obj-5" : [ "Current[20]", "Current", 0 ],
-			"obj-14::obj-35::obj-5" : [ "Current[24]", "Current", 0 ],
-			"obj-3::obj-35::obj-3" : [ "Current", "Current", 0 ],
-			"obj-5::obj-35::obj-45" : [ "Monitoring[2]", "Gain", 0 ],
+			"obj-6::obj-35::obj-5" : [ "Current[10]", "Current", 0 ],
+			"obj-6::obj-35::obj-27" : [ "6_Duration[4]", "Duration", 0 ],
+			"obj-17::obj-35::obj-27" : [ "16_Duration[4]", "Duration", 0 ],
 			"obj-8::obj-35::obj-27" : [ "8_Duration[4]", "Duration", 0 ],
-			"obj-15::obj-35::obj-17" : [ "14_Duration[2]", "Duration", 0 ],
-			"obj-2::obj-35::obj-5" : [ "Current[8]", "Current", 0 ],
-			"obj-10::obj-35::obj-45" : [ "Monitoring[9]", "Gain", 0 ],
-			"obj-13::obj-35::obj-17" : [ "12_Duration[2]", "Duration", 0 ],
-			"obj-13::obj-35::obj-45" : [ "Monitoring[11]", "Gain", 0 ],
-			"obj-15::obj-35::obj-3" : [ "Current[26]", "Current", 0 ],
-			"obj-1::obj-35::obj-17" : [ "4_Duration[2]", "Duration", 0 ],
-			"obj-15::obj-35::obj-45" : [ "Monitoring[13]", "Gain", 0 ],
-			"obj-14::obj-35::obj-27" : [ "13_Duration[4]", "Duration", 0 ],
-			"obj-4::obj-35::obj-5" : [ "Current[3]", "Current", 0 ],
-			"obj-7::obj-35::obj-45" : [ "Monitoring[6]", "Gain", 0 ],
+			"obj-8::obj-33" : [ "recording_source[7]", "recording_source", 1 ],
+			"obj-14::obj-35::obj-5" : [ "Current[24]", "Current", 0 ],
+			"obj-10::obj-35::obj-17" : [ "10_Duration[2]", "Duration", 0 ],
+			"obj-11::obj-35::obj-45" : [ "Monitoring[10]", "Gain", 0 ],
 			"obj-1::obj-35::obj-3" : [ "Current[7]", "Current", 0 ],
+			"obj-9::obj-35::obj-45" : [ "Monitoring[8]", "Gain", 0 ],
+			"obj-14::obj-35::obj-27" : [ "13_Duration[4]", "Duration", 0 ],
+			"obj-4::obj-35::obj-45" : [ "Monitoring[1]", "Gain", 0 ],
 			"obj-7::obj-35::obj-5" : [ "Current[13]", "Current", 0 ],
 			"obj-14::obj-33" : [ "recording_source[12]", "recording_source", 1 ],
-			"obj-17::obj-35::obj-17" : [ "16_Duration[2]", "Duration", 0 ],
-			"obj-9::obj-35::obj-5" : [ "Current[17]", "Current", 0 ],
-			"obj-5::obj-35::obj-17" : [ "3_Duration[2]", "Duration", 0 ],
-			"obj-10::obj-35::obj-27" : [ "10_Duration[4]", "Duration", 0 ],
+			"obj-16::obj-35::obj-17" : [ "15_Duration[2]", "Duration", 0 ],
 			"obj-11::obj-33" : [ "recording_source[10]", "recording_source", 1 ],
-			"obj-17::obj-33" : [ "recording_source[15]", "recording_source", 1 ],
-			"obj-16::obj-35::obj-27" : [ "15_Duration[4]", "Duration", 0 ],
-			"obj-6::obj-35::obj-3" : [ "Current[11]", "Current", 0 ],
-			"obj-9::obj-33" : [ "recording_source[8]", "recording_source", 1 ],
-			"obj-16::obj-35::obj-3" : [ "Current[28]", "Current", 0 ],
-			"obj-6::obj-35::obj-17" : [ "6_Duration[2]", "Duration", 0 ],
-			"obj-13::obj-35::obj-5" : [ "Current[23]", "Current", 0 ],
-			"obj-4::obj-35::obj-17" : [ "2_Duration[2]", "Duration", 0 ],
-			"obj-7::obj-33" : [ "recording_source[6]", "recording_source", 1 ],
-			"obj-3::obj-35::obj-27" : [ "1_Duration[4]", "Duration", 0 ],
-			"obj-1::obj-35::obj-5" : [ "Current[6]", "Current", 0 ],
-			"obj-11::obj-35::obj-27" : [ "11_Duration[4]", "Duration", 0 ]
+			"obj-17::obj-35::obj-5" : [ "Current[31]", "Current", 0 ],
+			"obj-3::obj-35::obj-17" : [ "1_Duration[2]", "Duration", 0 ],
+			"obj-5::obj-35::obj-27" : [ "3_Duration[4]", "Duration", 0 ],
+			"obj-1::obj-33" : [ "recording_source[3]", "recording_source", 1 ],
+			"obj-15::obj-35::obj-45" : [ "Monitoring[13]", "Gain", 0 ],
+			"obj-13::obj-35::obj-45" : [ "Monitoring[11]", "Gain", 0 ],
+			"obj-2::obj-35::obj-5" : [ "Current[8]", "Current", 0 ],
+			"obj-10::obj-35::obj-3" : [ "Current[19]", "Current", 0 ],
+			"obj-5::obj-35::obj-45" : [ "Monitoring[2]", "Gain", 0 ],
+			"obj-11::obj-35::obj-27" : [ "11_Duration[4]", "Duration", 0 ],
+			"obj-15::obj-35::obj-27" : [ "14_Duration[4]", "Duration", 0 ],
+			"obj-17::obj-33" : [ "recording_source[15]", "recording_source", 1 ]
 		}
 ,
 		"dependency_cache" : [ 			{
