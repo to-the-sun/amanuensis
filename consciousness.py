@@ -161,7 +161,7 @@ while 1:
                             else:
                                 comparison = mode[spout[3]]
                                 stats['click'] = mode[spout[3]]
-                        greater = 0
+                        '''greater = 0
                         lesser = 0
                         fundamental = 1
                         #log(["mode versus comparison:", mode[spout[3]], "versus", comparison])
@@ -178,7 +178,8 @@ while 1:
                         if greater and lesser and greater % lesser <= lesser * .08:  #.08 is arbitrary: smallest possible distinct beat (40) / the standard beat (500)
                             #log([greater, "%", lesser, "=", greater% lesser])
                             stats['tempo'] = fundamental / stats['click']
-                            comparison = fundamental
+                            comparison = fundamental''' #tempo disabled for now and just set to one:
+                        stats['tempo'] = 1
                         drain = ' '.join(map(str, [' '.join(map(str, spout)), stats['recording'], stats['likelihood'], 1, stats['tempo'], stats['click']]))
                         s.sendto(drain.encode("UTF-8"), ('localhost', 10241))
                     else:
