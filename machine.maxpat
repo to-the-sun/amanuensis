@@ -41,7 +41,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -54,7 +54,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -232,7 +232,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -276,7 +276,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autoname 1 @autorestore 0",
-					"varname" : "u332004103"
+					"varname" : "u065052592"
 				}
 
 			}
@@ -554,7 +554,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 210.0, 80.0, 50.0, 77.0 ],
 									"style" : "",
-									"text" : "125873.74157 1011.519274 989.750567 3"
+									"text" : "5976.21319 660.317464 3584.580521 2"
 								}
 
 							}
@@ -604,7 +604,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "To the Sun",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-11",
@@ -673,14 +672,14 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-47",
-													"linecount" : 8,
+													"linecount" : 7,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 450.0, 340.0, 50.0, 100.0 ],
 													"style" : "",
-													"text" : "125873.74157 1011.519274 989.750567 3 74.109138"
+													"text" : "5976.21319 660.317464 3584.580521 2 9.970753"
 												}
 
 											}
@@ -4786,7 +4785,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -5588,7 +5586,6 @@
 														"tags" : "",
 														"style" : "",
 														"subpatcher_template" : "",
-														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-19",
@@ -10461,6 +10458,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-23",
@@ -12185,7 +12183,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-25", 0 ],
-													"order" : 0,
+													"disabled" : 1,
 													"source" : [ "obj-6", 0 ]
 												}
 
@@ -12194,7 +12192,6 @@
 												"patchline" : 												{
 													"destination" : [ "obj-35", 0 ],
 													"midpoints" : [ 102.5, 244.5, 169.5, 244.5 ],
-													"order" : 1,
 													"source" : [ "obj-6", 0 ]
 												}
 
@@ -13040,7 +13037,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial Bold",
@@ -13376,7 +13372,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 12.0,
 													"id" : "obj-14",
-													"items" : [ "[2018-5-25-13-3-19]", ",", "[2018-5-26-17-28-19]", ",", "[2018-5-26-17-31-25]", ",", "[2018-5-26-17-59-17]", ",", "[2018-5-26-20-34-36]", ",", "[2018-5-26-22-23-4]", ",", "[2018-5-27-13-26-32]", ",", "[2018-5-27-15-12-18]", ",", "[2018-5-27-15-49-57]", ",", "[2018-5-27-16-42-17]", ",", "[2018-5-27-16-44-43]", ",", "[2018-5-27-18-25-13]", ",", "[2018-5-27-18-38-13]", ",", "[2018-5-28-13-30-40]" ],
+													"items" : [ "[2018-5-26-20-34-36]", ",", "[2018-5-26-22-23-4]", ",", "[2018-5-27-13-26-32]", ",", "[2018-5-27-15-12-18]", ",", "[2018-5-27-15-49-57]", ",", "[2018-5-27-16-42-17]", ",", "[2018-5-27-16-44-43]", ",", "[2018-5-27-18-25-13]", ",", "[2018-5-27-18-38-13]", ",", "[2018-5-28-13-30-40]", ",", "[2018-5-30-15-51-3]", ",", "[2018-5-30-18-15-3]", ",", "[2018-5-30-18-17-26]", ",", "Webs and Schisms" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -14563,7 +14559,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "To the Sun",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-52",
@@ -16007,13 +16002,14 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-35",
+													"linecount" : 7,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 610.0, 170.0, 72.0, 20.0 ],
 													"style" : "",
-													"text" : "0 1. 990. - 74."
+													"text" : "0 1. 667. \"C:/Users/tothesun/Music/[Works]/Webs and Schisms.wav\" 57."
 												}
 
 											}
@@ -17824,7 +17820,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-7",
@@ -18971,7 +18966,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-40",
@@ -21850,7 +21844,6 @@
 																		"tags" : "",
 																		"style" : "",
 																		"subpatcher_template" : "",
-																		"visible" : 1,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
 																					"id" : "obj-30",
@@ -36788,7 +36781,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 340.0, 120.0, 70.0, 54.0 ],
 									"style" : "",
-									"text" : "125873.74157 1011.519274 989.750567 3"
+									"text" : "5976.21319 660.317464 3584.580521 2"
 								}
 
 							}
@@ -38423,59 +38416,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-28::obj-65" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-28::obj-35" : [ "Subfolder Depth", "Subfolder Depth", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "logExternally(Frame+Phasor).maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "polyplaybars~.maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "logExternally(Frame+Poly).maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "catalog.txt",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "A_tracks.txt",
-				"bootpath" : "~/Music/[Works]/[Projects]/[Experiments]/[Projects]/[2018-5-26-20-34-36]",
-				"patcherrelativepath" : "../../../../../Music/[Works]/[Projects]/[Experiments]/[Projects]/[2018-5-26-20-34-36]",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sounds.txt",
-				"bootpath" : "~/Music/[Works]/[Projects]/[Experiments]/[Projects]/[2018-5-26-20-34-36]",
-				"patcherrelativepath" : "../../../../../Music/[Works]/[Projects]/[Experiments]/[Projects]/[2018-5-26-20-34-36]",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mxj.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Custom Default",
 				"default" : 				{
