@@ -1,27 +1,9 @@
 # The Amanuensis
-The Amanuensis is an automated songwriting and recording system aimed at ridding the process of anything left-brained, so one need never leave a creative, spontaneous and improvisational state of mind, from the inception of the song until its final master. The program will construct a cohesive song structure, using the best of what you give it, looping around you and growing in real-time as you play. All you have to do is jam and fully written songs will flow out behind you wherever you go.
+Follow [this tutorial](https://steemit.com/utopian-io/@to-the-sun/getting-up-and-running-a-tutorial-for-the-open-source-project-the-amanuensis-automated-songwriting-and-recording) for instructions on getting up and running.
 
-*Right now The Amanuensis is Windows only (want to help me change that?). You will also need to have Python installed (I'm using 3.5) and Max 7. Also, if you're not already aware the built-in Windows audio drivers don't cut it when it comes to professional recording applications. So if you don't have an interface or some hardware of that kind, you'll have to download ASIO4ALL (http://www.asio4all.org/) and use that.*
+> The Amanuensis is an automated songwriting and recording system aimed at ridding the process of anything left-brained, so one need never leave a creative, spontaneous and improvisational state of mind, from the inception of the song until its final master. The program will construct a cohesive song structure, using the best of what you give it, looping around you and growing in real-time as you play. All you have to do is jam and fully written songs will flow out behind you wherever you go.
 
-*To begin simply open Amanuensis.maxpat. When it loads, click "settings". Choose the appropriate audio driver, your drum samples folder, your VST instruments folder and where you would like the resulting recordings and project files to be saved. I generally use a 9 millisecond tolerance, but you may want to raise that at first until you get the feel for it, so that it's easier for the system to catch a steady rhythm. 8 seconds is a good standard memory span. Compressors are optional but consume processing power when on.*
-
-*Select a track and set up the settings for it as you see fit, depending on what instrument you want to use. Just about anything can be used to play The Amanuensis. Just remember, whatever sounds you give it to* record, *it* runs *on MIDI, so that must also be present for the rhythmic analysis to occur.*
-
-*That's about it. Just start playing and as soon as you have a steady rhythm going you should hear it start looping along with you. I recommend first laying down a beat of some kind and then moving on to other tracks to add a melody, etc. if you're having trouble getting it to catch on, play longer, play more steadily or go back to the settings and raise the tolerance.*
-
-*NOTE: There actually are some caveats to getting VSTs set up and playing at the moment. Get a hold of me or check out issue #5*
-
-*If you have any questions at all, please do not hesitate to contact me at to_the_sun at mail dot com!*
-
-This version relies on MIDI to denote played notes and uses it to identify when a steady beat has been achieved. Longer steady spans are retained while the shorter ones they overlap are discarded. This is essentially the criteria used to determine which portions of your jam are "best" and works well in practice, although any other method could be implemented in future versions.
-
-Although MIDI must always be present for The Amanuensis to work, this does not mean you can't use ordinary audio sources like acoustic drums or guitar. The program includes a versatile feature called The Singing Stream which can interpret any stream of data into MIDI, whether that be audio or readings from an external controller or a Kinect. This MIDI can then simply accompany that audio source (or another) in order to run the rhythmic analysis, or be used to play VST instruments or samples.
-
-These VSTs and samples are preloaded into The Amanuensis itself so no other software is needed to play MIDI. In addition, the PGUP and PGDN hotkeys allow you to quickly cue up a new sound at random or cycle back to previous ones. This either means a random plug-in from your specified VST folder with a random preset already selected or a new random sample from your specified drum sample folder for each pitch. These hotkeys are basically the only deliberately controlled functions that exist in the system; everything else is meant to be as automatic as possible. But if you're not feeling the sound you're working with, switching to another can be tedious and take you out of the moment. This alleviates that.
-
-For increased automation, there is a function that will "shuffle" your instrument at specified intervals of time or after periods of silence. In addition to giving you a new sound this will also switch you to a random MIDI channel, thereby allowing you to work with another layer of the song. Each song can be comprised of up to 16 tracks (one for each MIDI channel) which are each analyzed for rhythm and built independently, as well as simultaneously. This means an entire band can write a song together or a single player can rotate through every instrument. The number keys as well as + and - can also be used to jump to other channels.
-
-**If you're interested in using The Amanuensis or helping develop it, feel free to get a hold of me and I'll be glad to help you get it up and running!**
+Currently The Amanuensis is in a version 1.x beta. **Playtesters wanted!**
 
 ## Version 2.0
 
