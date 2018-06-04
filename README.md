@@ -1,7 +1,6 @@
 # The Amanuensis
-Follow [this tutorial](https://steemit.com/utopian-io/@to-the-sun/getting-up-and-running-a-tutorial-for-the-open-source-project-the-amanuensis-automated-songwriting-and-recording) for instructions on getting up and running.
-
-> The Amanuensis is an automated songwriting and recording system aimed at ridding the process of anything left-brained, so one need never leave a creative, spontaneous and improvisational state of mind, from the inception of the song until its final master. The program will construct a cohesive song structure, using the best of what you give it, looping around you and growing in real-time as you play. All you have to do is jam and fully written songs will flow out behind you wherever you go.
+- [Tutorial #1 - Getting Up and Running](https://steemit.com/utopian-io/@to-the-sun/getting-up-and-running-a-tutorial-for-the-open-source-project-the-amanuensis-automated-songwriting-and-recording)
+- [Tutorial #2 - Setting Up Tracks' Recording Sources](https://steemit.com/utopian-io/@to-the-sun/setting-up-tracks-recording-sources-a-tutorial-for-the-open-source-project-the-amanuensis-automated-songwriting-and-recording)
 
 Currently The Amanuensis is in a version 1.x beta. **Playtesters wanted!**
 
