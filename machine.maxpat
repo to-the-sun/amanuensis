@@ -41,7 +41,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -54,7 +54,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -232,7 +232,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -276,7 +276,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autoname 1 @autorestore 0",
-					"varname" : "u414218490"
+					"varname" : "u264050053"
 				}
 
 			}
@@ -4757,7 +4757,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ -31958.0, -31915.0, 672.0, 530.0 ],
+						"rect" : [ 42.0, 116.0, 672.0, 530.0 ],
 						"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -4785,6 +4785,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -10712,7 +10713,7 @@
 																	"maxclass" : "inlet",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
-																	"outlettype" : [ "int" ],
+																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ],
 																	"style" : ""
 																}
@@ -12190,6 +12191,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-35", 0 ],
+													"disabled" : 1,
 													"midpoints" : [ 102.5, 244.5, 169.5, 244.5 ],
 													"source" : [ "obj-6", 0 ]
 												}
@@ -13065,27 +13067,14 @@
 											}
 , 											{
 												"box" : 												{
-													"id" : "obj-27",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 31.333336, 10.0, 52.0, 20.0 ],
-													"style" : "",
-													"text" : "loadbang"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"id" : "obj-26",
 													"maxclass" : "newobj",
-													"numinlets" : 1,
+													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 31.333336, 40.0, 64.0, 20.0 ],
+													"patching_rect" : [ 31.333336, 40.0, 59.0, 20.0 ],
 													"style" : "",
-													"text" : "v ---filepath"
+													"text" : "r ---filepath"
 												}
 
 											}
@@ -13167,7 +13156,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 277.0, 464.0, 50.0, 20.0 ],
 													"style" : "",
-													"text" : "9"
+													"text" : "17"
 												}
 
 											}
@@ -13371,7 +13360,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 12.0,
 													"id" : "obj-14",
-													"items" : [ "[2018-6-11-18-29-5]", ",", "[2018-6-11-18-36-20]", ",", "[2018-6-11-18-42-21]", ",", "[2018-6-11-21-10-28]", ",", "[2018-6-11-21-26-5]", ",", "[2018-6-11-21-9-8]", ",", "[2018-6-14-15-39-6]", ",", "[2018-6-14-17-48-3]", ",", "[2018-6-14-18-0-58]", ",", "[2018-6-14-18-11-52]", ",", "[2018-6-14-18-13-49]", ",", "[2018-6-14-18-14-59]", ",", "[2018-6-14-18-24-15]", ",", "[2018-6-14-18-26-57]" ],
+													"items" : [ "[2018-6-11-18-29-5]", ",", "[2018-6-11-18-36-20]", ",", "[2018-6-11-18-42-21]", ",", "[2018-6-11-21-10-28]", ",", "[2018-6-11-21-26-5]", ",", "[2018-6-11-21-9-8]", ",", "[2018-6-14-15-39-6]", ",", "[2018-6-14-17-48-3]", ",", "[2018-6-14-18-0-58]", ",", "[2018-6-14-18-11-52]", ",", "[2018-6-14-18-13-49]", ",", "[2018-6-14-18-14-59]", ",", "[2018-6-14-18-24-15]", ",", "[2018-6-14-18-26-57]", ",", "[2018-6-14-19-27-21]", ",", "[2018-6-14-19-44-7]", ",", "[2018-6-14-19-9-40]", ",", "Visions" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -13560,13 +13549,6 @@
 												"patchline" : 												{
 													"destination" : [ "obj-25", 0 ],
 													"source" : [ "obj-26", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-26", 0 ],
-													"source" : [ "obj-27", 0 ]
 												}
 
 											}
@@ -38477,7 +38459,6 @@
 																		"tags" : "",
 																		"style" : "",
 																		"subpatcher_template" : "",
-																		"visible" : 1,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
 																					"id" : "obj-15",
@@ -54070,61 +54051,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-28::obj-65" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-15::obj-5.11::obj-21" : [ "live.gain~[10]", "live.gain~", 0 ],
-			"obj-15::obj-5.8::obj-21" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-15::obj-5.2::obj-21" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-28::obj-35" : [ "Subfolder Depth", "Subfolder Depth", 0 ],
-			"obj-15::obj-5.6::obj-21" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-15::obj-5.15::obj-21" : [ "live.gain~[14]", "live.gain~", 0 ],
-			"obj-15::obj-5.12::obj-21" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-15::obj-5.4::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-15::obj-5.14::obj-21" : [ "live.gain~[13]", "live.gain~", 0 ],
-			"obj-15::obj-5.3::obj-21" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-15::obj-5.10::obj-21" : [ "live.gain~[9]", "live.gain~", 0 ],
-			"obj-15::obj-5.7::obj-21" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-15::obj-5.1::obj-21" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-15::obj-5.16::obj-21" : [ "live.gain~[15]", "live.gain~", 0 ],
-			"obj-15::obj-5.13::obj-21" : [ "live.gain~[12]", "live.gain~", 0 ],
-			"obj-15::obj-5.9::obj-21" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-15::obj-5.5::obj-21" : [ "live.gain~[4]", "live.gain~", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "logExternally(Frame+Phasor).maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "polyplaybars~.maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "logExternally(Frame+Poly).maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "polymixer~.maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mxj.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Custom Default",
 				"default" : 				{
