@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 144.0, 1298.0, 558.0 ],
+		"rect" : [ 26.0, 144.0, 1298.0, 558.0 ],
 		"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,7 +41,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -54,7 +54,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -232,7 +232,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -276,7 +276,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autoname 1 @autorestore 0",
-					"varname" : "u966005126"
+					"varname" : "u979050393"
 				}
 
 			}
@@ -10263,7 +10263,21 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 31.333336, 25.0, 95.0, 20.0 ],
+													"style" : "",
+													"text" : "r ---update_catalog"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
@@ -10294,12 +10308,12 @@
 												"box" : 												{
 													"id" : "obj-26",
 													"maxclass" : "newobj",
-													"numinlets" : 0,
+													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 31.333336, 40.0, 59.0, 20.0 ],
+													"patching_rect" : [ 31.333336, 50.0, 61.0, 20.0 ],
 													"style" : "",
-													"text" : "r ---filepath"
+													"text" : "v ---filepath"
 												}
 
 											}
@@ -10326,19 +10340,6 @@
 													"patching_rect" : [ 31.333336, 88.0, 70.0, 20.0 ],
 													"style" : "",
 													"text" : "prepend read"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-17",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 68.0, 130.0, 48.0, 20.0 ],
-													"style" : "",
-													"text" : "deferlow"
 												}
 
 											}
@@ -10381,7 +10382,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 277.0, 464.0, 50.0, 20.0 ],
 													"style" : "",
-													"text" : "17"
+													"text" : "8"
 												}
 
 											}
@@ -10449,12 +10450,12 @@
 													"fontsize" : 10.0,
 													"id" : "obj-4",
 													"maxclass" : "newobj",
-													"numinlets" : 2,
+													"numinlets" : 3,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 68.0, 170.0, 53.333336, 20.0 ],
+													"patching_rect" : [ 68.0, 170.0, 70.0, 20.0 ],
 													"style" : "",
-													"text" : "buddy"
+													"text" : "specialBuddy"
 												}
 
 											}
@@ -10585,7 +10586,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 12.0,
 													"id" : "obj-14",
-													"items" : [ "[2018-6-19-18-31-35]", ",", "[2018-6-19-18-33-2]", ",", "[2018-6-19-20-53-28]", ",", "[2018-6-20-14-32-16]", ",", "[2018-6-20-15-17-37]", ",", "[2018-6-20-15-40-33]", ",", "[2018-6-20-16-23-7]", ",", "[2018-6-20-17-2-2]", ",", "[2018-6-20-17-57-12]", ",", "[2018-6-20-18-23-43]", ",", "[2018-6-20-19-29-7]", ",", "[2018-6-20-19-44-37]", ",", "[2018-6-20-20-6-33]", ",", "[2018-6-21-11-39-37]", ",", "[2018-6-21-13-29-36]", ",", "[2018-6-21-13-31-13]", ",", "[2018-6-21-15-31-43]", ",", "[2018-6-21-15-7-20]", ",", "[2018-6-21-16-27-9]", ",", "[2018-6-21-16-8-13]", ",", "[2018-6-21-17-22-14]", ",", "[2018-6-21-17-54-41]", ",", "[2018-6-21-20-20-58]" ],
+													"items" : [ "[2018-6-23-18-29-33]", ",", "[2018-6-23-20-11-31]", ",", "[2018-6-23-20-24-2]", ",", "[2018-6-23-20-25-43]", ",", "[2018-6-23-20-29-59]", ",", "[2018-6-23-20-32-29]", ",", "[2018-6-23-20-45-9]", ",", "[2018-6-23-20-46-53]", ",", "[2018-6-23-20-52-8]" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -10640,6 +10641,13 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
+													"destination" : [ "obj-26", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-12", 0 ],
 													"midpoints" : [ 72.68055, 441.5, 45.68055, 441.5 ],
 													"source" : [ "obj-11", 0 ]
@@ -10672,7 +10680,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-4", 1 ],
-													"midpoints" : [ 148.68055, 424.0, 235.666668, 424.0, 235.666668, 159.0, 111.833336, 159.0 ],
+													"midpoints" : [ 148.68055, 424.0, 235.666668, 424.0, 235.666668, 159.0, 103.0, 159.0 ],
 													"order" : 1,
 													"source" : [ "obj-14", 2 ]
 												}
@@ -10699,22 +10707,6 @@
 													"destination" : [ "obj-6", 0 ],
 													"order" : 0,
 													"source" : [ "obj-15", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-22", 0 ],
-													"order" : 0,
-													"source" : [ "obj-17", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-5", 0 ],
-													"order" : 1,
-													"source" : [ "obj-17", 0 ]
 												}
 
 											}
@@ -10794,7 +10786,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-17", 0 ],
+													"destination" : [ "obj-5", 0 ],
 													"source" : [ "obj-30", 2 ]
 												}
 
@@ -51276,61 +51268,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-15::obj-5.15::obj-21" : [ "live.gain~[14]", "live.gain~", 0 ],
-			"obj-15::obj-5.2::obj-21" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-15::obj-5.6::obj-21" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-15::obj-5.13::obj-21" : [ "live.gain~[12]", "live.gain~", 0 ],
-			"obj-28::obj-35" : [ "Subfolder Depth", "Subfolder Depth", 0 ],
-			"obj-15::obj-5.11::obj-21" : [ "live.gain~[10]", "live.gain~", 0 ],
-			"obj-28::obj-65" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-15::obj-5.5::obj-21" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-15::obj-5.9::obj-21" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-15::obj-5.16::obj-21" : [ "live.gain~[15]", "live.gain~", 0 ],
-			"obj-15::obj-5.1::obj-21" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-15::obj-5.3::obj-21" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-15::obj-5.7::obj-21" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-15::obj-5.14::obj-21" : [ "live.gain~[13]", "live.gain~", 0 ],
-			"obj-15::obj-5.12::obj-21" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-15::obj-5.10::obj-21" : [ "live.gain~[9]", "live.gain~", 0 ],
-			"obj-15::obj-5.4::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-15::obj-5.8::obj-21" : [ "live.gain~[7]", "live.gain~", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "logExternally(Frame+Phasor).maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "polyplaybars~.maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "logExternally(Frame+Poly).maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "polymixer~.maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mxj.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Custom Default",
 				"default" : 				{
