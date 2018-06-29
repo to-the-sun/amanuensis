@@ -24,7 +24,7 @@ comparison = 0
 
 def log(message):
     print(message)
-    pen.sendto(' '.join(map(str, message)).encode("UTF-8"), ('localhost', 10248))
+    pen.sendto(' '.join(map(str, message)).encode("UTF-8"), ('localhost', 10247))
 
 def tolerate(array, location, increment):
     for count in range(atom + 1):
