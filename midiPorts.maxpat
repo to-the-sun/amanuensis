@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 8.0, 101.0, 1330.0, 592.0 ],
+		"rect" : [ -6.0, 101.0, 1330.0, 592.0 ],
 		"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"editing_bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"bglocked" : 0,
@@ -83,6 +83,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "To the Sun",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-22",
@@ -195,7 +196,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 160.0, 340.0, 86.0, 20.0 ],
 									"style" : "",
-									"text" : "join @triggers 1"
+									"text" : "pak 0 bang"
 								}
 
 							}
@@ -7121,7 +7122,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autorestore 0 @autoname 1",
-					"varname" : "u846084501"
+					"varname" : "u796077847"
 				}
 
 			}
