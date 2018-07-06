@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 116.0, 1298.0, 586.0 ],
+		"rect" : [ 26.0, 116.0, 1298.0, 586.0 ],
 		"bgcolor" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -122,7 +122,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "To the Sun",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-49",
@@ -1947,7 +1946,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 175.333374, 0.0, 30.0, 30.0 ],
 									"style" : ""
 								}
@@ -11807,7 +11806,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autorestore 0 @autoname 1",
-					"varname" : "u748002200"
+					"varname" : "u512021349"
 				}
 
 			}
@@ -12444,6 +12443,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"disabled" : 1,
 					"source" : [ "obj-32", 1 ]
 				}
 
@@ -12875,14 +12875,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-35::obj-45" : [ "#1_Gain", "Gain", 0 ],
-			"obj-35::obj-3" : [ "Current", "Current", 0 ],
-			"obj-35::obj-27" : [ "#1_Duration[4]", "Duration", 0 ],
-			"obj-67" : [ "Uniform/Variable Loop Lengths[1]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-33" : [ "recording_source", "recording_source", 1 ],
-			"obj-35::obj-17" : [ "#1_Duration[2]", "Duration", 0 ],
 			"obj-35::obj-5" : [ "Current[1]", "Current", 0 ],
-			"obj-17" : [ "Monitoring[16]", "Gain", 0 ]
+			"obj-67" : [ "Uniform/Variable Loop Lengths[1]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-35::obj-27" : [ "#1_Duration[4]", "Duration", 0 ],
+			"obj-17" : [ "Monitoring[16]", "Gain", 0 ],
+			"obj-35::obj-45" : [ "#1_Gain", "Gain", 0 ],
+			"obj-33" : [ "recording_source", "recording_source", 1 ],
+			"obj-35::obj-3" : [ "Current", "Current", 0 ],
+			"obj-35::obj-17" : [ "#1_Duration[2]", "Duration", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

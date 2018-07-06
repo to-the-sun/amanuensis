@@ -15,7 +15,7 @@ logfile = open(log_name, "w")
 
 try:
     while "close" not in message:
-        message = bytes.decode(logger.recv(128))
+        message = bytes.decode(logger.recv(9999))
         print(message)
         logfile.write(message + "\n")
         message = message.split(' ')
