@@ -1,6 +1,6 @@
 import socket
 from shutil import copyfile
-from pathlib import Path, PureWindowsPath
+from pathlib import Path
 
 logger = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 logger.bind(("127.0.0.1", 10247))
