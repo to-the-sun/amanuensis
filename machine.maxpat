@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 144.0, 1298.0, 558.0 ],
+		"rect" : [ 26.0, 144.0, 1298.0, 558.0 ],
 		"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -276,7 +276,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autoname 1 @autorestore 0",
-					"varname" : "u537005164"
+					"varname" : "u846006165"
 				}
 
 			}
@@ -10585,7 +10585,7 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 12.0,
 													"id" : "obj-14",
-													"items" : [ "[2018-7-1-18-19-39]", ",", "[2018-7-2-19-31-1]", ",", "[2018-7-4-14-15-46]", ",", "[2018-7-4-14-18-29]", ",", "[2018-7-4-14-6-57]", ",", "[2018-7-4-15-32-40]", ",", "[2018-7-4-15-42-31]", ",", "[2018-7-4-16-25-47]", ",", "[2018-7-4-19-27-41]", ",", "[2018-7-4-20-36-20]", ",", "[2018-7-5-19-56-20]", ",", "[2018-7-5-20-21-10]", ",", "[2018-7-6-12-20-46]", ",", "[2018-7-6-12-34-51]", ",", "[2018-7-6-12-54-49]", ",", "[2018-7-6-13-13-37]", ",", "[2018-7-6-13-55-31]", ",", "[2018-7-6-14-4-27]" ],
+													"items" : [ "[2018-7-1-18-19-39]", ",", "[2018-7-4-14-15-46]", ",", "[2018-7-4-14-18-29]", ",", "[2018-7-4-14-6-57]", ",", "[2018-7-4-15-32-40]", ",", "[2018-7-4-15-42-31]", ",", "[2018-7-4-16-25-47]", ",", "[2018-7-4-19-27-41]", ",", "[2018-7-4-20-36-20]", ",", "[2018-7-5-19-56-20]", ",", "[2018-7-5-20-21-10]", ",", "[2018-7-6-12-20-46]", ",", "[2018-7-6-12-34-51]", ",", "[2018-7-6-12-54-49]", ",", "[2018-7-6-13-13-37]", ",", "[2018-7-6-13-55-31]", ",", "[2018-7-6-14-4-27]", ",", "[2018-7-6-16-11-9]", ",", "[2018-7-6-16-17-41]", ",", "[2018-7-6-17-36-14]", ",", "[2018-7-6-17-38-49]", ",", "[2018-7-6-18-1-27]", ",", "[2018-7-6-21-11-7]", ",", "[2018-7-7-11-41-17]", ",", "[2018-7-7-11-43-57]", ",", "[2018-7-7-12-7-7]", ",", "[2018-7-7-21-2-55]" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -35678,6 +35678,32 @@
 																		"visible" : 1,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
+																					"id" : "obj-30",
+																					"linecount" : 2,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 205.0, 330.0, 130.0, 29.0 ],
+																					"style" : "",
+																					"text" : "Redundant projectpaths causes issues in logger.py"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-21",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 2,
+																					"outlettype" : [ "", "" ],
+																					"patching_rect" : [ 143.0, 331.0, 53.0, 20.0 ],
+																					"style" : "",
+																					"text" : "zl change"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
 																					"id" : "obj-29",
 																					"linecount" : 5,
 																					"maxclass" : "comment",
@@ -35735,7 +35761,7 @@
 																					"numinlets" : 1,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 133.0, 372.0, 101.0, 20.0 ],
+																					"patching_rect" : [ 143.0, 372.0, 101.0, 20.0 ],
 																					"style" : "",
 																					"text" : "prepend projectPath"
 																				}
@@ -35774,25 +35800,13 @@
 																			}
 , 																			{
 																				"box" : 																				{
-																					"id" : "obj-15",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 233.0, 332.0, 88.0, 20.0 ],
-																					"style" : "",
-																					"text" : "print project_path"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
 																					"fontname" : "Arial",
 																					"fontsize" : 10.0,
 																					"id" : "obj-40",
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
-																					"patching_rect" : [ 133.0, 392.0, 42.0, 20.0 ],
+																					"patching_rect" : [ 143.0, 392.0, 42.0, 20.0 ],
 																					"style" : "",
 																					"text" : "s ---log"
 																				}
@@ -35805,7 +35819,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 133.0, 352.0, 60.0, 20.0 ],
+																					"patching_rect" : [ 143.0, 352.0, 60.0, 20.0 ],
 																					"style" : "",
 																					"text" : "pipe 10000"
 																				}
@@ -35820,7 +35834,7 @@
 																					"numinlets" : 0,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 133.0, 330.0, 79.0, 20.0 ],
+																					"patching_rect" : [ 143.0, 310.0, 79.0, 20.0 ],
 																					"style" : "",
 																					"text" : "r P_projectPath"
 																				}
@@ -36114,23 +36128,14 @@
 																			}
 , 																			{
 																				"patchline" : 																				{
-																					"destination" : [ "obj-15", 0 ],
-																					"order" : 0,
-																					"source" : [ "obj-12", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
 																					"destination" : [ "obj-40", 0 ],
-																					"order" : 1,
 																					"source" : [ "obj-12", 0 ]
 																				}
 
 																			}
 , 																			{
 																				"patchline" : 																				{
-																					"destination" : [ "obj-14", 0 ],
+																					"destination" : [ "obj-21", 0 ],
 																					"source" : [ "obj-13", 0 ]
 																				}
 
@@ -36190,6 +36195,13 @@
 																				"patchline" : 																				{
 																					"destination" : [ "obj-34", 0 ],
 																					"source" : [ "obj-20", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-14", 0 ],
+																					"source" : [ "obj-21", 0 ]
 																				}
 
 																			}
@@ -49649,7 +49661,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
@@ -51378,24 +51389,24 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-15::obj-5.6::obj-21" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-15::obj-5.13::obj-21" : [ "live.gain~[12]", "live.gain~", 0 ],
-			"obj-28::obj-65" : [ "toggle[1]", "toggle[1]", 0 ],
 			"obj-15::obj-5.4::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-15::obj-5.1::obj-21" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-15::obj-5.11::obj-21" : [ "live.gain~[10]", "live.gain~", 0 ],
 			"obj-15::obj-5.2::obj-21" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-28::obj-65" : [ "toggle[1]", "toggle[1]", 0 ],
 			"obj-15::obj-5.9::obj-21" : [ "live.gain~[8]", "live.gain~", 0 ],
 			"obj-15::obj-5.16::obj-21" : [ "live.gain~[15]", "live.gain~", 0 ],
-			"obj-15::obj-5.1::obj-21" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-15::obj-5.7::obj-21" : [ "live.gain~[6]", "live.gain~", 0 ],
 			"obj-15::obj-5.14::obj-21" : [ "live.gain~[13]", "live.gain~", 0 ],
 			"obj-15::obj-5.5::obj-21" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-15::obj-5.12::obj-21" : [ "live.gain~[11]", "live.gain~", 0 ],
 			"obj-15::obj-5.3::obj-21" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-28::obj-35" : [ "Subfolder Depth", "Subfolder Depth", 0 ],
 			"obj-15::obj-5.10::obj-21" : [ "live.gain~[9]", "live.gain~", 0 ],
 			"obj-15::obj-5.8::obj-21" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-15::obj-5.15::obj-21" : [ "live.gain~[14]", "live.gain~", 0 ],
-			"obj-15::obj-5.6::obj-21" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-28::obj-35" : [ "Subfolder Depth", "Subfolder Depth", 0 ]
+			"obj-15::obj-5.15::obj-21" : [ "live.gain~[14]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
