@@ -17,12 +17,16 @@ class Logger():
     counter = 30
     projectPath = Path("log.txt")
     log_file = open(log_name, "w")
+    defaultReceiveMode = False
 
     def resetTime(self):
         self.counter = 30
     
     def counterTimedOut(self):
         return self.counter == 0
+
+    def setReceiveDefaultMode(self, value):
+        self.defaultReceiveMode = value
 
     def pathIsDefault(self):
         return self.projectPath == defaultPath
@@ -41,12 +45,24 @@ class Logger():
         self.projectPath = newPath
         return self.projectPath
 
-    def receiveMessage(self):
-        message = bytes.decode(logger.recv(99999))
+    def defaultReceive(self, message):
+        self.log_file = defaultPath.open('w')
+        self.projectPath = defaultPath
         self.resetTime()
         print(message)
         self.log_file.write(message + "\n")
         return message.split(' ')
+
+    def receiveMessage(self):
+        message = bytes.decode(logger.recv(99999))
+        if self.defaultReceiveMode:
+            self.setReceiveDefaultMode(False)
+            return self.defaultReceive(message)
+        else:
+            self.resetTime()
+            print(message)
+            self.log_file.write(message + "\n")
+            return message.split(' ')
 
     def closeLog(self):
         self.log_file.close()
@@ -60,8 +76,11 @@ def check_timeout():
             log.counter -= 1
         else:
             log.resetTime()
-            print("Setting path as default")
-            log.changeProjectPath(defaultPath)        
+            if not log.pathIsDefault():
+                log.closeLog()
+                log.setReceiveDefaultMode(True)
+            else:
+                log.changeProjectPath(defaultPath)
 
 t = threading.Thread(target=check_timeout)
 log.receiveMessage()
