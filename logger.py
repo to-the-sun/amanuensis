@@ -4,7 +4,7 @@ from pathlib import Path
 import threading
 import time
 
-# UDP Socket bound to the Post 10247
+# UDP Socket bound to the Port 10247
 logger = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 logger.bind(("127.0.0.1", 10247))
 
