@@ -32,13 +32,14 @@ class Logger():
         return self.projectPath == defaultPath
     
     def changeProjectPath(self, newPath):
-        self.closeLog()
         if newPath == defaultPath:
+            self.closeLog()
             if self.pathIsDefault():
                 self.log_file = self.projectPath.open('a')
             else:
                 self.log_file = newPath.open('w')
         elif not newPath == self.projectPath:
+            self.closeLog()
             copyfile(str(self.projectPath), str(newPath))
             self.log_file = newPath.open('a')
         
