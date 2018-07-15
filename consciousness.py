@@ -1,6 +1,9 @@
 import socket
 import math
 import operator
+import numpy as np
+import matplotlib.pyplot as plt
+from tkinter import TclError
 
 pen = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 pen.bind(("127.0.0.1", 10249))
@@ -14,6 +17,17 @@ mode = [0 for channel in range(17)]
 tempo = {}
 hippocampus = {}
 rhythm = {}
+
+# Initializing Graph
+plt.ion()
+fig = plt.figure()
+ax = fig.add_subplot(111)
+ax.set_xlim([0, 8025])
+ax.set_ylim([0, 10])
+line1 = None
+line_is_initialized = False
+
+
 for channel in range(-16, 17):   #prior timestamps stored in stats under that channel's number
     stats[channel] = -stats['wake']
 stable = [0 for channel in range(17)]
@@ -42,7 +56,18 @@ def dense(dictionary, key):
     except KeyError:
         return(0)
 
-while 1:
+
+def remove_past_moments(r_dict, spout):
+    """
+    Removing keys from the rhythm dict which denotes moments in the past
+    Returns new rhythm dict.
+    """
+    for key in r_dict.copy():
+        if key - spout < 0:
+            r_dict.pop(key)
+    return r_dict
+
+while 1:   
     data, address = s.recvfrom(999999)
     spout = bytes.decode(data).split(' ')
     for index, element in enumerate(spout):
@@ -70,6 +95,30 @@ while 1:
                         tolerate(rhythm, aggregate + spout[0], 1)
                     else:
                         intervals[spout[3]].pop(index)
+                
+                try:
+                    # Stripping off past mements from the rhythm dictionary.
+                    rhythm = remove_past_moments(rhythm, spout[0])
+                    lists = sorted(rhythm.items())
+                    x, y = zip(*lists)
+                    x = np.array(x) - spout[0]
+                    y = np.array(y)
+                    if not line_is_initialized:
+                        line1, = ax.plot(x, y, 'r-')
+                        line_is_initialized = True
+                    else:
+                        line1.set_xdata(x)
+                        line1.set_ydata(y)
+                    # Redrawing graph with updated values.
+                    fig.canvas.draw()
+                    fig.canvas.flush_events()
+                except ValueError:
+                    pass
+                except TclError:
+                    pass
+                except Exception as e:
+                    print(e)
+
                 #log(["rhythm: ", sorted(rhythm.items(), key=operator.itemgetter(0))])
                 if spout[3] > 0:
                     for vibe in list(hippocampus):
