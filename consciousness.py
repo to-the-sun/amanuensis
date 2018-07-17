@@ -3,10 +3,12 @@ import math
 import operator
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib as mpl
 from tkinter import TclError
 import time
 from threading import Thread
 from multiprocessing import Process, Queue
+import queue as que
 
 received = False
 pen = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -54,18 +56,23 @@ def draw(queue):
     ylim = 10
     plt.ion()
     figure = plt.figure()
+    figure.patch.set_facecolor('#eff3b9')
     axes = figure.add_subplot(111)
+    axes.set_facecolor('#eff3b9')
     axes.set_xlim([0, xlim])
     axes.set_ylim([0, ylim])
-    x_data, y_data = queue.get()
-    l, = axes.plot(x_data, y_data)
+    try:
+        x_data, y_data = queue.get(False)
+    except que.Empty:
+        x_data, y_data = new_data()
+    l, = axes.plot(x_data, y_data, '#757981')
     figure.canvas.draw()
     figure.canvas.flush_events()
 
     # Update Loop
     while True:
         try:
-            x_data, y_data = queue.get()
+            x_data, y_data = queue.get(False)
             if np.amax(y_data) > ylim:
                 ylim = np.amax(y_data)
                 axes.set_ylim([0, ylim])
@@ -76,24 +83,14 @@ def draw(queue):
             l.set_ydata(y_data)
             figure.canvas.draw()
             figure.canvas.flush_events()
-        except Exception as e:
-            print(e)
-        
-
-def sender(queue):
-    """
-    Idle data provider, while no message is received.
-    """
-    while not received:
-        xdata, ydata = new_data()
-        queue.put((xdata, ydata))
-        time.sleep(2)
+        except que.Empty:
+            figure.canvas.start_event_loop(0.5)
+        except TypeError:
+            pass
 
 
 if __name__ == '__main__':
     q = Queue()  # Queue for passing plotting data to process
-    idle_data = Thread(target=sender, args=(q,))
-    idle_data.start()
     drawing_process = Process(target=draw, args=(q,))
     drawing_process.start()
 
@@ -173,7 +170,7 @@ if __name__ == '__main__':
                         x = np.array(x) - spout[0]
                         x, y = new_data(x, y)
                     except ValueError as v:
-                        print(v)
+                        pass
                     except Exception as e:
                         print(e)
                     finally:
