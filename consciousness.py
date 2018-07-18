@@ -3,14 +3,10 @@ import math
 import operator
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib as mpl
 from tkinter import TclError
-import time
-from threading import Thread
 from multiprocessing import Process, Queue
 import queue as que
 
-received = False
 pen = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 pen.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 pen.bind(("127.0.0.1", 10249))
@@ -57,15 +53,22 @@ def draw(queue):
     plt.ion()
     figure = plt.figure()
     figure.patch.set_facecolor('#eff3b9')
+    figure.canvas.set_window_title('Rhythm')
     axes = figure.add_subplot(111)
     axes.set_facecolor('#eff3b9')
     axes.set_xlim([0, xlim])
     axes.set_ylim([0, ylim])
+    axes.set_title('Rhythm')
+    axes.set_xlabel('ms')
+    axes.set_ylabel('cumulative beat intervals')
     try:
         x_data, y_data = queue.get(False)
     except que.Empty:
         x_data, y_data = new_data()
     l, = axes.plot(x_data, y_data, '#757981')
+    manager = figure.canvas.manager
+    manager.window.wm_geometry("+{}-{}".format(10, 20))
+    manager.resize(550, 200)
     figure.canvas.draw()
     figure.canvas.flush_events()
 
@@ -74,7 +77,10 @@ def draw(queue):
         try:
             x_data, y_data = queue.get(False)
             if np.amax(y_data) > ylim:
-                ylim = np.amax(y_data)
+                ylim = np.amax(y_data) + 3
+                axes.set_ylim([0, ylim])
+            elif np.amax(y_data) < ylim + 3:
+                ylim -= 1
                 axes.set_ylim([0, ylim])
             if stats['wake'] > xlim:
                 xlim = stats['wake'] + 25
@@ -84,9 +90,15 @@ def draw(queue):
             figure.canvas.draw()
             figure.canvas.flush_events()
         except que.Empty:
-            figure.canvas.start_event_loop(0.5)
+            try:
+                figure.canvas.start_event_loop(0.5)
+            except TclError:
+                print("Graph closed!")
+                break
         except TypeError:
             pass
+        except TclError:
+            break
 
 
 if __name__ == '__main__':
@@ -134,7 +146,6 @@ if __name__ == '__main__':
 
     while 1:
         data, address = s.recvfrom(999999)
-        received = True
         spout = bytes.decode(data).split(' ')
         for index, element in enumerate(spout):
             try:
