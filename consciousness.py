@@ -327,5 +327,6 @@ if __name__ == '__main__':
             stats['click'] = 0
             steady = [0 for channel in range(17)]
         elif spout[0] == "close":
+            drawing_process.terminate()
             raise SystemExit(0)
             #log(["close"])
