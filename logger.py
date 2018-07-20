@@ -118,7 +118,6 @@ try:
         message = log.receiveMessage()
         if message[0] == 'projectPath':
             message.pop(0)
-            print(message)
             log.changeProjectPath(Path(' '.join(message)) / log_name)
 except Exception as e:
     print(e)
