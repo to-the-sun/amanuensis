@@ -117,7 +117,9 @@ try:
         """
         message = log.receiveMessage()
         if message[0] == 'projectPath':
-            log.changeProjectPath(Path(message[1]) / log_name)
+            message.pop(0)
+            print(message)
+            log.changeProjectPath(Path(' '.join(message)) / log_name)
 except Exception as e:
     print(e)
 finally:

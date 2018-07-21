@@ -3,6 +3,7 @@ import math
 import operator
 import numpy as np
 import matplotlib.pyplot as plt
+
 from tkinter import TclError
 from multiprocessing import Process, Queue
 import queue as que
