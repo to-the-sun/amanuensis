@@ -3,13 +3,11 @@ import math
 import operator
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib import rcParams
+
 from tkinter import TclError
 from multiprocessing import Process, Queue
 import queue as que
 
-
-rcParams.update({'figure.autolayout': True})
 
 pen = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 pen.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -57,7 +55,7 @@ def draw(queue):
     plt.ion()
 
     figure = plt.figure()
-    figure.tight_layout()
+    figure.subplots_adjust(bottom=0.22)
     figure.patch.set_facecolor('#eff3b9')
     figure.canvas.set_window_title('Rhythm')
     axes = figure.add_subplot(111)
@@ -82,9 +80,8 @@ def draw(queue):
     while True:
         try:
             x_data, y_data = queue.get(False)
-            if np.amax(y_data) != ylim:
-                ylim = np.amax(y_data) + 1
-                axes.set_ylim([0, ylim])
+            ylim = np.amax(y_data) + 1
+            axes.set_ylim([0, ylim])
             if stats['wake'] > xlim:
                 xlim = stats['wake'] + 25
                 axes.set_xlim([0, xlim])
