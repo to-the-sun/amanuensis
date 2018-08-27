@@ -1,4 +1,5 @@
 import socket
+import copy
 import math
 import operator
 import numpy as np
@@ -144,15 +145,20 @@ if __name__ == '__main__':
         except KeyError:
             return(0)
 
-    def remove_past_moments(r_dict, spout):
+    def sever_past(cutoff):
         """
         Removing keys from the rhythm dict which denotes moments in the past
         Returns new rhythm dict.
         """
-        for key in r_dict.copy():
-            if key - spout < 0:
-                r_dict.pop(key)
-        return r_dict
+        #portion = copy.deepcopy(rhythm)
+        portion = {}
+        for key in rhythm.copy():
+            time = key - timestamp
+            if time < -(stats['tolerance'] * 3):
+                rhythm.pop(key)
+            if time >= cutoff:
+                portion[key] = rhythm[key]
+        return portion
 
     while 1:                                                # endlessly looks for new UDP messages coming in
         data, address = s.recvfrom(999999)
@@ -190,24 +196,26 @@ if __name__ == '__main__':
                         else:
                             intervals[channel].pop(index)
                     #log(["rhythm: ", sorted(rhythm.items(), key=operator.itemgetter(0))])
+                    if channel > 0:
 # with the rhythm dictionary updated, the UI rhythm graph can be drawn
-                    x, y = None, None
-                    try:
-                        # Stripping off past mements from the rhythm dict.
-                        rhythm = remove_past_moments(rhythm, timestamp)
-                        lists = sorted(rhythm.items())
-                        x, y = zip(*lists)
-                        x = np.array(x) - timestamp
-                        x, y = new_data(x, y)
-                    except ValueError as v:
-                        pass
-                    except Exception as e:
-                        print(e)
-                    finally:
+                        x, y = None, None
                         try:
-                            q.put((x, y))
+                            # Stripping off past mements from the rhythm dict.
+                            portion_to_graph = sever_past(0)
+                            lists = sorted(portion_to_graph.items())
+                            x, y = zip(*lists)
+                            x = np.array(x) - timestamp
+                            #print("values about to be graphed:", len(x), x, len(y), y)
+                            x, y = new_data(x, y)
+                        except ValueError as v:
+                            pass
                         except Exception as e:
                             print(e)
+                        finally:
+                            try:
+                                q.put((x, y))
+                            except Exception as e:
+                                print(e)
 # Notes from actual player input always have positive channel numbers, but negative channels are designated to
 # indicate the input is from "recitation", or from already-recorded notes being played, which are also used to
 # determine the rhythm of the song. But from this point forward only actual user input is used. First the tempo
@@ -217,7 +225,6 @@ if __name__ == '__main__':
 # keys are finite in number and must be decremented after the interval that incremented them is far enough in the past
 # so as to be no longer relevant. Hippocampus is used for this purpose. It's a sort of short-term memory that first
 # forgets any old "vibes", and then updates with the current one.
-                    if channel > 0:
                         for vibe in list(hippocampus):
                             #log(["vibe: ", vibe])
                             if vibe <= timestamp:
@@ -278,8 +285,10 @@ if __name__ == '__main__':
                         edge = 0
                         plateauing = 0
                         #log([ "analyzing range:", home, timestamp + atom, "(timestamp, atom:", timestamp, atom])
+                        diagnostic_display = []
                         for ms in range(home, timestamp + atom + 1):
                             eyelevel = dense(rhythm, ms)
+                            diagnostic_display.append(eyelevel)
                             if eyelevel > summit:
                                 summit = eyelevel
                                 width = 1
@@ -299,6 +308,7 @@ if __name__ == '__main__':
                                     summit = dense(rhythm, ms)
                         #log([ "center (landing in rhythm):",(width / 2) + edge])
                         #log([ "distance from center:",abs(timestamp - ((width / 2) + edge))])
+                        log([diagnostic_display])
                         log([ "stats['likelihood']", stats['likelihood']])
 # if the user's playing stays "steady" for long enough, the mode beat interval locks in as the click track and the
 # song actually begins.
