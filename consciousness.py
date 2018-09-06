@@ -280,24 +280,23 @@ if __name__ == '__main__':
 # so, the user's playing is considered both stable and steady. The number of successive "hits" is documented by steady.
                         stats['likelihood'] = 0
                         home = timestamp - atom
-                        summit = dense(rhythm, home)
+                        hindfoot = dense(rhythm, home)
                         width = 0
                         edge = 0
                         plateauing = 0
                         #log([ "analyzing range:", home, timestamp + atom, "(timestamp, atom:", timestamp, atom])
                         diagnostic_display = []
                         for ms in range(home, timestamp + atom + 1):
-                            eyelevel = dense(rhythm, ms)
-                            diagnostic_display.append(eyelevel)
-                            if eyelevel > summit:
-                                summit = eyelevel
+                            forefoot = dense(rhythm, ms)
+                            diagnostic_display.append(forefoot)
+                            if forefoot > hindfoot:
                                 width = 1
                                 edge = ms
                                 plateauing = 1
-                            elif eyelevel == summit:
+                            elif forefoot == hindfoot:
                                 if plateauing:
                                     width += 1
-                            elif eyelevel < summit and plateauing:
+                            elif forefoot < hindfoot and plateauing:
                                 if abs(timestamp - ((width / 2) + edge)) <= stats['tolerance']:
                                     stats['likelihood'] = 1
                                     stable[channel] = timestamp
@@ -305,7 +304,7 @@ if __name__ == '__main__':
                                     break
                                 else:
                                     plateauing = 0
-                                    summit = dense(rhythm, ms)
+                            hindfoot = forefoot
                         #log([ "center (landing in rhythm):",(width / 2) + edge])
                         #log([ "distance from center:",abs(timestamp - ((width / 2) + edge))])
                         log([diagnostic_display])
