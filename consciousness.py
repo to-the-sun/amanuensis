@@ -293,17 +293,17 @@ if __name__ == '__main__':
                                 width = 1
                                 edge = ms
                                 plateauing = 1
-                            elif forefoot == hindfoot:
-                                if plateauing:
-                                    width += 1
-                            elif forefoot < hindfoot and plateauing:
-                                if abs(timestamp - ((width / 2) + edge)) <= stats['tolerance']:
-                                    stats['likelihood'] = 1
-                                    stable[channel] = timestamp
-                                    steady[channel] += 1
-                                    break
-                                else:
-                                    plateauing = 0
+                            elif plateauing:
+                                if forefoot == hindfoot:
+                                        width += 1
+                                elif forefoot < hindfoot:
+                                    if abs(timestamp - ((width / 2) + edge)) <= stats['tolerance']:
+                                        stats['likelihood'] = 1
+                                        stable[channel] = timestamp
+                                        steady[channel] += 1
+                                        break
+                                    else:
+                                        plateauing = 0
                             hindfoot = forefoot
                         #log([ "center (landing in rhythm):",(width / 2) + edge])
                         #log([ "distance from center:",abs(timestamp - ((width / 2) + edge))])
