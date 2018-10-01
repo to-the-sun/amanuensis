@@ -1378,9 +1378,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 376.5, 330.0, 241.0, 31.0 ],
+													"patching_rect" : [ 376.5, 330.0, 250.0, 31.0 ],
 													"style" : "",
-													"text" : "append #1coming from---cues Looking for be to select"
+													"text" : "append #1 (track) coming from---cues Looking for beat to select"
 												}
 
 											}
@@ -14505,7 +14505,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autorestore 0 @autoname 1",
-					"varname" : "u334002492"
+					"varname" : "u071005557"
 				}
 
 			}
@@ -14925,7 +14925,7 @@
 				"box" : 				{
 					"border" : 3.0,
 					"id" : "obj-30",
-					"linecolor" : [ 0.0, 0.0, 0.0, 0.000013 ],
+					"linecolor" : [ 0.0, 0.0, 0.0, 0.886118 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -15579,14 +15579,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-33" : [ "recording_source", "recording_source", 1 ],
-			"obj-35::obj-3" : [ "Current", "Current", 0 ],
-			"obj-17" : [ "Monitoring[16]", "Gain", 0 ],
-			"obj-35::obj-45" : [ "#1_Gain", "Gain", 0 ],
-			"obj-67" : [ "Uniform/Variable Loop Lengths[1]", "Uniform/Variable Loop Lengths", 0 ],
 			"obj-35::obj-27" : [ "#1_Duration[4]", "Duration", 0 ],
+			"obj-33" : [ "recording_source", "recording_source", 1 ],
+			"obj-35::obj-17" : [ "#1_Duration[2]", "Duration", 0 ],
+			"obj-67" : [ "Uniform/Variable Loop Lengths[1]", "Uniform/Variable Loop Lengths", 0 ],
 			"obj-35::obj-5" : [ "Current[1]", "Current", 0 ],
-			"obj-35::obj-17" : [ "#1_Duration[2]", "Duration", 0 ]
+			"obj-35::obj-45" : [ "#1_Gain", "Gain", 0 ],
+			"obj-17" : [ "Monitoring[16]", "Gain", 0 ],
+			"obj-35::obj-3" : [ "Current", "Current", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
