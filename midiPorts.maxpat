@@ -97,6 +97,19 @@
 						"subpatcher_template" : "To the Sun",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"linecount" : 9,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 350.0, 60.0, 172.0, 110.0 ],
+									"style" : "",
+									"text" : "First the signal is sent that this song should not export, then it is removed from the catalog, the external catalog is updated to keep everything on the same page, the Projects menu drop-down is updated and finally ---forceExport emulates an ended project."
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
@@ -9986,7 +9999,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 162.0, 120.0, 29.5, 20.0 ],
 									"style" : "",
-									"text" : "3"
+									"text" : "0"
 								}
 
 							}
@@ -10076,7 +10089,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 130.0, 120.0, 29.5, 20.0 ],
 									"style" : "",
-									"text" : "3"
+									"text" : "0"
 								}
 
 							}
@@ -16954,7 +16967,7 @@
 					"patching_rect" : [ 465.75, 20.0, 198.0, 20.0 ],
 					"style" : "",
 					"text" : "autopattr @autorestore 0 @autoname 1",
-					"varname" : "u053002749"
+					"varname" : "u824032770"
 				}
 
 			}
@@ -16991,7 +17004,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 640.0, 110.0, 50.0, 20.0 ],
 					"style" : "",
-					"text" : "-20"
+					"text" : "99"
 				}
 
 			}
@@ -17361,8 +17374,8 @@
 			}
 , 			{
 				"name" : "catalog.txt",
-				"bootpath" : "~/Documents/Max 7/Templates",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Templates",
+				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
