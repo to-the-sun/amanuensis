@@ -3,6 +3,7 @@ from shutil import copyfile
 from pathlib import Path
 import threading
 import time
+import datetime
 
 # UDP Socket bound to the Port 10247
 logger = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -118,6 +119,7 @@ try:
         message = log.receiveMessage()
         if message[0] == 'projectPath':
             message.pop(0)
+            log_name = "log [" + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + "].txt"
             log.changeProjectPath(Path(' '.join(message)) / log_name)
 except Exception as e:
     print(e)
