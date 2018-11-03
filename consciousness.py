@@ -362,8 +362,9 @@ if __name__ == '__main__':
                             drain = ' '.join(map(str, [' '.join(map(str, spout)), 0, "na", "na", "na", "na"]))
                             s.sendto(drain.encode("UTF-8"), ('localhost', 10241))
                         #log([ "stats", stats])
-                    drain = ' '.join(map(str, ["rhythm", rhythm]))
-                    s.sendto(drain.encode("UTF-8"), ('localhost', 10241))
+                    '''for key in rhythm:
+                        drain = ' '.join(map(str, ["rhythm", key, rhythm[key]]))    #way too much info to convey, either whole dict individ keys
+                        s.sendto(drain.encode("UTF-8"), ('localhost', 10241))'''
                 else:
                     prior_timestamps[channel] = timestamp
                     if channel > 0:
