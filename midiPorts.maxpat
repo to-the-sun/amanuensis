@@ -1567,7 +1567,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 763.0, 60.0, 50.0, 20.0 ],
 					"style" : "",
-					"text" : "0"
+					"text" : "4352"
 				}
 
 			}
@@ -1580,7 +1580,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 20.0, 230.0, 232.0, 20.0 ],
 					"restore" : [ 						{
-
+							"KeyRig 49" : "KeyRig 49 channel 1"
 						}
  ],
 					"saved_object_attributes" : 					{
@@ -1634,7 +1634,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 711.0, 30.0, 50.0, 20.0 ],
 					"style" : "",
-					"text" : "4"
+					"text" : "5"
 				}
 
 			}
@@ -19216,7 +19216,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "To the Sun",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-59",
@@ -37485,7 +37484,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 720.0, 120.0, 50.0, 20.0 ],
 					"style" : "",
-					"text" : "-16"
+					"text" : "101"
 				}
 
 			}
@@ -37493,7 +37492,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -37507,7 +37506,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -37789,6 +37788,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-69", 9 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-69", 5 ]
 				}
@@ -37837,36 +37843,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "append_channel.maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "logExternally(Frame+Phasor).maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "filter_cues.maxpat",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "catalog.txt",
-				"bootpath" : "~/Google Drive/[Tools]/[Max]/[Projects]/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Custom Default",
 				"default" : 				{
