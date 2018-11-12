@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 116.0, 1298.0, 586.0 ],
+		"rect" : [ 26.0, 116.0, 1298.0, 586.0 ],
 		"bgcolor" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -39,6 +39,32 @@
 		"style" : "",
 		"subpatcher_template" : "To the Sun",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 428.75, 200.0, 123.0, 20.0 ],
+					"style" : "",
+					"text" : "r ---refresh_loop_points"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 610.0, 350.0, 150.0, 29.0 ],
+					"style" : "",
+					"text" : "Range of rslider must be at least 3 or stack overflow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "newobj",
@@ -117,30 +143,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-81",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 786.25, 350.0, 44.0, 20.0 ],
-					"style" : "",
-					"text" : "print hi"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-80",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 812.0, 380.0, 33.0, 20.0 ],
-					"style" : "",
-					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-79",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -149,32 +151,6 @@
 					"patching_rect" : [ 451.0, 530.0, 46.0, 20.0 ],
 					"style" : "",
 					"text" : "t bang i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-75",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 680.0, 360.0, 50.0, 20.0 ],
-					"style" : "",
-					"text" : "1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-73",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 680.0, 340.0, 50.0, 20.0 ],
-					"style" : "",
-					"text" : "2"
 				}
 
 			}
@@ -477,7 +453,7 @@
 					"patching_rect" : [ 462.0, 360.0, 103.25, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -3.0, 0.0, 1003.0, 18.0 ],
-					"size" : 2.0,
+					"size" : 3.0,
 					"style" : ""
 				}
 
@@ -11688,7 +11664,7 @@
 					"patching_rect" : [ 225.5, 460.0, 38.5, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 1000.0, 18.0 ],
-					"setminmax" : [ 1.0, 2.0 ],
+					"setminmax" : [ 1.0, 3.0 ],
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"style" : "",
 					"thickness" : 3,
@@ -11710,7 +11686,7 @@
 					"patching_rect" : [ 278.5, 460.0, 38.5, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 1000.0, 18.0 ],
-					"setminmax" : [ 1.0, 2.0 ],
+					"setminmax" : [ 1.0, 3.0 ],
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"style" : "",
 					"thickness" : 3,
@@ -12260,7 +12236,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"order" : 4,
+					"order" : 2,
 					"source" : [ "obj-41", 1 ]
 				}
 
@@ -12269,7 +12245,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-46", 1 ],
 					"midpoints" : [ 555.75, 384.5, 591.25, 384.5 ],
-					"order" : 3,
+					"order" : 1,
 					"source" : [ "obj-41", 1 ]
 				}
 
@@ -12277,7 +12253,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -12295,30 +12271,6 @@
 					"destination" : [ "obj-57", 0 ],
 					"order" : 0,
 					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-73", 1 ],
-					"order" : 2,
-					"source" : [ "obj-41", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-75", 1 ],
-					"order" : 1,
-					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-81", 0 ],
-					"order" : 1,
-					"source" : [ "obj-41", 1 ]
 				}
 
 			}
@@ -12421,15 +12373,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
-					"order" : 1,
-					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-80", 0 ],
-					"order" : 0,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -12565,14 +12508,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"disabled" : 1,
-					"source" : [ "obj-64", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"disabled" : 1,
 					"midpoints" : [ 577.25, 284.5, 543.75, 284.5 ],
@@ -12658,6 +12593,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 1 ],
 					"source" : [ "obj-74", 0 ]
 				}
@@ -12681,134 +12623,134 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-35::obj-3" : [ "Current[8]", "Current", 0 ],
-			"obj-10::obj-67" : [ "Uniform/Variable Loop Lengths[13]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-16::obj-35::obj-45" : [ "Monitoring[28]", "Gain", 0 ],
-			"obj-5::obj-35::obj-17" : [ "3_Duration[2]", "Duration", 0 ],
-			"obj-2::obj-67" : [ "Uniform/Variable Loop Lengths[8]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-5::obj-33" : [ "4_Clear_Method[2]", "Clear Method", 0 ],
-			"obj-5::obj-35::obj-3" : [ "Current[4]", "Current", 0 ],
-			"obj-14::obj-67" : [ "Uniform/Variable Loop Lengths[16]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-14::obj-33" : [ "4_Clear_Method[12]", "Clear Method", 0 ],
-			"obj-6::obj-33" : [ "4_Clear_Method[5]", "Clear Method", 0 ],
-			"obj-16::obj-17" : [ "Monitoring[29]", "Gain", 0 ],
-			"obj-6::obj-35::obj-3" : [ "Current[10]", "Current", 0 ],
-			"obj-11::obj-17" : [ "Monitoring[17]", "Gain", 0 ],
-			"obj-13::obj-35::obj-17" : [ "12_Duration[2]", "Duration", 0 ],
-			"obj-16::obj-67" : [ "Uniform/Variable Loop Lengths[18]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-17::obj-67" : [ "Uniform/Variable Loop Lengths[19]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-10::obj-35::obj-45" : [ "Monitoring[20]", "Gain", 0 ],
-			"obj-13::obj-17" : [ "Monitoring[23]", "Gain", 0 ],
-			"obj-1::obj-67" : [ "Uniform/Variable Loop Lengths[7]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-3::obj-35::obj-3" : [ "Current", "Current", 0 ],
-			"obj-3::obj-35::obj-45" : [ "Monitoring", "Gain", 0 ],
-			"obj-7::obj-35::obj-5" : [ "Current[12]", "Current", 0 ],
-			"obj-5::obj-35::obj-5" : [ "Current[5]", "Current", 0 ],
-			"obj-6::obj-35::obj-27" : [ "6_Duration[4]", "Duration", 0 ],
-			"obj-9::obj-35::obj-5" : [ "Current[17]", "Current", 0 ],
-			"obj-17::obj-33" : [ "4_Clear_Method[15]", "Clear Method", 0 ],
-			"obj-8::obj-35::obj-45" : [ "Monitoring[13]", "Gain", 0 ],
-			"obj-15::obj-35::obj-17" : [ "14_Duration[2]", "Duration", 0 ],
-			"obj-16::obj-35::obj-17" : [ "15_Duration[2]", "Duration", 0 ],
-			"obj-11::obj-35::obj-5" : [ "Current[20]", "Current", 0 ],
-			"obj-1::obj-33" : [ "4_Clear_Method[3]", "Clear Method", 0 ],
-			"obj-15::obj-35::obj-3" : [ "Current[27]", "Current", 0 ],
-			"obj-4::obj-33" : [ "4_Clear_Method[1]", "Clear Method", 0 ],
-			"obj-1::obj-35::obj-3" : [ "Current[7]", "Current", 0 ],
-			"obj-8::obj-35::obj-3" : [ "Current[14]", "Current", 0 ],
-			"obj-17::obj-35::obj-3" : [ "Current[31]", "Current", 0 ],
-			"obj-2::obj-17" : [ "Monitoring[8]", "Gain", 0 ],
-			"obj-9::obj-35::obj-27" : [ "9_Duration[4]", "Duration", 0 ],
-			"obj-10::obj-35::obj-3" : [ "Current[18]", "Current", 0 ],
-			"obj-3::obj-35::obj-17" : [ "1_Duration[2]", "Duration", 0 ],
-			"obj-6::obj-67" : [ "Uniform/Variable Loop Lengths[9]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-8::obj-35::obj-17" : [ "8_Duration[2]", "Duration", 0 ],
 			"obj-5::obj-35::obj-27" : [ "3_Duration[4]", "Duration", 0 ],
-			"obj-2::obj-33" : [ "4_Clear_Method[4]", "Clear Method", 0 ],
-			"obj-8::obj-67" : [ "Uniform/Variable Loop Lengths[11]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-14::obj-35::obj-5" : [ "Current[24]", "Current", 0 ],
-			"obj-4::obj-35::obj-17" : [ "2_Duration[2]", "Duration", 0 ],
-			"obj-2::obj-35::obj-5" : [ "Current[9]", "Current", 0 ],
-			"obj-10::obj-17" : [ "Monitoring[21]", "Gain", 0 ],
-			"obj-16::obj-35::obj-3" : [ "Current[28]", "Current", 0 ],
-			"obj-15::obj-67" : [ "Uniform/Variable Loop Lengths[17]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-3::obj-35::obj-5" : [ "Current[1]", "Current", 0 ],
-			"obj-1::obj-35::obj-17" : [ "4_Duration[2]", "Duration", 0 ],
-			"obj-11::obj-35::obj-17" : [ "11_Duration[2]", "Duration", 0 ],
-			"obj-11::obj-33" : [ "4_Clear_Method[10]", "Clear Method", 0 ],
-			"obj-14::obj-17" : [ "Monitoring[25]", "Gain", 0 ],
-			"obj-5::obj-67" : [ "Uniform/Variable Loop Lengths[6]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-7::obj-17" : [ "Monitoring[12]", "Gain", 0 ],
-			"obj-13::obj-35::obj-3" : [ "Current[23]", "Current", 0 ],
-			"obj-13::obj-35::obj-27" : [ "12_Duration[4]", "Duration", 0 ],
-			"obj-15::obj-35::obj-45" : [ "Monitoring[26]", "Gain", 0 ],
-			"obj-9::obj-33" : [ "4_Clear_Method[8]", "Clear Method", 0 ],
-			"obj-11::obj-67" : [ "Uniform/Variable Loop Lengths[14]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-17::obj-35::obj-45" : [ "Monitoring[30]", "Gain", 0 ],
-			"obj-13::obj-33" : [ "4_Clear_Method[11]", "Clear Method", 0 ],
-			"obj-13::obj-67" : [ "Uniform/Variable Loop Lengths[15]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-4::obj-35::obj-5" : [ "Current[3]", "Current", 0 ],
-			"obj-7::obj-35::obj-17" : [ "7_Duration[2]", "Duration", 0 ],
-			"obj-9::obj-17" : [ "Monitoring[19]", "Gain", 0 ],
-			"obj-15::obj-17" : [ "Monitoring[27]", "Gain", 0 ],
-			"obj-14::obj-35::obj-17" : [ "13_Duration[2]", "Duration", 0 ],
+			"obj-1::obj-35::obj-3" : [ "Current[7]", "Current", 0 ],
+			"obj-16::obj-67" : [ "Uniform/Variable Loop Lengths[18]", "Uniform/Variable Loop Lengths", 0 ],
 			"obj-17::obj-17" : [ "Monitoring[31]", "Gain", 0 ],
-			"obj-2::obj-35::obj-45" : [ "Monitoring[7]", "Gain", 0 ],
-			"obj-2::obj-35::obj-17" : [ "5_Duration[2]", "Duration", 0 ],
-			"obj-10::obj-35::obj-17" : [ "10_Duration[2]", "Duration", 0 ],
-			"obj-3::obj-67" : [ "Uniform/Variable Loop Lengths[4]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-4::obj-17" : [ "Monitoring[2]", "Gain", 0 ],
-			"obj-7::obj-35::obj-45" : [ "Monitoring[11]", "Gain", 0 ],
-			"obj-15::obj-33" : [ "4_Clear_Method[13]", "Clear Method", 0 ],
-			"obj-5::obj-35::obj-45" : [ "Monitoring[3]", "Gain", 0 ],
-			"obj-9::obj-35::obj-45" : [ "Monitoring[15]", "Gain", 0 ],
-			"obj-15::obj-35::obj-27" : [ "14_Duration[4]", "Duration", 0 ],
-			"obj-16::obj-35::obj-27" : [ "15_Duration[4]", "Duration", 0 ],
 			"obj-3::obj-17" : [ "Monitoring[18]", "Gain", 0 ],
-			"obj-1::obj-17" : [ "Monitoring[6]", "Gain", 0 ],
-			"obj-6::obj-35::obj-5" : [ "Current[11]", "Current", 0 ],
-			"obj-6::obj-35::obj-45" : [ "Monitoring[9]", "Gain", 0 ],
-			"obj-3::obj-35::obj-27" : [ "1_Duration[4]", "Duration", 0 ],
-			"obj-4::obj-35::obj-45" : [ "Monitoring[1]", "Gain", 0 ],
-			"obj-1::obj-35::obj-45" : [ "Monitoring[5]", "Gain", 0 ],
-			"obj-8::obj-35::obj-5" : [ "Current[15]", "Current", 0 ],
-			"obj-17::obj-35::obj-27" : [ "16_Duration[4]", "Duration", 0 ],
-			"obj-7::obj-33" : [ "4_Clear_Method[6]", "Clear Method", 0 ],
-			"obj-8::obj-35::obj-27" : [ "8_Duration[4]", "Duration", 0 ],
-			"obj-10::obj-35::obj-5" : [ "Current[19]", "Current", 0 ],
-			"obj-17::obj-35::obj-17" : [ "16_Duration[2]", "Duration", 0 ],
-			"obj-4::obj-35::obj-27" : [ "2_Duration[4]", "Duration", 0 ],
-			"obj-10::obj-33" : [ "4_Clear_Method[9]", "Clear Method", 0 ],
-			"obj-4::obj-67" : [ "Uniform/Variable Loop Lengths[5]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-14::obj-35::obj-45" : [ "Monitoring[24]", "Gain", 0 ],
-			"obj-7::obj-35::obj-3" : [ "Current[13]", "Current", 0 ],
-			"obj-16::obj-35::obj-5" : [ "Current[29]", "Current", 0 ],
-			"obj-3::obj-33" : [ "4_Clear_Method", "Clear Method", 0 ],
-			"obj-1::obj-35::obj-27" : [ "4_Duration[4]", "Duration", 0 ],
-			"obj-8::obj-33" : [ "4_Clear_Method[7]", "Clear Method", 0 ],
-			"obj-9::obj-35::obj-3" : [ "Current[16]", "Current", 0 ],
-			"obj-11::obj-35::obj-27" : [ "11_Duration[4]", "Duration", 0 ],
-			"obj-11::obj-35::obj-45" : [ "Monitoring[16]", "Gain", 0 ],
-			"obj-6::obj-35::obj-17" : [ "6_Duration[2]", "Duration", 0 ],
-			"obj-7::obj-67" : [ "Uniform/Variable Loop Lengths[10]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-11::obj-35::obj-3" : [ "Current[21]", "Current", 0 ],
-			"obj-13::obj-35::obj-45" : [ "Monitoring[22]", "Gain", 0 ],
-			"obj-9::obj-67" : [ "Uniform/Variable Loop Lengths[12]", "Uniform/Variable Loop Lengths", 0 ],
-			"obj-15::obj-35::obj-5" : [ "Current[26]", "Current", 0 ],
-			"obj-16::obj-33" : [ "4_Clear_Method[14]", "Clear Method", 0 ],
-			"obj-1::obj-35::obj-5" : [ "Current[6]", "Current", 0 ],
-			"obj-17::obj-35::obj-5" : [ "Current[30]", "Current", 0 ],
-			"obj-7::obj-35::obj-27" : [ "7_Duration[4]", "Duration", 0 ],
-			"obj-13::obj-35::obj-5" : [ "Current[22]", "Current", 0 ],
+			"obj-1::obj-67" : [ "Uniform/Variable Loop Lengths[7]", "Uniform/Variable Loop Lengths", 0 ],
 			"obj-14::obj-35::obj-27" : [ "13_Duration[4]", "Duration", 0 ],
-			"obj-4::obj-35::obj-3" : [ "Current[2]", "Current", 0 ],
-			"obj-2::obj-35::obj-27" : [ "5_Duration[4]", "Duration", 0 ],
-			"obj-6::obj-17" : [ "Monitoring[10]", "Gain", 0 ],
-			"obj-9::obj-35::obj-17" : [ "9_Duration[2]", "Duration", 0 ],
-			"obj-5::obj-17" : [ "Monitoring[4]", "Gain", 0 ],
-			"obj-8::obj-17" : [ "Monitoring[14]", "Gain", 0 ],
+			"obj-3::obj-35::obj-17" : [ "1_Duration[2]", "Duration", 0 ],
+			"obj-4::obj-35::obj-45" : [ "Monitoring[1]", "Gain", 0 ],
+			"obj-10::obj-35::obj-3" : [ "Current[18]", "Current", 0 ],
+			"obj-14::obj-67" : [ "Uniform/Variable Loop Lengths[16]", "Uniform/Variable Loop Lengths", 0 ],
 			"obj-10::obj-35::obj-27" : [ "10_Duration[4]", "Duration", 0 ],
-			"obj-14::obj-35::obj-3" : [ "Current[25]", "Current", 0 ]
+			"obj-11::obj-35::obj-17" : [ "11_Duration[2]", "Duration", 0 ],
+			"obj-13::obj-35::obj-45" : [ "Monitoring[22]", "Gain", 0 ],
+			"obj-16::obj-17" : [ "Monitoring[29]", "Gain", 0 ],
+			"obj-2::obj-33" : [ "4_Clear_Method[4]", "Clear Method", 0 ],
+			"obj-6::obj-17" : [ "Monitoring[10]", "Gain", 0 ],
+			"obj-2::obj-35::obj-45" : [ "Monitoring[7]", "Gain", 0 ],
+			"obj-8::obj-67" : [ "Uniform/Variable Loop Lengths[11]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-2::obj-67" : [ "Uniform/Variable Loop Lengths[8]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-10::obj-67" : [ "Uniform/Variable Loop Lengths[13]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-13::obj-67" : [ "Uniform/Variable Loop Lengths[15]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-4::obj-35::obj-17" : [ "2_Duration[2]", "Duration", 0 ],
+			"obj-5::obj-35::obj-5" : [ "Current[5]", "Current", 0 ],
+			"obj-11::obj-33" : [ "4_Clear_Method[10]", "Clear Method", 0 ],
+			"obj-5::obj-67" : [ "Uniform/Variable Loop Lengths[6]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-8::obj-35::obj-27" : [ "8_Duration[4]", "Duration", 0 ],
+			"obj-9::obj-35::obj-27" : [ "9_Duration[4]", "Duration", 0 ],
+			"obj-17::obj-67" : [ "Uniform/Variable Loop Lengths[19]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-1::obj-33" : [ "4_Clear_Method[3]", "Clear Method", 0 ],
+			"obj-11::obj-67" : [ "Uniform/Variable Loop Lengths[14]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-13::obj-33" : [ "4_Clear_Method[11]", "Clear Method", 0 ],
+			"obj-7::obj-35::obj-27" : [ "7_Duration[4]", "Duration", 0 ],
+			"obj-3::obj-35::obj-45" : [ "Monitoring", "Gain", 0 ],
+			"obj-1::obj-35::obj-17" : [ "4_Duration[2]", "Duration", 0 ],
+			"obj-2::obj-35::obj-3" : [ "Current[8]", "Current", 0 ],
+			"obj-9::obj-17" : [ "Monitoring[19]", "Gain", 0 ],
+			"obj-11::obj-35::obj-5" : [ "Current[20]", "Current", 0 ],
+			"obj-15::obj-35::obj-5" : [ "Current[26]", "Current", 0 ],
+			"obj-16::obj-35::obj-17" : [ "15_Duration[2]", "Duration", 0 ],
+			"obj-17::obj-35::obj-5" : [ "Current[30]", "Current", 0 ],
+			"obj-7::obj-35::obj-3" : [ "Current[13]", "Current", 0 ],
+			"obj-13::obj-35::obj-17" : [ "12_Duration[2]", "Duration", 0 ],
+			"obj-4::obj-17" : [ "Monitoring[2]", "Gain", 0 ],
+			"obj-1::obj-17" : [ "Monitoring[6]", "Gain", 0 ],
+			"obj-9::obj-35::obj-5" : [ "Current[17]", "Current", 0 ],
+			"obj-8::obj-35::obj-45" : [ "Monitoring[13]", "Gain", 0 ],
+			"obj-9::obj-33" : [ "4_Clear_Method[8]", "Clear Method", 0 ],
+			"obj-14::obj-35::obj-45" : [ "Monitoring[24]", "Gain", 0 ],
+			"obj-15::obj-35::obj-17" : [ "14_Duration[2]", "Duration", 0 ],
+			"obj-16::obj-35::obj-45" : [ "Monitoring[28]", "Gain", 0 ],
+			"obj-3::obj-35::obj-27" : [ "1_Duration[4]", "Duration", 0 ],
+			"obj-1::obj-35::obj-45" : [ "Monitoring[5]", "Gain", 0 ],
+			"obj-7::obj-33" : [ "4_Clear_Method[6]", "Clear Method", 0 ],
+			"obj-8::obj-35::obj-3" : [ "Current[14]", "Current", 0 ],
+			"obj-11::obj-35::obj-27" : [ "11_Duration[4]", "Duration", 0 ],
+			"obj-10::obj-35::obj-5" : [ "Current[19]", "Current", 0 ],
+			"obj-4::obj-35::obj-5" : [ "Current[3]", "Current", 0 ],
+			"obj-10::obj-33" : [ "4_Clear_Method[9]", "Clear Method", 0 ],
+			"obj-13::obj-35::obj-3" : [ "Current[23]", "Current", 0 ],
+			"obj-6::obj-35::obj-45" : [ "Monitoring[9]", "Gain", 0 ],
+			"obj-6::obj-67" : [ "Uniform/Variable Loop Lengths[9]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-7::obj-17" : [ "Monitoring[12]", "Gain", 0 ],
+			"obj-15::obj-35::obj-45" : [ "Monitoring[26]", "Gain", 0 ],
+			"obj-3::obj-35::obj-5" : [ "Current[1]", "Current", 0 ],
+			"obj-14::obj-33" : [ "4_Clear_Method[12]", "Clear Method", 0 ],
+			"obj-17::obj-35::obj-45" : [ "Monitoring[30]", "Gain", 0 ],
+			"obj-3::obj-35::obj-3" : [ "Current", "Current", 0 ],
+			"obj-4::obj-35::obj-27" : [ "2_Duration[4]", "Duration", 0 ],
+			"obj-8::obj-33" : [ "4_Clear_Method[7]", "Clear Method", 0 ],
+			"obj-2::obj-35::obj-17" : [ "5_Duration[2]", "Duration", 0 ],
+			"obj-9::obj-35::obj-45" : [ "Monitoring[15]", "Gain", 0 ],
+			"obj-5::obj-35::obj-3" : [ "Current[4]", "Current", 0 ],
+			"obj-11::obj-35::obj-45" : [ "Monitoring[16]", "Gain", 0 ],
+			"obj-15::obj-17" : [ "Monitoring[27]", "Gain", 0 ],
+			"obj-14::obj-35::obj-5" : [ "Current[24]", "Current", 0 ],
+			"obj-1::obj-35::obj-5" : [ "Current[6]", "Current", 0 ],
+			"obj-6::obj-35::obj-17" : [ "6_Duration[2]", "Duration", 0 ],
+			"obj-9::obj-67" : [ "Uniform/Variable Loop Lengths[12]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-10::obj-35::obj-45" : [ "Monitoring[20]", "Gain", 0 ],
+			"obj-4::obj-33" : [ "4_Clear_Method[1]", "Clear Method", 0 ],
+			"obj-5::obj-35::obj-17" : [ "3_Duration[2]", "Duration", 0 ],
+			"obj-14::obj-17" : [ "Monitoring[25]", "Gain", 0 ],
+			"obj-15::obj-33" : [ "4_Clear_Method[13]", "Clear Method", 0 ],
+			"obj-1::obj-35::obj-27" : [ "4_Duration[4]", "Duration", 0 ],
+			"obj-13::obj-35::obj-5" : [ "Current[22]", "Current", 0 ],
+			"obj-14::obj-35::obj-17" : [ "13_Duration[2]", "Duration", 0 ],
+			"obj-5::obj-17" : [ "Monitoring[4]", "Gain", 0 ],
+			"obj-2::obj-35::obj-5" : [ "Current[9]", "Current", 0 ],
+			"obj-8::obj-17" : [ "Monitoring[14]", "Gain", 0 ],
+			"obj-10::obj-35::obj-17" : [ "10_Duration[2]", "Duration", 0 ],
+			"obj-16::obj-35::obj-27" : [ "15_Duration[4]", "Duration", 0 ],
+			"obj-4::obj-67" : [ "Uniform/Variable Loop Lengths[5]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-10::obj-17" : [ "Monitoring[21]", "Gain", 0 ],
+			"obj-13::obj-35::obj-27" : [ "12_Duration[4]", "Duration", 0 ],
+			"obj-13::obj-17" : [ "Monitoring[23]", "Gain", 0 ],
+			"obj-7::obj-35::obj-5" : [ "Current[12]", "Current", 0 ],
+			"obj-6::obj-33" : [ "4_Clear_Method[5]", "Clear Method", 0 ],
+			"obj-6::obj-35::obj-5" : [ "Current[11]", "Current", 0 ],
+			"obj-15::obj-35::obj-27" : [ "14_Duration[4]", "Duration", 0 ],
+			"obj-3::obj-33" : [ "4_Clear_Method", "Clear Method", 0 ],
+			"obj-15::obj-67" : [ "Uniform/Variable Loop Lengths[17]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-11::obj-17" : [ "Monitoring[17]", "Gain", 0 ],
+			"obj-16::obj-35::obj-3" : [ "Current[28]", "Current", 0 ],
+			"obj-8::obj-35::obj-17" : [ "8_Duration[2]", "Duration", 0 ],
+			"obj-9::obj-35::obj-17" : [ "9_Duration[2]", "Duration", 0 ],
+			"obj-17::obj-35::obj-27" : [ "16_Duration[4]", "Duration", 0 ],
+			"obj-2::obj-17" : [ "Monitoring[8]", "Gain", 0 ],
+			"obj-8::obj-35::obj-5" : [ "Current[15]", "Current", 0 ],
+			"obj-17::obj-35::obj-17" : [ "16_Duration[2]", "Duration", 0 ],
+			"obj-17::obj-33" : [ "4_Clear_Method[15]", "Clear Method", 0 ],
+			"obj-4::obj-35::obj-3" : [ "Current[2]", "Current", 0 ],
+			"obj-7::obj-35::obj-17" : [ "7_Duration[2]", "Duration", 0 ],
+			"obj-11::obj-35::obj-3" : [ "Current[21]", "Current", 0 ],
+			"obj-15::obj-35::obj-3" : [ "Current[27]", "Current", 0 ],
+			"obj-2::obj-35::obj-27" : [ "5_Duration[4]", "Duration", 0 ],
+			"obj-16::obj-33" : [ "4_Clear_Method[14]", "Clear Method", 0 ],
+			"obj-17::obj-35::obj-3" : [ "Current[31]", "Current", 0 ],
+			"obj-7::obj-35::obj-45" : [ "Monitoring[11]", "Gain", 0 ],
+			"obj-5::obj-33" : [ "4_Clear_Method[2]", "Clear Method", 0 ],
+			"obj-9::obj-35::obj-3" : [ "Current[16]", "Current", 0 ],
+			"obj-5::obj-35::obj-45" : [ "Monitoring[3]", "Gain", 0 ],
+			"obj-6::obj-35::obj-3" : [ "Current[10]", "Current", 0 ],
+			"obj-6::obj-35::obj-27" : [ "6_Duration[4]", "Duration", 0 ],
+			"obj-14::obj-35::obj-3" : [ "Current[25]", "Current", 0 ],
+			"obj-3::obj-67" : [ "Uniform/Variable Loop Lengths[4]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-7::obj-67" : [ "Uniform/Variable Loop Lengths[10]", "Uniform/Variable Loop Lengths", 0 ],
+			"obj-16::obj-35::obj-5" : [ "Current[29]", "Current", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
