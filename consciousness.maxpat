@@ -39,6 +39,79 @@
 		"subpatcher_template" : "To the Sun",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 625.0, 120.0, 72.0, 20.0 ],
+					"text" : "append tempo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-86",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 635.5, 160.0, 67.0, 31.0 ],
+					"text" : "append beat interval"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 635.5, 140.0, 85.0, 20.0 ],
+					"text" : "r A_clickTrack"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 625.0, 100.0, 57.0, 20.0 ],
+					"text" : "r ---tempo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-78",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 10.0, 470.0, 84.0, 20.0 ],
+					"text" : "substitute 1 clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 450.0, 75.0, 20.0 ],
+					"text" : "r ---conscious?"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-72",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -909,7 +982,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 90.0, 500.0, 146.0, 20.0 ],
+					"patching_rect" : [ 130.0, 460.0, 146.0, 20.0 ],
 					"text" : "buffer~ memory @samps 8030"
 				}
 
@@ -1049,7 +1122,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "require(\"log\");\r\n\r\nBuffer memory(\"memory\");\r\nBuffer tempo(\"tempo\");\r\nParam tolerance(9);\r\nParam wake(8000);\r\nParam input(0);\r\nData hippocampus(wake / tolerance);\r\nDelay time((wake / 1000) * SAMPLERATE, feedback = 0);\r\nHistory vibe(-1);\r\nHistory length(0);\r\nHistory prior(0);\r\nHistory check(0);\r\nHistory check2(0);\r\naggregate = 0;\r\nframe = in2;\r\ncenter = 0;\r\nif(in1 > 0) {\r\n\tinterval = frame - prior;\r\n\tif(interval > tolerance * 2) {\r\n\t\tfor(i = length - 1; i >= 0; i -= 1) {\r\n\t\t\tmemory.poke(memory.peek(i), i + 1);\r\n\t\t}\r\n\t\tmemory.poke(interval, 0);\r\n\t\tlength += 1;\r\n\t\tprior = frame;\r\n\t\tfor(i = 0; i < 1; i += 1) { //'< wake' changed to '< 1'. only using 1st index to find bpm not measure\r\n\t\t\tif(!memory.peek(i)) {\r\n\t\t\t\tbreak;\r\n\t\t\t}\r\n\t\t\taggregate += memory.peek(i);\r\n\t\t\tif(aggregate <= wake) {\r\n\t\t\t\thippocampus.poke(aggregate, i);\t\t\t\t\r\n\t\t\t\tvibe = i;\r\n\t\t\t\tfor(j = aggregate - tolerance; j <= aggregate + tolerance; j += 1) {\r\n\t\t\t\t\ttempo.poke(tempo.peek(j) + 1, j);\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\telse {\r\n\t\t\t\tmemory.poke(0, i);\r\n\t\t\t\tlength -= 1;\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\nout1 = latch(center, center);\r\nif(vibe >= 0) {\r\n\ttime.write(hippocampus.peek(vibe));\r\n\tvibe -= 1;\t\t\t\t\t\t\r\n\tcheck += 1;\t\t\t\t\t\t\r\n}\r\nelse {\r\n\ttime.write(0);\r\n}\r\nforget = time.read((wake / 1000) * SAMPLERATE);\r\nif(forget) {\r\n\tfor(j = forget - tolerance; j <= forget + tolerance; j += 1) {\r\n\t\ttempo.poke(tempo.peek(j) - 1, j);\r\n\t}\r\n}",
+									"code" : "require(\"log\");\r\n\r\nBuffer memory(\"memory\");\r\nBuffer tempo(\"tempo\");\r\nBuffer stats(\"stats\");\r\nParam tolerance(9);\r\nParam wake(8000);\r\nParam input(0);\r\nData hippocampus(wake / tolerance);\r\nDelay time((wake / 1000) * SAMPLERATE, feedback = 0);\r\nHistory vibe(-1);\r\nHistory length(0);\r\nHistory prior(0);\r\nHistory check(0);\r\nHistory check2(0);\r\naggregate = 0;\r\nframe = in2;\r\ncenter = 0;\r\nif(in1 > 0) {\r\n\tif(!stats.peek(10)) {\r\n\t\tinterval = frame - prior;\r\n\t\tif(interval > tolerance * 2) {\r\n\t\t\tfor(i = length - 1; i >= 0; i -= 1) {\r\n\t\t\t\tmemory.poke(memory.peek(i), i + 1);\r\n\t\t\t}\r\n\t\t\tmemory.poke(interval, 0);\r\n\t\t\tlength += 1;\r\n\t\t\tprior = frame;\r\n\t\t\tfor(i = 0; i < 1; i += 1) { //'< wake' changed to '< 1'. only using 1st index to find bpm not measure\r\n\t\t\t\tif(!memory.peek(i)) {\r\n\t\t\t\t\tbreak;\r\n\t\t\t\t}\r\n\t\t\t\taggregate += memory.peek(i);\r\n\t\t\t\tif(aggregate <= wake) {\r\n\t\t\t\t\thippocampus.poke(aggregate, i);\t\t\t\t\r\n\t\t\t\t\tvibe = i;\r\n\t\t\t\t\tfor(j = aggregate - tolerance; j <= aggregate + tolerance; j += 1) {\r\n\t\t\t\t\t\ttempo.poke(tempo.peek(j) + 1, j);\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t\telse {\r\n\t\t\t\t\tmemory.poke(0, i);\r\n\t\t\t\t\tlength -= 1;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\nout1 = latch(center, center);\r\nif(vibe >= 0) {\r\n\ttime.write(hippocampus.peek(vibe));\r\n\tvibe -= 1;\t\t\t\t\t\t\r\n\tcheck += 1;\t\t\t\t\t\t\r\n}\r\nelse {\r\n\ttime.write(0);\r\n}\r\nforget = time.read((wake / 1000) * SAMPLERATE);\r\nif(forget) {\r\n\tfor(j = forget - tolerance; j <= forget + tolerance; j += 1) {\r\n\t\ttempo.poke(tempo.peek(j) - 1, j);\r\n\t}\r\n}",
 									"fontface" : 0,
 									"fontname" : "Lucida Console",
 									"fontsize" : 10.0,
@@ -1628,7 +1701,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 130.0, 460.0, 141.0, 20.0 ],
+					"patching_rect" : [ 90.0, 500.0, 141.0, 20.0 ],
 					"text" : "buffer~ rhythm @samps 8030"
 				}
 
@@ -2201,6 +2274,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
 					"source" : [ "obj-73", 0 ]
 				}
@@ -2224,7 +2304,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-75", 0 ]
 				}
 
@@ -2232,7 +2312,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-99", 0 ],
-					"order" : 0,
+					"order" : 2,
 					"source" : [ "obj-75", 0 ]
 				}
 
@@ -2262,8 +2342,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-80", 0 ]
 				}
 
 			}
@@ -2292,6 +2393,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
 					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-87", 0 ]
 				}
 
 			}
@@ -2676,15 +2791,15 @@
 				"name" : "Custom Default-1",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2703,15 +2818,15 @@
 				"name" : "Custom Default-1-1-1",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2730,15 +2845,15 @@
 				"name" : "Custom Default-1-1-1-1-1",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2748,15 +2863,15 @@
 				"name" : "Custom Default-1-1-1-1-2",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2766,15 +2881,15 @@
 				"name" : "Custom Default-1-1-1-2",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2784,15 +2899,15 @@
 				"name" : "Custom Default-1-1-1-3",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2811,15 +2926,15 @@
 				"name" : "Custom Default-1-1-1-4-1",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2829,15 +2944,15 @@
 				"name" : "Custom Default-1-1-2",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2874,15 +2989,15 @@
 				"name" : "Custom Default-1-1-4",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2901,15 +3016,15 @@
 				"name" : "Custom Default-1-2",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2928,15 +3043,15 @@
 				"name" : "Custom Default-1-3-1",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2946,15 +3061,15 @@
 				"name" : "Custom Default-1-3-2",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2964,15 +3079,15 @@
 				"name" : "Custom Default-1-4",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2991,15 +3106,15 @@
 				"name" : "Custom Default-1-5-1",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3039,15 +3154,15 @@
 				"name" : "Custom Default-2",
 				"newobj" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
