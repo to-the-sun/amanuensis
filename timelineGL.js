@@ -185,6 +185,7 @@ loop_end.scale = [0,1];
 loop_end.layer = 9; // highest value means object closest to viewer.
 loop_end.enable = 0; // not rendered (unless comping(1) called)
 
+//create a rectangle to denote the comp area
 var audition = new JitterObject("jit.gl.gridshape","ListenWindow");
 audition.shape = "plane";
 audition.blend_enable = 1;
@@ -313,10 +314,10 @@ function thecallback(event)
 		myY = (XY[1]-vpos)/myvzoom;
 		if (button) // we're clicked down
 		{
-			clicked_track = Math.round(tracks/2)-Math.round((myY-(tracks+1)%2/tracks)*tracks*0.5);
-			comp_y = (2*(tracks-(clicked_track-0.5))/tracks-1);
-			audition.position = [audition.position[0], comp_y];
-			outlet(0, "track", clicked_track);
+			clicked_track = Math.round(tracks/2)-Math.round((myY-(tracks+1)%2/tracks)*tracks*0.5);	//calculates clicked track based on position
+			comp_y = (2*(tracks-(clicked_track-0.5))/tracks-1);	//the y-value of the flashing rect must also be updated
+			audition.position = [audition.position[0], comp_y];	//so it will change position as expected
+			outlet(0, "track", clicked_track);					//sends clicked track info out for use elsewhere
 /*
 			if (gotfocus>=0 && !click_flag){
 				// on mouse on...
@@ -711,12 +712,12 @@ function checkDragOver() {
 }
 
 function comping(i, pass) {
-	loop_start.enable = i;
+	loop_start.enable = i;	//only visible when comping
 	loop_end.enable = i
-	audition.enable = i && pass != -1;
+	audition.enable = i && pass != -1;	//only visible when comping and a pass is auditioning
 }
 
-function loop(start, end) {
+function loop(start, end) {	//position the loop bars and flashing rectangle based on the current loop
 	loop_start.position = [-aspectratio + (2 * aspectratio * (start - timeline_offset) / total_length), 0];
 	loop_end.position = [-aspectratio + (2 * aspectratio * (end - timeline_offset) / total_length), 0];
 	comp_length = (loop_end.position[0] - loop_start.position[0]) / 2;
