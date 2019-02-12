@@ -44,6 +44,7 @@ var old_ppwloc = []; // to compare the parent patcher window location and update
 
 var Span_COUNT = 0; // number of spans
 var tracks = 16; // number of tracks
+var blinking_tracks = [];
 var span_height = 1/tracks-gutter;
 var total_length = 1000; // the length of the sequence
 var top_id; // to use for spans created by splitting
