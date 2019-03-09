@@ -1,8 +1,8 @@
 //
 // A timeline made with openGL, Javascript and Dict,
 //
-// For Ryan Fougner (To the Sun),
 // By Pedro Louzeiro, 2018.
+// Modified by To the Sun.
 // www.comprovisador.wordpress.com
 //
 // MAIN REFERENCES:
@@ -34,7 +34,7 @@ var beige_grid = [beige[0], beige[1], beige[2], 0.25]; // track grid // only the
 var beige_drag = [beige[0], beige[1], beige[2], 0.15]; // drag fill
 var beige_drag_brdr = [beige[0]/3, beige[1]/3, beige[2]/3, 0.5]; // drag border
 var background = [beige[0]*.75, beige[1]*.75, beige[2]*.75, 1.];
-var gutter = 0.006; // space between span border and track margin
+var gutter = 0.017; // space between span border and track margin
 var border_thickness = 0.003; // the "thickness" of the selection border ('kinda' bold - it's actually two slimmer rectangles inside the border)
 var border_hzthk; // to adjust the "thickness" when zooming in (horizontally)
 
@@ -44,7 +44,7 @@ var old_ppwloc = []; // to compare the parent patcher window location and update
 
 var Span_COUNT = 0; // number of spans
 var tracks = 16; // number of tracks
-var blinking_tracks = [];
+var track_height = 1/tracks;
 var span_height = 1/tracks-gutter;
 var total_length = 1000; // the length of the sequence
 var top_id; // to use for spans created by splitting
@@ -85,6 +85,7 @@ var start_beat =[];
 var duration =[];
 var end_beat = [];
 var track =[];
+var spans_by_id = [];
 // examples of possible other sp's variables
 //var sample = [];
 //var offset =[];
@@ -130,6 +131,8 @@ myrender.erase_color = background;
 // myrender.fsaa = 1;
 
 // create an array of [jit.gl.gridshape] objects arrayed across the window
+var track_fill = new Array();
+// create an array of [jit.gl.gridshape] objects arrayed across the window
 var Spanfill = new Array();
 // create one more for the borders
 var Spanborder = new Array();
@@ -148,8 +151,18 @@ var ypos = new Array();
 
 // create a JitterListener for our [jit.window] object
 var mylistener = new JitterListener("ListenWindow", thecallback); // mywindow.getregisteredname()
-
-
+	
+for(i = 1; i <= tracks; i++) {
+	track_fill[i] = new JitterObject("jit.gl.gridshape","ListenWindow");
+	track_fill[i].shape = "plane";
+	track_fill[i].blend_enable = 1;
+	track_fill[i].dim = [2,2];
+	track_fill[i].layer = -1;
+	track_fill[i].enable = 1; 
+	track_fill[i].scale = [3, track_height]; // 3 is simply a number that causes the full track to be filled
+	track_fill[i].position = [-1.2, 2*(tracks-(i-0.5))/tracks-1];//-1.2 also causes correct positioning (don't fully understand why)
+	track_fill[i].color = [0.0, 0.0, 0.0, 0.0]; 
+}
 // create a [jit.gl.gridshape] object to act as a playhead
 var playhead = new JitterObject("jit.gl.gridshape","ListenWindow");
 playhead.shape = "plane";
@@ -223,6 +236,7 @@ function instantiate() {
 	end_beat =[];
 	track =[];
 	id = [];
+	spans_by_id = [];
 	// other sp's variables
 	//sample = [];
 	//offset =[];
@@ -268,6 +282,7 @@ function instantiate() {
 		Spanborder[i].dim = [2,2];
 		Spanborder[i].poly_mode = [1,1];
 		Spanborder[i].layer = 2;
+		//Spanborder[i].enable = 0;
 
 		// The fills
 		Spanfill[i] = new JitterObject("jit.gl.gridshape","ListenWindow");
@@ -289,6 +304,7 @@ function instantiate() {
 									//Spanfill[i].color = color[i];
 									// you would need to uncomment corresponding lines in functions updateDict() and mysp()
 		Spanborder[i].color = beige_border;
+		post( "span ", i, " (track ", track[i], ") scale-", Spanfill[i].scale, " position-", Spanfill[i].position, "\n");
 	}
 }
 
@@ -483,8 +499,8 @@ function thecallback(event)
 			 // surface is the rectangle that represents the span composed of the following vertices:
 			 // x_position-x_scale , y_position-y_scale , x_position+x_scale , y_position+y_scale
 			var surface = spSurface(i);
-			Spanfill[i].color = beige_fill; // previously: color[i];
-			Spanfill[i].layer = 0;
+			//Spanfill[i].color = beige_fill; // previously: color[i]; commented out: interferes with dynamic amplitude color change
+			//Spanfill[i].layer = 0;
 			if (myX>surface[0] && myY>surface[1] && myX<surface[2] && myY<surface[3]){
 				// if mouse is over span's surface, span's got focus
 				gotfocus = i;
@@ -508,9 +524,9 @@ function thecallback(event)
 			Spansel[0].enable = Spansel[1].enable = 0;
 		}
 		if (gotfocus>=0){ // if mousing over a span
-			// change the alpha of the focused span
-			Spanfill[gotfocus].color = beige_hover; // previously: [color[gotfocus][0],color[gotfocus][1],color[gotfocus][2],1];
-			Spanfill[gotfocus].layer = 1; //put it on top of the others
+			// change the alpha of the focused span; commented out: interferes with dynamic amplitude color change
+			//Spanfill[gotfocus].color = beige_hover; // previously: [color[gotfocus][0],color[gotfocus][1],color[gotfocus][2],1];
+			//Spanfill[gotfocus].layer = 1; //put it on top of the others
 		} 
 	}
 	else if (event.eventname=="mouseidleout") {
@@ -712,6 +728,16 @@ function checkDragOver() {
 	return dragged_over; // returns sp (index), not ID
 }
 
+function monitoring(track, amplitude) {
+	track_fill[track].color = [0.0, 0.0, 0.0, amplitude];	//opacity of black is modified to reveal lighter color beneath
+}
+
+function playback(span, amplitude) {
+	//post(spans_by_id[span], amplitude, "\n");
+	a = 1.0 - amplitude;	//since 1.0 is white and zero is black amplitudes must be inverted
+	Spanfill[spans_by_id[span]].color = [beige[0]*a, beige[1]*a, beige[2]*a, 1.0];	//span number is different than id in the JS
+}
+
 function comping(i, pass) {
 	loop_start.enable = i;	//only visible when comping
 	loop_end.enable = i
@@ -726,6 +752,8 @@ function loop(start, end) {	//position the loop bars and flashing rectangle base
 	comp_x = -aspectratio+(2*aspectratio*(start - timeline_offset)/total_length) + comp_length; //
 	comp_y = (2*(tracks-(clicked_track-0.5))/tracks-1);
 	audition.position = [comp_x, comp_y];
+	post( "audition position: ", audition.position, "\n");
+	post( "audition scale: ", audition.scale, "\n");
 }
 
 function playheadEnable(i) {
@@ -882,6 +910,7 @@ function mysp(sp) {
 		end_beat[sp] = d.get(active_seq+"::spans::sp"+sp+"::end_beat");
 		track[sp] = d.get(active_seq+"::spans::sp"+sp+"::track");
 		id[sp] = d.get(active_seq+"::spans::sp"+sp+"::ID");
+		spans_by_id[d.get(active_seq+"::spans::sp"+sp+"::ID")] = sp;
 		//sample[sp] = d.get(active_seq+"::spans::sp"+sp+"::sample");
 		//offset[sp] = d.get(active_seq+"::spans::sp"+sp+"::offset");
 		//rate[sp] = d.get(active_seq+"::spans::sp"+sp+"::rate");
