@@ -152,7 +152,7 @@ var ypos = new Array();
 // create a JitterListener for our [jit.window] object
 var mylistener = new JitterListener("ListenWindow", thecallback); // mywindow.getregisteredname()
 	
-for(i = 1; i <= tracks; i++) {
+for(var i = 1; i <= tracks; i++) {
 	track_fill[i] = new JitterObject("jit.gl.gridshape","ListenWindow");
 	track_fill[i].shape = "plane";
 	track_fill[i].blend_enable = 1;
@@ -304,7 +304,7 @@ function instantiate() {
 									//Spanfill[i].color = color[i];
 									// you would need to uncomment corresponding lines in functions updateDict() and mysp()
 		Spanborder[i].color = beige_border;
-		post( "span ", i, " (track ", track[i], ") scale-", Spanfill[i].scale, " position-", Spanfill[i].position, "\n");
+		//post( "span ", i, " (track ", track[i], ") scale-", Spanfill[i].scale, " position-", Spanfill[i].position, "\n");
 	}
 }
 
@@ -728,13 +728,13 @@ function checkDragOver() {
 	return dragged_over; // returns sp (index), not ID
 }
 
-function monitoring(track, amplitude) {
+function monitoring(track, amplitude) {	//alter color gradients of tracks
 	track_fill[track].color = [0.0, 0.0, 0.0, amplitude];	//opacity of black is modified to reveal lighter color beneath
 }
 
-function playback(span, amplitude) {
+function playback(span, amplitude) {	//alter color gradients of spans
 	//post(spans_by_id[span], amplitude, "\n");
-	a = 1.0 - amplitude;	//since 1.0 is white and zero is black amplitudes must be inverted
+	var a = 1.0 - amplitude;	//since 1.0 is white and zero is black amplitudes must be inverted
 	Spanfill[spans_by_id[span]].color = [beige[0]*a, beige[1]*a, beige[2]*a, 1.0];	//span number is different than id in the JS
 }
 
@@ -752,8 +752,8 @@ function loop(start, end) {	//position the loop bars and flashing rectangle base
 	comp_x = -aspectratio+(2*aspectratio*(start - timeline_offset)/total_length) + comp_length; //
 	comp_y = (2*(tracks-(clicked_track-0.5))/tracks-1);
 	audition.position = [comp_x, comp_y];
-	post( "audition position: ", audition.position, "\n");
-	post( "audition scale: ", audition.scale, "\n");
+	//post( "audition position: ", audition.position, "\n");
+	///post( "audition scale: ", audition.scale, "\n");
 }
 
 function playheadEnable(i) {
