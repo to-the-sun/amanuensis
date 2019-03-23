@@ -735,7 +735,12 @@ function monitoring(track, amplitude) {	//alter color gradients of tracks
 function playback(span, amplitude) {	//alter color gradients of spans
 	//post(spans_by_id[span], amplitude, "\n");
 	var a = 1.0 - amplitude;	//since 1.0 is white and zero is black amplitudes must be inverted
-	Spanfill[spans_by_id[span]].color = [beige[0]*a, beige[1]*a, beige[2]*a, 1.0];	//span number is different than id in the JS
+	try {	//if that span exists
+		Spanfill[spans_by_id[span]].color = [beige[0]*a, beige[1]*a, beige[2]*a, 1.0];	//span number is different than id in the JS
+	}
+	catch(err) {	//if that span doesn't exist, an audition must be occurring
+		audition.color = [beige[0]*a, beige[1]*a, beige[2]*a, amplitude];
+	}
 }
 
 function comping(i, pass) {
@@ -798,8 +803,8 @@ function spanX(sp) {
 }
 
 function bang() {
-	flash += .05;
-	audition.color = [0.937255, 0.952941, 0.72549, flash % 1.0];
+	//flash += .05;
+	//audition.color = [0.937255, 0.952941, 0.72549, flash % 1.0];
 	// rendering block...
 	myrender.erase(); // erase the drawing context
 	myrender.drawclients(); // draw the client objects
