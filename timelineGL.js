@@ -738,7 +738,7 @@ function playback(span, amplitude) {	//alter color gradients of spans
 	try {	//if that span exists
 		Spanfill[spans_by_id[span]].color = [beige[0]*a, beige[1]*a, beige[2]*a, 1.0];	//span number is different than id in the JS
 	}
-	catch(err) {	//if that span doesn't exist, an audition must be occurring
+	catch(err) {	//if that span doesn't exist, an audition of old material must be occurring
 		audition.color = [beige[0]*a, beige[1]*a, beige[2]*a, amplitude];
 	}
 }
