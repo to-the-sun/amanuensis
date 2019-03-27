@@ -739,8 +739,12 @@ function playback(span, amplitude) {	//alter color gradients of spans
 		Spanfill[spans_by_id[span]].color = [beige[0]*a, beige[1]*a, beige[2]*a, 1.0];	//span number is different than id in the JS
 	}
 	catch(err) {	//if that span doesn't exist, an audition of old material must be occurring
-		audition.color = [beige[0]*a, beige[1]*a, beige[2]*a, amplitude];
+		audition.color = [0.0, 0.0, 0.0, amplitude];
 	}
+}
+
+function is_selected(span) {	//a quick modification of the selected span from Max
+	is_selected = span;
 }
 
 function comping(i, pass) {
