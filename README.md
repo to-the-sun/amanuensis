@@ -1,5 +1,5 @@
 # The Amanuensis
-*NOTE: Despite what these tutorials say, the system now is actually cross-platform, doesn't require Python and doesn't require a separate synthTaste.txt file (see [this update](https://steemit.com/utopian-io/@to-the-sun/vsts-auto-count-their-presets-and-can-be-found-within-subfolders-a-new-feature-for-the-open-source-project-the-amanuensis)).*
+*NOTE: Despite what these tutorials say, the system now is actually cross-platform, doesn't require Python and [doesn't require a separate synthTaste.txt file](https://steemit.com/utopian-io/@to-the-sun/vsts-auto-count-their-presets-and-can-be-found-within-subfolders-a-new-feature-for-the-open-source-project-the-amanuensis).*
 
 - [Tutorial #1 - Getting Up and Running](https://steemit.com/utopian-io/@to-the-sun/getting-up-and-running-a-tutorial-for-the-open-source-project-the-amanuensis-automated-songwriting-and-recording)
 - [Tutorial #2 - Setting Up Tracks' Recording Sources](https://steemit.com/utopian-io/@to-the-sun/setting-up-tracks-recording-sources-a-tutorial-for-the-open-source-project-the-amanuensis-automated-songwriting-and-recording)
