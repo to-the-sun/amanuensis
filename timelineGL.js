@@ -129,7 +129,7 @@ myrender.ortho = 2;
 myrender.erase_color = background;
 	// need anti-aliasing ?
 // myrender.fsaa = 1;
-
+var playhead = new Array();
 // create an array of [jit.gl.gridshape] objects arrayed across the window
 var track_fill = new Array();
 // create an array of [jit.gl.gridshape] objects arrayed across the window
@@ -163,18 +163,19 @@ for(var i = 1; i <= tracks; i++) {
 	track_fill[i].position = [-1.2, 2*(tracks-(i-0.5))/tracks-1];//-1.2 also causes correct positioning (don't fully understand why)
 	track_fill[i].color = [0.0, 0.0, 0.0, 0.0]; 
 }
-// create a [jit.gl.gridshape] object to act as a playhead
-var playhead = new JitterObject("jit.gl.gridshape","ListenWindow");
-playhead.shape = "plane";
-playhead.dim = [2,2];
-playhead.poly_mode = [1,1];
-playhead.color = beige_border;
-playhead.blend_enable = 1;
-playhead.position = [0,0];
-playhead.scale = [0,1];
-playhead.layer = 8; // highest value means object closest to viewer.
-playhead.enable = 0; // not rendered (unless playheadEnable(1) called)
-
+for(var i = 1; i <= tracks; i++) {
+	// create a [jit.gl.gridshape] object to act as a playhead[i]
+	playhead[i] = new JitterObject("jit.gl.gridshape","ListenWindow");
+	playhead[i].shape = "plane";
+	playhead[i].dim = [2,2];
+	playhead[i].poly_mode = [1,1];
+	playhead[i].color = beige_border;
+	playhead[i].blend_enable = 1;
+	playhead[i].position = [0, 2*(tracks-(i-0.5))/tracks-1];
+	playhead[i].scale = [0, track_height];
+	playhead[i].layer = 8; // highest value means object closest to viewer.
+	playhead[i].enable = 1; // not rendered (unless playhead[i]Enable(1) called)
+}
 // create a [jit.gl.gridshape] object to act as a loop_start
 var loop_start = new JitterObject("jit.gl.gridshape","ListenWindow");
 loop_start.shape = "plane";
@@ -765,18 +766,18 @@ function loop(start, end) {	//position the loop bars and flashing rectangle base
 	///post( "audition scale: ", audition.scale, "\n");
 }
 
-function playheadEnable(i) {
-	playhead.enable = i;
+function playheadEnable(track, i) {
+	playhead[track].enable = i;
 }
 
-function play(float) {
-	playhead.position = [-aspectratio+(2*aspectratio*float), 0]; // use one...
-	playhead.enable = 1; // stays visible after stop!
+function play(i, float) {
+	playhead[i].position = [-aspectratio+(2*aspectratio*float), 2*(tracks-(i-0.5))/tracks-1]; // use one...
+	playhead[i].enable = 1; // stays visible after stop!
 }
 
-function playBeat(beat) {
-	playhead.position = [-aspectratio+(2*aspectratio*(beat-timeline_offset)/total_length), 0]; // ... or the other
-	playhead.enable = 1; // stays visible after stop!
+function playBeat(i, beat) {
+	playhead[i].position = [-aspectratio+(2*aspectratio*(beat-timeline_offset)/total_length), 2*(tracks-(i-0.5))/tracks-1]; // ... or the other
+	playhead[i].enable = 1;	//any moving playhead should be visible
 }
 
 function spSurface(sp) {
