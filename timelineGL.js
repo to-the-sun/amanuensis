@@ -46,9 +46,9 @@ var Span_COUNT = 0; // number of spans
 var tracks = 16; // number of tracks
 var track_height = 1/tracks;
 var span_height = 1/tracks-gutter;
-var total_length = 1000; // the length of the sequence
+var total_length = 1000; // the length of the sequence(Actually in beats, overridden with the refresh function calling stats.peek)
 var top_id; // to use for spans created by splitting
-var timeline_offset = 1; // the leftmost edge of the window represents 1, not 0
+var timeline_offset = 0; // the leftmost edge of the window represents 0, not 1
 var myhzoom = 1; // the horizontal zoom factor
 var myvzoom = 1; // the vertical zoom factor
 var hpos = 0; // the horizontal domain center
@@ -906,7 +906,7 @@ function myseq(seq) {
 // also, it must be called if the total length of the sequence changes (buffer stats).
 function refresh() {
 	myrender.erase_color = background; // just so we can modify the background color from within Max via setprop and see the result (subpatcher [p appearance])
-	total_length = stats.peek(0, 1);
+	total_length = stats.peek(0, 1) + 1;	//+1 beat to total length when starting at beat 0
 	d.replace("seq1"+"::total_length", total_length);
 	myseq("seq1"); // since we're not using multiple sequences, this function refreshes "the" sequence
 }
