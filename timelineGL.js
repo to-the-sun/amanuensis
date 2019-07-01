@@ -906,7 +906,7 @@ function myseq(seq) {
 // also, it must be called if the total length of the sequence changes (buffer stats).
 function refresh() {
 	myrender.erase_color = background; // just so we can modify the background color from within Max via setprop and see the result (subpatcher [p appearance])
-	total_length = stats.peek(0, 1) + 1;	//+1 beat to total length when starting at beat 0
+	total_length = stats.peek(0, 1);// + 1;	//+1 beat to total length when starting at beat 0
 	d.replace("seq1"+"::total_length", total_length);
 	myseq("seq1"); // since we're not using multiple sequences, this function refreshes "the" sequence
 }
