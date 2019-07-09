@@ -1,0 +1,106 @@
+analyze(now, track, tolerance, wake) {
+    Buffer memory("memory");
+    Buffer involved_indices("involved_indices");
+    Buffer lattice("lattice");
+    Buffer starting_frame("starting_frame");
+    Buffer scores("scores");
+    Buffer scores_cursor("scores_cursor");
+    atom = tolerance * 2;
+    //Analyze beats
+    involvements = 0;
+    area = 0;
+    connections = 0;
+    click = 0;
+    beats_back = 1;
+    song_start = peek(starting_frame, 0);
+    past_beat = peek(memory, beats_back, 0);
+    while(past_beat) {
+        interval = now - past_beat;
+        sync = 0;
+        if(abs(interval) <= tolerance) { //Success: beats coincide. In theory abs() should be unnecessary as beats should never be out of order
+            sync = 1;   //No need to check coinciding: next past_beat will be checked right away anyway
+        }
+        else if(interval <= wake + tolerance) {
+            target = past_beat - interval;
+            check_index = beats_back + 1;
+            check = peek(memory, check_index, 0);
+            while(check) {
+                proximity = target - check;
+                if(abs(proximity) <= tolerance) {  //Success
+                    if(!click) { // Unlikely, but if 2 intervals sync at lock larger would otherwise be conveyed – smaller is ideal
+                        click = interval;    //Interval conveyed through click for sake of locking.
+                    }
+                    sync = 1;
+                    poke(involved_indices, check_index, involvements);
+                    involvements += 1;
+                    area += interval;
+                    if(peek(memory, check_index, 2) > 0) {  //If track designates it's recitation
+                        connections += 1;
+                    }
+                    poke(scores, check, peek(scores_cursor, 0));
+                    poke(scores_cursor, peek(scores_cursor, 0) + 1, 0);
+                    coinciding_check_index = check_index + 1;
+                    coinciding_check = peek(memory, coinciding_check_index, 0);
+                    while(abs(target - coinciding_check) <= tolerance) {
+                        poke(involved_indices, coinciding_check_index, involvements);
+                        involvements += 1;
+                        if(peek(memory, coinciding_check_index, 2) > 0) {  //If track designates it's recitation
+                            connections += 1;
+                        }
+                        poke(scores, coinciding_check, peek(scores_cursor, 0));
+                        poke(scores_cursor, peek(scores_cursor, 0) + 1, 0);
+                        coinciding_check_index += 1;
+                        coinciding_check = peek(memory, coinciding_check_index, 0);
+                    }
+                    target -= interval;
+                }
+                else if(proximity > tolerance) {    //Overshot
+                    break;
+                }
+                check_index += 1;
+                check = peek(memory, check_index, 0);
+            }
+        }
+        else if(interval > wake + tolerance) {  //Overshot
+            break;
+        }
+        if(sync) {
+            poke(involved_indices, beats_back, involvements);
+            involvements += 2;
+            area += interval;
+            if(peek(memory, beats_back, 2) > 0) {  //If track designates it's recitation
+                connections += 1;
+            }
+            poke(scores, past_beat, peek(scores_cursor, 0));
+            poke(scores, interval, peek(scores_cursor, 0) + 1);
+            poke(scores, track, peek(scores_cursor, 0) + 2);
+            poke(scores, -69, peek(scores_cursor, 0) + 3);  //Arbitrary delimiter
+            poke(scores_cursor, peek(scores_cursor, 0) + 4, 0);
+        }
+        beats_back += 1;
+        past_beat = peek(memory, beats_back, 0);
+    }
+    //Tally scores for involved beats. Total stats cannot be known until analysis is complete
+    //channel = track * (track > 0);
+    //quantized = (now - song_start) / atom;
+    //lattice.poke(-1, quantized, channel);
+    if(involvements) {
+        poke(memory, peek(memory, 0, 3) + area, 0, 3);
+        poke(memory, peek(memory, 0, 4) + connections, 0, 4);
+        //quantized = (now - song_start) / atom;
+        //lattice.poke(lattice.peek(quantized, channel) + .1, quantized, channel);
+        scoring_involvement = 0;
+        scoring_index = peek(involved_indices, scoring_involvement);
+        while(scoring_index) {
+            poke(memory, now, scoring_index, 1);
+            poke(memory, peek(memory, scoring_index, 3) + area, scoring_index, 3);
+            poke(memory, peek(memory, scoring_index, 4) + connections, scoring_index, 4);
+            //quantized = (peek(memory, scoring_index, 0) - song_start) / atom;
+            //lattice.poke(lattice.peek(quantized, channel) + .1, quantized, channel);
+            poke(involved_indices, 0, scoring_involvement);
+            scoring_involvement += 1;
+            scoring_index = peek(involved_indices, scoring_involvement);
+        }
+    }
+    return click, involvements, area, connections;
+}
