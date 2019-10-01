@@ -1,8 +1,10 @@
-analyze(now, track, tolerance, wake) {
+﻿analyze(now, track, tolerance, wake) {
+    Buffer stats("stats");
     Buffer memory("memory");
     Buffer involved_indices("involved_indices");
     Buffer lattice("lattice");
     Buffer starting_frame("starting_frame");
+    Buffer unlocked_start("unlocked_start");
     Buffer scores("scores");
     Buffer scores_cursor("scores_cursor");
     atom = tolerance * 2;
@@ -12,7 +14,6 @@ analyze(now, track, tolerance, wake) {
     connections = 0;
     click = 0;
     beats_back = 1;
-    song_start = peek(starting_frame, 0);
     past_beat = peek(memory, beats_back, 0);
     while(past_beat) {
         interval = now - past_beat;
@@ -39,6 +40,10 @@ analyze(now, track, tolerance, wake) {
                     }
                     poke(scores, check, peek(scores_cursor, 0));
                     poke(scores_cursor, peek(scores_cursor, 0) + 1, 0);
+                    first_hit = peek(unlocked_start, 0);
+                    if(!first_hit || check < first_hit) {   //Oldest scoring beat sets song_start pre-lock
+                        poke(unlocked_start, check, 0);     //(What if a subsequent pattern reaches further back?
+                    }                                       //Cues/span might be placed negative?) YES. Therefore, check < song_start added
                     coinciding_check_index = check_index + 1;
                     coinciding_check = peek(memory, coinciding_check_index, 0);
                     while(abs(target - coinciding_check) <= tolerance) {
@@ -81,22 +86,24 @@ analyze(now, track, tolerance, wake) {
         past_beat = peek(memory, beats_back, 0);
     }
     //Tally scores for involved beats. Total stats cannot be known until analysis is complete
-    //channel = track * (track > 0);
-    //quantized = (now - song_start) / atom;
-    //lattice.poke(-1, quantized, channel);
-    if(involvements) {
-        poke(memory, peek(memory, 0, 3) + area, 0, 3);
+    if(involvements) {  //Why not just include index 0 as an involvement? Because while() sees index 0 as empty and stops
+        lock = peek(stats, 10);
+        score = area * (connections >= 1 || !lock);
+        poke(memory, peek(memory, 0, 3) + score, 0, 3);
         poke(memory, peek(memory, 0, 4) + connections, 0, 4);
-        //quantized = (now - song_start) / atom;
-        //lattice.poke(lattice.peek(quantized, channel) + .1, quantized, channel);
+        song_start = peek(starting_frame, 0);
+        if(!song_start) {  //Update default song_start to 0 (necessary only when unlocked_start 1st set)
+            poke(memory, 0, 0, 5);    //If 0, cleanup will process it using unlocked_start
+        }
         scoring_involvement = 0;
         scoring_index = peek(involved_indices, scoring_involvement);
         while(scoring_index) {
             poke(memory, now, scoring_index, 1);
-            poke(memory, peek(memory, scoring_index, 3) + area, scoring_index, 3);
+            poke(memory, peek(memory, scoring_index, 3) + score, scoring_index, 3);
             poke(memory, peek(memory, scoring_index, 4) + connections, scoring_index, 4);
-            //quantized = (peek(memory, scoring_index, 0) - song_start) / atom;
-            //lattice.poke(lattice.peek(quantized, channel) + .1, quantized, channel);
+            if(!song_start) {  //Update default song_start to 0 (necessary only when unlocked_start 1st set)
+                poke(memory, 0, scoring_index, 5);    //If 0, cleanup will process it using unlocked_start
+            }
             poke(involved_indices, 0, scoring_involvement);
             scoring_involvement += 1;
             scoring_index = peek(involved_indices, scoring_involvement);
