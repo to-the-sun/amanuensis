@@ -1,0 +1,10 @@
+﻿cleanup(index) {
+    Buffer memory("memory");
+    Buffer past_beats("past_beats");
+    timestamp = peek(memory, index, 0);   //Send out its unique timestamp 1st
+    for(j = 0; j < channels(memory); j += 1) {
+        poke(memory, 0, index, j);
+    }
+    poke(past_beats, index, 0);
+    return timestamp;
+}
