@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ 42.0, 123.0, 576.0, 420.0 ],
+		"rect" : [ 42.0, 116.0, 846.0, 578.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -43,7 +43,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 701.0, 410.0, 36.0, 20.0 ],
+					"patching_rect" : [ 681.0, 500.0, 36.0, 20.0 ],
 					"text" : "out 17"
 				}
 
@@ -54,7 +54,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 657.5625, 410.0, 36.0, 20.0 ],
+					"patching_rect" : [ 638.90625, 500.0, 36.0, 20.0 ],
 					"text" : "out 16"
 				}
 
@@ -65,7 +65,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 621.0, 410.0, 36.0, 20.0 ],
+					"patching_rect" : [ 596.8125, 500.0, 36.0, 20.0 ],
 					"text" : "out 15"
 				}
 
@@ -76,7 +76,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 621.0, 430.0, 36.0, 20.0 ],
+					"patching_rect" : [ 554.71875, 500.0, 36.0, 20.0 ],
 					"text" : "out 14"
 				}
 
@@ -87,7 +87,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 567.5384521484375, 430.0, 36.0, 20.0 ],
+					"patching_rect" : [ 512.625, 500.0, 36.0, 20.0 ],
 					"text" : "out 13"
 				}
 
@@ -98,19 +98,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 591.0, 410.0, 36.0, 20.0 ],
+					"patching_rect" : [ 470.53125, 500.0, 36.0, 20.0 ],
 					"text" : "out 12"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 557.81817626953125, 410.0, 36.0, 20.0 ],
-					"text" : "out 11"
 				}
 
 			}
@@ -120,8 +109,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 439.333343505859375, 410.0, 31.0, 20.0 ],
-					"text" : "out 7"
+					"patching_rect" : [ 428.4375, 500.0, 36.0, 20.0 ],
+					"text" : "out 11"
 				}
 
 			}
@@ -131,8 +120,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 493.77777099609375, 410.0, 31.0, 20.0 ],
-					"text" : "out 9"
+					"patching_rect" : [ 386.34375, 500.0, 36.0, 20.0 ],
+					"text" : "out 10"
 				}
 
 			}
@@ -142,8 +131,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 521.0, 410.0, 36.0, 20.0 ],
-					"text" : "out 10"
+					"patching_rect" : [ 344.25, 500.0, 31.0, 20.0 ],
+					"text" : "out 9"
 				}
 
 			}
@@ -153,7 +142,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 466.5555419921875, 410.0, 31.0, 20.0 ],
+					"patching_rect" : [ 302.15625, 500.0, 31.0, 20.0 ],
 					"text" : "out 8"
 				}
 
@@ -164,8 +153,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.111114501953125, 410.0, 31.0, 20.0 ],
-					"text" : "out 6"
+					"patching_rect" : [ 260.0625, 500.0, 31.0, 20.0 ],
+					"text" : "out 7"
 				}
 
 			}
@@ -175,8 +164,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 274.888885498046875, 410.0, 31.0, 20.0 ],
-					"text" : "out 5"
+					"patching_rect" : [ 217.96875, 500.0, 31.0, 20.0 ],
+					"text" : "out 6"
 				}
 
 			}
@@ -186,7 +175,18 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.666671752929688, 410.0, 31.0, 20.0 ],
+					"patching_rect" : [ 175.875, 500.0, 31.0, 20.0 ],
+					"text" : "out 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 133.78125, 500.0, 31.0, 20.0 ],
 					"text" : "out 4"
 				}
 
@@ -197,7 +197,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.444442749023438, 410.0, 31.0, 20.0 ],
+					"patching_rect" : [ 91.6875, 500.0, 31.0, 20.0 ],
 					"text" : "out 3"
 				}
 
@@ -208,7 +208,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 83.222221374511719, 410.0, 31.0, 20.0 ],
+					"patching_rect" : [ 49.59375, 500.0, 31.0, 20.0 ],
 					"text" : "out 2"
 				}
 
@@ -239,7 +239,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "require(\"cleanup\");\r\nplace_span(track) {\r\n    Buffer recording_spans(\"recording_spans\");\r\n    Buffer stats(\"stats\");\r\n    //Place span (require() function to standardize with cleanup?)\r\n    click = peek(stats, 6);\r\n    stats.poke(1, 10);\t//lock\r\n    song_start = peek(recording_spans, 1, track);\r\n    span = peek(recording_spans, 0, track);\r\n    start = (peek(recording_spans, 2, track) - song_start) / click;\r\n    end = (peek(recording_spans, 3, track) - song_start) / click;\r\n    rating = end - start;\r\n    poke(recording_spans, 0, 0, track);\r\n    poke(recording_spans, 0, 1, track);\r\n    poke(recording_spans, 0, 2, track);\r\n    poke(recording_spans, 0, 3, track);\r\n    return span, start, rating, end, track;\r\n}\r\nplace_cue(track, palette, release) {\r\n    Buffer prior_cue_by_palette(\"prior_cue_by_palette\");\r\n    Buffer stats(\"stats\");\r\n    Buffer wake(\"wake\");\r\n    click = peek(stats, 6);\r\n    song_start = peek(prior_cue_by_palette, 2, palette);\r\n    start_frame = peek(prior_cue_by_palette, 0, palette);\r\n    start = (start_frame - song_start) / click;  //Ramp position (start of attack). Everything stored in absolute frames\r\n    span = peek(prior_cue_by_palette, 1, palette);  //Span ID\r\n    pass = song_start;  //Pass (Starting_frame)\r\n    peak_frame = peek(prior_cue_by_palette, 4, palette);\r\n    attack = peak_frame - start_frame;\r\n    palette_position = peek(prior_cue_by_palette, 3, palette) - attack;  //Palette position (not in frames, keeps its own ms count)\r\n    peak_position = start + (attack / click);                             //Peak ramp position (should be obsolete when filtering/recitation are done in gen)\r\n    if(release == peek(wake, 0)) {\r\n        poke(prior_cue_by_palette, 0, 0, palette);\r\n        poke(prior_cue_by_palette, 0, 1, palette);\r\n        poke(prior_cue_by_palette, 0, 2, palette);\r\n        poke(prior_cue_by_palette, 0, 3, palette);\r\n        poke(prior_cue_by_palette, 0, 4, palette);\r\n    }\r\n    return start, span, pass, palette_position, attack, release, track, peak_position;\r\n}\r\nget_song_start(oldest_index, track) {               //These inputs could be consolidated/generalized\r\n    Buffer memory(\"memory\");\r\n    Buffer recording_spans(\"recording_spans\");\r\n    Buffer unlocked_start(\"unlocked_start\");\r\n    song_start = peek(memory, oldest_index, 5);\r\n    span_recording = peek(recording_spans, 0, track);\r\n    if(!span_recording) {\r\n        if(!song_start) {\r\n            song_start = peek(unlocked_start, 0);\r\n        }\r\n    }\r\n    else {\r\n        song_start = peek(recording_spans, 1, track);\r\n    }\r\n    return song_start;\r\n}\r\nBuffer wake(\"wake\");\r\nBuffer top_span(\"top_span\");\r\nBuffer stats(\"stats\");\r\nBuffer memory(\"memory\");\r\nBuffer scrutinized(\"scrutinized\");\r\nBuffer memory_cursor(\"memory_cursor\");\r\nBuffer crucible(\"crucible\");\r\nBuffer crucible_cursor(\"crucible_cursor\");\r\nBuffer last_cleaned(\"last_cleaned\");\r\nBuffer past_beats(\"past_beats\");\r\nBuffer starting_frame(\"starting_frame\");\r\n//Buffer prior_recitation(\"prior_recitation\");    //Index 0: frame | 1: score | 2: last cleaned frame | 3: last cleaned score\r\n//Buffer prior_playing(\"prior_playing\");    //For now only playing need compete. When actual crucible implemented here, will A_tracks need to be referenced or can establish spans be re-scored in real-time?\r\nBuffer recording_spans(\"recording_spans\");\r\nBuffer palette_by_track(\"palette_by_track\");\r\nBuffer prior_cue_by_palette(\"prior_cue_by_palette\");\r\nBuffer diagnostics(\"diagnostics\");\r\nParam tolerance(9);\r\nParam exporting(0);\r\nParam comping(0);\r\nParam loop_end(1);\r\nout2 = -1;\r\nout7 = -1;\r\noldest_index = peek(past_beats, 0) - 1;\r\nscrutinized_chamber = peek(scrutinized, 0); //Since scan stops when scrutinizing, scrutinized need not be stored per track\r\n//out16 = scrutinized_chamber;\r\nindex = peek(memory_cursor, 0);\r\nif(!scrutinized_chamber) {        //If crucible is not in process\r\n    index -= 1;  //Move one beat newer\r\n    //out16 = index;\r\n}\r\nif(index < 0) {                         //Continues to count below 0 for each track\r\n    track = abs(index);\r\n    oldest_competitor = peek(last_cleaned, 0, track);\r\n    poke(crucible, oldest_competitor, 0, track);\r\n    poke(crucible_cursor, oldest_competitor != 0, 0, track);    //If a competitor hasn't been found yet, cursor should be at 0, otherwise 1\r\n    span_end = peek(recording_spans, 3, track);             //Flush any recording spans\r\n    if(span_end) {\r\n        out2, out3, out4, out5, out6 = place_span(track);\r\n    }\r\n    palette = peek(palette_by_track, track);                //zero out any recording cues\r\n    poke(prior_cue_by_palette, 0, 0, palette);\r\n    poke(prior_cue_by_palette, 0, 1, palette);\r\n    poke(prior_cue_by_palette, 0, 2, palette);\r\n    poke(prior_cue_by_palette, 0, 3, palette);\r\n    poke(prior_cue_by_palette, 0, 4, palette);\r\n    if(track == 16) {\r\n        index = oldest_index;    //Restart scan at top\r\n        //poke(scrutinized, 0, 0);\r\n    }\r\n}\r\npoke(memory_cursor, index, 0);   //INCREMENTS ELSEWHERE WITH EACH NEW BEAT IN MEMORY\r\nif(index >= 0) {\r\n    now = peek(stats, 0);\r\n    WAKE = peek(wake, 0);\r\n    frame = peek(memory, index, 0);\r\n    last_involved_at = peek(memory, index, 1);\r\n    source = peek(memory, index, 2);\r\n    track = abs(source);\r\n    score = peek(memory, index, 3);\r\n    cursor = peek(crucible_cursor, 0, track);\r\n    record = -1;\r\n    out15 = frame;\r\n    out16 = score;\r\n    out17 = source;\r\n    poke(diagnostics, index, 0);\r\n    poke(diagnostics, scrutinized_chamber, 1);\r\n    poke(diagnostics, cursor, 2);\r\n    poke(diagnostics, 0, 4);\r\n    poke(diagnostics, 0, 5);\r\n    poke(diagnostics, 0, 6);\r\n    poke(diagnostics, 0, 7);\r\n    poke(diagnostics, 0, 8);\r\n    if(cursor == 0) {\r\n        if(source < 0) {    //If playing, not recitation\r\n            record = score > 0; //No competitors; just started playing. Index will be assessed outside of crucible\r\n            //scrutinized_chamber = 0; //must be reset to 0 so the scan doesn't think crucible is in process (considering scrutinized will be incremented after assessment)\r\n            poke(crucible, index, cursor, track);  //Enter current index, simply so it can be cleaned up right away. Also needed for placements\r\n            if(index == oldest_index) {\r\n                if(now - last_involved_at > WAKE + tolerance || exporting) { //If no longer viable (ready for cleanup) OR expediting due to imminent export\r\n                    out1 = 1;           //Cleanup just this index\r\n                }\r\n            }   //Can't be cleaned up internally with code in this order, as placements rely on crucible info\r\n        }   //Would be cleaner to functionize placements and cleanup internally right after\r\n        else {\r\n            //out16 = 99;\r\n            poke(crucible, index, cursor, track);  //Enter current index\r\n            poke(crucible_cursor, 1, 0, track);\r\n            //poke(scrutinized, 1, 0); //The ultimately scrutinized index in crucible will never be 0\r\n        }\r\n    }\r\n    else if(cursor == 1) {\r\n        if(source < 0) {    //If playing, not recitation\r\n            poke(crucible, index, cursor, track);  //Enter current index\r\n            poke(crucible_cursor, 2, 0, track);\r\n        }\r\n        else {\r\n            older_competitor = peek(crucible, 0, track);\r\n            if(older_competitor == oldest_index) {\r\n                if(now - peek(memory, older_competitor, 1) > WAKE + tolerance || exporting) { //If no longer viable (ready for cleanup) OR expediting due to imminent export\r\n                    out1 = cleanup(older_competitor);   //Cleanup must occur locally because external cleanup relies on looking up the index in crucible, but this index is about to be replaced there\r\n                }\r\n            }\r\n            poke(crucible, index, 0, track);    //Replace older_competitor\r\n        }\r\n    }\r\n    else if(cursor > 1) {\r\n        if(source < 0) {    //If playing, not recitation\r\n            poke(crucible, index, cursor, track);  //Enter current index\r\n            poke(crucible_cursor, peek(crucible_cursor, 0, track) + 1, 0, track);\r\n        }\r\n        else {  //Crucible can be or is closed\r\n//Scrutinize. (Would be more straightforward to handle in a separate gen run by an Uzi but processing is more spread out this way)\r\n            scrutinized_chamber += 1;                   //Crucible in progress\r\n            poke(scrutinized, scrutinized_chamber, 0);  //Scan will pause\r\n            oldest_competitor = peek(crucible, 0, track);\r\n            if(scrutinized_chamber < cursor) {    //Still in the middle of scrutinizing\r\n                poke(crucible, index, cursor, track);  //or simply `index` internally, but external cleanup refers to this\r\n                //Calculation can occur;\r\n                older_x = peek(memory, oldest_competitor, 0);\r\n                older_y = peek(memory, oldest_competitor, 3);          \r\n                newer_x = peek(memory, index, 0);\r\n                newer_y = peek(memory, index, 3);\r\n                slope = (newer_x - older_x) / (newer_y - older_y);\r\n                scrutinized_x = peek(memory, peek(crucible, scrutinized_chamber, track), 0);\r\n                competition = (scrutinized_x * slope) + older_y;\r\n                record = score > competition;\r\n                //out16 = record;\r\n            }\r\n            else {  //Crucible done being scrutinized and can be reset\r\n                nonviable = 0;\r\n                if(oldest_index == oldest_competitor) {\r\n                    for(i = 0; i < cursor; i += 1) {    //Cleanup must happen per crucible only once all indices are nonviable\r\n                        if(now - peek(memory, peek(crucible, i, track), 1) > WAKE + tolerance || exporting) { //If no longer viable (ready for cleanup) OR expediting due to imminent export\r\n                            nonviable += 1;\r\n                        }\r\n                        else {\r\n                            break;\r\n                        }\r\n                    }\r\n                }\r\n                if(nonviable == cursor) {\r\n                    out1 = nonviable;  //The number of indices to clean up\r\n                }\r\n                poke(scrutinized, 0, 0);\r\n                poke(crucible_cursor, 1, 0, track);\r\n            }\r\n        }\r\n    }\r\n    poke(diagnostics, record, 3);\r\n    if(record != -1) {  //if an index was scored\r\n        click = peek(stats, 6); //Song can end and click clear before memory clean and all cues placed, but with click obsolete this will be irrelevant\r\n        scrutinized_memory = peek(crucible, scrutinized_chamber, track);\r\n        frame = peek(memory, scrutinized_memory, 0);\r\n        source = peek(memory, scrutinized_memory, 2);\r\n        track = abs(source);\r\n        palette = peek(palette_by_track, track);\r\n        poke(diagnostics, scrutinized_chamber, 4);\r\n        poke(diagnostics, scrutinized_memory, 5);\r\n        poke(diagnostics, frame, 6);\r\n        poke(diagnostics, source, 7);\r\n        poke(diagnostics, palette, 8);\r\n        //Check flush, then proceed\r\n        span_end = peek(recording_spans, 3, track);\r\n        if(span_end && frame > span_end + WAKE + tolerance) {     //If flushed, span will be placed then ordinary check\r\n            out2, out3, out4, out5, out6 = place_span(track);   // will either start a span or do nothing, because there\r\n        }                                                       // will be no span_recording\r\n        span_recording = peek(recording_spans, 0, track);\r\n        if(record) {\r\n            if(!span_recording) {\r\n                song_start = get_song_start(scrutinized_memory, track);   //Must happen before span starts being documented\r\n                poke(top_span, peek(top_span, 0) + 1, 0);\r\n                poke(recording_spans, peek(top_span, 0), 0, track);  //Span ID\r\n                poke(recording_spans, song_start, 1, track); //Starting frame of song (stored with span so cues can reference it later)\r\n                poke(recording_spans, frame, 2, track); //Start of span (still in absolute frames)\r\n            }\r\n            poke(recording_spans, frame, 3, track);     //Current end of span (still in absolute frames)\r\n        }\r\n        else {  //Have span end if(!record || loop_end surpassed)\r\n            if(span_recording) {\r\n                out2, out3, out4, out5, out6 = place_span(track);\r\n            }\r\n        }\r\n        //Check flush, update release if necessary, then place cue\r\n        peak_frame = peek(prior_cue_by_palette, 4, palette);\r\n        if(peak_frame && frame > peak_frame + WAKE + tolerance) {\r\n            out7, out8, out9, out10, out11, out12, out13, out14 = place_cue(track, palette, WAKE);\r\n        }\r\n        //Place cue\r\n        peak_frame = peek(prior_cue_by_palette, 4, palette);    //Must recheck peak_frame. Flush may have zeroed it out\r\n        if(peak_frame) {    //prevents those 1st non-beat cues/unnecessary clutter\r\n            out7, out8, out9, out10, out11, out12, out13, out14 = place_cue(track, palette, frame - peak_frame);\r\n        }\r\n        //out16 = peek(prior_cue_by_palette, 3, palette);\r\n        //Update info for next cue\r\n        peak_frame = peek(prior_cue_by_palette, 4, palette);\r\n        song_start = get_song_start(scrutinized_memory, track);\r\n        //palette_start = peek(memory, scrutinized_memory, 6) - out12;  //Pallets_start = palette_position - attack (release of prior)\r\n        crop = song_start - peak_frame;\r\n        if(crop > 0) {\r\n            poke(prior_cue_by_palette, song_start, 0, palette);\r\n            //poke(prior_cue_by_palette, palette_start + crop, 3, palette);\r\n        }\r\n        else {\r\n            poke(prior_cue_by_palette, peak_frame, 0, palette);\r\n            //poke(prior_cue_by_palette, palette_start, 3, palette);\r\n        }\r\n        poke(prior_cue_by_palette, peek(recording_spans, 0, track), 1, palette);    //Span (spans must update 1st)\r\n        poke(prior_cue_by_palette, song_start, 2, palette); //(Pass)\r\n        poke(prior_cue_by_palette, peek(memory, scrutinized_memory, 6), 3, palette);\r\n        poke(prior_cue_by_palette, frame, 4, palette);\r\n    }\r\n}",
+					"code" : "require(\"cleanup\");\r\nplace_span(track) {\r\n    Buffer recording_spans(\"recording_spans\");\r\n    Buffer stats(\"stats\");\r\n    click = peek(stats, 6);\r\n    stats.poke(1, 10);\t//lock\r\n    song_start = peek(recording_spans, 1, track);\r\n    span = peek(recording_spans, 0, track);\r\n    start = (peek(recording_spans, 2, track) - song_start) / click;\r\n    end = (peek(recording_spans, 3, track) - song_start) / click;\r\n    rating = end - start;\r\n    poke(recording_spans, 0, 0, track);\r\n    poke(recording_spans, 0, 1, track);\r\n    poke(recording_spans, 0, 2, track);\r\n    poke(recording_spans, 0, 3, track);\r\n    return span, start, rating, end, track;\r\n}\r\nplace_cue(track, frame, release) { \r\n    Buffer prior_cue_by_palette(\"prior_cue_by_palette\");\r\n    Buffer stats(\"stats\");\r\n    Buffer wake(\"wake\");\r\n    Buffer palette_by_track(\"palette_by_track\");\r\n    click = peek(stats, 6);\r\n    palette = peek(palette_by_track, track);\r\n    song_start = peek(prior_cue_by_palette, 2, palette);\r\n    start_frame = peek(prior_cue_by_palette, 0, palette);\r\n    start = (start_frame - song_start) / click;  //Ramp position (start of attack). Everything stored in absolute frames\r\n    span = peek(prior_cue_by_palette, 1, palette);  //Span ID\r\n    pass = song_start;  //Pass (Starting_frame)\r\n    peak_frame = peek(prior_cue_by_palette, 4, palette);\r\n    attack = peak_frame - start_frame;\r\n    palette_position = peek(prior_cue_by_palette, 3, palette) - attack;  //Palette position (not in frames, keeps its own ms count)\r\n    peak_position = start + (attack / click);                             //Peak ramp position (should be obsolete when filtering/recitation are done in gen)\r\n    if(release == peek(wake, 0)) {                      //this stat must be provided for the info update that will\r\n        poke(prior_cue_by_palette, frame, 4, palette);  //occur momentarily, as it will become the start_frame of the\r\n    }                                                   //next cue and was modified by the flush\r\n    return start, span, pass, palette_position, attack, release, track, peak_position;\r\n}\r\nget_song_start(oldest_index, track) {               //These inputs could be consolidated/generalized\r\n    Buffer memory(\"memory\");\r\n    Buffer recording_spans(\"recording_spans\");\r\n    Buffer unlocked_start(\"unlocked_start\");\r\n    song_start = peek(memory, oldest_index, 5);\r\n    span_recording = peek(recording_spans, 0, track);\r\n    if(!span_recording) {\r\n        if(!song_start) {\r\n            song_start = peek(unlocked_start, 0);\r\n        }\r\n    }\r\n    else {\r\n        song_start = peek(recording_spans, 1, track);\r\n    }\r\n    return song_start;\r\n}\r\nplace(scrutinized_chamber, record, source) {\r\n\tBuffer wake(\"wake\");\r\n\tBuffer tolerance(\"tolerance\");\r\n    Buffer stats(\"stats\");\r\n    Buffer crucible(\"crucible\");\r\n    Buffer memory(\"memory\");\r\n    Buffer palette_by_track(\"palette_by_track\");\r\n    Buffer diagnostics(\"diagnostics\");\r\n    Buffer recording_spans(\"recording_spans\");\r\n    Buffer top_span(\"top_span\");\r\n    Buffer prior_cue_by_palette(\"prior_cue_by_palette\");\r\n    WAKE = peek(wake, 0);\r\n    TOLERANCE = peek(tolerance, 0);\r\n    OUT2 = 0;\r\n    OUT3 = 0;\r\n    OUT4 = 0;\r\n    OUT5 = 0;\r\n    OUT6 = 0;\r\n    OUT7 = 0;\r\n    OUT8 = 0;\r\n    OUT9 = 0;\r\n    OUT10 = 0;\r\n    OUT11 = 0;\r\n    OUT12 = 0;\r\n    OUT13 = 0;\r\n    OUT14 = 0;\r\n    click = peek(stats, 6); //Song can end and click clear before memory clean and all cues placed, but with click obsolete this will be irrelevant\r\n    track = abs(source);\r\n    scrutinized_memory = peek(crucible, scrutinized_chamber, track);\r\n    frame = peek(memory, scrutinized_memory, 0);\r\n    //source = peek(memory, scrutinized_memory, 2);\r\n    palette = peek(palette_by_track, track);\r\n    poke(diagnostics, scrutinized_chamber, 4);\r\n    poke(diagnostics, scrutinized_memory, 5);\r\n    poke(diagnostics, frame, 6);\r\n    //poke(diagnostics, source, 7); //This is the one thing that wants source instead of track. Source not readily available on outside for scrutinized_memorys\r\n    poke(diagnostics, palette, 8);\r\n    //Check flush, then proceed\r\n    span_end = peek(recording_spans, 3, track);\r\n    if(span_end && frame > span_end + WAKE + TOLERANCE) {     //If flushed, span will be placed then ordinary check\r\n        OUT2, OUT3, OUT4, OUT5, OUT6 = place_span(track);   // will either start a span or do nothing, because there\r\n    }                                                       // will be no span_recording\r\n    span_recording = peek(recording_spans, 0, track);\r\n    if(record) {\r\n        if(!span_recording) {\r\n            song_start = get_song_start(scrutinized_memory, track);   //Must happen before span starts being documented\r\n            poke(top_span, peek(top_span, 0) + 1, 0);\r\n            poke(recording_spans, peek(top_span, 0), 0, track);  //Span ID\r\n            poke(recording_spans, song_start, 1, track); //Starting frame of song (stored with span so cues can reference it later)\r\n            poke(recording_spans, frame, 2, track); //Start of span (still in absolute frames)\r\n        }\r\n        poke(recording_spans, frame, 3, track);     //Current end of span (still in absolute frames)\r\n    }\r\n    else {  //Have span end if(!record || loop_end surpassed)\r\n        if(span_recording) {\r\n            OUT2, OUT3, OUT4, OUT5, OUT6 = place_span(track);\r\n        }\r\n    }\r\n    //Check flush, update release if necessary, then place cue\r\n    peak_frame = peek(prior_cue_by_palette, 4, palette);\r\n    if(peak_frame && frame > peak_frame + WAKE + TOLERANCE) {\r\n        OUT7, OUT8, OUT9, OUT10, OUT11, OUT12, OUT13, OUT14 = place_cue(track, frame, WAKE);\r\n    }\r\n    //Place cue\r\n    peak_frame = peek(prior_cue_by_palette, 4, palette);    //Must recheck peak_frame. Flush may have zeroed it out\r\n    if(peak_frame && peak_frame != frame) {    //prevents those 1st non-beat cues/unnecessary clutter && was not just flushed\r\n        OUT7, OUT8, OUT9, OUT10, OUT11, OUT12, OUT13, OUT14 = place_cue(track, frame, frame - peak_frame);\r\n    }\r\n    //out16 = peek(prior_cue_by_palette, 3, palette);\r\n    //Update info for next cue\r\n    peak_frame = peek(prior_cue_by_palette, 4, palette);\r\n    song_start = get_song_start(scrutinized_memory, track);\r\n    poke(prior_cue_by_palette, max(song_start, peak_frame), 0, palette);\r\n    /*crop = song_start - peak_frame;\r\n    if(crop > 0) {\r\n        poke(prior_cue_by_palette, song_start, 0, palette);\r\n        //poke(prior_cue_by_palette, palette_start + crop, 3, palette);\r\n    }\r\n    else {\r\n        poke(prior_cue_by_palette, peak_frame, 0, palette);\r\n        //poke(prior_cue_by_palette, palette_start, 3, palette);\r\n    }*/\r\n    poke(prior_cue_by_palette, peek(recording_spans, 0, track), 1, palette);    //Span (spans must update 1st)\r\n    poke(prior_cue_by_palette, song_start, 2, palette); //(Pass)\r\n    poke(prior_cue_by_palette, peek(memory, scrutinized_memory, 6), 3, palette);\r\n    poke(prior_cue_by_palette, frame, 4, palette);\r\n    return OUT2, OUT3, OUT4, OUT5, OUT6, OUT7, OUT8, OUT9, OUT10, OUT11, OUT12, OUT13, OUT14;\r\n}\r\nBuffer wake(\"wake\");\r\nBuffer tolerance(\"tolerance\");\r\nBuffer top_span(\"top_span\");\r\nBuffer stats(\"stats\");\r\nBuffer memory(\"memory\");\r\nBuffer scrutinized(\"scrutinized\");\r\nBuffer memory_cursor(\"memory_cursor\");\r\nBuffer crucible(\"crucible\");\r\nBuffer crucible_cursor(\"crucible_cursor\");\r\nBuffer last_cleaned(\"last_cleaned\");\r\nBuffer past_beats(\"past_beats\");\r\nBuffer starting_frame(\"starting_frame\");\r\n//Buffer prior_recitation(\"prior_recitation\");    //Index 0: frame | 1: score | 2: last cleaned frame | 3: last cleaned score\r\n//Buffer prior_playing(\"prior_playing\");    //For now only playing need compete. When actual crucible implemented here, will A_tracks need to be referenced or can establish spans be re-scored in real-time?\r\nBuffer recording_spans(\"recording_spans\");\r\nBuffer last_cleaned_cue(\"last_cleaned_cue\");\r\nBuffer palette_by_track(\"palette_by_track\");\r\nBuffer prior_cue_by_palette(\"prior_cue_by_palette\");\r\nBuffer older_competition(\"older_competition\");\r\nBuffer diagnostics(\"diagnostics\");\r\nParam exporting(0);\r\nParam comping(0);\r\nParam loop_end(1);\r\nout1 = 0;\r\nout2 = 0;\r\nout3 = 0;\r\nout4 = 0;\r\nout5 = 0;\r\nout6 = 0;\r\nout7 = -1;\r\nout8 = 0;\r\nout9 = 0;\r\nout10 = 0;\r\nout11 = 0;\r\nout12 = 0;\r\nout13 = 0;\r\nout14 = 0;\r\nout15 = 0;\r\nout16 = 0;\r\nout17 = 0;\r\noldest_index = peek(past_beats, 0) - 1;\r\nscrutinized_chamber = peek(scrutinized, 0); //Since scan stops when scrutinizing, scrutinized need not be stored per track\r\n//out16 = scrutinized_chamber;\r\nindex = peek(memory_cursor, 0);\r\nif(!scrutinized_chamber) {        //If crucible is not in process\r\n    index -= 1;  //Move one beat newer\r\n    //out16 = index;\r\n}\r\nif(index < 0) {                         //Continues to count below 0 for each track\r\n    track = abs(index);\r\n    //oldest_competitor = peek(last_cleaned, 0, track);\r\n    older_x = peek(last_cleaned, 0, track);\r\n    older_y = peek(last_cleaned, 1, track);\r\n    poke(older_competition, older_x, 0, track);\r\n    poke(older_competition, older_y, 1, track);\r\n    poke(crucible, -1, 0, track);    //If last_cleaned is providing info crucible index 0 simply won't be used\r\n    poke(crucible_cursor, older_x != 0, 0, track);    //If a competitor hasn't been found yet, cursor should be at 0, otherwise 1\r\n    span_end = peek(recording_spans, 3, track);             //Flush any recording spans\r\n    if(span_end) {  //Technically need last_cleaned_span to fill in recording_spans at this point otherwise spans will be split if only half gets cleaned. But then again hopefully it will have been placed already before it gets close to the end of memory. Also may not be an issue with crucible entirely in gen\r\n        out2, out3, out4, out5, out6 = place_span(track);\r\n    }\r\n    palette = peek(palette_by_track, track);                //zero out any recording cues\r\n    poke(prior_cue_by_palette, peek(last_cleaned_cue, 0, palette), 0, palette);\r\n    poke(prior_cue_by_palette, peek(last_cleaned_cue, 1, palette), 1, palette);\r\n    poke(prior_cue_by_palette, peek(last_cleaned_cue, 2, palette), 2, palette);\r\n    poke(prior_cue_by_palette, peek(last_cleaned_cue, 3, palette), 3, palette);\r\n    poke(prior_cue_by_palette, peek(last_cleaned_cue, 4, palette), 4, palette); //recording_spans can be added also\r\n    /*poke(prior_cue_by_palette, 0, 0, palette);  //Technically need last_clean_cue also\r\n    poke(prior_cue_by_palette, 0, 1, palette);\r\n    poke(prior_cue_by_palette, 0, 2, palette);\r\n    poke(prior_cue_by_palette, 0, 3, palette);\r\n    poke(prior_cue_by_palette, 0, 4, palette);*/\r\n    if(track == 16) {\r\n        index = oldest_index;    //Restart scan at top\r\n    }\r\n}\r\npoke(memory_cursor, index, 0);   //INCREMENTS ELSEWHERE WITH EACH NEW BEAT IN MEMORY\r\nif(index >= 0) {\r\n    now = peek(stats, 0);\r\n    WAKE = peek(wake, 0);\r\n    TOLERANCE = peek(tolerance, 0);\r\n    frame = peek(memory, index, 0);\r\n    last_involved_at = peek(memory, index, 1);\r\n    source = peek(memory, index, 2);\r\n    track = abs(source);\r\n    score = peek(memory, index, 3);\r\n    cursor = peek(crucible_cursor, 0, track);\r\n    record = -1;\r\n    out15 = frame;\r\n    out16 = score;\r\n    out17 = source;\r\n    poke(diagnostics, index, 0);\r\n    poke(diagnostics, scrutinized_chamber, 1);\r\n    poke(diagnostics, cursor, 2);\r\n    poke(diagnostics, 0, 4);\r\n    poke(diagnostics, 0, 5);\r\n    poke(diagnostics, 0, 6);\r\n    poke(diagnostics, 0, 7);\r\n    poke(diagnostics, 0, 8);\r\n    if(cursor == 0) {\r\n        if(source < 0) {    //If playing, not recitation\r\n            record = score > 0; //No competitors; just started playing. Index will be assessed outside of crucible\r\n            poke(crucible, index, cursor, track);  //Enter current index, simply so it can be cleaned up right away. Also needed for placements\r\n            out2, out3, out4, out5, out6, out7, out8, out9, out10, out11, out12, out13, out14 = place(0, record, source);\r\n            out1 = cleanup(index);\r\n            /*if(index == oldest_index) {\r\n                if(now - last_involved_at > WAKE + TOLERANCE || exporting) { //If no longer viable (ready for cleanup) OR expediting due to imminent export\r\n                    out1 = 1;           //Cleanup just this index\r\n                }\r\n            }*/   //Can't be cleaned up internally with code in this order, as placements rely on crucible info\r\n        }   //Would be cleaner to functionize placements and cleanup internally right after\r\n        else {\r\n            poke(crucible, index, cursor, track);  //Enter current index\r\n            poke(crucible_cursor, 1, 0, track);\r\n            poke(older_competition, peek(memory, index, 0), 0, track);  //Update X (timestamp)\r\n            poke(older_competition, peek(memory, index, 3), 1, track);  //Update Y (score)\r\n            out1 = cleanup(index);  //Once its info is stored it can attempt to cleanup\r\n        }\r\n    }\r\n    else if(cursor == 1) {\r\n        if(source < 0) {    //If playing, not recitation\r\n            poke(crucible, index, cursor, track);  //Enter current index\r\n            poke(crucible_cursor, 2, 0, track);\r\n        }\r\n        else {\r\n            //older_competitor = peek(crucible, 0, track);\r\n            //out1 = cleanup(older_competitor);   //Cleanup must occur locally because external cleanup relies on looking up the index in crucible, but this index is about to be replaced there\r\n            poke(crucible, index, 0, track);    //Replace older_competitor\r\n            poke(older_competition, peek(memory, index, 0), 0, track);  //Update X (timestamp)\r\n            poke(older_competition, peek(memory, index, 3), 1, track);  //Update Y (score)\r\n            out1 = cleanup(index);  //Once its info is stored it can attempt to cleanup\r\n        }\r\n    }\r\n    else if(cursor > 1) {\r\n        if(source < 0) {    //If playing, not recitation\r\n            poke(crucible, index, cursor, track);  //Enter current index\r\n            poke(crucible_cursor, peek(crucible_cursor, 0, track) + 1, 0, track);\r\n        }\r\n        else {  //Crucible can be or is closed\r\n//Scrutinize. (Would be more straightforward to handle in a separate gen run by an Uzi but processing is more spread out this way)\r\n            scrutinized_chamber += 1;                   //Crucible in progress\r\n            poke(scrutinized, scrutinized_chamber, 0);  //Scan will pause\r\n            scrutinized_memory = peek(crucible, scrutinized_chamber, track);\r\n            oldest_competitor = peek(crucible, 0, track);\r\n            if(scrutinized_chamber < cursor) {    //Still in the middle of scrutinizing\r\n                poke(crucible, index, cursor, track);  //or simply `index` internally, but external cleanup refers to this\r\n                //Calculation can occur;\r\n                //older_x = peek(memory, oldest_competitor, 0);\r\n                //older_y = peek(memory, oldest_competitor, 3); \r\n                older_x = peek(older_competition, 0, track);\r\n                older_y = peek(older_competition, 1, track);\r\n                newer_x = peek(memory, index, 0);\r\n                newer_y = peek(memory, index, 3);\r\n                slope = (newer_x - older_x) / (newer_y - older_y);\r\n                scrutinized_x = peek(memory, scrutinized_memory, 0);\r\n                competition = (scrutinized_x * slope) + older_y;\r\n                record = score > competition;\r\n                out2, out3, out4, out5, out6, out7, out8, out9, out10, out11, out12, out13, out14 = place(scrutinized_chamber, record, source);\r\n                out1 = cleanup(scrutinized_memory);\r\n            }\r\n            else {  //Crucible done being scrutinized and can be reset\r\n                /*nonviable = 0;\r\n                if(oldest_index == oldest_competitor) {\r\n                    for(i = 0; i < cursor; i += 1) {    //Cleanup must happen per crucible only once all indices are nonviable\r\n                        if(now - peek(memory, peek(crucible, i, track), 1) > WAKE + TOLERANCE || exporting) { //If no longer viable (ready for cleanup) OR expediting due to imminent export\r\n                            nonviable += 1;\r\n                        }\r\n                        else {\r\n                            break;\r\n                        }\r\n                    }\r\n                }\r\n                if(nonviable == cursor) {\r\n                    out1 = nonviable;  //The number of indices to clean up\r\n                }*/\r\n                newer_competitor = peek(crucible, cursor, track);\r\n                poke(crucible, newer_competitor, 0, track);    //Newest competitor becomes oldest\r\n                poke(scrutinized, 0, 0);\r\n                poke(crucible_cursor, 1, 0, track); //A competitor will have always been found at this point (last_cleaned filled in cleanup) so the cursor can start at 1\r\n            }\r\n        }\r\n    }\r\n    poke(diagnostics, record, 3);\r\n}",
 					"fontface" : 0,
 					"fontname" : "Lucida Console",
 					"fontsize" : 10.0,
@@ -248,7 +248,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 17,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 6.0, 39.0, 714.0, 361.0 ]
+					"patching_rect" : [ 7.5, 0.0, 692.5, 500.0 ]
 				}
 
 			}
@@ -258,7 +258,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 418.0, 31.0, 20.0 ],
+					"patching_rect" : [ 176.0, 418.0, 31.0, 20.0 ],
 					"text" : "out 1"
 				}
 
@@ -274,7 +274,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"source" : [ "obj-3", 5 ]
+					"source" : [ "obj-3", 6 ]
 				}
 
 			}
@@ -288,21 +288,21 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-3", 9 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-3", 8 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-3", 9 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-3", 6 ]
+					"source" : [ "obj-3", 10 ]
 				}
 
 			}
@@ -372,21 +372,21 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-3", 10 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-3", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-3", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-3", 5 ]
 				}
 
 			}

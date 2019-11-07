@@ -1,10 +1,40 @@
 ﻿cleanup(index) {
     Buffer memory("memory");
+    Buffer last_cleaned("last_cleaned");
     Buffer past_beats("past_beats");
-    timestamp = peek(memory, index, 0);   //Send out its unique timestamp 1st
-    for(j = 0; j < channels(memory); j += 1) {
-        poke(memory, 0, index, j);
+    Buffer stats("stats");
+    Buffer wake("wake");
+    Buffer tolerance("tolerance");
+    Buffer palette_by_track("palette_by_track");
+    Buffer last_cleaned_cue("last_cleaned_cue");
+    Buffer prior_cue_by_palette("prior_cue_by_palette");
+    timestamp = 0;
+    if(index >= 0) {    //Negative input averts cleanup
+        oldest_index = peek(past_beats, 0) - 1;
+        if(index == oldest_index) {
+            last_involved_at = peek(memory, index, 1);
+            now = peek(stats, 0);
+            if(now - last_involved_at > peek(wake, 0) + peek(tolerance, 0)) {
+                timestamp = peek(memory, index, 0);   //Send out its unique timestamp 1st
+                source = peek(memory, index, 2);                
+                if(source > 0) {    //Recitation only
+                    poke(last_cleaned, timestamp, 0, source);  //Update X (timestamp)
+                    poke(last_cleaned, peek(memory, index, 3), 1, source);  //Update Y (score)
+                }
+                else {              //Playing only
+                    palette = peek(palette_by_track, abs(source));
+                    poke(last_cleaned_cue, peek(prior_cue_by_palette, 0, palette), 0, palette);
+                    poke(last_cleaned_cue, peek(prior_cue_by_palette, 1, palette), 1, palette);
+                    poke(last_cleaned_cue, peek(prior_cue_by_palette, 2, palette), 2, palette);
+                    poke(last_cleaned_cue, peek(prior_cue_by_palette, 3, palette), 3, palette);
+                    poke(last_cleaned_cue, peek(prior_cue_by_palette, 4, palette), 4, palette); //recording_spans can be added also
+                }
+                for(j = 0; j < channels(memory); j += 1) {
+                    poke(memory, 0, index, j);
+                }
+                poke(past_beats, index, 0);
+            }
+        }
     }
-    poke(past_beats, index, 0);
     return timestamp;
 }
