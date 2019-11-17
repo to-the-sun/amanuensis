@@ -5441,10 +5441,10 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-1",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 158.0, 20.0 ],
 									"text" : "cc_source \"LoopBe Internal MIDI\"",
 									"varname" : "cc0"
 								}
@@ -5453,10 +5453,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-2",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 20.0, 152.0, 20.0 ],
+									"patching_rect" : [ 0.0, 20.0, 100.0, 0.0 ],
 									"text" : "cc_source \"Focusrite USB MIDI\"",
 									"varname" : "cc1"
 								}
@@ -5465,10 +5466,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-3",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 40.0, 110.0, 20.0 ],
+									"patching_rect" : [ 0.0, 40.0, 100.0, 0.0 ],
 									"text" : "cc_source \"KeyRig 49\"",
 									"varname" : "cc2"
 								}
@@ -7272,7 +7274,7 @@
 					"patching_rect" : [ 250.0, 490.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 188.0, 68.0, 38.0, 20.0 ],
-					"text" : "56",
+					"text" : "38",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "pitch_text"
 				}
@@ -7287,7 +7289,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 125.0, 490.0, 56.0, 20.0 ],
-					"text" : "3",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -36137,7 +36139,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 42.0, 116.0, 640.0, 480.0 ],
+						"rect" : [ 42.0, 115.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -36193,7 +36195,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 42.0, 116.0, 640.0, 480.0 ],
+										"rect" : [ 42.0, 115.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -36221,6 +36223,30 @@
 										"style" : "",
 										"subpatcher_template" : "To the Sun",
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-25",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 150.0, 430.0, 39.0, 20.0 ],
+													"text" : "s OSC"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-24",
+													"linecount" : 3,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 150.0, 380.0, 454.0, 42.0 ],
+													"text" : "/amanuensis/message now calibrating. don't send any readings for 3 seconds unless it's to establish a minimal level of noise/movement in the stream that should be ignored and always counted as a note-off"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-23",
 													"maxclass" : "newobj",
@@ -36572,6 +36598,15 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-17", 0 ],
+													"order" : 1,
+													"source" : [ "obj-15", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-24", 0 ],
+													"order" : 0,
 													"source" : [ "obj-15", 0 ]
 												}
 
@@ -36647,6 +36682,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-23", 0 ],
 													"source" : [ "obj-22", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-25", 0 ],
+													"source" : [ "obj-24", 0 ]
 												}
 
 											}
@@ -43790,13 +43832,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-20",
-									"linecount" : 8,
+									"linecount" : 10,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 410.0, 100.0, 45.0, 98.0 ],
-									"text" : "\"Guitar (Guitar Hero X-plorer  ) control 20\" 31112"
+									"text" : "script connect Logitech_Dual_Actionlabeler 0 splitter 0"
 								}
 
 							}
@@ -43958,6 +44000,33 @@
 								}
 
 							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "list", "" ],
+									"text" : "hi \"Logitech Dual Action\"",
+									"varname" : "Logitech_Dual_Action"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"linecount" : 4,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 0.0, 20.0, 100.0, 0.0 ],
+									"text" : "sprintf symout \"Logitech Dual Action\" control %itoken=D%s",
+									"varname" : "Logitech_Dual_Actionlabeler"
+								}
+
+							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -44026,6 +44095,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
 									"source" : [ "obj-21", 0 ]
 								}
@@ -44063,6 +44139,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
 									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-28", 0 ]
 								}
 
 							}
@@ -45163,7 +45246,7 @@
 					"patching_rect" : [ 250.0, 590.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 118.0, 98.0, 38.0, 20.0 ],
-					"text" : "69",
+					"text" : "55",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "pitch_text[1]"
 				}
@@ -45703,23 +45786,23 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-58::obj-23::obj-3::obj-3" : [ "vst~[9]", "vst~", 0 ],
-			"obj-58::obj-29::obj-3::obj-3" : [ "vst~[12]", "vst~", 0 ],
-			"obj-57" : [ "Activate/Deactivate", "Activate/Deactivate", 0 ],
-			"obj-58::obj-3::obj-3::obj-3" : [ "vst~[14]", "vst~", 0 ],
-			"obj-72::obj-73" : [ "0_Clear_Method", "Clear Method", 0 ],
-			"obj-4" : [ "Activate/Deactivate[1]", "Atonal/Tonal", 0 ],
-			"obj-82" : [ "0_Duration[2]", "Duration", 0 ],
-			"obj-75" : [ "0_Duration[3]", "Duration", 0 ],
-			"obj-28" : [ "0_Duration[4]", "Duration", 0 ],
-			"obj-58::obj-12::obj-3::obj-3" : [ "vst~[16]", "vst~", 0 ],
-			"obj-86" : [ "Monitor Mix", "Monitor Mix", 1 ],
 			"obj-58::obj-6::obj-3::obj-3" : [ "vst~[11]", "vst~", 0 ],
+			"obj-28" : [ "0_Duration[4]", "Duration", 0 ],
 			"obj-58::obj-31::obj-3::obj-3" : [ "vst~[13]", "vst~", 0 ],
 			"obj-81" : [ "Recalibrate", "Recalibrate", 0 ],
-			"obj-84" : [ "0_Duration", "Duration", 0 ],
 			"obj-58::obj-20::obj-3::obj-3" : [ "vst~[15]", "vst~", 0 ],
 			"obj-58::obj-2::obj-3::obj-3" : [ "vst~[10]", "vst~", 0 ],
+			"obj-4" : [ "Activate/Deactivate[1]", "Atonal/Tonal", 0 ],
+			"obj-57" : [ "Activate/Deactivate", "Activate/Deactivate", 0 ],
+			"obj-58::obj-29::obj-3::obj-3" : [ "vst~[12]", "vst~", 0 ],
+			"obj-72::obj-73" : [ "0_Clear_Method", "Clear Method", 0 ],
+			"obj-82" : [ "0_Duration[2]", "Duration", 0 ],
+			"obj-75" : [ "0_Duration[3]", "Duration", 0 ],
+			"obj-84" : [ "0_Duration", "Duration", 0 ],
+			"obj-58::obj-3::obj-3::obj-3" : [ "vst~[14]", "vst~", 0 ],
+			"obj-86" : [ "Monitor Mix", "Monitor Mix", 1 ],
+			"obj-58::obj-23::obj-3::obj-3" : [ "vst~[9]", "vst~", 0 ],
+			"obj-58::obj-12::obj-3::obj-3" : [ "vst~[16]", "vst~", 0 ],
 			"parameterbanks" : 			{
 
 			}
