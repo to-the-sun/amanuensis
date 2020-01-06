@@ -1,33 +1,19 @@
 ﻿cleanup(index) {
     Buffer memory("memory");
-    Buffer last_cleaned("last_cleaned");
-    Buffer past_beats("past_beats");
     Buffer stats("stats");
     Buffer wake("wake");
     Buffer tolerance("tolerance");
-    Buffer palette_by_track("palette_by_track");
-    Buffer last_cleaned_cue("last_cleaned_cue");
-    Buffer prior_cue_by_palette("prior_cue_by_palette");
-    Buffer at_oldest_on_track("at_oldest_on_track");
     timestamp = 0;
     last_involved_at = 0;
     if(index >= 0) {    //Negative input averts cleanup
-        source = peek(memory, index, 2);      
-        track = abs(source);         
-        //oldest_index = peek(past_beats, 0) - 1;
-        //if(index == oldest_index) {
-        //cleanable = peek(at_oldest_on_track, 0, track);
-        //if(cleanable) {
-            last_involved_at = peek(memory, index, 1);
-            if(last_involved_at > 0) {
-                now = peek(stats, 0);
-                if(now - last_involved_at > peek(wake, 0) + peek(tolerance, 0)) {
-                    timestamp = peek(memory, index, 0);   //Send out its unique timestamp 1st
-                    poke(memory, -last_involved_at, index, 1);
-                }
+        last_involved_at = peek(memory, index, 1);
+        if(last_involved_at > 0) {
+            now = peek(stats, 0);
+            if(now - last_involved_at > peek(wake, 0) + peek(tolerance, 0)) {
+                timestamp = peek(memory, index, 0);   //Send out its unique timestamp 1st
+                poke(memory, -last_involved_at, index, 1);
             }
-        //}
+        }
     }
-    //return timestamp;
-    return index;
+    return timestamp;
 }

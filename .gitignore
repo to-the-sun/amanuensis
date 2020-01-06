@@ -13,3 +13,6 @@ desktop.ini
 Video Amanuensis/
 installer.iss
 .sync/
+.tmp.drivedownload/
+.vscode/
+node_modules/
