@@ -36,10 +36,10 @@ let oldFileRecycler = (location, createdModified, days, recycleDelete) => {
     let recycle = false;
     let del = false;
     let isAudio = false;
-
-    if(location[location.length - 1] != '\\' || location[location.length - 1] != '/'){
+//Seems to be adding the trailing / no matter what, but unnecessary anyway
+    /*if(location[location.length - 1] != '\\' || location[location.length - 1] != '/'){
         location += '/';
-    }
+    }*/
     
     //ternary operators to easily distinguish the user options
     createdModified == 1 ? modified = true : created = true;
@@ -71,6 +71,7 @@ let oldFileRecycler = (location, createdModified, days, recycleDelete) => {
                 else{
                     maxAPI.post("primed to delete "+elem + " in " + location + " because it's older than " + days + " days");
                     shell.echo("Your settings are not set to delete the folders and files older than " + days + " days!")
+                    maxAPI.outlet("prepped to delete  " + location + elem.name);
                 }
             }       
         } 
@@ -131,6 +132,7 @@ let oldFolderRecycler = (location, createdModified, days, recycleDelete = 0, unt
                         else{
                             maxAPI.post("primed to delete  " + location + elem.name + " because it's than " + days + " days");
                             shell.echo("Your settings are not set to delete the folders and files older than " + days + " days!")
+                            maxAPI.outlet("prepped to delete  " + location + elem.name);
                         }
                     }
                     if(deleteThis == true && !(thingsToDelete.join("").includes(elem.name))){
@@ -145,6 +147,7 @@ let oldFolderRecycler = (location, createdModified, days, recycleDelete = 0, unt
                 else{
                     maxAPI.post("primed to delete  " + location + elem.name + " because it's than " + days + " days");
                     shell.echo("Your settings are not set to delete the folders and files older than " + days + " days!")
+                    maxAPI.outlet("prepped to delete  " + location + elem.name);
                 }
             }
             //goes back to original pointed destination
@@ -168,6 +171,7 @@ const handlers = {
 		maxAPI.post("run " + path);
 	},
 	cleanupSongs: (...args) => {
+        maxAPI.post(...args);
         oldFileRecycler(...args);
 	},
 	cleanupProjects: (...args) => {
