@@ -16,3 +16,4 @@ installer.iss
 .tmp.drivedownload/
 .vscode/
 node_modules/
+*.log
