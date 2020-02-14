@@ -1,4 +1,34 @@
-﻿analyze(now, track, tolerance, wake) {
+﻿tolerate(interval) {
+    Buffer rhythm("rhythm");
+    Buffer tolerance("tolerance");
+    Buffer rhythm_peak("rhythm_peak");
+    Buffer rhythm_peaks("rhythm_peaks");
+    Buffer rhythm_cursor("rhythm_cursor");
+    Buffer cursor_debug("cursor_debug");
+    TOLERANCE = peek(tolerance, 0);
+    cursor = peek(rhythm_cursor, 0);
+    for(ms = round(interval - TOLERANCE); ms <= interval + TOLERANCE; ms += 1) {
+        incremented = peek(rhythm, ms) + 1;
+        poke(rhythm, incremented, ms);
+        peak = peek(rhythm_peak, 0);
+        if(incremented > peak) {
+            poke(rhythm_peak, incremented, 0);
+            poke(rhythm_peaks, incremented, 0, 0);
+            poke(rhythm_peaks, ms, 0, 1);
+            cursor = 1;
+        }
+        else if(incremented == peak) {
+            poke(rhythm_peaks, incremented, cursor, 0);
+            poke(rhythm_peaks, ms, cursor, 1);
+            cursor += 1;
+        }
+        //i = ms - round(interval - TOLERANCE); 
+        //poke(cursor_debug, cursor, i);
+    }
+    poke(rhythm_cursor, cursor, 0);
+    return interval;
+}
+analyze(now, track, TOLERANCE, wake) {
     Buffer stats("stats");
     Buffer memory("memory");
     Buffer involved_indices("involved_indices");
@@ -7,7 +37,7 @@
     Buffer unlocked_start("unlocked_start");
     Buffer scores("scores");
     Buffer scores_cursor("scores_cursor");
-    atom = tolerance * 2;
+    atom = TOLERANCE * 2;
     //Analyze beats
     involvements = 0;
     area = 0;
@@ -18,16 +48,16 @@
     while(past_beat) {
         interval = now - past_beat;
         sync = 0;
-        if(abs(interval) <= tolerance) { //Success: beats coincide. In theory abs() should be unnecessary as beats should never be out of order
+        if(abs(interval) <= TOLERANCE) { //Success: beats coincide. In theory abs() should be unnecessary as beats should never be out of order
             sync = 1;   //No need to check coinciding: next past_beat will be checked right away anyway
         }
-        else if(interval <= wake + tolerance) {
+        else if(interval <= wake + TOLERANCE) {
             target = past_beat - interval;
             check_index = beats_back + 1;
             check = peek(memory, check_index, 0);
             while(check) {
                 proximity = target - check;
-                if(abs(proximity) <= tolerance) {  //Success
+                if(abs(proximity) <= TOLERANCE) {  //Success
                     if(!click) { // Unlikely, but if 2 intervals sync at lock larger would otherwise be conveyed – smaller is ideal
                         click = interval;    //Interval conveyed through click for sake of locking.
                     }
@@ -46,7 +76,7 @@
                     }                                       //Cues/span might be placed negative?) YES. Therefore, check < song_start added
                     coinciding_check_index = check_index + 1;
                     coinciding_check = peek(memory, coinciding_check_index, 0);
-                    while(abs(target - coinciding_check) <= tolerance) {
+                    while(abs(target - coinciding_check) <= TOLERANCE) {
                         poke(involved_indices, coinciding_check_index, involvements);
                         involvements += 1;
                         if(peek(memory, coinciding_check_index, 2) > 0) {  //If track designates it's recitation
@@ -59,14 +89,14 @@
                     }
                     target -= interval;
                 }
-                else if(proximity > tolerance) {    //Overshot
+                else if(proximity > TOLERANCE) {    //Overshot
                     break;
                 }
                 check_index += 1;
                 check = peek(memory, check_index, 0);
             }
         }
-        else if(interval > wake + tolerance) {  //Overshot
+        else if(interval > wake + TOLERANCE) {  //Overshot
             break;
         }
         if(sync) {
@@ -81,6 +111,9 @@
             poke(scores, track, peek(scores_cursor, 0) + 2);
             poke(scores, -69, peek(scores_cursor, 0) + 3);  //Arbitrary delimiter
             poke(scores_cursor, peek(scores_cursor, 0) + 4, 0);
+        }
+        if(track > 0 && track == peek(memory, beats_back, 2)) { //Only recitation intervals on the same track
+            tolerate(interval);
         }
         beats_back += 1;
         past_beat = peek(memory, beats_back, 0);
