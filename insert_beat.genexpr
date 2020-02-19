@@ -23,7 +23,7 @@
     poke(memory, 0, 0, 3);  //Scores are updated in analyze() but are zeroed out here first in case 
     poke(memory, 0, 0, 4);  //of a miss (forced or otherwise)
     song_start = peek(starting_frame, 0);   
-    if(!song_start) {                       //if no song_start it's implied to be players, not recitation
+    if(!song_start) {                       //if no song_start it's implied to be jamming, not recitation
         first_hit = peek(unlocked_start, 0);
         if(first_hit) {
             poke(memory, 0, 0, 5);          //Set to 0 so final unlocked_start will be used at cleanup

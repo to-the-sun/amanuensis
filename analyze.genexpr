@@ -120,13 +120,13 @@ analyze(now, track, TOLERANCE, wake) {
     }
     //Tally scores for involved beats. Total stats cannot be known until analysis is complete
     if(involvements) {  //Why not just include index 0 as an involvement? Because while() sees index 0 as empty and stops
-        lock = peek(stats, 10);
-        score = area * (connections >= 1 || !lock);
+        //lock = peek(stats, 10);
+        song_start = peek(starting_frame, 0);
+        score = area * (connections >= 1 || !song_start);   //!song_start instead of !lock so as many cues placed as possible on 1st loop through (important for backing tracks)
         poke(memory, peek(memory, 0, 3) + score, 0, 3);
         poke(memory, peek(memory, 0, 4) + connections, 0, 4);
-        song_start = peek(starting_frame, 0);
         if(!song_start) {  //Update default song_start to 0 (necessary only when unlocked_start 1st set)
-            poke(memory, 0, 0, 5);    //If 0, cleanup will process it using unlocked_start
+            poke(memory, 0, 0, 5);    //If 0, Crucible will process it using unlocked_start
         }
         scoring_involvement = 0;
         scoring_index = peek(involved_indices, scoring_involvement);
@@ -135,7 +135,7 @@ analyze(now, track, TOLERANCE, wake) {
             poke(memory, peek(memory, scoring_index, 3) + score, scoring_index, 3);
             poke(memory, peek(memory, scoring_index, 4) + connections, scoring_index, 4);
             if(!song_start) {  //Update default song_start to 0 (necessary only when unlocked_start 1st set)
-                poke(memory, 0, scoring_index, 5);    //If 0, cleanup will process it using unlocked_start
+                poke(memory, 0, scoring_index, 5);    //If 0, Crucible will process it using unlocked_start
             }
             poke(involved_indices, 0, scoring_involvement);
             scoring_involvement += 1;
