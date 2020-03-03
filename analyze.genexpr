@@ -28,7 +28,7 @@
     poke(rhythm_cursor, cursor, 0);
     return interval;
 }
-analyze(now, track, TOLERANCE, wake) {
+analyze(now, track, TOLERANCE, WAKE) {
     Buffer stats("stats");
     Buffer memory("memory");
     Buffer involved_indices("involved_indices");
@@ -51,7 +51,7 @@ analyze(now, track, TOLERANCE, wake) {
         if(abs(interval) <= TOLERANCE) { //Success: beats coincide. In theory abs() should be unnecessary as beats should never be out of order
             sync = 1;   //No need to check coinciding: next past_beat will be checked right away anyway
         }
-        else if(interval <= wake + TOLERANCE) {
+        else if(interval <= WAKE + TOLERANCE) {
             target = past_beat - interval;
             check_index = beats_back + 1;
             check = peek(memory, check_index, 0);
@@ -96,7 +96,7 @@ analyze(now, track, TOLERANCE, wake) {
                 check = peek(memory, check_index, 0);
             }
         }
-        else if(interval > wake + TOLERANCE) {  //Overshot
+        else if(interval > WAKE + TOLERANCE) {  //Overshot
             break;
         }
         if(sync) {
