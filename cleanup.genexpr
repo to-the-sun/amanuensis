@@ -5,7 +5,7 @@
     Buffer tolerance("tolerance");
     timestamp = 0;
     last_involved_at = 0;
-    if(index >= 0) {    //Negative input averts cleanup
+    if(index >= 0) {    //Negative input averts cleanup (e.g. inverse could mark for cleanup what is still needed for crucible)
         last_involved_at = peek(memory, index, 1);
         if(last_involved_at > 0) {
             now = peek(stats, 0);

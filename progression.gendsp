@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ 42.0, 116.0, 812.0, 586.0 ],
+		"rect" : [ 42.0, 112.0, 1355.0, 836.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1003.33331298828125, 100.25, 28.0, 22.0 ],
+					"text" : "in 3"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "comment",
@@ -137,7 +149,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 557.333374000000049, 97.0, 30.0, 22.0 ],
-					"text" : "in 3"
+					"text" : "in 2"
 				}
 
 			}
@@ -187,27 +199,15 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.0, 100.25, 30.0, 22.0 ],
-					"text" : "in 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"code" : "require(\"log\");\r\n\r\nBuffer stats(\"stats\");\r\nBuffer beats(\"beats\");\r\nBuffer imported(\"imported\");\r\nBuffer pcf(\"pcf\");\r\nBuffer backing_lock_beat(\"backing_lock_beat\");\r\nBuffer play_ramp(\"play_ramp\");\r\nBuffer loop_points(\"loop_points\");\r\nBuffer comping(\"comping\");\r\nBuffer restart(\"restart\");\r\nBuffer starting_frame(\"starting_frame\");\r\nBuffer unlocked_start(\"unlocked_start\");\r\nBuffer song(\"song\");\r\nParam tolerance(9);\r\nParam wake(8000);\r\nParam backing_ms(0);\r\nParam loop(0);\r\nParam lead(0);\r\nHistory base(1);\r\nHistory ramp(0);\r\nHistory rec_ramp(0);\r\n//ramp should really just be in terms of elapsed, but it's working and it's tight, so whatever.\r\n//Also, combine ramp and rec_ramp\r\nlock = stats.peek(10);\r\nif(change(in2 != 0) == 1) {\t//the moment a backing track starts\r\n    now = stats.peek(0);\t\t\t\t\t\t\t\r\n\tpoke(unlocked_start, now, 0);\r\n}\r\n//Upon lock, start the ramp with a jump accounting for the progression through\r\n//a backing track if present. Not necessary when importing because the ramp\r\n//starts up by default\r\nif(change(lock) == 1) {\t//not sure why but this can't be inside if(lock)\r\n    now = stats.peek(0);\t\t\t\t\t\t\t\r\n    //starting_frame.poke(now, 0);\t\t//unlocked_start is preferable 1st loop through\t\t\r\n\tout1 = 1;\t//songstart sent directly (currently disabled outside)\r\n\tif(!imported.peek(0)) {\r\n\t\t//calculate length of backing track if present, setting song length to it\r\n\t\tbars = ceil(backing_ms);\r\n\t\tif(backing_ms) {\r\n\t\t\tstats.poke(bars, 1);\r\n\t\t}\r\n\t\tramp = in2 * bars;  //Jump\r\n\t}\r\n    else {\r\n        starting_frame.poke(now, 0);\t\t//unlocked_start is preferable 1st loop through, EXCEPT when importing (Because of scoring)\r\n    }\r\n} \r\nif(lock) {\r\n\tbars = stats.peek(1);\t//could be turned into a History if not modified externally (which might happen on import)?EDIT: it is now when the song grows\r\n\tloop_end = loop_points.peek(1) + lead;\r\n\tincrement = 1 / (SAMPLERATE / 1000);\r\n\tif(!in3) {\t\t\t\t//if no manual jump has been specified...\r\n\t\tramp += increment;\r\n\t}\r\n\telse {\r\n\t\tramp = in3;\t\t\t//make the jump\r\n\t}\r\n\tcomp = comping.peek(0);\t\r\n\tif(delta(floor(ramp))) {\t//upon entering each bar\r\n\t\t//blog(extendedlog, ramp);\t\t\t\t\t\t\t\t\t//based on whether\r\n\t\tif(ramp >= bars || (ramp >= loop_end && comp) || restart.peek(0)) {\t//comping, base &\r\n\t\t\tblog(extendedlog, bars);\t\t\t\t\t\t\t\t//peak of ramp set\r\n\t\t\tramp_base = 0;\t\t\t\t\t\t\t\t\t\t\t//to endpoints of\r\n\t\t\tif(comp) {\t\t\t\t\t\t\t\t\t\t\t\t//loop or song\r\n\t\t\t\tramp_base = loop_points.peek(0) - lead;\r\n\t\t\t}\r\n\t\t\tramp = ramp_base;\r\n\t\t\tout2 = 1;\r\n\t\t\tnow = stats.peek(0);\t\t\t\t\t\t\t\r\n\t\t\tstarting_frame.poke(now, 0);\r\n\t\t\tif(!loop) {\t\t//loop comes back around for a split second before edge~\r\n\t\t\t\tlock = 0;\t//triggers at control rate. The need for this all\r\n\t\t\t}\t\t\t\t//could hypothetically be eliminated with a full gen~ system\r\n\t\t\trestart.poke(0, 0);\r\n\t\t}\r\n\t}\r\n\trecording = stats.peek(9);\r\n\tif(recording && !comp) {\t\t\t\t//when recording,\r\n\t\trec_ramp += increment;\t//the write head extends separate from the read head\r\n\t}\r\n\telse {\r\n\t\tif(rec_ramp > ramp) {\t//if the record ramp is about to fall back to its base (loop)\r\n\t\t\tout4 = 1;\t\t\t//let the outside world know\r\n\t\t}\r\n\t\trec_ramp = ramp;\t\t//otherwise it stays snapped to it\r\n\t}\t\r\n\tstats.poke(rec_ramp, 5);\r\n\tplay_ramp.poke(ramp, 0);\r\n\tout3 = ramp;\t//this should be the only one used anymore\r\n}\r\nelse {\t//upon import ramp misses initial note(s). A gen~ seq~   would fix*True?\r\n\tout3 = -1;\r\n}\r\nif(delta(lock) == -1) {\r\n\tstats.poke(0, 6); //clickTrack = 0  //Should be obsolete, but initial uses of click (found by analyze()) upon lock still look for stats(6) to be 0\r\n\tstats.poke(-1, 5); //phasor~= 0\r\n}",
+					"code" : "require(\"log\");\r\n//require(\"get_mode\");\r\nquantize_song(length) {\r\n    Buffer stats(\"stats\");\r\n    Buffer mode_interval(\"mode_interval\"); \r\n    beat = peek(mode_interval, 0);\r\n    //beat = get_mode(0);\t//crashes for some reason!\r\n    beats = 0;\r\n    if(beat) {\r\n        beats = ceil(length / beat) * beat;\t//can't add 1 then floor because it adds an extra beat more often than just the 0-case\r\n    }\r\n    if(!beats) {\r\n        beats = beat;\t//always at least one beat in the song\r\n    }\r\n    poke(stats, max(peek(stats, 1), beats), 1);\r\n    return beats;\r\n}\r\nBuffer stats(\"stats\");\r\nBuffer imported(\"imported\");\r\nBuffer play_ramp(\"play_ramp\");\r\nBuffer loop_points(\"loop_points\");\r\nBuffer comping(\"comping\");\r\nBuffer restart(\"restart\");\r\nBuffer starting_frame(\"starting_frame\");\r\nBuffer unlocked_start(\"unlocked_start\");\r\nParam tolerance(9);\r\nParam wake(8000);\r\nParam backing_ms(0);\r\nParam loop(0);\r\nParam lead(0);\r\nHistory base(1);\r\nHistory ramp(0);\r\nHistory rec_ramp(0);\r\n//ramp should really just be in terms of elapsed, but it's working and it's tight, so whatever.\r\n//Also, combine ramp and rec_ramp\r\nlock = stats.peek(10);\r\nif(change(in2 != 0) == 1) {\t//the moment a backing track starts\r\n    now = stats.peek(0);\t\t\t\t\t\t\t\r\n\tpoke(unlocked_start, now, 0);\r\n}\r\n//Upon lock, start the ramp with a jump accounting for the progression through\r\n//a backing track if present. Not necessary when importing because the ramp\r\n//starts up by default\r\nif(change(lock) == 1) {\t//not sure why but this can't be inside if(lock)\r\n    now = stats.peek(0);\t\t\t\t\t\t\t\r\n    //starting_frame.poke(now, 0);\t\t//unlocked_start is preferable 1st loop through\t\t\r\n\tout1 = 1;\t//songstart sent directly (currently disabled outside)\r\n\tif(!imported.peek(0)) {\r\n\t\t//calculate length of backing track if present, setting song length to it\r\n\t\tbars = ceil(backing_ms);\r\n\t\tif(backing_ms) {\r\n\t\t\tstats.poke(bars, 1);\r\n\t\t}\r\n\t\tramp = in2 * bars;  //Jump\r\n\t}\r\n    else {\r\n        starting_frame.poke(now, 0);\t\t//unlocked_start is preferable 1st loop through, EXCEPT when importing (Because of scoring)\r\n    }\r\n} \r\nif(lock) {\r\n\tincrement = 1 / (SAMPLERATE / 1000);\r\n\tif(!in3) {\t\t\t\t//if no manual jump has been specified...\r\n\t\tramp += increment;\r\n\t}\r\n\telse {\r\n\t\tramp = in3;\t\t\t//make the jump\r\n\t}\r\n\tif(delta(floor(ramp))) {\t//upon entering each bar\r\n        bars = stats.peek(1);\r\n        loop_end = loop_points.peek(1) + lead;\r\n        comp = comping.peek(0);\t\r\n\t\tif(ramp >= bars || (ramp >= loop_end && comp) || restart.peek(0)) {\t\r\n\t\t\tblog(extendedlog, bars);\t\t\t\t\t\t\t\t//peak of ramp set\r\n\t\t\tramp_base = 0;\t\t\t\t\t\t\t\t\t\t\t//to endpoints of\r\n\t\t\tif(comp) {\t\t\t\t\t\t\t\t\t\t\t\t//loop or song\r\n\t\t\t\tramp_base = loop_points.peek(0) - lead;\r\n\t\t\t}\r\n\t\t\tramp = ramp_base;\r\n\t\t\tout2 = 1;\r\n\t\t\tnow = stats.peek(0);\t\t\t\t\t\t\t\r\n\t\t\tstarting_frame.poke(now, 0);\r\n\t\t\tif(!loop) {\t\t//loop comes back around for a split second before edge~\r\n\t\t\t\tlock = 0;\t//triggers at control rate. The need for this all\r\n\t\t\t}\t\t\t\t//could hypothetically be eliminated with a full gen~ system\r\n\t\t\trestart.poke(0, 0);\r\n\t\t}\r\n        else if(ramp > bars) {   //if() not strictly necessary but should be more efficient\r\n            //quantize_song(ramp);\r\n        }\r\n\t}\r\n\tplay_ramp.poke(ramp, 0);\r\n\tout3 = ramp;\t//this should be the only one used anymore\r\n}\r\nelse {\t//upon import ramp misses initial note(s). A gen~ seq~   would fix*True?\r\n\tout3 = -1;\r\n}\r\nif(delta(lock) == -1) { \r\n\tstats.poke(0, 6); //clickTrack = 0  //Should be obsolete, but initial uses of click (found by analyze()) upon lock still look for stats(6) to be 0\r\n\tstats.poke(-1, 5); //phasor~= 0\r\n}",
 					"fontface" : 0,
 					"fontname" : "Lucida Console",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "codebox",
 					"numinlets" : 3,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 4.0, 132.25, 1018.33331298828125, 355.75 ]
 				}
 
@@ -279,7 +279,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 2 ],
+					"destination" : [ "obj-28", 1 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -288,13 +288,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 1 ],
-					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -321,8 +314,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-28", 3 ]
+					"destination" : [ "obj-28", 2 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

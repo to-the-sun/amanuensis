@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 147.0, 1336.0, 804.0 ],
+		"rect" : [ 42.0, 144.0, 1336.0, 804.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -39,12 +39,1090 @@
 		"subpatcher_template" : "To the Sun",
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-60",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 435.5, 0.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 435.5, 20.0, 66.0, 20.0 ],
+					"text" : "prepend limit"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 958.75, 90.0, 111.0, 20.0 ],
+					"text" : "gen.log 100 squelchlog"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 862.5, 90.0, 41.0, 20.0 ],
+					"text" : "change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 805.5, 80.0, 41.0, 20.0 ],
+					"text" : "change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 805.5, 100.0, 145.0, 20.0 ],
+					"text" : "prepend activated envelope-ID"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 862.5, 150.0, 139.0, 20.0 ],
+					"text" : "logExternally(Frame+Phasor)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 862.5, 120.0, 157.0, 20.0 ],
+					"text" : "prepend Deactivated envelope-ID"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 849.5, 70.0, 32.0, 20.0 ],
+					"text" : "sel 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-66",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 792.5, 60.0, 32.0, 20.0 ],
+					"text" : "sel 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 42.0, 147.0, 754.0, 532.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 2,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 2,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "To the Sun",
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-45",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 310.333333333333314, 220.0, 29.5, 20.0 ],
+									"text" : "- 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-44",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"patching_rect" : [ 190.333333333333314, 180.0, 41.0, 20.0 ],
+									"text" : "t i bang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-38",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 150.0, 240.0, 29.5, 20.0 ],
+									"text" : "join"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-36",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 260.0, 240.0, 29.5, 20.0 ],
+									"text" : "join"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 200.0, 240.0, 29.5, 20.0 ],
+									"text" : "join"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "int" ],
+									"patching_rect" : [ 140.0, 120.0, 100.0, 20.0 ],
+									"text" : "t bang 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 240.0, 100.0, 50.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 240.0, 100.0, 29.5, 20.0 ],
+									"text" : "i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 240.0, 130.0, 120.0, 20.0 ],
+									"text" : "$1 99.9 5 something else"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 260.333333333333314, 220.0, 54.0, 20.0 ],
+									"text" : "prepend 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 200.0, 220.0, 54.0, 20.0 ],
+									"text" : "prepend 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 150.5, 220.0, 54.0, 20.0 ],
+									"text" : "prepend 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 5,
+									"numoutlets" : 4,
+									"outlettype" : [ "int", "", "", "int" ],
+									"patching_rect" : [ 280.0, 190.0, 61.0, 20.0 ],
+									"text" : "counter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 140.0, 270.0, 61.0, 20.0 ],
+									"text" : "prepend set"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-21",
+									"maxclass" : "jit.cellblock",
+									"numinlets" : 2,
+									"numoutlets" : 4,
+									"outlettype" : [ "list", "", "", "" ],
+									"patching_rect" : [ 140.0, 292.0, 340.0, 198.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 140.0, 180.0, 50.5, 20.0 ],
+									"text" : "unjoin 3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 140.0, 160.0, 110.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0
+									}
+,
+									"text" : "coll envelope_rankings"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 140.0, 140.0, 78.0, 20.0 ],
+									"text" : "sort 1 1, dump"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 140.0, 100.0, 95.0, 20.0 ],
+									"text" : "metro 99 @active 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 30.0, 120.0, 110.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0
+									}
+,
+									"text" : "coll envelope_rankings"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 117.333333333333329, 80.0, 68.0, 20.0 ],
+									"text" : "peek~ cues 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 30.0, 100.0, 120.0, 20.0 ],
+									"text" : "join 4"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"patching_rect" : [ 30.0, 50.0, 29.5, 20.0 ],
+									"text" : "t i i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 50.0, 80.0, 68.0, 20.0 ],
+									"text" : "peek~ cues 7"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 30.0, 20.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 181.0, 80.0, 68.0, 20.0 ],
+									"text" : "peek~ cues 2"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-44", 0 ],
+									"source" : [ "obj-19", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 1 ],
+									"source" : [ "obj-20", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-38", 1 ],
+									"source" : [ "obj-20", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"order" : 2,
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"order" : 1,
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"order" : 0,
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-38", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
+									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 2 ],
+									"source" : [ "obj-33", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"order" : 2,
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 1,
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"order" : 0,
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-44", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-45", 0 ],
+									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 1 ],
+									"source" : [ "obj-45", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 2 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 3 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 606.5, 70.0, 101.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p envelope_rankings"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"patching_rect" : [ 270.0, 110.0, 179.0, 20.0 ],
+					"text" : "buffer~ scan_envelopes @samps 99 8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"cols" : 8,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hscroll" : 0,
+					"id" : "obj-61",
+					"maxclass" : "jit.cellblock",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "list", "", "", "" ],
+					"patching_rect" : [ 668.0, 175.0, 534.0, 25.0 ],
+					"rows" : 1,
+					"vscroll" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 668.0, 119.0, 108.0, 20.0 ],
+					"text" : "mc.sig~ @chans 8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "setvalue", "int" ],
+					"patching_rect" : [ 668.0, 73.0, 50.0, 20.0 ],
+					"text" : "mc.target"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"patcher" : 						{
+							"fileversion" : 1,
+							"appversion" : 							{
+								"major" : 8,
+								"minor" : 1,
+								"revision" : 1,
+								"architecture" : "x64",
+								"modernui" : 1
+							}
+,
+							"classnamespace" : "dsp.gen",
+							"rect" : [ 42.0, 144.0, 1336.0, 804.0 ],
+							"bglocked" : 0,
+							"openinpresentation" : 0,
+							"default_fontsize" : 10.0,
+							"default_fontface" : 0,
+							"default_fontname" : "Arial",
+							"gridonopen" : 2,
+							"gridsize" : [ 10.0, 10.0 ],
+							"gridsnaponopen" : 2,
+							"objectsnaponopen" : 1,
+							"statusbarvisible" : 2,
+							"toolbarvisible" : 1,
+							"lefttoolbarpinned" : 0,
+							"toptoolbarpinned" : 0,
+							"righttoolbarpinned" : 0,
+							"bottomtoolbarpinned" : 0,
+							"toolbars_unpinned_last_save" : 0,
+							"tallnewobj" : 0,
+							"boxanimatetime" : 200,
+							"enablehscroll" : 1,
+							"enablevscroll" : 1,
+							"devicewidth" : 0.0,
+							"description" : "",
+							"digest" : "",
+							"tags" : "",
+							"style" : "",
+							"subpatcher_template" : "To the Sun",
+							"boxes" : [ 								{
+									"box" : 									{
+										"maxclass" : "newobj",
+										"text" : "buffer squelchlog",
+										"numoutlets" : 2,
+										"id" : "obj-10",
+										"outlettype" : [ "", "" ],
+										"patching_rect" : [ 570.0, 10.0, 84.0, 20.0 ],
+										"numinlets" : 0
+									}
+
+								}
+, 								{
+									"box" : 									{
+										"maxclass" : "newobj",
+										"text" : "out 5",
+										"numoutlets" : 0,
+										"id" : "obj-9",
+										"patching_rect" : [ 701.0, 540.0, 31.0, 20.0 ],
+										"numinlets" : 1
+									}
+
+								}
+, 								{
+									"box" : 									{
+										"maxclass" : "newobj",
+										"text" : "in 3",
+										"numoutlets" : 1,
+										"id" : "obj-8",
+										"outlettype" : [ "" ],
+										"patching_rect" : [ 701.0, 0.0, 25.0, 20.0 ],
+										"numinlets" : 0
+									}
+
+								}
+, 								{
+									"box" : 									{
+										"maxclass" : "newobj",
+										"text" : "out 4",
+										"numoutlets" : 0,
+										"id" : "obj-7",
+										"patching_rect" : [ 541.0, 540.0, 31.0, 20.0 ],
+										"numinlets" : 1
+									}
+
+								}
+, 								{
+									"box" : 									{
+										"maxclass" : "newobj",
+										"text" : "out 3",
+										"numoutlets" : 0,
+										"id" : "obj-6",
+										"patching_rect" : [ 381.0, 540.0, 31.0, 20.0 ],
+										"numinlets" : 1
+									}
+
+								}
+, 								{
+									"box" : 									{
+										"maxclass" : "newobj",
+										"text" : "out 2",
+										"numoutlets" : 0,
+										"id" : "obj-5",
+										"patching_rect" : [ 301.0, 540.0, 31.0, 20.0 ],
+										"numinlets" : 1
+									}
+
+								}
+, 								{
+									"box" : 									{
+										"maxclass" : "newobj",
+										"text" : "in 1",
+										"numoutlets" : 1,
+										"id" : "obj-1",
+										"outlettype" : [ "" ],
+										"patching_rect" : [ 10.0, 4.0, 25.0, 20.0 ],
+										"numinlets" : 0
+									}
+
+								}
+, 								{
+									"box" : 									{
+										"maxclass" : "newobj",
+										"text" : "in 2",
+										"numoutlets" : 1,
+										"id" : "obj-2",
+										"outlettype" : [ "" ],
+										"patching_rect" : [ 305.0, 14.0, 25.0, 20.0 ],
+										"numinlets" : 0
+									}
+
+								}
+, 								{
+									"box" : 									{
+										"maxclass" : "newobj",
+										"text" : "out 1",
+										"numoutlets" : 0,
+										"id" : "obj-4",
+										"patching_rect" : [ 176.0, 538.0, 31.0, 20.0 ],
+										"numinlets" : 1
+									}
+
+								}
+, 								{
+									"box" : 									{
+										"maxclass" : "codebox",
+										"fontname" : "Lucida Console",
+										"numoutlets" : 5,
+										"fontface" : 0,
+										"id" : "obj-3",
+										"outlettype" : [ "", "", "", "", "" ],
+										"patching_rect" : [ 7.5, 30.0, 712.5, 500.0 ],
+										"fontsize" : 10.0,
+										"numinlets" : 3,
+										"code" : "//require(\"filter_cue\");\r\n//require(\"crucible\");\r\nrequire(\"log\");\r\n//require(\"ranked_envelopes_crucible\");\r\n//require(\"analyze\");\r\n//require(\"insert_beat\");\r\nBuffer wake(\"wake\");\r\nBuffer tolerance(\"tolerance\");\r\nBuffer sequence(\"sequence\");\r\nBuffer cues(\"cues\");\r\nBuffer rankings(\"rankings\");\r\n//Buffer envelope_domain(\"envelope_domain\");\r\nBuffer stats(\"stats\");\r\nBuffer beats_by_track(\"beats_by_track\");\r\nBuffer prior_ms_by_track(\"prior_ms_by_track\");\r\nBuffer palette_by_track(\"palette_by_track\");\r\nBuffer scan_envelopes(\"scan_envelopes\");\r\nBuffer palette(\"palette.0\");\r\nParam track_volume(1); \r\nParam ramp(0);\r\nParam limit(1.9);\r\nHistory voices(0);\r\nHistory record(0);\r\n//History concurrent(0);\r\nHistory timestamp(0);\r\nHistory debug(0);\r\nif(delta(in3)) {           //Each songstart playing cues must fall silent on product recording\r\n    record = in3;          //Can't just 0 out record or it could click\r\n}\r\nout1 = 0;\r\nout3 = 0;\r\nout4 = 0;\r\n//The sequencer\r\nlock = peek(stats, 10);\r\nif(lock) {\r\n    //increment = delta(in1);\r\n    increment = 1;\r\n    if(increment) {    //As long as the ramp is actually moving (still necessary if already locked?)\r\n        length = peek(beats_by_track, mc_channel);\r\n        if(length) {\r\n            //out1 = length;\r\n            looped = elapsed % length;\r\n            ms = floor(looped);\r\n            prior_ms = floor(looped - increment);\r\n            if(ms != prior_ms) {\r\n                ID = peek(sequence, ms);\r\n                if(peek(cues, ID, 6) == mc_channel) {\t//on the correct track\r\n                    //span1 = filter_cue(ID, 0); \r\n                    //span2 = filter_cue(ID, 1);\r\n                    //if(span1 || span2) {\r\n    \t\t\t\tscore = peek(cues, ID, 0);\r\n                    if(score) {\r\n                        slot = 1;\r\n                        occupied = peek(scan_envelopes, slot);\r\n                        while(occupied) {\r\n                            slot += 1;\r\n                            occupied = peek(scan_envelopes, slot);\r\n                        }\r\n                        poke(scan_envelopes, peek(cues, ID, 3), slot, 0);       //play (assumes Max and palette file are the same play rate)\r\n                        //poke(scan_envelopes, round(mstosamps(peek(cues, ID, 3))), slot, 0);       //Starting sample (assumes Max and palette file are the same sample rate)\r\n                        attack = peek(cues, ID, 4);\r\n                        //attack_by = 1 / mstosamps(attack);\r\n                        attack_by = 1 / attack;\r\n                        release = peek(cues, ID, 5);\r\n                        poke(scan_envelopes, attack_by, slot, 1);                          //volume\r\n                        poke(scan_envelopes, attack_by, slot, 2);                          //increment\r\n                        poke(scan_envelopes, release, slot, 3);                                  //release\r\n                        poke(scan_envelopes, peek(cues, ID, 6), slot, 4);                                  //track\r\n                        poke(scan_envelopes, 0, slot, 5);       //samples played. Must divide samples into start + played to avoid precision bug: large numbers stored in buffer~ would no longer increment by 1 (would by 2)\r\n                        poke(scan_envelopes, ID, slot, 6);       //easier/more efficient to store ID also even though others could be derived from it during envelope\r\n                        voices = max(voices, slot);\r\n                        poke(scan_envelopes, score, slot, 7);\r\n                        /*for(rank = dim(rankings) - 2; rank >= 0; rank -= 1) {\r\n                            ranked_envelope = peek(rankings, rank, mc_channel);\r\n                            ranked_score = peek(scan_envelopes, ranked_envelope, 7);\r\n                            if(score > ranked_score) {\r\n                                poke(rankings, ranked_envelope, rank + 1, mc_channel);\r\n                            }\r\n                            else {\r\n                                poke(rankings, slot, rank + 1, mc_channel);\r\n                                break;\r\n                            }\r\n                        }*/\r\n                        //poke(envelope_domain, max(peek(envelope_domain, 1), in2 + attack + release), 1);    //Potentially extend squelch check range (In absolute frames to wrap later)\r\n                        //timestamp = in2;\r\n                        debug = ID;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n//The speaker\r\npolyphony = 0;\r\nconcurrent = 0;\r\nlowest_score = 0;\r\nlowest_envelope = 0;\r\nvolumes = 0;\r\nfor(envelope = 1; envelope <= voices; envelope += 1) {\r\n    if(mc_channel == peek(scan_envelopes, envelope, 4)) {\r\n        //Play\r\n        //concurrent += 1;\r\n        //played = peek(scan_envelopes, envelope, 5);\r\n        //play = peek(scan_envelopes, envelope, 0) + played;\r\n        //amplitude = peek(palette, play);\r\n        volume = peek(scan_envelopes, envelope, 1);\r\n        //polyphony += amplitude * volume;\r\n        //Update\r\n        //poke(scan_envelopes, played + 1, envelope, 5);\r\n        volume += peek(scan_envelopes, envelope, 2);\r\n        poke(scan_envelopes, volume, envelope, 1);\r\n        ranked_score = peek(scan_envelopes, envelope, 7);\r\n        if(!lowest_score || (ranked_score < lowest_score && ranked_score)) {\r\n            lowest_score = ranked_score;\r\n            lowest_envelope = envelope;\r\n        }\r\n        if(volume >= 1) {\r\n            release = peek(scan_envelopes, envelope, 3);\r\n            //poke(scan_envelopes, -1 / mstosamps(release), envelope, 2);   //release_by\r\n            poke(scan_envelopes, -1 / release, envelope, 2);   //release_by\r\n            timestamp = in2; \r\n            poke(scan_envelopes, 1, envelope, 1);\t\t//volume should land on 1 exactly, but just to be safe\r\n            //debug = polyphony;\r\n        }\r\n        else if(volume <= 0) { \r\n            ID = peek(scan_envelopes, envelope, 6);\r\n            poke(cues, 1, ID, 1);                      //Successfully completed envelope reactivates cue\r\n\t\t\tout2 = ID;\r\n            for(i = 0; i < channels(scan_envelopes); i += 1) {\r\n                poke(scan_envelopes, 0, envelope, i);\r\n            }\r\n        }\r\n\t\tvolumes += volume;\r\n    }\r\n}\r\n//polyphony /= slide(max(concurrent, 1), 9999, 99999);\r\n//polyphony *= track_volume;\r\n//Squelch scan_envelopes\r\nif(volumes > limit) {\r\n    ID = peek(scan_envelopes, lowest_envelope, 6);\r\n    poke(cues, 0, ID, 1);                     \t\t\t//squelched envelope deactivates cue\r\n    out3 = ID; \r\n    blog(squelchlog, lowest_score);\r\n    blog(squelchlog, lowest_envelope);\r\n    for(i = 0; i < channels(scan_envelopes); i += 1) {  //Don't bother with release\r\n        poke(scan_envelopes, 0, lowest_envelope, i);    //Can't successfully complete or it will reactivate\r\n    }\r\n    /*for(rank = dim(rankings) - 1; rank >= 0; rank -= 1) {\r\n        ranked_envelope = peek(rankings, rank, mc_channel);\r\n        if(ranked_envelope) {\r\n            //poke(scan_envelopes, -1 / mstosamps(peek(scan_envelopes, ranked_envelope, 3)), ranked_envelope, 2);   //release_by\r\n            //poke(scan_envelopes, -1 / peek(scan_envelopes, ranked_envelope, 3), ranked_envelope, 2);   //release_by\r\n            poke(rankings, 0, rank, mc_channel);\r\n            ID = peek(scan_envelopes, ranked_envelope, 6);\r\n            poke(cues, 0, ID, 1);                     \t\t\t//squelched envelope deactivates cue\r\n\t\t\tout3 = ID; \r\n            for(i = 0; i < channels(scan_envelopes); i += 1) {  //Don't bother with release\r\n                poke(scan_envelopes, 0, ranked_envelope, i);    //Can't successfully complete or it will reactivate\r\n            }\r\n            break;\r\n        }\r\n    }*/\r\n}\r\nout1 = ramp + increment;\r\nout4 = debug;\r\n//out5 = peek(scan_envelopes, mc_channel, 2);\r\nout5 = peek(scan_envelopes, envelope, 2);"
+									}
+
+								}
+ ],
+							"lines" : [ 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 4 ],
+										"destination" : [ "obj-9", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-8", 0 ],
+										"destination" : [ "obj-3", 2 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 0 ],
+										"destination" : [ "obj-4", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-1", 0 ],
+										"destination" : [ "obj-3", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 1 ],
+										"destination" : [ "obj-5", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 2 ],
+										"destination" : [ "obj-6", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-2", 0 ],
+										"destination" : [ "obj-3", 1 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 3 ],
+										"destination" : [ "obj-7", 0 ]
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 5,
+					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
+					"patching_rect" : [ 435.5, 40.0, 310.0, 20.0 ],
+					"text" : "mc.gen~ @chans 16 @busymapname tracks"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"patching_rect" : [ 120.0, 70.0, 150.0, 20.0 ],
+					"text" : "buffer~ rankings @samps 10 17"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-54",
+					"maxclass" : "mc.number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "multichannelsignal", "float", "int" ],
+					"patching_rect" : [ 654.0, 260.0, 56.0, 32.0 ],
+					"sig" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 634.0, 260.0, 80.0, 13.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 290.0, 150.0, 41.0 ],
+					"text" : " technically meter animation should come from before gain is applied, but whatever"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 30.0, 115.0, 20.0 ],
+					"patching_rect" : [ 270.0, 70.0, 115.0, 20.0 ],
 					"text" : "loadmess format float64"
 				}
 
@@ -60,7 +1138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 554.666666666666742, 240.0, 112.333333333333314, 20.0 ],
+					"patching_rect" : [ 554.666666666666742, 280.0, 112.333333333333314, 20.0 ],
 					"sig" : 0.0
 				}
 
@@ -76,7 +1154,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 600.0, 280.0, 56.0, 20.0 ],
+					"patching_rect" : [ 600.0, 320.0, 56.0, 20.0 ],
 					"sig" : 0.0
 				}
 
@@ -88,7 +1166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 600.0, 260.0, 36.0, 20.0 ],
+					"patching_rect" : [ 600.0, 300.0, 36.0, 20.0 ],
 					"text" : "delta~"
 				}
 
@@ -104,7 +1182,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 460.0, 240.0, 104.000001430511475, 20.0 ],
+					"patching_rect" : [ 460.0, 280.0, 104.000001430511475, 20.0 ],
 					"sig" : 0.0
 				}
 
@@ -116,7 +1194,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 310.0, 260.0, 57.0, 20.0 ],
+					"patching_rect" : [ 310.0, 300.0, 57.0, 20.0 ],
 					"text" : "clip~ 1. 16."
 				}
 
@@ -128,8 +1206,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 310.0, 280.0, 131.0, 20.0 ],
-					"text" : "rampsmooth~ 99999 99999"
+					"patching_rect" : [ 310.0, 320.0, 126.0, 20.0 ],
+					"text" : "rampsmooth~ 9999 99999"
 				}
 
 			}
@@ -140,7 +1218,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 310.0, 240.0, 49.0, 20.0 ],
+					"patching_rect" : [ 310.0, 280.0, 49.0, 20.0 ],
 					"text" : "mc.sum~"
 				}
 
@@ -152,7 +1230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 180.0, 210.0, 49.0, 20.0 ],
+					"patching_rect" : [ 180.0, 250.0, 49.0, 20.0 ],
 					"text" : "mc.sum~"
 				}
 
@@ -164,7 +1242,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 580.0, 290.0, 80.0, 13.0 ]
+					"patching_rect" : [ 580.0, 330.0, 80.0, 13.0 ]
 				}
 
 			}
@@ -175,7 +1253,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 560.0, 30.0, 69.0, 20.0 ],
+					"patching_rect" : [ 560.0, 70.0, 69.0, 20.0 ],
 					"text" : "printbusymap"
 				}
 
@@ -517,7 +1595,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 458.0, 50.0, 143.0, 20.0 ],
+					"patching_rect" : [ 458.0, 90.0, 143.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -537,7 +1615,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 460.0, 70.0, 173.0, 20.0 ],
+					"patching_rect" : [ 460.0, 110.0, 173.0, 20.0 ],
 					"text" : "mc.voiceallocator~ 16 @name tracks"
 				}
 
@@ -865,13 +1943,13 @@
 , 							{
 								"name" : "Custom Default Regular",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -880,13 +1958,13 @@
 , 							{
 								"name" : "Custom Default Regular-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -895,13 +1973,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -910,13 +1988,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -925,13 +2003,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -940,8 +2018,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-10",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -950,8 +2028,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-11",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -960,13 +2038,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -975,13 +2053,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -990,13 +2068,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1005,13 +2083,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1020,13 +2098,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1035,13 +2113,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1050,13 +2128,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1065,13 +2143,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1080,13 +2158,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1095,13 +2173,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1110,13 +2188,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1125,13 +2203,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1140,13 +2218,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1155,13 +2233,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1170,13 +2248,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1185,13 +2263,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1200,13 +2278,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1215,13 +2293,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-4-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1230,13 +2308,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1245,13 +2323,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1260,13 +2338,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1275,13 +2353,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1290,13 +2368,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1305,13 +2383,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1320,13 +2398,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1335,13 +2413,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1350,13 +2428,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1365,13 +2443,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1380,13 +2458,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1395,13 +2473,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1410,13 +2488,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1425,13 +2503,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1440,13 +2518,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1455,13 +2533,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1470,13 +2548,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1485,13 +2563,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1500,8 +2578,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-2",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -1510,13 +2588,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1525,13 +2603,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1540,13 +2618,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1555,13 +2633,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1570,13 +2648,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1585,8 +2663,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-3",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -1595,13 +2673,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-3-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1610,13 +2688,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1625,13 +2703,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1640,8 +2718,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-4-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -1650,13 +2728,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-4-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1665,13 +2743,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1680,13 +2758,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1695,8 +2773,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-5-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -1705,8 +2783,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-6",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -1715,8 +2793,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-7",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -1725,8 +2803,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-8",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -1735,13 +2813,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1750,8 +2828,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -1760,13 +2838,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1775,13 +2853,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1790,13 +2868,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1805,13 +2883,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1820,13 +2898,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1835,8 +2913,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-4",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -1845,13 +2923,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1860,13 +2938,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1875,13 +2953,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1890,13 +2968,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1905,13 +2983,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1920,8 +2998,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-7-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -1930,13 +3008,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-7-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1945,13 +3023,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-7-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1960,13 +3038,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1975,8 +3053,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-8-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -1985,8 +3063,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-9",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -1995,13 +3073,13 @@
 , 							{
 								"name" : "Custom Default Regular-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2010,13 +3088,13 @@
 , 							{
 								"name" : "Custom Default Regular-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2025,8 +3103,8 @@
 , 							{
 								"name" : "Custom Default Regular-3-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -2035,13 +3113,13 @@
 , 							{
 								"name" : "Custom Default Regular-3-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2050,13 +3128,13 @@
 , 							{
 								"name" : "Custom Default Regular-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2065,13 +3143,13 @@
 , 							{
 								"name" : "Custom Default Regular-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2080,13 +3158,13 @@
 , 							{
 								"name" : "Custom Default Regular-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2095,13 +3173,13 @@
 , 							{
 								"name" : "Custom Default Regular-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2110,13 +3188,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2125,13 +3203,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2140,13 +3218,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2155,13 +3233,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2170,13 +3248,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2185,13 +3263,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2200,13 +3278,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2215,13 +3293,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2230,13 +3308,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2245,13 +3323,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2260,13 +3338,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2275,13 +3353,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2290,13 +3368,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2305,13 +3383,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2320,13 +3398,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2335,13 +3413,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2350,13 +3428,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2365,13 +3443,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-4-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2380,13 +3458,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2395,13 +3473,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2410,13 +3488,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2425,13 +3503,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2440,13 +3518,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2455,13 +3533,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2470,13 +3548,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2485,13 +3563,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2500,13 +3578,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2515,13 +3593,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2530,13 +3608,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2545,13 +3623,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2560,13 +3638,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2575,13 +3653,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2590,13 +3668,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2605,13 +3683,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2620,13 +3698,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2635,13 +3713,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2650,13 +3728,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2665,13 +3743,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2680,13 +3758,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2695,13 +3773,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2710,13 +3788,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2725,13 +3803,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2740,13 +3818,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2755,13 +3833,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-3-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2770,13 +3848,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2785,13 +3863,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2800,13 +3878,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2815,13 +3893,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-4-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2830,13 +3908,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2845,13 +3923,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2860,13 +3938,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2875,13 +3953,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2890,13 +3968,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2905,13 +3983,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2920,13 +3998,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2935,13 +4013,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2950,13 +4028,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2965,13 +4043,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2980,13 +4058,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2995,13 +4073,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3010,13 +4088,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3025,13 +4103,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3040,13 +4118,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3055,13 +4133,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3070,13 +4148,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3085,13 +4163,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3100,13 +4178,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3115,13 +4193,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3130,13 +4208,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3145,13 +4223,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3160,13 +4238,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3175,13 +4253,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3190,13 +4268,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3205,13 +4283,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-3-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3220,13 +4298,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3235,13 +4313,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3250,13 +4328,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3265,13 +4343,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-4-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3280,13 +4358,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3295,13 +4373,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3310,13 +4388,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3325,13 +4403,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3340,13 +4418,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3355,13 +4433,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3370,13 +4448,13 @@
 , 							{
 								"name" : "Custom Default Regular-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3385,13 +4463,13 @@
 , 							{
 								"name" : "Custom Default Regular-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3400,16 +4478,16 @@
 , 							{
 								"name" : "Custom Default-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3427,16 +4505,16 @@
 , 							{
 								"name" : "Custom Default-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3454,16 +4532,16 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3472,16 +4550,16 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3490,16 +4568,16 @@
 , 							{
 								"name" : "Custom Default-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3508,16 +4586,16 @@
 , 							{
 								"name" : "Custom Default-1-1-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3535,16 +4613,16 @@
 , 							{
 								"name" : "Custom Default-1-1-1-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3553,16 +4631,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3580,16 +4658,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3607,16 +4685,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3643,16 +4721,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3733,16 +4811,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3778,16 +4856,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3796,16 +4874,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3814,16 +4892,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3832,16 +4910,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3868,16 +4946,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3895,16 +4973,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3913,16 +4991,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3940,16 +5018,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3958,16 +5036,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3976,16 +5054,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3994,16 +5072,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4012,16 +5090,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4030,16 +5108,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4048,16 +5126,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4075,16 +5153,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4093,16 +5171,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4111,16 +5189,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4174,16 +5252,16 @@
 , 							{
 								"name" : "Custom Default-1-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4201,16 +5279,16 @@
 , 							{
 								"name" : "Custom Default-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4228,16 +5306,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4255,16 +5333,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4282,16 +5360,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4300,16 +5378,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4327,16 +5405,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4345,16 +5423,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4363,16 +5441,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4381,16 +5459,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4399,16 +5477,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4417,16 +5495,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4435,16 +5513,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4453,16 +5531,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4480,16 +5558,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4498,16 +5576,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4516,16 +5594,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4570,16 +5648,16 @@
 , 							{
 								"name" : "Custom Default-1-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4588,16 +5666,16 @@
 , 							{
 								"name" : "Custom Default-1-3-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4615,16 +5693,16 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4651,16 +5729,16 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4732,16 +5810,16 @@
 , 							{
 								"name" : "Custom Default-1-3-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4777,16 +5855,16 @@
 , 							{
 								"name" : "Custom Default-1-3-6-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4795,16 +5873,16 @@
 , 							{
 								"name" : "Custom Default-1-3-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4813,16 +5891,16 @@
 , 							{
 								"name" : "Custom Default-1-3-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4831,16 +5909,16 @@
 , 							{
 								"name" : "Custom Default-1-3-9",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4849,16 +5927,16 @@
 , 							{
 								"name" : "Custom Default-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4876,16 +5954,16 @@
 , 							{
 								"name" : "Custom Default-1-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4903,10 +5981,10 @@
 , 							{
 								"name" : "Custom Default-11",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4924,16 +6002,16 @@
 , 							{
 								"name" : "Custom Default-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4942,10 +6020,10 @@
 , 							{
 								"name" : "Custom Default-3",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4954,10 +6032,10 @@
 , 							{
 								"name" : "Custom Default-4",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4966,10 +6044,10 @@
 , 							{
 								"name" : "Custom Default-5",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4978,10 +6056,10 @@
 , 							{
 								"name" : "Custom Default-6",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4990,10 +6068,10 @@
 , 							{
 								"name" : "Custom Default-7",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5011,10 +6089,10 @@
 , 							{
 								"name" : "Custom Default-8-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5023,10 +6101,10 @@
 , 							{
 								"name" : "Custom Default-8-2",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5035,10 +6113,10 @@
 , 							{
 								"name" : "Custom Default-9",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5056,10 +6134,10 @@
 , 							{
 								"name" : "Custom Default-9-1-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5077,10 +6155,10 @@
 , 							{
 								"name" : "Custom Default-9-1-1-1-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5107,10 +6185,10 @@
 , 							{
 								"name" : "Custom Default-9-1-1-1-2",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5191,10 +6269,10 @@
 , 							{
 								"name" : "Custom Default-9-1-4-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5230,10 +6308,10 @@
 , 							{
 								"name" : "Custom Default-9-1-5-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5242,10 +6320,10 @@
 , 							{
 								"name" : "Custom Default-9-1-6",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5254,10 +6332,10 @@
 , 							{
 								"name" : "Custom Default-9-1-7",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5266,10 +6344,10 @@
 , 							{
 								"name" : "Custom Default-9-1-8",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5296,10 +6374,10 @@
 , 							{
 								"name" : "Custom Default-9-3-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5317,10 +6395,10 @@
 , 							{
 								"name" : "Custom Default-9-3-1-1-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5329,10 +6407,10 @@
 , 							{
 								"name" : "Custom Default-9-3-1-1-2",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5350,10 +6428,10 @@
 , 							{
 								"name" : "Custom Default-9-3-2",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5362,10 +6440,10 @@
 , 							{
 								"name" : "Custom Default-9-3-3",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5374,10 +6452,10 @@
 , 							{
 								"name" : "Custom Default-9-3-4",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5386,10 +6464,10 @@
 , 							{
 								"name" : "Custom Default-9-3-5",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5398,10 +6476,10 @@
 , 							{
 								"name" : "Custom Default-9-3-6",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5410,10 +6488,10 @@
 , 							{
 								"name" : "Custom Default-9-4",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5422,10 +6500,10 @@
 , 							{
 								"name" : "Custom Default-9-5",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5443,10 +6521,10 @@
 , 							{
 								"name" : "Custom Default-9-5-1-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5455,10 +6533,10 @@
 , 							{
 								"name" : "Custom Default-9-5-2",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5467,10 +6545,10 @@
 , 							{
 								"name" : "Custom Default-9-6",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5515,7 +6593,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 504.0, 200.0, 106.0, 20.0 ],
+					"patching_rect" : [ 504.0, 240.0, 106.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -5535,7 +6613,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 332.0, 130.0, 75.0, 20.0 ],
+					"patching_rect" : [ 332.0, 170.0, 75.0, 20.0 ],
 					"text" : "receive~ frame"
 				}
 
@@ -5584,14 +6662,25 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "To the Sun",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 260.5, 240.0, 276.0, 20.0 ],
+									"text" : "prepend timestamp in envelope they just produced recitation"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "float" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -5632,13 +6721,25 @@
 										"subpatcher_template" : "To the Sun",
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-7",
+													"linecount" : 2,
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 731.0, 420.0, 20.0, 31.0 ],
+													"text" : "out 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-5",
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 621.0, 20.0, 25.0, 20.0 ],
-													"text" : "in 3"
+													"text" : "in 2"
 												}
 
 											}
@@ -5656,28 +6757,16 @@
 											}
 , 											{
 												"box" : 												{
-													"id" : "obj-2",
-													"maxclass" : "newobj",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 305.0, 14.0, 25.0, 20.0 ],
-													"text" : "in 2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"code" : "require(\"analyze\");\r\nrequire(\"insert_beat\");\r\nBuffer stats(\"stats\");\r\nBuffer wake(\"wake\");\r\nBuffer tolerance(\"tolerance\");\r\n/*\r\nChannel 0: timestamp\r\nChannel 1: most recent timestamp involved with\r\nChannel 2: track (negative for player input)\r\nChannel 3: score (cumulative duration a.k.a. area)\r\nChannel 4: connections (not actually use right now)\r\nChannel 5: song starting_frame\r\nChannel 6: cue ID\r\n*/\r\nWAKE = peek(wake, 0);\r\nTOLERANCE = peek(tolerance, 0);\r\ninsert_beat(in1, in2, in3);\r\nclick, involvements, area, connections = analyze(in1, in2, TOLERANCE, WAKE);\r\n//Why not History area?\r\n//area += (elapsed % 10) / 1000;\t//adds tiny random interval so unique to pass [change] outside\r\n//out1 = (area / 1000) + 1;\t//+1 preserves 0 readings. Corrected for with -1 outside\r\nout1 = area;    //Crashes without this line",
+													"code" : "require(\"analyze\");\r\nrequire(\"insert_beat\");\r\nBuffer stats(\"stats\");\r\nBuffer envelopes(\"envelopes\");\r\nBuffer wake(\"wake\");\r\nBuffer tolerance(\"tolerance\");\r\n/*\r\nChannel 0: timestamp\r\nChannel 1: most recent timestamp involved with\r\nChannel 2: track (negative for player input)\r\nChannel 3: score (cumulative duration a.k.a. area) * connections\r\nChannel 4: decommissioned status (0/0.9/9/9.9)\r\nChannel 5: song starting_frame\r\nChannel 6: cue ID\r\n*/\r\ncue = 0;\r\nfor(envelope = 0; envelope < dim(envelopes); envelope += 1) {   //Most surefire way I can think of\r\n    if(peek(envelopes, envelope, 7) == in2) {                   //to ensure the correct cue is conveyed\r\n    //if(round(peek(envelopes, envelope, 7), .0001) == round(in2, .0001)) {                   //to ensure the correct cue is conveyed\r\n        cue = peek(envelopes, envelope, 6);                     //and shouldn't be too expensive\r\n        break;\r\n    }\r\n}\r\nWAKE = peek(wake, 0);\r\nTOLERANCE = peek(tolerance, 0);\r\ninsert_beat(in1, in2, cue);\r\nclick, score, area, connections = analyze(in1, in2, TOLERANCE, WAKE);\r\n//Why not History area?\r\n//area += (elapsed % 10) / 1000;\t//adds tiny random interval so unique to pass [change] outside\r\n//out1 = (area / 1000) + 1;\t//+1 preserves 0 readings. Corrected for with -1 outside\r\nout1 = area;    //Crashes without this line\r\nout2 = peek(envelopes, envelope, 7);",
 													"fontface" : 0,
 													"fontname" : "Lucida Console",
 													"fontsize" : 10.0,
 													"id" : "obj-3",
 													"maxclass" : "codebox",
-													"numinlets" : 3,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 40.0, 590.0, 260.0 ]
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 50.0, 40.0, 700.0, 372.0 ]
 												}
 
 											}
@@ -5702,13 +6791,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-3", 1 ],
-													"source" : [ "obj-2", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-4", 0 ],
 													"source" : [ "obj-3", 0 ]
 												}
@@ -5716,7 +6798,14 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-3", 2 ],
+													"destination" : [ "obj-7", 0 ],
+													"source" : [ "obj-3", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 1 ],
 													"source" : [ "obj-5", 0 ]
 												}
 
@@ -5912,8 +7001,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 240.0, 136.0, 20.0 ],
-													"text" : "prepend scanned Index +/- 2"
+													"patching_rect" : [ 50.0, 240.0, 283.0, 20.0 ],
+													"text" : "prepend 5 most recently inserted vibes (cue ID/pallet position)"
 												}
 
 											}
@@ -5960,8 +7049,8 @@
 													"numinlets" : 3,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 110.5, 180.0, 75.0, 20.0 ],
-													"text" : "peek~ memory"
+													"patching_rect" : [ 110.5, 180.0, 83.0, 20.0 ],
+													"text" : "peek~ memory 7"
 												}
 
 											}
@@ -5985,7 +7074,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"patching_rect" : [ 100.0, 120.0, 29.5, 20.0 ],
-													"text" : "- 2"
+													"text" : "- 0"
 												}
 
 											}
@@ -6068,13 +7157,6 @@
 												"patchline" : 												{
 													"destination" : [ "obj-1", 0 ],
 													"source" : [ "obj-4", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 0 ],
-													"source" : [ "obj-4", 1 ]
 												}
 
 											}
@@ -6372,6 +7454,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-24", 1 ],
 									"order" : 0,
 									"source" : [ "obj-20", 0 ]
@@ -6482,6 +7571,13 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
  ],
 						"styles" : [ 							{
 								"name" : "Custom Default",
@@ -6495,13 +7591,13 @@
 , 							{
 								"name" : "Custom Default Regular",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6510,13 +7606,13 @@
 , 							{
 								"name" : "Custom Default Regular-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6525,13 +7621,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6540,13 +7636,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6555,13 +7651,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6570,8 +7666,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-10",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -6580,8 +7676,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-11",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -6590,13 +7686,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6605,13 +7701,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6620,13 +7716,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6635,13 +7731,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6650,13 +7746,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6665,13 +7761,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6680,13 +7776,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6695,13 +7791,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6710,13 +7806,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6725,13 +7821,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6740,13 +7836,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6755,13 +7851,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6770,13 +7866,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6785,13 +7881,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6800,13 +7896,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6815,13 +7911,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6830,13 +7926,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6845,13 +7941,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-4-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6860,13 +7956,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6875,13 +7971,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6890,13 +7986,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6905,13 +8001,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6920,13 +8016,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6935,13 +8031,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-1-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6950,13 +8046,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6965,13 +8061,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6980,13 +8076,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6995,13 +8091,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7010,13 +8106,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7025,13 +8121,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7040,13 +8136,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7055,13 +8151,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7070,13 +8166,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7085,13 +8181,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7100,13 +8196,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7115,13 +8211,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7130,8 +8226,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-2",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7140,13 +8236,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7155,13 +8251,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7170,13 +8266,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7185,13 +8281,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7200,13 +8296,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7215,8 +8311,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-3",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7225,13 +8321,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-3-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7240,13 +8336,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7255,13 +8351,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7270,8 +8366,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-4-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7280,13 +8376,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-4-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7295,13 +8391,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7310,13 +8406,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7325,8 +8421,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-5-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7335,8 +8431,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-6",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7345,8 +8441,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-7",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7355,8 +8451,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-8",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7365,13 +8461,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7380,8 +8476,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7390,13 +8486,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7405,13 +8501,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7420,13 +8516,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7435,13 +8531,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7450,13 +8546,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7465,8 +8561,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-4",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7475,13 +8571,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7490,13 +8586,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7505,13 +8601,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7520,13 +8616,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7535,13 +8631,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7550,8 +8646,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-7-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7560,13 +8656,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-7-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7575,13 +8671,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-7-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7590,13 +8686,13 @@
 , 							{
 								"name" : "Custom Default Regular-1-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7605,8 +8701,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-8-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7615,8 +8711,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-9",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7625,13 +8721,13 @@
 , 							{
 								"name" : "Custom Default Regular-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7640,13 +8736,13 @@
 , 							{
 								"name" : "Custom Default Regular-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7655,8 +8751,8 @@
 , 							{
 								"name" : "Custom Default Regular-3-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-									"fontface" : [ 0 ]
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -7665,13 +8761,13 @@
 , 							{
 								"name" : "Custom Default Regular-3-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7680,13 +8776,13 @@
 , 							{
 								"name" : "Custom Default Regular-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7695,13 +8791,13 @@
 , 							{
 								"name" : "Custom Default Regular-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7710,13 +8806,13 @@
 , 							{
 								"name" : "Custom Default Regular-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7725,13 +8821,13 @@
 , 							{
 								"name" : "Custom Default Regular-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7740,13 +8836,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7755,13 +8851,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7770,13 +8866,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7785,13 +8881,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7800,13 +8896,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7815,13 +8911,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7830,13 +8926,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7845,13 +8941,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7860,13 +8956,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7875,13 +8971,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7890,13 +8986,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7905,13 +9001,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7920,13 +9016,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7935,13 +9031,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7950,13 +9046,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7965,13 +9061,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7980,13 +9076,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7995,13 +9091,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-4-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8010,13 +9106,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8025,13 +9121,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8040,13 +9136,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8055,13 +9151,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8070,13 +9166,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8085,13 +9181,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-1-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8100,13 +9196,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8115,13 +9211,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8130,13 +9226,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8145,13 +9241,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8160,13 +9256,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8175,13 +9271,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8190,13 +9286,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8205,13 +9301,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8220,13 +9316,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8235,13 +9331,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8250,13 +9346,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8265,13 +9361,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8280,13 +9376,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8295,13 +9391,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8310,13 +9406,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8325,13 +9421,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8340,13 +9436,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8355,13 +9451,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-2-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8370,13 +9466,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8385,13 +9481,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-3-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8400,13 +9496,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8415,13 +9511,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8430,13 +9526,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8445,13 +9541,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-4-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8460,13 +9556,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8475,13 +9571,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8490,13 +9586,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8505,13 +9601,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8520,13 +9616,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8535,13 +9631,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-1-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8550,13 +9646,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8565,13 +9661,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8580,13 +9676,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8595,13 +9691,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8610,13 +9706,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8625,13 +9721,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8640,13 +9736,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8655,13 +9751,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8670,13 +9766,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8685,13 +9781,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8700,13 +9796,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8715,13 +9811,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8730,13 +9826,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8745,13 +9841,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-2-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8760,13 +9856,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8775,13 +9871,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8790,13 +9886,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8805,13 +9901,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-2-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8820,13 +9916,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8835,13 +9931,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-3-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8850,13 +9946,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8865,13 +9961,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8880,13 +9976,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8895,13 +9991,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-4-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8910,13 +10006,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8925,13 +10021,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8940,13 +10036,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8955,13 +10051,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8970,13 +10066,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8985,13 +10081,13 @@
 , 							{
 								"name" : "Custom Default Regular-6-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9000,13 +10096,13 @@
 , 							{
 								"name" : "Custom Default Regular-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9015,13 +10111,13 @@
 , 							{
 								"name" : "Custom Default Regular-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9030,16 +10126,16 @@
 , 							{
 								"name" : "Custom Default-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9057,16 +10153,16 @@
 , 							{
 								"name" : "Custom Default-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9084,16 +10180,16 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9102,16 +10198,16 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9120,16 +10216,16 @@
 , 							{
 								"name" : "Custom Default-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9138,16 +10234,16 @@
 , 							{
 								"name" : "Custom Default-1-1-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9165,16 +10261,16 @@
 , 							{
 								"name" : "Custom Default-1-1-1-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9183,16 +10279,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9210,16 +10306,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9237,16 +10333,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9273,16 +10369,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9363,16 +10459,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-4-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9408,16 +10504,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9426,16 +10522,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9444,16 +10540,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9462,16 +10558,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9498,16 +10594,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9525,16 +10621,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9543,16 +10639,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9570,16 +10666,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9588,16 +10684,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9606,16 +10702,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9624,16 +10720,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9642,16 +10738,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9660,16 +10756,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9678,16 +10774,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9705,16 +10801,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9723,16 +10819,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9741,16 +10837,16 @@
 , 							{
 								"name" : "Custom Default-1-1-2-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9804,16 +10900,16 @@
 , 							{
 								"name" : "Custom Default-1-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9831,16 +10927,16 @@
 , 							{
 								"name" : "Custom Default-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9858,16 +10954,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9885,16 +10981,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9912,16 +11008,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9930,16 +11026,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9957,16 +11053,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9975,16 +11071,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9993,16 +11089,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10011,16 +11107,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10029,16 +11125,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-6",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10047,16 +11143,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10065,16 +11161,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10083,16 +11179,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10110,16 +11206,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10128,16 +11224,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10146,16 +11242,16 @@
 , 							{
 								"name" : "Custom Default-1-3-1-5",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10200,16 +11296,16 @@
 , 							{
 								"name" : "Custom Default-1-3-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10218,16 +11314,16 @@
 , 							{
 								"name" : "Custom Default-1-3-3",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10245,16 +11341,16 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10281,16 +11377,16 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10362,16 +11458,16 @@
 , 							{
 								"name" : "Custom Default-1-3-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10407,16 +11503,16 @@
 , 							{
 								"name" : "Custom Default-1-3-6-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10425,16 +11521,16 @@
 , 							{
 								"name" : "Custom Default-1-3-7",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10443,16 +11539,16 @@
 , 							{
 								"name" : "Custom Default-1-3-8",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10461,16 +11557,16 @@
 , 							{
 								"name" : "Custom Default-1-3-9",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10479,16 +11575,16 @@
 , 							{
 								"name" : "Custom Default-1-4",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10506,16 +11602,16 @@
 , 							{
 								"name" : "Custom Default-1-5-1",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10533,10 +11629,10 @@
 , 							{
 								"name" : "Custom Default-11",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10554,16 +11650,16 @@
 , 							{
 								"name" : "Custom Default-2",
 								"newobj" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"message" : 								{
-									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10572,10 +11668,10 @@
 , 							{
 								"name" : "Custom Default-3",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10584,10 +11680,10 @@
 , 							{
 								"name" : "Custom Default-4",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10596,10 +11692,10 @@
 , 							{
 								"name" : "Custom Default-5",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10608,10 +11704,10 @@
 , 							{
 								"name" : "Custom Default-6",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10620,10 +11716,10 @@
 , 							{
 								"name" : "Custom Default-7",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10641,10 +11737,10 @@
 , 							{
 								"name" : "Custom Default-8-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10653,10 +11749,10 @@
 , 							{
 								"name" : "Custom Default-8-2",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10665,10 +11761,10 @@
 , 							{
 								"name" : "Custom Default-9",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10686,10 +11782,10 @@
 , 							{
 								"name" : "Custom Default-9-1-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10707,10 +11803,10 @@
 , 							{
 								"name" : "Custom Default-9-1-1-1-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10737,10 +11833,10 @@
 , 							{
 								"name" : "Custom Default-9-1-1-1-2",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10821,10 +11917,10 @@
 , 							{
 								"name" : "Custom Default-9-1-4-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10860,10 +11956,10 @@
 , 							{
 								"name" : "Custom Default-9-1-5-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10872,10 +11968,10 @@
 , 							{
 								"name" : "Custom Default-9-1-6",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10884,10 +11980,10 @@
 , 							{
 								"name" : "Custom Default-9-1-7",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10896,10 +11992,10 @@
 , 							{
 								"name" : "Custom Default-9-1-8",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10926,10 +12022,10 @@
 , 							{
 								"name" : "Custom Default-9-3-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10947,10 +12043,10 @@
 , 							{
 								"name" : "Custom Default-9-3-1-1-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10959,10 +12055,10 @@
 , 							{
 								"name" : "Custom Default-9-3-1-1-2",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10980,10 +12076,10 @@
 , 							{
 								"name" : "Custom Default-9-3-2",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10992,10 +12088,10 @@
 , 							{
 								"name" : "Custom Default-9-3-3",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11004,10 +12100,10 @@
 , 							{
 								"name" : "Custom Default-9-3-4",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11016,10 +12112,10 @@
 , 							{
 								"name" : "Custom Default-9-3-5",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11028,10 +12124,10 @@
 , 							{
 								"name" : "Custom Default-9-3-6",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11040,10 +12136,10 @@
 , 							{
 								"name" : "Custom Default-9-4",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11052,10 +12148,10 @@
 , 							{
 								"name" : "Custom Default-9-5",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11073,10 +12169,10 @@
 , 							{
 								"name" : "Custom Default-9-5-1-1",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11085,10 +12181,10 @@
 , 							{
 								"name" : "Custom Default-9-5-2",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11097,10 +12193,10 @@
 , 							{
 								"name" : "Custom Default-9-6",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontface" : [ 1 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ]
+									"fontsize" : [ 10.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11145,7 +12241,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 329.333333333333371, 200.0, 57.0, 20.0 ],
+					"patching_rect" : [ 329.333333333333371, 240.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -11165,7 +12261,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.5, 130.0, 34.0, 20.0 ],
+					"patching_rect" : [ 20.5, 170.0, 34.0, 20.0 ],
 					"text" : "dbtoa"
 				}
 
@@ -11177,7 +12273,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 90.0, 89.0, 20.0 ],
+					"patching_rect" : [ 10.0, 130.0, 89.0, 20.0 ],
 					"text" : "r ---playback_gain"
 				}
 
@@ -11189,7 +12285,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 10.0, 110.0, 40.0, 20.0 ],
+					"patching_rect" : [ 10.0, 150.0, 40.0, 20.0 ],
 					"text" : "unjoin"
 				}
 
@@ -11201,7 +12297,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 254.666666666666686, 310.0, 29.5, 20.0 ],
+					"patching_rect" : [ 254.666666666666686, 350.0, 29.5, 20.0 ],
 					"text" : "/~ 1."
 				}
 
@@ -11215,7 +12311,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 404.0, 100.0, 75.0, 20.0 ],
+					"patching_rect" : [ 404.0, 140.0, 75.0, 20.0 ],
 					"text" : "r A_songStart"
 				}
 
@@ -11227,7 +12323,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 404.0, 120.0, 39.0, 20.0 ],
+					"patching_rect" : [ 404.0, 160.0, 39.0, 20.0 ],
 					"text" : "1., 0. 1"
 				}
 
@@ -11239,7 +12335,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 404.0, 140.0, 30.0, 20.0 ],
+					"patching_rect" : [ 404.0, 180.0, 30.0, 20.0 ],
 					"text" : "line~"
 				}
 
@@ -11251,7 +12347,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 404.0, 160.0, 61.0, 20.0 ],
+					"patching_rect" : [ 404.0, 200.0, 61.0, 20.0 ],
 					"text" : "mc.dup~ 16"
 				}
 
@@ -11260,11 +12356,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-25",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.0, 390.0, 30.0, 30.0 ]
+					"patching_rect" : [ 391.0, 430.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -11272,11 +12368,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 342.0, 390.0, 30.0, 30.0 ]
+					"patching_rect" : [ 342.0, 430.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -11284,11 +12380,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 233.666666666666657, 390.0, 30.0, 30.0 ]
+					"patching_rect" : [ 233.666666666666657, 430.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -11296,11 +12392,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 390.0, 30.0, 30.0 ]
+					"patching_rect" : [ 180.0, 430.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -11311,7 +12407,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 542.0, 180.0, 139.0, 20.0 ],
+					"patching_rect" : [ 542.0, 220.0, 139.0, 20.0 ],
 					"text" : "logExternally(Frame+Phasor)"
 				}
 
@@ -11323,7 +12419,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 542.0, 150.0, 139.0, 20.0 ],
+					"patching_rect" : [ 542.0, 190.0, 139.0, 20.0 ],
 					"text" : "append voices in the speaker"
 				}
 
@@ -11335,7 +12431,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "int", "int" ],
-					"patching_rect" : [ 542.0, 130.0, 41.0, 20.0 ],
+					"patching_rect" : [ 542.0, 170.0, 41.0, 20.0 ],
 					"text" : "peak 0."
 				}
 
@@ -11347,7 +12443,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 542.0, 110.0, 85.0, 20.0 ],
+					"patching_rect" : [ 542.0, 150.0, 85.0, 20.0 ],
 					"text" : "mc.snapshot~ 20"
 				}
 
@@ -11359,7 +12455,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 310.0, 110.0, 61.0, 20.0 ],
+					"patching_rect" : [ 310.0, 150.0, 61.0, 20.0 ],
 					"text" : "mc.dup~ 16"
 				}
 
@@ -11371,57 +12467,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 270.0, 50.0, 153.0, 20.0 ],
-					"text" : "buffer~ envelopes @samps 99 7"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.0, 370.0, 139.0, 20.0 ],
-					"text" : "logExternally(Frame+Phasor)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.0, 330.0, 115.0, 31.0 ],
-					"text" : "append tracks currently playing envelopes"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 460.0, 310.0, 52.0, 20.0 ],
-					"text" : "change 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 460.0, 290.0, 69.0, 20.0 ],
-					"text" : "snapshot~ 20"
+					"patching_rect" : [ 270.0, 90.0, 153.0, 20.0 ],
+					"text" : "buffer~ envelopes @samps 99 8"
 				}
 
 			}
@@ -11432,7 +12479,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 180.0, 310.0, 29.5, 20.0 ],
+					"patching_rect" : [ 180.0, 350.0, 29.5, 20.0 ],
 					"text" : "/~ 1."
 				}
 
@@ -11444,7 +12491,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 150.0, 50.0, 106.0, 20.0 ],
+					"patching_rect" : [ 150.0, 90.0, 106.0, 20.0 ],
 					"text" : "metro 4000 @active 1"
 				}
 
@@ -11456,7 +12503,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 190.5, 110.0, 112.0, 20.0 ],
+					"patching_rect" : [ 190.5, 150.0, 112.0, 20.0 ],
 					"text" : "peek~ palette_by_track"
 				}
 
@@ -11468,7 +12515,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 150.0, 70.0, 45.0, 20.0 ],
+					"patching_rect" : [ 150.0, 110.0, 45.0, 20.0 ],
 					"text" : "Uzi 16 1"
 				}
 
@@ -11480,7 +12527,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 130.0, 129.0, 20.0 ],
+					"patching_rect" : [ 180.0, 170.0, 129.0, 20.0 ],
 					"text" : "sprintf %i palette palette.%i"
 				}
 
@@ -11492,7 +12539,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 180.0, 90.0, 29.5, 20.0 ],
+					"patching_rect" : [ 180.0, 130.0, 29.5, 20.0 ],
 					"text" : "t i i"
 				}
 
@@ -11504,7 +12551,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 150.0, 85.0, 20.0 ],
+					"patching_rect" : [ 180.0, 190.0, 85.0, 20.0 ],
 					"text" : "prepend setvalue"
 				}
 
@@ -11523,7 +12570,7 @@
 							}
 ,
 							"classnamespace" : "dsp.gen",
-							"rect" : [ 42.0, 144.0, 1336.0, 804.0 ],
+							"rect" : [ -31966.0, -31966.0, 1336.0, 804.0 ],
 							"bglocked" : 0,
 							"openinpresentation" : 0,
 							"default_fontsize" : 10.0,
@@ -11553,12 +12600,23 @@
 							"boxes" : [ 								{
 									"box" : 									{
 										"maxclass" : "newobj",
+										"text" : "out 5",
+										"numoutlets" : 0,
+										"id" : "obj-9",
+										"patching_rect" : [ 701.0, 540.0, 31.0, 20.0 ],
+										"numinlets" : 1
+									}
+
+								}
+, 								{
+									"box" : 									{
+										"maxclass" : "newobj",
 										"text" : "in 3",
 										"numoutlets" : 1,
-										"outlettype" : [ "" ],
 										"id" : "obj-8",
-										"numinlets" : 0,
-										"patching_rect" : [ 701.0, 0.0, 25.0, 20.0 ]
+										"outlettype" : [ "" ],
+										"patching_rect" : [ 701.0, 0.0, 25.0, 20.0 ],
+										"numinlets" : 0
 									}
 
 								}
@@ -11568,8 +12626,8 @@
 										"text" : "out 4",
 										"numoutlets" : 0,
 										"id" : "obj-7",
-										"numinlets" : 1,
-										"patching_rect" : [ 701.0, 540.0, 31.0, 20.0 ]
+										"patching_rect" : [ 541.0, 540.0, 31.0, 20.0 ],
+										"numinlets" : 1
 									}
 
 								}
@@ -11579,8 +12637,8 @@
 										"text" : "out 3",
 										"numoutlets" : 0,
 										"id" : "obj-6",
-										"numinlets" : 1,
-										"patching_rect" : [ 531.0, 540.0, 31.0, 20.0 ]
+										"patching_rect" : [ 381.0, 540.0, 31.0, 20.0 ],
+										"numinlets" : 1
 									}
 
 								}
@@ -11590,8 +12648,8 @@
 										"text" : "out 2",
 										"numoutlets" : 0,
 										"id" : "obj-5",
-										"numinlets" : 1,
-										"patching_rect" : [ 301.0, 540.0, 31.0, 20.0 ]
+										"patching_rect" : [ 301.0, 540.0, 31.0, 20.0 ],
+										"numinlets" : 1
 									}
 
 								}
@@ -11600,10 +12658,10 @@
 										"maxclass" : "newobj",
 										"text" : "in 1",
 										"numoutlets" : 1,
-										"outlettype" : [ "" ],
 										"id" : "obj-1",
-										"numinlets" : 0,
-										"patching_rect" : [ 10.0, 4.0, 25.0, 20.0 ]
+										"outlettype" : [ "" ],
+										"patching_rect" : [ 10.0, 4.0, 25.0, 20.0 ],
+										"numinlets" : 0
 									}
 
 								}
@@ -11612,10 +12670,10 @@
 										"maxclass" : "newobj",
 										"text" : "in 2",
 										"numoutlets" : 1,
-										"outlettype" : [ "" ],
 										"id" : "obj-2",
-										"numinlets" : 0,
-										"patching_rect" : [ 305.0, 14.0, 25.0, 20.0 ]
+										"outlettype" : [ "" ],
+										"patching_rect" : [ 305.0, 14.0, 25.0, 20.0 ],
+										"numinlets" : 0
 									}
 
 								}
@@ -11625,59 +12683,38 @@
 										"text" : "out 1",
 										"numoutlets" : 0,
 										"id" : "obj-4",
-										"numinlets" : 1,
-										"patching_rect" : [ 176.0, 538.0, 31.0, 20.0 ]
+										"patching_rect" : [ 176.0, 538.0, 31.0, 20.0 ],
+										"numinlets" : 1
 									}
 
 								}
 , 								{
 									"box" : 									{
 										"maxclass" : "codebox",
-										"numoutlets" : 4,
-										"fontsize" : 10.0,
-										"outlettype" : [ "", "", "", "" ],
 										"fontname" : "Lucida Console",
+										"numoutlets" : 5,
 										"fontface" : 0,
 										"id" : "obj-3",
-										"numinlets" : 3,
+										"outlettype" : [ "", "", "", "", "" ],
 										"patching_rect" : [ 7.5, 30.0, 712.5, 500.0 ],
-										"code" : "require(\"analyze\");\r\nrequire(\"insert_beat\");\r\nrequire(\"filter_cue\");\r\nBuffer sequence(\"sequence\");\r\nBuffer cues(\"cues\");\r\nBuffer play_queue(\"play_queue\");\r\nBuffer stats(\"stats\");\r\nBuffer beats_by_track(\"beats_by_track\");\r\nBuffer prior_ms_by_track(\"prior_ms_by_track\");\r\nBuffer palette_by_track(\"palette_by_track\");\r\nBuffer envelopes(\"envelopes\");\r\nBuffer palette(\"palette.0\");\r\nParam track_volume(1); \r\nHistory voices(0);\r\nHistory record(0);\r\n//History concurrent(0);\r\nHistory timestamp(0);\r\nHistory debug(0);\r\nif(delta(in3)) {           //Each songstart playing cues must fall silent on product recording\r\n    record = in3;          //Can't just 0 out record or it could click\r\n}\r\nout1 = 0;\r\nout3 = 0;\r\nout4 = 0;\r\n//The sequencer\r\nlock = peek(stats, 10);\r\nif(lock) {\r\n    increment = delta(in1);\r\n    if(increment) {    //As long as the ramp is actually moving (still necessary if already locked?)\r\n        length = peek(beats_by_track, mc_channel);\r\n        if(length) {\r\n            //out1 = length;\r\n            looped = in1 % length;\r\n            ms = floor(looped);\r\n            prior_ms = floor(looped - increment);\r\n            if(ms != prior_ms) {\r\n                ID = peek(sequence, ms);\r\n                if(peek(cues, ID, 6) == mc_channel) {\t//on the correct track\r\n                    span1 = filter_cue(ID, 0); \r\n                    span2 = filter_cue(ID, 1);\r\n                    if(span1 || span2) {\r\n                        //palette = peek(palette_by_track, mc_channel);\r\n                        slot = 0;\r\n                        occupied = peek(envelopes, slot);\r\n                        while(occupied) {\r\n                            slot += 1;\r\n                            occupied = peek(envelopes, slot);\r\n                        }\r\n                        //poke(envelopes, peek(cues, ID, 3), slot, 0);       //play (assumes Max and palette file are the same play rate)\r\n                        poke(envelopes, round(mstosamps(peek(cues, ID, 3))), slot, 0);       //Starting sample (assumes Max and palette file are the same sample rate)\r\n                        attack_by = 1 / mstosamps(peek(cues, ID, 4));\r\n                        poke(envelopes, attack_by, slot, 1);                          //volume\r\n                        poke(envelopes, attack_by, slot, 2);                          //increment\r\n                        poke(envelopes, peek(cues, ID, 5), slot, 3);                                  //release\r\n                        poke(envelopes, peek(cues, ID, 6), slot, 4);                                  //track\r\n                        poke(envelopes, 0, slot, 5);       //samples played. Must divide samples into start + played to avoid precision bug: large numbers stored in buffer~ would no longer increment by 1 (would by 2)\r\n                        poke(envelopes, ID, slot, 6);       //easier/more efficient to store ID also even though others could be derived from it during envelope\r\n                        voices = max(voices, slot);\r\n                        //timestamp = in2;\r\n                        debug = ID;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n//The speaker\r\npolyphony = 0;\r\nconcurrent = 0;\r\nplay = 0;\r\nfor(envelope = 0; envelope <= voices; envelope += 1) {\r\n    if(mc_channel == peek(envelopes, envelope, 4)) {\r\n        //Play\r\n        concurrent += 1;\r\n        played = peek(envelopes, envelope, 5);\r\n        play = peek(envelopes, envelope, 0) + played;\r\n        amplitude = peek(palette, play);\r\n        //amplitude = peek(palette, round(mstosamps(play)));\r\n        volume = peek(envelopes, envelope, 1);\r\n        polyphony += amplitude * volume;\r\n        record = 1;\r\n        //Update\r\n        poke(envelopes, played + 1, envelope, 5);\r\n        volume += peek(envelopes, envelope, 2);\r\n        poke(envelopes, volume, envelope, 1);\r\n        if(volume >= 1) {\r\n            release = peek(envelopes, envelope, 3);\r\n            poke(envelopes, -1 / mstosamps(release), envelope, 2);   //release_by\r\n            //timestamp = recite(in2, mc_channel);\r\n            timestamp = in2; \r\n            poke(envelopes, 1, envelope, 1);\t\t//volume should land on 1 exactly, but just to be safe\r\n            //debug = polyphony;\r\n        }\r\n        else if(volume <= 0) {\r\n            for(i = 0; i < channels(envelopes); i += 1) {\r\n                poke(envelopes, 0, envelope, i);\r\n            }\r\n        }\r\n    }\r\n}\r\npolyphony /= slide(max(concurrent, 1), 99999, 99999);\r\npolyphony *= track_volume;\r\nout1 = polyphony;\r\n//out2 = play;\r\nout2 = polyphony * record;\r\nout4 = debug;\r\nout3 = timestamp;"
+										"fontsize" : 10.0,
+										"numinlets" : 3,
+										"code" : "//require(\"filter_cue\");\r\n//require(\"crucible\");\r\nrequire(\"ranked_envelopes_crucible\");\r\nrequire(\"analyze\");\r\nrequire(\"insert_beat\");\r\nBuffer wake(\"wake\");\r\nBuffer tolerance(\"tolerance\");\r\nBuffer sequence(\"sequence\");\r\nBuffer cues(\"cues\");\r\nBuffer scoreboard(\"scoreboard\");\r\n//Buffer envelope_domain(\"envelope_domain\");\r\nBuffer stats(\"stats\");\r\nBuffer beats_by_track(\"beats_by_track\");\r\nBuffer prior_ms_by_track(\"prior_ms_by_track\");\r\nBuffer palette_by_track(\"palette_by_track\");\r\nBuffer envelopes(\"envelopes\");\r\nBuffer palette(\"palette.0\");\r\nParam track_volume(1); \r\nHistory voices(0);\r\nHistory record(0);\r\n//History concurrent(0);\r\nHistory timestamp(0);\r\nHistory debug(0);\r\nif(delta(in3)) {           //Each songstart playing cues must fall silent on product recording\r\n    record = in3;          //Can't just 0 out record or it could click\r\n}\r\nout1 = 0;\r\nout3 = 0;\r\nout4 = 0;\r\nout5 = 0;\r\n//The sequencer\r\nlock = peek(stats, 10);\r\nif(lock) {\r\n    increment = delta(in1);\r\n    if(increment) {    //As long as the ramp is actually moving (still necessary if already locked?)\r\n        length = peek(beats_by_track, mc_channel);\r\n        if(length) {\r\n            //out1 = length;\r\n            looped = in1 % length;\r\n            ms = floor(looped);\r\n            prior_ms = floor(looped - increment);\r\n            if(ms != prior_ms) {\r\n                ID = peek(sequence, ms);\r\n                if(peek(cues, ID, 6) == mc_channel) {\t//on the correct track\r\n                    //span1 = filter_cue(ID, 0);\r\n    \t\t\t\tactive = peek(cues, ID, 1);\r\n                    //span2 = filter_cue(ID, 1);\r\n                    //if(span1 || span2) {\r\n                    if(active) {\r\n                        slot = 1;\r\n                        occupied = peek(envelopes, slot);\r\n                        while(occupied) {\r\n                            slot += 1;\r\n                            occupied = peek(envelopes, slot);\r\n                        }\r\n                        //poke(envelopes, peek(cues, ID, 3), slot, 0);       //play (assumes Max and palette file are the same play rate)\r\n                        poke(envelopes, round(mstosamps(peek(cues, ID, 3))), slot, 0);       //Starting sample (assumes Max and palette file are the same sample rate)\r\n                        attack = peek(cues, ID, 4);\r\n                        attack_by = 1 / mstosamps(attack);\r\n                        release = peek(cues, ID, 5);\r\n                        poke(envelopes, attack_by, slot, 1);                          //volume\r\n                        poke(envelopes, attack_by, slot, 2);                          //increment\r\n                        poke(envelopes, release, slot, 3);                                  //release\r\n                        poke(envelopes, peek(cues, ID, 6), slot, 4);                                  //track\r\n                        poke(envelopes, 0, slot, 5);       //samples played. Must divide samples into start + played to avoid precision bug: large numbers stored in buffer~ would no longer increment by 1 (would by 2)\r\n                        poke(envelopes, ID, slot, 6);       //easier/more efficient to store ID also even though others could be derived from it during envelope\r\n                        voices = max(voices, slot);\r\n                        score = peek(cues, ID, 0);\r\n                        poke(envelopes, score, slot, 7);\r\n                        for(rank = dim(scoreboard) - 2; rank >= 0; rank -= 1) {\r\n                            ranked_envelope = peek(scoreboard, rank, mc_channel);\r\n                            ranked_score = peek(envelopes, ranked_envelope, 7);\r\n                            if(score > ranked_score) {\r\n                                poke(scoreboard, ranked_envelope, rank + 1, mc_channel);\r\n                            }\r\n                            else {\r\n                                poke(scoreboard, slot, rank + 1, mc_channel);\r\n                                break;\r\n                            }\r\n                        }\r\n                        //poke(envelope_domain, max(peek(envelope_domain, 1), in2 + attack + release), 1);    //Potentially extend squelch check range (In absolute frames to wrap later)\r\n                        //timestamp = in2;\r\n                        debug = ID;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n//The speaker\r\npolyphony = 0;\r\nconcurrent = 0;\r\nvolumes = 0;\r\nfor(envelope = 1; envelope <= voices; envelope += 1) {\r\n    if(mc_channel == peek(envelopes, envelope, 4)) {\r\n        //Play\r\n        concurrent += 1;\r\n        played = peek(envelopes, envelope, 5);\r\n        play = peek(envelopes, envelope, 0) + played;\r\n        amplitude = peek(palette, play);\r\n        //amplitude = peek(palette, round(mstosamps(play)));\r\n        volume = peek(envelopes, envelope, 1);\r\n        polyphony += amplitude * volume;\r\n        record = 1;\r\n        //Update\r\n        poke(envelopes, played + 1, envelope, 5);\r\n        volume += peek(envelopes, envelope, 2);\r\n        poke(envelopes, volume, envelope, 1);\r\n        if(volume >= 1) {\r\n            release = peek(envelopes, envelope, 3);\r\n            poke(envelopes, -1 / mstosamps(release), envelope, 2);   //release_by\r\n            timestamp = in2; \r\n\t\t\t/*WAKE = peek(wake, 0); \r\n\t\t\tTOLERANCE = peek(tolerance, 0);\r\n        \tcue = peek(envelopes, envelope, 6);\r\n\t\t\tinsert_beat(timestamp, mc_channel, cue);\r\n\t\t\tanalyze(timestamp, mc_channel, TOLERANCE, WAKE);*/\r\n\t\t\t//poke(envelopes, timestamp, envelope, 7);       //peak timestamp will be used to identify the recitation's source envelope\r\n            poke(envelopes, 1, envelope, 1);\t\t//volume should land on 1 exactly, but just to be safe\r\n            //debug = polyphony;\r\n        }\r\n        else if(volume <= 0) { \r\n            for(i = 0; i < channels(envelopes); i += 1) {\r\n                poke(envelopes, 0, envelope, i);\r\n            }\r\n        }\r\n\t\tvolumes += volume;\r\n    }\r\n}\r\npolyphony /= slide(max(volumes, 1), 9999, 99999);\r\npolyphony *= track_volume;\r\n//Squelch envelopes\r\n/*if(volumes > 1.0009) {\r\n    for(rank = dim(scoreboard) - 1; rank >= 0; rank -= 1) {\r\n        ranked_envelope = peek(scoreboard, rank, mc_channel);\r\n        if(ranked_envelope) {\r\n            poke(envelopes, -1 / mstosamps(peek(envelopes, ranked_envelope, 3)), ranked_envelope, 2);   //release_by\r\n            poke(scoreboard, 0, rank, mc_channel);\r\n            break; \r\n        }\r\n    }\r\n}*/\r\nout1 = polyphony;\r\n//out2 = play;\r\nout2 = polyphony * record;\r\nout4 = debug;\r\nout3 = timestamp;\r\n                                out5 = volumes;"
 									}
 
 								}
  ],
 							"lines" : [ 								{
 									"patchline" : 									{
-										"source" : [ "obj-3", 3 ],
-										"destination" : [ "obj-7", 0 ]
+										"source" : [ "obj-3", 4 ],
+										"destination" : [ "obj-9", 0 ]
 									}
 
 								}
 , 								{
 									"patchline" : 									{
-										"source" : [ "obj-2", 0 ],
-										"destination" : [ "obj-3", 1 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 2 ],
-										"destination" : [ "obj-6", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 1 ],
-										"destination" : [ "obj-5", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-1", 0 ],
-										"destination" : [ "obj-3", 0 ]
+										"source" : [ "obj-8", 0 ],
+										"destination" : [ "obj-3", 2 ]
 									}
 
 								}
@@ -11690,8 +12727,36 @@
 								}
 , 								{
 									"patchline" : 									{
-										"source" : [ "obj-8", 0 ],
-										"destination" : [ "obj-3", 2 ]
+										"source" : [ "obj-1", 0 ],
+										"destination" : [ "obj-3", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 1 ],
+										"destination" : [ "obj-5", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 2 ],
+										"destination" : [ "obj-6", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-2", 0 ],
+										"destination" : [ "obj-3", 1 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 3 ],
+										"destination" : [ "obj-7", 0 ]
 									}
 
 								}
@@ -11703,9 +12768,9 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 4,
-					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 180.0, 180.0, 243.0, 20.0 ],
+					"numoutlets" : 5,
+					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
+					"patching_rect" : [ 180.0, 220.0, 243.0, 20.0 ],
 					"text" : "mc.gen~ 16 @busymapname tracks"
 				}
 
@@ -11717,7 +12782,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 310.0, 90.0, 90.0, 20.0 ],
+					"patching_rect" : [ 310.0, 130.0, 90.0, 20.0 ],
 					"text" : "receive~ ---phasor"
 				}
 
@@ -11729,7 +12794,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 150.0, 166.0, 20.0 ],
+					"patching_rect" : [ 10.0, 190.0, 166.0, 20.0 ],
 					"text" : "sprintf setvalue %i track_volume %f"
 				}
 
@@ -11741,7 +12806,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 210.0, 120.0, 31.0 ],
+					"patching_rect" : [ 50.0, 250.0, 120.0, 31.0 ],
 					"text" : "mc.send~ playback 16 @busymapname tracks"
 				}
 
@@ -11753,7 +12818,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 332.0, 150.0, 61.0, 20.0 ],
+					"patching_rect" : [ 332.0, 190.0, 61.0, 20.0 ],
 					"text" : "mc.dup~ 16"
 				}
 
@@ -11765,7 +12830,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 254.666666666666686, 210.0, 49.0, 20.0 ],
+					"patching_rect" : [ 254.666666666666686, 250.0, 49.0, 20.0 ],
 					"text" : "mc.sum~"
 				}
 
@@ -11777,7 +12842,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 310.0, 220.0, 158.0, 20.0 ],
+					"patching_rect" : [ 310.0, 260.0, 158.0, 20.0 ],
 					"text" : "mc.!=~ 0. @busymapname tracks"
 				}
 
@@ -11830,6 +12895,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-1", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
@@ -11867,22 +12939,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-68", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-69", 0 ],
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -12105,6 +13184,43 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-56", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-56", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"disabled" : 1,
+					"source" : [ "obj-56", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"disabled" : 1,
+					"source" : [ "obj-56", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"source" : [ "obj-59", 0 ]
 				}
@@ -12119,8 +13235,57 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-66", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-67", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}
@@ -12148,36 +13313,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "logExternally(Frame+Phasor).maxpat",
-				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "logExternally(Frame+Poly).maxpat",
-				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "analyze.genexpr",
-				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "GenX",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "insert_beat.genexpr",
-				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "GenX",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Custom Default",
 				"default" : 				{
@@ -12190,13 +13325,13 @@
 , 			{
 				"name" : "Custom Default Regular",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12205,13 +13340,13 @@
 , 			{
 				"name" : "Custom Default Regular-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12220,13 +13355,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12235,13 +13370,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12250,13 +13385,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12265,8 +13400,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-10",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -12275,8 +13410,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-11",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -12285,13 +13420,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12300,13 +13435,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12315,13 +13450,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12330,13 +13465,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12345,13 +13480,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12360,13 +13495,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-1-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12375,13 +13510,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-1-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12390,13 +13525,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12405,13 +13540,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12420,13 +13555,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-1-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12435,13 +13570,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-1-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12450,13 +13585,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-1-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12465,13 +13600,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-1-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12480,13 +13615,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12495,13 +13630,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12510,13 +13645,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12525,13 +13660,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-4-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12540,13 +13675,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-4-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12555,13 +13690,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-4-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12570,13 +13705,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12585,13 +13720,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-5-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12600,13 +13735,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12615,13 +13750,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-7",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12630,13 +13765,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-1-8",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12645,13 +13780,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12660,13 +13795,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12675,13 +13810,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12690,13 +13825,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12705,13 +13840,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-1-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12720,13 +13855,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-1-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12735,13 +13870,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12750,13 +13885,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12765,13 +13900,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-1-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12780,13 +13915,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-1-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12795,13 +13930,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-1-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12810,13 +13945,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-1-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12825,8 +13960,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-2",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -12835,13 +13970,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-2-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12850,13 +13985,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12865,13 +14000,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12880,13 +14015,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12895,13 +14030,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12910,8 +14045,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-3",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -12920,13 +14055,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-3-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12935,13 +14070,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-3-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12950,13 +14085,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12965,8 +14100,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-4-1",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -12975,13 +14110,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-4-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -12990,13 +14125,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-4-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13005,13 +14140,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13020,8 +14155,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-5-1",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -13030,8 +14165,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-6",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -13040,8 +14175,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-7",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -13050,8 +14185,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-8",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -13060,13 +14195,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13075,8 +14210,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-3-1",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -13085,13 +14220,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-3-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13100,13 +14235,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-3-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13115,13 +14250,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-3-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13130,13 +14265,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-3-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13145,13 +14280,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-3-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13160,8 +14295,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-4",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -13170,13 +14305,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-4-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13185,13 +14320,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-4-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13200,13 +14335,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13215,13 +14350,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13230,13 +14365,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-7",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13245,8 +14380,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-7-1",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -13255,13 +14390,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-7-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13270,13 +14405,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-7-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13285,13 +14420,13 @@
 , 			{
 				"name" : "Custom Default Regular-1-8",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13300,8 +14435,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-8-1",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -13310,8 +14445,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-9",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -13320,13 +14455,13 @@
 , 			{
 				"name" : "Custom Default Regular-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13335,13 +14470,13 @@
 , 			{
 				"name" : "Custom Default Regular-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13350,8 +14485,8 @@
 , 			{
 				"name" : "Custom Default Regular-3-1",
 				"default" : 				{
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
-					"fontface" : [ 0 ]
+					"fontface" : [ 0 ],
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -13360,13 +14495,13 @@
 , 			{
 				"name" : "Custom Default Regular-3-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13375,13 +14510,13 @@
 , 			{
 				"name" : "Custom Default Regular-3-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13390,13 +14525,13 @@
 , 			{
 				"name" : "Custom Default Regular-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13405,13 +14540,13 @@
 , 			{
 				"name" : "Custom Default Regular-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13420,13 +14555,13 @@
 , 			{
 				"name" : "Custom Default Regular-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13435,13 +14570,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13450,13 +14585,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13465,13 +14600,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13480,13 +14615,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13495,13 +14630,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13510,13 +14645,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-1-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13525,13 +14660,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-1-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13540,13 +14675,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13555,13 +14690,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13570,13 +14705,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-1-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13585,13 +14720,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-1-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13600,13 +14735,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-1-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13615,13 +14750,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-1-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13630,13 +14765,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13645,13 +14780,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13660,13 +14795,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13675,13 +14810,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-4-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13690,13 +14825,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-4-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13705,13 +14840,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-4-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13720,13 +14855,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13735,13 +14870,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-5-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13750,13 +14885,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13765,13 +14900,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-7",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13780,13 +14915,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-1-8",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13795,13 +14930,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13810,13 +14945,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13825,13 +14960,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13840,13 +14975,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13855,13 +14990,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-1-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13870,13 +15005,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-1-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13885,13 +15020,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13900,13 +15035,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13915,13 +15050,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-1-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13930,13 +15065,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-1-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13945,13 +15080,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-1-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13960,13 +15095,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-1-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13975,13 +15110,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -13990,13 +15125,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-2-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14005,13 +15140,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14020,13 +15155,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14035,13 +15170,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14050,13 +15185,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-2-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14065,13 +15200,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14080,13 +15215,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-3-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14095,13 +15230,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-3-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14110,13 +15245,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14125,13 +15260,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-4-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14140,13 +15275,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-4-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14155,13 +15290,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-4-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14170,13 +15305,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14185,13 +15320,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-5-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14200,13 +15335,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14215,13 +15350,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-7",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14230,13 +15365,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-1-8",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14245,13 +15380,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14260,13 +15395,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14275,13 +15410,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14290,13 +15425,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14305,13 +15440,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-1-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14320,13 +15455,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-1-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14335,13 +15470,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14350,13 +15485,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14365,13 +15500,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-1-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14380,13 +15515,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-1-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14395,13 +15530,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-1-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14410,13 +15545,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-1-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14425,13 +15560,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14440,13 +15575,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-2-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14455,13 +15590,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14470,13 +15605,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14485,13 +15620,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14500,13 +15635,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-2-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14515,13 +15650,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14530,13 +15665,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-3-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14545,13 +15680,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-3-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14560,13 +15695,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14575,13 +15710,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-4-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14590,13 +15725,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-4-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14605,13 +15740,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-4-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14620,13 +15755,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14635,13 +15770,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-5-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14650,13 +15785,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14665,13 +15800,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-7",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14680,13 +15815,13 @@
 , 			{
 				"name" : "Custom Default Regular-6-8",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14695,13 +15830,13 @@
 , 			{
 				"name" : "Custom Default Regular-7",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14710,13 +15845,13 @@
 , 			{
 				"name" : "Custom Default Regular-8",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14725,16 +15860,16 @@
 , 			{
 				"name" : "Custom Default-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14752,16 +15887,16 @@
 , 			{
 				"name" : "Custom Default-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14779,16 +15914,16 @@
 , 			{
 				"name" : "Custom Default-1-1-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14797,16 +15932,16 @@
 , 			{
 				"name" : "Custom Default-1-1-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14815,16 +15950,16 @@
 , 			{
 				"name" : "Custom Default-1-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14833,16 +15968,16 @@
 , 			{
 				"name" : "Custom Default-1-1-1-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14860,16 +15995,16 @@
 , 			{
 				"name" : "Custom Default-1-1-1-4-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14878,16 +16013,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14905,16 +16040,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14932,16 +16067,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -14968,16 +16103,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15058,16 +16193,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-4-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15103,16 +16238,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-5-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15121,16 +16256,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15139,16 +16274,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-7",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15157,16 +16292,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-8",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15193,16 +16328,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15220,16 +16355,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15238,16 +16373,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15265,16 +16400,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15283,16 +16418,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15301,16 +16436,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15319,16 +16454,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15337,16 +16472,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15355,16 +16490,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15373,16 +16508,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15400,16 +16535,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-5-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15418,16 +16553,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-5-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15436,16 +16571,16 @@
 , 			{
 				"name" : "Custom Default-1-1-2-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15499,16 +16634,16 @@
 , 			{
 				"name" : "Custom Default-1-1-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15526,16 +16661,16 @@
 , 			{
 				"name" : "Custom Default-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15553,16 +16688,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15580,16 +16715,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15607,16 +16742,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-1-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15625,16 +16760,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15652,16 +16787,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15670,16 +16805,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15688,16 +16823,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15706,16 +16841,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15724,16 +16859,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-6",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15742,16 +16877,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15760,16 +16895,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15778,16 +16913,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15805,16 +16940,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-4-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15823,16 +16958,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-4-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15841,16 +16976,16 @@
 , 			{
 				"name" : "Custom Default-1-3-1-5",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15895,16 +17030,16 @@
 , 			{
 				"name" : "Custom Default-1-3-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15913,16 +17048,16 @@
 , 			{
 				"name" : "Custom Default-1-3-3",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15940,16 +17075,16 @@
 , 			{
 				"name" : "Custom Default-1-3-3-1-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -15976,16 +17111,16 @@
 , 			{
 				"name" : "Custom Default-1-3-3-1-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16057,16 +17192,16 @@
 , 			{
 				"name" : "Custom Default-1-3-5-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16102,16 +17237,16 @@
 , 			{
 				"name" : "Custom Default-1-3-6-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16120,16 +17255,16 @@
 , 			{
 				"name" : "Custom Default-1-3-7",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16138,16 +17273,16 @@
 , 			{
 				"name" : "Custom Default-1-3-8",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16156,16 +17291,16 @@
 , 			{
 				"name" : "Custom Default-1-3-9",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16174,16 +17309,16 @@
 , 			{
 				"name" : "Custom Default-1-4",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16201,16 +17336,16 @@
 , 			{
 				"name" : "Custom Default-1-5-1",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16228,10 +17363,10 @@
 , 			{
 				"name" : "Custom Default-11",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16249,16 +17384,16 @@
 , 			{
 				"name" : "Custom Default-2",
 				"newobj" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"message" : 				{
-					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16267,10 +17402,10 @@
 , 			{
 				"name" : "Custom Default-3",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16279,10 +17414,10 @@
 , 			{
 				"name" : "Custom Default-4",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16291,10 +17426,10 @@
 , 			{
 				"name" : "Custom Default-5",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16303,10 +17438,10 @@
 , 			{
 				"name" : "Custom Default-6",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16315,10 +17450,10 @@
 , 			{
 				"name" : "Custom Default-7",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16336,10 +17471,10 @@
 , 			{
 				"name" : "Custom Default-8-1",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16348,10 +17483,10 @@
 , 			{
 				"name" : "Custom Default-8-2",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16360,10 +17495,10 @@
 , 			{
 				"name" : "Custom Default-9",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16381,10 +17516,10 @@
 , 			{
 				"name" : "Custom Default-9-1-1",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16402,10 +17537,10 @@
 , 			{
 				"name" : "Custom Default-9-1-1-1-1",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16432,10 +17567,10 @@
 , 			{
 				"name" : "Custom Default-9-1-1-1-2",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16516,10 +17651,10 @@
 , 			{
 				"name" : "Custom Default-9-1-4-1",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16555,10 +17690,10 @@
 , 			{
 				"name" : "Custom Default-9-1-5-1",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16567,10 +17702,10 @@
 , 			{
 				"name" : "Custom Default-9-1-6",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16579,10 +17714,10 @@
 , 			{
 				"name" : "Custom Default-9-1-7",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16591,10 +17726,10 @@
 , 			{
 				"name" : "Custom Default-9-1-8",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16621,10 +17756,10 @@
 , 			{
 				"name" : "Custom Default-9-3-1",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16642,10 +17777,10 @@
 , 			{
 				"name" : "Custom Default-9-3-1-1-1",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16654,10 +17789,10 @@
 , 			{
 				"name" : "Custom Default-9-3-1-1-2",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16675,10 +17810,10 @@
 , 			{
 				"name" : "Custom Default-9-3-2",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16687,10 +17822,10 @@
 , 			{
 				"name" : "Custom Default-9-3-3",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16699,10 +17834,10 @@
 , 			{
 				"name" : "Custom Default-9-3-4",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16711,10 +17846,10 @@
 , 			{
 				"name" : "Custom Default-9-3-5",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16723,10 +17858,10 @@
 , 			{
 				"name" : "Custom Default-9-3-6",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16735,10 +17870,10 @@
 , 			{
 				"name" : "Custom Default-9-4",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16747,10 +17882,10 @@
 , 			{
 				"name" : "Custom Default-9-5",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16768,10 +17903,10 @@
 , 			{
 				"name" : "Custom Default-9-5-1-1",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16780,10 +17915,10 @@
 , 			{
 				"name" : "Custom Default-9-5-2",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -16792,10 +17927,10 @@
 , 			{
 				"name" : "Custom Default-9-6",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

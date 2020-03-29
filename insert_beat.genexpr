@@ -1,8 +1,10 @@
 ﻿insert_beat(now, source, palette_position) {
     Buffer memory("memory");
     Buffer past_beats("past_beats");
-    Buffer crucible("crucible");
-    Buffer crucible_cursor("crucible_cursor");
+    Buffer J_crucible("J_crucible");
+    Buffer J_crucible_cursor("J_crucible_cursor");
+    Buffer R_crucible("R_crucible");
+    Buffer R_crucible_cursor("R_crucible_cursor");
     Buffer last_cleaned("last_cleaned");
     Buffer starting_frame("starting_frame");
     Buffer unlocked_start("unlocked_start");
@@ -41,7 +43,17 @@
 	if(peek(memory_cursor, 0) >= 0) {
     	poke(memory_cursor, peek(memory_cursor, 0) + 1, 0);
 	}
-    for(j = 1; j <= channels(crucible); j += 1) {
+    for(j = 1; j <= channels(J_crucible); j += 1) {
+    	for(i = 0; i < peek(J_crucible_cursor, 0, j); i += 1) {
+            poke(J_crucible, peek(J_crucible, i, j) + 1, i, j);
+        }
+    }
+    for(j = 1; j <= channels(R_crucible); j += 1) {
+    	for(i = 0; i < peek(R_crucible_cursor, 0, j); i += 1) {
+            poke(R_crucible, peek(R_crucible, i, j) + 1, i, j);
+        }
+    }
+    /*for(j = 1; j <= channels(crucible); j += 1) {
     	for(i = 0; i < peek(crucible_cursor, 0, j); i += 1) {
             poke(crucible, peek(crucible, i, j) + 1, i, j);
         }
@@ -51,6 +63,6 @@
         if(oldest_competitor) {      //A competitor may not have been found yet (should remain 0)
             poke(last_cleaned, oldest_competitor + 1, 0, j);
         }
-    }
+    }*/
     return 0;
 }

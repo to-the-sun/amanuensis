@@ -41,6 +41,7 @@ analyze(now, track, TOLERANCE, WAKE) {
     //Analyze beats
     involvements = 0;
     area = 0;
+    score = 0;
     connections = 0;
     click = 0;
     beats_back = 1;
@@ -124,7 +125,7 @@ analyze(now, track, TOLERANCE, WAKE) {
         song_start = peek(starting_frame, 0);
         score = area * (connections >= 1 || !song_start);   //!song_start instead of !lock so as many cues placed as possible on 1st loop through (important for backing tracks)
         poke(memory, peek(memory, 0, 3) + score, 0, 3);
-        poke(memory, peek(memory, 0, 4) + connections, 0, 4);
+        //poke(memory, peek(memory, 0, 4) + connections, 0, 4);
         if(!song_start) {  //Update default song_start to 0 (necessary only when unlocked_start 1st set)
             poke(memory, 0, 0, 5);    //If 0, Crucible will process it using unlocked_start
         }
@@ -133,7 +134,7 @@ analyze(now, track, TOLERANCE, WAKE) {
         while(scoring_index) {
             poke(memory, now, scoring_index, 1);
             poke(memory, peek(memory, scoring_index, 3) + score, scoring_index, 3);
-            poke(memory, peek(memory, scoring_index, 4) + connections, scoring_index, 4);
+            //poke(memory, peek(memory, scoring_index, 4) + connections, scoring_index, 4);
             if(!song_start) {  //Update default song_start to 0 (necessary only when unlocked_start 1st set)
                 poke(memory, 0, scoring_index, 5);    //If 0, Crucible will process it using unlocked_start
             }
@@ -142,5 +143,5 @@ analyze(now, track, TOLERANCE, WAKE) {
             scoring_index = peek(involved_indices, scoring_involvement);
         }
     }
-    return click, involvements, area, connections;
+    return click, score, area, connections;
 }
