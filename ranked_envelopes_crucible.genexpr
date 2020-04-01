@@ -1,38 +1,3 @@
-//So much excess that could be cleaned!
-
-filter_cue(ID, copy) {
-    Buffer cues("cues");
-    play = peek(cues, ID, 0);
-    return play;
-}
-place_or_erase(inversion, scrutinized_chamber, record, source) {
-    Buffer memory("memory");
-    Buffer cues("cues");
-    OUT2 = 0;
-    OUT3 = 0;
-    OUT4 = 0;
-    OUT5 = 0;
-    OUT6 = 0;
-    OUT7 = -1;
-    OUT8 = 0;
-    OUT9 = 0;
-    OUT10 = 0;
-    OUT11 = 0;
-    OUT12 = 0;
-    OUT13 = 0;
-    OUT14 = 0;
-    if(inversion == -1) {
-        if(!record) {
-            cue = peek(memory, scrutinized_chamber, 6);
-            //Deactivate cue in cues
-            poke(cues, 0, cue, 0);
-        }
-    }
-    else {
-        OUT2, OUT3, OUT4, OUT5, OUT6, OUT7, OUT8, OUT9, OUT10, OUT11, OUT12, OUT13, OUT14 = place(scrutinized_chamber, record, source);
-    }
-    return OUT2, OUT3, OUT4, OUT5, OUT6, OUT7, OUT8, OUT9, OUT10, OUT11, OUT12, OUT13, OUT14;
-}
 place_cue(track, frame, release) { 
     Buffer prior_cue_by_palette("prior_cue_by_palette");
     Buffer stats("stats");
@@ -46,13 +11,12 @@ place_cue(track, frame, release) {
     song_start = peek(prior_cue_by_palette, 2, palette);
     start_frame = peek(prior_cue_by_palette, 0, palette);
     start = (start_frame - song_start) / click;  //Ramp position (start of attack). Everything stored in absolute frames
-    span = peek(prior_cue_by_palette, 1, palette);  //Span ID
+    span = peek(prior_cue_by_palette, 1, palette);  //Span ID *Actually score now
     pass = song_start;  //Pass (Starting_frame)
     peak_frame = peek(prior_cue_by_palette, 4, palette);
     attack = peak_frame - start_frame;
     palette_position = peek(prior_cue_by_palette, 3, palette) - attack;  //Palette position (not in frames, keeps its own ms count)
     peak_position = start + (attack / click);                             //Peak ramp position (should be obsolete when filtering/recitation are done in gen)
-    //gen sequencer
     ms = round(start);
     occupied, clone = compare_cues(ms, palette_position, attack, track);
     while(occupied) {
@@ -61,7 +25,6 @@ place_cue(track, frame, release) {
     }
     if(clone) {
     	cue = peek(sequence, ms);
-        //poke(cues, span, cue, clone - 1);   //clone relays which slot is replaceable (1 or 2)
         poke(cues, span, cue, 0);   //always placed in channel 0
     }
     else {
@@ -75,7 +38,6 @@ place_cue(track, frame, release) {
         poke(cues, peak_position, cue, 7);
         poke(sequence, cue, ms);
         poke(cues_cursor, cue + 1, 0);
-        //poke(cues, -1, cue + 1, 6);             //Flag cursor position for easy identification on import
     }
     if(release == peek(wake, 0)) {                      //this stat must be provided for the info update that will
         poke(prior_cue_by_palette, frame, 4, palette);  //occur momentarily, as it will become the start_frame of the
@@ -87,7 +49,6 @@ place_span(track) {
     Buffer stats("stats");
     Buffer spans("spans");
     click = peek(stats, 6);
-    //stats.poke(1, 10);	//lock
     song_start = peek(recording_spans, 1, track);
     span = peek(recording_spans, 0, track);
     start = (peek(recording_spans, 2, track) - song_start) / click;
@@ -110,8 +71,8 @@ compare_cues(ms, palette_position, attack, track) {
     if(round(peek(cues, cue, 3), .0001) == round(palette_position, .0001)) {
         if(round(peek(cues, cue, 4), .0001) == round(attack, .0001)) {
             if(peek(cues, cue, 6) == track) {
-                clone = 1 + filter_cue(cue, 0); //Add offset to denote which span slot is replaceable (If 1st slot is playing
-            }                                   //(returns 1) then slot 2 (1+1), otherwise (returns 0) then slot 1 (1+0))
+                clone = 1;
+            }
         }
     }
     occupied = cue && !clone;
@@ -184,22 +145,11 @@ place(scrutinized_memory, record, source) {
         if(!span_recording) {
             song_start = get_song_start(scrutinized_memory, track);   //Must happen before span starts being documented
             poke(top_span, peek(top_span, 0) + 1, 0);
-            //blog(span_log, peek(top_span, 0));
             poke(recording_spans, peek(top_span, 0), 0, track);  //Span ID
             poke(recording_spans, song_start, 1, track); //Starting frame of song (stored with span so cues can reference it later)
-            //neighbor = peek(crucible, scrutinized_chamber - 1, track);
-            //neighbor_frame = peek(memory, neighbor, 0);
-            //poke(recording_spans, ((frame - neighbor_frame) / 2) + neighbor_frame, 2, track); //Start of span (still in absolute frames)
-            //blog(span_start_log, frame - (TOLERANCE * 4));
             poke(recording_spans, frame - (TOLERANCE * 4), 2, track); //Start of span (still in absolute frames)
-            //poke(diagnostics, neighbor_frame, 7);
         }
-        //neighbor = peek(crucible, scrutinized_chamber + 1, track);
-        //neighbor_frame = peek(memory, neighbor, 0);
-        //poke(recording_spans, ((neighbor_frame - frame) / 2) + frame, 3, track); //current end of span (still in absolute frames)
-        //blog(span_end_log, frame + (TOLERANCE * 4));
         poke(recording_spans, frame + (TOLERANCE * 4), 3, track);     //Current end of span (still in absolute frames)
-        //poke(diagnostics, neighbor_frame, 8);
     }
     else {  //Have span end if(!record || loop_end surpassed)
         if(span_recording) {
@@ -229,7 +179,7 @@ place(scrutinized_memory, record, source) {
     poke(prior_cue_by_palette, frame, 4, palette);
     return OUT2, OUT3, OUT4, OUT5, OUT6, OUT7, OUT8, OUT9, OUT10, OUT11, OUT12, OUT13, OUT14;
 }
-_decommission(index) {
+decommission(index) {
     Buffer memory("memory");
     Buffer stats("stats");
     Buffer wake("wake");
@@ -248,7 +198,7 @@ _decommission(index) {
     }
     return timestamp;
 }
-decommission(index, inversion) {
+_decommission(index, inversion) {
     Buffer memory("memory");
     Buffer stats("stats");
     Buffer wake("wake");
@@ -282,6 +232,7 @@ scrutinize(inversion, crucible, crucible_cursor, older_competition) {
     Buffer stats("stats");
     Buffer memory("memory");
     Buffer memory_cursor("memory_cursor");
+    Buffer max_voices("max_voices");
     Buffer envelopes("envelopes");
     Buffer rankings("rankings");
     //Buffer crucible("crucible");
@@ -321,14 +272,7 @@ scrutinize(inversion, crucible, crucible_cursor, older_competition) {
     index -= 1;  //Move one beat newer
     if(index < 0) {
         for(track = 1; track <= 16; track += 1) {
-            //poke(older_competition, -1, 0, track);  //Defaults to 1/2-cleaned crucible; will be overridden with 1st legitimate index
-            //oldest_competitor = peek(crucible, 0, track);
-            //if(inversion == -1 && (oldest_competitor == oldest_index || oldest_competitor == -1)) { //Recitation needs a competitor or it will never clean up, therefore if it went entire prior
-                //poke(crucible, -1, 0, track);                                   //scan without finding one rescind cleanup ward
-            //}
-            //else {
-                poke(crucible, oldest_index, 0, track);    //If older_competition is -1 (aborting) crucible index 0 simply won't be used (Set to oldest_index to ward off cleanup)
-            //}
+            poke(crucible, oldest_index, 0, track);    //If older_competition is -1 (aborting) crucible index 0 simply won't be used (Set to oldest_index to ward off cleanup)
             if(!peek(stats, 10)) {
                 poke(crucible_cursor, 0, 0, track);    //If a competitor hasn't been found yet, cursor should be at 0, otherwise 1 *true. So there's no need to set it here 
             }                                           //(Except to reset between songs e.g. lock == 0)
@@ -354,7 +298,7 @@ scrutinize(inversion, crucible, crucible_cursor, older_competition) {
         source = peek(memory, index, 2);
         track = abs(source);
         score = peek(memory, index, 3);
-        record = -1;
+        record = peek(memory, index, 4);
         OUT15 = frame;
         OUT16 = score;
         OUT17 = source;
@@ -366,22 +310,9 @@ scrutinize(inversion, crucible, crucible_cursor, older_competition) {
         poke(diagnostics, 0, 7);
         poke(diagnostics, 0, 8);
         if(source < 0) {    //Jamming only
-            //Determine `record` based on a higher score than any playing envelopes
-            record = 0;
-            for(rank = 0; rank < dim(rankings); rank += 1) {
-                ranked_envelope = peek(rankings, rank, track);
-                ranked_score = peek(envelopes, ranked_envelope, 7);
-                if(score > ranked_score) {
-                    if(ranked_score || !rank) {
-                        record = 1;
-                    }
-                    break;
-                }
-            }
             OUT2, OUT3, OUT4, OUT5, OUT6, OUT7, OUT8, OUT9, OUT10, OUT11, OUT12, OUT13, OUT14 = place(index, record, source);
         }
-        OUT1 = decommission(index, 1);      //For now, rather than have to revert cleaner
-        OUT1 = decommission(index, -1);
+        OUT1 = decommission(index);
         poke(diagnostics, record, 3);
     }
     return index, OUT1, OUT2, OUT3, OUT4, OUT5, OUT6, OUT7, OUT8, OUT9, OUT10, OUT11, OUT12, OUT13, OUT14, OUT15, OUT16, OUT17;
