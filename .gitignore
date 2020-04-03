@@ -17,3 +17,4 @@ installer.iss
 .vscode/
 node_modules/
 *.log
+logger.exe
