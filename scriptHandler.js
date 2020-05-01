@@ -78,6 +78,58 @@ let oldFileRecycler = (location, createdModified, days, recycleDelete) => {
     })
 }
 
+//recycles any music files older than specified parameters
+let oldAiffRecycler = (location, createdModified, days, recycleDelete) => {
+    
+    //basic variables initialized before function
+    let created = false;
+    let modified = false;
+    let recycle = false;
+    let del = false;
+    let isAudio = false;
+//Seems to be adding the trailing / no matter what, but unnecessary anyway
+    /*if(location[location.length - 1] != '\\' || location[location.length - 1] != '/'){
+        location += '/';
+    }*/
+    
+    //ternary operators to easily distinguish the user options
+    createdModified == 1 ? modified = true : created = true;
+    recycleDelete == 1 ? del = true : recycle = true;
+    shell.cd(location)
+
+    let date, date1;
+
+    //goes through everything given from the directory list, checks each file one by one
+    shell.ls('-l').forEach((elem, index) => {
+        isAudio = false;
+
+        //Checks only for .aiff (palette) files
+        if(elem.name.includes('.aiff')) {
+            isAudio = true;
+        }
+        //maxAPI.post("checking "+elem.name + " in " + location + ". IsAudio?" + isAudio);
+
+        //if its an audio file it begins the actual modified and created checking
+        if(isAudio){
+            date1 = new Date();
+            date1 = date1.getFullYear() * 365 + getmon(date1) + date1.getDate();
+            date = modified ? new Date(elem.mtimeMs) : new Date(elem.birthtimeMs);
+            date = date.getFullYear() * 365 + getmon(date) + date.getDate();
+            if(date1 - date > days){
+                if(del){
+                    maxAPI.post("deleting "+elem + " in " + location + " because it's older than " + days + " days");
+                    shell.rm("-f", elem.name);
+                }
+                else{
+                    maxAPI.post("primed to delete "+elem + " in " + location + " because it's older than " + days + " days");
+                    shell.echo("Your settings are not set to delete the folders and files older than " + days + " days!")
+                    maxAPI.outlet("prepped to delete  " + location + elem.name);
+                }
+            }       
+        } 
+    })
+}
+
 //the specific pattern is set to 0 as a default because this is more a behind the scenes that should be called when necessary
 let oldFolderRecycler = (location, createdModified, days, recycleDelete = 0, untitledOnly = 0) => {
     let created = false;
@@ -173,6 +225,10 @@ const handlers = {
 	cleanupSongs: (...args) => {
         maxAPI.post(...args);
         oldFileRecycler(...args);
+	},
+	cleanupPalettes: (...args) => {
+        maxAPI.post(...args);
+        oldAiffRecycler(...args);
 	},
 	cleanupProjects: (...args) => {
         oldFolderRecycler(...args);

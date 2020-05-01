@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -47,7 +47,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -100,7 +100,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 260.0, 0.0, 191.0, 107.0 ],
+									"patching_rect" : [ 260.0, 0.0, 191.0, 110.0 ],
 									"text" : " hotkey pitches:\ninstrument/track specific\n1 - previous sound (PGDN)\n2 - next sound (PGUP)\n3 - track Down (-)\n4 - track up (+)\nsystemwide (blocked by second gate) \n0 - god mode (*)\n5 - kill song (BACKSPACE)"
 								}
 
@@ -124,7 +124,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 300.0, 100.0, 230.0, 107.0 ],
+									"patching_rect" : [ 300.0, 100.0, 230.0, 110.0 ],
 									"text" : "Midi notes that are not hotkeys send instrument name. Hotkey pitches get blocked (meaning they will apply to the last played instrument) UNLESS it turns out they have an assigned lock, in which case the active instrument and sound are updated just like an ordinary midi note. In addition, the ` and ~ hotkeys manage a gate that will set or remove locks based on last played instrument."
 								}
 
@@ -1641,7 +1641,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 470.0, 90.0, 170.0, 152.0 ],
+					"patching_rect" : [ 460.0, 90.0, 170.0, 156.0 ],
 					"text" : " firstly, the instrument name is sent through \"controller\" designating the active instrument. Then ---specs is checked to see if this instrument has already been assigned to a channel. If so, (right outlet) that channel is appended to the MIDI message and the UI is updated through ---midiins. If not, (left outlet) the original unaltered channel of the MIDI is used and stored in ---specs."
 				}
 
@@ -1669,7 +1669,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1704,6 +1704,18 @@
 						"style" : "",
 						"subpatcher_template" : "To the Sun",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 140.0, 320.0, 150.0, 29.0 ],
+									"text" : " this code now redundant: midiins now sets specs"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-41",
 									"maxclass" : "newobj",
@@ -2800,7 +2812,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
+							"minor" : 1,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
