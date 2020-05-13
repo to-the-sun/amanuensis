@@ -123,7 +123,8 @@ analyze(now, track, TOLERANCE, WAKE) {
     if(involvements) {  //Why not just include index 0 as an involvement? Because while() sees index 0 as empty and stops
         //lock = peek(stats, 10);
         song_start = peek(starting_frame, 0);
-        score = area * (connections >= 1 || !song_start);   //!song_start instead of !lock so as many cues placed as possible on 1st loop through (important for backing tracks)
+        //score = area * (connections >= 1 || !song_start);   //!song_start instead of !lock so as many cues placed as possible on 1st loop through (important for backing tracks)
+        score = area;
         poke(memory, peek(memory, 0, 3) + score, 0, 3);
         //poke(memory, peek(memory, 0, 4) + connections, 0, 4);
         if(!song_start) {  //Update default song_start to 0 (necessary only when unlocked_start 1st set)
