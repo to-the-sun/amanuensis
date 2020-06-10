@@ -30,6 +30,7 @@ place_cue(track, frame, release) {
     else {
         cue = peek(cues_cursor, 0);
         poke(cues, span, cue, 0);
+        poke(cues, .9, cue, 1);     //Viable, but not yet activated
         poke(cues, pass, cue, 2);
         poke(cues, palette_position, cue, 3);
         poke(cues, attack, cue, 4);
