@@ -6,11 +6,13 @@ place_cue(track, frame, release) {
     Buffer cues("cues");
     Buffer cues_cursor("cues_cursor");
     Buffer sequence("sequence");
+    Buffer beats_by_track("beats_by_track");
     click = peek(stats, 6);
     palette = peek(palette_by_track, track);
     song_start = peek(prior_cue_by_palette, 2, palette);
     start_frame = peek(prior_cue_by_palette, 0, palette);
-    start = (start_frame - song_start) / click;  //Ramp position (start of attack). Everything stored in absolute frames
+    track_length = peek(beats_by_track, track);
+    start = (start_frame - song_start) % track_length;  //Ramp position (start of attack). Everything stored in absolute frames except track_length
     span = peek(prior_cue_by_palette, 1, palette);  //Span ID *Actually score now
     pass = song_start;  //Pass (Starting_frame)
     peak_frame = peek(prior_cue_by_palette, 4, palette);
@@ -35,7 +37,7 @@ place_cue(track, frame, release) {
         poke(cues, palette_position, cue, 3);
         poke(cues, attack, cue, 4);
         poke(cues, release, cue, 5);
-        poke(cues, track, cue, 6);
+        poke(cues, -track, cue, 6);
         poke(cues, peak_position, cue, 7);
         poke(sequence, cue, ms);
         poke(cues_cursor, cue + 1, 0);
@@ -71,7 +73,7 @@ compare_cues(ms, palette_position, attack, track) {
     clone = 0;
     if(round(peek(cues, cue, 3), .0001) == round(palette_position, .0001)) {
         if(round(peek(cues, cue, 4), .0001) == round(attack, .0001)) {
-            if(peek(cues, cue, 6) == track) {
+            if(abs(peek(cues, cue, 6)) == track) {
                 clone = 1;
             }
         }
@@ -85,14 +87,14 @@ get_song_start(oldest_index, track) {               //These inputs could be cons
     Buffer unlocked_start("unlocked_start");
     song_start = peek(memory, oldest_index, 5);
     span_recording = peek(recording_spans, 0, track);
-    if(!span_recording) {
+    //if(!span_recording) {
         if(!song_start) {
             song_start = peek(unlocked_start, 0);
         }
-    }
-    else {
-        song_start = peek(recording_spans, 1, track);
-    }
+    //}
+    //else {
+    //    song_start = peek(recording_spans, 1, track);
+    //}
     return song_start;
 }
 place(scrutinized_memory, record, source) {
