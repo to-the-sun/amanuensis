@@ -1,0 +1,10 @@
+blog(buf, value) {
+	idx = counter(1, 0, dim(buf));
+	poke(buf, value, idx, 0, 0, 0);
+	poke(buf, elapsed, idx, 1, 0, 0);
+	return value;
+}
+
+Buffer debug("debug");
+debug_dim_1 = dim(debug);
+debug_chans_2 = channels(debug);

@@ -1,68 +1,35 @@
 ﻿insert_beat(now, source, palette_position) {
     Buffer memory("memory");
     Buffer past_beats("past_beats");
-    Buffer J_crucible("J_crucible");
-    Buffer J_crucible_cursor("J_crucible_cursor");
-    Buffer R_crucible("R_crucible");
-    Buffer R_crucible_cursor("R_crucible_cursor");
-    Buffer last_cleaned("last_cleaned");
     Buffer starting_frame("starting_frame");
     Buffer unlocked_start("unlocked_start");
 	Buffer memory_cursor("memory_cursor");
-	//Ideally new beats would be added at the highest 
-	//index rather than 0 and the extra processing of 
-	//shifting all the indices saved for cleanup, but 
-	//this would turn everything upside down
-    beats_in_memory = peek(past_beats, 0);
-    for(i = beats_in_memory; i >= 0; i -= 1) {
-        for(j = 0; j < channels(memory); j += 1) {
-            poke(memory, peek(memory, i - 1, j), i, j);
-        }
-    }
-    poke(memory, now, 0, 0);
-    poke(memory, now, 0, 1);
-    poke(memory, source, 0, 2);
-    poke(memory, 0, 0, 3);  //Scores are updated in analyze() but are zeroed out here first in case 
-    poke(memory, 0, 0, 4);  //of a miss (forced or otherwise)
+    Buffer oldest("oldest");
+    oldest_index = peek(oldest, 0);
+    beat = ((oldest_index - peek(past_beats, 0)) + dim(memory)) % dim(memory);  //gen is too stupid to % a negative number correctly
+    poke(memory, now, beat, 0);
+    poke(memory, now, beat, 1);
+    poke(memory, source, beat, 2);
+    poke(memory, 0, beat, 3);  //Scores are updated in analyze() but are zeroed out here first in case 
+    poke(memory, 0, beat, 4);  //of a miss (forced or otherwise)
     song_start = peek(starting_frame, 0);   
     if(!song_start) {                       //if no song_start it's implied to be jamming, not recitation
         first_hit = peek(unlocked_start, 0);
         if(first_hit) {
-            poke(memory, 0, 0, 5);          //Set to 0 so final unlocked_start will be used at cleanup
+            poke(memory, 0, beat, 5);          //Set to 0 so final unlocked_start will be used at cleanup
         }
         else {                              //Unlocked misses must have song_start set to something
-            poke(memory, now, 0, 5);        //Using `now` give them each their own pass, auditioning as 
+            poke(memory, now, beat, 5);        //Using `now` give them each their own pass, auditioning as 
         }                                   //1st note in song, which works well enough
     }                                       
     else {                                  
-        poke(memory, song_start, 0, 5);
+        poke(memory, song_start, beat, 5);
     }
-    poke(memory, palette_position, 0, 6);
+    poke(memory, palette_position, beat, 6);
     //Increment everything that's keeping track of a memory index
     poke(past_beats, peek(past_beats, 0) + 1, 0);
 	if(peek(memory_cursor, 0) >= 0) {
     	poke(memory_cursor, peek(memory_cursor, 0) + 1, 0);
 	}
-    for(j = 1; j <= channels(J_crucible); j += 1) {
-    	for(i = 0; i < peek(J_crucible_cursor, 0, j); i += 1) {
-            poke(J_crucible, peek(J_crucible, i, j) + 1, i, j);
-        }
-    }
-    for(j = 1; j <= channels(R_crucible); j += 1) {
-    	for(i = 0; i < peek(R_crucible_cursor, 0, j); i += 1) {
-            poke(R_crucible, peek(R_crucible, i, j) + 1, i, j);
-        }
-    }
-    /*for(j = 1; j <= channels(crucible); j += 1) {
-    	for(i = 0; i < peek(crucible_cursor, 0, j); i += 1) {
-            poke(crucible, peek(crucible, i, j) + 1, i, j);
-        }
-    }
-    for(j = 1; j <= channels(last_cleaned); j += 1) {
-        oldest_competitor = peek(last_cleaned, 0, j);
-        if(oldest_competitor) {      //A competitor may not have been found yet (should remain 0)
-            poke(last_cleaned, oldest_competitor + 1, 0, j);
-        }
-    }*/
-    return 0;
+    return beat;
 }
