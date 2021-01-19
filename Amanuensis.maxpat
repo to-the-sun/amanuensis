@@ -40,12 +40,35 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-152",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 854.0, 280.0, 37.0, 20.0 ],
+					"text" : "r OSC"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-153",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 854.0, 300.0, 122.0, 20.0 ],
+					"text" : "udpsend localhost 9090"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-151",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 780.0, 0.0, 54.0, 20.0 ],
-					"text" : "visualizer"
+					"patching_rect" : [ 780.0, 0.0, 35.0, 20.0 ],
+					"text" : "barks"
 				}
 
 			}
@@ -157,263 +180,378 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 4.0, 260.0, 173.0, 20.0 ],
 					"restore" : [ 						{
-							"hat open 2 - 13in zildjian remix.wav" : 996809128,
-							"snare-punch.wav" : 30625473,
-							"hihat-ring.wav" : 11893760,
-							"floor tom 6 - 14in pearl master custom.wav" : 10529818,
-							"floor tom 2 - 14in pearl master custom.wav" : 12031062,
-							"splash 5 - 6in zildjian.wav" : 24327613,
-							"large crash 3 - 18in zildjian.wav" : 14949478,
-							"small crash 5 - 16in zildjian.wav" : 14269025,
-							"clap-slapper.wav" : 11065962,
-							"kick-electro01.wav" : 9344979,
-							"large china 3 - 22in zildjian.wav" : 11914921,
-							"ride-acoustic02.wav" : 10506846,
-							"kick 4 outside - 22in pearl master custom.wav" : 12183980,
-							"hihat-electro.wav" : 13250174,
-							"hat tight 6 - 13in zildjian remix.wav" : 10641404,
-							"clap_layer_14.WAV" : 21483901,
-							"large crash 6 - 18in zildjian.wav" : 14326622,
-							"small crash 2 - 16in zildjian.wav" : 16006167,
-							"Tree Trunk Hit.wav" : 18491111,
-							"Dem Rocks 4.wav" : 21655560,
-							"large china 1 - 22in zildjian.wav" : 14048191,
-							"hat_layer_7.WAV" : 21935963,
-							"med tom 2 - 12in pearl master custom.wav" : 14243081,
-							"tom-808.wav" : 14715381,
-							"kick-deep.wav" : 9913356,
-							"snare-electro.wav" : 13226709,
-							"floor tom 5 - 14in pearl master custom.wav" : 10504142,
-							"hat loose 1 - 13in zildjian remix.wav" : 37396121,
-							"kick-tight.wav" : 9848528,
-							"kick-tron.wav" : 9570709,
-							"kick-gritty.wav" : 9907230,
-							"small tom 2 - 10in pearl master custom.wav" : 14991256,
-							"Rock Droppa 3.wav" : 14083700,
-							"Dem Rocks 3.wav" : 10784470,
-							"snare bottom 5 - 14in pearl master custom.wav" : 23117835,
-							"small tom 3 - 10in pearl master custom.wav" : 11402332,
-							"snare-acoustic01.wav" : 12682089,
-							"ride 1 - 18in zildjian.wav" : 19640978,
-							"perc-chirpy.wav" : 26681300,
-							"hat tight 5 - 13in zildjian remix.wav" : 10864075,
-							"kick-slapback.wav" : 10964358,
-							"hat foot 2 - 13in zildjian remix.wav" : 11507458,
-							"Leaf Crunch 1.wav" : 12812165,
-							"large crash 4 - 18in zildjian.wav" : 22600344,
-							"hat_layer_31.WAV" : 12124463,
-							"clap_layer_12.WAV" : 22006051,
-							"kick_layer_21.WAV" : 8055756,
-							"ride 6 - 18in zildjian.wav" : 21636686,
-							"large crash 2 - 18in zildjian.wav" : 10677371,
-							"hat open 4 - 13in zildjian remix.wav" : 14367332,
-							"Dem Tings 2.wav" : 16570257,
-							"snare_layer_13.WAV" : 13669230,
-							"clap-808.wav" : 12982814,
-							"no snare snare 1 - 14in pearl master custom.wav" : 11385102,
-							"kick-vinyl01.wav" : 9173134,
-							"808-HiHats04.wav" : 11054931,
-							"crash-tape.wav" : 10953782,
-							"kick-floppy.wav" : 10034013,
-							"snare-smasher.wav" : 12603499,
-							"tom-short.wav" : 13564784,
-							"hihat-acoustic01.wav" : 15871264,
-							"kick 1 outside - 22in pearl master custom.wav" : 34527418,
-							"perc-laser.wav" : 13338833,
-							"small crash 1 - 16in zildjian.wav" : 22048039,
-							"kick 3 outside - 22in pearl master custom.wav" : 9090927,
-							"no snare snare 4 - 14in pearl master custom.wav" : 12724458,
-							"floor tom 4 - 14in pearl master custom.wav" : 10579547,
-							"snare-big.wav" : 9663158,
-							"kick 2 outside - 22in pearl master custom.wav" : 9184906,
-							"openhat-slick.wav" : 22316448,
-							"snap_layer_7.WAV" : 7675620,
-							"tom-lofi.wav" : 10186710,
-							"snare-acoustic02.wav" : 15056645,
-							"kick_layer_37.WAV" : 8970716,
-							"snare-dist02.wav" : 6956834,
-							"hihat-acoustic02.wav" : 7656542,
-							"snare top 5 - 14in pearl master custom.wav" : 8962305,
-							"small tom 1 - 10in pearl master custom.wav" : 8423040,
-							"snare top 4 - 14in pearl master custom.wav" : 10571669,
-							"Leaf Crunch 2.wav" : 11455368,
-							"ride 4 - 18in zildjian.wav" : 11356318,
-							"kick 6 inside - 22in pearl master custom.wav" : 23854362,
-							"808-HiHats10.wav" : 14039684,
-							"large china 2 - 22in zildjian.wav" : 9268358,
-							"snare bottom 4 - 14in pearl master custom.wav" : 9313670,
-							"ride 3 - 18in zildjian.wav" : 9617003,
-							"kick-zapper.wav" : 11614697,
-							"hihat-analog.wav" : 14941880,
-							"med tom 6 - 12in pearl master custom.wav" : 9712427,
-							"clap-crushed.wav" : 10591565,
-							"808-HiHats05.wav" : 39992456,
-							"med tom 5 - 12in pearl master custom.wav" : 11237777,
-							"hat_layer_18.WAV" : 11969488,
-							"kick_layer_18.WAV" : 20956186,
-							"kick-plain.wav" : 14360084,
-							"perc-metal.wav" : 11873473,
-							"snare-dist01.wav" : 10660404,
-							"808-HiHats17.wav" : 13156945,
-							"snare top 6 - 14in pearl master custom.wav" : 8555492,
-							"small crash 4 - 16in zildjian.wav" : 11799449,
-							"Smacka.wav" : 24904678,
-							"Dem Tings 1.wav" : 8895471,
-							"cowbell-808.wav" : 13973492,
-							"kick-stomp.wav" : 25402197,
-							"small crash 3 - 16in zildjian.wav" : 7215532,
-							"med tom 1 - 12in pearl master custom.wav" : 9365559,
-							"tom-analog.wav" : 12915768,
-							"openhat-tight.wav" : 9358763,
-							"med tom 3 - 12in pearl master custom.wav" : 8836933,
-							"hat loose 6 - 13in zildjian remix.wav" : 14430632,
-							"808-HiHats07.wav" : 11075566,
-							"snare-vinyl01.wav" : 9182323,
-							"small tom 4 - 10in pearl master custom.wav" : 7638884,
-							"clap_layer_11.WAV" : 5888169,
-							"snare-analog.wav" : 6763804,
-							"snare-block.wav" : 12240038,
-							"ride-acoustic01.wav" : 12221305,
-							"large china 6 - 22in zildjian.wav" : 9703715,
-							"kick 4 inside - 22in pearl master custom.wav" : 11788176,
-							"perc-short.wav" : 10241223,
-							"snare-lofi01.wav" : 7445327,
-							"tom-acoustic02.wav" : 9557180,
-							"hat tight 3 - 13in zildjian remix.wav" : 9964062,
-							"kick-newwave.wav" : 12907510,
-							"kick-acoustic02.wav" : 9117430,
-							"kick-dry.wav" : 7598899,
-							"snare-pinch.wav" : 7495743,
-							"hihat-dist01.wav" : 20780180,
-							"kick 2 inside - 22in pearl master custom.wav" : 11160740,
-							"Cable Laser.wav" : 7319708,
-							"hihat-808.wav" : 5071627,
-							"808-HiHats03.wav" : 6565550,
-							"crash-noise.wav" : 7500111,
-							"ride 2 - 18in zildjian.wav" : 6762176,
-							"snare-tape.wav" : 5057847,
-							"kick_layer_35.WAV" : 7612987,
-							"snare-808.wav" : 7382925,
-							"med tom 4 - 12in pearl master custom.wav" : 9025744,
-							"crash-808.wav" : 19471192,
-							"tom-chiptune.wav" : 27011291,
-							"kick-cultivator.wav" : 11813000,
-							"808-HiHats18.wav" : 9735210,
-							"snare top 3 - 14in pearl master custom.wav" : 11267091,
-							"hihat-plain.wav" : 10958817,
-							"808-HiHats11.wav" : 9804889,
-							"hat tight 1 - 13in zildjian remix.wav" : 11346729,
-							"hat loose 4 - 13in zildjian remix.wav" : 16126176,
-							"kick-softy.wav" : 11708543,
-							"snare top 1 - 14in pearl master custom.wav" : 9335967,
-							"hat loose 5 - 13in zildjian remix.wav" : 16570195,
-							"perc-tribal.wav" : 10704493,
-							"small tom 5 - 10in pearl master custom.wav" : 10660807,
-							"kick-808.wav" : 19210232,
-							"shaker-shuffle.wav" : 11215361,
-							"hat loose 2 - 13in zildjian remix.wav" : 4884638,
-							"808-HiHats15.wav" : 10874034,
-							"Rock Crush.wav" : 10236253,
-							"splash 4 - 6in zildjian.wav" : 25920034,
-							"hat foot 1 - 13in zildjian remix.wav" : 6744882,
-							"kick-heavy.wav" : 7364008,
-							"snare top 2 - 14in pearl master custom.wav" : 14341049,
-							"shaker-suckup.wav" : 8159124,
-							"large china 5 - 22in zildjian.wav" : 7407803,
-							"hat open 1 - 13in zildjian remix.wav" : 10156019,
-							"kick-electro02.wav" : 9564384,
-							"Rock Droppa.wav" : 21711272,
-							"floor tom 3 - 14in pearl master custom.wav" : 6330208,
-							"hihat-digital.wav" : 10307716,
-							"kick 1 inside - 22in pearl master custom.wav" : 8782513,
-							"perc-tambo.wav" : 9152309,
-							"snare-lofi02.wav" : 7463036,
-							"hat foot 3 - 13in zildjian remix.wav" : 9081268,
-							"hat_layer_12.WAV" : 9577454,
-							"perc-nasty.wav" : 7024844,
-							"splash 3 - 6in zildjian.wav" : 9236642,
-							"808-HiHats14.wav" : 5751031,
-							"snare-noise.wav" : 7687424,
-							"snare-brute.wav" : 11963261,
-							"hat_layer_14.WAV" : 7632853,
-							"kick-oldschool.wav" : 9317137,
-							"tom-acoustic01.wav" : 26739133,
-							"snare-vinyl02.wav" : 10087539,
-							"snare_layer_22.WAV" : 10817893,
-							"openhat-acoustic01.wav" : 9245235,
-							"ride 5 - 18in zildjian.wav" : 7865368,
-							"clap-analog.wav" : 12189559,
-							"kick 5 inside - 22in pearl master custom.wav" : 33773462,
-							"perc-weirdo.wav" : 10885554,
-							"perc-hollow.wav" : 8783943,
-							"kick 6 outside - 22in pearl master custom.wav" : 9514826,
-							"Rock Droppa 2.wav" : 7184756,
-							"clap-tape.wav" : 7155958,
-							"Dem Tings 4.wav" : 18165969,
-							"kick-acoustic01.wav" : 6087918,
-							"808-HiHats09.wav" : 10508026,
-							"small tom 6 - 10in pearl master custom.wav" : 6898200,
-							"Dem Rocks 5.wav" : 8139275,
-							"kick-tape.wav" : 22959508,
-							"808-HiHats02.wav" : 18372002,
-							"no snare snare 5 - 14in pearl master custom.wav" : 7134578,
-							"large crash 5 - 18in zildjian.wav" : 6897954,
-							"kick-classic.wav" : 6831913,
-							"clap-fat.wav" : 11108617,
-							"openhat-808.wav" : 8977100,
-							"snare_layer_4.WAV" : 8953884,
-							"Dem Rocks 2.wav" : 12101975,
-							"snare bottom 2 - 14in pearl master custom.wav" : 7307770,
-							"large china 4 - 22in zildjian.wav" : 7230161,
-							"tom-fm.wav" : 8653368,
-							"808-HiHats13.wav" : 10372692,
-							"hat_layer_11.WAV" : 9896091,
-							"Chain Kickah.wav" : 51198853,
-							"snare_layer_23.WAV" : 6667130,
-							"808-HiHats06.wav" : 11039147,
-							"kick 3 inside - 22in pearl master custom.wav" : 7191973,
-							"hat tight 4 - 13in zildjian remix.wav" : 20839069,
-							"crash-acoustic.wav" : 11072682,
-							"no snare snare 3 - 14in pearl master custom.wav" : 8617802,
-							"hat tight 2 - 13in zildjian remix.wav" : 8996433,
-							"hat loose 3 - 13in zildjian remix.wav" : 6917257,
-							"kick_layer_14.WAV" : 9314136,
-							"hihat-reso.wav" : 11747815,
-							"no snare snare 2 - 14in pearl master custom.wav" : 19418096,
-							"Resonatah.wav" : 7175469,
-							"splash 6 - 6in zildjian.wav" : 9064206,
-							"snare-modular.wav" : 7773294,
-							"snare-sumo.wav" : 22083611,
-							"snare bottom 6 - 14in pearl master custom.wav" : 10159554,
-							"hat open 3 - 13in zildjian remix.wav" : 6123480,
-							"snare_layer_19.WAV" : 14105241,
-							"hihat-dist02.wav" : 7859835,
-							"no snare snare 6 - 14in pearl master custom.wav" : 7168958,
-							"808-HiHats01.wav" : 21455404,
-							"snare_layer_48.WAV" : 8292208,
-							"snare bottom 1 - 14in pearl master custom.wav" : 19477121,
-							"floor tom 1 - 14in pearl master custom.wav" : 8051156,
-							"Dem Tings 3.wav" : 9049002,
-							"splash 1 - 6in zildjian.wav" : 9312031,
-							"tom-rototom.wav" : 9347945,
-							"kick 5 outside - 22in pearl master custom.wav" : 7495277,
-							"Dem Rocks.wav" : 9461721,
-							"shaker-analog.wav" : 8833708,
-							"kick-big.wav" : 19765298,
-							"808-HiHats16.wav" : 8207898,
-							"Can Cruncha.wav" : 9503282,
-							"snare bottom 3 - 14in pearl master custom.wav" : 12020436,
-							"splash 2 - 6in zildjian.wav" : 9121267,
-							"808-HiHats12.wav" : 8595983,
-							"small crash 6 - 16in zildjian.wav" : 7365041,
-							"perc-808.wav" : 8621289,
-							"Dem Tings.wav" : 12756729,
-							"openhat-analog.wav" : 10183908,
-							"kick-thump.wav" : 8526983,
-							"large crash 1 - 18in zildjian.wav" : 8534596,
-							"kick-vinyl02.wav" : 7006233,
-							"snare-dist03.wav" : 9561301,
-							"" : 12016
+							"hat open 2 - 13in zildjian remix.wav" : 1663749541,
+							"snare-punch.wav" : 33946406,
+							"hihat-ring.wav" : 13482735,
+							"floor tom 6 - 14in pearl master custom.wav" : 11373098,
+							"floor tom 2 - 14in pearl master custom.wav" : 15510142,
+							"splash 5 - 6in zildjian.wav" : 26845253,
+							"large crash 3 - 18in zildjian.wav" : 17492725,
+							"small crash 5 - 16in zildjian.wav" : 14791545,
+							"clap-slapper.wav" : 13015245,
+							"kick-electro01.wav" : 11039123,
+							"large china 3 - 22in zildjian.wav" : 13949962,
+							"ride-acoustic02.wav" : 12823359,
+							"kick 4 outside - 22in pearl master custom.wav" : 14767788,
+							"hihat-electro.wav" : 17349494,
+							"hat tight 6 - 13in zildjian remix.wav" : 11621231,
+							"clap_layer_14.WAV" : 24055035,
+							"large crash 6 - 18in zildjian.wav" : 18034919,
+							"small crash 2 - 16in zildjian.wav" : 19255205,
+							"Tree Trunk Hit.wav" : 20193735,
+							"Dem Rocks 4.wav" : 23693362,
+							"large china 1 - 22in zildjian.wav" : 17442290,
+							"hat_layer_7.WAV" : 22593789,
+							"med tom 2 - 12in pearl master custom.wav" : 16643462,
+							"tom-808.wav" : 15433149,
+							"kick-deep.wav" : 12139016,
+							"snare-electro.wav" : 15462503,
+							"floor tom 5 - 14in pearl master custom.wav" : 14002189,
+							"hat loose 1 - 13in zildjian remix.wav" : 38977229,
+							"kick-tight.wav" : 11775476,
+							"kick-tron.wav" : 14129975,
+							"kick-gritty.wav" : 11946665,
+							"small tom 2 - 10in pearl master custom.wav" : 17307905,
+							"Rock Droppa 3.wav" : 18134233,
+							"Dem Rocks 3.wav" : 14701441,
+							"snare bottom 5 - 14in pearl master custom.wav" : 25689528,
+							"small tom 3 - 10in pearl master custom.wav" : 15089883,
+							"snare-acoustic01.wav" : 14245529,
+							"ride 1 - 18in zildjian.wav" : 21778596,
+							"perc-chirpy.wav" : 28707769,
+							"hat tight 5 - 13in zildjian remix.wav" : 11469864,
+							"kick-slapback.wav" : 11944594,
+							"hat foot 2 - 13in zildjian remix.wav" : 14819300,
+							"Leaf Crunch 1.wav" : 14284427,
+							"large crash 4 - 18in zildjian.wav" : 25213221,
+							"hat_layer_31.WAV" : 14723895,
+							"clap_layer_12.WAV" : 25017119,
+							"kick_layer_21.WAV" : 10429603,
+							"ride 6 - 18in zildjian.wav" : 24952878,
+							"large crash 2 - 18in zildjian.wav" : 12826006,
+							"hat open 4 - 13in zildjian remix.wav" : 17930921,
+							"Dem Tings 2.wav" : 17940909,
+							"snare_layer_13.WAV" : 16590429,
+							"clap-808.wav" : 15587297,
+							"no snare snare 1 - 14in pearl master custom.wav" : 13158108,
+							"kick-vinyl01.wav" : 12637387,
+							"808-HiHats04.wav" : 13301473,
+							"crash-tape.wav" : 13293539,
+							"kick-floppy.wav" : 13234207,
+							"snare-smasher.wav" : 14029027,
+							"tom-short.wav" : 16295905,
+							"hihat-acoustic01.wav" : 20082500,
+							"kick 1 outside - 22in pearl master custom.wav" : 37264032,
+							"perc-laser.wav" : 16471214,
+							"small crash 1 - 16in zildjian.wav" : 23169129,
+							"kick 3 outside - 22in pearl master custom.wav" : 11678354,
+							"no snare snare 4 - 14in pearl master custom.wav" : 15578896,
+							"floor tom 4 - 14in pearl master custom.wav" : 12267668,
+							"snare-big.wav" : 10869392,
+							"kick 2 outside - 22in pearl master custom.wav" : 10823859,
+							"openhat-slick.wav" : 25119146,
+							"snap_layer_7.WAV" : 11026129,
+							"tom-lofi.wav" : 11386484,
+							"snare-acoustic02.wav" : 17912746,
+							"kick_layer_37.WAV" : 11439567,
+							"snare-dist02.wav" : 10068685,
+							"hihat-acoustic02.wav" : 12106446,
+							"snare top 5 - 14in pearl master custom.wav" : 10377555,
+							"small tom 1 - 10in pearl master custom.wav" : 11462529,
+							"snare top 4 - 14in pearl master custom.wav" : 11417195,
+							"Leaf Crunch 2.wav" : 15654616,
+							"ride 4 - 18in zildjian.wav" : 13549715,
+							"kick 6 inside - 22in pearl master custom.wav" : 25212302,
+							"808-HiHats10.wav" : 16879615,
+							"large china 2 - 22in zildjian.wav" : 10743328,
+							"snare bottom 4 - 14in pearl master custom.wav" : 12257606,
+							"ride 3 - 18in zildjian.wav" : 12623301,
+							"kick-zapper.wav" : 13178249,
+							"hihat-analog.wav" : 15523956,
+							"med tom 6 - 12in pearl master custom.wav" : 11052078,
+							"clap-crushed.wav" : 14423698,
+							"808-HiHats05.wav" : 41829518,
+							"med tom 5 - 12in pearl master custom.wav" : 12724539,
+							"hat_layer_18.WAV" : 14422833,
+							"kick_layer_18.WAV" : 22468719,
+							"kick-plain.wav" : 17344120,
+							"perc-metal.wav" : 14351600,
+							"snare-dist01.wav" : 15032719,
+							"808-HiHats17.wav" : 16745296,
+							"snare top 6 - 14in pearl master custom.wav" : 12339490,
+							"small crash 4 - 16in zildjian.wav" : 13682602,
+							"Smacka.wav" : 26519418,
+							"Dem Tings 1.wav" : 10046588,
+							"cowbell-808.wav" : 15851643,
+							"kick-stomp.wav" : 29049213,
+							"small crash 3 - 16in zildjian.wav" : 9290670,
+							"med tom 1 - 12in pearl master custom.wav" : 11588691,
+							"tom-analog.wav" : 15423705,
+							"openhat-tight.wav" : 12573896,
+							"med tom 3 - 12in pearl master custom.wav" : 10220197,
+							"hat loose 6 - 13in zildjian remix.wav" : 16011622,
+							"808-HiHats07.wav" : 15639369,
+							"snare-vinyl01.wav" : 11394423,
+							"small tom 4 - 10in pearl master custom.wav" : 8959552,
+							"clap_layer_11.WAV" : 7531591,
+							"snare-analog.wav" : 9084941,
+							"snare-block.wav" : 13788549,
+							"ride-acoustic01.wav" : 13272515,
+							"large china 6 - 22in zildjian.wav" : 11971300,
+							"kick 4 inside - 22in pearl master custom.wav" : 13346802,
+							"perc-short.wav" : 13791737,
+							"snare-lofi01.wav" : 8654998,
+							"tom-acoustic02.wav" : 11451743,
+							"hat tight 3 - 13in zildjian remix.wav" : 12430243,
+							"kick-newwave.wav" : 15230103,
+							"kick-acoustic02.wav" : 10422978,
+							"kick-dry.wav" : 10722117,
+							"snare-pinch.wav" : 9248830,
+							"hihat-dist01.wav" : 23363799,
+							"kick 2 inside - 22in pearl master custom.wav" : 14382279,
+							"Cable Laser.wav" : 12077427,
+							"hihat-808.wav" : 7887502,
+							"808-HiHats03.wav" : 8645750,
+							"crash-noise.wav" : 11152591,
+							"ride 2 - 18in zildjian.wav" : 8763544,
+							"snare-tape.wav" : 6167742,
+							"kick_layer_35.WAV" : 11017684,
+							"snare-808.wav" : 9312901,
+							"med tom 4 - 12in pearl master custom.wav" : 13331876,
+							"crash-808.wav" : 23301000,
+							"tom-chiptune.wav" : 31978513,
+							"kick-cultivator.wav" : 15649709,
+							"808-HiHats18.wav" : 11556556,
+							"snare top 3 - 14in pearl master custom.wav" : 11932070,
+							"hihat-plain.wav" : 14758939,
+							"808-HiHats11.wav" : 12663524,
+							"hat tight 1 - 13in zildjian remix.wav" : 13954981,
+							"hat loose 4 - 13in zildjian remix.wav" : 17285089,
+							"kick-softy.wav" : 12835461,
+							"snare top 1 - 14in pearl master custom.wav" : 11115225,
+							"hat loose 5 - 13in zildjian remix.wav" : 18943255,
+							"perc-tribal.wav" : 12472639,
+							"small tom 5 - 10in pearl master custom.wav" : 15481085,
+							"kick-808.wav" : 21706059,
+							"shaker-shuffle.wav" : 15814897,
+							"hat loose 2 - 13in zildjian remix.wav" : 5712593,
+							"808-HiHats15.wav" : 14738142,
+							"Rock Crush.wav" : 11912426,
+							"splash 4 - 6in zildjian.wav" : 29386827,
+							"hat foot 1 - 13in zildjian remix.wav" : 7720245,
+							"kick-heavy.wav" : 10174063,
+							"snare top 2 - 14in pearl master custom.wav" : 15301395,
+							"shaker-suckup.wav" : 10711424,
+							"large china 5 - 22in zildjian.wav" : 12297455,
+							"hat open 1 - 13in zildjian remix.wav" : 11633274,
+							"kick-electro02.wav" : 10184646,
+							"Rock Droppa.wav" : 25446447,
+							"floor tom 3 - 14in pearl master custom.wav" : 10172823,
+							"hihat-digital.wav" : 11112889,
+							"kick 1 inside - 22in pearl master custom.wav" : 11921323,
+							"perc-tambo.wav" : 12256349,
+							"snare-lofi02.wav" : 9687449,
+							"hat foot 3 - 13in zildjian remix.wav" : 11507997,
+							"hat_layer_12.WAV" : 15321521,
+							"perc-nasty.wav" : 10231742,
+							"splash 3 - 6in zildjian.wav" : 10842840,
+							"808-HiHats14.wav" : 11096581,
+							"snare-noise.wav" : 10253689,
+							"snare-brute.wav" : 13507083,
+							"hat_layer_14.WAV" : 10694945,
+							"kick-oldschool.wav" : 11527690,
+							"tom-acoustic01.wav" : 30620593,
+							"snare-vinyl02.wav" : 11338999,
+							"snare_layer_22.WAV" : 13091925,
+							"openhat-acoustic01.wav" : 11811059,
+							"ride 5 - 18in zildjian.wav" : 10775781,
+							"clap-analog.wav" : 12995674,
+							"kick 5 inside - 22in pearl master custom.wav" : 34788641,
+							"perc-weirdo.wav" : 11466512,
+							"perc-hollow.wav" : 9983310,
+							"kick 6 outside - 22in pearl master custom.wav" : 11159127,
+							"Rock Droppa 2.wav" : 11900219,
+							"clap-tape.wav" : 11094403,
+							"Dem Tings 4.wav" : 19553459,
+							"kick-acoustic01.wav" : 8372129,
+							"808-HiHats09.wav" : 14661744,
+							"small tom 6 - 10in pearl master custom.wav" : 10386589,
+							"Dem Rocks 5.wav" : 13700242,
+							"kick-tape.wav" : 26103394,
+							"808-HiHats02.wav" : 21714521,
+							"no snare snare 5 - 14in pearl master custom.wav" : 9613971,
+							"large crash 5 - 18in zildjian.wav" : 10687631,
+							"kick-classic.wav" : 9949381,
+							"clap-fat.wav" : 14930948,
+							"openhat-808.wav" : 10705821,
+							"snare_layer_4.WAV" : 11921354,
+							"Dem Rocks 2.wav" : 14767500,
+							"snare bottom 2 - 14in pearl master custom.wav" : 8776485,
+							"large china 4 - 22in zildjian.wav" : 9682543,
+							"tom-fm.wav" : 11795170,
+							"808-HiHats13.wav" : 11871176,
+							"hat_layer_11.WAV" : 10872057,
+							"Chain Kickah.wav" : 54523531,
+							"snare_layer_23.WAV" : 7710187,
+							"808-HiHats06.wav" : 13918144,
+							"kick 3 inside - 22in pearl master custom.wav" : 8766990,
+							"hat tight 4 - 13in zildjian remix.wav" : 22797108,
+							"crash-acoustic.wav" : 13523964,
+							"no snare snare 3 - 14in pearl master custom.wav" : 9394395,
+							"hat tight 2 - 13in zildjian remix.wav" : 12529992,
+							"hat loose 3 - 13in zildjian remix.wav" : 8635748,
+							"kick_layer_14.WAV" : 11238436,
+							"hihat-reso.wav" : 13010685,
+							"no snare snare 2 - 14in pearl master custom.wav" : 23105011,
+							"Resonatah.wav" : 9930395,
+							"splash 6 - 6in zildjian.wav" : 12169925,
+							"snare-modular.wav" : 10614110,
+							"snare-sumo.wav" : 24162096,
+							"snare bottom 6 - 14in pearl master custom.wav" : 13110349,
+							"hat open 3 - 13in zildjian remix.wav" : 6886474,
+							"snare_layer_19.WAV" : 15734344,
+							"hihat-dist02.wav" : 9215779,
+							"no snare snare 6 - 14in pearl master custom.wav" : 8439113,
+							"808-HiHats01.wav" : 23913137,
+							"snare_layer_48.WAV" : 12437619,
+							"snare bottom 1 - 14in pearl master custom.wav" : 21794525,
+							"floor tom 1 - 14in pearl master custom.wav" : 10651263,
+							"Dem Tings 3.wav" : 13488336,
+							"splash 1 - 6in zildjian.wav" : 11979944,
+							"tom-rototom.wav" : 13011774,
+							"kick 5 outside - 22in pearl master custom.wav" : 10714671,
+							"Dem Rocks.wav" : 11346061,
+							"shaker-analog.wav" : 12728624,
+							"kick-big.wav" : 21752155,
+							"808-HiHats16.wav" : 10255960,
+							"Can Cruncha.wav" : 11973998,
+							"snare bottom 3 - 14in pearl master custom.wav" : 13819229,
+							"splash 2 - 6in zildjian.wav" : 15605768,
+							"808-HiHats12.wav" : 11481644,
+							"small crash 6 - 16in zildjian.wav" : 9375678,
+							"perc-808.wav" : 13065467,
+							"Dem Tings.wav" : 16733729,
+							"openhat-analog.wav" : 12056071,
+							"kick-thump.wav" : 9872167,
+							"large crash 1 - 18in zildjian.wav" : 9837292,
+							"kick-vinyl02.wav" : 10247629,
+							"snare-dist03.wav" : 14257136,
+							"" : 12016,
+							"808-Cowbell2.wav" : 34552,
+							"808-Clave3.wav" : 41934,
+							"808-Kicks40.wav" : 89934,
+							"808-Snare16.wav" : 76339,
+							"808-OpenHiHats16.wav" : 56700,
+							"808-OpenHiHats13.wav" : 39024,
+							"808-Snare35.wav" : 22442,
+							"808-Snare05.wav" : 40459,
+							"808-OpenHiHats17.wav" : 26934,
+							"808-Snare20.wav" : 91614,
+							"808-Kicks35.wav" : 52560,
+							"808-Kicks21.wav" : 22483,
+							"808-Kicks12.wav" : 73520,
+							"808-Snare02.wav" : 22510,
+							"808-Clap05.wav" : 30012,
+							"808-Tom4.wav" : 31559,
+							"808-Cowbell3.wav" : 25529,
+							"808-Tom5.wav" : 22534,
+							"808-Kicks33.wav" : 27038,
+							"808-Kicks01.wav" : 22546,
+							"808-Kicks06.wav" : 45075,
+							"808-Snare07.wav" : 52672,
+							"808-Kicks13.wav" : 72204,
+							"808-OpenHiHats18.wav" : 37498,
+							"808-Snare32.wav" : 57140,
+							"808-Snare22.wav" : 25564,
+							"808-Snare06.wav" : 25575,
+							"808-Kicks27.wav" : 48059,
+							"808-Kicks09.wav" : 22586,
+							"808-Clap17.wav" : 22588,
+							"808-Snare36.wav" : 22591,
+							"808-Snare19.wav" : 44963,
+							"808-Kicks08.wav" : 27076,
+							"808-Kicks04.wav" : 22612,
+							"808-Snare08.wav" : 22621,
+							"808-Kicks23.wav" : 40662,
+							"808-Kicks05.wav" : 22626,
+							"808-Clap03.wav" : 22635,
+							"808-OpenHiHats14.wav" : 27099,
+							"808-Kicks14.wav" : 27082,
+							"808-Conga5.wav" : 64866,
+							"808-Kicks15.wav" : 42149,
+							"808-OpenHiHats15.wav" : 42125,
+							"808-Clap04.wav" : 6021,
+							"808-Cowbell4.wav" : 17904,
+							"808-Kicks07.wav" : 6009,
+							"808-Clap07.wav" : 17948,
+							"808-Rim3.wav" : 2996,
+							"808-Clap08.wav" : 2996,
+							"808-Kicks25.wav" : 15101,
+							"808-Kicks30.wav" : 3001,
+							"808-Snare39.wav" : 7590,
+							"808-Maracas3.wav" : 7472,
+							"808-Kicks19.wav" : 3003,
+							"808-Clap14.wav" : 37515,
+							"808-Snare31.wav" : 37561,
+							"808-Snare04.wav" : 11940,
+							"808-Kicks28.wav" : 27134,
+							"808-Maracas2.wav" : 7603,
+							"808-OpenHiHats02.wav" : 7600,
+							"808-Kicks26.wav" : 3013,
+							"808-Kicks39.wav" : 7600,
+							"808-HiHats22.wav" : 31608,
+							"808-Ride1.wav" : 7505,
+							"808-HiHats20.wav" : 41841,
+							"808-OpenHiHats06.wav" : 7624,
+							"808-Clap13.wav" : 17934,
+							"808-OpenHiHats01.wav" : 3024,
+							"808-Clap01.wav" : 12092,
+							"808-Conga4.wav" : 3026,
+							"808-Tom1.wav" : 7501,
+							"808-Kicks17.wav" : 23799,
+							"808-Kicks22.wav" : 8940,
+							"808-Kicks03.wav" : 8936,
+							"808-OpenHiHats03.wav" : 4454,
+							"808-Snare30.wav" : 4462,
+							"808-Snare27.wav" : 9023,
+							"808-Kicks16.wav" : 13638,
+							"808-HiHats21.wav" : 4476,
+							"808-Snare38.wav" : 19496,
+							"808-Clap09.wav" : 4479,
+							"808-Clap18.wav" : 4482,
+							"808-Snare37.wav" : 23940,
+							"808-Snare01.wav" : 19514,
+							"808-OpenHiHats07.wav" : 4487,
+							"808-Snare25.wav" : 24030,
+							"808-Snare29.wav" : 34466,
+							"808-Stick2.wav" : 19466,
+							"808-Tom2.wav" : 4491,
+							"808-Kicks38.wav" : 14903,
+							"808-Snare17.wav" : 19513,
+							"808-Kicks18.wav" : 29922,
+							"808-HiHats23.wav" : 19534,
+							"808-Clap10.wav" : 24101,
+							"808-Snare33.wav" : 19558,
+							"808-Snare28.wav" : 15002,
+							"808-Clave2.wav" : 19585,
+							"808-Rim2.wav" : 24174,
+							"808-Snare24.wav" : 15022,
+							"808-Clap16.wav" : 15013,
+							"808-Snare26.wav" : 34574,
+							"808-OpenHiHats05.wav" : 19599,
+							"808-Stick1.wav" : 4556,
+							"808-Clave1.wav" : 4556,
+							"808-Conga3.wav" : 4559,
+							"808-Snare14.wav" : 4559,
+							"808-OpenHiHats04.wav" : 4562,
+							"808-Snare23.wav" : 4566,
+							"808-Kicks24.wav" : 4569,
+							"808-Ride2.wav" : 9165,
+							"808-Snare34.wav" : 4579,
+							"808-Snare10.wav" : 4582,
+							"808-OpenHiHats09.wav" : 4587,
+							"808-Clap15.wav" : 4593,
+							"808-Snare18.wav" : 4592
 						}
  ],
 					"saved_object_attributes" : 					{
@@ -884,8 +1022,6 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
-										"node_bin_path" : "",
-										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -1221,7 +1357,7 @@
 				"box" : 				{
 					"id" : "obj-134",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
@@ -1263,6 +1399,31 @@
 						"subpatcher_template" : "To the Sun",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-15",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 280.0, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 320.0, 120.0, 148.0, 20.0 ],
+									"text" : "sprintf symout %svisualizer.app"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-30",
 									"maxclass" : "newobj",
@@ -1667,6 +1828,8 @@
 													"saved_object_attributes" : 													{
 														"autostart" : 1,
 														"defer" : 0,
+														"node_bin_path" : "",
+														"npm_bin_path" : "",
 														"watch" : 0
 													}
 ,
@@ -1927,7 +2090,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 276.66668701171875, 150.0, 56.0, 89.0 ],
+									"patching_rect" : [ 600.0, 45.5, 56.0, 89.0 ],
 									"text" : "\"C:/Users/tothesun/Google Drive/[Tools]/[Max]/Amanuensis/\""
 								}
 
@@ -1939,7 +2102,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 76.666671752929688, 230.0, 151.0, 20.0 ],
+									"patching_rect" : [ 26.666671752929688, 230.0, 151.0, 20.0 ],
 									"text" : "prepend START \\\"Amanuensis\\\""
 								}
 
@@ -1953,7 +2116,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 76.666671752929688, 210.0, 120.0, 20.0 ],
+									"patching_rect" : [ 26.666671752929688, 210.0, 120.0, 20.0 ],
 									"text" : "tosymbol @separator \\\\"
 								}
 
@@ -1967,7 +2130,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 76.666671752929688, 190.0, 129.0, 20.0 ],
+									"patching_rect" : [ 26.666671752929688, 190.0, 129.0, 20.0 ],
 									"text" : "fromsymbol @separator /"
 								}
 
@@ -1979,7 +2142,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 76.666671752929688, 250.0, 29.5, 20.0 ],
+									"patching_rect" : [ 26.666671752929688, 250.0, 29.5, 20.0 ],
 									"saved_object_attributes" : 									{
 										"shell" : "(default)",
 										"wd" : "(default)"
@@ -1991,6 +2154,13 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"order" : 0,
@@ -2140,7 +2310,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"order" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
+									"order" : 1,
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -2934,133 +3113,133 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 4.0, 220.0, 167.0, 20.0 ],
 					"restore" : [ 						{
-							"AAS Player.dll:1" : 6959984,
-							"Keyzone Classic.dll:1" : 267192321,
+							"AAS Player.dll:1" : 7318191,
+							"Keyzone Classic.dll:1" : 279172134,
 							"Dexed.dll:30" : 55923,
-							"AGML2.dll:1" : 22035085,
-							"APC.dll:1" : 5698440,
-							"Dexed.dll:29" : 17191868,
+							"AGML2.dll:1" : 23907841,
+							"APC.dll:1" : 6010324,
+							"Dexed.dll:29" : 17909110,
 							"Dexed.dll:10" : 47310,
-							"TAL-NoiseMaker.dll:81" : 4783538,
-							"ABPL2.dll:1" : 12368801,
-							"TAL-NoiseMaker.dll:196" : 1436780,
-							"Dexed.dll:16" : 565780,
+							"TAL-NoiseMaker.dll:81" : 4976623,
+							"ABPL2.dll:1" : 12921638,
+							"TAL-NoiseMaker.dll:196" : 1472203,
+							"Dexed.dll:16" : 592197,
 							"TAL-NoiseMaker.dll:198" : 651294,
-							"Dexed.dll:15" : 1115181,
+							"Dexed.dll:15" : 1142630,
 							"TAL-NoiseMaker.dll:183" : 227621,
 							"Dexed.dll:23" : 16286,
-							"Dexed.dll:32" : 7121459,
+							"Dexed.dll:32" : 7406693,
 							"TAL-NoiseMaker.dll:225" : 1236110,
-							"Dexed.dll:28" : 270690,
+							"Dexed.dll:28" : 291267,
 							"Dexed.dll:9" : 4553,
-							"Dexed.dll:11" : 1017518,
-							"TAL-NoiseMaker.dll:16" : 1027843,
+							"Dexed.dll:11" : 1069850,
+							"TAL-NoiseMaker.dll:16" : 1106134,
 							"Dexed.dll:27" : 8127,
 							"Dexed.dll:13" : 15895,
 							"Dexed.dll:20" : 5245,
 							"Dexed.dll:8" : 24328,
 							"TAL-NoiseMaker.dll:102" : 125563,
 							"TAL-NoiseMaker.dll:79" : 7692,
-							"TAL-NoiseMaker.dll:15" : 821255,
-							"TAL-NoiseMaker.dll:110" : 1944407,
+							"TAL-NoiseMaker.dll:15" : 854170,
+							"TAL-NoiseMaker.dll:110" : 2022703,
 							"TAL-NoiseMaker.dll:52" : 12067,
-							"TAL-NoiseMaker.dll:86" : 314611,
-							"Dexed.dll:1" : 929270,
-							"TAL-NoiseMaker.dll:34" : 230944,
-							"Dexed.dll:5" : 2093864,
-							"TAL-NoiseMaker.dll:216" : 354538,
-							"TAL-NoiseMaker.dll:23" : 889628,
+							"TAL-NoiseMaker.dll:86" : 341035,
+							"Dexed.dll:1" : 935399,
+							"TAL-NoiseMaker.dll:34" : 256453,
+							"Dexed.dll:5" : 2146970,
+							"TAL-NoiseMaker.dll:216" : 416124,
+							"TAL-NoiseMaker.dll:23" : 949106,
 							"Dexed.dll:4" : 330006,
 							"Dexed.dll:6" : 217257,
 							"TAL-NoiseMaker.dll:70" : 32062,
-							"Dexed.dll:21" : 711906,
-							"TAL-NoiseMaker.dll:61" : 713363,
+							"Dexed.dll:21" : 772801,
+							"TAL-NoiseMaker.dll:61" : 785056,
 							"TAL-NoiseMaker.dll:2" : 122202,
 							"Dexed.dll:14" : 114834,
 							"TAL-NoiseMaker.dll:178" : 63181,
-							"Dexed.dll:12" : 169759,
-							"Dexed.dll:7" : 265321,
+							"Dexed.dll:12" : 184850,
+							"Dexed.dll:7" : 292154,
 							"TAL-NoiseMaker.dll:214" : 324878,
 							"TAL-NoiseMaker.dll:76" : 46639,
 							"TAL-NoiseMaker.dll:222" : 123991,
 							"TAL-NoiseMaker.dll:242" : 298541,
-							"TAL-NoiseMaker.dll:41" : 676279,
-							"TAL-NoiseMaker.dll:221" : 332273,
-							"TAL-NoiseMaker.dll:202" : 103173,
-							"TAL-NoiseMaker.dll:247" : 38000,
-							"TAL-NoiseMaker.dll:158" : 144212,
+							"TAL-NoiseMaker.dll:41" : 728088,
+							"TAL-NoiseMaker.dll:221" : 358153,
+							"TAL-NoiseMaker.dll:202" : 111091,
+							"TAL-NoiseMaker.dll:247" : 65000,
+							"TAL-NoiseMaker.dll:158" : 170181,
 							"TAL-NoiseMaker.dll:54" : 8108,
 							"TAL-NoiseMaker.dll:201" : 112703,
 							"TAL-NoiseMaker.dll:95" : 237380,
-							"TAL-NoiseMaker.dll:186" : 187072,
+							"TAL-NoiseMaker.dll:186" : 204542,
 							"Dexed.dll:22" : 85824,
 							"Dexed.dll:19" : 65918,
-							"TAL-NoiseMaker.dll:157" : 310760,
+							"TAL-NoiseMaker.dll:157" : 337030,
 							"TAL-NoiseMaker.dll:119" : 35654,
-							"TAL-NoiseMaker.dll:75" : 576473,
+							"TAL-NoiseMaker.dll:75" : 622487,
 							"TAL-NoiseMaker.dll:7" : 312666,
 							"TAL-NoiseMaker.dll:187" : 2671,
 							"TAL-NoiseMaker.dll:251" : 257968,
 							"Dexed.dll:18" : 35583,
-							"TAL-NoiseMaker.dll:91" : 217100,
-							"Dexed.dll:24" : 552541,
+							"TAL-NoiseMaker.dll:91" : 237302,
+							"Dexed.dll:24" : 598673,
 							"TAL-NoiseMaker.dll:35" : 38000,
 							"Dexed.dll:17" : 10064,
-							"TAL-NoiseMaker.dll:172" : 1211448,
-							"TAL-NoiseMaker.dll:118" : 266486,
+							"TAL-NoiseMaker.dll:172" : 1406849,
+							"TAL-NoiseMaker.dll:118" : 282409,
 							"TAL-NoiseMaker.dll:45" : 652060,
 							"TAL-NoiseMaker.dll:147" : 582318,
-							"TAL-NoiseMaker.dll:239" : 301143,
-							"TAL-NoiseMaker.dll:64" : 61786,
+							"TAL-NoiseMaker.dll:239" : 315391,
+							"TAL-NoiseMaker.dll:64" : 83458,
 							"Keyzone Classic.dll:91" : 216051,
 							"TAL-NoiseMaker.dll:67" : 273506,
 							"TAL-NoiseMaker.dll:150" : 112922,
-							"TAL-NoiseMaker.dll:106" : 704539,
-							"TAL-NoiseMaker.dll:151" : 271916,
+							"TAL-NoiseMaker.dll:106" : 712567,
+							"TAL-NoiseMaker.dll:151" : 306850,
 							"TAL-NoiseMaker.dll:227" : 24156,
 							"Dexed.dll:25" : 362005,
 							"Dexed.dll:2" : 14855,
 							"TAL-NoiseMaker.dll:42" : 87828,
 							"TAL-NoiseMaker.dll:254" : 212246,
-							"TAL-NoiseMaker.dll:104" : 512201,
+							"TAL-NoiseMaker.dll:104" : 578842,
 							"TAL-NoiseMaker.dll:96" : 8196,
-							"TAL-NoiseMaker.dll:4" : 105781,
-							"TAL-NoiseMaker.dll:10" : 202634,
+							"TAL-NoiseMaker.dll:4" : 132487,
+							"TAL-NoiseMaker.dll:10" : 223073,
 							"TAL-NoiseMaker.dll:161" : 471567,
 							"TAL-NoiseMaker.dll:243" : 42751,
 							"TAL-NoiseMaker.dll:182" : 59544,
-							"TAL-NoiseMaker.dll:209" : 123514,
-							"TAL-NoiseMaker.dll:177" : 85533,
+							"TAL-NoiseMaker.dll:209" : 150250,
+							"TAL-NoiseMaker.dll:177" : 111988,
 							"TAL-NoiseMaker.dll:133" : 161009,
 							"TAL-NoiseMaker.dll:8" : 14012,
-							"TAL-NoiseMaker.dll:40" : 1713384,
+							"TAL-NoiseMaker.dll:40" : 1790477,
 							"TAL-NoiseMaker.dll:94" : 181912,
 							"TAL-NoiseMaker.dll:175" : 37789,
 							"TAL-NoiseMaker.dll:189" : 107297,
 							"TAL-NoiseMaker.dll:77" : 369363,
 							"TAL-NoiseMaker.dll:58" : 676819,
-							"TAL-NoiseMaker.dll:170" : 173854,
+							"TAL-NoiseMaker.dll:170" : 200316,
 							"Dexed.dll:3" : 66858,
 							"TAL-NoiseMaker.dll:191" : 17408,
 							"TAL-NoiseMaker.dll:31" : 67406,
-							"TAL-NoiseMaker.dll:25" : 54945,
+							"TAL-NoiseMaker.dll:25" : 75945,
 							"Dexed.dll:31" : 64644,
 							"TAL-NoiseMaker.dll:217" : 55710,
 							"TAL-NoiseMaker.dll:230" : 149916,
 							"TAL-NoiseMaker.dll:226" : 132818,
-							"TAL-NoiseMaker.dll:90" : 205641,
-							"TAL-NoiseMaker.dll:128" : 127330,
+							"TAL-NoiseMaker.dll:90" : 222005,
+							"TAL-NoiseMaker.dll:128" : 154155,
 							"TAL-NoiseMaker.dll:83" : 38000,
 							"TAL-NoiseMaker.dll:62" : 11716,
 							"TAL-NoiseMaker.dll:115" : 29704,
-							"TAL-NoiseMaker.dll:18" : 1003917,
+							"TAL-NoiseMaker.dll:18" : 1041515,
 							"TAL-NoiseMaker.dll:53" : 10979,
 							"TAL-NoiseMaker.dll:51" : 101590,
-							"TAL-NoiseMaker.dll:113" : 1101323,
+							"TAL-NoiseMaker.dll:113" : 1128077,
 							"TAL-NoiseMaker.dll:244" : 58403,
 							"TAL-NoiseMaker.dll:100" : 257559,
-							"TAL-NoiseMaker.dll:43" : 759212,
-							"TAL-NoiseMaker.dll:101" : 80080,
+							"TAL-NoiseMaker.dll:43" : 789379,
+							"TAL-NoiseMaker.dll:101" : 106797,
 							"TAL-NoiseMaker.dll:39" : 160389,
 							"TAL-NoiseMaker.dll:66" : 390445,
 							"TAL-NoiseMaker.dll:29" : 85944,
@@ -3070,15 +3249,15 @@
 							"TAL-NoiseMaker.dll:253" : 249233,
 							"TAL-NoiseMaker.dll:74" : 44649,
 							"TAL-NoiseMaker.dll:114" : 92402,
-							"TAL-NoiseMaker.dll:162" : 404032,
+							"TAL-NoiseMaker.dll:162" : 430715,
 							"TAL-NoiseMaker.dll:166" : 33890,
 							"TAL-NoiseMaker.dll:199" : 86460,
-							"TAL-NoiseMaker.dll:56" : 703716,
-							"TAL-NoiseMaker.dll:1" : 2023124,
+							"TAL-NoiseMaker.dll:56" : 730419,
+							"TAL-NoiseMaker.dll:1" : 2124628,
 							"TAL-NoiseMaker.dll:3" : 30000,
 							"TAL-NoiseMaker.dll:126" : 75160,
 							"TAL-NoiseMaker.dll:215" : 320543,
-							"TAL-NoiseMaker.dll:12" : 174993,
+							"TAL-NoiseMaker.dll:12" : 200924,
 							"TAL-NoiseMaker.dll:125" : 122499,
 							"TAL-NoiseMaker.dll:144" : 101136,
 							"TAL-NoiseMaker.dll:92" : 195913,
@@ -3089,35 +3268,35 @@
 							"TAL-NoiseMaker.dll:137" : 29919,
 							"TAL-NoiseMaker.dll:26" : 37842,
 							"TAL-NoiseMaker.dll:229" : 6785,
-							"TAL-NoiseMaker.dll:195" : 358825,
+							"TAL-NoiseMaker.dll:195" : 371748,
 							"TAL-NoiseMaker.dll:250" : 89711,
 							"TAL-NoiseMaker.dll:44" : 162317,
-							"TAL-NoiseMaker.dll:233" : 679966,
+							"TAL-NoiseMaker.dll:233" : 700823,
 							"TAL-NoiseMaker.dll:163" : 177291,
 							"TAL-NoiseMaker.dll:152" : 1535,
 							"TAL-NoiseMaker.dll:176" : 179411,
 							"TAL-NoiseMaker.dll:235" : 6260,
 							"TAL-NoiseMaker.dll:48" : 68215,
-							"TAL-NoiseMaker.dll:20" : 537059,
+							"TAL-NoiseMaker.dll:20" : 543215,
 							"TAL-NoiseMaker.dll:188" : 200914,
 							"TAL-NoiseMaker.dll:13" : 8244,
-							"TAL-NoiseMaker.dll:38" : 253556,
+							"TAL-NoiseMaker.dll:38" : 274556,
 							"TAL-NoiseMaker.dll:28" : 3462,
 							"TAL-NoiseMaker.dll:139" : 3768,
 							"TAL-NoiseMaker.dll:17" : 101613,
-							"TAL-NoiseMaker.dll:78" : 203077,
+							"TAL-NoiseMaker.dll:78" : 229664,
 							"Keyzone Classic.dll:29" : 139626,
 							"Keyzone Classic.dll:23" : 79996,
 							"TAL-NoiseMaker.dll:207" : 82788,
 							"TAL-NoiseMaker.dll:55" : 40680,
-							"TAL-NoiseMaker.dll:59" : 1114134,
-							"TAL-NoiseMaker.dll:120" : 480898,
+							"TAL-NoiseMaker.dll:59" : 1164938,
+							"TAL-NoiseMaker.dll:120" : 498155,
 							"Keyzone Classic.dll:146" : 96810,
 							"Keyzone Classic.dll:199" : 200814,
 							"TAL-NoiseMaker.dll:130" : 61416,
 							"Keyzone Classic.dll:105" : 49571,
 							"TAL-NoiseMaker.dll:181" : 6026,
-							"TAL-NoiseMaker.dll:60" : 980798,
+							"TAL-NoiseMaker.dll:60" : 1032650,
 							"TAL-NoiseMaker.dll:238" : 109954,
 							"TAL-NoiseMaker.dll:124" : 12676,
 							"TAL-NoiseMaker.dll:224" : 1326,
@@ -3137,19 +3316,19 @@
 							"Keyzone Classic.dll:61" : 53009,
 							"TAL-NoiseMaker.dll:37" : 10384,
 							"TAL-NoiseMaker.dll:245" : 49871,
-							"TAL-NoiseMaker.dll:68" : 425729,
+							"TAL-NoiseMaker.dll:68" : 452522,
 							"TAL-NoiseMaker.dll:27" : 19491,
 							"TAL-NoiseMaker.dll:193" : 94417,
-							"TAL-NoiseMaker.dll:24" : 476343,
+							"TAL-NoiseMaker.dll:24" : 502764,
 							"TAL-NoiseMaker.dll:116" : 171349,
 							"TAL-NoiseMaker.dll:159" : 20786,
-							"TAL-NoiseMaker.dll:190" : 799761,
+							"TAL-NoiseMaker.dll:190" : 809091,
 							"TAL-NoiseMaker.dll:71" : 39317,
 							"TAL-NoiseMaker.dll:49" : 12657,
 							"TAL-NoiseMaker.dll:165" : 502246,
 							"TAL-NoiseMaker.dll:46" : 147488,
 							"TAL-NoiseMaker.dll:180" : 33103,
-							"TAL-NoiseMaker.dll:149" : 237752,
+							"TAL-NoiseMaker.dll:149" : 264752,
 							"TAL-NoiseMaker.dll:97" : 91153,
 							"TAL-NoiseMaker.dll:50" : 251589,
 							"TAL-NoiseMaker.dll:19" : 75432,
@@ -3158,12 +3337,12 @@
 							"TAL-NoiseMaker.dll:109" : 240481,
 							"TAL-NoiseMaker.dll:205" : 9976,
 							"TAL-NoiseMaker.dll:127" : 42754,
-							"TAL-NoiseMaker.dll:98" : 517261,
+							"TAL-NoiseMaker.dll:98" : 534394,
 							"TAL-NoiseMaker.dll:246" : 185799,
 							"TAL-NoiseMaker.dll:171" : 310326,
-							"TAL-NoiseMaker.dll:237" : 307900,
+							"TAL-NoiseMaker.dll:237" : 334726,
 							"TAL-NoiseMaker.dll:111" : 100232,
-							"TAL-NoiseMaker.dll:234" : 192007,
+							"TAL-NoiseMaker.dll:234" : 218730,
 							"TAL-NoiseMaker.dll:84" : 97108,
 							"TAL-NoiseMaker.dll:164" : 181546,
 							"TAL-NoiseMaker.dll:200" : 171352,
@@ -3171,20 +3350,20 @@
 							"TAL-NoiseMaker.dll:228" : 32144,
 							"TAL-NoiseMaker.dll:218" : 58011,
 							"TAL-NoiseMaker.dll:256" : 49381,
-							"TAL-NoiseMaker.dll:223" : 117724,
+							"TAL-NoiseMaker.dll:223" : 144324,
 							"TAL-NoiseMaker.dll:107" : 54358,
 							"TAL-NoiseMaker.dll:134" : 6100,
 							"TAL-NoiseMaker.dll:138" : 165118,
-							"TAL-NoiseMaker.dll:140" : 47738,
+							"TAL-NoiseMaker.dll:140" : 74592,
 							"TAL-NoiseMaker.dll:135" : 11226,
 							"TAL-NoiseMaker.dll:47" : 19223,
 							"TAL-NoiseMaker.dll:87" : 2864,
 							"TAL-NoiseMaker.dll:255" : 14083,
-							"TAL-NoiseMaker.dll:204" : 99610,
+							"TAL-NoiseMaker.dll:204" : 109932,
 							"TAL-NoiseMaker.dll:14" : 72098,
 							"TAL-NoiseMaker.dll:194" : 102785,
 							"TAL-NoiseMaker.dll:192" : 85642,
-							"TAL-NoiseMaker.dll:143" : 105747,
+							"TAL-NoiseMaker.dll:143" : 132030,
 							"TAL-NoiseMaker.dll:129" : 127725,
 							"TAL-NoiseMaker.dll:236" : 226164,
 							"TAL-NoiseMaker.dll:85" : 104695,
@@ -3361,10 +3540,17 @@
 							"AAS Player.dll:23" : 27000,
 							"AAS Player.dll:81" : 13552,
 							"AAS Player.dll:60" : 5954,
-							"Keyzone Classic.dll:0" : 161795,
+							"Keyzone Classic.dll:0" : 886401,
 							"TAL-NoiseMaker.dll:167" : 26716,
-							"ABPL2.dll:0" : 21258,
-							"AAS Player.dll:57" : 26703
+							"ABPL2.dll:0" : 36430,
+							"AAS Player.dll:57" : 26703,
+							"AGML2.dll:0" : 55829,
+							"APC.dll:0" : 47295,
+							"AAS Player.dll:39" : 26942,
+							"AAS Player.dll:117" : 11283,
+							"TAL-NoiseMaker.dll:0" : 24369,
+							"AAS Player.dll:0" : 6571,
+							"Dexed.dll:0" : 10482
 						}
  ],
 					"saved_object_attributes" : 					{
@@ -3444,7 +3630,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 0.0, 180.0, 110.0, 54.0 ],
-									"restore" : [ 0.0 ],
+									"restore" : [ 1.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -4524,8 +4710,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-10",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -4534,8 +4720,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-11",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5084,8 +5270,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-2-2-2",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5169,8 +5355,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-2-3",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5224,8 +5410,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-2-4-1",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5279,8 +5465,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-2-5-1",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5289,8 +5475,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-2-6",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5299,8 +5485,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-2-7",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5309,8 +5495,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-2-8",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5334,8 +5520,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-3-1",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5419,8 +5605,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-4",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5504,8 +5690,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-7-1",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5559,8 +5745,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-8-1",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5569,8 +5755,8 @@
 , 															{
 																"name" : "Custom Default Regular-1-9",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -5609,8 +5795,8 @@
 , 															{
 																"name" : "Custom Default Regular-3-1",
 																"default" : 																{
-																	"fontface" : [ 0 ],
-																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+																	"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+																	"fontface" : [ 0 ]
 																}
 ,
 																"parentstyle" : "Custom Default",
@@ -8489,8 +8675,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8528,8 +8714,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8540,8 +8726,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8552,8 +8738,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8564,8 +8750,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8576,8 +8762,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8597,8 +8783,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8609,8 +8795,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8621,8 +8807,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8642,8 +8828,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8663,8 +8849,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8693,8 +8879,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8777,8 +8963,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8816,8 +9002,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8828,8 +9014,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8840,8 +9026,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8852,8 +9038,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8882,8 +9068,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8903,8 +9089,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8915,8 +9101,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8936,8 +9122,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8948,8 +9134,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8960,8 +9146,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8972,8 +9158,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8984,8 +9170,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8996,8 +9182,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -9008,8 +9194,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -9029,8 +9215,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -9041,8 +9227,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -9053,8 +9239,8 @@
 																"default" : 																{
 																	"fontsize" : [ 10.0 ],
 																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontface" : [ 1 ],
-																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+																	"fontface" : [ 1 ]
 																}
 ,
 																"parentstyle" : "",
@@ -10372,8 +10558,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-10",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -10382,8 +10568,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-11",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -10932,8 +11118,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-2-2",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -11017,8 +11203,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-3",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -11072,8 +11258,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-4-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -11127,8 +11313,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-5-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -11137,8 +11323,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-6",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -11147,8 +11333,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-7",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -11157,8 +11343,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-8",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -11182,8 +11368,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-3-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -11267,8 +11453,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-4",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -11352,8 +11538,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-7-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -11407,8 +11593,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-8-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -11417,8 +11603,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-9",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -11457,8 +11643,8 @@
 , 											{
 												"name" : "Custom Default Regular-3-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -14337,8 +14523,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14376,8 +14562,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14388,8 +14574,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14400,8 +14586,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14412,8 +14598,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14424,8 +14610,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14445,8 +14631,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14457,8 +14643,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14469,8 +14655,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14490,8 +14676,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14511,8 +14697,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14541,8 +14727,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14625,8 +14811,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14664,8 +14850,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14676,8 +14862,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14688,8 +14874,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14700,8 +14886,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14730,8 +14916,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14751,8 +14937,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14763,8 +14949,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14784,8 +14970,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14796,8 +14982,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14808,8 +14994,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14820,8 +15006,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14832,8 +15018,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14844,8 +15030,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14856,8 +15042,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14877,8 +15063,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14889,8 +15075,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -14901,8 +15087,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -15798,8 +15984,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-10",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -15808,8 +15994,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-11",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16358,8 +16544,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-2",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16443,8 +16629,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-3",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16498,8 +16684,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-4-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16553,8 +16739,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-5-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16563,8 +16749,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-6",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16573,8 +16759,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-7",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16583,8 +16769,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-8",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16608,8 +16794,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16693,8 +16879,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-4",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16778,8 +16964,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-7-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16833,8 +17019,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-8-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16843,8 +17029,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-9",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -16883,8 +17069,8 @@
 , 							{
 								"name" : "Custom Default Regular-3-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -19763,8 +19949,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19802,8 +19988,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19814,8 +20000,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19826,8 +20012,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19838,8 +20024,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19850,8 +20036,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19871,8 +20057,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19883,8 +20069,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19895,8 +20081,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19916,8 +20102,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19937,8 +20123,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -19967,8 +20153,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20051,8 +20237,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20090,8 +20276,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20102,8 +20288,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20114,8 +20300,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20126,8 +20312,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20156,8 +20342,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20177,8 +20363,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20189,8 +20375,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20210,8 +20396,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20222,8 +20408,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20234,8 +20420,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20246,8 +20432,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20258,8 +20444,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20270,8 +20456,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20282,8 +20468,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20303,8 +20489,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20315,8 +20501,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20327,8 +20513,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -21044,6 +21230,8 @@
 																	"saved_object_attributes" : 																	{
 																		"autostart" : 1,
 																		"defer" : 0,
+																		"node_bin_path" : "",
+																		"npm_bin_path" : "",
 																		"watch" : 0
 																	}
 ,
@@ -21561,6 +21749,8 @@
 																	"saved_object_attributes" : 																	{
 																		"autostart" : 1,
 																		"defer" : 0,
+																		"node_bin_path" : "",
+																		"npm_bin_path" : "",
 																		"watch" : 0
 																	}
 ,
@@ -22702,8 +22892,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-10",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -22712,8 +22902,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-11",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23262,8 +23452,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-2-2",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23347,8 +23537,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-3",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23402,8 +23592,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-4-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23457,8 +23647,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-5-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23467,8 +23657,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-6",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23477,8 +23667,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-7",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23487,8 +23677,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-8",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23512,8 +23702,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-3-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23597,8 +23787,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-4",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23682,8 +23872,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-7-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23737,8 +23927,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-8-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23747,8 +23937,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-9",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -23787,8 +23977,8 @@
 , 											{
 												"name" : "Custom Default Regular-3-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -26667,8 +26857,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26706,8 +26896,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26718,8 +26908,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26730,8 +26920,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26742,8 +26932,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26754,8 +26944,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26775,8 +26965,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26787,8 +26977,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26799,8 +26989,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26820,8 +27010,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26841,8 +27031,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26871,8 +27061,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26955,8 +27145,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -26994,8 +27184,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27006,8 +27196,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27018,8 +27208,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27030,8 +27220,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27060,8 +27250,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27081,8 +27271,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27093,8 +27283,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27114,8 +27304,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27126,8 +27316,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27138,8 +27328,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27150,8 +27340,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27162,8 +27352,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27174,8 +27364,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27186,8 +27376,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27207,8 +27397,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27219,8 +27409,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -27231,8 +27421,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -28833,8 +29023,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -28872,8 +29062,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -28884,8 +29074,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -28896,8 +29086,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -28908,8 +29098,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -28920,8 +29110,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -28941,8 +29131,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -28953,8 +29143,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -28965,8 +29155,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -29477,7 +29667,7 @@
 									"color" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 									"elementcolor" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 									"id" : "obj-23",
-									"items" : [ "And then Day Turned to Night", ",", "Music for Dance - Adagio 2 - Jay Sussman - Sep 27 2018 [Derivative 1]", ",", "[2020-12-6-15-35-58]", ",", "[2020-12-6-15-43-46]", ",", "[2020-12-6-15-52-2]", ",", "[2020-12-6-16-8-38]", ",", "[2020-12-6-16-47-4]", ",", "[2020-12-6-17-4-36]", ",", "[2020-12-6-17-7-22]", ",", "[2020-12-6-17-9-59]", ",", "[2020-12-6-17-29-49]", ",", "[2020-12-6-17-41-42]", ",", "[2020-12-6-17-58-10]", ",", "[2020-12-6-18-2-17]", ",", "[2020-12-6-18-4-13]", ",", "[2020-12-6-18-8-30]", ",", "[2020-12-6-18-17-53]", ",", "[2020-12-6-18-20-39]", ",", "[2020-12-6-18-25-2]", ",", "[2020-12-6-18-36-33]", ",", "[2020-12-6-18-39-58]", ",", "[2020-12-6-18-45-20]", ",", "[2020-12-6-21-56-56]", ",", "[2020-12-6-21-59-0]", ",", "[2020-12-6-22-6-12]", ",", "[2020-12-7-15-48-21]", ",", "[2020-12-7-16-51-13]", ",", "[2020-12-7-18-18-43]", ",", "[2020-12-7-18-22-30]", ",", "[2020-12-7-20-26-22]", ",", "[2020-12-7-20-32-4]", ",", "[2020-12-7-20-42-57]", ",", "[2020-12-7-20-45-57]", ",", "[2020-12-7-21-2-51]", ",", "[2020-12-7-21-12-59]", ",", "[2020-12-7-21-23-27]", ",", "[2020-12-7-21-38-38]", ",", "[2020-12-8-16-52-32]", ",", "[2020-12-8-16-53-31]", ",", "[2020-12-8-17-59-24]", ",", "[2020-12-8-18-0-6]", ",", "[2020-12-8-18-3-27]", ",", "[2020-12-8-18-6-28]", ",", "[2020-12-8-19-42-44]", ",", "[2020-12-8-19-52-50]", ",", "[2020-12-8-20-17-10]", ",", "[2020-12-8-21-34-5]", ",", "[2020-12-8-21-39-1]", ",", "[2020-12-9-15-27-39]", ",", "[2020-12-9-16-45-25]", ",", "[2020-12-9-19-36-31]", ",", "[2020-12-9-19-46-13]", ",", "[2020-12-9-19-51-6]", ",", "[2020-12-9-20-37-35]", ",", "[2020-12-9-21-6-36]", ",", "[2020-12-10-16-16-32]", ",", "[2020-12-10-16-28-31]", ",", "[2020-12-10-16-31-12]", ",", "[2020-12-10-17-5-0]", ",", "[2020-12-10-17-17-33]", ",", "[2020-12-10-17-34-8]", ",", "[2020-12-10-17-38-42]", ",", "[2020-12-10-17-41-5]", ",", "[2020-12-10-17-44-43]", ",", "[2020-12-10-17-45-57]", ",", "[2020-12-10-18-3-32]", ",", "[2020-12-10-18-5-36]", ",", "[2020-12-10-18-13-26]", ",", "[2020-12-11-16-14-18]", ",", "[2020-12-11-16-22-27]", ",", "[2020-12-11-16-33-49]", ",", "[2020-12-11-17-32-22]", ",", "[2020-12-11-17-38-3]", ",", "[2020-12-11-17-46-13]", ",", "[2020-12-11-17-52-17]", ",", "[2020-12-11-17-59-38]", ",", "[2020-12-11-18-28-54]", ",", "[2020-12-11-18-37-33]", ",", "[2020-12-11-19-30-36]", ",", "[2020-12-11-20-22-25]", ",", "[2020-12-12-15-48-1]", ",", "[2020-12-12-15-54-6]", ",", "[2020-12-12-16-7-35]", ",", "[2020-12-12-16-37-49]", ",", "[2020-12-12-16-50-39]", ",", "[2020-12-12-16-51-53]", ",", "[2020-11-1-19-16-18]", ",", "[2020-11-19-19-29-14]", ",", "[2020-12-12-18-12-5]", ",", "[2020-11-26-16-11-41]", ",", "[2020-12-12-19-26-31]", ",", "[2020-12-12-20-18-10]", ",", "[2020-12-12-20-22-38]", ",", "[2020-12-12-20-25-9]", ",", "[2020-12-13-14-37-17]", ",", "[2020-12-13-15-47-21]", ",", "[2020-12-13-15-51-43]", ",", "[2020-12-13-16-41-55]", ",", "[2020-12-13-16-55-0]", ",", "[2020-12-13-17-5-36]", ",", "[2020-12-13-17-13-18]", ",", "[2020-12-13-17-27-3]", ",", "[2020-12-13-17-34-38]", ",", "[2020-12-13-17-35-44]", ",", "[2020-12-13-17-36-47]", ",", "[2020-12-13-17-37-42]", ",", "[2020-12-13-17-38-57]", ",", "[2020-12-13-17-40-2]", ",", "[2020-12-13-20-51-21]", ",", "[2020-12-13-21-4-55]", ",", "[2020-12-14-16-9-39]", ",", "a project at random" ],
+									"items" : [ "Drum Wank #1 May 5 2017 - Jay Sussman", ",", "Music for Dance - Adagio 2 - Jay Sussman - Sep 27 2018 [Derivative 1]", ",", "03 - Drunk Homonculus", ",", "[2021-1-15-17-25-4]", ",", "[2021-1-15-17-25-26]", ",", "[2021-1-15-17-31-50]", ",", "[2021-1-15-17-45-1]", ",", "[2021-1-22-15-13-35]", ",", "[2021-1-22-16-6-35]", ",", "[2021-1-22-16-17-25]", ",", "[2021-1-22-18-39-37]", ",", "[2021-1-22-18-44-14]", ",", "[2021-1-22-18-54-39]", ",", "a project at random" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -30250,8 +30440,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-10",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -30260,8 +30450,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-11",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -30810,8 +31000,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-2",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -30895,8 +31085,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-3",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -30950,8 +31140,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-4-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -31005,8 +31195,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-5-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -31015,8 +31205,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-6",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -31025,8 +31215,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-7",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -31035,8 +31225,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-8",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -31060,8 +31250,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -31145,8 +31335,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-4",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -31230,8 +31420,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-7-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -31285,8 +31475,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-8-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -31295,8 +31485,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-9",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -31335,8 +31525,8 @@
 , 							{
 								"name" : "Custom Default Regular-3-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -34215,8 +34405,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34254,8 +34444,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34266,8 +34456,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34278,8 +34468,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34290,8 +34480,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34302,8 +34492,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34323,8 +34513,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34335,8 +34525,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34347,8 +34537,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34368,8 +34558,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34389,8 +34579,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34419,8 +34609,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34503,8 +34693,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34542,8 +34732,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34554,8 +34744,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34566,8 +34756,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34578,8 +34768,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34608,8 +34798,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34629,8 +34819,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34641,8 +34831,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34662,8 +34852,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34674,8 +34864,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34686,8 +34876,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34698,8 +34888,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34710,8 +34900,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34722,8 +34912,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34734,8 +34924,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34755,8 +34945,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34767,8 +34957,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34779,8 +34969,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35643,8 +35833,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35682,8 +35872,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35694,8 +35884,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35706,8 +35896,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35718,8 +35908,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35730,8 +35920,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35751,8 +35941,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35763,8 +35953,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35775,8 +35965,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35882,7 +36072,7 @@
 					"patching_rect" : [ 541.3333740234375, 560.0, 41.5, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 210.0, 3.0, 32.0, 20.0 ],
-					"text" : "-39",
+					"text" : "1",
 					"textjustification" : 2
 				}
 
@@ -35972,7 +36162,7 @@
 					"patching_rect" : [ 616.08343505859375, 500.0, 41.5, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 958.0, 3.0, 32.0, 20.0 ],
-					"text" : "-5",
+					"text" : "-7",
 					"textjustification" : 2
 				}
 
@@ -37353,8 +37543,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-10",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -37363,8 +37553,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-11",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -37913,8 +38103,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-2-2",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -37998,8 +38188,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-3",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -38053,8 +38243,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-4-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -38108,8 +38298,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-5-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -38118,8 +38308,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-6",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -38128,8 +38318,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-7",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -38138,8 +38328,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-8",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -38163,8 +38353,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-3-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -38248,8 +38438,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-4",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -38333,8 +38523,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-7-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -38388,8 +38578,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-8-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -38398,8 +38588,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-9",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -38438,8 +38628,8 @@
 , 											{
 												"name" : "Custom Default Regular-3-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -41318,8 +41508,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41357,8 +41547,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41369,8 +41559,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41381,8 +41571,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41393,8 +41583,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41405,8 +41595,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41426,8 +41616,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41438,8 +41628,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41450,8 +41640,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41471,8 +41661,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41492,8 +41682,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41522,8 +41712,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41606,8 +41796,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41645,8 +41835,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41657,8 +41847,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41669,8 +41859,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41681,8 +41871,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41711,8 +41901,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41732,8 +41922,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41744,8 +41934,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41765,8 +41955,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41777,8 +41967,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41789,8 +41979,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41801,8 +41991,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41813,8 +42003,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41825,8 +42015,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41837,8 +42027,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41858,8 +42048,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41870,8 +42060,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41882,8 +42072,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -42288,8 +42478,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-10",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -42298,8 +42488,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-11",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -42848,8 +43038,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-2-2",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -42933,8 +43123,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-3",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -42988,8 +43178,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-4-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -43043,8 +43233,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-5-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -43053,8 +43243,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-6",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -43063,8 +43253,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-7",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -43073,8 +43263,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-2-8",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -43098,8 +43288,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-3-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -43183,8 +43373,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-4",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -43268,8 +43458,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-7-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -43323,8 +43513,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-8-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -43333,8 +43523,8 @@
 , 											{
 												"name" : "Custom Default Regular-1-9",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -43373,8 +43563,8 @@
 , 											{
 												"name" : "Custom Default Regular-3-1",
 												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+													"fontface" : [ 0 ]
 												}
 ,
 												"parentstyle" : "Custom Default",
@@ -46253,8 +46443,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46292,8 +46482,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46304,8 +46494,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46316,8 +46506,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46328,8 +46518,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46340,8 +46530,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46361,8 +46551,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46373,8 +46563,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46385,8 +46575,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46406,8 +46596,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46427,8 +46617,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46457,8 +46647,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46541,8 +46731,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46580,8 +46770,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46592,8 +46782,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46604,8 +46794,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46616,8 +46806,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46646,8 +46836,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46667,8 +46857,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46679,8 +46869,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46700,8 +46890,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46712,8 +46902,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46724,8 +46914,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46736,8 +46926,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46748,8 +46938,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46760,8 +46950,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46772,8 +46962,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46793,8 +46983,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46805,8 +46995,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -46817,8 +47007,8 @@
 												"default" : 												{
 													"fontsize" : [ 10.0 ],
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+													"fontface" : [ 1 ]
 												}
 ,
 												"parentstyle" : "",
@@ -48369,8 +48559,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-10",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -48379,8 +48569,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-11",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -48929,8 +49119,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-2-2",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -49014,8 +49204,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-3",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -49069,8 +49259,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-4-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -49124,8 +49314,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-5-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -49134,8 +49324,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-6",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -49144,8 +49334,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-7",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -49154,8 +49344,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-2-8",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -49179,8 +49369,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-3-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -49264,8 +49454,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-4",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -49349,8 +49539,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-7-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -49404,8 +49594,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-8-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -49414,8 +49604,8 @@
 , 							{
 								"name" : "Custom Default Regular-1-9",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -49454,8 +49644,8 @@
 , 							{
 								"name" : "Custom Default Regular-3-1",
 								"default" : 								{
-									"fontface" : [ 0 ],
-									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+									"fontface" : [ 0 ]
 								}
 ,
 								"parentstyle" : "Custom Default",
@@ -52334,8 +52524,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52373,8 +52563,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52385,8 +52575,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52397,8 +52587,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52409,8 +52599,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52421,8 +52611,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52442,8 +52632,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52454,8 +52644,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52466,8 +52656,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52487,8 +52677,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52508,8 +52698,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52538,8 +52728,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52622,8 +52812,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52661,8 +52851,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52673,8 +52863,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52685,8 +52875,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52697,8 +52887,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52727,8 +52917,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52748,8 +52938,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52760,8 +52950,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52781,8 +52971,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52793,8 +52983,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52805,8 +52995,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52817,8 +53007,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52829,8 +53019,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52841,8 +53031,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52853,8 +53043,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52874,8 +53064,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52886,8 +53076,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -52898,8 +53088,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -53726,8 +53916,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -53765,8 +53955,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -53777,8 +53967,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -53789,8 +53979,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -53801,8 +53991,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -53813,8 +54003,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -53834,8 +54024,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -53846,8 +54036,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -53858,8 +54048,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -54356,8 +54546,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 61.5, 420.0, 94.0, 43.0 ],
 					"restore" : 					{
-						"Monitoring[32]" : [ -39.468085106382979 ],
-						"Monitoring[33]" : [ -5.21276595744682 ],
+						"Monitoring[32]" : [ 1.333333333333343 ],
+						"Monitoring[33]" : [ -6.702127659574465 ],
 						"Settings" : [ 0.0 ],
 						"Settings[1]" : [ 0.0 ],
 						"Settings[2]" : [ 0.0 ],
@@ -54368,7 +54558,7 @@
 							}
  ],
 						"live.text" : [ 0.0 ],
-						"toggle" : [ 0 ]
+						"toggle" : [ 1 ]
 					}
 ,
 					"text" : "autopattr @autoname 1 @autorestore 0",
@@ -55225,8 +55415,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -55264,8 +55454,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -55276,8 +55466,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -55288,8 +55478,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -55300,8 +55490,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -55312,8 +55502,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -55333,8 +55523,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -55345,8 +55535,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -55357,8 +55547,8 @@
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+									"fontface" : [ 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -55708,6 +55898,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-296", 0 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-153", 0 ],
+					"source" : [ "obj-152", 0 ]
 				}
 
 			}
@@ -56520,7 +56717,7 @@
 ,
 				"obj-16::obj-10::obj-35::obj-27" : 				{
 					"parameter_longname" : "10_Duration[4]",
-					"parameter_range" : [ 1.0, 136.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-10::obj-35::obj-3" : 				{
@@ -56559,7 +56756,7 @@
 ,
 				"obj-16::obj-11::obj-35::obj-27" : 				{
 					"parameter_longname" : "11_Duration[4]",
-					"parameter_range" : [ 1.0, 136.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-11::obj-35::obj-3" : 				{
@@ -56598,7 +56795,7 @@
 ,
 				"obj-16::obj-13::obj-35::obj-27" : 				{
 					"parameter_longname" : "12_Duration[4]",
-					"parameter_range" : [ 1.0, 136.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-13::obj-35::obj-3" : 				{
@@ -56637,7 +56834,7 @@
 ,
 				"obj-16::obj-14::obj-35::obj-27" : 				{
 					"parameter_longname" : "13_Duration[4]",
-					"parameter_range" : [ 1.0, 136.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-14::obj-35::obj-3" : 				{
@@ -56676,7 +56873,7 @@
 ,
 				"obj-16::obj-15::obj-35::obj-27" : 				{
 					"parameter_longname" : "14_Duration[4]",
-					"parameter_range" : [ 1.0, 136.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-15::obj-35::obj-3" : 				{
@@ -56715,7 +56912,7 @@
 ,
 				"obj-16::obj-16::obj-35::obj-27" : 				{
 					"parameter_longname" : "15_Duration[4]",
-					"parameter_range" : [ 1.0, 136.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-16::obj-35::obj-3" : 				{
@@ -56754,7 +56951,7 @@
 ,
 				"obj-16::obj-17::obj-35::obj-27" : 				{
 					"parameter_longname" : "16_Duration[4]",
-					"parameter_range" : [ 1.0, 136.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-17::obj-35::obj-3" : 				{
@@ -56785,7 +56982,7 @@
 ,
 				"obj-16::obj-1::obj-35::obj-27" : 				{
 					"parameter_longname" : "4_Duration[4]",
-					"parameter_range" : [ 1.0, 1.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-1::obj-35::obj-3" : 				{
@@ -56824,7 +57021,7 @@
 ,
 				"obj-16::obj-2::obj-35::obj-27" : 				{
 					"parameter_longname" : "5_Duration[4]",
-					"parameter_range" : [ 1.0, 136.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-2::obj-35::obj-3" : 				{
@@ -56855,7 +57052,7 @@
 ,
 				"obj-16::obj-3::obj-35::obj-27" : 				{
 					"parameter_longname" : "1_Duration[4]",
-					"parameter_range" : [ 1.0, 1.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-3::obj-35::obj-3" : 				{
@@ -56894,7 +57091,7 @@
 ,
 				"obj-16::obj-4::obj-35::obj-27" : 				{
 					"parameter_longname" : "2_Duration[4]",
-					"parameter_range" : [ 1.0, 1.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-4::obj-35::obj-3" : 				{
@@ -56928,7 +57125,7 @@
 				}
 ,
 				"obj-16::obj-5::obj-35::obj-27" : 				{
-					"parameter_range" : [ 1.0, 1.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-5::obj-35::obj-3" : 				{
@@ -56965,7 +57162,7 @@
 ,
 				"obj-16::obj-6::obj-35::obj-27" : 				{
 					"parameter_longname" : "6_Duration[4]",
-					"parameter_range" : [ 1.0, 136.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-6::obj-35::obj-3" : 				{
@@ -57004,7 +57201,7 @@
 ,
 				"obj-16::obj-7::obj-35::obj-27" : 				{
 					"parameter_longname" : "7_Duration[4]",
-					"parameter_range" : [ 1.0, 136.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-7::obj-35::obj-3" : 				{
@@ -57043,7 +57240,7 @@
 ,
 				"obj-16::obj-8::obj-35::obj-27" : 				{
 					"parameter_longname" : "8_Duration[4]",
-					"parameter_range" : [ 1.0, 136.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-8::obj-35::obj-3" : 				{
@@ -57082,7 +57279,7 @@
 ,
 				"obj-16::obj-9::obj-35::obj-27" : 				{
 					"parameter_longname" : "9_Duration[4]",
-					"parameter_range" : [ 1.0, 136.0 ]
+					"parameter_range" : [ 0.0, 1.0 ]
 				}
 ,
 				"obj-16::obj-9::obj-35::obj-3" : 				{
@@ -57138,8 +57335,8 @@
 			}
 , 			{
 				"name" : "A_tracks.txt",
-				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2020-11-19-19-29-14]",
-				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/[2020-11-19-19-29-14]",
+				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2020-12-23-20-28-41]",
+				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/[2020-12-23-20-28-41]",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -57152,8 +57349,8 @@
 			}
 , 			{
 				"name" : "sounds.txt",
-				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2020-11-19-19-29-14]",
-				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/[2020-11-19-19-29-14]",
+				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2020-12-23-20-28-41]",
+				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/[2020-12-23-20-28-41]",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -57197,13 +57394,6 @@
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sampleTaste.txt",
-				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -57316,6 +57506,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "analysis_UI.maxpat",
+				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "midiPorts.maxpat",
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
 				"patcherrelativepath" : ".",
@@ -57358,7 +57555,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "visualizer.maxpat",
+				"name" : "barks.maxpat",
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -57461,8 +57658,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-10",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -57471,8 +57668,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-11",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58021,8 +58218,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-2-2",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58106,8 +58303,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-3",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58161,8 +58358,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-4-1",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58216,8 +58413,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-5-1",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58226,8 +58423,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-6",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58236,8 +58433,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-7",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58246,8 +58443,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-2-8",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58271,8 +58468,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-3-1",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58356,8 +58553,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-4",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58441,8 +58638,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-7-1",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58496,8 +58693,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-8-1",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58506,8 +58703,8 @@
 , 			{
 				"name" : "Custom Default Regular-1-9",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -58546,8 +58743,8 @@
 , 			{
 				"name" : "Custom Default Regular-3-1",
 				"default" : 				{
-					"fontface" : [ 0 ],
-					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "Custom Default",
@@ -61426,8 +61623,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61465,8 +61662,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61477,8 +61674,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61489,8 +61686,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61501,8 +61698,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61513,8 +61710,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61534,8 +61731,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61546,8 +61743,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61558,8 +61755,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61579,8 +61776,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61600,8 +61797,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61630,8 +61827,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61714,8 +61911,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61753,8 +61950,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61765,8 +61962,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61777,8 +61974,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61789,8 +61986,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61819,8 +62016,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61840,8 +62037,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61852,8 +62049,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61873,8 +62070,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61885,8 +62082,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61897,8 +62094,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61909,8 +62106,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61921,8 +62118,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61933,8 +62130,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61945,8 +62142,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61966,8 +62163,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61978,8 +62175,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -61990,8 +62187,8 @@
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -62031,6 +62228,43 @@
 				}
 ,
 				"parentstyle" : "Custom Default-2",
+				"multi" : 0
+			}
+, 			{
+				"name" : "newobjBlue-1",
+				"default" : 				{
+					"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "newobjBrown-1",
+				"default" : 				{
+					"accentcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "newobjYellow-1",
+				"default" : 				{
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "numberGold-1",
+				"default" : 				{
+					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+				}
+,
+				"parentstyle" : "",
 				"multi" : 0
 			}
  ],
