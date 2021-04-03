@@ -29,10 +29,12 @@ const createTxt = (isNewFile, data) => {
 
     if (isNewFile) {
         //creates new file and starts writing to this file
-        var name = createDate();
-        currentFileName = name;
+        if(data == "bang") {
+            var name = createDate();
+            currentFileName = name;
+        }
         maxAPI.post("Creating new transcription file: " + location + currentFileName);
-        fs.writeFile(location + name + '.txt', data, (err) => {
+        fs.writeFile(location + currentFileName + '.txt', data, (err) => {
             if (err) {
                 console.log(err);
                 maxAPI.post(err);
@@ -55,6 +57,11 @@ const createTxt = (isNewFile, data) => {
 const handlers = {
 	transcribe: (...args) => {
         createTxt(...args);
+	},
+	name: (moniker) => {
+        //maxAPI.post(moniker);
+        currentFileName = moniker;
+        createTxt(1, moniker);
 	}
 }
 
