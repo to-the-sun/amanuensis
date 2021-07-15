@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1272.0, 911.0 ],
+		"rect" : [ 529.0, 85.0, 1272.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -280,13 +280,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-45",
-									"linecount" : 5,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 430.0, 330.0, 56.0, 66.0 ],
-									"text" : "\"[2021-5-31-16-26-19] [Derivative 1]\""
+									"patching_rect" : [ 430.0, 330.0, 59.0, 54.0 ],
+									"text" : "\"[2021-7-8-16-31-49] [Derivative 1]\""
 								}
 
 							}
@@ -345,13 +345,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 140.0, 190.0, 347.0, 20.0 ],
+									"patching_rect" : [ 140.0, 190.0, 238.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
 									}
 ,
-									"text" : "coll D:/[Library]/[Audio]/[Works]/[Projects]/[Experiments]/[Projects]/catalog.txt"
+									"text" : "coll D:/[Library]/[Audio]/[Works]/[Projects]/catalog.txt"
 								}
 
 							}
@@ -663,8 +663,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 830.0, 40.0, 239.0, 20.0 ],
-					"text" : "D:/[Library]/[Audio]/[Works]/[Projects]/[Experiments]/"
+					"patching_rect" : [ 530.0, 40.0, 202.0, 20.0 ],
+					"text" : "prefix D:/[Library]/[Audio]/[Works]/[Projects]/"
 				}
 
 			}
@@ -877,10 +877,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "comp_stem.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 60.0, 680.0, 279.5, 110.0 ],
+					"patching_rect" : [ 60.0, 680.0, 290.0, 110.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -898,10 +897,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "comp_stem.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 60.0, 560.0, 279.5, 110.0 ],
+					"patching_rect" : [ 60.0, 560.0, 290.0, 110.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -919,10 +917,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "comp_stem.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 60.0, 440.0, 279.5, 110.0 ],
+					"patching_rect" : [ 60.0, 440.0, 290.0, 110.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -963,10 +960,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "comp_stem.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 60.0, 320.0, 279.5, 110.0 ],
+					"patching_rect" : [ 60.0, 320.0, 290.0, 110.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -985,23 +981,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 830.0, 30.0, 20.0 ],
-					"text" : "dac~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 40.0, 311.0, 20.0 ],
+					"patching_rect" : [ 210.0, 40.0, 311.0, 20.0 ],
 					"text" : "prefix D:/[Library]/[Audio]/[Works]/[Projects]/[Experiments]/[Projects]/"
 				}
 
@@ -1010,14 +995,14 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-29",
-					"items" : [ "[2021-5-23-14-17-43]", ",", "[2021-5-23-14-18-38]", ",", "[2021-5-23-14-23-30]", ",", "[2021-5-24-16-48-7]", ",", "[2021-5-24-16-51-0]", ",", "[2021-5-24-17-12-37]", ",", "[2021-5-24-17-17-57]", ",", "[2021-5-24-17-29-30]", ",", "[2021-5-24-17-53-57]", ",", "[2021-5-24-17-59-18]", ",", "[2021-5-24-18-16-37]", ",", "[2021-5-24-18-17-39]", ",", "[2021-5-24-18-18-45]", ",", "[2021-5-24-18-19-30]", ",", "[2021-5-24-18-20-14]", ",", "[2021-5-24-18-21-3]", ",", "[2021-5-24-18-21-43]", ",", "[2021-5-24-18-22-28]", ",", "[2021-5-24-18-23-11]", ",", "[2021-5-24-18-23-52]", ",", "[2021-5-24-18-24-32]", ",", "[2021-5-24-18-25-14]", ",", "[2021-5-24-18-25-57]", ",", "[2021-5-24-18-4-32]", ",", "[2021-5-27-15-23-5]", ",", "[2021-5-31-16-13-49]", ",", "[2021-5-31-16-26-19]", ",", "[2021-6-1-18-37-25]", ",", "Drum Wank #1 May 5 2017 - Jay Sussman", ",", "Fate's Push - Ninjics Trailer - Jay Sussman (Original Score)", ",", "Floaty Improvisation - Jay Sussman - September 1 2017", ",", "Hotel Suite (pt1) - Jay Sussman - May 3 - (Original Piano Composition)", ",", "Interdependence Drum Groove - Jay Sussman 2017", ",", "Jay Sussman - ESCATE - Short Animated Film", ",", "Music for Dance - (Sun Bursts the Sky) Ballet Barre Adagio - Jay Sussman - Nov 30 2017", ",", "Music for Dance - 11 Warm Up - Jay Sussman - July 27 2017", ",", "Music for Dance - 15min Graham Seq - Jay Sussman -  Nov 23 2018", ",", "Music for Dance - Accent on 2 - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Across the Floor   - Jay Sussman - June 1 2018", ",", "Music for Dance - Across the Floor Combo - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Across the Floor Combo in 5brs - Jay Sussman - Dec 8 2018", ",", "Music for Dance - Across the floor Jumps 2  - Jay Sussman - June 1 2018", ",", "Music for Dance - Across the Floor- Jay Sussman - Sept 14 2018", ",", "Music for Dance - Adagio - Jay Sussman - Sep 27 2018", ",", "Music for Dance - Adagio - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Adagio in the Center 2 - Jay Sussman - Oct 23 2017" ],
+					"items" : [ "90 Days - Jay Sussman - Jan 16 2018 - (Original Song Demo)", ",", "[2021-4-15-18-12-7]", ",", "[2021-4-16-19-8-3]", ",", "[2021-4-17-15-42-49]", ",", "[2021-4-18-16-4-10]", ",", "[2021-4-18-19-3-59]", ",", "[2021-4-19-17-0-54]", ",", "[2021-4-19-20-0-53]", ",", "[2021-4-19-21-54-3]", ",", "[2021-4-20-16-56-56]", ",", "[2021-4-21-16-32-32]", ",", "[2021-4-22-16-32-58]", ",", "[2021-4-23-18-21-23]", ",", "[2021-4-24-14-51-53]", ",", "[2021-4-25-14-19-32]", ",", "[2021-4-26-18-54-45]", ",", "[2021-4-27-17-12-58]", ",", "[2021-4-28-16-11-24]", ",", "[2021-4-28-16-14-26]", ",", "[2021-4-28-17-6-58]", ",", "[2021-4-29-16-25-10]", ",", "[2021-4-30-17-4-25]", ",", "[2021-5-1-15-36-24]", ",", "[2021-5-10-16-13-1]", ",", "[2021-5-10-20-37-54]", ",", "[2021-5-11-20-22-45]", ",", "[2021-5-11-20-29-56]", ",", "[2021-5-11-20-52-22]", ",", "[2021-5-12-16-0-7]", ",", "[2021-5-12-17-30-20]", ",", "[2021-5-13-20-47-5]", ",", "[2021-5-15-18-16-13]", ",", "[2021-5-16-18-38-1]", ",", "[2021-5-18-20-38-49]", ",", "[2021-5-2-16-59-19]", ",", "[2021-5-20-20-8-10]", ",", "[2021-5-21-19-21-44]", ",", "[2021-5-21-19-22-24]", ",", "[2021-5-23-20-16-38]", ",", "[2021-5-24-20-18-2]", ",", "[2021-5-25-17-32-38]", ",", "[2021-5-26-16-24-3]", ",", "[2021-5-27-17-55-54]", ",", "[2021-5-28-16-48-26]", ",", "[2021-5-29-17-9-40]", ",", "[2021-5-3-16-34-52]", ",", "[2021-5-30-15-9-26]", ",", "[2021-5-31-16-51-51]", ",", "[2021-5-4-17-0-18]", ",", "[2021-5-5-16-14-29]", ",", "[2021-5-6-17-0-32]", ",", "[2021-5-7-17-46-25]", ",", "[2021-5-8-15-32-40]", ",", "[2021-5-8-15-34-28]", ",", "[2021-5-9-16-41-39]", ",", "[2021-6-20-18-39-43]", ",", "[2021-6-3-17-24-3]", ",", "[2021-7-4-16-59-33]", ",", "[2021-7-8-16-29-55]", ",", "[2021-7-8-16-31-49]", ",", "[Experiments]", ",", "A floaty Day - Jay Sussman - May 19 2017 (Original Piano Music)", ",", "Dancing Rainbow Umbrella Man - Berlin Pride Parade", ",", "Don't Wana Be found - Jay Sussman - Dec 3 2017 (Original Song Demo)", ",", "Drum Wank #1 May 5 2017 - Jay Sussman", ",", "Fate's Push (Ninjics Trailer Theme) Jay Sussman (Piano Rendition) - May 20 2017", ",", "Fate's Push - Ninjics Trailer - Jay Sussman (Original Score)", ",", "Floaty Improvisation - Jay Sussman - September 1 2017", ",", "Gaining Steem - by Steembirds (dan-atstarlite & jaybird) - SOriginal Song for Steemit.com)", ",", "Hotel Suite (pt1) - Jay Sussman - May 3 - (Original Piano Composition)", ",", "I Can't Say Goodbye - Jay Sussman - Oct 22 17 (Original Song Demo)", ",", "I Don't Want to Waste - Jay Sussman - Dec 29 17 (Original Song Demo)", ",", "Interdependence Drum Groove - Jay Sussman 2017", ",", "Jay Sussman - ESCATE - Short Animated Film", ",", "Jay Sussman - Ninjics Game Play Video #1", ",", "JAY SUSSMAN 9_8 Groove", ",", "Jay Sussman Calypso n' Mambo Jams", ",", "Jay Sussman City Lights Improv", ",", "Jay Sussman Drum Solo #1 Improv", ",", "Keep on Driving - Jay Sussman Oct 17 2016 - (original song demo)", ",", "Life Goes On - Jay Sussman - Nov 12 2017 (Original Song Demo)", ",", "Lying Next To You - Jay Sussman - Jan 14 2018 - (Original Improvised Song Demo)", ",", "Lying Next To You - Jay Sussman - Jan 14 2018 - (Original Improvised Song Demo)_1", ",", "Lying Next To You - Jay Sussman - Jan 14 2018 - (Original Improvised Song Demo)_2", ",", "Music for Dance - (Battements on Fire) Ballet Barre Grand Battement - Jay Sussman - Nov 30 2017", ",", "Music for Dance - (Sun Bursts the Sky) Ballet Barre Adagio - Jay Sussman - Nov 30 2017", ",", "Music for Dance - 11 Warm Up - Jay Sussman - July 27 2017", ",", "Music for Dance - 15min Graham Seq - Jay Sussman -  Nov 23 2018", ",", "Music for Dance - Accent on 2 - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Across the Floor   - Jay Sussman - June 1 2018", ",", "Music For Dance - Across the Floor - Jay Sussman - July 24 17", ",", "Music For Dance - Across the Floor - Jay Sussman - July 25 2017", ",", "Music for Dance - Across the Floor Combo - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Across the Floor Combo in 5brs - Jay Sussman - Dec 8 2018", ",", "Music for Dance - Across the Floor Funk  - Jay Sussman - Aug 30 18", ",", "Music for Dance - Across the Floor in 6 - Jay Sussman - July 24 2017", ",", "Music for Dance - Across the floor Jumps  - Jay Sussman - June 1 2018", ",", "Music for Dance - Across the floor Jumps 2  - Jay Sussman - June 1 2018", ",", "Music for Dance - Across the floor Jumps 3  - Jay Sussman - June 1 2018", ",", "Music for Dance - Across the Floor- Jay Sussman - Sept 14 2018", ",", "Music for Dance - Adagio - Jay Sussman - June 1 2018", ",", "Music for Dance - Adagio - Jay Sussman - Sep 27 2018", ",", "Music for Dance - Adagio - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Adagio 2 - Jay Sussman - Sep 27 2018", ",", "Music for Dance - Adagio in the Center 2 - Jay Sussman - Oct 23 2017", ",", "Music for Dance - Adagio-ish - Jay Sussman - Dec 13 2018", ",", "Music for Dance - Apocalypse Tendu -  Jay Sussman - Nov 23 2017", ",", "Music for Dance - Arabesques Across the Floor in 10Bars - Jay Sussman - July 27 2017", ",", "Music for Dance - Balle Jumps 1- Jay Sussman - April 30th 2018", ",", "Music for Dance - Ballet Across the Floor Faster- Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Across the Floor- Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Adagio - Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Adagio - Jay Sussman - Jan 8 2019", ",", "Music for Dance - Ballet Adagio - Jay Sussman - June 16 2018 (gt_dr_pi)", ",", "Music for Dance - Ballet Adagio 2 - Jay Sussman - Jan 8 2019", ",", "Music for Dance - Ballet Adagio 3 - Jay Sussman - Jan 8 2019", ",", "Music for Dance - Ballet Barre - Jay Sussman - June 16 2018", ",", "Music for Dance - Ballet Barre Beautiful Adagio - Jay Sussman - Nov 30 2017", ",", "Music for Dance - Ballet Barre Developpe   - Jay Sussman - April 30th 2018", ",", "Music for Dance - Ballet Barre Developpe - Jay Sussman - Sept 25 2018", ",", "Music for Dance - Ballet Barre Ex - Jay Sussman - Sept 27 2017", ",", "Music for Dance - Ballet Barre Final Ex  - Jay Sussman - April 30th 2018", ",", "Music for Dance - Ballet Barre Foot Work  - Jay Sussman - Sept 25 2018", ",", "Music for Dance - Ballet Barre Foot Work - Jay Sussman - April 30th 2018", ",", "Music for Dance - Ballet Barre Foot Work 2 - Jay Sussman - Nov 30 2017", ",", "Music for Dance - Ballet Barre Foot Work- Jay Sussman - Nov 30 2017", ",", "Music for Dance - Ballet Barre Grand Battement - Jay Sussman - Nov 30 2017", ",", "Music for Dance - Ballet Barre Grand Bettements  - Jay Sussman - April 30th 2018", ",", "Music for Dance - Ballet Barre Plie - Jay Sussman - April 30th 2018", ",", "Music for Dance - Ballet Barre Ronde Jambe  - Jay Sussman - April 30th 2018", ",", "Music for Dance - Ballet Barre Ronde Jambe - Jay Sussman - Nov 30 2017", ",", "Music for Dance - Ballet Barre Ronde Jambe - Jay Sussman - Sept 25 2018", ",", "Music for Dance - Ballet Barre Ronde Jambe 2 - Jay Sussman - Sept 25 2018", ",", "Music for Dance - Ballet Barre Tendu - Jay Sussman - Nov 30 2017", ",", "Music for Dance - Ballet Barre Tendu - Jay Sussman - Sept 25 2018", ",", "Music for Dance - Ballet Barre Tendu 1 - Jay Sussman - April 30th 2018", ",", "Music for Dance - Ballet Barre Tendu 2 - Jay Sussman - April 30th 2018", ",", "Music for Dance - Ballet Barre Tendu_Degage - Jay Sussman - June 16 2018", ",", "Music for Dance - Ballet Barre Warm Up - Jay Sussman - April 30th 2018", ",", "Music for Dance - Ballet Barre Warm Up - Jay Sussman - Sept 25 2018", ",", "Music for Dance - Ballet Barre Warm up_Plie - Jay Sussman - Nov 30 2017", ",", "Music for Dance - Ballet Barre Work 1 - Jay Sussman - Sept 21 2017", ",", "Music for Dance - Ballet Barre Work 2 - Jay Sussman - Sept 21 2017", ",", "Music for Dance - Ballet Battements - Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Battements - Jay Sussman - Sept 27 2017", ",", "Music for Dance - Ballet Center Adagio - Jay Sussman - April 30th 2018-1", ",", "Music for Dance - Ballet Center Adagio - Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Center Adagio Group 2 - Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Center Combo - Jay Sussman - Aug 19 18", ",", "Music for Dance - Ballet Center Combo 2 - Jay Sussman - Aug 19 18", ",", "Music for Dance - Ballet Center Tendu_Pirouettes - Jay Sussman - May 1 2018", ",", "Music for Dance - Ballet Centre Adagio - June 8 18", ",", "Music for Dance - Ballet Centre Adagio Nocturne - Jay Sussman - June 16 2018", ",", "Music for Dance - Ballet Degage - Jay Sussman - Sept 21 2017", ",", "Music for Dance - Ballet Degage_foot work - Jay Sussman - Jan 15  2019", ",", "Music for Dance - Ballet Developpe  - Jay Sussman - Jan 15  2019", ",", "Music for Dance - Ballet Fast Chasse - Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Fast Something_ - Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Foot Work - Jay Sussman - Jan 15  2019", ",", "Music for Dance - Ballet Foot Work - Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Frantic Triplets - Jay Sussman - Sept 21 2017", ",", "Music for Dance - Ballet Full Triplet Combo - Jay Sussman - April 30th 2018", ",", "Music for Dance - Ballet Jumps - Jay Sussman - Sept 21 2017", ",", "Music for Dance - Ballet Left Side Triplet Combo - Jay Sussman - April 30th 2018", ",", "Music for Dance - Ballet Midnight Tango - Jay Sussman - Sept 21 2017", ",", "Music for Dance - Ballet Odd Ronde Jambe  - Jay Sussman - Sept 27 2017", ",", "Music for Dance - Ballet Piano Adage - Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Pirouettes - Jay Sussman - Sept 21 2017", ",", "Music for Dance - Ballet Plie - Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Plies - Jay Sussman - June 16 2018", ",", "Music for Dance - Ballet Ronde Jambe - Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Ronde Jambe - Jay Sussman - June 16 2018", ",", "Music for Dance - Ballet Ronde Jambe - Jay Sussman - Sept 21 2017", ",", "Music for Dance - Ballet Rondo Jambe  - Jay Sussman - Jan 15  2019", ",", "Music for Dance - Ballet Rondo Jambe  - Jay Sussman - Oct 16 2018", ",", "Music for Dance - Ballet Tendu  - Jay Sussman - Jan 4 2018", ",", "Music for Dance - Ballet Tendu (gt) - Jay Sussman - June 16 2018", ",", "Music for Dance - Ballet Tendu - Jay Sussman - Sept 18 2018", ",", "Music for Dance - Ballet Waltzy Jumps - Jay Sussman - Jan 15  2019", ",", "Music for Dance - Ballet Warm Up- Jay Sussman - Jan 4 2018", ",", "Music for Dance - Battements & Cloche at the Barre  - Jay Sussman - Oct 22 2017", ",", "Music for Dance - Battements & En Cloche at the Barre 2- Jay Sussman - Oct 22 2017", ",", "Music for Dance - Battements - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Battements at the Barre  - Jay Sussman - Oct 22 2017", ",", "Music for Dance - Breath (Sting Style) - Jay Sussman - Nov 15 2017", ",", "Music for Dance - Center Adagio - Jay Sussman - Oct 25 2017", ",", "Music for Dance - Center Ronde Jambe - Jay Sussman - Oct 25 2017", ",", "Music for Dance - Center Work (Ballet) - Jay Sussman - Sept 7 2017", ",", "Music for Dance - Center Work (lana style) - Jay Sussman - Oct 23 2017", ",", "Music for Dance - Center Work - Jay Sussman - Oct 23 2017", ",", "Music for Dance - Centre Adagio - Jay Sussman - Aug 30 18", ",", "Music for Dance - Centre Combo - Jay Sussman -  Nov 26 2018", ",", "Music for Dance - Centre Combo - Jay Sussman_Roger Sinha - Aug 16 2018", ",", "Music for Dance - Chill Out Barre - Jay Sussman - Dec 8 2018", ",", "Music for Dance - Class Warm Up - Jay Sussman - June 1 2018", ",", "Music for Dance - Company Cloche - Jay Sussman -  Nov 26 2018", ",", "Music for Dance - Company Plie - Jay Sussman - Sept 17 2018", ",", "Music for Dance - Contemplative Center Work -  Jay Sussman - Nov 15 2017", ",", "Music for Dance - Contemporary  Walks Combo Fast - April 24 2018", ",", "Music for Dance - Contemporary 1 - Jay Sussman - Sept 26 2017", ",", "Music for Dance - Contemporary Across the floor - Jay Sussman - Sept 18 2017", ",", "Music for Dance - Contemporary Across the Floor - Jay Sussman_Roger Sinha - June 20 2018", ",", "Music for Dance - Contemporary Across the Floor - Jay Sussman_Roger Sinha - June 28 2018", ",", "Music for Dance - Contemporary Across the Floor in 7s - April 24 2018", ",", "Music for Dance - Contemporary Across the Floor2 - Jay Sussman_Roger Sinha - June 20 2018", ",", "Music for Dance - Contemporary Across the Floor2 - Jay Sussman_Roger Sinha - June 28 2018", ",", "Music for Dance - Contemporary Across the Floor3 - Jay Sussman_Roger Sinha - June 20 2018", ",", "Music for Dance - Contemporary Adagio  - April 24 2018", ",", "Music for Dance - Contemporary Adagio - Jay Sussman - Aug 8 2018", ",", "Music for Dance - Contemporary Cinematic Plies - Jay Sussman - Dec 19 2017", ",", "Music for Dance - Contemporary Combo Marking - April 24 2018", ",", "Music for Dance - Contemporary Degage Slow to Fast - April 24 2018", ",", "Music for Dance - Contemporary floor Work - Jay Sussman_Roger Sinha", ",", "Music for Dance - Contemporary foot work - April 24 2018", ",", "Music for Dance - Contemporary Foot Work @ the Barre (2 speeds)  - Jay Sussman - Feb 16 2018", ",", "Music for Dance - Contemporary Guitar Centre Work  - Jay Sussman - June 7 2018", ",", "Music for Dance - Contemporary Improv & Adagio - Jay Sussman - April 9 2018", ",", "Music for Dance - Contemporary Improv & Adagio 2 - Jay Sussman - April 9 2018", ",", "Music for Dance - Contemporary Jazzy Combo  - Jay Sussman - Aug 8 2018", ",", "Music for Dance - Contemporary Plie  - Jay Sussman -  Nov 23 2018", ",", "Music for Dance - Contemporary Plie  2 - Jay Sussman - Sept 24 2018", ",", "Music for Dance - Contemporary Plie - April 24 2018", ",", "Music for Dance - Contemporary Plie - Jay Sussman (ft. Roger Sinha on Didgeridoo)   - June 20 2018", ",", "Music for Dance - Contemporary Plie - Jay Sussman -  June 27 2018", ",", "Music for Dance - Contemporary Plie - Jay Sussman - Oct 2 17", ",", "Music for Dance - Contemporary Plie - Jay Sussman - Sept 24 2018", ",", "Music for Dance - Contemporary Plie 2 - Jay Sussman - July 6 2018", ",", "Music for Dance - Contemporary Plie 2nd Side  - June 14 18", ",", "Music for Dance - Contemporary Rolls Across the Floor - Jay Sussman - Aug 15 2018", ",", "Music for Dance - Contemporary Ronde Jambe - Jay Sussman - Oct 2 17", ",", "Music for Dance - Contemporary Rondo Jambe - Jay Sussman - Sept 24 2018", ",", "Music for Dance - Contemporary Rondo Jambe 2 - Jay Sussman - Aug 7 2018", ",", "Music for Dance - Contemporary Rondo Jambe 2 - Jay Sussman - Sept 24 2018", ",", "Music for Dance - Contemporary Tendu - April 24 2018", ",", "Music for Dance - Contemporary Tendu - Jay Sussman - July 4 2018", ",", "Music for Dance - Contemporary Tendu - Jay Sussman - Oct 2 17", ",", "Music for Dance - Contemporary Tendu 9's 2 - April 24 2018", ",", "Music for Dance - Contemporary Tendu 9s - April 24 2018", ",", "Music for Dance - Contemporary Walks  - April 24 2018", ",", "Music for Dance - Contemporary Warm Up 1 - April 24 2018", ",", "Music for Dance - Contemporary Warmup - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Contemporary Warmup - Jay Sussman_Roger Sinha -  June 27 2018", ",", "Music for Dance - Contemporary Warmup 2 - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Dark Adagio - Jay Sussman - Nov 29 18", ",", "Music for Dance - Dark Battements - Jay Sussman - July 27 2017", ",", "Music for Dance - Dark Groove - Jay Sussman - June 1 2018", ",", "Music for Dance - Dark Improvisation  - Jay Sussman - Nov 8 2017", ",", "Music for Dance - Dark Plie Ex - Jay Sussman - Sept 29 2017", ",", "Music for Dance - Degage - Jay Sussman - Nov 8 2017", ",", "Music for Dance - Degage - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Degage - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Degage-ish - Jay Sussman - Dec 13 2018", ",", "Music for Dance - Developpe - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Developpe 2 - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Developpe_Sasse  - Jay Sussman - Nov 8 2017", ",", "Music for Dance - Dramatic Floor -  Jay Sussman - July 23 2017", ",", "Music for Dance - En Cloche - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Fast Degage -  Jay Sussman - Nov 23 2017", ",", "Music for Dance - Fast Degage_Tendu - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Fast Jumps to Ronde Jambe - Jay Sussman - Sept 29 2017", ",", "Music for Dance - Faster Modern Warm Up - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Floor Warm Up - Jay Sussman - July 23 2017", ",", "Music for Dance - Floor Work - Jay Sussman - July 24 2017", ",", "Music for Dance - Flow Across The Floor - Jay Sussman - Sept 6 2017", ",", "Music for Dance - Foot Work - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Foot Work- Jay Sussman - July 27 2017", ",", "Music for Dance - Foreboding Dagage - Jay Sussman - Feb 9 2018", ",", "Music for Dance - Forest Trails (Ballet Tendu) - Jay Sussman - Nov 8 2017", ",", "Music for Dance - Frappe - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Gentle Warm Up - Jay Sussman -  July 23 2017", ",", "Music for Dance - Gloomy Limon Work - Jay Sussman - Feb 10 2018", ",", "Music for Dance - Goofy Tango  Jay Sussman - Nov 23 2017", ",", "Music for Dance - Graham Adagio - Jay Sussman - Sept 19 2017", ",", "Music for Dance - Graham Sequence 1 - March 19 2018", ",", "Music for Dance - Graham Sequence 2 - March 19 2018", ",", "Music for Dance - Graham Sequence 3&6's_Openings_Long Leans. Jay Sussman - Nov 29 2017", ",", "Music for Dance - Graham Sequence 3&6's_Openings_Long Leans... Jay Sussman - Nov 29 2017", ",", "Music for Dance - Graham Sequence Bounces_Breaths2_Breaths4 - Jay Sussman - Nov 29 2017", ",", "Music for Dance - Graham Standing to Battements  - Jay Sussman - Sept 19 2017", ",", "Music for Dance - Graham Standing work II - Jay Sussman - Sept 19 2017", ",", "Music for Dance - Graham Work - March 19 2018", ",", "Music for Dance - Graham Work 2 - March 19 2018", ",", "Music for Dance - Graham Work 3 (turns around the back) - March 19 2018", ",", "Music for Dance - Graham Work 4 - March 19 2018", ",", "Music for Dance - Graham Work 5 - March 19 2018", ",", "Music for Dance - Grand Plie 12bars - Jay Sussman - July 27 2017", ",", "Music for Dance - Groovin' Plie -  Jay Sussman - Nov 23 2017", ",", "Music for Dance - Groovin' Plie 2 -  Jay Sussman - Nov 23 2017", ",", "Music for Dance - Group Improv  - Jay Sussman - Sept 7 2017", ",", "Music for Dance - Guided Floor Stretch_Sequence - Jay Sussman - Oct 25 17", ",", "Music for Dance - Guided Warm up - April 6 2018", ",", "Music for Dance - Guided Warm Up_Space Jam 3 - Jay Sussman - July 23 18", ",", "Music for Dance - Guitar Across the Floor   - Jay Sussman - June 1 2018", ",", "Music for Dance - Guitar Chasse-ish  - Jay Sussman - June 1 2018", ",", "Music for Dance - Guitar Degage in 12 - Jay Sussman - June 1 2018", ",", "Music for Dance - Guitar Jumps  - Jay Sussman - June 1 2018", ",", "Music for Dance - Guitar Tendu - Jay Sussman - June 1 2018", ",", "Music for Dance - Half Rolls on the Floor - Jay Sussman - Sept 12 2017", ",", "Music for Dance - Horton Degage - Jay Sussman - Oct 17 2018", ",", "Music for Dance - Horton Suspended Work - Jay Sussman - Oct 17 2018", ",", "Music for Dance - Horton Suspended Work 2 - Jay Sussman - Oct 17 2018", ",", "Music for Dance - Improv - Jay Sussman - July 23 18", ",", "Music for Dance - Improv 2 - Jay Sussman - July 23 18", ",", "Music for Dance - Improv_Guided Warm Up - Jay Sussman - July 24 18", ",", "Music for Dance - Jay Sussman July 24 17 (Across the Floor 6Bars)", ",", "Music for Dance - Jumps - Jay Sussman - Nov 30 2017", ",", "Music for Dance - Jumps - Jay Sussman - Oct 2 17", ",", "Music for Dance - Jumps 2 - Jay Sussman - Nov 30 2017", ",", "Music for Dance - Jumps or En Cloche - Jay Sussman - Nov 23 2017", ",", "Music for Dance - Latin Groove - Jay Sussman - June 1 2018", ",", "Music for Dance - Leg Work -  Jay Sussman - Nov 15 2017", ",", "Music for Dance - Lightening Footwork - Jay Sussman - Nov 23 2017", ",", "Music for Dance - Limon Based Combo  - Jay Sussman - Feb 10 2018", ",", "Music for Dance - Limon Floor Work - Jay Sussman - Jan 12 2018", ",", "Music for Dance - Limon Floor Work 2 - Jay Sussman - Jan 12 2018", ",", "Music for Dance - Limon Floor Work 3 - Jay Sussman - Jan 12 2018", ",", "Music for Dance - Limon Floor Work 4 - Jay Sussman - Jan 13 2018", ",", "Music for Dance - Limon Improv - Jay Sussman - Jan 14 2018", ",", "Music for Dance - Limon Improv Piano - Jay Sussman - Jan 18 2018", ",", "Music for Dance - Limon Jumps - Jay Sussman - Jan 19 2018", ",", "Music for Dance - Limon Jumps 2 - Jay Sussman - Jan 19 2018", ",", "Music for Dance - Mini Hand Stands - Jay Sussman - Aug 15 2018", ",", "Music for Dance - Mod Across the Floor  2  - Jay Sussman - Jan 16  2019", ",", "Music for Dance - Modern Across The Floor  - Jay Sussman - Jan 8 2019", ",", "Music for Dance - Modern Across the Floor Combo 2 - Jay Sussman - Jan 24 2018", ",", "Music for Dance - Modern Across the Floor Combo 3 - Jay Sussman - Jan 24 2018", ",", "Music for Dance - Modern Across the Floor Combo- Jay Sussman - Jan 24 2018", ",", "Music for Dance - Modern Adagio - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Modern Centre Work - Jay Sussman - Oct 18 2018", ",", "Music for Dance - Modern Combo - Jay Sussman - Sept 20 2018", ",", "Music for Dance - Modern Combo 2 Prep Piano - Jay Sussman - Feb 7 2018", ",", "Music for Dance - Modern Combo Prep Piano - Jay Sussman - Feb 7 2018", ",", "Music for Dance - Modern Degage - Jay Sussman - Jan 12 2018", ",", "Music for Dance - Modern Developpe - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Modern Fast Foot Work - Jay Sussman - Jan 12 2018", ",", "Music for Dance - Modern Floor Work - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Modern Plie - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Modern Rondo Jambe  - Jay Sussman - Jan 10 2019", ",", "Music for Dance - Modern Rondo Jambe  2 - Jay Sussman - Jan 10 2019", ",", "Music for Dance - Modern Standing work - Jay Sussman - Oct 23 2017", ",", "Music for Dance - Modern Standing Work 2 - Jay Sussman - Oct 23 2017", ",", "Music for Dance - Modern Tendu - Jay Sussman - Jan 12 2018", ",", "Music for Dance - Modern Tendu - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Modern Tendu 2 - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Modern Warm Up - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Modern Warm Up - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Modern Work  - Jay Sussman -  Nov 5 2018", ",", "Music for Dance - More Graham Seq_Floor - Jay Sussman -  Nov 23 2018", ",", "Music for Dance - Odd Jumps Across the Floor - Jay Sussman - July 23 2017", ",", "Music for Dance - Otherworldly Roll Downs_Plies - Jay Sussman - Nov 15 2017", ",", "Music for Dance - Piano Plie - Jay Sussman - June 1 2018", ",", "Music for Dance - Pirouette-ish Ballet - Jay Sussman - Sept 7 2017", ",", "Music for Dance - Plie  - Jay Sussman - Jan 18  2019", ",", "Music for Dance - Plie - Jay Sussman - Aug 23 18", ",", "Music for Dance - Plie - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Plie - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Plie 2  - Jay Sussman - Aug 23 18", ",", "Music for Dance - Plie 2 - Jay Sussman - Sep 27 2018", ",", "Music for Dance - Plie 2 - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Plie at the Barre  - Jay Sussman - Oct 22 2017", ",", "Music for Dance - Plie Ex - Jay Sussman - Oct 2 17", ",", "Music for Dance - Plie Ex w_drums & Piano - Jay Sussman - Sept 21 2017", ",", "Music for Dance - Plie in 7  - Jay Sussman - Aug 29 18", ",", "Music for Dance - Plie in 7 day 2   - Jay Sussman - Aug 30 18", ",", "Music for Dance - Rave Across the Floor - Jay Sussman - Dec 8 2018", ",", "Music for Dance - Rolls Across the Floor 2 - Jay Sussman_Roger Sinha - Aug 16 2018", ",", "Music for Dance - Rolls Across the Floor 3 - Jay Sussman_Roger Sinha - Aug 16 2018", ",", "Music for Dance - Ronde Jambe - Jay Sussman - June 1 2018", ",", "Music for Dance - Ronde Jambe - Jay Sussman - Sept 13 2017", ",", "Music for Dance - Ronde Jambe - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Ronde Jambe - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Ronde Jambe 2 - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Ronde Jambe at the Barre  - Jay Sussman - Nov 8 2017", ",", "Music for Dance - Ronde Jambe at the Barre  - Jay Sussman - Oct 22 2017", ",", "Music for Dance - Ronde Jambe Barre Ex (2nd Side) - Jay Sussman - Oct 25 17", ",", "Music for Dance - Rondo Jambe - Jay Sussman - Nov 29 18", ",", "Music for Dance - Rondo Jambe-ish - Jay Sussman - Dec 13 2018", ",", "Music for Dance - Runs Across the Floor - Jay Sussman - July 27 2017", ",", "Music for Dance - Sambaish - Jay Sussman - Sept 8 2017", ",", "Music for Dance - Shasse - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Slow 6's Across the Floor   - Jay Sussman - Jan 11 2018", ",", "Music for Dance - Slow Tendu to Battements to Jumps - Jay Sussman - Sept 29 2017", ",", "Music for Dance - Space Improvisation for Guided Warm up - Jay Sussman - July 23 2018", ",", "Music for Dance - Space Jam 1 - Jay Sussman - July 23 18", ",", "Music for Dance - Space Jam 2 - Jay Sussman - July 23 18", ",", "Music for Dance - Spanish Guitar in 12 - Jay Sussman - June 1 2018", ",", "Music for Dance - Spirited Warmup -  Jay Sussman - Nov 23 2017", ",", "Music For Dance - Standing Work - Jay Sussman - July 25 17", ",", "Music for Dance - Standing Work - Jay Sussman - July 25 2017", ",", "Music for Dance - Suspended Groove - Jay Sussman - June 1 2018", ",", "Music for Dance - Swingy Across the Floor Combo - Jay Sussman_Roger Sinha - Aug 16 2018", ",", "Music for Dance - Tendu - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Tendu at the Barre  - Jay Sussman - Oct 22 2017", ",", "Music for Dance - Tendu Combo - Jay Sussman - Aug 30 18", ",", "Music for Dance - Tendu Ex - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Tendu Gt - Jay Sussman -  Nov 26 2018", ",", "Music for Dance - Tendus in 9 - Jay Sussman_Roger Sinha - Aug 16 2018", ",", "Music for Dance - Tendus in 9's 2x - Jay Sussman_Roger Sinha - Aug 16 2018", ",", "Music for Dance - The Cloche - Jay Sussman - June 1 2018", ",", "Music for Dance - Tribal Clouds - Jay Sussman - Nov 8 2017", ",", "Music for Dance - Tribal Clouds 2 - Jay Sussman - Nov 8 2017", ",", "Music for Dance - Triplet Combo 1 - Jay Sussman - June 1 2018", ",", "Music for Dance - Triplet Combo 2 (Left Side)  - Jay Sussman - June 1 2018", ",", "Music for Dance - Triplet Combo 3  - Jay Sussman - June 1 2018", ",", "Music for Dance - Triplet Combo 4 (Faster)  - Jay Sussman - June 1 2018", ",", "Music for Dance - Triplet Combo 5 (left side)  - Jay Sussman - June 1 2018", ",", "Music for Dance - Triplets  - Jay Sussman - Jan 11 2018", ",", "Music for Dance - Turns - Jay Sussman - Sept 14 2018", ",", "Music for Dance - Uplifting Ronde Jambe + Stretch  - Jay Sussman - Nov 23 2017", ",", "Music for Dance - Walking - Jay Sussman - July 27 2017", ",", "Music for Dance - Warm Up - Jay Sussman - Sept 28 2017", ",", "Music for Dance - Warm Up - Jay Sussman_Roger Sinha - Aug 16 2018", ",", "Music for Dance - Warm Up 2 - Jay Sussman_Roger Sinha - Aug 16 2018", ",", "Music for Dance - Warm up at the Barre  - Jay Sussman - Oct 22 2017", ",", "Music for Dance - Warm Up Combo - Jay Sussman_Roger Sinha - Aug 16 2018", ",", "Music for Dance - Warm Up Combo 2 - Jay Sussman_Roger Sinha - Aug 16 2018", ",", "Music for Dance - Warm Up Sequence - Jay Sussman - Sept 11 2017", ",", "Music for Dance - Wild Improv - Jay Sussman - Sep 27 2018", ",", "Music for Dance -Centre Combo - Jay Sussman - Jan 18  2019", ",", "My Edited Video", ",", "Ninjics Video Game Music June 20 11.avi", ",", "On A Cloud - Jay Sussman - Nov 17 2016 (Original Song Demo)", ",", "Piano Improvisation # 3 - Jay Sussman - June 1 2017 (Original Piano Composition)", ",", "Right Place Right Time - Jay Sussman Jan 6 2018 (Original Song Demo)", ",", "Ronde Jambe - Jay Sussman July 21 2017 (Original Piano Music)", ",", "So Real - The Break Down", ",", "The Break Down - A Thousand Fires", ",", "The Break Down - Letting It Out", ",", "The Break Down - Peace Of Mind", ",", "The Break Down - What_-1", ",", "The Break Down Band - Standin' Still (Talib Kweli)", ",", "Thematic Improvisation - Jay Sussman - July 21 2017 (Original Piano Music)", ",", "Two Spiders Fight Over An Ant Corpse_", ",", "Wake Up - The Break Down", ",", "What you Stole - Jay Sussman -  Dec 9 2017 (Original Song demo)", ",", "Work Song - Hozier - (Jay Sussman Cover)", ",", "Your Love - Jay Sussman - September 13 2017 (Original Song Demo)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 80.0, 90.0, 167.800000000000011, 20.0 ],
-					"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/[Experiments]/[Projects]/",
+					"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/",
 					"types" : "fold"
 				}
 
@@ -1149,7 +1134,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 10.0, 200.0, 100.0, 20.0 ],
-					"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/[Experiments]/[Projects]/[2021-5-31-16-26-19]/",
+					"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2021-7-8-16-31-49]/",
 					"types" : "AIFF"
 				}
 
@@ -1182,14 +1167,14 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-1",
-					"items" : [ "[2021-5-31-16-26-19] [Derivative 2].wav", ",", "palette_1.wav", ",", "palette_2.wav", ",", "palette_3.wav", ",", "palette_4.wav" ],
+					"items" : [ "palette_1.wav", ",", "palette_2.wav", ",", "palette_3.wav", ",", "palette_4.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 210.0, 200.0, 100.0, 20.0 ],
-					"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/[Experiments]/[Projects]/[2021-5-31-16-26-19]/",
+					"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2021-7-8-16-31-49]/",
 					"types" : "WAVE"
 				}
 
@@ -1374,6 +1359,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-29", 1 ]
 				}
@@ -1395,36 +1387,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-43", 0 ]
 				}
 
 			}
@@ -1445,7 +1409,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"order" : 0,
+					"order" : 3,
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -1453,14 +1417,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"order" : 1,
-					"source" : [ "obj-61", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
 					"order" : 2,
 					"source" : [ "obj-61", 0 ]
 				}
@@ -1468,8 +1424,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"order" : 1,
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"order" : 3,
+					"order" : 0,
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -1511,9 +1475,37 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "passes_1.txt",
+				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2021-7-8-16-31-49]",
+				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/[2021-7-8-16-31-49]",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "passes_2.txt",
+				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2021-7-8-16-31-49]",
+				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/[2021-7-8-16-31-49]",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "passes_3.txt",
+				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2021-7-8-16-31-49]",
+				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/[2021-7-8-16-31-49]",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "passes_4.txt",
+				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2021-7-8-16-31-49]",
+				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/[2021-7-8-16-31-49]",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "catalog.txt",
-				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/[Experiments]/[Projects]",
-				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/[Experiments]/[Projects]",
+				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]",
+				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
