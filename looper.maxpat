@@ -471,7 +471,7 @@
 					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 180.0, 540.0, 169.0, 20.0 ],
 					"text" : "mc.gen~ 16 @busymapname tracks",
-					"wrapper_uniquekey" : "u995009967"
+					"wrapper_uniquekey" : "u604000302"
 				}
 
 			}
@@ -3389,8 +3389,8 @@
 , 							{
 								"name" : "Custom Default-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3416,8 +3416,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3443,8 +3443,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3461,8 +3461,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3479,8 +3479,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3497,8 +3497,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3524,8 +3524,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-4-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3542,8 +3542,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3569,8 +3569,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3596,8 +3596,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3632,8 +3632,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3722,8 +3722,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-4-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3767,8 +3767,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3785,8 +3785,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3803,8 +3803,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-7",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3821,8 +3821,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-8",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3857,8 +3857,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3884,8 +3884,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3902,8 +3902,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3929,8 +3929,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3947,8 +3947,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3965,8 +3965,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3983,8 +3983,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4001,8 +4001,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4019,8 +4019,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4037,8 +4037,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4064,8 +4064,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4082,8 +4082,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4100,8 +4100,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4163,8 +4163,8 @@
 , 							{
 								"name" : "Custom Default-1-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4190,8 +4190,8 @@
 , 							{
 								"name" : "Custom Default-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4217,8 +4217,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4244,8 +4244,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4271,8 +4271,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4289,8 +4289,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4316,8 +4316,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4334,8 +4334,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4352,8 +4352,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4370,8 +4370,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4388,8 +4388,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4406,8 +4406,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4424,8 +4424,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4442,8 +4442,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4469,8 +4469,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4487,8 +4487,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4505,8 +4505,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4559,8 +4559,8 @@
 , 							{
 								"name" : "Custom Default-1-3-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4577,8 +4577,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4604,8 +4604,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4640,8 +4640,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4721,8 +4721,8 @@
 , 							{
 								"name" : "Custom Default-1-3-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4766,8 +4766,8 @@
 , 							{
 								"name" : "Custom Default-1-3-6-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4784,8 +4784,8 @@
 , 							{
 								"name" : "Custom Default-1-3-7",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4802,8 +4802,8 @@
 , 							{
 								"name" : "Custom Default-1-3-8",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4820,8 +4820,8 @@
 , 							{
 								"name" : "Custom Default-1-3-9",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4838,8 +4838,8 @@
 , 							{
 								"name" : "Custom Default-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4865,8 +4865,8 @@
 , 							{
 								"name" : "Custom Default-1-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4893,8 +4893,8 @@
 								"name" : "Custom Default-11",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -4913,8 +4913,8 @@
 , 							{
 								"name" : "Custom Default-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4932,8 +4932,8 @@
 								"name" : "Custom Default-3",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -4944,8 +4944,8 @@
 								"name" : "Custom Default-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -4956,8 +4956,8 @@
 								"name" : "Custom Default-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -4968,8 +4968,8 @@
 								"name" : "Custom Default-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -4980,8 +4980,8 @@
 								"name" : "Custom Default-7",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5001,8 +5001,8 @@
 								"name" : "Custom Default-8-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5013,8 +5013,8 @@
 								"name" : "Custom Default-8-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5025,8 +5025,8 @@
 								"name" : "Custom Default-9",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5046,8 +5046,8 @@
 								"name" : "Custom Default-9-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5067,8 +5067,8 @@
 								"name" : "Custom Default-9-1-1-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5097,8 +5097,8 @@
 								"name" : "Custom Default-9-1-1-1-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5181,8 +5181,8 @@
 								"name" : "Custom Default-9-1-4-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5220,8 +5220,8 @@
 								"name" : "Custom Default-9-1-5-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5232,8 +5232,8 @@
 								"name" : "Custom Default-9-1-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5244,8 +5244,8 @@
 								"name" : "Custom Default-9-1-7",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5256,8 +5256,8 @@
 								"name" : "Custom Default-9-1-8",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5286,8 +5286,8 @@
 								"name" : "Custom Default-9-3-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5307,8 +5307,8 @@
 								"name" : "Custom Default-9-3-1-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5319,8 +5319,8 @@
 								"name" : "Custom Default-9-3-1-1-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5340,8 +5340,8 @@
 								"name" : "Custom Default-9-3-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5352,8 +5352,8 @@
 								"name" : "Custom Default-9-3-3",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5364,8 +5364,8 @@
 								"name" : "Custom Default-9-3-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5376,8 +5376,8 @@
 								"name" : "Custom Default-9-3-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5388,8 +5388,8 @@
 								"name" : "Custom Default-9-3-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5400,8 +5400,8 @@
 								"name" : "Custom Default-9-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5412,8 +5412,8 @@
 								"name" : "Custom Default-9-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5433,8 +5433,8 @@
 								"name" : "Custom Default-9-5-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5445,8 +5445,8 @@
 								"name" : "Custom Default-9-5-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5457,8 +5457,8 @@
 								"name" : "Custom Default-9-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -5852,7 +5852,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 393.888888888888914, 30.0, 90.0, 20.0 ],
+					"patching_rect" : [ 373.888888888888914, 30.0, 90.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -7701,7 +7701,7 @@
 										}
 ,
 										"classnamespace" : "dsp.gen",
-										"rect" : [ 118.0, 94.0, 1000.0, 556.0 ],
+										"rect" : [ 484.0, 408.0, 1000.0, 556.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -7903,7 +7903,7 @@
 											}
 , 											{
 												"box" : 												{
-													"code" : "Buffer palette_by_track(\"palette_by_track\");\r\nBuffer beats_by_track(\"beats_by_track\");\r\nBuffer tolerance(\"tolerance\");\r\nBuffer wake(\"wake\");\r\nBuffer windows(\"windows0\");\r\nBuffer rhythm1(\"rhythm1\");\r\nBuffer stats(\"stats\");\r\nBuffer imported(\"imported\");\r\nBuffer checks(\"checks\");\r\nBuffer scores(\"scores\");\r\nBuffer largest(\"largest\");\r\nBuffer mode_interval(\"mode_interval\");\r\nHistory jamming_score(0);\r\nHistory recitation_score(0);\r\nHistory lock(0);\r\nHistory numerous(0);\r\nHistory conscious(0);\r\nHistory score(0);\r\nHistory most(0);\r\nDelay ago(99999);\r\nDelay undertow(2645959);\t//1 minute\r\nParam backing_ms(0);\r\nParam wakes(1);\r\nlock = peek(stats, 10);\r\nTOLERANCE = peek(tolerance, 0);\r\ntolerance_samples = mstosamps(TOLERANCE);\r\nWAKE = peek(wake, 0);\r\nwake_samples = mstosamps(WAKE);\r\natom = TOLERANCE * 2;\r\natom_samples = mstosamps(atom);\r\namplitude = abs(in1);\r\nnoiseless = amplitude * (amplitude > .0009);\t//noise floor to prevent song from starting for no reason (.00009 was not high enough)\r\nonsets = slide(noiseless, 0, 5999 * 44.1);\r\nblocky = sah(onsets, delta(onsets) < 0, .5);\r\nwrite(ago, blocky);\r\nplateaus = blocky * (blocky != read(ago, atom_samples));\r\ncalmed = plateaus * (slide(delta(plateaus), 1999, 0) >= -.00009);\r\nwrite(undertow, calmed);\r\nfor(window = 0; window <= numerous; window += 1) {\r\n    sample = peek(windows, window);\r\n    if(sample) {\r\n        poke(windows, sample + 1, window);\r\n        memoryspan = dim(rhythm1) * max(wakes, 1);\t//max() only needed if forgetfulness can be disabled\r\n        if(sample < dim(rhythm1)) {\r\n            reverberation = peek(rhythm1, sample);\r\n            vibe = calmed + reverberation;\r\n            if(vibe >= peek(largest, 0)) {\r\n                poke(largest, vibe, 0);\r\n                poke(mode_interval, sampstoms(sample), 0);\r\n                poke(mode_interval, sample, 1);                 //2nd sample stores exact sample of peak\r\n            }\r\n            poke(rhythm1, vibe, sample);\r\n        }\r\n        else if(sample >= memoryspan) {\r\n        \tif(sample >= memoryspan + dim(rhythm1)) {\r\n            \tpoke(windows, 0, window);\r\n        \t}\r\n\t\t\telse if(wakes) {\t\t\t\t\t\t\t\t\t\t\t//forgetfulness can be disabled (saves compute?)\r\n                sample -= memoryspan;\r\n                reverberation = peek(rhythm1, sample);\r\n                vibe = reverberation - read(undertow, memoryspan);\r\n                if(round(sample) == round(peek(mode_interval, 1))) {\r\n                    poke(largest, vibe, 0);\r\n                }\r\n                poke(rhythm1, vibe, sample);\r\n\t\t\t}\r\n        }\r\n    }\r\n}\r\nif(change(calmed) == -1 && !calmed) {\r\n    for(window = 0; window < dim(windows); window += 1) {\r\n        if(!peek(windows, window)) {\r\n            poke(windows, tolerance_samples, window);\t//change(calmed) == -1 && !calmed already atom late; starting at tolerance will mean checks line up\r\n            numerous = max(numerous, window);\r\n            break;\r\n        }\r\n    }\r\n}\r\n/*if(!lock) {\r\n    poke(largest, .000001, 0);\r\n}*/\r\nout1 = score;\r\nout2 = lock;\r\nout3 = delta(calmed) > 0;\r\nout4 = onsets;\r\nout5 = calmed;\r\nout6 = calmed;\r\nout7 = peek(largest, 0);\r\nout8 = peek(largest, 0);",
+													"code" : "Buffer palette_by_track(\"palette_by_track\");\r\nBuffer beats_by_track(\"beats_by_track\");\r\nBuffer tolerance(\"tolerance\");\r\nBuffer wake(\"wake\");\r\nBuffer windows(\"windows0\");\r\nBuffer rhythm1(\"rhythm1\");\r\nBuffer stats(\"stats\");\r\nBuffer imported(\"imported\");\r\nBuffer checks(\"checks\");\r\nBuffer scores(\"scores\");\r\nBuffer largest(\"largest\");\r\nBuffer mode_interval(\"mode_interval\");\r\nHistory jamming_score(0);\r\nHistory recitation_score(0);\r\nHistory lock(0);\r\nHistory numerous(0);\r\nHistory conscious(0);\r\nHistory score(0);\r\nHistory most(0);\r\nDelay ago(99999);\r\nDelay undertow(2645959);\t//1 minute\r\nParam backing_ms(0);\r\nParam wakes(1);\r\nlock = peek(stats, 10);\r\nTOLERANCE = peek(tolerance, 0);\r\ntolerance_samples = mstosamps(TOLERANCE);\r\nWAKE = peek(wake, 0);\r\nwake_samples = mstosamps(WAKE);\r\natom = TOLERANCE * 2;\r\natom_samples = mstosamps(atom);\r\namplitude = abs(in1);\r\nnoiseless = amplitude * (amplitude > .0009);\t//noise floor to prevent song from starting for no reason (.00009 was not high enough)\r\nonsets = slide(noiseless, 0, 5999 * 44.1);\r\nblocky = sah(onsets, delta(onsets) < 0, .5);\r\nwrite(ago, blocky);\r\nplateaus = blocky * (blocky != read(ago, atom_samples));\r\ncalmed = plateaus * (slide(delta(plateaus), 1999, 0) >= -.00009);\r\nwrite(undertow, calmed);\r\nfor(window = 0; window <= numerous; window += 1) {\r\n    sample = peek(windows, window);\r\n    if(sample) {\r\n        poke(windows, sample + 1, window);\r\n        memoryspan = dim(rhythm1) * max(wakes, 1);\t//max() only needed if forgetfulness can be disabled\r\n        if(sample < dim(rhythm1)) {\r\n            reverberation = peek(rhythm1, sample);\r\n            vibe = calmed + reverberation;\r\n            if(vibe >= peek(largest, 0)) {\r\n                poke(largest, vibe, 0);\r\n                poke(mode_interval, sampstoms(sample), 0);\r\n                poke(mode_interval, sample, 1);                 //2nd sample stores exact sample of peak\r\n            }\r\n            poke(rhythm1, vibe, sample);\r\n        }\r\n        else if(sample >= memoryspan) {\r\n        \tif(sample >= memoryspan + dim(rhythm1)) {\r\n            \tpoke(windows, 0, window);\r\n        \t}\r\n\t\t\telse if(wakes) {\t\t\t\t\t\t\t\t\t\t\t//forgetfulness can be disabled (saves compute?)\r\n                sample -= memoryspan;\r\n                reverberation = peek(rhythm1, sample);\r\n                vibe = reverberation - read(undertow, memoryspan);\r\n                if(round(sample) == round(peek(mode_interval, 1))) {\r\n                    poke(largest, vibe, 0);\r\n                }\r\n                poke(rhythm1, max(vibe, 0), sample);                    //max() keeps it positive sloppily \r\n\t\t\t}                                                           //(very beginning of rhythm1 was going negative)\r\n        }\r\n    }\r\n}\r\nif(change(calmed) == -1 && !calmed) {\r\n    for(window = 0; window < dim(windows); window += 1) {\r\n        if(!peek(windows, window)) {\r\n            poke(windows, tolerance_samples, window);\t//change(calmed) == -1 && !calmed already atom late; starting at tolerance will mean checks line up\r\n            numerous = max(numerous, window);\r\n            break;\r\n        }\r\n    }\r\n}\r\n/*if(!lock) {\r\n    poke(largest, .000001, 0);\r\n}*/\r\nout1 = score;\r\nout2 = lock;\r\nout3 = delta(calmed) > 0;\r\nout4 = onsets;\r\nout5 = calmed;\r\nout6 = calmed;\r\nout7 = peek(largest, 0);\r\nout8 = peek(largest, 0);",
 													"fontface" : 0,
 													"fontname" : "<Monospaced>",
 													"fontsize" : 10.0,
@@ -11896,8 +11896,8 @@
 , 											{
 												"name" : "Custom Default-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -11923,8 +11923,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -11950,8 +11950,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -11968,8 +11968,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -11986,8 +11986,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12004,8 +12004,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12031,8 +12031,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-4-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12049,8 +12049,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12076,8 +12076,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12103,8 +12103,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12139,8 +12139,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12229,8 +12229,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-4-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12274,8 +12274,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-5-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12292,8 +12292,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12310,8 +12310,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-7",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12328,8 +12328,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-8",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12364,8 +12364,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12391,8 +12391,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12409,8 +12409,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12436,8 +12436,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12454,8 +12454,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12472,8 +12472,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12490,8 +12490,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12508,8 +12508,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12526,8 +12526,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12544,8 +12544,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12571,8 +12571,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-5-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12589,8 +12589,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-5-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12607,8 +12607,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12670,8 +12670,8 @@
 , 											{
 												"name" : "Custom Default-1-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12697,8 +12697,8 @@
 , 											{
 												"name" : "Custom Default-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12724,8 +12724,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12751,8 +12751,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12778,8 +12778,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12796,8 +12796,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12823,8 +12823,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12841,8 +12841,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12859,8 +12859,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12877,8 +12877,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12895,8 +12895,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12913,8 +12913,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12931,8 +12931,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12949,8 +12949,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12976,8 +12976,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-4-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -12994,8 +12994,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-4-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13012,8 +13012,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13066,8 +13066,8 @@
 , 											{
 												"name" : "Custom Default-1-3-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13084,8 +13084,8 @@
 , 											{
 												"name" : "Custom Default-1-3-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13111,8 +13111,8 @@
 , 											{
 												"name" : "Custom Default-1-3-3-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13147,8 +13147,8 @@
 , 											{
 												"name" : "Custom Default-1-3-3-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13228,8 +13228,8 @@
 , 											{
 												"name" : "Custom Default-1-3-5-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13273,8 +13273,8 @@
 , 											{
 												"name" : "Custom Default-1-3-6-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13291,8 +13291,8 @@
 , 											{
 												"name" : "Custom Default-1-3-7",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13309,8 +13309,8 @@
 , 											{
 												"name" : "Custom Default-1-3-8",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13327,8 +13327,8 @@
 , 											{
 												"name" : "Custom Default-1-3-9",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13345,8 +13345,8 @@
 , 											{
 												"name" : "Custom Default-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13372,8 +13372,8 @@
 , 											{
 												"name" : "Custom Default-1-5-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13400,8 +13400,8 @@
 												"name" : "Custom Default-11",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13420,8 +13420,8 @@
 , 											{
 												"name" : "Custom Default-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -13439,8 +13439,8 @@
 												"name" : "Custom Default-3",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13451,8 +13451,8 @@
 												"name" : "Custom Default-4",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13463,8 +13463,8 @@
 												"name" : "Custom Default-5",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13475,8 +13475,8 @@
 												"name" : "Custom Default-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13487,8 +13487,8 @@
 												"name" : "Custom Default-7",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13508,8 +13508,8 @@
 												"name" : "Custom Default-8-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13520,8 +13520,8 @@
 												"name" : "Custom Default-8-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13532,8 +13532,8 @@
 												"name" : "Custom Default-9",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13553,8 +13553,8 @@
 												"name" : "Custom Default-9-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13574,8 +13574,8 @@
 												"name" : "Custom Default-9-1-1-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13604,8 +13604,8 @@
 												"name" : "Custom Default-9-1-1-1-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13688,8 +13688,8 @@
 												"name" : "Custom Default-9-1-4-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13727,8 +13727,8 @@
 												"name" : "Custom Default-9-1-5-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13739,8 +13739,8 @@
 												"name" : "Custom Default-9-1-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13751,8 +13751,8 @@
 												"name" : "Custom Default-9-1-7",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13763,8 +13763,8 @@
 												"name" : "Custom Default-9-1-8",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13793,8 +13793,8 @@
 												"name" : "Custom Default-9-3-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13814,8 +13814,8 @@
 												"name" : "Custom Default-9-3-1-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13826,8 +13826,8 @@
 												"name" : "Custom Default-9-3-1-1-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13847,8 +13847,8 @@
 												"name" : "Custom Default-9-3-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13859,8 +13859,8 @@
 												"name" : "Custom Default-9-3-3",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13871,8 +13871,8 @@
 												"name" : "Custom Default-9-3-4",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13883,8 +13883,8 @@
 												"name" : "Custom Default-9-3-5",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13895,8 +13895,8 @@
 												"name" : "Custom Default-9-3-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13907,8 +13907,8 @@
 												"name" : "Custom Default-9-4",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13919,8 +13919,8 @@
 												"name" : "Custom Default-9-5",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13940,8 +13940,8 @@
 												"name" : "Custom Default-9-5-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13952,8 +13952,8 @@
 												"name" : "Custom Default-9-5-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -13964,8 +13964,8 @@
 												"name" : "Custom Default-9-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -14310,7 +14310,7 @@
 														"patching_rect" : [ 6.5, 30.0, 712.5, 500.0 ],
 														"numinlets" : 1,
 														"fontsize" : 10.0,
-														"code" : "require(\"log\");\r\nBuffer palette_by_track(\"palette_by_track\");\r\nBuffer beats_by_track(\"beats_by_track\");\r\nBuffer tolerance(\"tolerance\");\r\nBuffer wake(\"wake\");\r\nBuffer windows(\"windows\");\r\nBuffer rhythm1(\"rhythm1\");\r\nBuffer stats(\"stats\");\r\nBuffer imported(\"imported\");\r\nBuffer checks(\"checks\");\r\nBuffer scores(\"scores\");\r\nBuffer largest(\"largest\");\r\nBuffer mode_interval(\"mode_interval\");\r\nHistory jamming_score(0);\r\nHistory recitation_score(0);\r\nHistory lock(0);\r\nHistory numerous(0);\r\nHistory conscious(0);\r\nHistory score(0);\r\nHistory most(0);\r\nDelay ago(99999);\r\nDelay undertow(2645959);\t//1 minute\r\nParam backing_ms(0);\r\nParam wakes(1);\r\nParam GUI(0);\r\nlock = peek(stats, 10);\r\nTOLERANCE = peek(tolerance, 0);\r\ntolerance_samples = mstosamps(TOLERANCE);\r\nWAKE = peek(wake, 0);\r\nwake_samples = mstosamps(WAKE);\r\natom = TOLERANCE * 2;\r\natom_samples = mstosamps(atom);\r\namplitude = abs(in1);\r\nnoiseless = amplitude * (amplitude > .0009);\t//noise floor to prevent song from starting for no reason (.00009 was not high enough)\r\nonsets = slide(noiseless, 0, 5999 * 44.1);\r\nblocky = sah(onsets, delta(onsets) < 0, .5);\r\nwrite(ago, blocky);\r\nplateaus = blocky * (blocky != read(ago, atom_samples));\r\ncalmed = plateaus * (slide(delta(plateaus), 1999, 0) >= -.00009);\r\nwrite(undertow, calmed);\r\nfor(window = 0; window <= numerous; window += 1) {\r\n    sample = peek(windows, window);\r\n    if(sample) {\r\n\t\tpoke(windows, sample + 1, window);\r\n        memoryspan = dim(rhythm1) * max(wakes, 1);\t//max() only needed if forgetfulness can be disabled\r\n        if(sample < dim(rhythm1)) {\r\n            reverberation = peek(rhythm1, sample);\r\n            vibe = calmed + reverberation;\r\n            if(vibe >= peek(largest, 0)) {\r\n                poke(largest, vibe, 0);\r\n                poke(mode_interval, sampstoms(sample), 0);\r\n                poke(mode_interval, sample, 1);                 //2nd sample stores exact sample of peak\r\n            }\r\n            poke(rhythm1, vibe, sample);\r\n        }\r\n        else if(sample >= memoryspan) {\r\n        \tif(sample >= memoryspan + dim(rhythm1)) {\r\n            \tpoke(windows, 0, window);\r\n        \t}\r\n\t\t\telse if(wakes) {\t\t\t\t\t\t\t\t\t\t\t//forgetfulness can be disabled (saves compute?)\r\n                sample -= memoryspan;\r\n                reverberation = peek(rhythm1, sample);\r\n                vibe = reverberation - read(undertow, memoryspan);\r\n                if(round(sample) == round(peek(mode_interval, 1))) {\r\n                    poke(largest, vibe, 0);\r\n                }\r\n                poke(rhythm1, vibe, sample);\r\n\t\t\t}\r\n        }\r\n    }\r\n}\r\nif(change(calmed) == -1 && !calmed) {\r\n\tscore = 0;\r\n    total = 0;\r\n\tif(GUI) {\r\n\t\tfor(i = 0; i < dim(scores); i += 1) {\t\t\t\t\t\t\t\t\t\t//remove prior marks (GUI)\r\n\t\t\tpoke(scores, 0, i);\r\n\t\t}\r\n\t}\r\n    for(check = 0; check <= most; check += 1) {\r\n\t\ttimestamp = peek(checks, check);\r\n        if(timestamp) {\r\n            sample = elapsed - timestamp;\r\n            if(sample >= dim(rhythm1)) {\r\n                poke(checks, 0, check);\r\n            }\r\n\t\t\telse {\r\n                reverberation = peek(rhythm1, sample);\r\n\t\t\t\tif(GUI) {\r\n                \tpoke(scores, reverberation, round(sampstoms(sample / 100)));\t\t\t//draw current marks (GUI)\r\n\t\t\t\t}\r\n                //blog(j_scores_log, reverberation / peek(largest, 0));\r\n                //blog(j_checks_log, sample);\r\n                score += reverberation / max(peek(largest, 0), 1);\r\n                total += 1;\r\n            }\r\n        }\r\n    }\r\n    score /= total;\r\n    for(check = 0; check < dim(checks); check += 1) {\r\n        if(!peek(checks, check)) {\r\n            poke(checks, elapsed, check);\r\n            most = max(most, check);\r\n            break;\r\n        }\r\n    }\r\n    for(window = 0; window < dim(windows); window += 1) {\r\n        if(!peek(windows, window)) {\r\n            poke(windows, tolerance_samples, window);\t//change(calmed) == -1 && !calmed already atom late; starting at tolerance will mean checks line up\r\n            numerous = max(numerous, window);\r\n            break;\r\n        }\r\n    }\r\n}\r\n/*if(!lock) {\r\n    poke(largest, .000001, 0);\r\n}*/\r\nout1 = score;\r\nout2 = lock;\r\nout3 = delta(calmed) > 0;\r\nout4 = onsets;\r\nout5 = calmed;\r\nout6 = calmed;\r\nout7 = peek(largest, 0);\r\nout8 = peek(largest, 0);"
+														"code" : "require(\"log\");\r\nBuffer palette_by_track(\"palette_by_track\");\r\nBuffer beats_by_track(\"beats_by_track\");\r\nBuffer tolerance(\"tolerance\");\r\nBuffer wake(\"wake\");\r\nBuffer windows(\"windows\");\r\nBuffer rhythm1(\"rhythm1\");\r\nBuffer stats(\"stats\");\r\nBuffer imported(\"imported\");\r\nBuffer checks(\"checks\");\r\nBuffer scores(\"scores\");\r\nBuffer largest(\"largest\");\r\nBuffer mode_interval(\"mode_interval\");\r\nHistory jamming_score(0);\r\nHistory recitation_score(0);\r\nHistory lock(0);\r\nHistory numerous(0);\r\nHistory conscious(0);\r\nHistory score(0);\r\nHistory most(0);\r\nDelay ago(99999);\r\nDelay undertow(2645959);\t//1 minute\r\nParam backing_ms(0);\r\nParam wakes(1);\r\nParam GUI(0);\r\nlock = peek(stats, 10);\r\nTOLERANCE = peek(tolerance, 0);\r\ntolerance_samples = mstosamps(TOLERANCE);\r\nWAKE = peek(wake, 0);\r\nwake_samples = mstosamps(WAKE);\r\natom = TOLERANCE * 2;\r\natom_samples = mstosamps(atom);\r\namplitude = abs(in1);\r\nnoiseless = amplitude * (amplitude > .0009);\t//noise floor to prevent song from starting for no reason (.00009 was not high enough)\r\nonsets = slide(noiseless, 0, 5999 * 44.1);\r\nblocky = sah(onsets, delta(onsets) < 0, .5);\r\nwrite(ago, blocky);\r\nplateaus = blocky * (blocky != read(ago, atom_samples));\r\ncalmed = plateaus * (slide(delta(plateaus), 1999, 0) >= -.00009);\r\nwrite(undertow, calmed);\r\nfor(window = 0; window <= numerous; window += 1) {\r\n    sample = peek(windows, window);\r\n    if(sample) {\r\n\t\tpoke(windows, sample + 1, window);\r\n        memoryspan = dim(rhythm1) * max(wakes, 1);\t//max() only needed if forgetfulness can be disabled\r\n        if(sample < dim(rhythm1)) {\r\n            reverberation = peek(rhythm1, sample);\r\n            vibe = calmed + reverberation;\r\n            if(vibe >= peek(largest, 0)) {\r\n                poke(largest, vibe, 0);\r\n                poke(mode_interval, sampstoms(sample), 0);\r\n                poke(mode_interval, sample, 1);                 //2nd sample stores exact sample of peak\r\n            }\r\n            poke(rhythm1, vibe, sample);\r\n        }\r\n        else if(sample >= memoryspan) {\r\n        \tif(sample >= memoryspan + dim(rhythm1)) {\r\n            \tpoke(windows, 0, window);\r\n        \t}\r\n\t\t\telse if(wakes) {\t\t\t\t\t\t\t\t\t\t\t//forgetfulness can be disabled (saves compute?)\r\n                sample -= memoryspan;\r\n                reverberation = peek(rhythm1, sample);\r\n                vibe = reverberation - read(undertow, memoryspan);\r\n                if(round(sample) == round(peek(mode_interval, 1))) {\r\n                    poke(largest, vibe, 0);\r\n                }\r\n                poke(rhythm1, max(vibe, 0), sample);                    //max() keeps it positive sloppily \r\n\t\t\t}                                                           //(very beginning of rhythm1 was going negative)\r\n        }\r\n    }\r\n}\r\nif(change(calmed) == -1 && !calmed) {\r\n\tscore = 0;\r\n    total = 0;\r\n\tif(GUI) {\r\n\t\tfor(i = 0; i < dim(scores); i += 1) {\t\t\t\t\t\t\t\t\t\t//remove prior marks (GUI)\r\n\t\t\tpoke(scores, 0, i);\r\n\t\t}\r\n\t}\r\n    for(check = 0; check <= most; check += 1) {\r\n\t\ttimestamp = peek(checks, check);\r\n        if(timestamp) {\r\n            sample = elapsed - timestamp;\r\n            if(sample >= dim(rhythm1)) {\r\n                poke(checks, 0, check);\r\n            }\r\n\t\t\telse {\r\n                reverberation = peek(rhythm1, sample);\r\n\t\t\t\tif(GUI) {\r\n                \tpoke(scores, reverberation, round(sampstoms(sample / 100)));\t\t\t//draw current marks (GUI)\r\n\t\t\t\t}\r\n                //blog(j_scores_log, reverberation / peek(largest, 0));\r\n                //blog(j_checks_log, sample);\r\n                score += reverberation / max(peek(largest, 0), 1);\r\n                total += 1;\r\n            }\r\n        }\r\n    }\r\n    score /= total;\r\n    for(check = 0; check < dim(checks); check += 1) {\r\n        if(!peek(checks, check)) {\r\n            poke(checks, elapsed, check);\r\n            most = max(most, check);\r\n            break;\r\n        }\r\n    }\r\n    for(window = 0; window < dim(windows); window += 1) {\r\n        if(!peek(windows, window)) {\r\n            poke(windows, tolerance_samples, window);\t//change(calmed) == -1 && !calmed already atom late; starting at tolerance will mean checks line up\r\n            numerous = max(numerous, window);\r\n            break;\r\n        }\r\n    }\r\n}\r\n/*if(!lock) {\r\n    poke(largest, .000001, 0);\r\n}*/\r\nout1 = score;\r\nout2 = lock;\r\nout3 = delta(calmed) > 0;\r\nout4 = onsets;\r\nout5 = calmed;\r\nout6 = calmed;\r\nout7 = peek(largest, 0);\r\nout8 = peek(largest, 0);"
 													}
 
 												}
@@ -14390,7 +14390,7 @@
 									"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 									"patching_rect" : [ 338.0, 160.0, 169.0, 20.0 ],
 									"text" : "mc.gen~ 16 @busymapname tracks",
-									"wrapper_uniquekey" : "u942010085"
+									"wrapper_uniquekey" : "u993005124"
 								}
 
 							}
@@ -14431,7 +14431,7 @@
 											}
 ,
 											"classnamespace" : "dsp.gen",
-											"rect" : [ 604.0, 209.0, 765.0, 560.0 ],
+											"rect" : [ 42.0, 85.0, 764.0, 560.0 ],
 											"bglocked" : 0,
 											"openinpresentation" : 0,
 											"default_fontsize" : 10.0,
@@ -14654,7 +14654,7 @@
 														"patching_rect" : [ 5.571428571428555, 28.0, 712.5, 500.0 ],
 														"numinlets" : 2,
 														"fontsize" : 10.0,
-														"code" : "require(\"log\");\r\nBuffer palette_by_track(\"palette_by_track\");\r\nBuffer beats_by_track(\"beats_by_track\");\r\nBuffer tolerance(\"tolerance\");\r\nBuffer wake(\"wake\");\r\nBuffer windows(\"windows\");\r\nBuffer rhythm1(\"rhythm1\");\r\nBuffer stats(\"stats\");\r\nBuffer imported(\"imported\");\r\nBuffer checks(\"checks\");\r\nBuffer scores(\"scores\");\r\nBuffer largest(\"largest\");\r\nBuffer mode_interval(\"mode_interval\");\r\nHistory jamming_score(0);\r\nHistory recitation_score(0);\r\nHistory lock(0);\r\nHistory numerous(0);\r\nHistory conscious(0);\r\nHistory score(0);\r\nHistory most(0);\r\nDelay ago(99999);\r\nDelay undertow(2645959);\t//1 minute\r\nParam backing_ms(0);\r\nParam wakes(1);\r\nParam GUI(0);\r\nlock = peek(stats, 10);\r\nTOLERANCE = peek(tolerance, 0);\r\ntolerance_samples = mstosamps(TOLERANCE);\r\nWAKE = peek(wake, 0);\r\nwake_samples = mstosamps(WAKE);\r\natom = TOLERANCE * 2;\r\natom_samples = mstosamps(atom);\r\namplitude = abs(in1);\r\nnoiseless = amplitude * (amplitude > .0009);\t//noise floor to prevent song from starting for no reason (.00009 was not high enough)\r\nonsets = slide(noiseless, 0, 5999 * 44.1);\r\nblocky = sah(onsets, delta(onsets) < 0, .5);\r\nwrite(ago, blocky);\r\nplateaus = blocky * (blocky != read(ago, atom_samples));\r\ncalmed = plateaus * (slide(delta(plateaus), 1999, 0) >= -.00009);\r\nwrite(undertow, calmed);\r\nif(in2) {\r\n\tconscious = 1;\r\n}\r\nfor(window = 0; window <= numerous; window += 1) {\r\n    sample = peek(windows, window);\r\n    if(sample) {\r\n        poke(windows, sample + 1, window);\r\n        memoryspan = dim(rhythm1) * max(wakes, 1);\t//max() only needed if forgetfulness can be disabled\r\n        if(sample < dim(rhythm1)) {\r\n            reverberation = peek(rhythm1, sample);\r\n            vibe = calmed + reverberation;\r\n            if(vibe >= peek(largest, 0)) {\r\n                poke(largest, vibe, 0);\r\n                poke(mode_interval, sampstoms(sample), 0);\r\n                poke(mode_interval, sample, 1);                 //2nd sample stores exact sample of peak\r\n            }\r\n            if(calmed && reverberation) {\r\n                if(!lock && conscious) {\r\n                    conscious = 0;\t\t\t//Only one Lock per conscious to prevent immediate re-locking\r\n                    lock = 1;\r\n                    poke(stats, 1, 10);\r\n                    if(!peek(imported, 0)) {\r\n                        length = sampstoms(sample);\r\n                        if(backing_ms) {\r\n                            length = round(backing_ms, length, mode = \"ceil\");\r\n                        }\r\n                        for(track = 1; track <= dim(palette_by_track); track += 1) {    //Should eventually be active_by_track\r\n                            active = peek(palette_by_track, track);\r\n                            if(active) {\r\n                                poke(beats_by_track, length, track);\r\n                            }\r\n                        }\r\n                        poke(stats, length, 1);\r\n                    }\r\n                }\r\n            }\r\n            poke(rhythm1, vibe, sample);\r\n        }\r\n        else if(sample >= memoryspan) {\r\n        \tif(sample >= memoryspan + dim(rhythm1)) {\r\n            \tpoke(windows, 0, window);\r\n        \t}\r\n\t\t\telse if(wakes) {\t\t\t\t\t\t\t\t\t\t\t//forgetfulness can be disabled (saves compute?)\r\n                sample -= memoryspan;\r\n                reverberation = peek(rhythm1, sample);\r\n                vibe = reverberation - read(undertow, memoryspan);\r\n                if(round(sample) == round(peek(mode_interval, 1))) {\r\n                    poke(largest, vibe, 0);\r\n                }\r\n                poke(rhythm1, vibe, sample);\r\n\t\t\t}\r\n        }\r\n    }\r\n}\r\nif(change(calmed) == -1 && !calmed) {\r\n\tscore = 0;\r\n    total = 0;\r\n\tif(GUI) {\r\n\t\tfor(i = 0; i < dim(scores); i += 1) {\t\t\t\t\t\t\t\t\t\t//remove prior marks (GUI)\r\n\t\t\tpoke(scores, 0, i);\r\n\t\t}\r\n\t}\r\n    for(check = 0; check <= most; check += 1) {\r\n\t\ttimestamp = peek(checks, check);\r\n        if(timestamp) {\r\n            sample = elapsed - timestamp;\r\n            if(sample >= dim(rhythm1)) {\r\n                poke(checks, 0, check);\r\n            }\r\n\t\t\telse {\r\n                reverberation = peek(rhythm1, sample);\r\n\t\t\t\tif(GUI) {\r\n                \tpoke(scores, reverberation, round(sampstoms(sample / 100)));\t\t\t//draw current marks (GUI)\r\n\t\t\t\t}\r\n                //blog(j_scores_log, reverberation / peek(largest, 0));\r\n                //blog(j_checks_log, sample);\r\n                score += reverberation / max(peek(largest, 0), 1);\r\n                total += 1;\r\n            }\r\n        }\r\n    }\r\n    score /= total;\r\n    for(check = 0; check < dim(checks); check += 1) {\r\n        if(!peek(checks, check)) {\r\n            poke(checks, elapsed, check);\r\n            most = max(most, check);\r\n            break;\r\n        }\r\n    }\r\n    for(window = 0; window < dim(windows); window += 1) {\r\n        if(!peek(windows, window)) {\r\n            poke(windows, tolerance_samples, window);\t//change(calmed) == -1 && !calmed already atom late; starting at tolerance will mean checks line up\r\n            numerous = max(numerous, window);\r\n            break;\r\n        }\r\n    }\r\n}\r\n/*if(!lock) {\r\n    poke(largest, .000001, 0);\r\n}*/\r\nout1 = score;\r\nout2 = lock;\r\nout3 = delta(calmed) > 0;\r\nout4 = onsets;\r\nout5 = calmed;\r\nout6 = calmed;\r\nout7 = peek(largest, 0);\r\nout8 = peek(largest, 0);"
+														"code" : "require(\"log\");\r\nBuffer palette_by_track(\"palette_by_track\");\r\nBuffer beats_by_track(\"beats_by_track\");\r\nBuffer tolerance(\"tolerance\");\r\nBuffer wake(\"wake\");\r\nBuffer windows(\"windows\");\r\nBuffer rhythm1(\"rhythm1\");\r\nBuffer stats(\"stats\");\r\nBuffer imported(\"imported\");\r\nBuffer checks(\"checks\");\r\nBuffer scores(\"scores\");\r\nBuffer largest(\"largest\");\r\nBuffer mode_interval(\"mode_interval\");\r\nHistory jamming_score(0);\r\nHistory recitation_score(0);\r\nHistory lock(0);\r\nHistory numerous(0);\r\nHistory conscious(0);\r\nHistory score(0);\r\nHistory most(0);\r\nDelay ago(99999);\r\nDelay undertow(2645959);\t//1 minute\r\nParam backing_ms(0);\r\nParam wakes(1);\r\nParam GUI(0);\r\nlock = peek(stats, 10);\r\nTOLERANCE = peek(tolerance, 0);\r\ntolerance_samples = mstosamps(TOLERANCE);\r\nWAKE = peek(wake, 0);\r\nwake_samples = mstosamps(WAKE);\r\natom = TOLERANCE * 2;\r\natom_samples = mstosamps(atom);\r\namplitude = abs(in1);\r\nnoiseless = amplitude * (amplitude > .0009);\t//noise floor to prevent song from starting for no reason (.00009 was not high enough)\r\nonsets = slide(noiseless, 0, 5999 * 44.1);\r\nblocky = sah(onsets, delta(onsets) < 0, .5);\r\nwrite(ago, blocky);\r\nplateaus = blocky * (blocky != read(ago, atom_samples));\r\ncalmed = plateaus * (slide(delta(plateaus), 1999, 0) >= -.00009);\r\nwrite(undertow, calmed);\r\nif(in2) {\r\n\tconscious = 1;\r\n}\r\nfor(window = 0; window <= numerous; window += 1) {\r\n    sample = peek(windows, window);\r\n    if(sample) {\r\n        poke(windows, sample + 1, window);\r\n        memoryspan = dim(rhythm1) * max(wakes, 1);\t//max() only needed if forgetfulness can be disabled\r\n        if(sample < dim(rhythm1)) {\r\n            reverberation = peek(rhythm1, sample);\r\n            vibe = calmed + reverberation;\r\n            if(vibe >= peek(largest, 0)) {\r\n                poke(largest, vibe, 0);\r\n                poke(mode_interval, sampstoms(sample), 0);\r\n                poke(mode_interval, sample, 1);                 //2nd sample stores exact sample of peak\r\n            }\r\n            if(calmed && reverberation) {\r\n                if(!lock && conscious) {\r\n                    conscious = 0;\t\t\t//Only one Lock per conscious to prevent immediate re-locking\r\n                    lock = 1;\r\n                    poke(stats, 1, 10);\r\n                    if(!peek(imported, 0)) {\r\n                        length = sampstoms(sample);\r\n                        if(backing_ms) {\r\n                            length = round(backing_ms, length, mode = \"ceil\");\r\n                        }\r\n                        for(track = 1; track <= dim(palette_by_track); track += 1) {    //Should eventually be active_by_track\r\n                            active = peek(palette_by_track, track);\r\n                            if(active) {\r\n                                poke(beats_by_track, length, track);\r\n                            }\r\n                        }\r\n                        poke(stats, length, 1);\r\n                    }\r\n                }\r\n            }\r\n            poke(rhythm1, vibe, sample);\r\n        }\r\n        else if(sample >= memoryspan) {\r\n        \tif(sample >= memoryspan + dim(rhythm1)) {\r\n            \tpoke(windows, 0, window);\r\n        \t}\r\n\t\t\telse if(wakes) {\t\t\t\t\t\t\t\t\t\t\t//forgetfulness can be disabled (saves compute?)\r\n                sample -= memoryspan;\r\n                reverberation = peek(rhythm1, sample);\r\n                vibe = reverberation - read(undertow, memoryspan);\r\n                if(round(sample) == round(peek(mode_interval, 1))) {\r\n                    poke(largest, vibe, 0);\r\n                }\r\n                poke(rhythm1, max(vibe, 0), sample);                    //max() keeps it positive sloppily \r\n\t\t\t}                                                           //(very beginning of rhythm1 was going negative)\r\n        }\r\n    }\r\n}\r\nif(change(calmed) == -1 && !calmed) {\r\n\tscore = 0;\r\n    total = 0;\r\n\tif(GUI) {\r\n\t\tfor(i = 0; i < dim(scores); i += 1) {\t\t\t\t\t\t\t\t\t\t//remove prior marks (GUI)\r\n\t\t\tpoke(scores, 0, i);\r\n\t\t}\r\n\t}\r\n    for(check = 0; check <= most; check += 1) {\r\n\t\ttimestamp = peek(checks, check);\r\n        if(timestamp) {\r\n            sample = elapsed - timestamp;\r\n            if(sample >= dim(rhythm1)) {\r\n                poke(checks, 0, check);\r\n            }\r\n\t\t\telse {\r\n                reverberation = peek(rhythm1, sample);\r\n\t\t\t\tif(GUI) {\r\n                \tpoke(scores, reverberation, round(sampstoms(sample / 100)));\t\t\t//draw current marks (GUI)\r\n\t\t\t\t}\r\n                //blog(j_scores_log, reverberation / peek(largest, 0));\r\n                //blog(j_checks_log, sample);\r\n                score += reverberation / max(peek(largest, 0), 1);\r\n                total += 1;\r\n            }\r\n        }\r\n    }\r\n    score /= total;\r\n    for(check = 0; check < dim(checks); check += 1) {\r\n        if(!peek(checks, check)) {\r\n            poke(checks, elapsed, check);\r\n            most = max(most, check);\r\n            break;\r\n        }\r\n    }\r\n    for(window = 0; window < dim(windows); window += 1) {\r\n        if(!peek(windows, window)) {\r\n            poke(windows, tolerance_samples, window);\t//change(calmed) == -1 && !calmed already atom late; starting at tolerance will mean checks line up\r\n            numerous = max(numerous, window);\r\n            break;\r\n        }\r\n    }\r\n}\r\n/*if(!lock) {\r\n    poke(largest, .000001, 0);\r\n}*/\r\nout1 = score;\r\nout2 = lock;\r\nout3 = delta(calmed) > 0;\r\nout4 = onsets;\r\nout5 = calmed;\r\nout6 = calmed;\r\nout7 = peek(largest, 0);\r\nout8 = peek(largest, 0);"
 													}
 
 												}
@@ -14741,7 +14741,7 @@
 									"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 									"patching_rect" : [ 162.14285714285711, 160.0, 169.0, 20.0 ],
 									"text" : "mc.gen~ 16 @busymapname tracks",
-									"wrapper_uniquekey" : "u431010096"
+									"wrapper_uniquekey" : "u401006002"
 								}
 
 							}
@@ -17612,8 +17612,8 @@
 , 							{
 								"name" : "Custom Default-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -17639,8 +17639,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -17666,8 +17666,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -17684,8 +17684,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -17702,8 +17702,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -17720,8 +17720,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -17747,8 +17747,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-4-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -17765,8 +17765,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -17792,8 +17792,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -17819,8 +17819,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -17855,8 +17855,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -17945,8 +17945,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-4-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -17990,8 +17990,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18008,8 +18008,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18026,8 +18026,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-7",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18044,8 +18044,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-8",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18080,8 +18080,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18107,8 +18107,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18125,8 +18125,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18152,8 +18152,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18170,8 +18170,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18188,8 +18188,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18206,8 +18206,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18224,8 +18224,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18242,8 +18242,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18260,8 +18260,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18287,8 +18287,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18305,8 +18305,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18323,8 +18323,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18386,8 +18386,8 @@
 , 							{
 								"name" : "Custom Default-1-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18413,8 +18413,8 @@
 , 							{
 								"name" : "Custom Default-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18440,8 +18440,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18467,8 +18467,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18494,8 +18494,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18512,8 +18512,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18539,8 +18539,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18557,8 +18557,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18575,8 +18575,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18593,8 +18593,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18611,8 +18611,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18629,8 +18629,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18647,8 +18647,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18665,8 +18665,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18692,8 +18692,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18710,8 +18710,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18728,8 +18728,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18782,8 +18782,8 @@
 , 							{
 								"name" : "Custom Default-1-3-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18800,8 +18800,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18827,8 +18827,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18863,8 +18863,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18944,8 +18944,8 @@
 , 							{
 								"name" : "Custom Default-1-3-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -18989,8 +18989,8 @@
 , 							{
 								"name" : "Custom Default-1-3-6-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -19007,8 +19007,8 @@
 , 							{
 								"name" : "Custom Default-1-3-7",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -19025,8 +19025,8 @@
 , 							{
 								"name" : "Custom Default-1-3-8",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -19043,8 +19043,8 @@
 , 							{
 								"name" : "Custom Default-1-3-9",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -19061,8 +19061,8 @@
 , 							{
 								"name" : "Custom Default-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -19088,8 +19088,8 @@
 , 							{
 								"name" : "Custom Default-1-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -19116,8 +19116,8 @@
 								"name" : "Custom Default-11",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19136,8 +19136,8 @@
 , 							{
 								"name" : "Custom Default-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -19155,8 +19155,8 @@
 								"name" : "Custom Default-3",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19167,8 +19167,8 @@
 								"name" : "Custom Default-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19179,8 +19179,8 @@
 								"name" : "Custom Default-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19191,8 +19191,8 @@
 								"name" : "Custom Default-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19203,8 +19203,8 @@
 								"name" : "Custom Default-7",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19224,8 +19224,8 @@
 								"name" : "Custom Default-8-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19236,8 +19236,8 @@
 								"name" : "Custom Default-8-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19248,8 +19248,8 @@
 								"name" : "Custom Default-9",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19269,8 +19269,8 @@
 								"name" : "Custom Default-9-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19290,8 +19290,8 @@
 								"name" : "Custom Default-9-1-1-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19320,8 +19320,8 @@
 								"name" : "Custom Default-9-1-1-1-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19404,8 +19404,8 @@
 								"name" : "Custom Default-9-1-4-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19443,8 +19443,8 @@
 								"name" : "Custom Default-9-1-5-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19455,8 +19455,8 @@
 								"name" : "Custom Default-9-1-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19467,8 +19467,8 @@
 								"name" : "Custom Default-9-1-7",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19479,8 +19479,8 @@
 								"name" : "Custom Default-9-1-8",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19509,8 +19509,8 @@
 								"name" : "Custom Default-9-3-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19530,8 +19530,8 @@
 								"name" : "Custom Default-9-3-1-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19542,8 +19542,8 @@
 								"name" : "Custom Default-9-3-1-1-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19563,8 +19563,8 @@
 								"name" : "Custom Default-9-3-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19575,8 +19575,8 @@
 								"name" : "Custom Default-9-3-3",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19587,8 +19587,8 @@
 								"name" : "Custom Default-9-3-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19599,8 +19599,8 @@
 								"name" : "Custom Default-9-3-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19611,8 +19611,8 @@
 								"name" : "Custom Default-9-3-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19623,8 +19623,8 @@
 								"name" : "Custom Default-9-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19635,8 +19635,8 @@
 								"name" : "Custom Default-9-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19656,8 +19656,8 @@
 								"name" : "Custom Default-9-5-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19668,8 +19668,8 @@
 								"name" : "Custom Default-9-5-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -19680,8 +19680,8 @@
 								"name" : "Custom Default-9-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -22696,8 +22696,8 @@
 , 							{
 								"name" : "Custom Default-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -22723,8 +22723,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -22750,8 +22750,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -22768,8 +22768,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -22786,8 +22786,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -22804,8 +22804,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -22831,8 +22831,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-4-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -22849,8 +22849,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -22876,8 +22876,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -22903,8 +22903,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -22939,8 +22939,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23029,8 +23029,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-4-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23074,8 +23074,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23092,8 +23092,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23110,8 +23110,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-7",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23128,8 +23128,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-8",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23164,8 +23164,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23191,8 +23191,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23209,8 +23209,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23236,8 +23236,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23254,8 +23254,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23272,8 +23272,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23290,8 +23290,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23308,8 +23308,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23326,8 +23326,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23344,8 +23344,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23371,8 +23371,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23389,8 +23389,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23407,8 +23407,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23470,8 +23470,8 @@
 , 							{
 								"name" : "Custom Default-1-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23497,8 +23497,8 @@
 , 							{
 								"name" : "Custom Default-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23524,8 +23524,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23551,8 +23551,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23578,8 +23578,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23596,8 +23596,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23623,8 +23623,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23641,8 +23641,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23659,8 +23659,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23677,8 +23677,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23695,8 +23695,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23713,8 +23713,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23731,8 +23731,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23749,8 +23749,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23776,8 +23776,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23794,8 +23794,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23812,8 +23812,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23866,8 +23866,8 @@
 , 							{
 								"name" : "Custom Default-1-3-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23884,8 +23884,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23911,8 +23911,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -23947,8 +23947,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -24028,8 +24028,8 @@
 , 							{
 								"name" : "Custom Default-1-3-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -24073,8 +24073,8 @@
 , 							{
 								"name" : "Custom Default-1-3-6-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -24091,8 +24091,8 @@
 , 							{
 								"name" : "Custom Default-1-3-7",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -24109,8 +24109,8 @@
 , 							{
 								"name" : "Custom Default-1-3-8",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -24127,8 +24127,8 @@
 , 							{
 								"name" : "Custom Default-1-3-9",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -24145,8 +24145,8 @@
 , 							{
 								"name" : "Custom Default-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -24172,8 +24172,8 @@
 , 							{
 								"name" : "Custom Default-1-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -24200,8 +24200,8 @@
 								"name" : "Custom Default-11",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24220,8 +24220,8 @@
 , 							{
 								"name" : "Custom Default-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -24239,8 +24239,8 @@
 								"name" : "Custom Default-3",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24251,8 +24251,8 @@
 								"name" : "Custom Default-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24263,8 +24263,8 @@
 								"name" : "Custom Default-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24275,8 +24275,8 @@
 								"name" : "Custom Default-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24287,8 +24287,8 @@
 								"name" : "Custom Default-7",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24308,8 +24308,8 @@
 								"name" : "Custom Default-8-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24320,8 +24320,8 @@
 								"name" : "Custom Default-8-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24332,8 +24332,8 @@
 								"name" : "Custom Default-9",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24353,8 +24353,8 @@
 								"name" : "Custom Default-9-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24374,8 +24374,8 @@
 								"name" : "Custom Default-9-1-1-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24404,8 +24404,8 @@
 								"name" : "Custom Default-9-1-1-1-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24488,8 +24488,8 @@
 								"name" : "Custom Default-9-1-4-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24527,8 +24527,8 @@
 								"name" : "Custom Default-9-1-5-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24539,8 +24539,8 @@
 								"name" : "Custom Default-9-1-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24551,8 +24551,8 @@
 								"name" : "Custom Default-9-1-7",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24563,8 +24563,8 @@
 								"name" : "Custom Default-9-1-8",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24593,8 +24593,8 @@
 								"name" : "Custom Default-9-3-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24614,8 +24614,8 @@
 								"name" : "Custom Default-9-3-1-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24626,8 +24626,8 @@
 								"name" : "Custom Default-9-3-1-1-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24647,8 +24647,8 @@
 								"name" : "Custom Default-9-3-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24659,8 +24659,8 @@
 								"name" : "Custom Default-9-3-3",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24671,8 +24671,8 @@
 								"name" : "Custom Default-9-3-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24683,8 +24683,8 @@
 								"name" : "Custom Default-9-3-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24695,8 +24695,8 @@
 								"name" : "Custom Default-9-3-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24707,8 +24707,8 @@
 								"name" : "Custom Default-9-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24719,8 +24719,8 @@
 								"name" : "Custom Default-9-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24740,8 +24740,8 @@
 								"name" : "Custom Default-9-5-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24752,8 +24752,8 @@
 								"name" : "Custom Default-9-5-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -24764,8 +24764,8 @@
 								"name" : "Custom Default-9-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -28424,8 +28424,8 @@
 , 															{
 																"name" : "Custom Default-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28451,8 +28451,8 @@
 , 															{
 																"name" : "Custom Default-1-1-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28478,8 +28478,8 @@
 , 															{
 																"name" : "Custom Default-1-1-1-1-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28496,8 +28496,8 @@
 , 															{
 																"name" : "Custom Default-1-1-1-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28514,8 +28514,8 @@
 , 															{
 																"name" : "Custom Default-1-1-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28532,8 +28532,8 @@
 , 															{
 																"name" : "Custom Default-1-1-1-3",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28559,8 +28559,8 @@
 , 															{
 																"name" : "Custom Default-1-1-1-4-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28577,8 +28577,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28604,8 +28604,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-1-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28631,8 +28631,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-1-1-1-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28667,8 +28667,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-1-1-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28757,8 +28757,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-1-4-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28802,8 +28802,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-1-5-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28820,8 +28820,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-1-6",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28838,8 +28838,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-1-7",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28856,8 +28856,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-1-8",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28892,8 +28892,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-3-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28919,8 +28919,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-3-1-1-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28937,8 +28937,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-3-1-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28964,8 +28964,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-3-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -28982,8 +28982,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-3-3",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29000,8 +29000,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-3-4",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29018,8 +29018,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-3-5",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29036,8 +29036,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-3-6",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29054,8 +29054,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-4",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29072,8 +29072,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-5",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29099,8 +29099,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-5-1-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29117,8 +29117,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-5-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29135,8 +29135,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2-6",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29198,8 +29198,8 @@
 , 															{
 																"name" : "Custom Default-1-1-4",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29225,8 +29225,8 @@
 , 															{
 																"name" : "Custom Default-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29252,8 +29252,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29279,8 +29279,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-1-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29306,8 +29306,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-1-1-1-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29324,8 +29324,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-1-1-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29351,8 +29351,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29369,8 +29369,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-1-3",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29387,8 +29387,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-1-4",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29405,8 +29405,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-1-5",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29423,8 +29423,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-1-6",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29441,8 +29441,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29459,8 +29459,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-3",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29477,8 +29477,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-4",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29504,8 +29504,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-4-1-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29522,8 +29522,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-4-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29540,8 +29540,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1-5",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29594,8 +29594,8 @@
 , 															{
 																"name" : "Custom Default-1-3-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29612,8 +29612,8 @@
 , 															{
 																"name" : "Custom Default-1-3-3",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29639,8 +29639,8 @@
 , 															{
 																"name" : "Custom Default-1-3-3-1-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29675,8 +29675,8 @@
 , 															{
 																"name" : "Custom Default-1-3-3-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29756,8 +29756,8 @@
 , 															{
 																"name" : "Custom Default-1-3-5-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29801,8 +29801,8 @@
 , 															{
 																"name" : "Custom Default-1-3-6-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29819,8 +29819,8 @@
 , 															{
 																"name" : "Custom Default-1-3-7",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29837,8 +29837,8 @@
 , 															{
 																"name" : "Custom Default-1-3-8",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29855,8 +29855,8 @@
 , 															{
 																"name" : "Custom Default-1-3-9",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29873,8 +29873,8 @@
 , 															{
 																"name" : "Custom Default-1-4",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29900,8 +29900,8 @@
 , 															{
 																"name" : "Custom Default-1-5-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29928,8 +29928,8 @@
 																"name" : "Custom Default-11",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -29948,8 +29948,8 @@
 , 															{
 																"name" : "Custom Default-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -29967,8 +29967,8 @@
 																"name" : "Custom Default-3",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -29979,8 +29979,8 @@
 																"name" : "Custom Default-4",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -29991,8 +29991,8 @@
 																"name" : "Custom Default-5",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30003,8 +30003,8 @@
 																"name" : "Custom Default-6",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30015,8 +30015,8 @@
 																"name" : "Custom Default-7",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30036,8 +30036,8 @@
 																"name" : "Custom Default-8-1",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30048,8 +30048,8 @@
 																"name" : "Custom Default-8-2",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30060,8 +30060,8 @@
 																"name" : "Custom Default-9",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30081,8 +30081,8 @@
 																"name" : "Custom Default-9-1-1",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30102,8 +30102,8 @@
 																"name" : "Custom Default-9-1-1-1-1",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30132,8 +30132,8 @@
 																"name" : "Custom Default-9-1-1-1-2",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30216,8 +30216,8 @@
 																"name" : "Custom Default-9-1-4-1",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30255,8 +30255,8 @@
 																"name" : "Custom Default-9-1-5-1",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30267,8 +30267,8 @@
 																"name" : "Custom Default-9-1-6",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30279,8 +30279,8 @@
 																"name" : "Custom Default-9-1-7",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30291,8 +30291,8 @@
 																"name" : "Custom Default-9-1-8",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30321,8 +30321,8 @@
 																"name" : "Custom Default-9-3-1",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30342,8 +30342,8 @@
 																"name" : "Custom Default-9-3-1-1-1",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30354,8 +30354,8 @@
 																"name" : "Custom Default-9-3-1-1-2",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30375,8 +30375,8 @@
 																"name" : "Custom Default-9-3-2",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30387,8 +30387,8 @@
 																"name" : "Custom Default-9-3-3",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30399,8 +30399,8 @@
 																"name" : "Custom Default-9-3-4",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30411,8 +30411,8 @@
 																"name" : "Custom Default-9-3-5",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30423,8 +30423,8 @@
 																"name" : "Custom Default-9-3-6",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30435,8 +30435,8 @@
 																"name" : "Custom Default-9-4",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30447,8 +30447,8 @@
 																"name" : "Custom Default-9-5",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30468,8 +30468,8 @@
 																"name" : "Custom Default-9-5-1-1",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30480,8 +30480,8 @@
 																"name" : "Custom Default-9-5-2",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -30492,8 +30492,8 @@
 																"name" : "Custom Default-9-6",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -31421,8 +31421,8 @@
 , 															{
 																"name" : "Custom Default-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31448,8 +31448,8 @@
 , 															{
 																"name" : "Custom Default-1-1-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31475,8 +31475,8 @@
 , 															{
 																"name" : "Custom Default-1-1-1-1-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31493,8 +31493,8 @@
 , 															{
 																"name" : "Custom Default-1-1-1-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31511,8 +31511,8 @@
 , 															{
 																"name" : "Custom Default-1-1-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31529,8 +31529,8 @@
 , 															{
 																"name" : "Custom Default-1-1-1-3",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31556,8 +31556,8 @@
 , 															{
 																"name" : "Custom Default-1-1-1-4-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31574,8 +31574,8 @@
 , 															{
 																"name" : "Custom Default-1-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31619,8 +31619,8 @@
 , 															{
 																"name" : "Custom Default-1-1-4",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31646,8 +31646,8 @@
 , 															{
 																"name" : "Custom Default-1-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31673,8 +31673,8 @@
 , 															{
 																"name" : "Custom Default-1-3-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31691,8 +31691,8 @@
 , 															{
 																"name" : "Custom Default-1-3-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31709,8 +31709,8 @@
 , 															{
 																"name" : "Custom Default-1-4",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31736,8 +31736,8 @@
 , 															{
 																"name" : "Custom Default-1-5-1",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31764,8 +31764,8 @@
 																"name" : "Custom Default-11",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -31784,8 +31784,8 @@
 , 															{
 																"name" : "Custom Default-2",
 																"newobj" : 																{
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ],
 																	"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
@@ -31803,8 +31803,8 @@
 																"name" : "Custom Default-3",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -31815,8 +31815,8 @@
 																"name" : "Custom Default-4",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -31827,8 +31827,8 @@
 																"name" : "Custom Default-5",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -31839,8 +31839,8 @@
 																"name" : "Custom Default-6",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -31851,8 +31851,8 @@
 																"name" : "Custom Default-7",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -31872,8 +31872,8 @@
 																"name" : "Custom Default-8-1",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -31884,8 +31884,8 @@
 																"name" : "Custom Default-8-2",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -31896,8 +31896,8 @@
 																"name" : "Custom Default-9",
 																"default" : 																{
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontface" : [ 1 ],
+																	"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"fontsize" : [ 10.0 ]
 																}
 ,
@@ -35011,8 +35011,8 @@
 , 											{
 												"name" : "Custom Default-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35038,8 +35038,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35065,8 +35065,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35083,8 +35083,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35101,8 +35101,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35119,8 +35119,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35146,8 +35146,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-4-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35164,8 +35164,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35191,8 +35191,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35218,8 +35218,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35254,8 +35254,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35344,8 +35344,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-4-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35389,8 +35389,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-5-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35407,8 +35407,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35425,8 +35425,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-7",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35443,8 +35443,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-8",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35479,8 +35479,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35506,8 +35506,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35524,8 +35524,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35551,8 +35551,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35569,8 +35569,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35587,8 +35587,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35605,8 +35605,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35623,8 +35623,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35641,8 +35641,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35659,8 +35659,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35686,8 +35686,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-5-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35704,8 +35704,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-5-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35722,8 +35722,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35785,8 +35785,8 @@
 , 											{
 												"name" : "Custom Default-1-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35812,8 +35812,8 @@
 , 											{
 												"name" : "Custom Default-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35839,8 +35839,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35866,8 +35866,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35893,8 +35893,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35911,8 +35911,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35938,8 +35938,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35956,8 +35956,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35974,8 +35974,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -35992,8 +35992,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36010,8 +36010,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36028,8 +36028,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36046,8 +36046,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36064,8 +36064,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36091,8 +36091,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-4-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36109,8 +36109,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-4-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36127,8 +36127,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36181,8 +36181,8 @@
 , 											{
 												"name" : "Custom Default-1-3-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36199,8 +36199,8 @@
 , 											{
 												"name" : "Custom Default-1-3-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36226,8 +36226,8 @@
 , 											{
 												"name" : "Custom Default-1-3-3-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36262,8 +36262,8 @@
 , 											{
 												"name" : "Custom Default-1-3-3-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36343,8 +36343,8 @@
 , 											{
 												"name" : "Custom Default-1-3-5-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36388,8 +36388,8 @@
 , 											{
 												"name" : "Custom Default-1-3-6-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36406,8 +36406,8 @@
 , 											{
 												"name" : "Custom Default-1-3-7",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36424,8 +36424,8 @@
 , 											{
 												"name" : "Custom Default-1-3-8",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36442,8 +36442,8 @@
 , 											{
 												"name" : "Custom Default-1-3-9",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36460,8 +36460,8 @@
 , 											{
 												"name" : "Custom Default-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36487,8 +36487,8 @@
 , 											{
 												"name" : "Custom Default-1-5-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36515,8 +36515,8 @@
 												"name" : "Custom Default-11",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36535,8 +36535,8 @@
 , 											{
 												"name" : "Custom Default-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -36554,8 +36554,8 @@
 												"name" : "Custom Default-3",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36566,8 +36566,8 @@
 												"name" : "Custom Default-4",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36578,8 +36578,8 @@
 												"name" : "Custom Default-5",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36590,8 +36590,8 @@
 												"name" : "Custom Default-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36602,8 +36602,8 @@
 												"name" : "Custom Default-7",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36623,8 +36623,8 @@
 												"name" : "Custom Default-8-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36635,8 +36635,8 @@
 												"name" : "Custom Default-8-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36647,8 +36647,8 @@
 												"name" : "Custom Default-9",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36668,8 +36668,8 @@
 												"name" : "Custom Default-9-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36689,8 +36689,8 @@
 												"name" : "Custom Default-9-1-1-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36719,8 +36719,8 @@
 												"name" : "Custom Default-9-1-1-1-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36803,8 +36803,8 @@
 												"name" : "Custom Default-9-1-4-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36842,8 +36842,8 @@
 												"name" : "Custom Default-9-1-5-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36854,8 +36854,8 @@
 												"name" : "Custom Default-9-1-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36866,8 +36866,8 @@
 												"name" : "Custom Default-9-1-7",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36878,8 +36878,8 @@
 												"name" : "Custom Default-9-1-8",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36908,8 +36908,8 @@
 												"name" : "Custom Default-9-3-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36929,8 +36929,8 @@
 												"name" : "Custom Default-9-3-1-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36941,8 +36941,8 @@
 												"name" : "Custom Default-9-3-1-1-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36962,8 +36962,8 @@
 												"name" : "Custom Default-9-3-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36974,8 +36974,8 @@
 												"name" : "Custom Default-9-3-3",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36986,8 +36986,8 @@
 												"name" : "Custom Default-9-3-4",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -36998,8 +36998,8 @@
 												"name" : "Custom Default-9-3-5",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -37010,8 +37010,8 @@
 												"name" : "Custom Default-9-3-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -37022,8 +37022,8 @@
 												"name" : "Custom Default-9-4",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -37034,8 +37034,8 @@
 												"name" : "Custom Default-9-5",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -37055,8 +37055,8 @@
 												"name" : "Custom Default-9-5-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -37067,8 +37067,8 @@
 												"name" : "Custom Default-9-5-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -37079,8 +37079,8 @@
 												"name" : "Custom Default-9-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -37278,18 +37278,6 @@
 											}
 , 											{
 												"box" : 												{
-													"id" : "obj-16",
-													"linecount" : 4,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 430.0, 288.0, 173.0, 52.0 ],
-													"text" : " palettes must be reset secondarily to avoid clearing one that have additional tracks associated with them"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"id" : "obj-28",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
@@ -37309,18 +37297,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 210.0, 320.0, 52.0, 20.0 ],
 													"text" : "deferlow"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-27",
-													"linecount" : 4,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 408.25, 140.0, 160.0, 52.0 ],
-													"text" : "If to midi channels are associated with same audio it will be exported twice, named for each channel"
 												}
 
 											}
@@ -40400,8 +40376,8 @@
 , 											{
 												"name" : "Custom Default-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40427,8 +40403,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40454,8 +40430,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40472,8 +40448,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40490,8 +40466,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40508,8 +40484,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40535,8 +40511,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-4-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40553,8 +40529,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40580,8 +40556,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40607,8 +40583,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40643,8 +40619,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40733,8 +40709,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-4-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40778,8 +40754,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-5-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40796,8 +40772,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40814,8 +40790,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-7",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40832,8 +40808,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-8",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40868,8 +40844,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40895,8 +40871,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40913,8 +40889,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40940,8 +40916,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40958,8 +40934,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40976,8 +40952,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -40994,8 +40970,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41012,8 +40988,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41030,8 +41006,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41048,8 +41024,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41075,8 +41051,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-5-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41093,8 +41069,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-5-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41111,8 +41087,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41174,8 +41150,8 @@
 , 											{
 												"name" : "Custom Default-1-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41201,8 +41177,8 @@
 , 											{
 												"name" : "Custom Default-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41228,8 +41204,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41255,8 +41231,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41282,8 +41258,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41300,8 +41276,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41327,8 +41303,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41345,8 +41321,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41363,8 +41339,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41381,8 +41357,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41399,8 +41375,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41417,8 +41393,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41435,8 +41411,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41453,8 +41429,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41480,8 +41456,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-4-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41498,8 +41474,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-4-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41516,8 +41492,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41570,8 +41546,8 @@
 , 											{
 												"name" : "Custom Default-1-3-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41588,8 +41564,8 @@
 , 											{
 												"name" : "Custom Default-1-3-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41615,8 +41591,8 @@
 , 											{
 												"name" : "Custom Default-1-3-3-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41651,8 +41627,8 @@
 , 											{
 												"name" : "Custom Default-1-3-3-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41732,8 +41708,8 @@
 , 											{
 												"name" : "Custom Default-1-3-5-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41777,8 +41753,8 @@
 , 											{
 												"name" : "Custom Default-1-3-6-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41795,8 +41771,8 @@
 , 											{
 												"name" : "Custom Default-1-3-7",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41813,8 +41789,8 @@
 , 											{
 												"name" : "Custom Default-1-3-8",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41831,8 +41807,8 @@
 , 											{
 												"name" : "Custom Default-1-3-9",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41849,8 +41825,8 @@
 , 											{
 												"name" : "Custom Default-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41876,8 +41852,8 @@
 , 											{
 												"name" : "Custom Default-1-5-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41904,8 +41880,8 @@
 												"name" : "Custom Default-11",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -41924,8 +41900,8 @@
 , 											{
 												"name" : "Custom Default-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -41943,8 +41919,8 @@
 												"name" : "Custom Default-3",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -41955,8 +41931,8 @@
 												"name" : "Custom Default-4",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -41967,8 +41943,8 @@
 												"name" : "Custom Default-5",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -41979,8 +41955,8 @@
 												"name" : "Custom Default-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -41991,8 +41967,8 @@
 												"name" : "Custom Default-7",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42012,8 +41988,8 @@
 												"name" : "Custom Default-8-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42024,8 +42000,8 @@
 												"name" : "Custom Default-8-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42036,8 +42012,8 @@
 												"name" : "Custom Default-9",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42057,8 +42033,8 @@
 												"name" : "Custom Default-9-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42078,8 +42054,8 @@
 												"name" : "Custom Default-9-1-1-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42108,8 +42084,8 @@
 												"name" : "Custom Default-9-1-1-1-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42192,8 +42168,8 @@
 												"name" : "Custom Default-9-1-4-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42231,8 +42207,8 @@
 												"name" : "Custom Default-9-1-5-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42243,8 +42219,8 @@
 												"name" : "Custom Default-9-1-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42255,8 +42231,8 @@
 												"name" : "Custom Default-9-1-7",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42267,8 +42243,8 @@
 												"name" : "Custom Default-9-1-8",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42297,8 +42273,8 @@
 												"name" : "Custom Default-9-3-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42318,8 +42294,8 @@
 												"name" : "Custom Default-9-3-1-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42330,8 +42306,8 @@
 												"name" : "Custom Default-9-3-1-1-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42351,8 +42327,8 @@
 												"name" : "Custom Default-9-3-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42363,8 +42339,8 @@
 												"name" : "Custom Default-9-3-3",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42375,8 +42351,8 @@
 												"name" : "Custom Default-9-3-4",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42387,8 +42363,8 @@
 												"name" : "Custom Default-9-3-5",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42399,8 +42375,8 @@
 												"name" : "Custom Default-9-3-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42411,8 +42387,8 @@
 												"name" : "Custom Default-9-4",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42423,8 +42399,8 @@
 												"name" : "Custom Default-9-5",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42444,8 +42420,8 @@
 												"name" : "Custom Default-9-5-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42456,8 +42432,8 @@
 												"name" : "Custom Default-9-5-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -42468,8 +42444,8 @@
 												"name" : "Custom Default-9-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -45992,8 +45968,8 @@
 , 							{
 								"name" : "Custom Default-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46019,8 +45995,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46046,8 +46022,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46064,8 +46040,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46082,8 +46058,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46100,8 +46076,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46127,8 +46103,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-4-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46145,8 +46121,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46172,8 +46148,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46199,8 +46175,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46235,8 +46211,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46325,8 +46301,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-4-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46370,8 +46346,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46388,8 +46364,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46406,8 +46382,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-7",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46424,8 +46400,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-8",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46460,8 +46436,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46487,8 +46463,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46505,8 +46481,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46532,8 +46508,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46550,8 +46526,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46568,8 +46544,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46586,8 +46562,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46604,8 +46580,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46622,8 +46598,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46640,8 +46616,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46667,8 +46643,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46685,8 +46661,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46703,8 +46679,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46766,8 +46742,8 @@
 , 							{
 								"name" : "Custom Default-1-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46793,8 +46769,8 @@
 , 							{
 								"name" : "Custom Default-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46820,8 +46796,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46847,8 +46823,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46874,8 +46850,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46892,8 +46868,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46919,8 +46895,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46937,8 +46913,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46955,8 +46931,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46973,8 +46949,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -46991,8 +46967,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47009,8 +46985,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47027,8 +47003,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47045,8 +47021,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47072,8 +47048,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47090,8 +47066,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47108,8 +47084,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47162,8 +47138,8 @@
 , 							{
 								"name" : "Custom Default-1-3-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47180,8 +47156,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47207,8 +47183,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47243,8 +47219,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47324,8 +47300,8 @@
 , 							{
 								"name" : "Custom Default-1-3-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47369,8 +47345,8 @@
 , 							{
 								"name" : "Custom Default-1-3-6-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47387,8 +47363,8 @@
 , 							{
 								"name" : "Custom Default-1-3-7",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47405,8 +47381,8 @@
 , 							{
 								"name" : "Custom Default-1-3-8",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47423,8 +47399,8 @@
 , 							{
 								"name" : "Custom Default-1-3-9",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47441,8 +47417,8 @@
 , 							{
 								"name" : "Custom Default-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47468,8 +47444,8 @@
 , 							{
 								"name" : "Custom Default-1-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47496,8 +47472,8 @@
 								"name" : "Custom Default-11",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47516,8 +47492,8 @@
 , 							{
 								"name" : "Custom Default-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -47535,8 +47511,8 @@
 								"name" : "Custom Default-3",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47547,8 +47523,8 @@
 								"name" : "Custom Default-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47559,8 +47535,8 @@
 								"name" : "Custom Default-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47571,8 +47547,8 @@
 								"name" : "Custom Default-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47583,8 +47559,8 @@
 								"name" : "Custom Default-7",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47604,8 +47580,8 @@
 								"name" : "Custom Default-8-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47616,8 +47592,8 @@
 								"name" : "Custom Default-8-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47628,8 +47604,8 @@
 								"name" : "Custom Default-9",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47649,8 +47625,8 @@
 								"name" : "Custom Default-9-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47670,8 +47646,8 @@
 								"name" : "Custom Default-9-1-1-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47700,8 +47676,8 @@
 								"name" : "Custom Default-9-1-1-1-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47784,8 +47760,8 @@
 								"name" : "Custom Default-9-1-4-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47823,8 +47799,8 @@
 								"name" : "Custom Default-9-1-5-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47835,8 +47811,8 @@
 								"name" : "Custom Default-9-1-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47847,8 +47823,8 @@
 								"name" : "Custom Default-9-1-7",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47859,8 +47835,8 @@
 								"name" : "Custom Default-9-1-8",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47889,8 +47865,8 @@
 								"name" : "Custom Default-9-3-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47910,8 +47886,8 @@
 								"name" : "Custom Default-9-3-1-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47922,8 +47898,8 @@
 								"name" : "Custom Default-9-3-1-1-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47943,8 +47919,8 @@
 								"name" : "Custom Default-9-3-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47955,8 +47931,8 @@
 								"name" : "Custom Default-9-3-3",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47967,8 +47943,8 @@
 								"name" : "Custom Default-9-3-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47979,8 +47955,8 @@
 								"name" : "Custom Default-9-3-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -47991,8 +47967,8 @@
 								"name" : "Custom Default-9-3-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -48003,8 +47979,8 @@
 								"name" : "Custom Default-9-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -48015,8 +47991,8 @@
 								"name" : "Custom Default-9-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -48036,8 +48012,8 @@
 								"name" : "Custom Default-9-5-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -48048,8 +48024,8 @@
 								"name" : "Custom Default-9-5-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -48060,8 +48036,8 @@
 								"name" : "Custom Default-9-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -51160,8 +51136,8 @@
 , 							{
 								"name" : "Custom Default-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51187,8 +51163,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51214,8 +51190,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51232,8 +51208,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51250,8 +51226,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51268,8 +51244,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51295,8 +51271,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-4-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51313,8 +51289,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51340,8 +51316,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51367,8 +51343,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51403,8 +51379,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51493,8 +51469,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-4-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51538,8 +51514,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51556,8 +51532,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51574,8 +51550,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-7",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51592,8 +51568,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-8",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51628,8 +51604,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51655,8 +51631,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51673,8 +51649,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51700,8 +51676,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51718,8 +51694,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51736,8 +51712,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51754,8 +51730,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51772,8 +51748,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51790,8 +51766,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51808,8 +51784,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51835,8 +51811,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51853,8 +51829,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51871,8 +51847,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51934,8 +51910,8 @@
 , 							{
 								"name" : "Custom Default-1-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51961,8 +51937,8 @@
 , 							{
 								"name" : "Custom Default-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -51988,8 +51964,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52015,8 +51991,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52042,8 +52018,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52060,8 +52036,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52087,8 +52063,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52105,8 +52081,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52123,8 +52099,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52141,8 +52117,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52159,8 +52135,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52177,8 +52153,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52195,8 +52171,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52213,8 +52189,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52240,8 +52216,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52258,8 +52234,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52276,8 +52252,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52330,8 +52306,8 @@
 , 							{
 								"name" : "Custom Default-1-3-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52348,8 +52324,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52375,8 +52351,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52411,8 +52387,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52492,8 +52468,8 @@
 , 							{
 								"name" : "Custom Default-1-3-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52537,8 +52513,8 @@
 , 							{
 								"name" : "Custom Default-1-3-6-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52555,8 +52531,8 @@
 , 							{
 								"name" : "Custom Default-1-3-7",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52573,8 +52549,8 @@
 , 							{
 								"name" : "Custom Default-1-3-8",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52591,8 +52567,8 @@
 , 							{
 								"name" : "Custom Default-1-3-9",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52609,8 +52585,8 @@
 , 							{
 								"name" : "Custom Default-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52636,8 +52612,8 @@
 , 							{
 								"name" : "Custom Default-1-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52664,8 +52640,8 @@
 								"name" : "Custom Default-11",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52684,8 +52660,8 @@
 , 							{
 								"name" : "Custom Default-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -52703,8 +52679,8 @@
 								"name" : "Custom Default-3",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52715,8 +52691,8 @@
 								"name" : "Custom Default-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52727,8 +52703,8 @@
 								"name" : "Custom Default-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52739,8 +52715,8 @@
 								"name" : "Custom Default-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52751,8 +52727,8 @@
 								"name" : "Custom Default-7",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52772,8 +52748,8 @@
 								"name" : "Custom Default-8-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52784,8 +52760,8 @@
 								"name" : "Custom Default-8-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52796,8 +52772,8 @@
 								"name" : "Custom Default-9",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52817,8 +52793,8 @@
 								"name" : "Custom Default-9-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52838,8 +52814,8 @@
 								"name" : "Custom Default-9-1-1-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52868,8 +52844,8 @@
 								"name" : "Custom Default-9-1-1-1-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52952,8 +52928,8 @@
 								"name" : "Custom Default-9-1-4-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -52991,8 +52967,8 @@
 								"name" : "Custom Default-9-1-5-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53003,8 +52979,8 @@
 								"name" : "Custom Default-9-1-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53015,8 +52991,8 @@
 								"name" : "Custom Default-9-1-7",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53027,8 +53003,8 @@
 								"name" : "Custom Default-9-1-8",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53057,8 +53033,8 @@
 								"name" : "Custom Default-9-3-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53078,8 +53054,8 @@
 								"name" : "Custom Default-9-3-1-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53090,8 +53066,8 @@
 								"name" : "Custom Default-9-3-1-1-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53111,8 +53087,8 @@
 								"name" : "Custom Default-9-3-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53123,8 +53099,8 @@
 								"name" : "Custom Default-9-3-3",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53135,8 +53111,8 @@
 								"name" : "Custom Default-9-3-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53147,8 +53123,8 @@
 								"name" : "Custom Default-9-3-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53159,8 +53135,8 @@
 								"name" : "Custom Default-9-3-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53171,8 +53147,8 @@
 								"name" : "Custom Default-9-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53183,8 +53159,8 @@
 								"name" : "Custom Default-9-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53204,8 +53180,8 @@
 								"name" : "Custom Default-9-5-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53216,8 +53192,8 @@
 								"name" : "Custom Default-9-5-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -53228,8 +53204,8 @@
 								"name" : "Custom Default-9-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -54054,7 +54030,6 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 10.0,
 													"id" : "obj-21",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -56991,8 +56966,8 @@
 , 											{
 												"name" : "Custom Default-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57018,8 +56993,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57045,8 +57020,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57063,8 +57038,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57081,8 +57056,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57099,8 +57074,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57126,8 +57101,8 @@
 , 											{
 												"name" : "Custom Default-1-1-1-4-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57144,8 +57119,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57171,8 +57146,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57198,8 +57173,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57234,8 +57209,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57324,8 +57299,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-4-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57369,8 +57344,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-5-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57387,8 +57362,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57405,8 +57380,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-7",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57423,8 +57398,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-1-8",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57459,8 +57434,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57486,8 +57461,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57504,8 +57479,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57531,8 +57506,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57549,8 +57524,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57567,8 +57542,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57585,8 +57560,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57603,8 +57578,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-3-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57621,8 +57596,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57639,8 +57614,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57666,8 +57641,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-5-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57684,8 +57659,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-5-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57702,8 +57677,8 @@
 , 											{
 												"name" : "Custom Default-1-1-2-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57765,8 +57740,8 @@
 , 											{
 												"name" : "Custom Default-1-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57792,8 +57767,8 @@
 , 											{
 												"name" : "Custom Default-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57819,8 +57794,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57846,8 +57821,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57873,8 +57848,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-1-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57891,8 +57866,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57918,8 +57893,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57936,8 +57911,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57954,8 +57929,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57972,8 +57947,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -57990,8 +57965,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-1-6",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58008,8 +57983,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58026,8 +58001,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58044,8 +58019,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58071,8 +58046,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-4-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58089,8 +58064,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-4-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58107,8 +58082,8 @@
 , 											{
 												"name" : "Custom Default-1-3-1-5",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58161,8 +58136,8 @@
 , 											{
 												"name" : "Custom Default-1-3-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58179,8 +58154,8 @@
 , 											{
 												"name" : "Custom Default-1-3-3",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58206,8 +58181,8 @@
 , 											{
 												"name" : "Custom Default-1-3-3-1-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58242,8 +58217,8 @@
 , 											{
 												"name" : "Custom Default-1-3-3-1-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58323,8 +58298,8 @@
 , 											{
 												"name" : "Custom Default-1-3-5-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58368,8 +58343,8 @@
 , 											{
 												"name" : "Custom Default-1-3-6-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58386,8 +58361,8 @@
 , 											{
 												"name" : "Custom Default-1-3-7",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58404,8 +58379,8 @@
 , 											{
 												"name" : "Custom Default-1-3-8",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58422,8 +58397,8 @@
 , 											{
 												"name" : "Custom Default-1-3-9",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58440,8 +58415,8 @@
 , 											{
 												"name" : "Custom Default-1-4",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58467,8 +58442,8 @@
 , 											{
 												"name" : "Custom Default-1-5-1",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58495,8 +58470,8 @@
 												"name" : "Custom Default-11",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58515,8 +58490,8 @@
 , 											{
 												"name" : "Custom Default-2",
 												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ],
 													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -58534,8 +58509,8 @@
 												"name" : "Custom Default-3",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58546,8 +58521,8 @@
 												"name" : "Custom Default-4",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58558,8 +58533,8 @@
 												"name" : "Custom Default-5",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58570,8 +58545,8 @@
 												"name" : "Custom Default-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58582,8 +58557,8 @@
 												"name" : "Custom Default-7",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58603,8 +58578,8 @@
 												"name" : "Custom Default-8-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58615,8 +58590,8 @@
 												"name" : "Custom Default-8-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58627,8 +58602,8 @@
 												"name" : "Custom Default-9",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58648,8 +58623,8 @@
 												"name" : "Custom Default-9-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58669,8 +58644,8 @@
 												"name" : "Custom Default-9-1-1-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58699,8 +58674,8 @@
 												"name" : "Custom Default-9-1-1-1-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58783,8 +58758,8 @@
 												"name" : "Custom Default-9-1-4-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58822,8 +58797,8 @@
 												"name" : "Custom Default-9-1-5-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58834,8 +58809,8 @@
 												"name" : "Custom Default-9-1-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58846,8 +58821,8 @@
 												"name" : "Custom Default-9-1-7",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58858,8 +58833,8 @@
 												"name" : "Custom Default-9-1-8",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58888,8 +58863,8 @@
 												"name" : "Custom Default-9-3-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58909,8 +58884,8 @@
 												"name" : "Custom Default-9-3-1-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58921,8 +58896,8 @@
 												"name" : "Custom Default-9-3-1-1-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58942,8 +58917,8 @@
 												"name" : "Custom Default-9-3-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58954,8 +58929,8 @@
 												"name" : "Custom Default-9-3-3",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58966,8 +58941,8 @@
 												"name" : "Custom Default-9-3-4",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58978,8 +58953,8 @@
 												"name" : "Custom Default-9-3-5",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -58990,8 +58965,8 @@
 												"name" : "Custom Default-9-3-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -59002,8 +58977,8 @@
 												"name" : "Custom Default-9-4",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -59014,8 +58989,8 @@
 												"name" : "Custom Default-9-5",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -59035,8 +59010,8 @@
 												"name" : "Custom Default-9-5-1-1",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -59047,8 +59022,8 @@
 												"name" : "Custom Default-9-5-2",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -59059,8 +59034,8 @@
 												"name" : "Custom Default-9-6",
 												"default" : 												{
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontface" : [ 1 ],
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"fontsize" : [ 10.0 ]
 												}
 ,
@@ -62513,8 +62488,8 @@
 , 							{
 								"name" : "Custom Default-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62540,8 +62515,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62567,8 +62542,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62585,8 +62560,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62603,8 +62578,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62621,8 +62596,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62648,8 +62623,8 @@
 , 							{
 								"name" : "Custom Default-1-1-1-4-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62666,8 +62641,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62693,8 +62668,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62720,8 +62695,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62756,8 +62731,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62846,8 +62821,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-4-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62891,8 +62866,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62909,8 +62884,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62927,8 +62902,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-7",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62945,8 +62920,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-1-8",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -62981,8 +62956,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63008,8 +62983,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63026,8 +63001,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63053,8 +63028,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63071,8 +63046,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63089,8 +63064,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63107,8 +63082,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63125,8 +63100,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-3-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63143,8 +63118,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63161,8 +63136,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63188,8 +63163,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63206,8 +63181,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-5-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63224,8 +63199,8 @@
 , 							{
 								"name" : "Custom Default-1-1-2-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63287,8 +63262,8 @@
 , 							{
 								"name" : "Custom Default-1-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63314,8 +63289,8 @@
 , 							{
 								"name" : "Custom Default-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63341,8 +63316,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63368,8 +63343,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63395,8 +63370,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63413,8 +63388,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63440,8 +63415,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63458,8 +63433,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63476,8 +63451,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63494,8 +63469,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63512,8 +63487,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-1-6",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63530,8 +63505,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63548,8 +63523,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63566,8 +63541,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63593,8 +63568,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63611,8 +63586,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-4-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63629,8 +63604,8 @@
 , 							{
 								"name" : "Custom Default-1-3-1-5",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63683,8 +63658,8 @@
 , 							{
 								"name" : "Custom Default-1-3-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63701,8 +63676,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63728,8 +63703,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63764,8 +63739,8 @@
 , 							{
 								"name" : "Custom Default-1-3-3-1-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63845,8 +63820,8 @@
 , 							{
 								"name" : "Custom Default-1-3-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63890,8 +63865,8 @@
 , 							{
 								"name" : "Custom Default-1-3-6-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63908,8 +63883,8 @@
 , 							{
 								"name" : "Custom Default-1-3-7",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63926,8 +63901,8 @@
 , 							{
 								"name" : "Custom Default-1-3-8",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63944,8 +63919,8 @@
 , 							{
 								"name" : "Custom Default-1-3-9",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63962,8 +63937,8 @@
 , 							{
 								"name" : "Custom Default-1-4",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -63989,8 +63964,8 @@
 , 							{
 								"name" : "Custom Default-1-5-1",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -64017,8 +63992,8 @@
 								"name" : "Custom Default-11",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64037,8 +64012,8 @@
 , 							{
 								"name" : "Custom Default-2",
 								"newobj" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ],
 									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -64056,8 +64031,8 @@
 								"name" : "Custom Default-3",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64068,8 +64043,8 @@
 								"name" : "Custom Default-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64080,8 +64055,8 @@
 								"name" : "Custom Default-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64092,8 +64067,8 @@
 								"name" : "Custom Default-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64104,8 +64079,8 @@
 								"name" : "Custom Default-7",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64125,8 +64100,8 @@
 								"name" : "Custom Default-8-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64137,8 +64112,8 @@
 								"name" : "Custom Default-8-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64149,8 +64124,8 @@
 								"name" : "Custom Default-9",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64170,8 +64145,8 @@
 								"name" : "Custom Default-9-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64191,8 +64166,8 @@
 								"name" : "Custom Default-9-1-1-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64221,8 +64196,8 @@
 								"name" : "Custom Default-9-1-1-1-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64305,8 +64280,8 @@
 								"name" : "Custom Default-9-1-4-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64344,8 +64319,8 @@
 								"name" : "Custom Default-9-1-5-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64356,8 +64331,8 @@
 								"name" : "Custom Default-9-1-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64368,8 +64343,8 @@
 								"name" : "Custom Default-9-1-7",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64380,8 +64355,8 @@
 								"name" : "Custom Default-9-1-8",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64410,8 +64385,8 @@
 								"name" : "Custom Default-9-3-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64431,8 +64406,8 @@
 								"name" : "Custom Default-9-3-1-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64443,8 +64418,8 @@
 								"name" : "Custom Default-9-3-1-1-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64464,8 +64439,8 @@
 								"name" : "Custom Default-9-3-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64476,8 +64451,8 @@
 								"name" : "Custom Default-9-3-3",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64488,8 +64463,8 @@
 								"name" : "Custom Default-9-3-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64500,8 +64475,8 @@
 								"name" : "Custom Default-9-3-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64512,8 +64487,8 @@
 								"name" : "Custom Default-9-3-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64524,8 +64499,8 @@
 								"name" : "Custom Default-9-4",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64536,8 +64511,8 @@
 								"name" : "Custom Default-9-5",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64557,8 +64532,8 @@
 								"name" : "Custom Default-9-5-1-1",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64569,8 +64544,8 @@
 								"name" : "Custom Default-9-5-2",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -64581,8 +64556,8 @@
 								"name" : "Custom Default-9-6",
 								"default" : 								{
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 10.0 ]
 								}
 ,
@@ -65074,7 +65049,7 @@
 					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 180.0, 260.0, 440.0, 20.0 ],
 					"text" : "mc.gen~ 16 @busymapname tracks",
-					"wrapper_uniquekey" : "u530010218"
+					"wrapper_uniquekey" : "u173008351"
 				}
 
 			}
@@ -68310,8 +68285,8 @@
 , 			{
 				"name" : "Custom Default-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68337,8 +68312,8 @@
 , 			{
 				"name" : "Custom Default-1-1-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68364,8 +68339,8 @@
 , 			{
 				"name" : "Custom Default-1-1-1-1-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68382,8 +68357,8 @@
 , 			{
 				"name" : "Custom Default-1-1-1-1-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68400,8 +68375,8 @@
 , 			{
 				"name" : "Custom Default-1-1-1-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68418,8 +68393,8 @@
 , 			{
 				"name" : "Custom Default-1-1-1-3",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68445,8 +68420,8 @@
 , 			{
 				"name" : "Custom Default-1-1-1-4-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68463,8 +68438,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68490,8 +68465,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68517,8 +68492,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-1-1-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68553,8 +68528,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-1-1-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68643,8 +68618,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-4-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68688,8 +68663,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-5-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68706,8 +68681,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-6",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68724,8 +68699,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-7",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68742,8 +68717,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-1-8",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68778,8 +68753,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68805,8 +68780,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-1-1-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68823,8 +68798,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-1-1-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68850,8 +68825,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68868,8 +68843,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-3",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68886,8 +68861,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-4",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68904,8 +68879,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-5",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68922,8 +68897,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-3-6",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68940,8 +68915,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-4",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68958,8 +68933,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-5",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -68985,8 +68960,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-5-1-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69003,8 +68978,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-5-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69021,8 +68996,8 @@
 , 			{
 				"name" : "Custom Default-1-1-2-6",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69084,8 +69059,8 @@
 , 			{
 				"name" : "Custom Default-1-1-4",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69111,8 +69086,8 @@
 , 			{
 				"name" : "Custom Default-1-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69138,8 +69113,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69165,8 +69140,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69192,8 +69167,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-1-1-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69210,8 +69185,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-1-1-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69237,8 +69212,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69255,8 +69230,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-3",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69273,8 +69248,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-4",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69291,8 +69266,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-5",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69309,8 +69284,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-1-6",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69327,8 +69302,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69345,8 +69320,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-3",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69363,8 +69338,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-4",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69390,8 +69365,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-4-1-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69408,8 +69383,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-4-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69426,8 +69401,8 @@
 , 			{
 				"name" : "Custom Default-1-3-1-5",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69480,8 +69455,8 @@
 , 			{
 				"name" : "Custom Default-1-3-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69498,8 +69473,8 @@
 , 			{
 				"name" : "Custom Default-1-3-3",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69525,8 +69500,8 @@
 , 			{
 				"name" : "Custom Default-1-3-3-1-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69561,8 +69536,8 @@
 , 			{
 				"name" : "Custom Default-1-3-3-1-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69642,8 +69617,8 @@
 , 			{
 				"name" : "Custom Default-1-3-5-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69687,8 +69662,8 @@
 , 			{
 				"name" : "Custom Default-1-3-6-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69705,8 +69680,8 @@
 , 			{
 				"name" : "Custom Default-1-3-7",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69723,8 +69698,8 @@
 , 			{
 				"name" : "Custom Default-1-3-8",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69741,8 +69716,8 @@
 , 			{
 				"name" : "Custom Default-1-3-9",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69759,8 +69734,8 @@
 , 			{
 				"name" : "Custom Default-1-4",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69786,8 +69761,8 @@
 , 			{
 				"name" : "Custom Default-1-5-1",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69814,8 +69789,8 @@
 				"name" : "Custom Default-11",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -69834,8 +69809,8 @@
 , 			{
 				"name" : "Custom Default-2",
 				"newobj" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -69853,8 +69828,8 @@
 				"name" : "Custom Default-3",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -69865,8 +69840,8 @@
 				"name" : "Custom Default-4",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -69877,8 +69852,8 @@
 				"name" : "Custom Default-5",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -69889,8 +69864,8 @@
 				"name" : "Custom Default-6",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -69901,8 +69876,8 @@
 				"name" : "Custom Default-7",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -69922,8 +69897,8 @@
 				"name" : "Custom Default-8-1",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -69934,8 +69909,8 @@
 				"name" : "Custom Default-8-2",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -69946,8 +69921,8 @@
 				"name" : "Custom Default-9",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -69967,8 +69942,8 @@
 				"name" : "Custom Default-9-1-1",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -69988,8 +69963,8 @@
 				"name" : "Custom Default-9-1-1-1-1",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70018,8 +69993,8 @@
 				"name" : "Custom Default-9-1-1-1-2",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70102,8 +70077,8 @@
 				"name" : "Custom Default-9-1-4-1",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70141,8 +70116,8 @@
 				"name" : "Custom Default-9-1-5-1",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70153,8 +70128,8 @@
 				"name" : "Custom Default-9-1-6",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70165,8 +70140,8 @@
 				"name" : "Custom Default-9-1-7",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70177,8 +70152,8 @@
 				"name" : "Custom Default-9-1-8",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70207,8 +70182,8 @@
 				"name" : "Custom Default-9-3-1",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70228,8 +70203,8 @@
 				"name" : "Custom Default-9-3-1-1-1",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70240,8 +70215,8 @@
 				"name" : "Custom Default-9-3-1-1-2",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70261,8 +70236,8 @@
 				"name" : "Custom Default-9-3-2",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70273,8 +70248,8 @@
 				"name" : "Custom Default-9-3-3",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70285,8 +70260,8 @@
 				"name" : "Custom Default-9-3-4",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70297,8 +70272,8 @@
 				"name" : "Custom Default-9-3-5",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70309,8 +70284,8 @@
 				"name" : "Custom Default-9-3-6",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70321,8 +70296,8 @@
 				"name" : "Custom Default-9-4",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70333,8 +70308,8 @@
 				"name" : "Custom Default-9-5",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70354,8 +70329,8 @@
 				"name" : "Custom Default-9-5-1-1",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70366,8 +70341,8 @@
 				"name" : "Custom Default-9-5-2",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
@@ -70378,8 +70353,8 @@
 				"name" : "Custom Default-9-6",
 				"default" : 				{
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ]
 				}
 ,
