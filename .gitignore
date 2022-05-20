@@ -2,12 +2,12 @@ MIDIGuitar64.dll
 *.json
 *.txt
 *].*
-*]/
 * - Copy.*
 * - Copy (*).*
 VoxengoRecorder.64.dll
 *.csv
-Images/
+[Images]/
+[Archives]/
 TimelineGL/
 *.mid
 desktop.ini
@@ -17,4 +17,5 @@ installer.iss
 .tmp.drivedownload/
 .vscode/
 node_modules/
+*es]/
 *.log
