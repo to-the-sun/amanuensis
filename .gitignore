@@ -19,3 +19,4 @@ installer.iss
 node_modules/
 *es]/
 *.log
+.tmp.driveupload/
