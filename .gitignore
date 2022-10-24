@@ -20,3 +20,4 @@ node_modules/
 *es]/
 *.log
 .tmp.driveupload/
+beat.wav
