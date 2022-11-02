@@ -1,37 +1,43 @@
-ramp(signal, direction) {
+ramp(signal, movement) {
     //Buffer input("input");
     History length(44 * 3999);
+    History toggle(0);
     History go(0);
     lo = 999;
-    hi = 44 * 3999;
-    if(change(direction)) {
+    hi = 44 * 4999;
+    if(movement) {
         length = hi;
         go = elapsed;
+        toggle = movement > 0;
     }
     amp = slide(abs(signal), 0, lo);
     length = clip(amp * hi, lo, length);
     x = elapsed - go;
-    fade = max((length - x) / length, 0);	//1 to 0
-    fade = abs(direction - fade);			//invert?
+    fade = min(x / length, 1);	        //0 to 1
+    fade = abs(toggle - fade);			//invert?
     //poke(input, fade, x);
     signal *= fade;
     return signal, fade;
 }
-dynamic_crossfade(flip, s1, s2) {
+dynamic_crossfade(control, s1, s2) {
     Buffer o1("o1");
     Buffer o2("o2");
-    History toggle(1);
+    History direction(-1);
     History go(0);
-    mix1, fader1 = ramp(s1, toggle);
-    mix2, fader2 = ramp(s2, !toggle);
-    if(change(flip)) {
-        if(!(fader1 % 1) && !(fader2 % 1)) {
-            toggle = !toggle;
-            //go = elapsed;
+    History debug(0);
+    mix1, fader1 = ramp(s1, direction);
+    mix2, fader2 = ramp(s2, direction * -1);
+    finished = !(fader1 % 1) && !(fader2 % 1);
+    direction = 0;
+    if(finished) {
+        direction = change(control);
+        if(direction) {
+            go = elapsed;
+            debug += 1;
         }
     }
     //x = elapsed - go;
     //poke(o1, mix1, x);
     //poke(o2, mix2, x);
-    return mix1, mix2, mix1 + mix2;
+    return mix1, mix2, mix1 + mix2, finished;
 }
