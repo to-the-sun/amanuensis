@@ -1,6 +1,6 @@
 ramp(signal, movement) {
     //Buffer input("input");
-    History length(44 * 3999);
+    History length(44 * 4999);
     History toggle(0);
     History go(0);
     lo = 999;
@@ -39,5 +39,5 @@ dynamic_crossfade(control, s1, s2) {
     //x = elapsed - go;
     //poke(o1, mix1, x);
     //poke(o2, mix2, x);
-    return mix1, mix2, mix1 + mix2, finished;
+    return mix1, mix2, mix1 + mix2, !finished;
 }
