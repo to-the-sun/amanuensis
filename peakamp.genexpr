@@ -1,0 +1,11 @@
+peakamp(signal, interval) {
+	History peak(0);
+	History prior(0);
+	peak = max(peak, abs(signal));
+	t = elapsed % interval;
+	if(!t) {
+		prior = peak;
+		peak = 0;
+	}
+	return prior, t;
+}
