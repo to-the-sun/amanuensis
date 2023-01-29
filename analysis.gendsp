@@ -1,0 +1,314 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 11,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "dsp.gen",
+		"rect" : [ 454.0, 194.0, 723.0, 617.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 10.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
+		"gridsnaponopen" : 2,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "To the Sun",
+		"assistshowspatchername" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 770.0, 130.0, 94.0, 20.0 ],
+					"text" : "buffer j_checks_log"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 700.0, 540.0, 31.0, 20.0 ],
+					"text" : "out 8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 610.0, 540.0, 31.0, 20.0 ],
+					"text" : "out 7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 701.0, 0.0, 25.0, 20.0 ],
+					"text" : "in 6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 770.0, 110.0, 93.0, 20.0 ],
+					"text" : "buffer j_scores_log"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 510.0, 550.0, 31.0, 20.0 ],
+					"text" : "out 6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 551.0, 0.0, 25.0, 20.0 ],
+					"text" : "in 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 527.625, 0.0, 25.0, 20.0 ],
+					"text" : "in 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 410.0, 550.0, 31.0, 20.0 ],
+					"text" : "out 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 740.0, 4.0, 25.0, 20.0 ],
+					"text" : "in 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 310.0, 560.0, 31.0, 20.0 ],
+					"text" : "out 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 205.642857142857139, 530.0, 31.0, 20.0 ],
+					"text" : "out 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 104.642857142857125, 530.0, 31.0, 20.0 ],
+					"text" : "out 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 4.0, 25.0, 20.0 ],
+					"text" : "in 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 351.25, 4.0, 25.0, 20.0 ],
+					"text" : "in 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 532.0, 31.0, 20.0 ],
+					"text" : "out 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "require(\"peakamp\");\r\nrequire(\"log\");\r\nmean_rhythm(frame, excluding) {\r\n    Buffer j_rhythm(\"j_rhythm\");\r\n    Buffer r_rhythm(\"r_rhythm\");\r\n    mean = 0;\r\n    tracks = 4;\r\n    bands = 2;\r\n    for(track = 1; track <= tracks * bands; track += bands) {\r\n        if(excluding != track) {\r\n            for(band = track; band < track + bands; band += 1) {\r\n                mean += peek(r_rhythm, frame, band);\r\n            }\r\n        }\r\n    }\r\n    for(track = 1; track <= tracks * bands; track += bands) {\r\n        if(excluding != -track) {\r\n            for(band = track; band < track + bands; band += 1) {\r\n                mean += peek(j_rhythm, frame, band);\r\n            }\r\n        }\r\n    }\r\n    mean /= ((tracks * 2) - (excluding != 0)) * bands;\r\n    return mean;\r\n}\r\nBuffer palette_by_track(\"palette_by_track\");\r\nBuffer beats_by_track(\"beats_by_track\");\r\nBuffer tolerance(\"tolerance\");\r\nBuffer wake(\"wake\");\r\nBuffer windows(\"windows\");\r\nBuffer drain(\"drain\");\r\nBuffer rhythm(\"rhythm_\");\r\nBuffer stats(\"stats\");\r\nBuffer imported(\"imported\");\r\nBuffer checks(\"checks\");\r\nBuffer scores(\"scores\");\r\nBuffer largest(\"largest\");\r\nBuffer largest(\"largest\");\r\nBuffer running(\"running\");\r\nBuffer mode_interval(\"mode_interval\");\r\nHistory jamming_score(0);\r\nHistory recitation_score(0);\r\nHistory lock(0);\r\nHistory numerous(0);\r\nHistory conscious(0);\r\nHistory score(0);\r\nHistory most(0);\r\nHistory peak(0);\r\nHistory noiseless(0);\r\nHistory onsets(0);\r\nHistory cancel(0);\r\nHistory up(0);\r\nHistory contour(0);\r\nHistory energy(0);\r\nHistory memoryspan(0);\r\nHistory transient(0);\r\nHistory debug(0);\r\nHistory tick(0);\r\nHistory prior(0);\r\nDelay ago(99999);\r\nDelay undertow(2645959);\t//1 minute\r\nDelay undertow_x(2645959);\t//1 minute\r\nParam backing_ms(0);\r\nParam wakes(1);\r\nParam polarity(1);\r\nParam GUI(0);\r\nParam framerate(200);\r\nParam offset(0);\r\nParam track(0);\r\nlock = peek(stats, 10);\r\nTOLERANCE = peek(tolerance, 0);\r\ntolerance_samples = mstosamps(TOLERANCE);\r\nchannel = mc_channel + offset;\r\nif(in2) {\r\n\tconscious = 1;\r\n}\r\n//patented transient detection \r\nsmooth, t = peakamp(slide(in1, 0, 9999), 200);\r\nderivative = delta(smooth);\r\nmemoryspan = dim(rhythm) * max(wakes, 1);\t    //max() only needed if forgetfulness can be disabled\r\n//if(t == channel) {                         //doesn't work for some reason\r\nif(!t) {\r\n    tick = round((tick + 1) % dim(running));\r\n    poke(running, derivative, tick, mc_channel);\r\n    //blog(j_scores_log, channel);\r\n    //blog(j_scores_log, derivative);\r\n    //blog(j_scores_log, tick);\r\n    onsets = slide(derivative, 0, 1999);\r\n    cancel = slide(min(0, delta(energy)), 9, 1);\r\n\tif(change(onsets) > 0) {\r\n\t\tif(!energy) {\r\n\t\t\tup = elapsed;\r\n\t\t}\r\n\t\tenergy = onsets;\r\n\t\tif(cancel > -.0009) {\r\n\t\t\ttransient = energy;\r\n\t\t}\r\n\t}\r\n\tif(elapsed - up > 1764) {\t//40*44.1=1764\r\n\t\tenergy = 0;\r\n\t\ttransient = 0;\r\n\t}\r\n    for(window = 0; window <= numerous; window += 1) {\r\n        frame = peek(windows, window, channel);\r\n        if(frame) {\r\n            poke(windows, frame + 1, window, channel);\r\n            if(frame < dim(rhythm)) {                      //if within max beat interval (wake)\r\n                reverberation = peek(rhythm, frame, channel);\r\n                vibe = transient + reverberation;\t\t            //cumulative: playing faster= more added to rhythm, but this is fine because\r\n                //local_quantity = peek(rhythm, frame, 1) + 1;       //mean: actual scoring done later and based on average\r\n                //vibe = (transient + reverberation) / local_quantity;   //mean: jumped around too much with mean (no stable mode interval, for one)\r\n                if(transient && reverberation) {       //lock?\r\n                    if(!lock && conscious) {\r\n                        conscious = 0;\t\t\t    //Only one Lock per conscious to prevent immediate re-locking\r\n                        lock = 1;\r\n                        poke(stats, 1, 10);\r\n                        if(!peek(imported, 0)) {\r\n                            length = sampstoms(frame);\r\n                            if(backing_ms) {\t//dim(backing) instead?\r\n                                length = round(backing_ms, length, mode = \"ceil\");\r\n                            }\r\n                            for(i = 1; i <= dim(palette_by_track); i += 1) {    //Should eventually be active_by_channel\r\n                                active = peek(palette_by_track, i);\r\n                                if(active) {\r\n                                    poke(beats_by_track, length, i);\r\n                                }\r\n                            }\r\n                            poke(stats, length, 1);\r\n                        }\r\n                    }\r\n                }\r\n                poke(rhythm, vibe, frame, channel);                              //update\r\n                //poke(rhythm, local_quantity, frame, 1);\r\n                poke(drain, transient + peek(drain, frame, channel), frame, channel);\r\n                mean = mean_rhythm(frame, 0);                              //avg across bands\r\n                if(mean >= peek(largest, 0)) {                                          //peak finds mode_interval\r\n                    poke(largest, mean, 0);\r\n                    poke(mode_interval, sampstoms(frame * framerate), 0);\r\n                    poke(mode_interval, frame, 1);                         //2nd sample stores exact frame of peak\r\n                }\r\n            }\r\n            else {                                 //beyond wake (and memory span)\r\n                poke(windows, 0, window, channel);                                                       \r\n            }\r\n        }\r\n    }\r\n}\r\nif(delta(transient) < 0 && !transient) {               //at transients only:\r\n    frames_elapsed = round(elapsed / framerate);\r\n\tscore = 0;                                      //find score\r\n    total = 0;\r\n\tif(GUI) {\r\n\t\tfor(i = 0; i < dim(scores); i += 1) {\t\t//remove prior marks (GUI)\r\n\t\t\tpoke(scores, 0, i, channel);\r\n\t\t}\r\n\t}\r\n    for(check = 0; check <= most; check += 1) {     //checks recent scores \r\n\t\ttimestamp = peek(checks, check, channel);\r\n        if(timestamp) {\r\n            frame = frames_elapsed - timestamp;\r\n            if(frame >= dim(rhythm)) {             //forget checkpoint?\r\n                poke(checks, 0, check, channel);\r\n            }\r\n\t\t\telse {\r\n                //reverberation = mean_rhythm(frame, 0);\r\n                //track = ceil(channel / bands);\r\n                reverberation = mean_rhythm(frame, -(track * polarity));\r\n\t\t\t\tif(GUI) {                                                           //draw current marks (GUI)\r\n                    ratio = frame / dim(rhythm);\r\n                \tpoke(scores, reverberation, round(ratio * dim(scores)), channel);\r\n                \t//poke(scores, reverberation, round(sampstoms(frame / 100)), channel);    \r\n\t\t\t\t}\r\n                score += reverberation;\r\n                total += 1;\r\n            }\r\n        }\r\n    }\r\n    score /= total;\r\n    for(check = 0; check < dim(checks); check += 1) {\r\n        if(!peek(checks, check, channel)) {                      //set new point to check when scoring \r\n            poke(checks, frames_elapsed, check, channel);\r\n            most = max(most, check);\r\n            break;\r\n        }\r\n    }\r\n    for(window = 0; window < dim(windows); window += 1) {\r\n        if(!peek(windows, window, channel)) {                    //start new window \r\n            poke(windows, round(tolerance_samples / framerate), window, channel);\t//change(transient) == -1 && !transient already atom late; starting at tolerance will mean checks line up\r\n            numerous = max(numerous, window);\r\n            //blog(j_checks_log, round(tolerance_samples / framerate));\r\n            break;\r\n        }\r\n    }\r\n}\r\nout1 = score;\r\nout2 = lock;\r\nout3 = delta(transient) > 0;\r\nout4 = onsets;\r\nout5 = transient;\r\nout6 = debug;\r\nout7 = tick;\r\nout8 = peek(largest, 0);",
+					"fontface" : 0,
+					"fontname" : "<Monospaced>",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "codebox",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"outlettype" : [ "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 5.571428571428555, 28.0, 712.5, 500.0 ]
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-3", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-3", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-3", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-3", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-3", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-3", 4 ]
+				}
+
+			}
+ ]
+	}
+
+}
