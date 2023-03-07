@@ -22280,7 +22280,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 824.0, 670.0, 160.0, 20.0 ],
-					"text" : "3516.822209 4436.634845"
+					"text" : "0. 0.022676"
 				}
 
 			}
@@ -27668,7 +27668,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 393.0, 289.0, 991.0, 450.0 ],
+						"rect" : [ 779.0, 409.0, 991.0, 450.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -27698,6 +27698,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 150.875, 220.0, 49.0, 20.0 ],
+									"text" : "tosymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-5",
 									"linecount" : 2,
 									"maxclass" : "message",
@@ -27716,7 +27728,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.875, 200.0, 45.0, 20.0 ],
+									"patching_rect" : [ 150.875, 180.0, 45.0, 20.0 ],
 									"text" : "r project"
 								}
 
@@ -27728,7 +27740,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 145.875, 220.0, 213.0, 20.0 ],
+									"patching_rect" : [ 150.875, 200.0, 213.0, 20.0 ],
 									"text" : "regexp (/\\\\[Projects\\\\](.+)) @substitute %2.wav"
 								}
 
@@ -27920,20 +27932,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-44",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 293.0, 180.0, 77.0, 20.0 ],
-									"text" : "v P_worksPath"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"comment" : "",
 									"id" : "obj-52",
 									"index" : 1,
@@ -27985,7 +27983,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-48", 1 ],
+									"destination" : [ "obj-4", 0 ],
 									"order" : 1,
 									"source" : [ "obj-2", 0 ]
 								}
@@ -28024,6 +28022,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-40", 1 ],
 									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-48", 1 ],
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -32898,7 +32903,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-29",
-					"items" : [ "[2022-10-1-16-58-19]", ",", "[2022-10-18-16-5-40]", ",", "[2022-10-19-17-21-10]", ",", "[2022-10-20-18-10-50]", ",", "[2022-10-21-18-47-39]", ",", "[2022-10-23-20-29-27]", ",", "[2022-10-24-17-11-19]", ",", "[2022-10-24-17-22-47]", ",", "[2022-10-25-22-27-23]", ",", "[2022-10-26-19-52-31]", ",", "[2022-10-26-20-2-50]", ",", "[2022-10-27-18-43-37]", ",", "[2022-10-28-21-18-22]", ",", "[2022-10-3-20-26-25]", ",", "[2022-10-3-20-33-54]", ",", "[2022-10-30-21-31-51]", ",", "[2022-10-31-21-52-7]", ",", "[2022-10-6-17-58-41]", ",", "[2022-10-8-21-38-31]", ",", "[2022-11-1-20-42-59]", ",", "[2022-11-11-17-34-6]", ",", "[2022-11-15-18-14-58]", ",", "[2022-11-18-19-20-23]", ",", "[2022-11-18-19-30-45]", ",", "[2022-11-2-18-32-51]", ",", "[2022-11-23-19-9-13]", ",", "[2022-11-23-20-26-31]", ",", "[2022-11-24-16-55-50]", ",", "[2022-11-26-17-34-26]", ",", "[2022-11-3-19-6-20]", ",", "[2022-11-5-18-31-48]", ",", "[2022-11-5-18-46-19]", ",", "[2022-11-6-19-2-28]", ",", "[2022-12-28-20-41-1]", ",", "[2022-12-3-21-47-26]", ",", "[2022-8-26-16-26-50]", ",", "[2022-8-26-16-4-56]", ",", "[2022-8-30-19-49-10]", ",", "[2022-9-1-16-15-18]", ",", "[2022-9-1-20-6-9]", ",", "[2022-9-10-17-29-9]", ",", "[2022-9-11-18-19-10]", ",", "[2022-9-12-14-57-41]", ",", "[2022-9-13-18-53-39]", ",", "[2022-9-14-20-5-19]", ",", "[2022-9-15-17-8-1]", ",", "[2022-9-17-16-23-5]", ",", "[2022-9-18-16-39-28]", ",", "[2022-9-19-17-55-34]", ",", "[2022-9-2-19-23-51]", ",", "[2022-9-20-18-28-48]", ",", "[2022-9-21-17-37-45]", ",", "[2022-9-22-19-14-34]", ",", "[2022-9-23-19-1-44]", ",", "[2022-9-23-19-3-1]", ",", "[2022-9-25-17-10-52]", ",", "[2022-9-26-16-6-39]", ",", "[2022-9-28-19-21-21]", ",", "[2022-9-29-20-4-52]", ",", "[2022-9-3-17-54-35]", ",", "[2022-9-30-18-51-29]", ",", "[2022-9-7-19-41-35]", ",", "[2022-9-8-21-48-21]", ",", "[2022-9-9-15-59-1]", ",", "[2023-1-12-21-23-52]", ",", "[2023-1-17-18-55-31]", ",", "[2023-1-19-18-9-39]", ",", "[2023-2-10-17-49-30]", ",", "[2023-2-14-19-39-18]", ",", "[2023-2-3-17-39-28]", ",", "[2023-3-1-22-2-42]", ",", "[2023-3-2-21-39-51]", ",", "[2023-3-3-19-58-33]", ",", "[2023-3-3-20-59-28]", ",", "[Ableton Live]", ",", "[pulled] Operator Drone Project (from Russian Corvette)", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Cakes!", ",", "Caprice", ",", "Circles", ",", "Connected Human World Beast", ",", "Craterian Underworld", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "dying satellites", ",", "Echoing", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Felmar", ",", "Frost", ",", "Hate the Bear", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Sunrise", ",", "Jabberwocky Cipher", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Lifting", ",", "Lums", ",", "Mind in Void", ",", "Old Map of the Abyss", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Perfectly Lost", ",", "Powder Snow Jaunt", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Relentless Renaissance", ",", "Reticent", ",", "Roboticized Break-In", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Severance", ",", "Sidereal Scatter", ",", "Snowing Spores", ",", "Solitude", ",", "Sonder March", ",", "Stagger Proudly on", ",", "Stunningly Lost", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Conscious Mind", ",", "The Flowing Light", ",", "The Pavilion Bells", ",", "The Scalar", ",", "Thousand-Year Morning", ",", "Transmogrified", ",", "Triangle God", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Whenever I Die I Wake up Some Place Else", ",", "Wistful, Sulfurous", ",", "WXA", ",", "Your Eyes Remind Me of Something" ],
+					"items" : [ "[2022-10-1-16-58-19]", ",", "[2022-10-18-16-5-40]", ",", "[2022-10-19-17-21-10]", ",", "[2022-10-20-18-10-50]", ",", "[2022-10-21-18-47-39]", ",", "[2022-10-23-20-29-27]", ",", "[2022-10-24-17-11-19]", ",", "[2022-10-24-17-22-47]", ",", "[2022-10-25-22-27-23]", ",", "[2022-10-26-19-52-31]", ",", "[2022-10-26-20-2-50]", ",", "[2022-10-27-18-43-37]", ",", "[2022-10-28-21-18-22]", ",", "[2022-10-3-20-26-25]", ",", "[2022-10-3-20-33-54]", ",", "[2022-10-30-21-31-51]", ",", "[2022-10-31-21-52-7]", ",", "[2022-10-6-17-58-41]", ",", "[2022-10-8-21-38-31]", ",", "[2022-11-1-20-42-59]", ",", "[2022-11-11-17-34-6]", ",", "[2022-11-15-18-14-58]", ",", "[2022-11-18-19-20-23]", ",", "[2022-11-18-19-30-45]", ",", "[2022-11-2-18-32-51]", ",", "[2022-11-23-19-9-13]", ",", "[2022-11-23-20-26-31]", ",", "[2022-11-24-16-55-50]", ",", "[2022-11-26-17-34-26]", ",", "[2022-11-3-19-6-20]", ",", "[2022-11-5-18-31-48]", ",", "[2022-11-5-18-46-19]", ",", "[2022-11-6-19-2-28]", ",", "[2022-12-28-20-41-1]", ",", "[2022-12-3-21-47-26]", ",", "[2022-8-26-16-26-50]", ",", "[2022-8-26-16-4-56]", ",", "[2022-8-30-19-49-10]", ",", "[2022-9-1-16-15-18]", ",", "[2022-9-1-20-6-9]", ",", "[2022-9-10-17-29-9]", ",", "[2022-9-11-18-19-10]", ",", "[2022-9-12-14-57-41]", ",", "[2022-9-13-18-53-39]", ",", "[2022-9-14-20-5-19]", ",", "[2022-9-15-17-8-1]", ",", "[2022-9-17-16-23-5]", ",", "[2022-9-18-16-39-28]", ",", "[2022-9-19-17-55-34]", ",", "[2022-9-2-19-23-51]", ",", "[2022-9-20-18-28-48]", ",", "[2022-9-21-17-37-45]", ",", "[2022-9-22-19-14-34]", ",", "[2022-9-23-19-1-44]", ",", "[2022-9-23-19-3-1]", ",", "[2022-9-25-17-10-52]", ",", "[2022-9-26-16-6-39]", ",", "[2022-9-28-19-21-21]", ",", "[2022-9-29-20-4-52]", ",", "[2022-9-3-17-54-35]", ",", "[2022-9-30-18-51-29]", ",", "[2022-9-7-19-41-35]", ",", "[2022-9-8-21-48-21]", ",", "[2022-9-9-15-59-1]", ",", "[2023-1-12-21-23-52]", ",", "[2023-1-17-18-55-31]", ",", "[2023-1-19-18-9-39]", ",", "[2023-2-10-17-49-30]", ",", "[2023-2-14-19-39-18]", ",", "[2023-2-3-17-39-28]", ",", "[2023-3-1-22-2-42]", ",", "[2023-3-2-21-39-51]", ",", "[2023-3-3-19-58-33]", ",", "[2023-3-3-20-59-28]", ",", "[Ableton Live]", ",", "[pulled] Operator Drone Project (from Russian Corvette)", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Cakes!", ",", "Caprice", ",", "Circles", ",", "Connected Human World Beast", ",", "Craterian Underworld", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "dying satellites", ",", "Echoing", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Felmar", ",", "Frost", ",", "Hate the Bear", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Sunrise", ",", "Jabberwocky Cipher", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Lifting", ",", "Lums", ",", "Mind in Void", ",", "Old Map of the Abyss", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Perfectly Lost", ",", "Powder Snow Jaunt", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Relentless Renaissance", ",", "Reticent", ",", "Roboticized Break-In", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Severance", ",", "Sidereal Scatter", ",", "Snowing Spores", ",", "Solitude", ",", "Sonder March", ",", "Stagger Proudly on", ",", "Stunningly Lost", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Conscious Mind", ",", "The Flowing Light", ",", "The Pavilion Bells", ",", "The Scalar", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Transmogrified", ",", "Triangle God", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Whenever I Die I Wake up Some Place Else", ",", "Wistful, Sulfurous", ",", "WXA", ",", "Your Eyes Remind Me of Something" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -54741,10 +54746,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 6",
-										"numoutlets" : 0,
-										"id" : "obj-10",
 										"patching_rect" : [ 581.0, 400.0, 31.0, 20.0 ],
-										"numinlets" : 1
+										"numinlets" : 1,
+										"numoutlets" : 0,
+										"id" : "obj-10"
 									}
 
 								}
@@ -54752,10 +54757,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 5",
-										"numoutlets" : 0,
-										"id" : "obj-8",
 										"patching_rect" : [ 466.800000000000011, 410.0, 31.0, 20.0 ],
-										"numinlets" : 1
+										"numinlets" : 1,
+										"numoutlets" : 0,
+										"id" : "obj-8"
 									}
 
 								}
@@ -54763,10 +54768,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 4",
-										"numoutlets" : 0,
-										"id" : "obj-7",
 										"patching_rect" : [ 352.600000000000023, 400.0, 31.0, 20.0 ],
-										"numinlets" : 1
+										"numinlets" : 1,
+										"numoutlets" : 0,
+										"id" : "obj-7"
 									}
 
 								}
@@ -54774,10 +54779,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 3",
-										"numoutlets" : 0,
-										"id" : "obj-6",
 										"patching_rect" : [ 295.5, 390.0, 31.0, 20.0 ],
-										"numinlets" : 1
+										"numinlets" : 1,
+										"numoutlets" : 0,
+										"id" : "obj-6"
 									}
 
 								}
@@ -54785,10 +54790,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 2",
-										"numoutlets" : 0,
-										"id" : "obj-5",
 										"patching_rect" : [ 152.75, 390.0, 31.0, 20.0 ],
-										"numinlets" : 1
+										"numinlets" : 1,
+										"numoutlets" : 0,
+										"id" : "obj-5"
 									}
 
 								}
@@ -54796,11 +54801,11 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "in 1",
-										"numoutlets" : 1,
 										"outlettype" : [ "" ],
-										"id" : "obj-1",
 										"patching_rect" : [ 10.0, 10.0, 25.0, 20.0 ],
-										"numinlets" : 0
+										"numinlets" : 0,
+										"numoutlets" : 1,
+										"id" : "obj-1"
 									}
 
 								}
@@ -54808,25 +54813,25 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "in 2",
-										"numoutlets" : 1,
 										"outlettype" : [ "" ],
-										"id" : "obj-2",
 										"patching_rect" : [ 265.0, 10.0, 25.0, 20.0 ],
-										"numinlets" : 0
+										"numinlets" : 0,
+										"numoutlets" : 1,
+										"id" : "obj-2"
 									}
 
 								}
 , 								{
 									"box" : 									{
 										"maxclass" : "codebox",
-										"numoutlets" : 6,
-										"fontface" : 0,
 										"outlettype" : [ "", "", "", "", "", "" ],
-										"id" : "obj-3",
 										"patching_rect" : [ 10.0, 30.0, 590.0, 360.0 ],
 										"fontsize" : 10.0,
 										"numinlets" : 1,
 										"fontname" : "<Monospaced>",
+										"numoutlets" : 6,
+										"fontface" : 0,
+										"id" : "obj-3",
 										"code" : "require(\"dynamic_crossfade\")\r\nBuffer stem(\"_s\");\r\nBuffer palette(\"_p\");\r\nBuffer product(\"_p\");\r\nBuffer comp(\"comp\");\r\nBuffer stats(\"stats\");\r\nParam track(0);\r\nParam lead(44100);\r\nParam offset(0);\r\nParam auditioning(0);\r\nHistory from(0);\r\nHistory to(1);\r\nHistory jump(0);\r\nHistory zoom1(0);\r\nHistory zoom2(1);\r\nHistory t(0);\r\nHistory debug(0);\r\n//poke(stats, sampstoms(dim(stem)), 1);\r\ndomain = dim(stem);\r\nstart = from - lead;\r\nend = to + lead;\r\nlength = end - start;\r\nt = (elapsed - jump) % length;\r\nif(change(from) && from) {\t//&& from prevents happening again next sample \r\n    jump = elapsed;\r\n    zoom1 = max(0, start);\r\n    zoom2 = min(domain, end) - zoom1;\r\n    if(from == to) {\r\n        jump -= from;\r\n        from = 0;\r\n        to = domain;\r\n    }\r\n}\r\nt += start;\r\nif(to - from == domain) {\r\n    zoom1 = max(0, t - lead);\r\n    zoom2 = min(domain, t + lead) - zoom1;\r\n}\r\nif(track == mc_channel && auditioning) {\r\n    on = t > from && t < to;\r\n    surround = peek(stem, t);\r\n    audition = peek(palette, t + offset);\r\n    _l, out4, out1, out6 = dynamic_crossfade(on, surround, audition);\r\n\tif(!on && change(out6) < 0) {\r\n\t\tpoke(comp, t, 1);\r\n\t}\r\n}\r\nelse {\r\n    out1 = peek(stem, t);\r\n}\r\npoke(product, out1, t);\r\nout2 = t;\r\nout3 = zoom1;\r\nout5 = zoom2;"
 									}
 
@@ -54835,46 +54840,18 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 1",
-										"numoutlets" : 0,
-										"id" : "obj-4",
 										"patching_rect" : [ 10.0, 390.0, 31.0, 20.0 ],
-										"numinlets" : 1
+										"numinlets" : 1,
+										"numoutlets" : 0,
+										"id" : "obj-4"
 									}
 
 								}
  ],
 							"lines" : [ 								{
 									"patchline" : 									{
-										"source" : [ "obj-3", 5 ],
-										"destination" : [ "obj-10", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 4 ],
-										"destination" : [ "obj-8", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 3 ],
-										"destination" : [ "obj-7", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 2 ],
-										"destination" : [ "obj-6", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-1", 0 ],
-										"destination" : [ "obj-3", 0 ]
+										"source" : [ "obj-3", 1 ],
+										"destination" : [ "obj-5", 0 ]
 									}
 
 								}
@@ -54887,8 +54864,36 @@
 								}
 , 								{
 									"patchline" : 									{
-										"source" : [ "obj-3", 1 ],
-										"destination" : [ "obj-5", 0 ]
+										"source" : [ "obj-1", 0 ],
+										"destination" : [ "obj-3", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 2 ],
+										"destination" : [ "obj-6", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 3 ],
+										"destination" : [ "obj-7", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 4 ],
+										"destination" : [ "obj-8", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 5 ],
+										"destination" : [ "obj-10", 0 ]
 									}
 
 								}
@@ -54904,7 +54909,7 @@
 					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 337.0, 420.0, 343.0, 20.0 ],
 					"text" : "mc.gen~ @chans 4",
-					"wrapper_uniquekey" : "u725000578"
+					"wrapper_uniquekey" : "u209010965"
 				}
 
 			}
@@ -76621,7 +76626,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 230.0, 50.0, 20.0 ],
-					"text" : "5"
+					"text" : "7"
 				}
 
 			}
@@ -84614,20 +84619,6 @@
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "passes_2023-3-3-20-59-28.txt",
-				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2023-3-3-20-59-28]",
-				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/[2023-3-3-20-59-28]",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scores_2023-3-3-20-58-28.txt",
-				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2023-3-3-20-59-28]",
-				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/[2023-3-3-20-59-28]",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
