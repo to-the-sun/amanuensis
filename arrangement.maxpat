@@ -40,6 +40,6682 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-163",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 3,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 594.0, 213.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 2,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 2,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "Size 10 grid",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-24",
+									"index" : 2,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 380.0, 80.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 422.0, 110.0, 147.0, 20.0 ],
+									"text" : "sprintf symout %s/preserves.txt"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 422.0, 90.0, 45.0, 20.0 ],
+									"text" : "r project"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-38",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 380.0, 110.0, 48.0, 20.0 ],
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial Bold",
+									"fontsize" : 10.0,
+									"id" : "obj-40",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 380.0, 130.0, 61.0, 31.0 ],
+									"text" : "pack write s"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 41.333334565162659, 0.0, 84.0, 20.0 ],
+									"text" : "write D:/yyyyh.txt"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 311.0, 130.0, 64.0, 20.0 ],
+									"text" : "prepend seq"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 311.0, 110.0, 40.0, 20.0 ],
+									"text" : "unjoin"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 480.0, 130.0, 34.0, 20.0 ],
+									"text" : "dump"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 460.0, 240.0, 28.0, 20.0 ],
+									"text" : "print"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 180.0, 150.0, 68.0, 20.0 ],
+									"text" : "pack add i f 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 110.0, 150.0, 68.0, 20.0 ],
+									"text" : "pack add i f 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 240.0, 110.0, 75.0, 20.0 ],
+									"text" : "prepend delete"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "add", "", "", "" ],
+									"patching_rect" : [ 110.0, 90.0, 220.0, 20.0 ],
+									"text" : "t add l l l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 175.333333333333314, 110.0, 40.0, 20.0 ],
+									"text" : "unjoin"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 5,
+											"revision" : 3,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 567.0, 355.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 2,
+										"gridsize" : [ 10.0, 10.0 ],
+										"gridsnaponopen" : 2,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "Size 10 grid",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-19",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 372.0, 250.0, 28.0, 20.0 ],
+													"text" : "print"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-18",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 262.0, 150.0, 143.0, 20.0 ],
+													"text" : "sprintf get preserves::track_%i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-17",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 4,
+													"outlettype" : [ "dictionary", "", "", "" ],
+													"patching_rect" : [ 262.0, 170.0, 53.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"parameter_enable" : 0,
+														"parameter_mappable" : 0
+													}
+,
+													"text" : "dict specs"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-16",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 172.0, 190.0, 30.0, 20.0 ],
+													"text" : "clear"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-14",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 102.166666666666657, 100.0, 50.5, 20.0 ],
+													"text" : "unjoin 3"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-12",
+													"maxclass" : "newobj",
+													"numinlets" : 5,
+													"numoutlets" : 4,
+													"outlettype" : [ "int", "", "", "int" ],
+													"patching_rect" : [ 112.666666666666657, 130.0, 61.0, 20.0 ],
+													"text" : "counter"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-10",
+													"maxclass" : "newobj",
+													"numinlets" : 4,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 150.0, 207.0, 20.0 ],
+													"text" : "sprintf replace preserves::track_%i::%i %f %f"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-30",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 273.333333333333314, 190.0, 47.0, 20.0 ],
+													"text" : "zl slice 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-28",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 4,
+													"outlettype" : [ "dictionary", "", "", "" ],
+													"patching_rect" : [ 50.000000000000007, 200.0, 53.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"parameter_enable" : 0,
+														"parameter_mappable" : 0
+													}
+,
+													"text" : "dict specs"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-48",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 5,
+													"outlettype" : [ "", "", "", "", "" ],
+													"patching_rect" : [ 301.333333333333314, 250.0, 61.0, 20.0 ],
+													"text" : "unjoin 4"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-49",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 301.333333333333314, 230.0, 41.0, 20.0 ],
+													"text" : "zl iter 4"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-50",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 301.333333333333314, 210.0, 69.0, 20.0 ],
+													"text" : "dict.serialize"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-5",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 102.166663999999997, 40.0, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-28", 0 ],
+													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-10", 1 ],
+													"source" : [ "obj-12", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-10", 3 ],
+													"source" : [ "obj-14", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-10", 2 ],
+													"order" : 0,
+													"source" : [ "obj-14", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-10", 0 ],
+													"order" : 1,
+													"source" : [ "obj-14", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-12", 0 ],
+													"order" : 1,
+													"source" : [ "obj-14", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-18", 0 ],
+													"order" : 0,
+													"source" : [ "obj-14", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-28", 0 ],
+													"source" : [ "obj-16", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-30", 0 ],
+													"source" : [ "obj-17", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-17", 0 ],
+													"source" : [ "obj-18", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-50", 0 ],
+													"source" : [ "obj-30", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-19", 0 ],
+													"order" : 0,
+													"source" : [ "obj-49", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-48", 0 ],
+													"order" : 1,
+													"source" : [ "obj-49", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-14", 0 ],
+													"source" : [ "obj-5", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-49", 0 ],
+													"source" : [ "obj-50", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 570.0, 350.0, 32.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"fontsize" : 10.0,
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p dict"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 240.0, 190.0, 40.0, 20.0 ],
+									"text" : "seq~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 142.166666666666657, 10.0, 36.0, 20.0 ],
+									"text" : "r track"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 142.166666666666657, 30.0, 104.000001907348633, 20.0 ],
+									"text" : "join 3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-42",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 142.166666666666657, 50.0, 57.0, 20.0 ],
+									"text" : "mousefilter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-36",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 227.16666857401529, 10.0, 25.0, 20.0 ],
+									"text" : "r to"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 184.666667620340974, 10.0, 37.0, 20.0 ],
+									"text" : "r from"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 110.166666666666657, 70.0, 51.0, 20.0 ],
+									"text" : "gate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 110.166666666666657, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-10", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"order" : 1,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"order" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-10", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-10", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 1,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-20", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-38", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 1 ],
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 2 ],
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 1 ],
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-42", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 1 ],
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 2 ],
+									"source" : [ "obj-7", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 1 ],
+									"order" : 1,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 2 ],
+									"source" : [ "obj-7", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 1 ],
+									"order" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 922.0, 390.0, 65.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p preserves"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-155",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 60.0, 260.0, 81.0, 20.0 ],
+					"text" : "clip 0.000001 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-154",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 3,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 654.0, 418.0, 640.0, 301.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 2,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 2,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "Size 10 grid",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"linecount" : 9,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 279.0, 130.0, 50.0, 112.0 ],
+									"text" : "\"D:/[Library]/[Audio]/[Works]/[Projects]/Interior Frontier/preserves.wav\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 470.0, 100.0, 41.0, 20.0 ],
+									"text" : "t bang l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 80.0, 31.0, 20.0 ],
+									"text" : "bang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-6",
+									"maxclass" : "number~",
+									"mode" : 2,
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "float" ],
+									"patching_rect" : [ 120.0, 160.0, 56.0, 20.0 ],
+									"sig" : 0.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 310.0, 100.0, 155.0, 20.0 ],
+									"text" : "sprintf symout %s/preserves.wav"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 310.0, 80.0, 45.0, 20.0 ],
+									"text" : "r project"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 279.0, 150.0, 68.0, 20.0 ],
+									"text" : "prepend read"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-24",
+									"index" : 2,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 248.0, 30.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 290.0, 60.0, 155.0, 20.0 ],
+									"text" : "sprintf symout %s/preserves.wav"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 290.0, 40.0, 45.0, 20.0 ],
+									"text" : "r project"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-38",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 248.0, 60.0, 48.0, 20.0 ],
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 248.0, 80.0, 62.0, 20.0 ],
+									"text" : "pack write s"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 30.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-161",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 470.0, 80.0, 84.0, 20.0 ],
+									"text" : "prepend setsize"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-160",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 470.0, 60.0, 75.0, 20.0 ],
+									"text" : "r song_length"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-159",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "bang" ],
+									"patching_rect" : [ 279.0, 180.0, 115.0, 20.0 ],
+									"text" : "buffer~ preserves 99 5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-156",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 5,
+											"revision" : 3,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 758.0, 349.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 2,
+										"gridsize" : [ 10.0, 10.0 ],
+										"gridsnaponopen" : 2,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "Size 10 grid",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-11",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 347.0, 171.0, 70.0, 20.0 ],
+													"text" : "prepend track"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-7",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 347.0, 141.0, 39.0, 20.0 ],
+													"text" : "r track"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 216.0, 300.0, 68.0, 20.0 ],
+													"text" : "prepend from"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 61.0, 340.0, 56.0, 20.0 ],
+													"text" : "prepend to"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "signal", "float" ],
+													"patching_rect" : [ 170.0, 280.0, 65.0, 20.0 ],
+													"text" : "mstosamps~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-88",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "signal", "float" ],
+													"patching_rect" : [ 10.0, 320.0, 70.0, 20.0 ],
+													"text" : "mstosamps~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-85",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "signal", "float" ],
+													"patching_rect" : [ -1.0, 180.0, 70.0, 20.0 ],
+													"text" : "mstosamps~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-86",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ -1.0, 160.0, 35.0, 20.0 ],
+													"text" : "r lead"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-87",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 200.0, 67.0, 20.0 ],
+													"text" : "prepend lead"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-42",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 170.0, 260.0, 62.0, 20.0 ],
+													"text" : "mousefilter"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-41",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 10.0, 300.0, 62.0, 20.0 ],
+													"text" : "mousefilter"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-74",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "signal", "float" ],
+													"patching_rect" : [ 140.0, 40.0, 70.0, 20.0 ],
+													"text" : "mstosamps~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-67",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 140.0, 20.0, 42.0, 20.0 ],
+													"text" : "r offset"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-68",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 150.0, 90.0, 47.0, 20.0 ],
+													"text" : "r palette"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-69",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 150.0, 110.0, 134.0, 20.0 ],
+													"text" : "prepend setvalue 0 palette"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-70",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 134.0, 70.0, 129.0, 20.0 ],
+													"text" : "prepend setvalue 0 offset"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-36",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 170.0, 240.0, 37.0, 20.0 ],
+													"text" : "r from"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-35",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 10.0, 280.0, 25.0, 20.0 ],
+													"text" : "r to"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-89",
+													"index" : 1,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 130.666672000000005, 370.0, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-89", 0 ],
+													"source" : [ "obj-11", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"source" : [ "obj-2", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-89", 0 ],
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-41", 0 ],
+													"source" : [ "obj-35", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 0 ],
+													"source" : [ "obj-36", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-89", 0 ],
+													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-88", 0 ],
+													"source" : [ "obj-41", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-74", 0 ],
+													"source" : [ "obj-67", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-69", 0 ],
+													"source" : [ "obj-68", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-89", 0 ],
+													"disabled" : 1,
+													"source" : [ "obj-69", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-11", 0 ],
+													"source" : [ "obj-7", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-89", 0 ],
+													"disabled" : 1,
+													"source" : [ "obj-70", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-70", 0 ],
+													"source" : [ "obj-74", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-87", 0 ],
+													"source" : [ "obj-85", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-85", 0 ],
+													"source" : [ "obj-86", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-89", 0 ],
+													"disabled" : 1,
+													"source" : [ "obj-87", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-88", 1 ]
+												}
+
+											}
+ ],
+										"styles" : [ 											{
+												"name" : "Custom Default",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-10",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-11",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-1-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-1-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-1-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-1-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-1-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-1-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-4-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-4-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-4-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-5-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-7",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-1-8",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-1-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-1-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-1-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-1-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-1-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-1-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-2",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-2-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-2-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-3",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-3-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-3-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-4-1",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-4-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-4-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-5-1",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-6",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-7",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-2-8",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-3-1",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-3-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-3-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-3-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-3-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-3-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-4",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-4-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-4-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-7",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-7-1",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-7-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-7-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-8",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-1-8-1",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-1-9",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-3-1",
+												"default" : 												{
+													"fontface" : [ 0 ],
+													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-3-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-3-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-1-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-1-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-1-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-1-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-1-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-1-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-4-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-4-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-4-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-5-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-7",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-1-8",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-1-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-1-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-1-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-1-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-1-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-1-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-2-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-2-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-3-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-3-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-4-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-4-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-4-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-5-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-7",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-1-8",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-1-1-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-1-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-1-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-1-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-1-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-1-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-1-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-1-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-2-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-2-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-3",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-3-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-3-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-4",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-4-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-4-1-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-4-2",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-5",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-6-5-1",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-6",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-7",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-6-8",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default Regular-7",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default Regular-8",
+												"message" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"newobj" : 												{
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 10.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 1
+											}
+, 											{
+												"name" : "Custom Default-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-1-1-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-1-1-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-1-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-1-3",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-1-4",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-1-4-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-1-1-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-1-1-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-1-1-1-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-1-1-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-1-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-1-3",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-1-4",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-1-5",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-1-6",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-3",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-4",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-4-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-4-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-4-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-5",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-5-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-6",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-7",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-1-8",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-3",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-3-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-3-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-3-1-1-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-3-1-1-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-3-1-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-3-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-3-3",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-3-4",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-3-5",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-3-6",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-4",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-5",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-5-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-5-1-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-5-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-6",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-6-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-7",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-8",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-2-9",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-3",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-4",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-1-4-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-1-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-1-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-1-1-1-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-1-1-1-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-1-1-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-1-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-1-3",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-1-4",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-1-5",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-1-6",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-3",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-4",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-4-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-4-1-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-4-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-5",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-5-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-6",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-7",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-1-8",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-3",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-3-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-3-1-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-3-1-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-3-1-1-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-3-1-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-3-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-3-3",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-3-4",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-3-5",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-3-6",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-4",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-5",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-5-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-5-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-5-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-6",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-6-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-7",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-8",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-3-9",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-4",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-5",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-1-5-1",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-10",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-11",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-11-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-2",
+												"newobj" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"message" : 												{
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-3",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-4",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-5",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-6",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-7",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-8",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-8-1",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-8-2",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-1",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-1-1-1",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-1-1-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-1-1-1-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-1-1-2",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-1-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-1-3",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-1-4",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-1-5",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-1-6",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-3",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-4",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-4-1",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-4-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-4-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-5",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-5-1",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-6",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-7",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-1-8",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-3",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-3-1",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-3-1-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-3-1-1-1",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-3-1-1-2",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-3-1-2",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-3-2",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-3-3",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-3-4",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-3-5",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-3-6",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-4",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-5",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-5-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-5-1-1",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-5-2",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-6",
+												"default" : 												{
+													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-6-1",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-7",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-8",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "Custom Default-9-9",
+												"default" : 												{
+													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+												}
+,
+												"parentstyle" : "Custom Default-2",
+												"multi" : 0
+											}
+, 											{
+												"name" : "ksliderWhite",
+												"default" : 												{
+													"color" : [ 1, 1, 1, 1 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "newobjBlue-1",
+												"default" : 												{
+													"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "newobjBrown-1",
+												"default" : 												{
+													"accentcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "newobjGreen-1",
+												"default" : 												{
+													"accentcolor" : [ 0, 0.533333, 0.168627, 1 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "newobjYellow-1",
+												"default" : 												{
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "numberGold-1",
+												"default" : 												{
+													"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 89.5, 100.0, 53.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"fontsize" : 10.0,
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p params"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-157",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 50.0, 100.0, 37.0, 20.0 ],
+									"text" : "click~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-158",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 5,
+											"revision" : 3,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "dsp.gen",
+										"rect" : [ 473.0, 336.0, 604.0, 510.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 2,
+										"gridsize" : [ 10.0, 10.0 ],
+										"gridsnaponopen" : 2,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "Size 10 grid",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 380.0, 60.0, 31.0, 20.0 ],
+													"text" : "out 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 14.0, 25.0, 20.0 ],
+													"text" : "in 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 350.0, 14.0, 25.0, 20.0 ],
+													"text" : "in 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"code" : "Buffer preserves(\"preserves\");\r\nParam iterations(99);\r\nParam to(0);\r\nParam from(0);\r\nParam track(0);\r\nHistory at(0);\r\nfinished = 0;\r\nif(change(to)) {\r\n\tat = to;\r\n}\r\nif(in1) {\r\n\tat = from;\r\n}\r\nif(at < to) {\r\n    for(i = at; i < at + iterations; i += 1) {\r\n        poke(preserves, in2, i, track);\r\n    }\r\n\tat += iterations;\r\n}\r\nelse {\r\n\tfinished = 1;\r\n}\r\nout1 = finished;",
+													"fontface" : 0,
+													"fontname" : "<Monospaced>",
+													"fontsize" : 10.0,
+													"id" : "obj-3",
+													"maxclass" : "codebox",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 20.0, 40.0, 349.0, 310.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 10.0, 370.0, 31.0, 20.0 ],
+													"text" : "out 1"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 1 ],
+													"order" : 1,
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"order" : 0,
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 50.0, 130.0, 32.0, 20.0 ],
+									"text" : "gen~"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"order" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-158", 1 ],
+									"order" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-157", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-158", 0 ],
+									"source" : [ "obj-156", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-158", 0 ],
+									"source" : [ "obj-157", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-158", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-161", 0 ],
+									"source" : [ "obj-160", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-161", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-159", 0 ],
+									"source" : [ "obj-2", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-38", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 1 ],
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-159", 0 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-159", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 1 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 94.0, 690.0, 67.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p preserves"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgcolor" : [ 0.0, 0.0, 0.0, 0.25 ],
+					"activebgoncolor" : [ 0.0, 0.0, 0.0, 0.25 ],
+					"automation" : "following",
+					"automationon" : "looping",
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.25 ],
+					"bgoncolor" : [ 0.0, 0.0, 0.0, 0.25 ],
+					"bordercolor" : [ 0.086274509803922, 0.086274509803922, 0.086274509803922, 0.0 ],
+					"focusbordercolor" : [ 0.086274509803922, 0.086274509803922, 0.086274509803922, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-153",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 94.0, 670.0, 57.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 682.0, 690.0, 57.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_enum" : [ "following", "looping" ],
+							"parameter_longname" : "live.text[5]",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "release",
+					"texton" : "preserve",
+					"varname" : "live.text[5]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-151",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -77,7 +6753,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-133",
-					"items" : [ 20, 0.0, "4.0.txt", 9.0, ",", 19, 0.0, "3.0.txt", 9.0, ",", 18, 0.0, "2.0.txt", 9.0, ",", 17, 0.0, "1.0.txt", 9.0, ",", 1, 173445.827664000011282, "2023-3-27-22-35-10.txt", 0.491656, ",", 14, 364551.859409999975469, "2023-3-30-23-38-53.txt", 0.350832, ",", 7, -20459.0, "2023-3-29-23-3-46.txt", 0.169879, ",", 0, -8825.0, "2023-3-27-22-35-10.txt", 0.1156435, ",", 12, 0.0, "2023-3-30-23-38-53.txt", 0.096415, ",", 16, 729099.34240399999544, "2023-3-30-23-38-53.txt", 0.0, ",", 15, 546825.600907000014558, "2023-3-30-23-38-53.txt", 0.0, ",", 13, 182275.215419999993173, "2023-3-30-23-38-53.txt", 0.0, ",", 11, 708630.952381000039168, "2023-3-29-23-3-46.txt", 0.0, ",", 10, 526357.210883999941871, "2023-3-29-23-3-46.txt", 0.0, ",", 9, 344083.469388000026811, "2023-3-29-23-3-46.txt", 0.0, ",", 8, 161811.179138000006787, "2023-3-29-23-3-46.txt", 0.0, ",", 6, 519098.072562000015751, "2023-3-28-23-36-53.txt", 0.0, ",", 5, 336827.233560000022408, "2023-3-28-23-36-53.txt", 0.0, ",", 4, 154550.589569000003394, "2023-3-28-23-36-53.txt", 0.0, ",", 3, -27721.0, "2023-3-28-23-36-53.txt", 0.0, ",", 2, 355719.569161000021268, "2023-3-27-22-35-10.txt", 0.0 ],
+					"items" : [ 29, 828435.75963700003922, "2023-4-6-21-57-53.txt", 0.0, ",", 25, 967157.573696000035852, "2023-4-6-21-55-34.txt", 0.0, ",", 21, 864796.757370000006631, "2023-4-4-20-50-11.txt", 0.0, ",", 17, 889955.578230999992229, "2023-4-4-20-49-46.txt", 0.0, ",", 13, 1026442.471655000001192, "2023-4-2-22-3-45.txt", 0.0, ",", 8, 1045947.2335599999642, "2023-4-2-22-2-42.txt", 0.0, ",", 3, 323043.28798199997982, "2023-4-13-23-12-6.txt", 0.0, ",", 1, 200305.510203999991063, "2023-1-27-15-40-34.txt", 0.0 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -467,7 +7143,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 73.0, 620.0, 48.0, 20.0 ],
+					"patching_rect" : [ 141.0, 600.0, 48.0, 20.0 ],
 					"text" : "r hidden"
 				}
 
@@ -1058,14 +7734,14 @@
 																"box" : 																{
 																	"autopopulate" : 1,
 																	"id" : "obj-31",
-																	"items" : [ "description.txt", ",", "KeyRig 49.txt", ",", "lengths.txt", ",", "log [2022-09-01-20-06-19].txt", ",", "log [2022-09-02-19-46-28].txt", ",", "log [2022-11-10-16-25-50].txt", ",", "log [2023-01-15-19-39-36].txt", ",", "log [2023-03-27-22-22-07].txt", ",", "log [2023-03-27-22-35-10].txt", ",", "log [2023-03-28-23-36-35].txt", ",", "log [2023-03-29-23-03-35].txt", ",", "log [2023-03-30-23-39-39].txt", ",", "OpenFace.txt", ",", "passes_2023-1-15-19-32-28.txt", ",", "passes_2023-3-27-22-35-10.txt", ",", "passes_2023-3-28-23-36-53.txt", ",", "passes_2023-3-29-23-3-46.txt", ",", "passes_2023-3-30-23-38-53.txt", ",", "passes_sequence_1.0.txt", ",", "passes_sequence_2.0.txt", ",", "passes_sequence_3.0.txt", ",", "passes_sequence_4.0.txt", ",", "scores_2023-3-27-22-35-10.txt", ",", "scores_2023-3-28-23-36-53.txt", ",", "scores_2023-3-29-23-3-46.txt", ",", "scores_2023-3-30-23-38-53.txt", ",", "scores_sequence_1.0.txt", ",", "scores_sequence_2.0.txt", ",", "scores_sequence_3.0.txt", ",", "scores_sequence_4.0.txt", ",", "specs.txt", ",", "top_sounds.txt", ",", "USB Midi Cable.txt" ],
+																	"items" : [ "Controller (XBOX 360 For Windows).txt", ",", "description.txt", ",", "KeyRig 49.txt", ",", "lengths.txt", ",", "log [2022-10-08-21-38-41].txt", ",", "log [2022-11-19-20-44-10].txt", ",", "log [2023-01-27-15-40-24].txt", ",", "log [2023-04-02-22-03-36].txt", ",", "log [2023-04-04-20-49-27].txt", ",", "log [2023-04-06-21-55-23].txt", ",", "log [2023-04-13-23-12-08].txt", ",", "OpenFace.txt", ",", "passes_2023-1-27-15-40-34.txt", ",", "passes_2023-4-13-23-12-6.txt", ",", "passes_2023-4-2-22-2-42.txt", ",", "passes_2023-4-2-22-3-45.txt", ",", "passes_2023-4-4-20-49-46.txt", ",", "passes_2023-4-4-20-50-11.txt", ",", "passes_2023-4-6-21-55-34.txt", ",", "passes_2023-4-6-21-57-53.txt", ",", "scores_2023-4-13-23-12-6.txt", ",", "scores_2023-4-2-22-2-42.txt", ",", "scores_2023-4-2-22-3-45.txt", ",", "scores_2023-4-4-20-49-46.txt", ",", "scores_2023-4-4-20-50-11.txt", ",", "scores_2023-4-6-21-55-34.txt", ",", "scores_2023-4-6-21-57-53.txt", ",", "specs.txt", ",", "top_sounds.txt", ",", "USB Midi Cable.txt" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "int", "", "" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 50.0, 150.0, 100.0, 20.0 ],
-																	"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Preserve All Things/",
+																	"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Interior Frontier/",
 																	"types" : "TEXT"
 																}
 
@@ -5967,7 +12643,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 280.0, 50.0, 20.0 ],
-													"text" : "20"
+													"text" : "29"
 												}
 
 											}
@@ -11334,7 +18010,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 120.0, 320.0, 143.0, 20.0 ],
-									"text" : "0.088324"
+									"text" : "0.028039"
 								}
 
 							}
@@ -16630,13 +23306,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-49",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 840.0, 330.0, 148.0, 31.0 ],
-					"text" : "2 180055.517471 180890.366842"
+					"patching_rect" : [ 840.0, 330.0, 148.0, 20.0 ],
+					"text" : "2 323895.7852 338818.5304"
 				}
 
 			}
@@ -16678,7 +23353,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 820.0, 120.0, 30.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 474.326973193496713, 100.0, 197.995787629759604, 50.0 ],
+					"presentation_rect" : [ 116.115597908126844, 100.0, 866.381740664311906, 50.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"varname" : "selection"
@@ -17123,7 +23798,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.0, 270.0, 30.0, 30.0 ]
+									"patching_rect" : [ 20.0, 280.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -22246,7 +28921,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 359.0, 170.0, 170.0, 20.0 ],
-					"text" : "2 178055.517471 182890.366842"
+					"text" : "2 321895.7852 340818.5304"
 				}
 
 			}
@@ -22509,7 +29184,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 842.5, 660.0, 160.0, 20.0 ],
-					"text" : "178055.517471 4216.5"
+					"text" : "321895.7852 17224.2148"
 				}
 
 			}
@@ -27865,7 +34540,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 73.0, 660.0, 165.0, 20.0 ],
+					"patching_rect" : [ 141.0, 640.0, 165.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -27885,7 +34560,8 @@
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -27927,6 +34603,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"comment" : "",
+									"id" : "obj-6",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 30.0, 150.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -27946,7 +34634,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 174.875, 250.0, 188.000000834465027, 31.0 ],
-									"text" : "D:/[Library]/[Audio]/[Works]/Preserve All Things.wav"
+									"text" : "D:/[Library]/[Audio]/[Works]/Interior Frontier.wav"
 								}
 
 							}
@@ -28192,6 +34880,14 @@
 								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
 									"order" : 0,
+									"source" : [ "obj-1", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"order" : 2,
 									"source" : [ "obj-1", 1 ]
 								}
 
@@ -33032,7 +39728,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 73.0, 690.0, 70.0, 20.0 ],
+					"patching_rect" : [ 141.0, 670.0, 70.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -33132,7 +39828,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-29",
-					"items" : [ "[2022-10-1-16-58-19]", ",", "[2022-10-18-16-5-40]", ",", "[2022-10-19-17-21-10]", ",", "[2022-10-20-18-10-50]", ",", "[2022-10-21-18-47-39]", ",", "[2022-10-23-20-29-27]", ",", "[2022-10-24-17-11-19]", ",", "[2022-10-24-17-22-47]", ",", "[2022-10-25-22-27-23]", ",", "[2022-10-26-19-52-31]", ",", "[2022-10-26-20-2-50]", ",", "[2022-10-27-18-43-37]", ",", "[2022-10-28-21-18-22]", ",", "[2022-10-3-20-26-25]", ",", "[2022-10-3-20-33-54]", ",", "[2022-10-30-21-31-51]", ",", "[2022-10-31-21-52-7]", ",", "[2022-10-6-17-58-41]", ",", "[2022-10-8-21-38-31]", ",", "[2022-11-1-20-42-59]", ",", "[2022-11-11-17-34-6]", ",", "[2022-11-15-18-14-58]", ",", "[2022-11-18-19-20-23]", ",", "[2022-11-18-19-30-45]", ",", "[2022-11-2-18-32-51]", ",", "[2022-11-23-19-9-13]", ",", "[2022-11-23-20-26-31]", ",", "[2022-11-24-16-55-50]", ",", "[2022-11-26-17-34-26]", ",", "[2022-11-3-19-6-20]", ",", "[2022-11-5-18-31-48]", ",", "[2022-11-5-18-46-19]", ",", "[2022-11-6-19-2-28]", ",", "[2022-12-28-20-41-1]", ",", "[2022-12-3-21-47-26]", ",", "[2022-8-26-16-26-50]", ",", "[2022-8-26-16-4-56]", ",", "[2022-8-30-19-49-10]", ",", "[2022-9-1-16-15-18]", ",", "[2022-9-10-17-29-9]", ",", "[2022-9-11-18-19-10]", ",", "[2022-9-12-14-57-41]", ",", "[2022-9-13-18-53-39]", ",", "[2022-9-14-20-5-19]", ",", "[2022-9-15-17-8-1]", ",", "[2022-9-17-16-23-5]", ",", "[2022-9-18-16-39-28]", ",", "[2022-9-19-17-55-34]", ",", "[2022-9-2-19-23-51]", ",", "[2022-9-20-18-28-48]", ",", "[2022-9-21-17-37-45]", ",", "[2022-9-22-19-14-34]", ",", "[2022-9-23-19-1-44]", ",", "[2022-9-23-19-3-1]", ",", "[2022-9-25-17-10-52]", ",", "[2022-9-26-16-6-39]", ",", "[2022-9-28-19-21-21]", ",", "[2022-9-29-20-4-52]", ",", "[2022-9-3-17-54-35]", ",", "[2022-9-30-18-51-29]", ",", "[2022-9-7-19-41-35]", ",", "[2022-9-8-21-48-21]", ",", "[2022-9-9-15-59-1]", ",", "[2023-1-12-21-23-52]", ",", "[2023-1-17-18-55-31]", ",", "[2023-1-19-18-9-39]", ",", "[2023-2-10-17-49-30]", ",", "[2023-2-14-19-39-18]", ",", "[2023-2-3-17-39-28]", ",", "[2023-3-1-22-2-42]", ",", "[2023-3-2-21-39-51]", ",", "[2023-3-3-19-58-33]", ",", "[2023-3-3-20-59-28]", ",", "[2023-3-30-23-38-53]", ",", "[2023-3-8-21-45-40]", ",", "[2023-3-8-22-0-21]", ",", "[Ableton Live]", ",", "[pulled] Operator Drone Project (from Russian Corvette)", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Cakes!", ",", "Caprice", ",", "Circles", ",", "Connected Human World Beast", ",", "Craterian Underworld", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "dying satellites", ",", "Echoing", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Felmar", ",", "Frost", ",", "Hate the Bear", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Sunrise", ",", "Jabberwocky Cipher", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Lifting", ",", "Lums", ",", "Mind in Void", ",", "Old Map of the Abyss", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Perfectly Lost", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Relentless Renaissance", ",", "Reticent", ",", "Roboticized Break-In", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Severance", ",", "Sidereal Scatter", ",", "Snowing Spores", ",", "Solitude", ",", "Sonder March", ",", "Stagger Proudly on", ",", "Stunningly Lost", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Conscious Mind", ",", "The Flowing Light", ",", "The Pavilion Bells", ",", "The Scalar", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Transmogrified", ",", "Triangle God", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Whenever I Die I Wake up Some Place Else", ",", "Wistful, Sulfurous", ",", "WXA", ",", "Your Eyes Remind Me of Something" ],
+					"items" : [ "[2022-10-1-16-58-19]", ",", "[2022-10-18-16-5-40]", ",", "[2022-10-19-17-21-10]", ",", "[2022-10-20-18-10-50]", ",", "[2022-10-21-18-47-39]", ",", "[2022-10-23-20-29-27]", ",", "[2022-10-24-17-11-19]", ",", "[2022-10-24-17-22-47]", ",", "[2022-10-25-22-27-23]", ",", "[2022-10-26-19-52-31]", ",", "[2022-10-26-20-2-50]", ",", "[2022-10-27-18-43-37]", ",", "[2022-10-28-21-18-22]", ",", "[2022-10-3-20-26-25]", ",", "[2022-10-3-20-33-54]", ",", "[2022-10-30-21-31-51]", ",", "[2022-10-31-21-52-7]", ",", "[2022-10-6-17-58-41]", ",", "[2022-11-1-20-42-59]", ",", "[2022-11-11-17-34-6]", ",", "[2022-11-15-18-14-58]", ",", "[2022-11-18-19-20-23]", ",", "[2022-11-18-19-30-45]", ",", "[2022-11-2-18-32-51]", ",", "[2022-11-23-19-9-13]", ",", "[2022-11-23-20-26-31]", ",", "[2022-11-24-16-55-50]", ",", "[2022-11-26-17-34-26]", ",", "[2022-11-3-19-6-20]", ",", "[2022-11-5-18-31-48]", ",", "[2022-11-5-18-46-19]", ",", "[2022-11-6-19-2-28]", ",", "[2022-12-3-21-47-26]", ",", "[2022-8-26-16-26-50]", ",", "[2022-8-26-16-4-56]", ",", "[2022-8-30-19-49-10]", ",", "[2022-9-1-16-15-18]", ",", "[2022-9-10-17-29-9]", ",", "[2022-9-11-18-19-10]", ",", "[2022-9-12-14-57-41]", ",", "[2022-9-13-18-53-39]", ",", "[2022-9-14-20-5-19]", ",", "[2022-9-15-17-8-1]", ",", "[2022-9-18-16-39-28]", ",", "[2022-9-19-17-55-34]", ",", "[2022-9-2-19-23-51]", ",", "[2022-9-20-18-28-48]", ",", "[2022-9-21-17-37-45]", ",", "[2022-9-22-19-14-34]", ",", "[2022-9-23-19-1-44]", ",", "[2022-9-23-19-3-1]", ",", "[2022-9-25-17-10-52]", ",", "[2022-9-26-16-6-39]", ",", "[2022-9-28-19-21-21]", ",", "[2022-9-29-20-4-52]", ",", "[2022-9-3-17-54-35]", ",", "[2022-9-30-18-51-29]", ",", "[2022-9-7-19-41-35]", ",", "[2022-9-8-21-48-21]", ",", "[2022-9-9-15-59-1]", ",", "[2023-1-12-21-23-52]", ",", "[2023-1-17-18-55-31]", ",", "[2023-1-19-18-9-39]", ",", "[2023-2-10-17-49-30]", ",", "[2023-2-14-19-39-18]", ",", "[2023-2-3-17-39-28]", ",", "[2023-3-1-22-2-42]", ",", "[2023-3-2-21-39-51]", ",", "[2023-3-3-19-58-33]", ",", "[2023-3-3-20-59-28]", ",", "[2023-3-8-21-45-40]", ",", "[2023-3-8-22-0-21]", ",", "[2023-4-12-22-30-7]", ",", "[Ableton Live]", ",", "[pulled] Operator Drone Project (from Russian Corvette)", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Cakes!", ",", "Caprice", ",", "Circles", ",", "Connected Human World Beast", ",", "Craterian Underworld", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "dying satellites", ",", "Echoing", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Felmar", ",", "Frost", ",", "Hate the Bear", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Sunrise", ",", "Interior Frontier", ",", "Jabberwocky Cipher", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Lifting", ",", "Lums", ",", "Mind in Void", ",", "Old Map of the Abyss", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Perfectly Lost", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Relentless Renaissance", ",", "Reticent", ",", "Roboticized Break-In", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Severance", ",", "Sidereal Scatter", ",", "Snowing Spores", ",", "Solitude", ",", "Sonder March", ",", "Stagger Proudly on", ",", "Stunningly Lost", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Conscious Mind", ",", "The Flowing Light", ",", "The Pavilion Bells", ",", "The Scalar", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Transmogrified", ",", "Triangle God", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Whenever I Die I Wake up Some Place Else", ",", "Wistful, Sulfurous", ",", "WXA", ",", "Your Eyes Remind Me of Something" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -33165,7 +39861,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 73.0, 640.0, 57.0, 20.0 ],
+					"patching_rect" : [ 141.0, 620.0, 57.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 347.0, 690.0, 57.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -54912,7 +61608,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 679.5, 32.0, 20.0 ],
+					"patching_rect" : [ 313.0, 630.0, 32.0, 20.0 ],
 					"text" : "dac~"
 				}
 
@@ -54943,7 +61639,7 @@
 							}
 ,
 							"classnamespace" : "dsp.gen",
-							"rect" : [ 673.0, 290.0, 613.0, 471.0 ],
+							"rect" : [ 42.0, 85.0, 613.0, 471.0 ],
 							"bglocked" : 0,
 							"openinpresentation" : 0,
 							"default_fontsize" : 10.0,
@@ -54976,9 +61672,9 @@
 										"maxclass" : "newobj",
 										"text" : "out 6",
 										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-10",
-										"patching_rect" : [ 581.0, 400.0, 31.0, 20.0 ]
+										"patching_rect" : [ 581.0, 400.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -54987,9 +61683,9 @@
 										"maxclass" : "newobj",
 										"text" : "out 5",
 										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-8",
-										"patching_rect" : [ 466.800000000000011, 410.0, 31.0, 20.0 ]
+										"patching_rect" : [ 466.800000000000011, 410.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -54998,9 +61694,9 @@
 										"maxclass" : "newobj",
 										"text" : "out 4",
 										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-7",
-										"patching_rect" : [ 352.600000000000023, 400.0, 31.0, 20.0 ]
+										"patching_rect" : [ 352.600000000000023, 400.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -55009,9 +61705,9 @@
 										"maxclass" : "newobj",
 										"text" : "out 3",
 										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-6",
-										"patching_rect" : [ 295.5, 390.0, 31.0, 20.0 ]
+										"patching_rect" : [ 295.5, 390.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -55020,9 +61716,9 @@
 										"maxclass" : "newobj",
 										"text" : "out 2",
 										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-5",
-										"patching_rect" : [ 152.75, 390.0, 31.0, 20.0 ]
+										"patching_rect" : [ 152.75, 390.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -55031,10 +61727,10 @@
 										"maxclass" : "newobj",
 										"text" : "in 1",
 										"numinlets" : 0,
-										"numoutlets" : 1,
 										"id" : "obj-1",
-										"outlettype" : [ "" ],
-										"patching_rect" : [ 10.0, 10.0, 25.0, 20.0 ]
+										"patching_rect" : [ 10.0, 10.0, 25.0, 20.0 ],
+										"numoutlets" : 1,
+										"outlettype" : [ "" ]
 									}
 
 								}
@@ -55043,24 +61739,24 @@
 										"maxclass" : "newobj",
 										"text" : "in 2",
 										"numinlets" : 0,
-										"numoutlets" : 1,
 										"id" : "obj-2",
-										"outlettype" : [ "" ],
-										"patching_rect" : [ 265.0, 10.0, 25.0, 20.0 ]
+										"patching_rect" : [ 265.0, 10.0, 25.0, 20.0 ],
+										"numoutlets" : 1,
+										"outlettype" : [ "" ]
 									}
 
 								}
 , 								{
 									"box" : 									{
 										"maxclass" : "codebox",
-										"fontsize" : 10.0,
 										"numinlets" : 1,
-										"fontname" : "<Monospaced>",
-										"numoutlets" : 6,
 										"fontface" : 0,
 										"id" : "obj-3",
-										"outlettype" : [ "", "", "", "", "", "" ],
 										"patching_rect" : [ 10.0, 30.0, 590.0, 360.0 ],
+										"numoutlets" : 6,
+										"fontsize" : 10.0,
+										"outlettype" : [ "", "", "", "", "", "" ],
+										"fontname" : "<Monospaced>",
 										"code" : "require(\"dynamic_crossfade\")\r\nBuffer stem(\"_s\");\r\nBuffer palette(\"_p\");\r\nBuffer product(\"_p\");\r\nBuffer comp(\"comp\");\r\nBuffer stats(\"stats\");\r\nParam track(0);\r\nParam lead(44100);\r\nParam offset(0);\r\nParam auditioning(0);\r\nHistory from(0);\r\nHistory to(1);\r\nHistory jump(0);\r\nHistory zoom1(0);\r\nHistory zoom2(1);\r\nHistory t(0);\r\nHistory debug(0);\r\n//poke(stats, sampstoms(dim(stem)), 1);\r\ndomain = dim(stem);\r\nstart = from - lead;\r\nend = to + lead;\r\nlength = end - start;\r\nt = (elapsed - jump) % length;\r\nif(change(from) && from) {\t//&& from prevents happening again next sample \r\n    jump = elapsed;\r\n    zoom1 = max(0, start);\r\n    zoom2 = min(domain, end) - zoom1;\r\n    if(from == to) {\r\n        jump -= from;\r\n        from = 0;\r\n        to = domain;\r\n    }\r\n}\r\nt += start;\r\nif(to - from == domain) {\r\n    zoom1 = max(0, t - lead);\r\n    zoom2 = min(domain, t + lead) - zoom1;\r\n}\r\nif(track == mc_channel && auditioning) {\r\n    on = t > from && t < to;\r\n    surround = peek(stem, t);\r\n    audition = peek(palette, t + offset);\r\n    _l, out4, out1, out6 = dynamic_crossfade(on, surround, audition);\r\n\tif(!on && change(out6) < 0) {\r\n\t\tpoke(comp, t, 1);\r\n\t}\r\n}\r\nelse {\r\n    out1 = peek(stem, t);\r\n}\r\npoke(product, out1, t);\r\nout2 = t;\r\nout3 = zoom1;\r\nout5 = zoom2;"
 									}
 
@@ -55070,45 +61766,17 @@
 										"maxclass" : "newobj",
 										"text" : "out 1",
 										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-4",
-										"patching_rect" : [ 10.0, 390.0, 31.0, 20.0 ]
+										"patching_rect" : [ 10.0, 390.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
  ],
 							"lines" : [ 								{
 									"patchline" : 									{
-										"source" : [ "obj-3", 5 ],
-										"destination" : [ "obj-10", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 4 ],
-										"destination" : [ "obj-8", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 3 ],
-										"destination" : [ "obj-7", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 2 ],
-										"destination" : [ "obj-6", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-1", 0 ],
-										"destination" : [ "obj-3", 0 ]
+										"source" : [ "obj-3", 1 ],
+										"destination" : [ "obj-5", 0 ]
 									}
 
 								}
@@ -55121,8 +61789,36 @@
 								}
 , 								{
 									"patchline" : 									{
-										"source" : [ "obj-3", 1 ],
-										"destination" : [ "obj-5", 0 ]
+										"source" : [ "obj-1", 0 ],
+										"destination" : [ "obj-3", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 2 ],
+										"destination" : [ "obj-6", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 3 ],
+										"destination" : [ "obj-7", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 4 ],
+										"destination" : [ "obj-8", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 5 ],
+										"destination" : [ "obj-10", 0 ]
 									}
 
 								}
@@ -55138,7 +61834,7 @@
 					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 337.0, 420.0, 343.0, 20.0 ],
 					"text" : "mc.gen~ @chans 4",
-					"wrapper_uniquekey" : "u679000639"
+					"wrapper_uniquekey" : "u609000652"
 				}
 
 			}
@@ -55434,14 +62130,14 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "description.txt", ",", "KeyRig 49.txt", ",", "lengths.txt", ",", "log [2022-09-01-20-06-19].txt", ",", "log [2022-09-02-19-46-28].txt", ",", "log [2022-11-10-16-25-50].txt", ",", "log [2023-01-15-19-39-36].txt", ",", "log [2023-03-27-22-22-07].txt", ",", "log [2023-03-27-22-35-10].txt", ",", "log [2023-03-28-23-36-35].txt", ",", "log [2023-03-29-23-03-35].txt", ",", "log [2023-03-30-23-39-39].txt", ",", "OpenFace.txt", ",", "passes_2023-1-15-19-32-28.txt", ",", "passes_2023-3-27-22-35-10.txt", ",", "passes_2023-3-28-23-36-53.txt", ",", "passes_2023-3-29-23-3-46.txt", ",", "passes_2023-3-30-23-38-53.txt", ",", "passes_sequence_1.0.txt", ",", "passes_sequence_2.0.txt", ",", "passes_sequence_3.0.txt", ",", "passes_sequence_4.0.txt", ",", "scores_2023-3-27-22-35-10.txt", ",", "scores_2023-3-28-23-36-53.txt", ",", "scores_2023-3-29-23-3-46.txt", ",", "scores_2023-3-30-23-38-53.txt", ",", "scores_sequence_1.0.txt", ",", "scores_sequence_2.0.txt", ",", "scores_sequence_3.0.txt", ",", "scores_sequence_4.0.txt", ",", "specs.txt", ",", "top_sounds.txt", ",", "USB Midi Cable.txt" ],
+													"items" : [ "Controller (XBOX 360 For Windows).txt", ",", "description.txt", ",", "KeyRig 49.txt", ",", "lengths.txt", ",", "log [2022-10-08-21-38-41].txt", ",", "log [2022-11-19-20-44-10].txt", ",", "log [2023-01-27-15-40-24].txt", ",", "log [2023-04-02-22-03-36].txt", ",", "log [2023-04-04-20-49-27].txt", ",", "log [2023-04-06-21-55-23].txt", ",", "log [2023-04-13-23-12-08].txt", ",", "OpenFace.txt", ",", "passes_2023-1-27-15-40-34.txt", ",", "passes_2023-4-13-23-12-6.txt", ",", "passes_2023-4-2-22-2-42.txt", ",", "passes_2023-4-2-22-3-45.txt", ",", "passes_2023-4-4-20-49-46.txt", ",", "passes_2023-4-4-20-50-11.txt", ",", "passes_2023-4-6-21-55-34.txt", ",", "passes_2023-4-6-21-57-53.txt", ",", "scores_2023-4-13-23-12-6.txt", ",", "scores_2023-4-2-22-2-42.txt", ",", "scores_2023-4-2-22-3-45.txt", ",", "scores_2023-4-4-20-49-46.txt", ",", "scores_2023-4-4-20-50-11.txt", ",", "scores_2023-4-6-21-55-34.txt", ",", "scores_2023-4-6-21-57-53.txt", ",", "specs.txt", ",", "top_sounds.txt", ",", "USB Midi Cable.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 149.0, 140.0, 100.0, 20.0 ],
-													"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Preserve All Things/",
+													"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Interior Frontier/",
 													"types" : "TEXT"
 												}
 
@@ -60851,14 +67547,14 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "palette_2023-1-15-19-32-28.wav", ",", "palette_2023-3-27-22-22-45.wav", ",", "palette_2023-3-27-22-35-10.wav", ",", "palette_2023-3-28-23-36-53.wav", ",", "palette_2023-3-29-23-3-46.wav", ",", "palette_2023-3-30-23-38-53.wav", ",", "palette_sequence_1.0.wav", ",", "palette_sequence_2.0.wav", ",", "palette_sequence_3.0.wav", ",", "palette_sequence_4.0.wav", ",", "preview.wav" ],
+													"items" : [ "palette_2023-1-27-15-40-34.wav", ",", "palette_2023-4-13-23-12-6.wav", ",", "palette_2023-4-2-22-2-42.wav", ",", "palette_2023-4-2-22-3-45.wav", ",", "palette_2023-4-4-20-49-46.wav", ",", "palette_2023-4-4-20-50-11.wav", ",", "palette_2023-4-6-21-55-34.wav", ",", "palette_2023-4-6-21-57-53.wav", ",", "preserves.wav", ",", "preview.wav" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 149.0, 160.0, 100.0, 20.0 ],
-													"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Preserve All Things/",
+													"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Interior Frontier/",
 													"types" : "WAVE"
 												}
 
@@ -66296,14 +72992,14 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "description.txt", ",", "KeyRig 49.txt", ",", "lengths.txt", ",", "log [2022-09-01-20-06-19].txt", ",", "log [2022-09-02-19-46-28].txt", ",", "log [2022-11-10-16-25-50].txt", ",", "log [2023-01-15-19-39-36].txt", ",", "log [2023-03-27-22-22-07].txt", ",", "log [2023-03-27-22-35-10].txt", ",", "log [2023-03-28-23-36-35].txt", ",", "log [2023-03-29-23-03-35].txt", ",", "log [2023-03-30-23-39-39].txt", ",", "OpenFace.txt", ",", "passes_2023-1-15-19-32-28.txt", ",", "passes_2023-3-27-22-35-10.txt", ",", "passes_2023-3-28-23-36-53.txt", ",", "passes_2023-3-29-23-3-46.txt", ",", "passes_2023-3-30-23-38-53.txt", ",", "passes_sequence_1.0.txt", ",", "passes_sequence_2.0.txt", ",", "passes_sequence_3.0.txt", ",", "passes_sequence_4.0.txt", ",", "scores_2023-3-27-22-35-10.txt", ",", "scores_2023-3-28-23-36-53.txt", ",", "scores_2023-3-29-23-3-46.txt", ",", "scores_2023-3-30-23-38-53.txt", ",", "scores_sequence_1.0.txt", ",", "scores_sequence_2.0.txt", ",", "scores_sequence_3.0.txt", ",", "scores_sequence_4.0.txt", ",", "specs.txt", ",", "top_sounds.txt", ",", "USB Midi Cable.txt" ],
+													"items" : [ "Controller (XBOX 360 For Windows).txt", ",", "description.txt", ",", "KeyRig 49.txt", ",", "lengths.txt", ",", "log [2022-10-08-21-38-41].txt", ",", "log [2022-11-19-20-44-10].txt", ",", "log [2023-01-27-15-40-24].txt", ",", "log [2023-04-02-22-03-36].txt", ",", "log [2023-04-04-20-49-27].txt", ",", "log [2023-04-06-21-55-23].txt", ",", "log [2023-04-13-23-12-08].txt", ",", "OpenFace.txt", ",", "passes_2023-1-27-15-40-34.txt", ",", "passes_2023-4-13-23-12-6.txt", ",", "passes_2023-4-2-22-2-42.txt", ",", "passes_2023-4-2-22-3-45.txt", ",", "passes_2023-4-4-20-49-46.txt", ",", "passes_2023-4-4-20-50-11.txt", ",", "passes_2023-4-6-21-55-34.txt", ",", "passes_2023-4-6-21-57-53.txt", ",", "scores_2023-4-13-23-12-6.txt", ",", "scores_2023-4-2-22-2-42.txt", ",", "scores_2023-4-2-22-3-45.txt", ",", "scores_2023-4-4-20-49-46.txt", ",", "scores_2023-4-4-20-50-11.txt", ",", "scores_2023-4-6-21-55-34.txt", ",", "scores_2023-4-6-21-57-53.txt", ",", "specs.txt", ",", "top_sounds.txt", ",", "USB Midi Cable.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 149.0, 160.0, 100.0, 20.0 ],
-													"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Preserve All Things/",
+													"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Interior Frontier/",
 													"types" : "TEXT"
 												}
 
@@ -71719,7 +78415,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 45.599999999999994, 250.0, 100.0, 20.0 ],
-									"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Preserve All Things/stems/",
+									"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Interior Frontier/stems/",
 									"types" : "AIFF"
 								}
 
@@ -71752,14 +78448,14 @@
 								"box" : 								{
 									"autopopulate" : 1,
 									"id" : "obj-1",
-									"items" : [ "palette_2023-1-15-19-32-28.wav", ",", "palette_2023-3-27-22-22-45.wav", ",", "palette_2023-3-27-22-35-10.wav", ",", "palette_2023-3-28-23-36-53.wav", ",", "palette_2023-3-29-23-3-46.wav", ",", "palette_2023-3-30-23-38-53.wav", ",", "palette_sequence_1.0.wav", ",", "palette_sequence_2.0.wav", ",", "palette_sequence_3.0.wav", ",", "palette_sequence_4.0.wav", ",", "preview.wav" ],
+									"items" : [ "palette_2023-1-27-15-40-34.wav", ",", "palette_2023-4-13-23-12-6.wav", ",", "palette_2023-4-2-22-2-42.wav", ",", "palette_2023-4-2-22-3-45.wav", ",", "palette_2023-4-4-20-49-46.wav", ",", "palette_2023-4-4-20-50-11.wav", ",", "palette_2023-4-6-21-55-34.wav", ",", "palette_2023-4-6-21-57-53.wav", ",", "preserves.wav", ",", "preview.wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 245.599999999999994, 140.0, 118.666667222976713, 20.0 ],
-									"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Preserve All Things/",
+									"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Interior Frontier/",
 									"types" : "WAVE"
 								}
 
@@ -77132,7 +83828,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 280.0, 230.0, 50.0, 20.0 ],
-													"text" : "3:02"
+													"text" : "5:39"
 												}
 
 											}
@@ -83586,7 +90282,7 @@
 					"patching_rect" : [ 429.0, 50.0, 39.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 30.0, 1000.0, 20.0 ],
-					"setminmax" : [ 1.0, 182272.015625 ],
+					"setminmax" : [ 1.0, 339120.0 ],
 					"slidercolor" : [ 0.0, 0.0, 0.0, 0.51 ],
 					"thickness" : 1,
 					"varname" : "progression"
@@ -83603,7 +90299,7 @@
 					"patching_rect" : [ 451.0, 30.0, 54.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 865.0, 30.0, 135.0, 18.0 ],
-					"text" : "3:02 :||",
+					"text" : "5:39 :||",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -84320,6 +91016,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-154", 0 ],
+					"source" : [ "obj-153", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 1 ],
+					"source" : [ "obj-155", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
 					"order" : 0,
 					"source" : [ "obj-17", 0 ]
@@ -84504,6 +91214,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-154", 1 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
@@ -84623,7 +91340,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-122", 1 ],
+					"destination" : [ "obj-155", 0 ],
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -84904,6 +91621,7 @@
 		"parameters" : 		{
 			"obj-110" : [ "live.text[1]", "live.text", 0 ],
 			"obj-141::obj-29" : [ "Monitoring[19]", "Gain", 0 ],
+			"obj-153" : [ "live.text[5]", "live.text", 0 ],
 			"obj-1::obj-17" : [ "Monitoring[11]", "Gain", 0 ],
 			"obj-1::obj-67" : [ "Uniform/Variable Loop Lengths[3]", "Uniform/Variable Loop Lengths", 0 ],
 			"obj-3::obj-17" : [ "Monitoring[18]", "Gain", 0 ],
@@ -85047,16 +91765,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "passes_sequence_4.0.txt",
-				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/Preserve All Things",
-				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/Preserve All Things",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scores_2023-3-27-22-35-10.txt",
-				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/Preserve All Things",
-				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/Preserve All Things",
+				"name" : "passes_2023-4-6-21-57-53.txt",
+				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/Interior Frontier",
+				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/Interior Frontier",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -89784,6 +96495,7 @@
 				"multi" : 0
 			}
  ],
+		"toolbaradditions" : [ "audiomute" ],
 		"default_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
