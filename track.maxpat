@@ -5543,7 +5543,7 @@
 					"presentation_rect" : [ 2.0, 0.0, 1000.0, 50.0 ],
 					"setminmax" : [ 1.0, 7937.5078125 ],
 					"setstyle" : 1,
-					"slidercolor" : [ 0.0, 0.0, 0.0, 0.1 ],
+					"slidercolor" : [ 0.0, 0.0, 0.0, 0.250980392156863 ],
 					"thickness" : 1,
 					"varname" : "progression[1]"
 				}
@@ -5591,7 +5591,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 42.0, 147.0, 754.0, 532.0 ],
+						"rect" : [ 694.0, 311.0, 754.0, 532.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -5645,7 +5645,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "Buffer beats_by_track(\"beats_by_track\");\r\nParam track(0);\r\nlength = peek(beats_by_track, track);\r\nout1 = in1 % length; ",
+									"code" : "Buffer lengths_by_track(\"lengths_by_track\");\r\nParam track(0);\r\nlength = peek(lengths_by_track, track);\r\nout1 = in1 % length; ",
 									"fontface" : 0,
 									"fontname" : "<Monospaced>",
 									"fontsize" : 10.0,
@@ -6623,6 +6623,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-116", 0 ],
+					"disabled" : 1,
 					"source" : [ "obj-113", 0 ]
 				}
 
