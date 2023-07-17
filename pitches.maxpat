@@ -173,7 +173,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 330.0, 160.0, 37.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 233.0, 140.0, 37.0, 16.0 ],
+					"presentation_rect" : [ 232.0, 140.0, 37.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -234,10 +234,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.0, 410.0, 144.0, 29.0 ],
+					"patching_rect" : [ 480.0, 410.0, 146.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 134.5, 140.0, 182.0, 18.0 ],
-					"text" : "randomize pitches after      s of disuse",
+					"text" : "randomize a pitch after      s of disuse",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -263,7 +263,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 291.0, 160.0, 37.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 233.0, 220.0, 37.0, 16.0 ],
+					"presentation_rect" : [ 232.0, 220.0, 37.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -420,7 +420,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-38",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1429,6 +1429,25 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-30" : [ "Current[3]", "Current", 0 ],
+			"obj-31" : [ "Current[4]", "Current", 0 ],
+			"obj-34" : [ "Current[5]", "Current", 0 ],
+			"obj-53" : [ "Current[2]", "Current", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Custom Default",
 				"default" : 				{
