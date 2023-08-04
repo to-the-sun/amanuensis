@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 407.500000000000114, 230.0, 84.0, 20.0 ],
+					"text" : "substitute 1 clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 407.500000000000114, 210.0, 84.0, 20.0 ],
+					"text" : "r ---conscious?"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-72",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -774,7 +798,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 176.0, 330.0, 150.0, 41.0 ],
+									"patching_rect" : [ 176.0, 330.0, 151.0, 41.0 ],
 									"text" : "With real-time comp in it should no longer matter whether the cursor is before or after"
 								}
 
@@ -31235,7 +31259,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"disabled" : 1,
+					"order" : 0,
 					"source" : [ "obj-55", 2 ]
 				}
 
@@ -31243,6 +31267,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-76", 1 ],
+					"order" : 1,
 					"source" : [ "obj-55", 2 ]
 				}
 
@@ -31365,6 +31390,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-75", 0 ]
 				}
 
 			}

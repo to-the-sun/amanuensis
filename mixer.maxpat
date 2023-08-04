@@ -151,8 +151,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 176.0, 170.0, 82.0, 20.0 ],
-					"text" : "scale 0. 6. 1. 1.5"
+					"patching_rect" : [ 176.0, 170.0, 76.0, 20.0 ],
+					"text" : "scale 0. 6. 1. 2."
 				}
 
 			}
