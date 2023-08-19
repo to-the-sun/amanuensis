@@ -6949,7 +6949,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"disabled" : 1,
 					"source" : [ "obj-40", 0 ]
 				}
 
