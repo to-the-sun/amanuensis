@@ -485,7 +485,7 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "description.txt", ",", "Focusrite USB ASIO Input 3.txt", ",", "log [2023-10-31-16-34-57].txt", ",", "passes_2023-10-31-16-31-36.txt", ",", "scores_2023-10-31-16-31-36.txt", ",", "top_sounds.txt" ],
+													"items" : [ "description.txt", ",", "Focusrite USB ASIO Input 3.txt", ",", "passes_vocals-01-vocals-Emajor-60bpm-446hz.txt", ",", "scores_vocals-01-vocals-Emajor-60bpm-446hz.txt", ",", "top_sounds.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -5759,7 +5759,7 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "glued.wav", ",", "palette_2023-10-31-16-31-36.wav", ",", "preserves.wav", ",", "preview.wav" ],
+													"items" : [ "glued.wav", ",", "palette_vocals-01-vocals-Emajor-60bpm-446hz.wav", ",", "preserves.wav", ",", "preview.wav" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -11085,7 +11085,7 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "description.txt", ",", "Focusrite USB ASIO Input 3.txt", ",", "log [2023-10-31-16-34-57].txt", ",", "passes_2023-10-31-16-31-36.txt", ",", "scores_2023-10-31-16-31-36.txt", ",", "top_sounds.txt" ],
+													"items" : [ "description.txt", ",", "Focusrite USB ASIO Input 3.txt", ",", "passes_vocals-01-vocals-Emajor-60bpm-446hz.txt", ",", "scores_vocals-01-vocals-Emajor-60bpm-446hz.txt", ",", "top_sounds.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -23023,6 +23023,30 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-43",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 260.0, 59.0, 20.0 ],
+													"text" : "r refined_to"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-48",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 121.999999999999886, 220.0, 71.0, 20.0 ],
+													"text" : "r refined_from"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-1",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -23387,6 +23411,20 @@
 												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
 													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-41", 0 ],
+													"source" : [ "obj-43", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 0 ],
+													"source" : [ "obj-48", 0 ]
 												}
 
 											}
@@ -28506,7 +28544,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 758.0, 349.0, 640.0, 480.0 ],
+										"rect" : [ 1032.0, 318.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -28535,6 +28573,30 @@
 										"subpatcher_template" : "Size 10 grid",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-43",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 270.0, 59.0, 20.0 ],
+													"text" : "r refined_to"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-48",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 80.0, 230.0, 71.0, 20.0 ],
+													"text" : "r refined_from"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-11",
 													"maxclass" : "newobj",
@@ -28816,6 +28878,20 @@
 												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
 													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-41", 0 ],
+													"source" : [ "obj-43", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 0 ],
+													"source" : [ "obj-48", 0 ]
 												}
 
 											}
@@ -34396,6 +34472,30 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-43",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 62.000000000000114, 240.0, 59.0, 20.0 ],
+													"text" : "r refined_to"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-48",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 134.0, 200.0, 71.0, 20.0 ],
+													"text" : "r refined_from"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-11",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -34676,6 +34776,20 @@
 												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
 													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-41", 0 ],
+													"source" : [ "obj-43", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 0 ],
+													"source" : [ "obj-48", 0 ]
 												}
 
 											}
@@ -39683,6 +39797,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
+									"disabled" : 1,
 									"source" : [ "obj-14", 1 ]
 								}
 
@@ -39690,6 +39805,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
+									"disabled" : 1,
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -39762,6 +39878,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-159", 0 ],
+									"disabled" : 1,
 									"source" : [ "obj-22", 0 ]
 								}
 
@@ -40002,7 +40119,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-133",
-					"items" : "<empty>",
+					"items" : [ "[2023-10-15-18-10-22].wav", ",", "[2023-10-15-18-10-41].wav", ",", "[2023-10-15-18-10-47].wav", ",", "[2023-10-18-18-30-7]", ",", "[2023-10-18-18-38-21]", ",", "[2023-10-18-18-47-40]", ",", "[2023-10-18-18-58-45]", ",", "[2023-10-18-19-11-26]", ",", "[2023-10-18-19-18-41]", ",", "[2023-10-18-19-20-44]", ",", "[2023-10-18-19-27-4]", ",", "[2023-10-18-19-31-16]", ",", "[2023-10-18-19-4-9]", ",", "[2023-10-20-18-24-26]", ",", "[2023-10-20-18-32-29]", ",", "[2023-10-20-18-41-52]", ",", "[2023-10-20-18-55-47]", ",", "[2023-10-20-18-59-53]", ",", "[2023-10-20-19-10-30]", ",", "[2023-10-21-0-36-22]", ",", "[2023-10-21-19-26-16]", ",", "[2023-10-21-19-40-52]", ",", "[2023-10-21-19-49-25]", ",", "[2023-10-21-20-14-23]", ",", "[2023-10-21-20-27-45]", ",", "[2023-10-21-20-35-49]", ",", "[2023-10-21-20-42-55]", ",", "[2023-10-21-20-51-38]", ",", "[2023-10-21-20-58-43]", ",", "[2023-10-21-21-10-9]", ",", "[2023-10-21-21-12-43]", ",", "[2023-10-22-19-32-12]", ",", "[2023-10-22-19-39-13]", ",", "[2023-10-22-19-43-23]", ",", "[2023-10-22-19-45-2]", ",", "[2023-10-22-19-53-30]", ",", "[2023-10-22-20-1-49]", ",", "[2023-10-22-20-19-24]", ",", "[2023-10-22-20-25-31]", ",", "[2023-10-22-23-26-45]", ",", "[2023-10-22-23-35-18]", ",", "[2023-10-22-23-59-2]", ",", "[2023-10-23-0-15-21]", ",", "[2023-10-23-0-17-27]", ",", "[2023-10-23-0-33-53]", ",", "[2023-10-23-0-35-14]", ",", "[2023-10-23-0-4-33]", ",", "[2023-10-23-0-44-58]", ",", "[2023-10-23-18-58-44]", ",", "[2023-10-23-18-59-43]", ",", "[2023-10-23-19-10-13]", ",", "[2023-10-24-18-45-37]", ",", "[2023-10-24-18-48-34]", ",", "[2023-10-24-18-59-2]", ",", "[2023-10-24-18-59-40]", ",", "[2023-10-24-19-0-24]", ",", "[2023-10-24-19-42-28]", ",", "[2023-10-24-19-42-44]", ",", "[2023-10-24-19-42-46]", ",", "[2023-10-24-19-57-54]", ",", "[2023-10-24-20-18-37]", ",", "[2023-10-25-19-1-8]", ",", "[2023-10-25-19-17-8]", ",", "[2023-10-25-19-23-42]", ",", "[2023-10-25-19-24-48]", ",", "[2023-10-25-19-37-18]", ",", "[2023-10-25-19-39-54]", ",", "[2023-10-25-19-48-22]", ",", "[2023-10-25-19-49-48]", ",", "[2023-10-25-20-11-33]", ",", "[2023-10-25-20-16-55]", ",", "[2023-10-25-20-20-21]", ",", "[2023-10-25-20-41-17]", ",", "[2023-10-25-20-43-42]", ",", "[2023-10-26-0-33-13]", ",", "[2023-10-26-0-35-6]", ",", "[2023-10-26-0-43-8]", ",", "[2023-10-26-0-50-1]", ",", "[2023-10-26-0-54-24]", ",", "[2023-10-26-19-46-19]", ",", "[2023-10-26-20-7-23]", ",", "[2023-10-26-22-16-49]", ",", "[2023-10-26-23-13-54]", ",", "[2023-10-26-23-4-31]", ",", "[2023-10-26-23-40-16]", ",", "[2023-10-26-23-43-36]", ",", "[2023-10-26-23-50-18]", ",", "[2023-10-27-0-2-6]", ",", "[2023-10-27-19-41-56]", ",", "[2023-10-27-19-55-7]", ",", "[2023-10-27-20-12-7]", ",", "[2023-10-27-20-24-34]", ",", "[2023-10-27-20-26-21]", ",", "[2023-10-27-20-28-26]", ",", "[2023-10-27-20-30-27]", ",", "[2023-10-28-19-21-56]", ",", "[2023-10-28-19-23-59]", ",", "[2023-10-28-19-55-38]", ",", "[2023-10-28-23-54-27]", ",", "[2023-10-29-0-10-11]", ",", "[2023-10-29-0-2-15]", ",", "[2023-10-29-18-52-3]", ",", "[2023-10-29-18-53-18]", ",", "[2023-10-29-19-20-4]", ",", "Submit and Be Crushed" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -40750,7 +40867,7 @@
 																"box" : 																{
 																	"autopopulate" : 1,
 																	"id" : "obj-31",
-																	"items" : [ "description.txt", ",", "Focusrite USB ASIO Input 3.txt", ",", "log [2023-10-31-16-34-57].txt", ",", "passes_2023-10-31-16-31-36.txt", ",", "scores_2023-10-31-16-31-36.txt", ",", "top_sounds.txt" ],
+																	"items" : [ "description.txt", ",", "Focusrite USB ASIO Input 3.txt", ",", "passes_vocals-01-vocals-Emajor-60bpm-446hz.txt", ",", "scores_vocals-01-vocals-Emajor-60bpm-446hz.txt", ",", "top_sounds.txt" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -56648,7 +56765,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-29",
-					"items" : [ "1970s Peruvian Hotel", ",", "[2023-10-3-23-37-59]", ",", "[2023-6-27-22-18-48]", ",", "[2023-7-14-22-23-21]", ",", "[2023-7-26-22-0-57]", ",", "[2023-8-11-22-17-45]", ",", "[2023-8-29-21-56-19]", ",", "[2023-9-26-23-11-9]", ",", "[2023-9-6-22-12-16]", ",", "[Ableton Live]", ",", "[pulled] Operator Drone Project (from Russian Corvette)", ",", "A Pitiful Soul", ",", "A Slick Slope into a Dark Abyss", ",", "Allen Ginsberg Armageddon", ",", "Anathema", ",", "And Then Day Turned to Night", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "As Seraphim Saunter", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Blight-Emitting Diode", ",", "Blind", ",", "C'mon Night", ",", "Cakes!", ",", "Candy Apple Island", ",", "Caprice", ",", "Catharsis", ",", "Circles", ",", "Connected Human World Beast", ",", "Convalescence", ",", "Craterian Underworld", ",", "Deep Space Disco", ",", "Disengagement by Shipwreck", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "Dum Casi Transeunt", ",", "dying satellites", ",", "Echoing", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Fear of a Name", ",", "Felmar", ",", "Forced Providence", ",", "Frost", ",", "Hate the Bear", ",", "High Resolution (Sinking)", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "Imparted", ",", "Impermanence", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Life", ",", "Interior Frontier", ",", "Interspecies Intrigue", ",", "Jabberwocky Cipher", ",", "Jericho's Grin", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Lifting", ",", "Long Ago Lost", ",", "Lums", ",", "Means", ",", "Mind in Void", ",", "Miserable", ",", "Ocean of Silence (We Will All Burn)", ",", "Old Map of the Abyss", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Perfectly Lost", ",", "Permafrost", ",", "Pixilated Reverie", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Relentless Renaissance", ",", "Reticent", ",", "Roboticized Break-In", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Severance", ",", "Shady Wells of Amber", ",", "Sidereal Scatter", ",", "Snowing Spores", ",", "Solitude", ",", "Sonder March", ",", "Space Whales Have Blowhole Thrusters", ",", "Stagger Proudly on", ",", "Staring at the Sun", ",", "Static Confluence (With Hells Aligned)", ",", "Steam-Powered Stupor", ",", "Stunningly Lost", ",", "Submit and Be Crushed", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Conscious Mind", ",", "The Flowing Light", ",", "The Machinist Fir", ",", "The Pavilion Bells", ",", "The Scalar", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Through", ",", "Transcendental Takeover", ",", "Transmogrified", ",", "Triangle God", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Webs and Schisms", ",", "Werewolves and Time Travel Won't Keep Me Away", ",", "Whenever I Die I Wake up Some Place Else", ",", "Whether", ",", "Wistful, Sulfurous", ",", "WXA", ",", "Your Eyes Remind Me of Something" ],
+					"items" : [ "1970s Peruvian Hotel", ",", "[2023-10-3-23-37-59]", ",", "[2023-6-27-22-18-48]", ",", "[2023-7-14-22-23-21]", ",", "[2023-7-26-22-0-57]", ",", "[2023-8-11-22-17-45]", ",", "[2023-8-29-21-56-19]", ",", "[2023-9-26-23-11-9]", ",", "[2023-9-6-22-12-16]", ",", "[Ableton Live]", ",", "[pulled] Operator Drone Project (from Russian Corvette)", ",", "A Pitiful Soul", ",", "A Slick Slope into a Dark Abyss", ",", "Allen Ginsberg Armageddon", ",", "Anathema", ",", "And Then Day Turned to Night", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "As Seraphim Saunter", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Blight-Emitting Diode", ",", "Blind", ",", "C'mon Night", ",", "Cakes!", ",", "Candy Apple Island", ",", "Caprice", ",", "Catharsis", ",", "Circles", ",", "Connected Human World Beast", ",", "Convalescence", ",", "Craterian Underworld", ",", "Deep Space Disco", ",", "Disengagement by Shipwreck", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "Dum Casi Transeunt", ",", "dying satellites", ",", "Echoing", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Fear of a Name", ",", "Felmar", ",", "Forced Providence", ",", "Frost", ",", "Hate the Bear", ",", "High Resolution (Sinking)", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "Imparted", ",", "Impermanence", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Life", ",", "Interior Frontier", ",", "Interspecies Intrigue", ",", "Jabberwocky Cipher", ",", "Jericho's Grin", ",", "Jezebel", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Lifting", ",", "Long Ago Lost", ",", "Lums", ",", "Means", ",", "Mind in Void", ",", "Miserable", ",", "Ocean of Silence (We Will All Burn)", ",", "Old Map of the Abyss", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Perfectly Lost", ",", "Permafrost", ",", "Pixilated Reverie", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Relentless Renaissance", ",", "Reticent", ",", "Roboticized Break-In", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Severance", ",", "Shady Wells of Amber", ",", "Sidereal Scatter", ",", "Snowing Spores", ",", "Solitude", ",", "Sonder March", ",", "Space Whales Have Blowhole Thrusters", ",", "Stagger Proudly on", ",", "Staring at the Sun", ",", "Static Confluence (With Hells Aligned)", ",", "Steam-Powered Stupor", ",", "Stunningly Lost", ",", "Submit and Be Crushed", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Conscious Mind", ",", "The Flowing Light", ",", "The Machinist Fir", ",", "The Pavilion Bells", ",", "The Scalar", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Through", ",", "Transcendental Takeover", ",", "Transmogrified", ",", "Triangle God", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Webs and Schisms", ",", "Werewolves and Time Travel Won't Keep Me Away", ",", "Whenever I Die I Wake up Some Place Else", ",", "Whether", ",", "Wistful, Sulfurous", ",", "WXA", ",", "Your Eyes Remind Me of Something" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -57008,6 +57125,30 @@
 										"subpatcher_template" : "Size 10 grid",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-43",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 78.000000000000114, 260.0, 59.0, 20.0 ],
+													"text" : "r refined_to"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-48",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 150.0, 220.0, 71.0, 20.0 ],
+													"text" : "r refined_from"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-1",
 													"maxclass" : "newobj",
@@ -57384,6 +57525,20 @@
 												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
 													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-41", 0 ],
+													"source" : [ "obj-43", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 0 ],
+													"source" : [ "obj-48", 0 ]
 												}
 
 											}
@@ -62480,6 +62635,30 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-43",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 62.000000000000114, 250.0, 59.0, 20.0 ],
+													"text" : "r refined_to"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-48",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 134.0, 210.0, 71.0, 20.0 ],
+													"text" : "r refined_from"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-1",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -62855,6 +63034,20 @@
 												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
 													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-41", 0 ],
+													"source" : [ "obj-43", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 0 ],
+													"source" : [ "obj-48", 0 ]
 												}
 
 											}
@@ -68027,6 +68220,30 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-43",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 62.000000000000114, 250.0, 59.0, 20.0 ],
+													"text" : "r refined_to"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-48",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 134.0, 210.0, 71.0, 20.0 ],
+													"text" : "r refined_from"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-1",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -68390,6 +68607,20 @@
 												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
 													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-41", 0 ],
+													"source" : [ "obj-43", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 0 ],
+													"source" : [ "obj-48", 0 ]
 												}
 
 											}

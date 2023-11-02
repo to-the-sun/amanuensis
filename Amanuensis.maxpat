@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 44.0, 93.0, 1020.0, 278.0 ],
+		"rect" : [ 44.0, 93.0, 1159.0, 328.0 ],
 		"openrect" : [ 0.0, 0.0, 1020.0, 278.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38589,8 +38589,6 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
-										"node_bin_path" : "",
-										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -40381,6 +40379,8 @@
 																	"saved_object_attributes" : 																	{
 																		"autostart" : 1,
 																		"defer" : 0,
+																		"node_bin_path" : "",
+																		"npm_bin_path" : "",
 																		"watch" : 0
 																	}
 ,
@@ -40899,6 +40899,8 @@
 																	"saved_object_attributes" : 																	{
 																		"autostart" : 1,
 																		"defer" : 0,
+																		"node_bin_path" : "",
+																		"npm_bin_path" : "",
 																		"watch" : 0
 																	}
 ,
@@ -56757,7 +56759,7 @@
 					"outlettype" : [ "bang", "bang", "", "", "signal", "signal" ],
 					"patching_rect" : [ 133.0, 60.0, 66.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 30.0, 1010.0, 230.0 ],
+					"presentation_rect" : [ 10.0, 30.0, 1130.0, 230.0 ],
 					"varname" : "GUI",
 					"viewvisibility" : 1
 				}
@@ -58685,7 +58687,7 @@
 			"obj-16::obj-131::obj-54" : [ "slider", "slider", 0 ],
 			"obj-16::obj-131::obj-67" : [ "Uniform/Variable Loop Lengths[3]", "Uniform/Variable Loop Lengths", 0 ],
 			"obj-16::obj-131::obj-73" : [ "live.text[1]", "live.text", 0 ],
-			"obj-16::obj-157::obj-33::obj-21" : [ "vst~[4]", "vst~[4]", 0 ],
+			"obj-16::obj-157::obj-33::obj-21" : [ "vst~[5]", "vst~[5]", 0 ],
 			"obj-16::obj-157::obj-5" : [ "vst~", "vst~", 0 ],
 			"obj-16::obj-1::obj-110" : [ "live.text[23]", "live.text", 0 ],
 			"obj-16::obj-1::obj-152" : [ "Monitoring[4]", "Gain", 0 ],
