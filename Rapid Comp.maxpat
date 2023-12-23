@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 384.0, 491.0, 1014.0, 507.0 ],
+		"rect" : [ 383.0, 511.0, 1014.0, 507.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "Size 10 grid",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 10.0, 220.0, 41.0, 20.0 ],
+					"text" : "change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 200.0, 99.0, 20.0 ],
+					"text" : "r recalled_compress"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "message",
@@ -222,7 +246,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 567.0, 355.0, 640.0, 480.0 ],
+						"rect" : [ 878.0, 415.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -271,42 +295,6 @@
 									"outlettype" : [ "float", "bang" ],
 									"patching_rect" : [ 202.400000000000006, 120.0, 61.0, 20.0 ],
 									"text" : "buffer~ glue"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 225.399999999999977, 240.0, 79.0, 20.0 ],
-									"text" : "prepend setsize"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-9",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 225.399999999999977, 220.0, 69.0, 20.0 ],
-									"text" : "r song_length"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 225.399999999999977, 260.0, 76.0, 20.0 ],
-									"text" : "buffer~ product"
 								}
 
 							}
@@ -520,14 +508,14 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "description.txt", ",", "log [2023-10-27-20-28-36].txt", ",", "passes_2023-10-27-20-27-43.txt", ",", "playtester.txt", ",", "scores_2023-10-27-20-27-43.txt", ",", "top_sounds.txt" ],
+													"items" : [ "description.txt", ",", "log [2023-11-25-00-27-18].txt", ",", "passes_2023-11-25-0-26-54.txt", ",", "playtester.txt", ",", "scores_2023-11-25-0-26-54.txt", ",", "top_sounds.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 149.0, 140.0, 100.0, 20.0 ],
-													"prefix" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2023-10-27-20-28-26]/",
+													"prefix" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2023-11-25-0-27-8]/",
 													"types" : "TEXT"
 												}
 
@@ -5794,14 +5782,14 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "palette_2023-10-27-20-27-43.wav", ",", "preserves.wav", ",", "preview.wav" ],
+													"items" : [ "palette_2023-11-25-0-26-54.wav", ",", "preserves.wav", ",", "preview.wav" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 149.0, 160.0, 100.0, 20.0 ],
-													"prefix" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2023-10-27-20-28-26]/",
+													"prefix" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2023-11-25-0-27-8]/",
 													"types" : "WAVE"
 												}
 
@@ -11120,14 +11108,14 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "description.txt", ",", "log [2023-10-27-20-28-36].txt", ",", "passes_2023-10-27-20-27-43.txt", ",", "playtester.txt", ",", "scores_2023-10-27-20-27-43.txt", ",", "top_sounds.txt" ],
+													"items" : [ "description.txt", ",", "log [2023-11-25-00-27-18].txt", ",", "passes_2023-11-25-0-26-54.txt", ",", "playtester.txt", ",", "scores_2023-11-25-0-26-54.txt", ",", "top_sounds.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 149.0, 160.0, 100.0, 20.0 ],
-													"prefix" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2023-10-27-20-28-26]/",
+													"prefix" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2023-11-25-0-27-8]/",
 													"types" : "TEXT"
 												}
 
@@ -16375,20 +16363,6 @@
 								}
 
 							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"source" : [ "obj-8", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"source" : [ "obj-9", 0 ]
-								}
-
-							}
  ]
 					}
 ,
@@ -16538,7 +16512,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 270.0, 47.0, 20.0 ],
+					"patching_rect" : [ 10.0, 300.0, 47.0, 20.0 ],
 					"text" : "s plugin"
 				}
 
@@ -22269,7 +22243,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 871.500000000000114, 210.0, 69.0, 20.0 ],
+					"patching_rect" : [ 835.5, 181.0, 69.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -22301,7 +22275,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 10.0, 250.0, 57.0, 20.0 ],
+					"patching_rect" : [ 10.0, 280.0, 57.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 858.0, 480.0, 57.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -22786,7 +22760,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 230.0, 64.0, 20.0 ],
+					"patching_rect" : [ 10.0, 260.0, 64.0, 20.0 ],
 					"text" : "s compress"
 				}
 
@@ -22810,7 +22784,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 10.0, 210.0, 57.0, 20.0 ],
+					"patching_rect" : [ 10.0, 240.0, 57.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 915.5, 480.0, 84.5, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -33947,6 +33921,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
+									"disabled" : 1,
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -33997,7 +33972,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"order" : 0,
+									"disabled" : 1,
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -34005,7 +33980,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"order" : 1,
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -40154,7 +40128,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-133",
-					"items" : [ "[2023-10-15-18-10-22].wav", ",", "[2023-10-15-18-10-41].wav", ",", "[2023-10-15-18-10-47].wav", ",", "[2023-10-26-0-33-13]", ",", "[2023-10-26-0-35-6]", ",", "[2023-10-26-0-43-8]", ",", "[2023-10-26-0-50-1]", ",", "[2023-10-26-0-54-24]", ",", "[2023-10-26-19-46-19]", ",", "[2023-10-26-20-7-23]", ",", "[2023-10-26-22-16-49]", ",", "[2023-10-26-23-13-54]", ",", "[2023-10-26-23-4-31]", ",", "[2023-10-26-23-40-16]", ",", "[2023-10-26-23-43-36]", ",", "[2023-10-26-23-50-18]", ",", "[2023-10-27-0-2-6]", ",", "[2023-10-27-19-41-56]", ",", "[2023-10-27-19-55-7]", ",", "[2023-10-27-20-12-7]", ",", "[2023-10-27-20-24-34]", ",", "[2023-10-27-20-26-21]", ",", "[2023-10-27-20-28-26]", ",", "[2023-10-27-20-30-27]", ",", "[2023-10-28-19-21-56]", ",", "[2023-10-28-19-23-59]", ",", "[2023-10-28-19-55-38]", ",", "[2023-10-28-23-54-27]", ",", "[2023-10-29-0-10-11]", ",", "[2023-10-29-0-2-15]", ",", "[2023-10-29-18-52-3]", ",", "[2023-10-29-18-53-18]", ",", "[2023-10-29-19-20-4]", ",", "Submit and Be Crushed" ],
+					"items" : [ 1, 2467.142856999999822, "2023-11-25-0-26-54.txt", 0.187099, 0, ",", 4, 21971.9047619999983, "2023-11-25-0-26-54.txt", 0.0, 0, ",", 3, 15092.993196999999782, "2023-11-25-0-26-54.txt", 0.0, 0, ",", 2, 8202.471654999999373, "2023-11-25-0-26-54.txt", 0.0, 0 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -40902,14 +40876,14 @@
 																"box" : 																{
 																	"autopopulate" : 1,
 																	"id" : "obj-31",
-																	"items" : [ "description.txt", ",", "log [2023-10-27-20-28-36].txt", ",", "passes_2023-10-27-20-27-43.txt", ",", "playtester.txt", ",", "scores_2023-10-27-20-27-43.txt", ",", "top_sounds.txt" ],
+																	"items" : [ "description.txt", ",", "log [2023-11-25-00-27-18].txt", ",", "passes_2023-11-25-0-26-54.txt", ",", "playtester.txt", ",", "scores_2023-11-25-0-26-54.txt", ",", "top_sounds.txt" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "int", "", "" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 50.0, 150.0, 100.0, 20.0 ],
-																	"prefix" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2023-10-27-20-28-26]/",
+																	"prefix" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2023-11-25-0-27-8]/",
 																	"types" : "TEXT"
 																}
 
@@ -45811,7 +45785,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 330.0, 50.0, 20.0 ],
-													"text" : "13"
+													"text" : "4"
 												}
 
 											}
@@ -51217,7 +51191,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 120.0, 320.0, 143.0, 20.0 ],
-									"text" : "0.031027"
+									"text" : "0.13325"
 								}
 
 							}
@@ -56634,7 +56608,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 359.0, 170.0, 170.0, 20.0 ],
-					"text" : "0 -3999. 4001."
+					"text" : "2 -1685.234455 8893.796077"
 				}
 
 			}
@@ -56801,7 +56775,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-29",
-					"items" : [ "1970s Peruvian Hotel", ",", "[2023-10-3-23-37-59]", ",", "[2023-6-27-22-18-48]", ",", "[2023-7-14-22-23-21]", ",", "[2023-7-26-22-0-57]", ",", "[2023-8-11-22-17-45]", ",", "[2023-8-29-21-56-19]", ",", "[2023-9-26-23-11-9]", ",", "[2023-9-6-22-12-16]", ",", "[Ableton Live]", ",", "[pulled] Operator Drone Project (from Russian Corvette)", ",", "A Pitiful Soul", ",", "A Slick Slope into a Dark Abyss", ",", "Allen Ginsberg Armageddon", ",", "Anathema", ",", "And Then Day Turned to Night", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "As Seraphim Saunter", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Blight-Emitting Diode", ",", "Blind", ",", "C'mon Night", ",", "Cakes!", ",", "Candy Apple Island", ",", "Caprice", ",", "Catharsis", ",", "Circles", ",", "Connected Human World Beast", ",", "Convalescence", ",", "Craterian Underworld", ",", "Deep Space Disco", ",", "Disengagement by Shipwreck", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "Dum Casi Transeunt", ",", "dying satellites", ",", "Echoing", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Fear of a Name", ",", "Felmar", ",", "Forced Providence", ",", "Frost", ",", "Hate the Bear", ",", "High Resolution (Sinking)", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "Imparted", ",", "Impermanence", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Life", ",", "Interior Frontier", ",", "Interspecies Intrigue", ",", "Jabberwocky Cipher", ",", "Jericho's Grin", ",", "Jezebel", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Lifting", ",", "Long Ago Lost", ",", "Lums", ",", "Means", ",", "Mind in Void", ",", "Miserable", ",", "Ocean of Silence (We Will All Burn)", ",", "Old Map of the Abyss", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Perfectly Lost", ",", "Permafrost", ",", "Pixilated Reverie", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Relentless Renaissance", ",", "Reticent", ",", "Roboticized Break-In", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Severance", ",", "Shady Wells of Amber", ",", "Sidereal Scatter", ",", "Snowing Spores", ",", "Solitude", ",", "Sonder March", ",", "Space Whales Have Blowhole Thrusters", ",", "Stagger Proudly on", ",", "Staring at the Sun", ",", "Static Confluence (With Hells Aligned)", ",", "Steam-Powered Stupor", ",", "Stunningly Lost", ",", "Submit and Be Crushed", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Conscious Mind", ",", "The Flowing Light", ",", "The Machinist Fir", ",", "The Pavilion Bells", ",", "The Scalar", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Through", ",", "Transcendental Takeover", ",", "Transmogrified", ",", "Triangle God", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Webs and Schisms", ",", "Werewolves and Time Travel Won't Keep Me Away", ",", "Whenever I Die I Wake up Some Place Else", ",", "Whether", ",", "Wistful, Sulfurous", ",", "WXA", ",", "Your Eyes Remind Me of Something" ],
+					"items" : [ "1970s Peruvian Hotel", ",", "[2023-10-3-23-37-59]", ",", "[2023-6-27-22-18-48]", ",", "[2023-7-14-22-23-21]", ",", "[2023-7-26-22-0-57]", ",", "[2023-8-11-22-17-45]", ",", "[2023-8-29-21-56-19]", ",", "[2023-9-26-23-11-9]", ",", "[2023-9-6-22-12-16]", ",", "[Archives]", ",", "[pulled] Disengagement By Shipwreck (from Martin vel Kuler)", ",", "[pulled] Operator Drone Project (from Russian Corvette)", ",", "A Pitiful Soul", ",", "A Slick Slope into a Dark Abyss", ",", "Allen Ginsberg Armageddon", ",", "Anathema", ",", "And Then Day Turned to Night", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "As Seraphim Saunter", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Blight-Emitting Diode", ",", "Blind", ",", "C'mon Night", ",", "Cakes!", ",", "Candy Apple Island", ",", "Caprice", ",", "Catharsis", ",", "Circles", ",", "Connected Human World Beast", ",", "Convalescence", ",", "Craterian Underworld", ",", "Deep Space Disco", ",", "Disengagement by Shipwreck", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "Dum Casi Transeunt", ",", "dying satellites", ",", "Echoing", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Fear of a Name", ",", "Felmar", ",", "Forced Providence", ",", "Frost", ",", "Hate the Bear", ",", "High Resolution (Sinking)", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "Imparted", ",", "Impermanence", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Life", ",", "Interior Frontier", ",", "Interspecies Intrigue", ",", "It's Snowing Outside Give Me Soup", ",", "Jabberwocky Cipher", ",", "Jericho's Grin", ",", "Jezebel", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Lifting", ",", "Long Ago Lost", ",", "Lums", ",", "Means", ",", "Mind in Void", ",", "Miserable", ",", "Ocean of Silence (We Will All Burn)", ",", "Old Map of the Abyss", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Perfectly Lost", ",", "Permafrost", ",", "Pixilated Reverie", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Relentless Renaissance", ",", "Reticent", ",", "Roboticized Break-In", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Severance", ",", "Shady Wells of Amber", ",", "Sidereal Scatter", ",", "Snowing Spores", ",", "Solitude", ",", "Sonder March", ",", "Space Whales Have Blowhole Thrusters", ",", "Stagger Proudly on", ",", "Staring at the Sun", ",", "Starter Town Yoshiro Region Theme", ",", "Static Confluence (With Hells Aligned)", ",", "Steam-Powered Stupor", ",", "Stunningly Lost", ",", "Submit and Be Crushed", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Conscious Mind", ",", "The Flowing Light", ",", "The Long Fall", ",", "The Machinist Fir", ",", "The Pavilion Bells", ",", "The Scalar", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Through", ",", "Transcendental Takeover", ",", "Transmogrified", ",", "Triangle God", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Visions", ",", "Webs and Schisms", ",", "Werewolves and Time Travel Won't Keep Me Away", ",", "Whenever I Die I Wake up Some Place Else", ",", "Whether", ",", "Wistful, Sulfurous", ",", "WXA", ",", "Your Eyes Remind Me of Something" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -73719,14 +73693,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 1 ],
-									"order" : 2,
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
 									"order" : 1,
 									"source" : [ "obj-2", 0 ]
 								}
@@ -73734,8 +73700,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
+									"destination" : [ "obj-10", 0 ],
 									"order" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 1,
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -73750,7 +73724,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"order" : 2,
+									"order" : 1,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -73758,7 +73732,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-46", 0 ],
-									"order" : 0,
+									"disabled" : 1,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -73766,7 +73740,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -73979,7 +73953,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
-									"order" : 1,
 									"source" : [ "obj-91", 0 ]
 								}
 
@@ -73987,7 +73960,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-46", 0 ],
-									"order" : 0,
+									"disabled" : 1,
 									"source" : [ "obj-91", 0 ]
 								}
 
@@ -79425,6 +79398,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-172", 0 ],
 					"source" : [ "obj-173", 0 ]
 				}
@@ -79455,6 +79435,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-175", 0 ],
 					"source" : [ "obj-176", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -79707,7 +79694,6 @@
 			"obj-13::obj-131::obj-17" : [ "Monitoring[18]", "Gain", 0 ],
 			"obj-13::obj-131::obj-37" : [ "live.text[7]", "live.text", 0 ],
 			"obj-13::obj-131::obj-54" : [ "slider", "slider", 0 ],
-			"obj-13::obj-131::obj-67" : [ "Uniform/Variable Loop Lengths[3]", "Uniform/Variable Loop Lengths", 0 ],
 			"obj-13::obj-131::obj-73" : [ "live.text[9]", "live.text", 0 ],
 			"obj-13::obj-157::obj-33::obj-21" : [ "vst~[3]", "vst~[3]", 0 ],
 			"obj-13::obj-157::obj-5" : [ "vst~", "vst~", 0 ],
@@ -79717,7 +79703,6 @@
 			"obj-13::obj-1::obj-17" : [ "Monitoring[26]", "Gain", 0 ],
 			"obj-13::obj-1::obj-37" : [ "live.text[34]", "live.text", 0 ],
 			"obj-13::obj-1::obj-54" : [ "slider[4]", "slider", 0 ],
-			"obj-13::obj-1::obj-67" : [ "Uniform/Variable Loop Lengths[7]", "Uniform/Variable Loop Lengths", 0 ],
 			"obj-13::obj-1::obj-73" : [ "live.text[35]", "live.text", 0 ],
 			"obj-13::obj-3::obj-110" : [ "live.text[25]", "live.text", 0 ],
 			"obj-13::obj-3::obj-152" : [ "Monitoring[22]", "Gain", 0 ],
@@ -79725,7 +79710,6 @@
 			"obj-13::obj-3::obj-17" : [ "Monitoring[13]", "Gain", 0 ],
 			"obj-13::obj-3::obj-37" : [ "live.text[26]", "live.text", 0 ],
 			"obj-13::obj-3::obj-54" : [ "slider[1]", "slider", 0 ],
-			"obj-13::obj-3::obj-67" : [ "Uniform/Variable Loop Lengths[4]", "Uniform/Variable Loop Lengths", 0 ],
 			"obj-13::obj-3::obj-73" : [ "live.text[12]", "live.text", 0 ],
 			"obj-13::obj-4::obj-110" : [ "live.text[15]", "live.text", 0 ],
 			"obj-13::obj-4::obj-152" : [ "Monitoring[14]", "Gain", 0 ],
@@ -79733,7 +79717,6 @@
 			"obj-13::obj-4::obj-17" : [ "Monitoring[23]", "Gain", 0 ],
 			"obj-13::obj-4::obj-37" : [ "live.text[27]", "live.text", 0 ],
 			"obj-13::obj-4::obj-54" : [ "slider[2]", "slider", 0 ],
-			"obj-13::obj-4::obj-67" : [ "Uniform/Variable Loop Lengths[5]", "Uniform/Variable Loop Lengths", 0 ],
 			"obj-13::obj-4::obj-73" : [ "live.text[14]", "live.text", 0 ],
 			"obj-13::obj-5::obj-110" : [ "live.text[28]", "live.text", 0 ],
 			"obj-13::obj-5::obj-152" : [ "Monitoring[15]", "Gain", 0 ],
@@ -79741,7 +79724,6 @@
 			"obj-13::obj-5::obj-17" : [ "Monitoring[24]", "Gain", 0 ],
 			"obj-13::obj-5::obj-37" : [ "live.text[29]", "live.text", 0 ],
 			"obj-13::obj-5::obj-54" : [ "slider[3]", "slider", 0 ],
-			"obj-13::obj-5::obj-67" : [ "Uniform/Variable Loop Lengths[6]", "Uniform/Variable Loop Lengths", 0 ],
 			"obj-13::obj-5::obj-73" : [ "live.text[31]", "live.text", 0 ],
 			"obj-141::obj-29" : [ "Monitoring[11]", "Gain", 0 ],
 			"obj-146" : [ "live.text[19]", "live.text", 0 ],
@@ -79809,10 +79791,6 @@
 					"parameter_longname" : "live.text[34]"
 				}
 ,
-				"obj-13::obj-1::obj-67" : 				{
-					"parameter_longname" : "Uniform/Variable Loop Lengths[7]"
-				}
-,
 				"obj-13::obj-1::obj-73" : 				{
 					"parameter_longname" : "live.text[35]"
 				}
@@ -79835,10 +79813,6 @@
 ,
 				"obj-13::obj-3::obj-37" : 				{
 					"parameter_longname" : "live.text[26]"
-				}
-,
-				"obj-13::obj-3::obj-67" : 				{
-					"parameter_longname" : "Uniform/Variable Loop Lengths[4]"
 				}
 ,
 				"obj-13::obj-3::obj-73" : 				{
@@ -79865,10 +79839,6 @@
 					"parameter_longname" : "live.text[27]"
 				}
 ,
-				"obj-13::obj-4::obj-67" : 				{
-					"parameter_longname" : "Uniform/Variable Loop Lengths[5]"
-				}
-,
 				"obj-13::obj-4::obj-73" : 				{
 					"parameter_longname" : "live.text[14]"
 				}
@@ -79891,10 +79861,6 @@
 ,
 				"obj-13::obj-5::obj-37" : 				{
 					"parameter_longname" : "live.text[29]"
-				}
-,
-				"obj-13::obj-5::obj-67" : 				{
-					"parameter_longname" : "Uniform/Variable Loop Lengths[6]"
 				}
 ,
 				"obj-13::obj-5::obj-73" : 				{
@@ -80000,6 +79966,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "passes_2023-11-25-0-26-54.txt",
+				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2023-11-25-0-27-8]",
+				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Experiments]/[Projects]/[2023-11-25-0-27-8]",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "poly_faster-than-real-time_bouncing~.maxpat",
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/[Archives]",
 				"patcherrelativepath" : "../[Archives]",
@@ -80014,9 +79987,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "scores_2023-11-25-0-26-54.txt",
+				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2023-11-25-0-27-8]",
+				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Experiments]/[Projects]/[2023-11-25-0-27-8]",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "specialBuddy.maxpat",
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "specs.json",
+				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2023-11-25-0-27-8]",
+				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Experiments]/[Projects]/[2023-11-25-0-27-8]",
 				"type" : "JSON",
 				"implicit" : 1
 			}
