@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 363.0, 491.0, 1040.0, 507.0 ],
+		"rect" : [ 285.0, 512.0, 1040.0, 507.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,5348 @@
 		"subpatcher_template" : "Size 10 grid",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-71",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 282.0, 570.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 410.0, 480.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-66",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 288.666670352220535, 710.0, 74.0, 20.0 ],
+					"text" : "s coordinates"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 288.666670352220535, 690.0, 131.333329647779465, 20.0 ],
+					"text" : "join 3 @triggers 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 288.666670352220535, 670.0, 36.0, 20.0 ],
+					"text" : "r track"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 282.0, 630.0, 47.0, 20.0 ],
+					"text" : "onebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 310.0, 610.0, 37.0, 20.0 ],
+					"text" : "edge~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 401.0, 670.0, 55.0, 20.0 ],
+					"text" : "snapshot~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 345.0, 670.0, 55.0, 20.0 ],
+					"text" : "snapshot~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-33",
+					"maxclass" : "number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 744.125, 650.0, 73.75, 20.0 ],
+					"sig" : 0.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-37",
+					"maxclass" : "number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 744.125, 670.0, 75.5, 20.0 ],
+					"sig" : 0.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 3,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 445.0, 351.0, 1067.0, 511.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 2,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 2,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "Size 10 grid",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 80.0, 320.0, 68.0, 20.0 ],
+									"text" : "prepend from"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 80.0, 300.0, 62.0, 20.0 ],
+									"text" : "mousefilter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 80.0, 270.0, 35.0, 20.0 ],
+									"text" : "r from"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-8",
+									"index" : 2,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 216.0, 450.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-88",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "float" ],
+									"patching_rect" : [ 10.0, 320.0, 70.0, 20.0 ],
+									"text" : "mstosamps~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-71",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 170.0, 170.0, 62.0, 20.0 ],
+									"text" : "mousefilter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 300.0, 62.0, 20.0 ],
+									"text" : "mousefilter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 170.0, 130.0, 39.0, 20.0 ],
+									"text" : "r track"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 270.0, 25.0, 20.0 ],
+									"text" : "r to"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 170.0, 150.0, 104.0, 20.0 ],
+									"text" : "sprintf stem stems.%i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-89",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 142.0, 450.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-89", 0 ],
+									"disabled" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-71", 0 ],
+									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-41", 0 ],
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
+									"source" : [ "obj-37", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-88", 0 ],
+									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-89", 0 ],
+									"source" : [ "obj-71", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-89", 0 ],
+									"source" : [ "obj-88", 0 ]
+								}
+
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "Custom Default",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-10",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-11",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-1-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-1-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-1-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-1-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-1-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-1-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-4-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-4-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-4-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-5-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-7",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-1-8",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-1-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-1-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-1-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-1-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-1-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-1-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-2",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-2-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-2-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-3",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-3-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-3-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-4-1",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-4-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-4-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-5-1",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-6",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-7",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-2-8",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-3-1",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-3-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-3-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-3-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-3-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-3-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-4",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-4-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-4-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-7",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-7-1",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-7-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-7-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-8",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-1-8-1",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-1-9",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-3-1",
+								"default" : 								{
+									"fontface" : [ 0 ],
+									"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-3-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-3-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-1-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-1-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-1-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-1-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-1-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-1-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-4-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-4-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-4-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-5-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-7",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-1-8",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-1-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-1-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-1-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-1-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-1-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-1-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-2-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-2-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-3-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-3-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-4-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-4-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-4-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-5-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-7",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-1-8",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-1-1-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-1-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-1-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-1-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-1-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-1-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-1-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-1-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-2-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-2-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-3",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-3-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-3-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-4",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-4-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-4-1-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-4-2",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-5",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-6-5-1",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-6",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-7",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-6-8",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default Regular-7",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default Regular-8",
+								"message" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"newobj" : 								{
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 1
+							}
+, 							{
+								"name" : "Custom Default-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-1-1-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-1-1-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-1-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-1-3",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-1-4",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-1-4-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-1-1-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-1-1-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-1-1-1-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-1-1-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-1-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-1-3",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-1-4",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-1-5",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-1-6",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-3",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-4",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-4-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-4-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-4-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-5",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-5-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-6",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-7",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-1-8",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-3",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-3-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-3-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-3-1-1-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-3-1-1-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-3-1-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-3-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-3-3",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-3-4",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-3-5",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-3-6",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-4",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-5",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-5-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-5-1-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-5-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-6",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-6-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-7",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-8",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-2-9",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-3",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-4",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-1-4-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-1-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-1-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-1-1-1-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-1-1-1-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-1-1-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-1-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-1-3",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-1-4",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-1-5",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-1-6",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-3",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-4",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-4-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-4-1-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-4-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-5",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-5-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-6",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-7",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-1-8",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-3",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-3-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-3-1-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-3-1-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-3-1-1-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-3-1-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-3-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-3-3",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-3-4",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-3-5",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-3-6",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-4",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-5",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-5-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-5-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-5-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-6",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-6-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-7",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-8",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-3-9",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-4",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-5",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-1-5-1",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-10",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-11",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-11-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-2",
+								"newobj" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"message" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-3",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-4",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-5",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-6",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-7",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-8",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-8-1",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-8-2",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-1",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-1-1-1",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-1-1-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-1-1-1-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-1-1-2",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-1-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-1-3",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-1-4",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-1-5",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-1-6",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-3",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-4",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-4-1",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-4-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-4-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-5",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-5-1",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-6",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-7",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-1-8",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-3",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-3-1",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-3-1-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-3-1-1-1",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-3-1-1-2",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-3-1-2",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-3-2",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-3-3",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-3-4",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-3-5",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-3-6",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-4",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-5",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-5-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-5-1-1",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-5-2",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-6",
+								"default" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-6-1",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-7",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-8",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Custom Default-9-9",
+								"default" : 								{
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+								}
+,
+								"parentstyle" : "Custom Default-2",
+								"multi" : 0
+							}
+, 							{
+								"name" : "ksliderWhite",
+								"default" : 								{
+									"color" : [ 1, 1, 1, 1 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjBlue-1",
+								"default" : 								{
+									"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjBrown-1",
+								"default" : 								{
+									"accentcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjGreen-1",
+								"default" : 								{
+									"accentcolor" : [ 0, 0.533333, 0.168627, 1 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjYellow-1",
+								"default" : 								{
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "numberGold-1",
+								"default" : 								{
+									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 310.0, 570.0, 53.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p params"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 3,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "dsp.gen",
+						"rect" : [ 555.0, 266.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 2,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 2,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "Size 10 grid",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 570.0, 420.0, 31.0, 20.0 ],
+									"text" : "out 5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 440.0, 430.0, 31.0, 20.0 ],
+									"text" : "out 4"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 320.5, 400.0, 31.0, 20.0 ],
+									"text" : "out 3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 185.25, 410.0, 31.0, 20.0 ],
+									"text" : "out 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 20.0, 25.0, 20.0 ],
+									"text" : "in 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 591.0, 20.0, 25.0, 20.0 ],
+									"text" : "in 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"code" : "Buffer stem(\"stem\");\r\n//Buffer range(\"range\");\r\nHistory i(0);\r\nHistory from(0);\r\nHistory to(0);\r\nHistory increment(1);\r\nHistory quiet(0);\r\nHistory duration(0);\r\nHistory go(0);\r\nHistory ready(0);\r\nif(change(in1)) {\r\n    i = in1;\r\n    increment = 1;\r\n    go = 0;\r\n    ready = 0;\r\n}\r\nscan = abs(peek(stem, i));\r\nquiet = scan < .009;\r\nif(!quiet) {\r\n    duration = 0;\r\n    go = 1;\r\n}\r\nduration += quiet;\r\nif(duration > 4999 && go) {\r\n    if(increment > 0) {\r\n        to = i;\r\n    }\r\n    else {\r\n        from = i;\r\n    }\r\n    //poke(range, 1, i);\r\n    increment *= -1;\r\n    duration = 0;\r\n    ready += 1;\r\n}\r\ni += increment;\r\nout1 = ready > 1.9;\r\nout2 = sampstoms(from);\r\nout3 = sampstoms(to);\r\nout4 = scan;\r\nout5 = duration;",
+									"fontface" : 0,
+									"fontname" : "<Monospaced>",
+									"fontsize" : 10.0,
+									"id" : "obj-3",
+									"maxclass" : "codebox",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 50.0, 40.0, 560.0, 350.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 410.0, 31.0, 20.0 ],
+									"text" : "out 1"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-3", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-3", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-3", 3 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 310.0, 590.0, 159.0, 20.0 ],
+					"text" : "gen~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 250.0, 20.0, 30.0, 20.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 250.0, 0.0, 56.0, 20.0 ],
+					"text" : "r importing"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-137",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 250.0, 100.0, 67.0, 20.0 ],
+					"text" : "s all_soothes"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-136",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 250.0, 60.0, 375.0, 31.0 ],
+					"text" : "plug D:/[Library]/[Tools]/[VSTs]/[Effects]/[Utilities]/soothe2_x64.dll, importsnapshot 1 D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis/soothe2.maxsnap, restore 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "newobj",
@@ -315,7 +5657,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 610.0, 90.0, 74.0, 20.0 ],
+					"patching_rect" : [ 631.904744333333383, 160.0, 74.0, 20.0 ],
 					"text" : "s ---perpetuate"
 				}
 
@@ -327,7 +5669,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 610.0, 70.0, 101.0, 20.0 ],
+					"patching_rect" : [ 631.904744333333383, 140.0, 101.0, 20.0 ],
 					"text" : "metro 999 @active 1"
 				}
 
@@ -364,7 +5706,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 240.0, 130.0, 57.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 586.0, 480.0, 57.0, 20.0 ],
+					"presentation_rect" : [ 616.0, 480.0, 57.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -685,7 +6027,7 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "description.txt", ",", "KeyRig 49.txt", ",", "log [2023-12-26-20-09-22].txt", ",", "log [2024-01-03-22-05-50].txt", ",", "log [2024-01-06-20-15-12].txt", ",", "log [2024-01-14-21-51-08].txt", ",", "log [2024-01-23-20-23-54].txt", ",", "log [2024-01-28-21-30-35].txt", ",", "passes_2024-1-14-21-51-43.txt", ",", "passes_2024-1-23-20-22-35.txt", ",", "passes_2024-1-28-21-30-4.txt", ",", "passes_2024-1-3-22-2-28.txt", ",", "passes_2024-1-6-20-14-47.txt", ",", "passes_surgeryElectric.txt", ",", "passes_surgeryElectric2.txt", ",", "scores_2024-1-14-21-51-43.txt", ",", "scores_2024-1-23-20-22-35.txt", ",", "scores_2024-1-28-21-30-4.txt", ",", "scores_2024-1-3-22-2-28.txt", ",", "scores_2024-1-6-20-14-47.txt", ",", "scores_surgeryElectric.txt", ",", "scores_surgeryElectric2.txt", ",", "top_sounds.txt" ],
+													"items" : [ "description.txt", ",", "KeyRig 49.txt", ",", "log [2023-12-26-20-09-22].txt", ",", "log [2024-01-03-22-05-50].txt", ",", "log [2024-01-06-20-15-12].txt", ",", "log [2024-01-14-21-51-08].txt", ",", "log [2024-01-23-20-23-54].txt", ",", "log [2024-01-28-21-30-35].txt", ",", "log [2024-02-02-20-37-35].txt", ",", "log [2024-02-14-18-43-09].txt", ",", "log [2024-02-18-20-39-35].txt", ",", "log [2024-02-21-22-21-18].txt", ",", "log [2024-02-22-22-37-20].txt", ",", "log [2024-02-23-22-34-15].txt", ",", "log [2024-02-24-19-50-34].txt", ",", "log [2024-02-25-21-42-57].txt", ",", "log [2024-02-27-23-36-47].txt", ",", "log [2024-02-27-23-38-04].txt", ",", "log [2024-02-29-22-57-11].txt", ",", "log [2024-03-01-21-29-44].txt", ",", "log [2024-03-02-19-34-48].txt", ",", "log [2024-03-02-19-37-32].txt", ",", "log [2024-03-03-21-56-21].txt", ",", "log [2024-03-06-19-22-10].txt", ",", "log [2024-04-05-21-26-07].txt", ",", "log [2024-04-05-21-28-01].txt", ",", "passes_2024-1-14-21-51-43.txt", ",", "passes_2024-1-23-20-22-35.txt", ",", "passes_2024-1-28-21-30-4.txt", ",", "passes_2024-1-3-22-2-28.txt", ",", "passes_2024-1-6-20-14-47.txt", ",", "passes_2024-2-14-18-42-38.txt", ",", "passes_2024-2-18-20-39-43.txt", ",", "passes_2024-2-2-20-37-43.txt", ",", "passes_2024-2-21-22-21-25.txt", ",", "passes_2024-2-22-22-37-39.txt", ",", "passes_2024-2-23-22-34-22.txt", ",", "passes_2024-2-24-19-50-48.txt", ",", "passes_2024-2-25-21-43-5.txt", ",", "passes_2024-2-27-23-34-28.txt", ",", "passes_2024-2-27-23-38-52.txt", ",", "passes_2024-2-29-22-57-29.txt", ",", "passes_2024-3-1-21-29-55.txt", ",", "passes_2024-3-2-19-37-56.txt", ",", "passes_2024-3-3-21-56-36.txt", ",", "passes_2024-3-6-19-22-46.txt", ",", "passes_2024-4-5-21-24-42.txt", ",", "passes_2024-4-5-21-28-22.txt", ",", "passes_surgeryElectric.txt", ",", "passes_surgeryElectric2.txt", ",", "scores_2024-1-14-21-51-43.txt", ",", "scores_2024-1-23-20-22-35.txt", ",", "scores_2024-1-28-21-30-4.txt", ",", "scores_2024-1-3-22-2-28.txt", ",", "scores_2024-1-6-20-14-47.txt", ",", "scores_2024-2-14-18-42-38.txt", ",", "scores_2024-2-18-20-39-43.txt", ",", "scores_2024-2-2-20-37-43.txt", ",", "scores_2024-2-21-22-21-25.txt", ",", "scores_2024-2-22-22-37-39.txt", ",", "scores_2024-2-23-22-34-22.txt", ",", "scores_2024-2-24-19-50-48.txt", ",", "scores_2024-2-25-21-43-5.txt", ",", "scores_2024-2-27-23-34-28.txt", ",", "scores_2024-2-27-23-38-52.txt", ",", "scores_2024-2-29-22-57-29.txt", ",", "scores_2024-3-1-21-29-55.txt", ",", "scores_2024-3-2-19-37-56.txt", ",", "scores_2024-3-3-21-56-36.txt", ",", "scores_2024-3-6-19-22-46.txt", ",", "scores_2024-4-5-21-24-42.txt", ",", "scores_2024-4-5-21-28-22.txt", ",", "scores_surgeryElectric.txt", ",", "scores_surgeryElectric2.txt", ",", "top_sounds.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -5959,7 +11301,7 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "glued.wav", ",", "palette_2024-1-14-21-51-43.wav", ",", "palette_2024-1-23-20-22-35.wav", ",", "palette_2024-1-28-21-30-4.wav", ",", "palette_2024-1-3-22-2-28.wav", ",", "palette_2024-1-6-20-14-47.wav", ",", "palette_surgeryElectric.wav", ",", "palette_surgeryElectric2.wav", ",", "preserves.wav", ",", "preview.wav" ],
+													"items" : [ "glued.wav", ",", "palette_2024-1-14-21-51-43.wav", ",", "palette_2024-1-23-20-22-35.wav", ",", "palette_2024-1-28-21-30-4.wav", ",", "palette_2024-1-3-22-2-28.wav", ",", "palette_2024-1-6-20-14-47.wav", ",", "palette_2024-2-14-18-42-38.wav", ",", "palette_2024-2-18-20-39-43.wav", ",", "palette_2024-2-2-20-37-43.wav", ",", "palette_2024-2-21-22-21-25.wav", ",", "palette_2024-2-22-22-37-39.wav", ",", "palette_2024-2-23-22-34-22.wav", ",", "palette_2024-2-24-19-50-48.wav", ",", "palette_2024-2-25-21-43-5.wav", ",", "palette_2024-2-27-23-34-28.wav", ",", "palette_2024-2-27-23-38-52.wav", ",", "palette_2024-2-29-22-57-29.wav", ",", "palette_2024-3-1-21-29-55.wav", ",", "palette_2024-3-2-19-37-56.wav", ",", "palette_2024-3-3-21-56-36.wav", ",", "palette_2024-3-6-19-22-46.wav", ",", "palette_2024-4-5-21-24-42.wav", ",", "palette_2024-4-5-21-28-22.wav", ",", "palette_surgeryElectric.wav", ",", "palette_surgeryElectric2.wav", ",", "preserves.wav", ",", "preview.wav" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -11285,7 +16627,7 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "description.txt", ",", "KeyRig 49.txt", ",", "log [2023-12-26-20-09-22].txt", ",", "log [2024-01-03-22-05-50].txt", ",", "log [2024-01-06-20-15-12].txt", ",", "log [2024-01-14-21-51-08].txt", ",", "log [2024-01-23-20-23-54].txt", ",", "log [2024-01-28-21-30-35].txt", ",", "passes_2024-1-14-21-51-43.txt", ",", "passes_2024-1-23-20-22-35.txt", ",", "passes_2024-1-28-21-30-4.txt", ",", "passes_2024-1-3-22-2-28.txt", ",", "passes_2024-1-6-20-14-47.txt", ",", "passes_surgeryElectric.txt", ",", "passes_surgeryElectric2.txt", ",", "scores_2024-1-14-21-51-43.txt", ",", "scores_2024-1-23-20-22-35.txt", ",", "scores_2024-1-28-21-30-4.txt", ",", "scores_2024-1-3-22-2-28.txt", ",", "scores_2024-1-6-20-14-47.txt", ",", "scores_surgeryElectric.txt", ",", "scores_surgeryElectric2.txt", ",", "top_sounds.txt" ],
+													"items" : [ "description.txt", ",", "KeyRig 49.txt", ",", "log [2023-12-26-20-09-22].txt", ",", "log [2024-01-03-22-05-50].txt", ",", "log [2024-01-06-20-15-12].txt", ",", "log [2024-01-14-21-51-08].txt", ",", "log [2024-01-23-20-23-54].txt", ",", "log [2024-01-28-21-30-35].txt", ",", "log [2024-02-02-20-37-35].txt", ",", "log [2024-02-14-18-43-09].txt", ",", "log [2024-02-18-20-39-35].txt", ",", "log [2024-02-21-22-21-18].txt", ",", "log [2024-02-22-22-37-20].txt", ",", "log [2024-02-23-22-34-15].txt", ",", "log [2024-02-24-19-50-34].txt", ",", "log [2024-02-25-21-42-57].txt", ",", "log [2024-02-27-23-36-47].txt", ",", "log [2024-02-27-23-38-04].txt", ",", "log [2024-02-29-22-57-11].txt", ",", "log [2024-03-01-21-29-44].txt", ",", "log [2024-03-02-19-34-48].txt", ",", "log [2024-03-02-19-37-32].txt", ",", "log [2024-03-03-21-56-21].txt", ",", "log [2024-03-06-19-22-10].txt", ",", "log [2024-04-05-21-26-07].txt", ",", "log [2024-04-05-21-28-01].txt", ",", "passes_2024-1-14-21-51-43.txt", ",", "passes_2024-1-23-20-22-35.txt", ",", "passes_2024-1-28-21-30-4.txt", ",", "passes_2024-1-3-22-2-28.txt", ",", "passes_2024-1-6-20-14-47.txt", ",", "passes_2024-2-14-18-42-38.txt", ",", "passes_2024-2-18-20-39-43.txt", ",", "passes_2024-2-2-20-37-43.txt", ",", "passes_2024-2-21-22-21-25.txt", ",", "passes_2024-2-22-22-37-39.txt", ",", "passes_2024-2-23-22-34-22.txt", ",", "passes_2024-2-24-19-50-48.txt", ",", "passes_2024-2-25-21-43-5.txt", ",", "passes_2024-2-27-23-34-28.txt", ",", "passes_2024-2-27-23-38-52.txt", ",", "passes_2024-2-29-22-57-29.txt", ",", "passes_2024-3-1-21-29-55.txt", ",", "passes_2024-3-2-19-37-56.txt", ",", "passes_2024-3-3-21-56-36.txt", ",", "passes_2024-3-6-19-22-46.txt", ",", "passes_2024-4-5-21-24-42.txt", ",", "passes_2024-4-5-21-28-22.txt", ",", "passes_surgeryElectric.txt", ",", "passes_surgeryElectric2.txt", ",", "scores_2024-1-14-21-51-43.txt", ",", "scores_2024-1-23-20-22-35.txt", ",", "scores_2024-1-28-21-30-4.txt", ",", "scores_2024-1-3-22-2-28.txt", ",", "scores_2024-1-6-20-14-47.txt", ",", "scores_2024-2-14-18-42-38.txt", ",", "scores_2024-2-18-20-39-43.txt", ",", "scores_2024-2-2-20-37-43.txt", ",", "scores_2024-2-21-22-21-25.txt", ",", "scores_2024-2-22-22-37-39.txt", ",", "scores_2024-2-23-22-34-22.txt", ",", "scores_2024-2-24-19-50-48.txt", ",", "scores_2024-2-25-21-43-5.txt", ",", "scores_2024-2-27-23-34-28.txt", ",", "scores_2024-2-27-23-38-52.txt", ",", "scores_2024-2-29-22-57-29.txt", ",", "scores_2024-3-1-21-29-55.txt", ",", "scores_2024-3-2-19-37-56.txt", ",", "scores_2024-3-3-21-56-36.txt", ",", "scores_2024-3-6-19-22-46.txt", ",", "scores_2024-4-5-21-24-42.txt", ",", "scores_2024-4-5-21-28-22.txt", ",", "scores_surgeryElectric.txt", ",", "scores_surgeryElectric2.txt", ",", "top_sounds.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -16600,7 +21942,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.095255666666617, 20.0, 65.0, 20.0 ],
+					"patching_rect" : [ 650.0, 100.0, 65.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -16614,7 +21956,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 628.095255666666617, 40.0, 86.0, 20.0 ],
+					"patching_rect" : [ 650.0, 120.0, 86.0, 20.0 ],
 					"text" : "adstatus switch"
 				}
 
@@ -16628,7 +21970,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 531.666666666666629, 30.0, 65.0, 20.0 ],
+					"patching_rect" : [ 553.571411000000012, 100.0, 65.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -16642,7 +21984,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 531.666666666666629, 50.0, 99.0, 20.0 ],
+					"patching_rect" : [ 553.571411000000012, 120.0, 99.0, 20.0 ],
 					"text" : "adstatus overdrive"
 				}
 
@@ -22454,7 +27796,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 10.0, 280.0, 57.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 858.0, 480.0, 57.0, 20.0 ],
+					"presentation_rect" : [ 888.0, 480.0, 57.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -22795,7 +28137,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 0.0, 660.000000596046448, 57.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 468.0, 480.0, 57.0, 20.0 ],
+					"presentation_rect" : [ 498.0, 480.0, 57.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -22963,7 +28305,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 10.0, 240.0, 57.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 915.5, 480.0, 84.5, 20.0 ],
+					"presentation_rect" : [ 945.5, 480.0, 84.5, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -40224,7 +45566,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 134.0, 680.000000596046448, 57.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 527.0, 480.0, 57.0, 20.0 ],
+					"presentation_rect" : [ 557.0, 480.0, 57.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -40305,7 +45647,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-133",
-					"items" : "<empty>",
+					"items" : [ "[2023-11-21-21-18-22]", ",", "[2023-12-16-18-39-54]", ",", "[2023-12-17-19-30-19]", ",", "[2023-12-18-19-57-20]", ",", "[2023-12-19-17-34-47]", ",", "[2023-12-20-16-53-55]", ",", "[2023-12-21-22-19-55]", ",", "[2023-12-21-23-58-45]", ",", "[2023-12-22-17-44-45]", ",", "[2023-12-23-18-54-26]", ",", "[2023-12-23-19-15-2]", ",", "[2023-12-23-19-24-31]", ",", "[2023-12-23-19-43-50]", ",", "[2023-12-26-23-38-22]", ",", "[2024-2-13-0-6-50]", ",", "[2024-2-19-17-49-19]", ",", "[2024-2-19-17-55-0]", ",", "[2024-3-5-18-49-34]", ",", "[2024-3-5-19-4-10]", ",", "[2024-4-17-19-37-52]", ",", "[2024-4-20-20-41-10]", ",", "[2024-5-2-21-54-20]", ",", "[2024-5-2-22-44-14]", ",", "[2024-5-23-19-23-32]", ",", "[2024-5-6-19-30-40]" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -40314,7 +45656,7 @@
 					"patching_rect" : [ 101.0, 380.0, 96.0, 20.0 ],
 					"prefix" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/",
 					"presentation" : 1,
-					"presentation_rect" : [ 645.0, 480.0, 211.0, 20.0 ],
+					"presentation_rect" : [ 675.0, 480.0, 211.0, 20.0 ],
 					"types" : "fold"
 				}
 
@@ -40468,7 +45810,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 433.0, 100.0, 89.5, 20.0 ],
-									"text" : "-68"
+									"text" : "-60"
 								}
 
 							}
@@ -41113,7 +46455,7 @@
 																"box" : 																{
 																	"autopopulate" : 1,
 																	"id" : "obj-31",
-																	"items" : [ "description.txt", ",", "KeyRig 49.txt", ",", "log [2023-12-26-20-09-22].txt", ",", "log [2024-01-03-22-05-50].txt", ",", "log [2024-01-06-20-15-12].txt", ",", "log [2024-01-14-21-51-08].txt", ",", "log [2024-01-23-20-23-54].txt", ",", "log [2024-01-28-21-30-35].txt", ",", "passes_2024-1-14-21-51-43.txt", ",", "passes_2024-1-23-20-22-35.txt", ",", "passes_2024-1-28-21-30-4.txt", ",", "passes_2024-1-3-22-2-28.txt", ",", "passes_2024-1-6-20-14-47.txt", ",", "passes_surgeryElectric.txt", ",", "passes_surgeryElectric2.txt", ",", "scores_2024-1-14-21-51-43.txt", ",", "scores_2024-1-23-20-22-35.txt", ",", "scores_2024-1-28-21-30-4.txt", ",", "scores_2024-1-3-22-2-28.txt", ",", "scores_2024-1-6-20-14-47.txt", ",", "scores_surgeryElectric.txt", ",", "scores_surgeryElectric2.txt", ",", "top_sounds.txt" ],
+																	"items" : [ "description.txt", ",", "KeyRig 49.txt", ",", "log [2023-12-26-20-09-22].txt", ",", "log [2024-01-03-22-05-50].txt", ",", "log [2024-01-06-20-15-12].txt", ",", "log [2024-01-14-21-51-08].txt", ",", "log [2024-01-23-20-23-54].txt", ",", "log [2024-01-28-21-30-35].txt", ",", "log [2024-02-02-20-37-35].txt", ",", "log [2024-02-14-18-43-09].txt", ",", "log [2024-02-18-20-39-35].txt", ",", "log [2024-02-21-22-21-18].txt", ",", "log [2024-02-22-22-37-20].txt", ",", "log [2024-02-23-22-34-15].txt", ",", "log [2024-02-24-19-50-34].txt", ",", "log [2024-02-25-21-42-57].txt", ",", "log [2024-02-27-23-36-47].txt", ",", "log [2024-02-27-23-38-04].txt", ",", "log [2024-02-29-22-57-11].txt", ",", "log [2024-03-01-21-29-44].txt", ",", "log [2024-03-02-19-34-48].txt", ",", "log [2024-03-02-19-37-32].txt", ",", "log [2024-03-03-21-56-21].txt", ",", "log [2024-03-06-19-22-10].txt", ",", "log [2024-04-05-21-26-07].txt", ",", "log [2024-04-05-21-28-01].txt", ",", "passes_2024-1-14-21-51-43.txt", ",", "passes_2024-1-23-20-22-35.txt", ",", "passes_2024-1-28-21-30-4.txt", ",", "passes_2024-1-3-22-2-28.txt", ",", "passes_2024-1-6-20-14-47.txt", ",", "passes_2024-2-14-18-42-38.txt", ",", "passes_2024-2-18-20-39-43.txt", ",", "passes_2024-2-2-20-37-43.txt", ",", "passes_2024-2-21-22-21-25.txt", ",", "passes_2024-2-22-22-37-39.txt", ",", "passes_2024-2-23-22-34-22.txt", ",", "passes_2024-2-24-19-50-48.txt", ",", "passes_2024-2-25-21-43-5.txt", ",", "passes_2024-2-27-23-34-28.txt", ",", "passes_2024-2-27-23-38-52.txt", ",", "passes_2024-2-29-22-57-29.txt", ",", "passes_2024-3-1-21-29-55.txt", ",", "passes_2024-3-2-19-37-56.txt", ",", "passes_2024-3-3-21-56-36.txt", ",", "passes_2024-3-6-19-22-46.txt", ",", "passes_2024-4-5-21-24-42.txt", ",", "passes_2024-4-5-21-28-22.txt", ",", "passes_surgeryElectric.txt", ",", "passes_surgeryElectric2.txt", ",", "scores_2024-1-14-21-51-43.txt", ",", "scores_2024-1-23-20-22-35.txt", ",", "scores_2024-1-28-21-30-4.txt", ",", "scores_2024-1-3-22-2-28.txt", ",", "scores_2024-1-6-20-14-47.txt", ",", "scores_2024-2-14-18-42-38.txt", ",", "scores_2024-2-18-20-39-43.txt", ",", "scores_2024-2-2-20-37-43.txt", ",", "scores_2024-2-21-22-21-25.txt", ",", "scores_2024-2-22-22-37-39.txt", ",", "scores_2024-2-23-22-34-22.txt", ",", "scores_2024-2-24-19-50-48.txt", ",", "scores_2024-2-25-21-43-5.txt", ",", "scores_2024-2-27-23-34-28.txt", ",", "scores_2024-2-27-23-38-52.txt", ",", "scores_2024-2-29-22-57-29.txt", ",", "scores_2024-3-1-21-29-55.txt", ",", "scores_2024-3-2-19-37-56.txt", ",", "scores_2024-3-3-21-56-36.txt", ",", "scores_2024-3-6-19-22-46.txt", ",", "scores_2024-4-5-21-24-42.txt", ",", "scores_2024-4-5-21-28-22.txt", ",", "scores_surgeryElectric.txt", ",", "scores_surgeryElectric2.txt", ",", "top_sounds.txt" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -57053,7 +62395,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-29",
-					"items" : [ "(Un)bound", ",", "1970s Peruvian Hotel", ",", "[2023-10-3-23-37-59]", ",", "[2023-6-27-22-18-48]", ",", "[2023-7-14-22-23-21]", ",", "[2023-7-26-22-0-57]", ",", "[2023-8-11-22-17-45]", ",", "[2023-8-29-21-56-19]", ",", "[2023-9-26-23-11-9]", ",", "[2023-9-6-22-12-16]", ",", "[Archives]", ",", "[pulled] Disengagement By Shipwreck (from Martin vel Kuler)", ",", "[pulled] Operator Drone Project (from Russian Corvette)", ",", "A Pitiful Soul", ",", "A Slick Slope into a Dark Abyss", ",", "Allen Ginsberg Armageddon", ",", "An End Table Forged from Yggdrasil Itself", ",", "Anathema", ",", "And Then Day Turned to Night", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "As Seraphim Saunter", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Blight-Emitting Diode", ",", "Blind", ",", "C'mon Night", ",", "Cakes!", ",", "Candy Apple Island", ",", "Caprice", ",", "Catharsis", ",", "Circles", ",", "Connected Human World Beast", ",", "Convalescence", ",", "Craterian Underworld", ",", "Deep Space Disco", ",", "Disengagement by Shipwreck", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "Dum Casi Transeunt", ",", "dying satellites", ",", "Echoing", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Fear of a Name", ",", "Felmar", ",", "Forced Providence", ",", "Frost", ",", "Hate the Bear", ",", "Heaven Fallen", ",", "High Resolution (Sinking)", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "Imparted", ",", "Impermanence", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Life", ",", "Interior Frontier", ",", "Interspecies Intrigue", ",", "It's Snowing Outside Give Me Soup", ",", "Jabberwocky Cipher", ",", "Jericho's Grin", ",", "Jezebel", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Landmine", ",", "Lifting", ",", "Long Ago Lost", ",", "Lums", ",", "Means", ",", "Mind in Void", ",", "Miserable", ",", "Miter Saw of Yore", ",", "Ocean of Silence (We Will All Burn)", ",", "Old Map of the Abyss", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Perfectly Lost", ",", "Permafrost", ",", "Pixilated Reverie", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Relentless Renaissance", ",", "Reticent", ",", "Roboticized Break-In", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Severance", ",", "Shady Wells of Amber", ",", "Sidereal Scatter", ",", "Snowing Spores", ",", "Solitude", ",", "Sonder March", ",", "Space Whales Have Blowhole Thrusters", ",", "Stagger Proudly on", ",", "Staring at the Sun", ",", "Starter Town Yoshiro Region Theme", ",", "Static Confluence (With Hells Aligned)", ",", "Steam-Powered Stupor", ",", "Street Spirit (Fade Out)", ",", "Stunningly Lost", ",", "Submit and Be Crushed", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Conscious Mind", ",", "The Flowing Light", ",", "The Long Fall", ",", "The Machinist Fir", ",", "The Pavilion Bells", ",", "The Scalar", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Through", ",", "Transcendental Takeover", ",", "Transmogrified", ",", "Triangle God", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Vacant in Name, Vacant in Deed", ",", "Visions", ",", "Webs and Schisms", ",", "Werewolves and Time Travel Won't Keep Me Away", ",", "Whenever I Die I Wake up Some Place Else", ",", "Whether", ",", "Whittling Away the Day", ",", "Wistful, Sulfurous", ",", "WXA", ",", "Your Eyes Remind Me of Something" ],
+					"items" : [ "(Un)bound", ",", "1970s Peruvian Hotel", ",", "[2023-10-3-23-37-59]", ",", "[2023-6-27-22-18-48]", ",", "[2023-7-14-22-23-21]", ",", "[2023-7-26-22-0-57]", ",", "[2023-8-11-22-17-45]", ",", "[2023-8-29-21-56-19]", ",", "[2023-9-26-23-11-9]", ",", "[2023-9-6-22-12-16]", ",", "[2024-2-13-21-21-43]", ",", "[2024-4-15-17-13-12]", ",", "[2024-4-25-21-30-45]", ",", "[2024-5-8-17-4-11]", ",", "[Archives]", ",", "[pulled] Disengagement By Shipwreck (from Martin vel Kuler)", ",", "[pulled] Disengagement By Shipwreck (from storm dohmen 1)", ",", "[pulled] Operator Drone Project (from Russian Corvette)", ",", "A Pitiful Soul", ",", "A Slick Slope into a Dark Abyss", ",", "Allen Ginsberg Armageddon", ",", "An End Table Forged from Yggdrasil Itself", ",", "Anathema", ",", "And Then Day Turned to Night", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "As Seraphim Saunter", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Blight-Emitting Diode", ",", "Blind", ",", "C'mon Night", ",", "Cakes!", ",", "Candy Apple Island", ",", "Caprice", ",", "Catharsis", ",", "Circles", ",", "Connected Human World Beast", ",", "Convalescence", ",", "Craterian Underworld", ",", "Deep Space Disco", ",", "Disengagement by Shipwreck", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "Dum Casi Transeunt", ",", "dying satellites", ",", "Echoing", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "End of an Era Pt. 1", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Fear of a Name", ",", "Felmar", ",", "Forced Providence", ",", "Frost", ",", "Hate the Bear", ",", "Heaven Fallen", ",", "High Resolution (Rising)", ",", "High Resolution (Sinking)", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "I Can't See What You Need", ",", "I Know My Price", ",", "Imparted", ",", "Impermanence", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Life", ",", "Interior Frontier", ",", "Interspecies Intrigue", ",", "It's Snowing Outside Give Me Soup", ",", "Jabberwocky Cipher", ",", "Jericho's Grin", ",", "Jezebel", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Landmine", ",", "Lifting", ",", "Long Ago Lost", ",", "Lums", ",", "Means", ",", "Mind in Void", ",", "Miserable", ",", "Miter Saw of Yore", ",", "Ocean of Silence (We Will All Burn)", ",", "Old Map of the Abyss", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Perfectly Lost", ",", "Permafrost", ",", "Pixilated Reverie", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Relentless Renaissance", ",", "Reticent", ",", "Roboticized Break-In", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Severance", ",", "Shady Wells of Amber", ",", "Sidereal Scatter", ",", "Snowing Spores", ",", "Solitude", ",", "Sonder March", ",", "Space Whales Have Blowhole Thrusters", ",", "Stagger Proudly on", ",", "Staring at the Sun", ",", "Starter Town Yoshiro Region Theme", ",", "Static Confluence (With Hells Aligned)", ",", "Steam-Powered Stupor", ",", "Street Spirit (Fade Out)", ",", "Stunningly Lost", ",", "Submit and Be Crushed", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Conscious Mind", ",", "The Flowing Light", ",", "The Long Fall", ",", "The Machinist Fir", ",", "The Pavilion Bells", ",", "The Scalar", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Through", ",", "Transcendental Takeover", ",", "Transmogrified", ",", "Triangle God", ",", "Triptych", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Untitled", ",", "Vacant in Name, Vacant in Deed", ",", "Visions", ",", "Webs and Schisms", ",", "Werewolves and Time Travel Won't Keep Me Away", ",", "Whenever I Die I Wake up Some Place Else", ",", "Whether", ",", "Whittling Away the Day", ",", "Wistful, Sulfurous", ",", "WXA", ",", "Your Eyes Remind Me of Something", ",", "Your Eyes Remind Me of Something [Sound of Unknowing Mix]", ",", "▼Telekinesis▼" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -68529,7 +73871,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 0.0, 510.0, 57.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 408.0, 480.0, 57.0, 20.0 ],
+					"presentation_rect" : [ 438.0, 480.0, 57.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -69125,6 +74467,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-137", 0 ],
+					"source" : [ "obj-136", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-155", 0 ],
 					"source" : [ "obj-143", 0 ]
 				}
@@ -69383,6 +74732,73 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-136", 0 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"order" : 0,
+					"source" : [ "obj-39", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"order" : 0,
+					"source" : [ "obj-39", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"order" : 1,
+					"source" : [ "obj-39", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"order" : 1,
+					"source" : [ "obj-39", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 1 ],
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-42", 0 ]
 				}
@@ -69390,8 +74806,52 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-55", 2 ],
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 1 ],
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"order" : 1,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"order" : 0,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
@@ -69469,6 +74929,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-75", 0 ]
 				}
@@ -69529,6 +74996,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 1,
+					"source" : [ "obj-88", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
 					"order" : 0,
 					"source" : [ "obj-88", 1 ]
@@ -69584,7 +75059,7 @@
 			"obj-110" : [ "live.text[1]", "live.text", 0 ],
 			"obj-132" : [ "live.text[24]", "live.text", 0 ],
 			"obj-13::obj-157::obj-33::obj-21" : [ "vst~[4]", "vst~[4]", 0 ],
-			"obj-13::obj-157::obj-5" : [ "vst~", "vst~", 0 ],
+			"obj-13::obj-157::obj-5" : [ "vst~[8]", "vst~", 0 ],
 			"obj-141::obj-29" : [ "Monitoring[11]", "Gain", 0 ],
 			"obj-141::obj-84" : [ "slider[21]", "slider", 0 ],
 			"obj-141::obj-88" : [ "slider[22]", "slider", 0 ],
@@ -69741,8 +75216,8 @@
 			}
 , 			{
 				"name" : "poly_faster-than-real-time_bouncing~.maxpat",
-				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/[Archives]",
-				"patcherrelativepath" : "../[Archives]",
+				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
