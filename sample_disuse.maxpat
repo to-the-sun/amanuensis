@@ -68,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 333.0, 90.0, 65.0, 20.0 ],
+					"patching_rect" : [ 236.5, 180.0, 65.0, 20.0 ],
 					"text" : "loadmess #2"
 				}
 
@@ -80,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 220.0, 29.5, 20.0 ],
+					"patching_rect" : [ 236.5, 240.0, 29.5, 20.0 ],
 					"text" : "gate"
 				}
 
@@ -92,7 +92,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 396.0, 90.0, 96.0, 20.0 ],
+					"patching_rect" : [ 299.5, 180.0, 96.0, 20.0 ],
 					"text" : "r #3new_pitch_after"
 				}
 
@@ -5217,23 +5217,11 @@
 				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 310.5, 200.0, 55.0, 20.0 ],
-					"text" : "route pitch"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-43",
-					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 310.5, 180.0, 70.0, 20.0 ],
-					"text" : "r #3sound"
+					"patching_rect" : [ 247.0, 220.0, 47.0, 20.0 ],
+					"text" : "r #3pitch"
 				}
 
 			}
@@ -5718,13 +5706,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-43", 0 ]
 				}
 
 			}

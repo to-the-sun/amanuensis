@@ -36839,17 +36839,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-94",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 1020.0, 280.0, 100.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-87",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -36968,7 +36957,7 @@
 									"color" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 									"elementcolor" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 									"id" : "obj-93",
-									"items" : [ "[2023-11-21-21-18-22]", ",", "[2023-11-21-21-9-33]", ",", "[2023-11-25-0-27-8]", ",", "[2023-12-16-18-23-22]", ",", "[2023-12-16-18-39-54]", ",", "[2023-12-17-19-30-19]", ",", "[2023-12-18-19-57-20]", ",", "[2023-12-19-17-34-47]", ",", "[2023-12-20-16-53-55]", ",", "[2023-12-21-22-19-55]", ",", "[2023-12-21-23-58-45]", ",", "[2023-12-22-17-44-45]", ",", "[2023-12-23-18-54-26]", ",", "[2023-12-23-19-15-2]", ",", "[2023-12-23-19-24-31]", ",", "[2023-12-23-19-43-50]", ",", "[2023-12-26-23-38-22]", ",", "[2024-2-13-0-6-50]", ",", "[2024-2-19-17-49-19]", ",", "[2024-2-19-17-55-0]" ],
+									"items" : [ "[2024-4-17-19-37-52]", ",", "[2024-4-20-20-41-10]", ",", "[2024-5-2-21-54-20]", ",", "[2024-5-2-22-44-14]", ",", "[2024-5-23-19-23-32]", ",", "[2024-5-6-19-30-40]", ",", "[2024-7-18-22-25-2]", ",", "[2024-7-18-22-32-47]", ",", "[2024-7-19-10-15-39]", ",", "[2024-7-19-10-23-25]", ",", "[2024-7-19-10-5-10]", ",", "[2024-7-19-9-20-29]", ",", "[2024-7-19-9-29-39]", ",", "[2024-7-19-9-40-34]", ",", "[2024-7-19-9-50-12]", ",", "[2024-7-19-9-51-31]", ",", "[2024-7-19-9-57-58]" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -37135,7 +37124,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 520.0, 190.0, 147.0, 20.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -37396,6530 +37385,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patcher" : 									{
-										"fileversion" : 1,
-										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 3,
-											"architecture" : "x64",
-											"modernui" : 1
-										}
-,
-										"classnamespace" : "box",
-										"rect" : [ 42.0, 147.0, 754.0, 532.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 2,
-										"gridsize" : [ 10.0, 10.0 ],
-										"gridsnaponopen" : 2,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "To the Sun",
-										"assistshowspatchername" : 0,
-										"boxes" : [ 											{
-												"box" : 												{
-													"id" : "obj-10",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 482.0, 370.0, 40.0, 20.0 ],
-													"text" : "route 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-11",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patcher" : 													{
-														"fileversion" : 1,
-														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
-															"revision" : 3,
-															"architecture" : "x64",
-															"modernui" : 1
-														}
-,
-														"classnamespace" : "box",
-														"rect" : [ 42.0, 147.0, 754.0, 532.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 10.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 2,
-														"gridsize" : [ 10.0, 10.0 ],
-														"gridsnaponopen" : 2,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "To the Sun",
-														"assistshowspatchername" : 0,
-														"boxes" : [ 															{
-																"box" : 																{
-																	"id" : "obj-25",
-																	"maxclass" : "toggle",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "int" ],
-																	"parameter_enable" : 0,
-																	"patching_rect" : [ 292.0, 257.1700439453125, 24.0, 24.0 ]
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-24",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "bang" ],
-																	"patching_rect" : [ 90.0, 227.1700439453125, 106.0, 20.0 ],
-																	"text" : "metro 3000 @active 1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-21",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 220.0, 247.1700439453125, 33.0, 20.0 ],
-																	"text" : "zl reg"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-20",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 232.0, 227.1700439453125, 119.0, 20.0 ],
-																	"text" : "zl compare start success"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-19",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 232.0, 207.1700439453125, 47.0, 20.0 ],
-																	"text" : "zl slice 2"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-10",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 332.0, 417.1700439453125, 94.0, 20.0 ],
-																	"text" : "print .s_debug_tool"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-33",
-																	"maxclass" : "message",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 184.0, 297.1700439453125, 55.0, 20.0 ],
-																	"text" : "script start"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-31",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "bang", "" ],
-																	"patching_rect" : [ 184.0, 277.1700439453125, 30.0, 20.0 ],
-																	"text" : "sel 0"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-18",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 184.0, 188.1700439453125, 67.0, 20.0 ],
-																	"text" : "route running"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-9",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 50.0, 227.1700439453125, 38.0, 20.0 ],
-																	"text" : "s OSC"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-8",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 207.1700439453125, 148.0, 20.0 ],
-																	"text" : "prepend /amanuensis/message"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"bgmode" : 0,
-																	"border" : 0,
-																	"clickthrough" : 0,
-																	"enablehscroll" : 0,
-																	"enablevscroll" : 0,
-																	"id" : "obj-36",
-																	"lockeddragscroll" : 0,
-																	"lockedsize" : 0,
-																	"maxclass" : "bpatcher",
-																	"name" : "n4m.monitor.maxpat",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"offset" : [ 0.0, 0.0 ],
-																	"outlettype" : [ "bang" ],
-																	"patching_rect" : [ 348.0, 108.1700439453125, 400.0, 220.0 ],
-																	"viewvisibility" : 1
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-29",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 187.1700439453125, 27.0, 20.0 ],
-																	"text" : "iter"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-1",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 50.0, 168.1700439453125, 189.0, 20.0 ],
-																	"saved_object_attributes" : 																	{
-																		"autostart" : 1,
-																		"defer" : 0,
-																		"watch" : 0
-																	}
-,
-																	"text" : "node.script scriptHandler.js @autostart 1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"comment" : "",
-																	"id" : "obj-2",
-																	"index" : 1,
-																	"maxclass" : "inlet",
-																	"numinlets" : 0,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 39.999999945312496, 30.0, 30.0 ]
-																}
-
-															}
- ],
-														"lines" : [ 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-18", 0 ],
-																	"source" : [ "obj-1", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-29", 0 ],
-																	"source" : [ "obj-1", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-10", 0 ],
-																	"disabled" : 1,
-																	"source" : [ "obj-18", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-19", 0 ],
-																	"order" : 0,
-																	"source" : [ "obj-18", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-31", 0 ],
-																	"disabled" : 1,
-																	"source" : [ "obj-18", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-36", 0 ],
-																	"order" : 1,
-																	"source" : [ "obj-18", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-20", 0 ],
-																	"source" : [ "obj-19", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-1", 0 ],
-																	"source" : [ "obj-2", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-21", 1 ],
-																	"order" : 1,
-																	"source" : [ "obj-20", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-25", 0 ],
-																	"order" : 0,
-																	"source" : [ "obj-20", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-31", 0 ],
-																	"source" : [ "obj-21", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-21", 0 ],
-																	"source" : [ "obj-24", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-8", 0 ],
-																	"source" : [ "obj-29", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-33", 0 ],
-																	"source" : [ "obj-31", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-1", 0 ],
-																	"source" : [ "obj-33", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-9", 0 ],
-																	"source" : [ "obj-8", 0 ]
-																}
-
-															}
- ]
-													}
-,
-													"patching_rect" : [ 482.0, 410.0, 37.0, 20.0 ],
-													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"fontsize" : 10.0,
-														"globalpatchername" : "",
-														"tags" : ""
-													}
-,
-													"text" : "p shell"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-12",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 482.0, 390.0, 119.0, 20.0 ],
-													"text" : "prepend cleanupProjects"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-13",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 482.0, 330.0, 29.5, 20.0 ],
-													"text" : "join"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-14",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 482.0, 310.0, 68.0, 20.0 ],
-													"text" : "specialBuddy"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-18",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 529.0, 250.0, 29.5, 20.0 ],
-													"text" : "join"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-19",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 580.0, 270.0, 48.0, 20.0 ],
-													"text" : "freebang"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-20",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 580.0, 290.0, 29.5, 20.0 ],
-													"text" : "1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-21",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 506.5, 290.0, 29.5, 20.0 ],
-													"text" : "join"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-22",
-													"maxclass" : "newobj",
-													"numinlets" : 6,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 482.0, 350.0, 71.5, 20.0 ],
-													"text" : "pak 0 s i i 0 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-23",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 504.5, 270.0, 68.0, 20.0 ],
-													"text" : "specialBuddy"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-24",
-													"maxclass" : "newobj",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 400.0, 230.0, 74.0, 20.0 ],
-													"text" : "r P_worksPath"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-25",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 529.0, 230.0, 68.0, 20.0 ],
-													"text" : "specialBuddy"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-5",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 40.0, 430.0, 40.0, 20.0 ],
-													"text" : "route 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-17",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patcher" : 													{
-														"fileversion" : 1,
-														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
-															"revision" : 3,
-															"architecture" : "x64",
-															"modernui" : 1
-														}
-,
-														"classnamespace" : "box",
-														"rect" : [ 42.0, 147.0, 754.0, 532.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 10.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 2,
-														"gridsize" : [ 10.0, 10.0 ],
-														"gridsnaponopen" : 2,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "To the Sun",
-														"assistshowspatchername" : 0,
-														"boxes" : [ 															{
-																"box" : 																{
-																	"id" : "obj-25",
-																	"maxclass" : "toggle",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "int" ],
-																	"parameter_enable" : 0,
-																	"patching_rect" : [ 292.0, 257.1700439453125, 24.0, 24.0 ]
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-24",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "bang" ],
-																	"patching_rect" : [ 90.0, 227.1700439453125, 106.0, 20.0 ],
-																	"text" : "metro 3000 @active 1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-21",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 220.0, 247.1700439453125, 33.0, 20.0 ],
-																	"text" : "zl reg"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-20",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 232.0, 227.1700439453125, 119.0, 20.0 ],
-																	"text" : "zl compare start success"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-19",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 232.0, 207.1700439453125, 47.0, 20.0 ],
-																	"text" : "zl slice 2"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-10",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 332.0, 417.1700439453125, 94.0, 20.0 ],
-																	"text" : "print .s_debug_tool"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-33",
-																	"maxclass" : "message",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 184.0, 297.1700439453125, 55.0, 20.0 ],
-																	"text" : "script start"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-31",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "bang", "" ],
-																	"patching_rect" : [ 184.0, 277.1700439453125, 30.0, 20.0 ],
-																	"text" : "sel 0"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-18",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 184.0, 188.1700439453125, 67.0, 20.0 ],
-																	"text" : "route running"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-9",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 50.0, 227.1700439453125, 38.0, 20.0 ],
-																	"text" : "s OSC"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-8",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 207.1700439453125, 148.0, 20.0 ],
-																	"text" : "prepend /amanuensis/message"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"bgmode" : 0,
-																	"border" : 0,
-																	"clickthrough" : 0,
-																	"enablehscroll" : 0,
-																	"enablevscroll" : 0,
-																	"id" : "obj-36",
-																	"lockeddragscroll" : 0,
-																	"lockedsize" : 0,
-																	"maxclass" : "bpatcher",
-																	"name" : "n4m.monitor.maxpat",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"offset" : [ 0.0, 0.0 ],
-																	"outlettype" : [ "bang" ],
-																	"patching_rect" : [ 348.0, 108.1700439453125, 400.0, 220.0 ],
-																	"viewvisibility" : 1
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-29",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 187.1700439453125, 27.0, 20.0 ],
-																	"text" : "iter"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-1",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 50.0, 168.1700439453125, 189.0, 20.0 ],
-																	"saved_object_attributes" : 																	{
-																		"autostart" : 1,
-																		"defer" : 0,
-																		"watch" : 0
-																	}
-,
-																	"text" : "node.script scriptHandler.js @autostart 1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"comment" : "",
-																	"id" : "obj-2",
-																	"index" : 1,
-																	"maxclass" : "inlet",
-																	"numinlets" : 0,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 39.999999945312496, 30.0, 30.0 ]
-																}
-
-															}
- ],
-														"lines" : [ 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-18", 0 ],
-																	"source" : [ "obj-1", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-29", 0 ],
-																	"source" : [ "obj-1", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-10", 0 ],
-																	"disabled" : 1,
-																	"source" : [ "obj-18", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-19", 0 ],
-																	"order" : 0,
-																	"source" : [ "obj-18", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-31", 0 ],
-																	"disabled" : 1,
-																	"source" : [ "obj-18", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-36", 0 ],
-																	"order" : 1,
-																	"source" : [ "obj-18", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-20", 0 ],
-																	"source" : [ "obj-19", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-1", 0 ],
-																	"source" : [ "obj-2", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-21", 1 ],
-																	"order" : 1,
-																	"source" : [ "obj-20", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-25", 0 ],
-																	"order" : 0,
-																	"source" : [ "obj-20", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-31", 0 ],
-																	"source" : [ "obj-21", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-21", 0 ],
-																	"source" : [ "obj-24", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-8", 0 ],
-																	"source" : [ "obj-29", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-33", 0 ],
-																	"source" : [ "obj-31", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-1", 0 ],
-																	"source" : [ "obj-33", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-9", 0 ],
-																	"source" : [ "obj-8", 0 ]
-																}
-
-															}
- ]
-													}
-,
-													"patching_rect" : [ 40.0, 470.0, 37.0, 20.0 ],
-													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"fontsize" : 10.0,
-														"globalpatchername" : "",
-														"tags" : ""
-													}
-,
-													"text" : "p shell"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-16",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 40.0, 450.0, 111.0, 20.0 ],
-													"text" : "prepend cleanupSongs"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-15",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 40.0, 390.0, 29.5, 20.0 ],
-													"text" : "join"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-9",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 40.0, 370.0, 68.0, 20.0 ],
-													"text" : "specialBuddy"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-8",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 87.0, 310.0, 29.5, 20.0 ],
-													"text" : "join"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-7",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 138.0, 330.0, 48.0, 20.0 ],
-													"text" : "freebang"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-6",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 138.0, 350.0, 29.5, 20.0 ],
-													"text" : "1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-4",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 64.5, 350.0, 29.5, 20.0 ],
-													"text" : "join"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-3",
-													"maxclass" : "newobj",
-													"numinlets" : 5,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 40.0, 410.0, 61.0, 20.0 ],
-													"text" : "pak 0 s i i 0"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-2",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 62.5, 330.0, 68.0, 20.0 ],
-													"text" : "specialBuddy"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-34",
-													"maxclass" : "newobj",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 8.0, 300.0, 74.0, 20.0 ],
-													"text" : "r P_worksPath"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-1",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 87.0, 290.0, 68.0, 20.0 ],
-													"text" : "specialBuddy"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-101",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 120.0, 260.0, 141.0, 20.0 ],
-													"text" : "menuOSC clean_songs_days"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-102",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 20.5, 210.0, 211.0, 20.0 ],
-													"restore" : [ 0 ],
-													"saved_object_attributes" : 													{
-														"parameter_enable" : 0,
-														"parameter_mappable" : 0
-													}
-,
-													"text" : "pattr cleanup_songs_days @autorestore 0",
-													"varname" : "cleanup_songs_days"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-106",
-													"maxclass" : "number",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "bang" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 120.0, 240.0, 50.0, 20.0 ],
-													"varname" : "number[1]"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-100",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 560.0, 90.0, 149.0, 20.0 ],
-													"text" : "menuOSC clean_projects_days"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-98",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 460.5, 40.0, 220.0, 20.0 ],
-													"restore" : [ 0 ],
-													"saved_object_attributes" : 													{
-														"parameter_enable" : 0,
-														"parameter_mappable" : 0
-													}
-,
-													"text" : "pattr cleanup_projects_days @autorestore 0",
-													"varname" : "cleanup_projects_days"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-97",
-													"maxclass" : "number",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "bang" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 560.0, 70.0, 50.0, 20.0 ],
-													"varname" : "number"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-79",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 340.0, 110.0, 142.0, 20.0 ],
-													"text" : "substitute bang outputvalue"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-80",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "int", "" ],
-													"patching_rect" : [ 357.0, 80.0, 147.0, 20.0 ],
-													"text" : "menuOSC clean_projects_mod"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-81",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 320.0, 20.0, 218.0, 20.0 ],
-													"restore" : [ 0 ],
-													"saved_object_attributes" : 													{
-														"parameter_enable" : 0,
-														"parameter_mappable" : 0
-													}
-,
-													"text" : "pattr cleanup_projects_mod @autorestore 0",
-													"varname" : "cleanup_projects_mod"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-84",
-													"maxclass" : "toggle",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 357.0, 50.0, 24.0, 24.0 ],
-													"varname" : "toggle[2]"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-86",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 423.0, 200.0, 142.0, 20.0 ],
-													"text" : "substitute bang outputvalue"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-87",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "int", "" ],
-													"patching_rect" : [ 440.0, 170.0, 122.0, 20.0 ],
-													"text" : "menuOSC clean_projects"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-92",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 483.0, 110.0, 192.0, 20.0 ],
-													"restore" : [ 0 ],
-													"saved_object_attributes" : 													{
-														"parameter_enable" : 0,
-														"parameter_mappable" : 0
-													}
-,
-													"text" : "pattr cleanup_projects @autorestore 0",
-													"varname" : "cleanup_projects"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-93",
-													"maxclass" : "toggle",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 440.0, 140.0, 24.0, 24.0 ],
-													"varname" : "toggle[3]"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-75",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 70.0, 140.0, 142.0, 20.0 ],
-													"text" : "substitute bang outputvalue"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-76",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "int", "" ],
-													"patching_rect" : [ 87.0, 110.0, 139.0, 20.0 ],
-													"text" : "menuOSC clean_songs_mod"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-77",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 50.0, 50.0, 209.0, 20.0 ],
-													"restore" : [ 0 ],
-													"saved_object_attributes" : 													{
-														"parameter_enable" : 0,
-														"parameter_mappable" : 0
-													}
-,
-													"text" : "pattr cleanup_songs_mod @autorestore 0",
-													"varname" : "cleanup_songs_mod"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-78",
-													"maxclass" : "toggle",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 87.0, 80.0, 24.0, 24.0 ],
-													"varname" : "toggle[1]"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-74",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 233.0, 230.0, 142.0, 20.0 ],
-													"text" : "substitute bang outputvalue"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-71",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "int", "" ],
-													"patching_rect" : [ 250.0, 200.0, 114.0, 20.0 ],
-													"text" : "menuOSC clean_songs"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-70",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 213.0, 140.0, 182.0, 20.0 ],
-													"restore" : [ 0 ],
-													"saved_object_attributes" : 													{
-														"parameter_enable" : 0,
-														"parameter_mappable" : 0
-													}
-,
-													"text" : "pattr cleanup_songs @autorestore 0",
-													"varname" : "cleanup_songs"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-68",
-													"maxclass" : "toggle",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 250.0, 170.0, 24.0, 24.0 ],
-													"varname" : "toggle"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-26",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 400.0, 250.0, 132.0, 20.0 ],
-													"text" : "sprintf symout %s[Projects]/"
-												}
-
-											}
- ],
-										"lines" : [ 											{
-												"patchline" : 												{
-													"destination" : [ "obj-8", 1 ],
-													"source" : [ "obj-1", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-8", 0 ],
-													"source" : [ "obj-1", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 0 ],
-													"source" : [ "obj-10", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-25", 1 ],
-													"source" : [ "obj-100", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-97", 0 ],
-													"source" : [ "obj-100", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-1", 1 ],
-													"source" : [ "obj-101", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-106", 0 ],
-													"source" : [ "obj-101", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-106", 0 ],
-													"source" : [ "obj-102", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-101", 0 ],
-													"source" : [ "obj-106", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-11", 0 ],
-													"source" : [ "obj-12", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-22", 0 ],
-													"source" : [ "obj-13", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-13", 1 ],
-													"source" : [ "obj-14", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-13", 0 ],
-													"source" : [ "obj-14", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-3", 0 ],
-													"source" : [ "obj-15", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-17", 0 ],
-													"source" : [ "obj-16", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 1 ],
-													"source" : [ "obj-18", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-20", 0 ],
-													"source" : [ "obj-19", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-4", 1 ],
-													"source" : [ "obj-2", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-4", 0 ],
-													"source" : [ "obj-2", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-22", 4 ],
-													"source" : [ "obj-20", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-14", 1 ],
-													"source" : [ "obj-21", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-10", 0 ],
-													"source" : [ "obj-22", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-21", 1 ],
-													"source" : [ "obj-23", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-21", 0 ],
-													"source" : [ "obj-23", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-26", 0 ],
-													"source" : [ "obj-24", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-18", 1 ],
-													"source" : [ "obj-25", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-18", 0 ],
-													"source" : [ "obj-25", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 0 ],
-													"source" : [ "obj-26", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-5", 0 ],
-													"source" : [ "obj-3", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-2", 0 ],
-													"source" : [ "obj-34", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 1 ],
-													"source" : [ "obj-4", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-16", 0 ],
-													"source" : [ "obj-5", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-3", 4 ],
-													"source" : [ "obj-6", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-71", 0 ],
-													"source" : [ "obj-68", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"source" : [ "obj-7", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-68", 0 ],
-													"source" : [ "obj-70", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-74", 0 ],
-													"source" : [ "obj-71", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 0 ],
-													"source" : [ "obj-71", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-68", 0 ],
-													"source" : [ "obj-74", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-68", 0 ],
-													"source" : [ "obj-74", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-78", 0 ],
-													"source" : [ "obj-75", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-78", 0 ],
-													"source" : [ "obj-75", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-1", 0 ],
-													"source" : [ "obj-76", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-75", 0 ],
-													"source" : [ "obj-76", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-78", 0 ],
-													"source" : [ "obj-77", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-76", 0 ],
-													"source" : [ "obj-78", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-84", 0 ],
-													"source" : [ "obj-79", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-84", 0 ],
-													"source" : [ "obj-79", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-2", 1 ],
-													"source" : [ "obj-8", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-25", 0 ],
-													"source" : [ "obj-80", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-79", 0 ],
-													"source" : [ "obj-80", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-84", 0 ],
-													"source" : [ "obj-81", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-80", 0 ],
-													"source" : [ "obj-84", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-93", 0 ],
-													"source" : [ "obj-86", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-93", 0 ],
-													"source" : [ "obj-86", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-14", 0 ],
-													"source" : [ "obj-87", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-86", 0 ],
-													"source" : [ "obj-87", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-15", 1 ],
-													"source" : [ "obj-9", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-15", 0 ],
-													"source" : [ "obj-9", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-93", 0 ],
-													"source" : [ "obj-92", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-87", 0 ],
-													"source" : [ "obj-93", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-100", 0 ],
-													"source" : [ "obj-97", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-97", 0 ],
-													"source" : [ "obj-98", 1 ]
-												}
-
-											}
- ],
-										"styles" : [ 											{
-												"name" : "Custom Default",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-10",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-11",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-1-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-1-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-1-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-1-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-1-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-1-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-4-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-4-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-4-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-5-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-7",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-1-8",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-1-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-1-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-1-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-1-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-1-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-1-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-2",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-2-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-2-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-3",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-3-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-3-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-4-1",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-4-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-4-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-5-1",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-6",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-7",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-2-8",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-3-1",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-3-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-3-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-3-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-3-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-3-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-4",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-4-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-4-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-7",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-7-1",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-7-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-7-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-8",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-1-8-1",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-1-9",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-3-1",
-												"default" : 												{
-													"fontface" : [ 0 ],
-													"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-3-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-3-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-1-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-1-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-1-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-1-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-1-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-1-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-4-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-4-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-4-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-5-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-7",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-1-8",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-1-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-1-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-1-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-1-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-1-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-1-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-2-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-2-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-3-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-3-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-4-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-4-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-4-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-5-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-7",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-1-8",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-1-1-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-1-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-1-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-1-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-1-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-1-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-1-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-1-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-2-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-2-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-3",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-3-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-3-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-4",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-4-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-4-1-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-4-2",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-5",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-6-5-1",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-6",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-7",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-6-8",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default Regular-7",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default Regular-8",
-												"message" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"newobj" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 10.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 1
-											}
-, 											{
-												"name" : "Custom Default-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-1-1-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-1-1-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-1-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-1-3",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-1-4",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-1-4-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-1-1-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-1-1-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-1-1-1-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-1-1-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-1-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-1-3",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-1-4",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-1-5",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-1-6",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-3",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-4",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-4-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-4-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-4-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-5",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-5-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-6",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-7",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-1-8",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-3",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-3-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-3-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-3-1-1-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-3-1-1-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-3-1-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-3-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-3-3",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-3-4",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-3-5",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-3-6",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-4",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-5",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-5-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-5-1-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-5-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-6",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-6-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-7",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-8",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-2-9",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-3",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-4",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-1-4-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-1-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-1-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-1-1-1-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-1-1-1-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-1-1-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-1-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-1-3",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-1-4",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-1-5",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-1-6",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-3",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-4",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-4-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-4-1-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-4-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-5",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-5-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-6",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-7",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-1-8",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-3",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-3-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-3-1-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-3-1-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-3-1-1-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-3-1-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-3-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-3-3",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-3-4",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-3-5",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-3-6",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-4",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-5",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-5-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-5-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-5-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-6",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-6-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-7",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-8",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-3-9",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-4",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-5",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-1-5-1",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-10",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-11",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-11-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-2",
-												"newobj" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"message" : 												{
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-3",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-4",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-5",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-6",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-7",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-8",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-8-1",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-8-2",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-1",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-1-1-1",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-1-1-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-1-1-1-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-1-1-2",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-1-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-1-3",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-1-4",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-1-5",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-1-6",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-3",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-4",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-4-1",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-4-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-4-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-5",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-5-1",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-6",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-7",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-1-8",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-3",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-3-1",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-3-1-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-3-1-1-1",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-3-1-1-2",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-3-1-2",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-3-2",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-3-3",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-3-4",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-3-5",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-3-6",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-4",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-5",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-5-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-5-1-1",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-5-2",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-6",
-												"default" : 												{
-													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 1 ],
-													"fontsize" : [ 10.0 ],
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-6-1",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-7",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-8",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
-, 											{
-												"name" : "Custom Default-9-9",
-												"default" : 												{
-													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-												}
-,
-												"parentstyle" : "Custom Default-2",
-												"multi" : 0
-											}
- ]
-									}
-,
-									"patching_rect" : [ 380.0, 0.0, 75.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
-									"text" : "p file_cleanup",
-									"varname" : "patcher"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-62",
 									"maxclass" : "button",
 									"numinlets" : 1,
@@ -44171,7 +37636,7 @@
 									"color" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 									"elementcolor" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 									"id" : "obj-42",
-									"items" : "D:/[Library]/[Audio]/[Works]/[Experiments]/",
+									"items" : "D:/[Library]/[Tools]/[Max]/Amanuensis/works/",
 									"maxclass" : "umenu",
 									"menumode" : 1,
 									"numinlets" : 1,
@@ -46009,7 +39474,7 @@
 									"color" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 									"elementcolor" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 									"id" : "obj-23",
-									"items" : [ "[2023-11-21-21-18-22]", ",", "[2023-11-21-21-9-33]", ",", "[2023-11-25-0-27-8]", ",", "[2023-12-16-18-23-22]", ",", "[2023-12-16-18-39-54]", ",", "[2023-12-17-19-30-19]", ",", "[2023-12-18-19-57-20]", ",", "[2023-12-19-17-34-47]", ",", "[2023-12-20-16-53-55]", ",", "[2023-12-21-22-19-55]", ",", "[2023-12-21-23-58-45]", ",", "[2023-12-22-17-44-45]", ",", "[2023-12-23-18-54-26]", ",", "[2023-12-23-19-15-2]", ",", "[2023-12-23-19-24-31]", ",", "[2023-12-23-19-43-50]", ",", "[2023-12-26-23-38-22]", ",", "[2024-2-13-0-6-50]", ",", "[2024-2-19-17-49-19]", ",", "[2024-2-19-17-55-0]" ],
+									"items" : [ "[2024-4-17-19-37-52]", ",", "[2024-4-20-20-41-10]", ",", "[2024-5-2-21-54-20]", ",", "[2024-5-2-22-44-14]", ",", "[2024-5-23-19-23-32]", ",", "[2024-5-6-19-30-40]", ",", "[2024-7-18-22-25-2]", ",", "[2024-7-18-22-32-47]", ",", "[2024-7-19-10-15-39]", ",", "[2024-7-19-10-23-25]", ",", "[2024-7-19-10-5-10]", ",", "[2024-7-19-9-20-29]", ",", "[2024-7-19-9-29-39]", ",", "[2024-7-19-9-40-34]", ",", "[2024-7-19-9-50-12]", ",", "[2024-7-19-9-51-31]", ",", "[2024-7-19-9-57-58]" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -52640,7 +46105,7 @@
 					"patching_rect" : [ 616.08343505859375, 510.0, 41.5, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 958.0, 3.0, 32.0, 20.0 ],
-					"text" : "-7",
+					"text" : "-65",
 					"textjustification" : 2
 				}
 
@@ -54073,7 +47538,7 @@
 					"patching_rect" : [ 70.0, 420.0, 196.0, 24.0 ],
 					"restore" : 					{
 						"Monitoring[32]" : [ -5.21276595744682 ],
-						"Monitoring[33]" : [ -6.702127659574465 ],
+						"Monitoring[33]" : [ -64.787234042553195 ],
 						"Settings" : [ 0.0 ],
 						"Settings[2]" : [ 0.0 ],
 						"Settings[8]" : [ 0.0 ],
@@ -56135,7 +49600,8 @@
 			"obj-100" : [ "Settings", "Settings", 0 ],
 			"obj-103" : [ "Monitoring[32]", "Gain", 0 ],
 			"obj-157" : [ "Settings[8]", "Settings", 0 ],
-			"obj-16::obj-157::obj-33::obj-21" : [ "vst~[4]", "vst~[4]", 0 ],
+			"obj-16::obj-157::obj-33::obj-21" : [ "vst~[3]", "vst~[3]", 0 ],
+			"obj-16::obj-157::obj-39" : [ "vst~[28]", "vst~[28]", 0 ],
 			"obj-16::obj-157::obj-5" : [ "vst~", "vst~", 0 ],
 			"obj-171::obj-22" : [ "Current[53]", "Current", 0 ],
 			"obj-171::obj-33" : [ "Current[32]", "Current", 0 ],
@@ -56311,8 +49777,8 @@
 			}
 , 			{
 				"name" : "poly_faster-than-real-time_bouncing~.maxpat",
-				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/[Archives]",
-				"patcherrelativepath" : "../[Archives]",
+				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -56339,6 +49805,5585 @@
 , 			{
 				"name" : "shell.mxe64",
 				"type" : "mx64"
+			}
+, 			{
+				"name" : "soothe2.maxsnap",
+				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
+				"patcherrelativepath" : ".",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_20.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_21.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_22.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_23.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_24.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_25.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_26.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_27.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_28.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_29.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_30.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_31.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_32.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_33.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_34.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_35.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_36.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_37.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_38.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_39.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_40.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_41.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_42.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_43.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_44.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_45.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_46.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_47.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_48.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_49.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_50.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_51.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_52.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_53.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_54.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_55.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_56.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_57.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_58.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_59.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_60.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_61.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_62.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_63.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_64.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_65.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_66.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_67.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240708_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_20.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_21.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_22.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_23.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_24.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_25.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_26.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_27.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_28.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_29.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_30.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_31.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_32.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_33.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_34.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_35.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_36.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_37.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_38.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_39.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_40.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_41.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_42.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_43.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_44.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_45.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_46.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_47.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_48.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_49.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_50.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_51.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_52.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_53.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_54.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_55.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_56.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_57.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_58.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_59.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_60.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_61.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_62.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_63.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_64.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240709_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_20.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_21.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_22.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_23.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_24.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_25.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_26.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_27.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_28.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_29.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_30.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_31.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_32.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_33.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_34.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_35.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_36.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_37.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_38.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_39.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_40.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_41.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_42.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_43.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_44.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_45.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_46.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_47.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_48.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_49.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_50.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_51.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_52.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_53.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_54.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_55.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_56.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_57.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_58.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_59.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_60.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_61.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_62.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_63.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_64.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_65.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_66.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_67.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_68.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_69.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_70.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_71.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_72.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_73.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_74.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_75.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_76.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_77.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_78.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_79.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_80.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_81.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_82.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_83.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_84.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_85.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_86.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_87.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_88.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_89.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_90.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_91.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_92.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_93.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240710_94.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_20.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_21.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_22.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_23.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_24.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_25.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_26.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_27.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_28.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_29.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_30.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_31.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_32.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_33.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_34.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_35.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_36.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_37.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_38.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_39.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_40.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_41.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_42.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_43.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_44.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_45.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_46.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_47.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_48.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_49.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_50.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_51.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_52.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_53.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_54.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_55.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_56.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_57.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_58.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_59.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_60.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240711_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_20.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_21.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_22.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_23.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_24.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_25.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_26.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_27.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_28.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_29.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_30.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_31.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_32.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_33.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_34.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_35.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_36.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_37.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_38.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_39.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_40.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_41.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_42.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_43.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_44.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_45.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_46.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_47.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_48.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_49.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_50.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_51.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_52.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_53.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_54.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_55.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_56.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_57.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_58.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_59.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_60.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_61.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_62.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_63.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_64.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_65.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_66.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_67.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_68.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_69.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_70.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_71.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240712_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_20.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240713_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_20.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_21.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_22.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_23.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_24.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_25.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_26.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_27.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_28.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_29.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_30.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_31.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_32.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_33.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_34.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_35.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_36.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_37.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_38.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_39.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_40.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_41.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_42.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_43.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_44.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_45.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_46.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_47.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_48.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_49.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_50.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_51.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_52.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_53.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_54.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_55.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_56.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_57.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_58.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_59.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_60.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_61.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_62.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_63.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_64.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_65.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_66.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_67.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_68.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_69.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_70.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_71.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_72.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_73.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_74.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_75.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_76.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_77.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_78.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_79.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_80.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_81.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_82.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_83.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_84.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_85.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_86.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240714_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_20.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_21.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_22.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_23.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_24.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_25.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_26.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_27.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_28.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_29.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_30.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_31.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_32.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_33.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_34.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_35.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_36.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_37.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_38.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_39.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_40.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_41.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_42.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_43.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_44.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_45.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_46.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_47.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_48.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_49.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_50.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_51.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_52.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_53.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_54.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_55.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_56.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_57.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_58.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_59.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_60.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_61.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_62.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_63.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_64.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_65.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_66.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_67.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_68.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_69.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_70.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_71.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_72.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_73.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_74.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_75.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240715_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_20.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_21.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_22.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_23.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_24.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_25.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_26.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_27.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_28.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_29.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_30.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_31.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_32.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_33.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_34.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_35.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_36.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_37.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_38.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_39.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_40.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_41.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_42.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_43.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_44.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_45.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_46.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_47.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_48.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_49.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_50.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_51.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_52.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_53.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_54.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_55.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_56.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_57.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_58.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_59.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_60.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_61.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_62.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_63.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_64.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_65.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_66.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_67.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_68.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_69.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_70.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_71.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_72.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_73.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_74.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240716_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_20.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_21.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_22.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_23.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_24.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_25.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_26.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_27.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_28.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_29.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_30.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_31.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_32.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_33.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_34.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_35.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_36.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_37.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_38.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_39.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_40.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_41.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_42.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_43.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_44.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_45.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_46.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_47.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_48.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_49.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_50.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_51.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_52.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_53.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240717_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240718_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_20.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_21.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_22.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_23.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_24.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_25.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_26.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_27.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_28.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_29.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_30.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_31.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_32.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_33.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_34.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_35.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_36.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_37.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_38.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_39.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_40.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240720_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240724_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_1.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_10.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_11.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_12.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_13.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_14.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_15.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_16.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_17.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_18.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_19.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_2.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_20.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_21.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_22.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_23.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_24.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_25.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_26.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_27.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_28.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_29.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_3.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_30.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_31.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_32.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_33.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_34.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_35.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_36.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_37.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_38.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_39.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_4.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_40.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_41.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_42.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_43.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_44.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_45.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_5.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_6.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_7.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_8.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soothe2_20240725_9.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sounds.txt",
+				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "spans.maxpat",
