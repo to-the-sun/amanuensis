@@ -271,8 +271,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 440.5, 170.0, 57.0, 20.0 ],
-					"text" : "r freebang"
+					"patching_rect" : [ 440.5, 170.0, 91.0, 20.0 ],
+					"text" : "r #0freebang"
 				}
 
 			}
@@ -5544,10 +5544,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 359.0, 10.0, 28.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 

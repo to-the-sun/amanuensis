@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-78",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 263.5, 420.0, 29.5, 20.0 ],
+					"text" : "-70."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-47",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -607,10 +619,10 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "out 2",
-														"id" : "obj-5",
-														"patching_rect" : [ 390.0, 430.0, 31.0, 20.0 ],
 														"numinlets" : 1,
-														"numoutlets" : 0
+														"numoutlets" : 0,
+														"id" : "obj-5",
+														"patching_rect" : [ 390.0, 430.0, 31.0, 20.0 ]
 													}
 
 												}
@@ -618,10 +630,10 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "in 1",
-														"id" : "obj-1",
-														"patching_rect" : [ 50.0, 14.0, 25.0, 20.0 ],
 														"numinlets" : 0,
 														"numoutlets" : 1,
+														"id" : "obj-1",
+														"patching_rect" : [ 50.0, 14.0, 25.0, 20.0 ],
 														"outlettype" : [ "" ]
 													}
 
@@ -630,10 +642,10 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "in 2",
-														"id" : "obj-2",
-														"patching_rect" : [ 305.0, 14.0, 25.0, 20.0 ],
 														"numinlets" : 0,
 														"numoutlets" : 1,
+														"id" : "obj-2",
+														"patching_rect" : [ 305.0, 14.0, 25.0, 20.0 ],
 														"outlettype" : [ "" ]
 													}
 
@@ -641,14 +653,14 @@
 , 												{
 													"box" : 													{
 														"maxclass" : "codebox",
+														"numinlets" : 2,
+														"fontface" : 0,
+														"numoutlets" : 1,
 														"id" : "obj-3",
 														"patching_rect" : [ 50.0, 40.0, 570.0, 360.0 ],
-														"numinlets" : 2,
-														"fontsize" : 10.0,
-														"numoutlets" : 1,
-														"fontname" : "<Monospaced>",
 														"outlettype" : [ "" ],
-														"fontface" : 0,
+														"fontsize" : 10.0,
+														"fontname" : "<Monospaced>",
 														"code" : "this_env = slide(abs(in1), 0, 9999);\r\nenv = slide(abs(in2), 0, 9999);\r\nif(env < this_env) {\r\n\tout1 = in2;\r\n}"
 													}
 
@@ -657,10 +669,10 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "out 1",
-														"id" : "obj-4",
-														"patching_rect" : [ 50.0, 410.0, 31.0, 20.0 ],
 														"numinlets" : 1,
-														"numoutlets" : 0
+														"numoutlets" : 0,
+														"id" : "obj-4",
+														"patching_rect" : [ 50.0, 410.0, 31.0, 20.0 ]
 													}
 
 												}
@@ -698,7 +710,7 @@
 									"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
 									"patching_rect" : [ 157.0, 280.0, 47.0, 20.0 ],
 									"text" : "mc.gen~",
-									"wrapper_uniquekey" : "u438000844"
+									"wrapper_uniquekey" : "u139000257"
 								}
 
 							}
@@ -8632,6 +8644,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-180", 0 ],
+					"order" : 0,
+					"source" : [ "obj-174", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"order" : 1,
 					"source" : [ "obj-174", 1 ]
 				}
 
@@ -8864,6 +8885,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-167", 0 ],
+					"disabled" : 1,
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -9082,6 +9104,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-83", 0 ]
 				}
@@ -9130,6 +9159,7 @@
 			"obj-152" : [ "Monitoring[21]", "Gain", 0 ],
 			"obj-167" : [ "live.text[59]", "live.text", 0 ],
 			"obj-17" : [ "Monitoring[18]", "Gain", 0 ],
+			"obj-31::obj-12" : [ "toggle", "toggle", 0 ],
 			"obj-37" : [ "live.text[58]", "live.text", 0 ],
 			"obj-54" : [ "slider[9]", "slider", 0 ],
 			"obj-73" : [ "live.text[61]", "live.text", 0 ],
@@ -9151,6 +9181,13 @@
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "parentname.js",
+				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
