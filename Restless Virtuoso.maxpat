@@ -41,6 +41,43 @@
 		"title" : "#1 by anonymous",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 207.125001549720764, 550.0, 46.0, 20.0 ],
+					"text" : "dispose"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 207.125001549720764, 570.0, 50.0, 20.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 207.125001549720764, 590.0, 62.0, 20.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-52",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1148,7 +1185,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 92.625000774860382, 550.0, 31.0, 20.0 ],
+					"patching_rect" : [ 107.125000774860382, 550.0, 31.0, 20.0 ],
 					"text" : "sel 1"
 				}
 
@@ -1181,11 +1218,11 @@
 				"box" : 				{
 					"id" : "obj-197",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 7.125, 530.0, 190.000001549720764, 20.0 ],
-					"text" : "route read recall"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 7.125, 530.0, 319.000002324581146, 20.0 ],
+					"text" : "route read recall write"
 				}
 
 			}
@@ -1195,8 +1232,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.625000774860382, 570.0, 121.0, 20.0 ],
-					"text" : "s #0settings_loaded "
+					"patching_rect" : [ 107.125000774860382, 570.0, 110.0, 20.0 ],
+					"text" : "s #0settings_loaded  "
 				}
 
 			}
@@ -2250,11 +2287,11 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "in 2",
-														"outlettype" : [ "" ],
-														"numinlets" : 0,
+														"numoutlets" : 1,
 														"id" : "obj-2",
+														"outlettype" : [ "" ],
 														"patching_rect" : [ 445.0, 0.0, 25.0, 20.0 ],
-														"numoutlets" : 1
+														"numinlets" : 0
 													}
 
 												}
@@ -2262,25 +2299,25 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "in 1",
-														"outlettype" : [ "" ],
-														"numinlets" : 0,
+														"numoutlets" : 1,
 														"id" : "obj-1",
+														"outlettype" : [ "" ],
 														"patching_rect" : [ 50.0, 14.0, 25.0, 20.0 ],
-														"numoutlets" : 1
+														"numinlets" : 0
 													}
 
 												}
 , 												{
 													"box" : 													{
 														"maxclass" : "codebox",
-														"fontsize" : 10.0,
-														"outlettype" : [ "" ],
-														"fontname" : "<Monospaced>",
-														"numinlets" : 2,
+														"numoutlets" : 1,
 														"fontface" : 0,
 														"id" : "obj-3",
+														"outlettype" : [ "" ],
 														"patching_rect" : [ 50.0, 40.0, 420.0, 242.0 ],
-														"numoutlets" : 1,
+														"fontsize" : 10.0,
+														"numinlets" : 2,
+														"fontname" : "<Monospaced>",
 														"code" : "History score(0);\r\nif(in2) {\r\n\tscore = 0; \r\n}\r\nif(change(in1)) {\r\n\tscore = in1; \r\n}\r\n//if(!score) {\r\n//\tscore = -9; \r\n//}\r\nout1 = score;"
 													}
 
@@ -2289,18 +2326,18 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "out 1",
-														"numinlets" : 1,
+														"numoutlets" : 0,
 														"id" : "obj-4",
 														"patching_rect" : [ 176.0, 418.0, 31.0, 20.0 ],
-														"numoutlets" : 0
+														"numinlets" : 1
 													}
 
 												}
  ],
 											"lines" : [ 												{
 													"patchline" : 													{
-														"source" : [ "obj-1", 0 ],
-														"destination" : [ "obj-3", 0 ]
+														"source" : [ "obj-2", 0 ],
+														"destination" : [ "obj-3", 1 ]
 													}
 
 												}
@@ -2313,8 +2350,8 @@
 												}
 , 												{
 													"patchline" : 													{
-														"source" : [ "obj-2", 0 ],
-														"destination" : [ "obj-3", 1 ]
+														"source" : [ "obj-1", 0 ],
+														"destination" : [ "obj-3", 0 ]
 													}
 
 												}
@@ -2330,7 +2367,7 @@
 									"outlettype" : [ "multichannelsignal" ],
 									"patching_rect" : [ 9.0, 370.0, 111.0, 20.0 ],
 									"text" : "mc.gen~",
-									"wrapper_uniquekey" : "u013004291"
+									"wrapper_uniquekey" : "u772000371"
 								}
 
 							}
@@ -20641,11 +20678,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "buffer j_checks_log",
-																						"outlettype" : [ "", "" ],
-																						"numinlets" : 0,
+																						"numoutlets" : 2,
 																						"id" : "obj-17",
+																						"outlettype" : [ "", "" ],
 																						"patching_rect" : [ 770.0, 130.0, 94.0, 20.0 ],
-																						"numoutlets" : 2
+																						"numinlets" : 0
 																					}
 
 																				}
@@ -20653,10 +20690,10 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "out 8",
-																						"numinlets" : 1,
+																						"numoutlets" : 0,
 																						"id" : "obj-16",
 																						"patching_rect" : [ 700.0, 540.0, 31.0, 20.0 ],
-																						"numoutlets" : 0
+																						"numinlets" : 1
 																					}
 
 																				}
@@ -20664,10 +20701,10 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "out 7",
-																						"numinlets" : 1,
+																						"numoutlets" : 0,
 																						"id" : "obj-15",
 																						"patching_rect" : [ 610.0, 540.0, 31.0, 20.0 ],
-																						"numoutlets" : 0
+																						"numinlets" : 1
 																					}
 
 																				}
@@ -20675,11 +20712,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "in 6",
-																						"outlettype" : [ "" ],
-																						"numinlets" : 0,
+																						"numoutlets" : 1,
 																						"id" : "obj-14",
+																						"outlettype" : [ "" ],
 																						"patching_rect" : [ 701.0, 0.0, 25.0, 20.0 ],
-																						"numoutlets" : 1
+																						"numinlets" : 0
 																					}
 
 																				}
@@ -20687,11 +20724,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "buffer j_scores_log",
-																						"outlettype" : [ "", "" ],
-																						"numinlets" : 0,
+																						"numoutlets" : 2,
 																						"id" : "obj-13",
+																						"outlettype" : [ "", "" ],
 																						"patching_rect" : [ 770.0, 110.0, 93.0, 20.0 ],
-																						"numoutlets" : 2
+																						"numinlets" : 0
 																					}
 
 																				}
@@ -20699,10 +20736,10 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "out 6",
-																						"numinlets" : 1,
+																						"numoutlets" : 0,
 																						"id" : "obj-12",
 																						"patching_rect" : [ 510.0, 550.0, 31.0, 20.0 ],
-																						"numoutlets" : 0
+																						"numinlets" : 1
 																					}
 
 																				}
@@ -20710,11 +20747,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "in 5",
-																						"outlettype" : [ "" ],
-																						"numinlets" : 0,
+																						"numoutlets" : 1,
 																						"id" : "obj-11",
+																						"outlettype" : [ "" ],
 																						"patching_rect" : [ 551.0, 0.0, 25.0, 20.0 ],
-																						"numoutlets" : 1
+																						"numinlets" : 0
 																					}
 
 																				}
@@ -20722,11 +20759,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "in 4",
-																						"outlettype" : [ "" ],
-																						"numinlets" : 0,
+																						"numoutlets" : 1,
 																						"id" : "obj-10",
+																						"outlettype" : [ "" ],
 																						"patching_rect" : [ 527.625, 0.0, 25.0, 20.0 ],
-																						"numoutlets" : 1
+																						"numinlets" : 0
 																					}
 
 																				}
@@ -20734,10 +20771,10 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "out 5",
-																						"numinlets" : 1,
+																						"numoutlets" : 0,
 																						"id" : "obj-9",
 																						"patching_rect" : [ 410.0, 550.0, 31.0, 20.0 ],
-																						"numoutlets" : 0
+																						"numinlets" : 1
 																					}
 
 																				}
@@ -20745,11 +20782,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "in 3",
-																						"outlettype" : [ "" ],
-																						"numinlets" : 0,
+																						"numoutlets" : 1,
 																						"id" : "obj-8",
+																						"outlettype" : [ "" ],
 																						"patching_rect" : [ 740.0, 4.0, 25.0, 20.0 ],
-																						"numoutlets" : 1
+																						"numinlets" : 0
 																					}
 
 																				}
@@ -20757,10 +20794,10 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "out 4",
-																						"numinlets" : 1,
+																						"numoutlets" : 0,
 																						"id" : "obj-7",
 																						"patching_rect" : [ 310.0, 560.0, 31.0, 20.0 ],
-																						"numoutlets" : 0
+																						"numinlets" : 1
 																					}
 
 																				}
@@ -20768,10 +20805,10 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "out 3",
-																						"numinlets" : 1,
+																						"numoutlets" : 0,
 																						"id" : "obj-6",
 																						"patching_rect" : [ 205.642857142857139, 530.0, 31.0, 20.0 ],
-																						"numoutlets" : 0
+																						"numinlets" : 1
 																					}
 
 																				}
@@ -20779,10 +20816,10 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "out 2",
-																						"numinlets" : 1,
+																						"numoutlets" : 0,
 																						"id" : "obj-5",
 																						"patching_rect" : [ 104.642857142857125, 530.0, 31.0, 20.0 ],
-																						"numoutlets" : 0
+																						"numinlets" : 1
 																					}
 
 																				}
@@ -20790,11 +20827,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "in 1",
-																						"outlettype" : [ "" ],
-																						"numinlets" : 0,
+																						"numoutlets" : 1,
 																						"id" : "obj-1",
+																						"outlettype" : [ "" ],
 																						"patching_rect" : [ 10.0, 4.0, 25.0, 20.0 ],
-																						"numoutlets" : 1
+																						"numinlets" : 0
 																					}
 
 																				}
@@ -20802,11 +20839,11 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "in 2",
-																						"outlettype" : [ "" ],
-																						"numinlets" : 0,
+																						"numoutlets" : 1,
 																						"id" : "obj-2",
+																						"outlettype" : [ "" ],
 																						"patching_rect" : [ 351.25, 4.0, 25.0, 20.0 ],
-																						"numoutlets" : 1
+																						"numinlets" : 0
 																					}
 
 																				}
@@ -20814,24 +20851,24 @@
 																					"box" : 																					{
 																						"maxclass" : "newobj",
 																						"text" : "out 1",
-																						"numinlets" : 1,
+																						"numoutlets" : 0,
 																						"id" : "obj-4",
 																						"patching_rect" : [ 0.0, 532.0, 31.0, 20.0 ],
-																						"numoutlets" : 0
+																						"numinlets" : 1
 																					}
 
 																				}
 , 																				{
 																					"box" : 																					{
 																						"maxclass" : "codebox",
-																						"fontsize" : 10.0,
-																						"outlettype" : [ "", "", "" ],
-																						"fontname" : "<Monospaced>",
-																						"numinlets" : 1,
+																						"numoutlets" : 3,
 																						"fontface" : 0,
 																						"id" : "obj-3",
+																						"outlettype" : [ "", "", "" ],
 																						"patching_rect" : [ 5.571428571428555, 28.0, 712.5, 500.0 ],
-																						"numoutlets" : 3,
+																						"fontsize" : 10.0,
+																						"numinlets" : 1,
+																						"fontname" : "<Monospaced>",
 																						"code" : "Buffer drain(\"drain\");\r\n//History t(0);\r\ntideline = round(elapsed % dim(drain));\t\t//no idea why, but round() is necessary\r\nflow = peek(drain, tideline, mc_channel);\r\npoke(drain, 0, tideline, mc_channel);\r\n//t += 1;\r\nout1 = flow;\r\nout2 = tideline;\r\nout3 = mc_channel;"
 																					}
 
@@ -20839,15 +20876,8 @@
  ],
 																			"lines" : [ 																				{
 																					"patchline" : 																					{
-																						"source" : [ "obj-1", 0 ],
-																						"destination" : [ "obj-3", 0 ]
-																					}
-
-																				}
-, 																				{
-																					"patchline" : 																					{
-																						"source" : [ "obj-3", 0 ],
-																						"destination" : [ "obj-4", 0 ]
+																						"source" : [ "obj-3", 2 ],
+																						"destination" : [ "obj-6", 0 ]
 																					}
 
 																				}
@@ -20860,8 +20890,15 @@
 																				}
 , 																				{
 																					"patchline" : 																					{
-																						"source" : [ "obj-3", 2 ],
-																						"destination" : [ "obj-6", 0 ]
+																						"source" : [ "obj-3", 0 ],
+																						"destination" : [ "obj-4", 0 ]
+																					}
+
+																				}
+, 																				{
+																					"patchline" : 																					{
+																						"source" : [ "obj-1", 0 ],
+																						"destination" : [ "obj-3", 0 ]
 																					}
 
 																				}
@@ -20877,7 +20914,7 @@
 																	"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 																	"patching_rect" : [ 50.0, 60.0, 190.0, 20.0 ],
 																	"text" : "mc.gen @chans 8 @active 1 @interval 1",
-																	"wrapper_uniquekey" : "u128004385"
+																	"wrapper_uniquekey" : "u243000465"
 																}
 
 															}
@@ -41526,7 +41563,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 598.0, 329.0, 608.0, 525.0 ],
+						"rect" : [ 697.0, 384.0, 608.0, 525.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -41555,6 +41592,42 @@
 						"subpatcher_template" : "Size 10 grid",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 380.0, 90.0, 150.0, 41.0 ],
+									"text" : "[peakamp~ 3999] detected things when there should be silence w/ > .0009"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 200.0, 60.0, 40.0, 20.0 ],
+									"text" : "r ready"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 200.0, 80.0, 60.0, 20.0 ],
+									"text" : "gate 1 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-35",
 									"maxclass" : "toggle",
@@ -41815,7 +41888,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 100.0, 90.0, 20.0 ],
+									"patching_rect" : [ 200.0, 120.0, 90.0, 20.0 ],
 									"text" : "s instrument_input"
 								}
 
@@ -41827,7 +41900,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 340.0, 40.0, 29.5, 20.0 ],
+									"patching_rect" : [ 215.25, 30.0, 29.5, 20.0 ],
 									"text" : "/ 2"
 								}
 
@@ -41841,7 +41914,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 340.0, 20.0, 54.0, 20.0 ],
+									"patching_rect" : [ 215.25, 10.0, 54.0, 20.0 ],
 									"text" : "r A_wake"
 								}
 
@@ -41853,8 +41926,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 240.0, 80.0, 48.0, 20.0 ],
-									"text" : "> 0.0009"
+									"patching_rect" : [ 200.0, 100.0, 42.0, 20.0 ],
+									"text" : "> 0.009"
 								}
 
 							}
@@ -41865,8 +41938,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 240.0, 60.0, 64.0, 20.0 ],
-									"text" : "peakamp~ 9"
+									"patching_rect" : [ 241.0, 60.0, 81.0, 20.0 ],
+									"text" : "peakamp~ 3999"
 								}
 
 							}
@@ -41877,7 +41950,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 240.0, 0.0, 117.0, 20.0 ],
+									"patching_rect" : [ 241.0, 30.0, 117.0, 20.0 ],
 									"text" : "receive~ #0monitor"
 								}
 
@@ -42068,7 +42141,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
+									"destination" : [ "obj-2", 1 ],
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -42083,7 +42156,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 1 ],
-									"disabled" : 1,
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -42092,6 +42164,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
 									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -42144,6 +42223,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -108677,7 +108763,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 474.0, 143.0, 983.0, 668.0 ],
+										"rect" : [ 562.0, 233.0, 983.0, 668.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -133492,12 +133578,201 @@
 																		"assistshowspatchername" : 0,
 																		"boxes" : [ 																			{
 																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-32",
+																					"index" : 1,
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "int" ],
+																					"patching_rect" : [ 373.333333333333314, 10.0, 30.0, 30.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-31",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 2,
+																					"outlettype" : [ "", "" ],
+																					"patching_rect" : [ 373.333333333333314, 120.0, 47.0, 20.0 ],
+																					"text" : "zl.slice 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-30",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 360.0, 80.0, 62.0, 20.0 ],
+																					"text" : "prepend get"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-29",
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 520.0, 80.0, 90.0, 20.0 ],
+																					"text" : "replace scale 14 4"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-27",
+																					"linecount" : 3,
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 540.0, 170.0, 50.0, 43.0 ],
+																					"text" : "replace scale[1] 4"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-15",
+																					"index" : 1,
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 372.666666666666686, 180.0, 30.0, 30.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-8",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 4,
+																					"outlettype" : [ "dictionary", "", "", "" ],
+																					"patching_rect" : [ 360.0, 100.0, 59.0, 20.0 ],
+																					"saved_object_attributes" : 																					{
+																						"embed" : 0,
+																						"parameter_enable" : 0,
+																						"parameter_mappable" : 0
+																					}
+,
+																					"text" : "dict sounds"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-6",
+																					"maxclass" : "number",
+																					"numinlets" : 1,
+																					"numoutlets" : 2,
+																					"outlettype" : [ "", "bang" ],
+																					"parameter_enable" : 0,
+																					"patching_rect" : [ 420.0, 20.0, 50.0, 20.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-2",
+																					"maxclass" : "newobj",
+																					"numinlets" : 3,
+																					"numoutlets" : 2,
+																					"outlettype" : [ "", "" ],
+																					"patching_rect" : [ 360.0, 60.0, 140.0, 20.0 ],
+																					"text" : "combine scale[ i ] @triggers 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-11",
+																					"linecount" : 5,
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 260.0, 170.0, 50.0, 66.0 ],
+																					"text" : "9.9991 6.9991 3.9991 0.9991 1.0009"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-9",
+																					"maxclass" : "number",
+																					"numinlets" : 1,
+																					"numoutlets" : 2,
+																					"outlettype" : [ "", "bang" ],
+																					"parameter_enable" : 0,
+																					"patching_rect" : [ 50.0, 80.0, 50.0, 20.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-7",
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 131.0, 70.0, 61.0, 20.0 ],
+																					"text" : "0 3 6 9 11"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-5",
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 220.0, 210.0, 50.0, 20.0 ],
+																					"text" : "9"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-3",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "float" ],
+																					"patching_rect" : [ 50.0, 110.0, 45.0, 20.0 ],
+																					"text" : "- 0.0009"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-1",
+																					"maxclass" : "newobj",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 131.0, 150.0, 38.0, 20.0 ],
+																					"text" : "r scale"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
 																					"id" : "obj-74",
 																					"maxclass" : "newobj",
 																					"numinlets" : 0,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 220.0, 120.0, 38.0, 20.0 ],
+																					"patching_rect" : [ 199.0, 110.0, 38.0, 20.0 ],
 																					"text" : "r scale"
 																				}
 
@@ -133509,7 +133784,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 2,
 																					"outlettype" : [ "", "" ],
-																					"patching_rect" : [ 80.0, 190.0, 48.0, 20.0 ],
+																					"patching_rect" : [ 102.0, 170.0, 48.0, 20.0 ],
 																					"text" : "zl lookup"
 																				}
 
@@ -133520,9 +133795,9 @@
 																					"maxclass" : "newobj",
 																					"numinlets" : 2,
 																					"numoutlets" : 2,
-																					"outlettype" : [ "int", "int" ],
-																					"patching_rect" : [ 50.0, 170.0, 49.0, 20.0 ],
-																					"text" : "minimum"
+																					"outlettype" : [ "float", "int" ],
+																					"patching_rect" : [ 50.0, 150.0, 71.0, 20.0 ],
+																					"text" : "minimum 99.9"
 																				}
 
 																			}
@@ -133533,40 +133808,23 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 50.0, 150.0, 167.0, 20.0 ],
-																					"text" : "vexpr abs($i1 - $i2) @scalarmode 1"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"comment" : "",
-																					"id" : "obj-18",
-																					"index" : 1,
-																					"maxclass" : "inlet",
-																					"numinlets" : 0,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "int" ],
-																					"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"comment" : "",
-																					"id" : "obj-19",
-																					"index" : 1,
-																					"maxclass" : "outlet",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 80.0, 270.0, 30.0, 30.0 ]
+																					"patching_rect" : [ 50.0, 130.0, 168.0, 20.0 ],
+																					"text" : "vexpr abs($f1 - $i2) @scalarmode 1"
 																				}
 
 																			}
  ],
 																		"lines" : [ 																			{
 																				"patchline" : 																				{
-																					"destination" : [ "obj-19", 0 ],
+																					"destination" : [ "obj-14", 1 ],
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 1,
 																					"source" : [ "obj-14", 0 ]
 																				}
 
@@ -133580,6 +133838,14 @@
 																			}
 , 																			{
 																				"patchline" : 																				{
+																					"destination" : [ "obj-11", 1 ],
+																					"disabled" : 1,
+																					"source" : [ "obj-17", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
 																					"destination" : [ "obj-16", 0 ],
 																					"source" : [ "obj-17", 0 ]
 																				}
@@ -133587,26 +133853,80 @@
 																			}
 , 																			{
 																				"patchline" : 																				{
+																					"destination" : [ "obj-30", 0 ],
+																					"source" : [ "obj-2", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
 																					"destination" : [ "obj-17", 0 ],
-																					"source" : [ "obj-18", 0 ]
+																					"source" : [ "obj-3", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-8", 0 ],
+																					"source" : [ "obj-30", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-15", 0 ],
+																					"source" : [ "obj-31", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-2", 1 ],
+																					"source" : [ "obj-32", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-2", 1 ],
+																					"source" : [ "obj-6", 0 ]
 																				}
 
 																			}
 , 																			{
 																				"patchline" : 																				{
 																					"destination" : [ "obj-14", 1 ],
-																					"midpoints" : [ 229.5, 178.0, 118.5, 178.0 ],
 																					"order" : 1,
-																					"source" : [ "obj-74", 0 ]
+																					"source" : [ "obj-7", 0 ]
 																				}
 
 																			}
 , 																			{
 																				"patchline" : 																				{
 																					"destination" : [ "obj-17", 1 ],
-																					"midpoints" : [ 229.5, 144.5, 207.5, 144.5 ],
 																					"order" : 0,
+																					"source" : [ "obj-7", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-17", 1 ],
 																					"source" : [ "obj-74", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-31", 0 ],
+																					"source" : [ "obj-8", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"source" : [ "obj-9", 0 ]
 																				}
 
 																			}
@@ -133623,5294 +133943,6 @@
 																	}
 ,
 																	"text" : "p transpose?"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-31",
-																	"maxclass" : "newobj",
-																	"numinlets" : 0,
-																	"numoutlets" : 0,
-																	"patcher" : 																	{
-																		"fileversion" : 1,
-																		"appversion" : 																		{
-																			"major" : 8,
-																			"minor" : 5,
-																			"revision" : 3,
-																			"architecture" : "x64",
-																			"modernui" : 1
-																		}
-,
-																		"classnamespace" : "box",
-																		"rect" : [ 221.0, 85.0, 753.0, 660.0 ],
-																		"bglocked" : 0,
-																		"openinpresentation" : 0,
-																		"default_fontsize" : 10.0,
-																		"default_fontface" : 0,
-																		"default_fontname" : "Arial",
-																		"gridonopen" : 2,
-																		"gridsize" : [ 10.0, 10.0 ],
-																		"gridsnaponopen" : 2,
-																		"objectsnaponopen" : 1,
-																		"statusbarvisible" : 2,
-																		"toolbarvisible" : 1,
-																		"lefttoolbarpinned" : 0,
-																		"toptoolbarpinned" : 0,
-																		"righttoolbarpinned" : 0,
-																		"bottomtoolbarpinned" : 0,
-																		"toolbars_unpinned_last_save" : 0,
-																		"tallnewobj" : 0,
-																		"boxanimatetime" : 200,
-																		"enablehscroll" : 1,
-																		"enablevscroll" : 1,
-																		"devicewidth" : 0.0,
-																		"description" : "",
-																		"digest" : "",
-																		"tags" : "",
-																		"style" : "",
-																		"subpatcher_template" : "To the Sun",
-																		"assistshowspatchername" : 0,
-																		"boxes" : [ 																			{
-																				"box" : 																				{
-																					"id" : "obj-1",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 470.0, 240.0, 46.0, 20.0 ],
-																					"text" : "deferlow"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-15",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 3,
-																					"outlettype" : [ "", "int", "int" ],
-																					"patching_rect" : [ 568.5, 80.0, 41.0, 20.0 ],
-																					"text" : "change"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-14",
-																					"maxclass" : "newobj",
-																					"numinlets" : 2,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 568.5, 60.0, 74.0, 20.0 ],
-																					"text" : "speedlim 2999"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-13",
-																					"maxclass" : "newobj",
-																					"numinlets" : 0,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 568.5, 20.0, 96.0, 20.0 ],
-																					"text" : "r #0new_pitch_after"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-48",
-																					"maxclass" : "newobj",
-																					"numinlets" : 0,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 420.5, 430.0, 189.0, 20.0 ],
-																					"text" : "r remove_abstractions_before_saving"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-54",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 2,
-																					"outlettype" : [ "", "" ],
-																					"patching_rect" : [ 447.5, 530.0, 62.0, 20.0 ],
-																					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-																					"text" : "thispatcher"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-53",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 447.5, 510.0, 110.0, 20.0 ],
-																					"text" : "prepend script delete"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-52",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "bang" ],
-																					"patching_rect" : [ 420.5, 450.0, 53.0, 20.0 ],
-																					"text" : "loadbang"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-50",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 447.5, 490.0, 98.0, 20.0 ],
-																					"text" : "sprintf countdown%i"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-51",
-																					"maxclass" : "newobj",
-																					"numinlets" : 2,
-																					"numoutlets" : 3,
-																					"outlettype" : [ "bang", "bang", "int" ],
-																					"patching_rect" : [ 420.5, 470.0, 46.0, 20.0 ],
-																					"text" : "Uzi 99 0"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-74",
-																					"maxclass" : "button",
-																					"numinlets" : 1,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "bang" ],
-																					"parameter_enable" : 0,
-																					"patching_rect" : [ 409.5, 90.0, 24.0, 24.0 ]
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-30",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 2,
-																					"outlettype" : [ "bang", "int" ],
-																					"patching_rect" : [ 568.5, 100.0, 41.0, 20.0 ],
-																					"text" : "t bang i"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-58",
-																					"maxclass" : "newobj",
-																					"numinlets" : 0,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 444.0, 80.0, 75.0, 20.0 ],
-																					"text" : "r ---conscious?"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-55",
-																					"maxclass" : "newobj",
-																					"numinlets" : 2,
-																					"numoutlets" : 3,
-																					"outlettype" : [ "bang", "bang", "int" ],
-																					"patching_rect" : [ 444.0, 130.0, 45.0, 20.0 ],
-																					"text" : "Uzi 12 0"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-56",
-																					"maxclass" : "newobj",
-																					"numinlets" : 2,
-																					"numoutlets" : 2,
-																					"outlettype" : [ "bang", "" ],
-																					"patching_rect" : [ 444.0, 100.0, 30.0, 20.0 ],
-																					"text" : "sel 1"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-49",
-																					"maxclass" : "newobj",
-																					"numinlets" : 0,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 470.5, 100.0, 74.0, 20.0 ],
-																					"text" : "r reset_pitches"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-31",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 640.0, 490.0, 77.0, 20.0 ],
-																					"text" : "print scramble_"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-124",
-																					"maxclass" : "newobj",
-																					"numinlets" : 2,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "int" ],
-																					"patching_rect" : [ 513.666666666666629, 180.0, 29.5, 20.0 ],
-																					"text" : "i"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-59",
-																					"linecount" : 2,
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 640.0, 450.0, 104.0, 31.0 ],
-																					"text" : "logExternally(Frame+Phasor)"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-46",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 2,
-																					"outlettype" : [ "", "" ],
-																					"patching_rect" : [ 470.0, 300.0, 57.0, 20.0 ],
-																					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-																					"text" : "thispatcher"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-45",
-																					"linecount" : 2,
-																					"maxclass" : "message",
-																					"numinlets" : 2,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 470.0, 260.0, 160.0, 31.0 ],
-																					"text" : "script delete $1, script newdefault $1 0 $3 pitch_disuse $2 $4 #0"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-41",
-																					"maxclass" : "number",
-																					"numinlets" : 1,
-																					"numoutlets" : 2,
-																					"outlettype" : [ "", "bang" ],
-																					"parameter_enable" : 0,
-																					"patching_rect" : [ 568.5, 40.0, 50.0, 20.0 ],
-																					"varname" : "number"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-39",
-																					"maxclass" : "newobj",
-																					"numinlets" : 2,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "int" ],
-																					"patching_rect" : [ 557.333333333333371, 180.0, 29.5, 20.0 ],
-																					"text" : "* 20"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-38",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 470.0, 200.0, 98.0, 20.0 ],
-																					"text" : "sprintf countdown%i"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-37",
-																					"maxclass" : "newobj",
-																					"numinlets" : 4,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 470.0, 220.0, 150.0, 20.0 ],
-																					"text" : "join 4"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"id" : "obj-33",
-																					"maxclass" : "newobj",
-																					"numinlets" : 2,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "int" ],
-																					"patching_rect" : [ 470.0, 150.0, 31.0, 20.0 ],
-																					"text" : "% 12"
-																				}
-
-																			}
- ],
-																		"lines" : [ 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-45", 0 ],
-																					"source" : [ "obj-1", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-37", 1 ],
-																					"source" : [ "obj-124", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-41", 0 ],
-																					"source" : [ "obj-13", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-15", 0 ],
-																					"source" : [ "obj-14", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-30", 0 ],
-																					"source" : [ "obj-15", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-37", 3 ],
-																					"source" : [ "obj-30", 1 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-55", 0 ],
-																					"source" : [ "obj-30", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-124", 0 ],
-																					"order" : 1,
-																					"source" : [ "obj-33", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-38", 0 ],
-																					"order" : 2,
-																					"source" : [ "obj-33", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-39", 0 ],
-																					"order" : 0,
-																					"source" : [ "obj-33", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-1", 0 ],
-																					"source" : [ "obj-37", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-37", 0 ],
-																					"source" : [ "obj-38", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-37", 2 ],
-																					"source" : [ "obj-39", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-14", 0 ],
-																					"source" : [ "obj-41", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-46", 0 ],
-																					"order" : 1,
-																					"source" : [ "obj-45", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-59", 0 ],
-																					"order" : 0,
-																					"source" : [ "obj-45", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-52", 0 ],
-																					"source" : [ "obj-48", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-55", 0 ],
-																					"source" : [ "obj-49", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-53", 0 ],
-																					"source" : [ "obj-50", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-50", 0 ],
-																					"source" : [ "obj-51", 2 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-51", 0 ],
-																					"source" : [ "obj-52", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-54", 0 ],
-																					"source" : [ "obj-53", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-33", 0 ],
-																					"source" : [ "obj-55", 2 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-55", 0 ],
-																					"source" : [ "obj-56", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-56", 0 ],
-																					"source" : [ "obj-58", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-31", 0 ],
-																					"source" : [ "obj-59", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-55", 0 ],
-																					"source" : [ "obj-74", 0 ]
-																				}
-
-																			}
- ],
-																		"styles" : [ 																			{
-																				"name" : "Custom Default",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-10",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-11",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-1-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-1-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-1-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-1-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-1-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-1-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-4-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-4-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-4-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-5-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-7",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-1-8",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-1-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-1-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-1-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-1-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-1-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-1-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-2",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-2-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-2-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-3",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-3-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-3-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-4-1",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-4-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-4-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-5-1",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-6",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-7",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-2-8",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-3-1",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-3-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-3-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-3-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-3-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-3-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-4",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-4-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-4-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-7",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-7-1",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-7-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-7-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-8",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-8-1",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-1-9",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-3-1",
-																				"default" : 																				{
-																					"fontface" : [ 0 ],
-																					"patchlinecolor" : [ 0.862745, 0.870588, 0.878431, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-3-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-3-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-1-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-1-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-1-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-1-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-1-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-1-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-4-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-4-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-4-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-5-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-7",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-1-8",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-1-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-1-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-1-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-1-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-1-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-1-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-2-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-2-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-3-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-3-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-4-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-4-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-4-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-5-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-7",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-1-8",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-1-1-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-1-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-1-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-1-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-1-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-1-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-1-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-1-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-2-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-2-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-3",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-3-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-3-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-4",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-4-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-4-1-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-4-2",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-5",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-5-1",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-6",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-7",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-6-8",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-7",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default Regular-8",
-																				"message" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"newobj" : 																				{
-																					"fontname" : [ "Arial" ],
-																					"fontsize" : [ 10.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 1
-																			}
-, 																			{
-																				"name" : "Custom Default-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-1-1-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-1-1-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-1-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-1-3",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-1-4",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-1-4-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-1-1-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-1-1-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-1-1-1-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-1-1-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-1-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-1-3",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-1-4",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-1-5",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-1-6",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-3",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-4",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-4-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-4-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-4-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-5",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-5-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-6",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-7",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-1-8",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-3",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-3-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-3-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-3-1-1-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-3-1-1-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-3-1-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-3-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-3-3",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-3-4",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-3-5",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-3-6",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-4",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-5",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-5-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-5-1-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-5-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-6",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-6-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-7",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-8",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-2-9",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-3",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-4",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-1-4-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-1-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-1-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-1-1-1-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-1-1-1-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-1-1-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-1-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-1-3",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-1-4",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-1-5",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-1-6",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-3",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-4",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-4-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-4-1-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-4-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-5",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-5-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-6",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-7",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-1-8",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-3",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-3-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-3-1-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-3-1-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-3-1-1-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-3-1-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-3-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-3-3",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-3-4",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-3-5",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-3-6",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-4",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-5",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-5-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-5-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-5-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-6",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-6-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-7",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-8",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-3-9",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-4",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-5",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-1-5-1",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-10",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-11",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-11-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-2",
-																				"newobj" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"message" : 																				{
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-3",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-4",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-5",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-6",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-7",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-8",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-8-1",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-8-2",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-1",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-1-1-1",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-1-1-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-1-1-1-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-1-1-2",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-1-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-1-3",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-1-4",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-1-5",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-1-6",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-3",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-4",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-4-1",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-4-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-4-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-5",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-5-1",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-6",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-7",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-1-8",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-3",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-3-1",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-3-1-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-3-1-1-1",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-3-1-1-2",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-3-1-2",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-3-2",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-3-3",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-3-4",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-3-5",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-3-6",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-4",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-5",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-5-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-5-1-1",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-5-2",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-6",
-																				"default" : 																				{
-																					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																					"fontface" : [ 1 ],
-																					"fontsize" : [ 10.0 ],
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-6-1",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-7",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-8",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "Custom Default-9-9",
-																				"default" : 																				{
-																					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
-																				}
-,
-																				"parentstyle" : "Custom Default-2",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "ksliderWhite",
-																				"default" : 																				{
-																					"color" : [ 1, 1, 1, 1 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "newobjBlue-1",
-																				"default" : 																				{
-																					"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "newobjBrown-1",
-																				"default" : 																				{
-																					"accentcolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "newobjGreen-1",
-																				"default" : 																				{
-																					"accentcolor" : [ 0, 0.533333, 0.168627, 1 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "newobjYellow-1",
-																				"default" : 																				{
-																					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-																					"fontsize" : [ 12.059008 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
-, 																			{
-																				"name" : "numberGold-1",
-																				"default" : 																				{
-																					"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
-																				}
-,
-																				"parentstyle" : "",
-																				"multi" : 0
-																			}
- ]
-																	}
-,
-																	"patching_rect" : [ 230.0, 30.0, 103.0, 20.0 ],
-																	"saved_object_attributes" : 																	{
-																		"description" : "",
-																		"digest" : "",
-																		"fontsize" : 10.0,
-																		"globalpatchername" : "",
-																		"tags" : ""
-																	}
-,
-																	"text" : "p scramble_pitches",
-																	"varname" : "scramble_pitches"
 																}
 
 															}
@@ -187183,16 +182215,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
-									"order" : 0,
-									"source" : [ "obj-12", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"order" : 1,
 									"source" : [ "obj-12", 1 ]
 								}
 
@@ -222963,6 +217986,14 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-117", 0 ],
 					"source" : [ "obj-100", 0 ]
 				}
@@ -223353,7 +218384,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-139", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-159", 0 ]
 				}
 
@@ -223361,7 +218392,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-159", 0 ]
 				}
 
@@ -223495,6 +218526,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-203", 0 ],
 					"source" : [ "obj-197", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-197", 2 ]
 				}
 
 			}
@@ -223789,6 +218827,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
@@ -224036,16 +219081,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-104::obj-12" : [ "toggle[52]", "toggle", 0 ],
-			"obj-105::obj-10::obj-12" : [ "toggle[53]", "toggle", 0 ],
+			"obj-104::obj-12" : [ "toggle[53]", "toggle", 0 ],
+			"obj-105::obj-10::obj-12" : [ "toggle[54]", "toggle", 0 ],
 			"obj-114" : [ "mouse_Duration[3]", "Duration", 0 ],
-			"obj-139::obj-12" : [ "toggle[56]", "toggle", 0 ],
+			"obj-139::obj-12" : [ "toggle[57]", "toggle", 0 ],
 			"obj-147" : [ "live.text[2]", "live.text", 0 ],
-			"obj-170::obj-7::obj-12" : [ "toggle[57]", "toggle", 0 ],
+			"obj-170::obj-7::obj-12" : [ "toggle[58]", "toggle", 0 ],
 			"obj-20::obj-14::obj-3::obj-12" : [ "toggle[48]", "toggle", 0 ],
 			"obj-20::obj-14::obj-69::obj-2" : [ "live.gain~[32]", "live.gain~[32]", 0 ],
 			"obj-20::obj-3::obj-153" : [ "textedit", "textedit", -1 ],
-			"obj-20::obj-3::obj-1::obj-31::obj-59::obj-12" : [ "toggle[15]", "toggle", 0 ],
 			"obj-20::obj-3::obj-29::obj-12" : [ "toggle[18]", "toggle", 0 ],
 			"obj-20::obj-3::obj-63::obj-13::obj-12" : [ "toggle[17]", "toggle", 0 ],
 			"obj-20::obj-3::obj-82::obj-20::obj-12" : [ "toggle[16]", "toggle", 0 ],
@@ -224105,11 +219149,12 @@
 			"obj-50::obj-31" : [ "Current[4]", "Current", 0 ],
 			"obj-50::obj-34" : [ "Current[5]", "Current", 0 ],
 			"obj-50::obj-53" : [ "Current[2]", "Current", 0 ],
-			"obj-50::obj-65::obj-12" : [ "toggle[51]", "toggle", 0 ],
+			"obj-50::obj-65::obj-12" : [ "toggle[52]", "toggle", 0 ],
+			"obj-50::obj-71::obj-10::obj-5::obj-12" : [ "toggle[51]", "toggle", 0 ],
 			"obj-50::obj-71::obj-4::obj-12" : [ "toggle[50]", "toggle", 0 ],
 			"obj-53" : [ "Current[54]", "Current", 0 ],
-			"obj-82::obj-1::obj-12" : [ "toggle[54]", "toggle", 0 ],
-			"obj-89::obj-28::obj-5::obj-12" : [ "toggle[55]", "toggle", 0 ],
+			"obj-82::obj-1::obj-12" : [ "toggle[55]", "toggle", 0 ],
+			"obj-89::obj-28::obj-5::obj-12" : [ "toggle[56]", "toggle", 0 ],
 			"parameterbanks" : 			{
 
 			}
