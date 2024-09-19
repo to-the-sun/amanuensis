@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-36",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 100.0, 150.0, 52.0 ],
+					"text" : "[zl.change] to prevent unnecessary pitch bends which were causing CPU overload (at least with AASplayer 137)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 165.5, 140.0, 51.0, 20.0 ],
+					"text" : "zl.change"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -336,7 +360,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 50.0, 100.0, 51.0, 20.0 ],
+					"patching_rect" : [ 50.0, 80.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -356,7 +380,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 98.0, 30.0, 101.0, 20.0 ],
+					"patching_rect" : [ 98.0, 10.0, 101.0, 20.0 ],
 					"text" : "r vst_presets_loaded"
 				}
 
@@ -5886,8 +5910,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 170.0, 140.0, 128.0, 20.0 ],
-					"text" : "route #3 "
+					"patching_rect" : [ 165.5, 120.0, 51.0, 20.0 ],
+					"text" : "route #3  "
 				}
 
 			}
@@ -5898,7 +5922,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 170.0, 120.0, 45.0, 20.0 ],
+					"patching_rect" : [ 165.5, 100.0, 45.0, 20.0 ],
 					"text" : "route #2",
 					"textcolor" : [ 0.980392156862745, 0.317647058823529, 0.317647058823529, 1.0 ]
 				}
@@ -5923,7 +5947,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 60.0, 46.0, 20.0 ],
+					"patching_rect" : [ 50.0, 40.0, 46.0, 20.0 ],
 					"text" : "deferlow"
 				}
 
@@ -5978,7 +6002,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 50.0, 30.0, 50.0, 20.0 ],
+					"patching_rect" : [ 50.0, 10.0, 50.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -6002,7 +6026,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "pgmnames", "int" ],
-					"patching_rect" : [ 50.0, 80.0, 91.0, 20.0 ],
+					"patching_rect" : [ 50.0, 60.0, 210.0, 20.0 ],
 					"text" : "t #1 pgmnames 1  "
 				}
 
@@ -6049,8 +6073,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 170.0, 100.0, 85.0, 20.0 ],
-					"text" : "r #4to_vst~s"
+					"patching_rect" : [ 165.5, 80.0, 66.0, 20.0 ],
+					"text" : "r #4to_vst~s "
 				}
 
 			}
@@ -6210,6 +6234,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-29", 0 ]
 				}
@@ -6273,16 +6304,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-22", 0 ],
+					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-27", 0 ],
+					"order" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
 

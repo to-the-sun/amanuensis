@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 168.0, 505.0, 1040.0, 507.0 ],
+		"rect" : [ 242.0, 508.0, 1040.0, 500.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,947 @@
 		"subpatcher_template" : "Size 10 grid",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 208.0, 300.0, 29.5, 20.0 ],
+					"text" : "next"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-85",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 177.5, 300.0, 29.5, 20.0 ],
+					"text" : "== 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-82",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 177.5, 320.0, 49.5, 20.0 ],
+					"text" : "gate 1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-78",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 208.0, 280.0, 69.0, 20.0 ],
+					"text" : "r A_songStart"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 233.0, 450.0, 45.0, 20.0 ],
+					"text" : "s restart"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-83",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 239.5, 330.0, 29.5, 20.0 ],
+					"text" : "next"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 3,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 567.0, 355.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 2,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 2,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "Size 10 grid",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 230.5, 460.0, 82.0, 20.0 ],
+									"text" : "s refresh_scores"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-34",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 230.5, 430.0, 44.0, 20.0 ],
+									"text" : "t bang s"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-94",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 230.5, 410.0, 87.0, 20.0 ],
+									"text" : "substitute 32 next"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-89",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 4,
+									"outlettype" : [ "int", "int", "int", "int" ],
+									"patching_rect" : [ 230.5, 390.0, 50.5, 20.0 ],
+									"text" : "key"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "bang" ],
+									"patching_rect" : [ 321.16666704416275, 390.0, 56.0, 20.0 ],
+									"text" : "onebang 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 321.16666704416275, 410.0, 73.0, 20.0 ],
+									"text" : "s clear_scores"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 350.0, 250.0, 150.0, 18.0 ],
+									"text" : "Compensate with a delay"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 300.0, 250.0, 40.0, 20.0 ],
+									"text" : "- 2999."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 201.5, 80.0, 29.5, 20.0 ],
+									"text" : "gate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 229.0, 50.0, 29.5, 20.0 ],
+									"text" : "== 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 212.0, 30.0, 36.0, 20.0 ],
+									"text" : "buddy"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 460.0, 80.0, 50.0, 20.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 120.0, 360.0, 82.0, 20.0 ],
+									"text" : "s refresh_scores"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-22",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 201.388889014720917, 460.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 390.0, 210.0, 151.0, 29.0 ],
+									"text" : "Get the offset from the selected pass and add it to the current t"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 141.5, 280.0, 29.5, 20.0 ],
+									"text" : "+ 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 300.0, 230.0, 40.0, 20.0 ],
+									"text" : "unjoin"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-57",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 248.5, 180.0, 37.0, 20.0 ],
+									"text" : "v pass"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 300.0, 160.0, 69.0, 20.0 ],
+									"text" : "prepend refer"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 300.0, 140.0, 45.0, 20.0 ],
+									"text" : "r palette"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 300.0, 180.0, 135.0, 20.0 ],
+									"text" : "regexp (wav) @substitute txt"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 300.0, 210.0, 50.5, 20.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"precision" : 6
+									}
+,
+									"text" : "coll"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 95.5, 240.0, 55.0, 20.0 ],
+									"text" : "snapshot~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "int", "bang" ],
+									"patching_rect" : [ 201.5, 160.0, 66.0, 20.0 ],
+									"text" : "t bang i bang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "bang", "bang", "bang", "" ],
+									"patching_rect" : [ 141.5, 340.0, 198.66666704416275, 20.0 ],
+									"text" : "t bang bang bang l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 225.0, 360.0, 99.0, 20.0 ],
+									"text" : "sort 1 0, renumber 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 141.5, 320.0, 81.0, 20.0 ],
+									"text" : "prepend insert 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 141.5, 300.0, 186.0, 20.0 ],
+									"text" : "pack f f 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"patching_rect" : [ 201.5, 120.0, 43.0, 20.0 ],
+									"text" : "split 0 9"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 201.5, 100.0, 29.5, 20.0 ],
+									"text" : "- 48"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 201.5, 140.0, 50.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "float" ],
+									"patching_rect" : [ 95.5, 260.0, 65.0, 20.0 ],
+									"text" : "sampstoms~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 95.5, 210.0, 52.0, 20.0 ],
+									"text" : "receive~ t"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 4,
+									"outlettype" : [ "int", "int", "int", "int" ],
+									"patching_rect" : [ 180.5, 0.0, 50.5, 20.0 ],
+									"text" : "key"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 50.0, 160.0, 154.0, 20.0 ],
+									"text" : "regexp (wav) @substitute scores"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 50.0, 390.0, 50.5, 20.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"precision" : 6
+									}
+,
+									"text" : "coll"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 140.0, 69.0, 20.0 ],
+									"text" : "prepend refer"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 120.0, 45.0, 20.0 ],
+									"text" : "r palette"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-15", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-15", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"order" : 1,
+									"source" : [ "obj-15", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"order" : 0,
+									"source" : [ "obj-15", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 1 ],
+									"source" : [ "obj-16", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-57", 0 ],
+									"source" : [ "obj-16", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 1 ],
+									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"source" : [ "obj-28", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-34", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-34", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 1 ],
+									"order" : 0,
+									"source" : [ "obj-5", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-5", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 1 ],
+									"order" : 1,
+									"source" : [ "obj-5", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-7", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-94", 0 ],
+									"source" : [ "obj-89", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-34", 0 ],
+									"source" : [ "obj-94", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 239.5, 310.0, 87.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p Manually_score"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 140.0, 260.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-77",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 200.0, 450.0, 37.0, 20.0 ],
+					"text" : "s pass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 229.0, 350.0, 29.5, 20.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 200.0, 430.0, 85.0, 20.0 ],
+					"text" : "unjoin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 200.0, 410.0, 29.5, 20.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-107",
 					"maxclass" : "message",
@@ -5482,7 +6423,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 321.0, 460.0, 67.0, 20.0 ],
+					"patching_rect" : [ 375.0, 500.0, 67.0, 20.0 ],
 					"text" : "s pass_gain1"
 				}
 
@@ -6629,7 +7570,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 700.0, 171.0, 640.0, 515.0 ],
+										"rect" : [ 700.0, 171.0, 759.0, 515.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -6659,6 +7600,553 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-20",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 8,
+															"minor" : 5,
+															"revision" : 3,
+															"architecture" : "x64",
+															"modernui" : 1
+														}
+,
+														"classnamespace" : "box",
+														"rect" : [ 567.0, 355.0, 640.0, 480.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 10.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 2,
+														"gridsize" : [ 10.0, 10.0 ],
+														"gridsnaponopen" : 2,
+														"objectsnaponopen" : 1,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"lefttoolbarpinned" : 0,
+														"toptoolbarpinned" : 0,
+														"righttoolbarpinned" : 0,
+														"bottomtoolbarpinned" : 0,
+														"toolbars_unpinned_last_save" : 0,
+														"tallnewobj" : 0,
+														"boxanimatetime" : 200,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"style" : "",
+														"subpatcher_template" : "Size 10 grid",
+														"assistshowspatchername" : 0,
+														"boxes" : [ 															{
+																"box" : 																{
+																	"id" : "obj-12",
+																	"maxclass" : "message",
+																	"numinlets" : 2,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 119.833333333333371, 260.0, 52.777778784433991, 20.0 ],
+																	"text" : "1088"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-10",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "bang", "" ],
+																	"patching_rect" : [ 119.833333333333371, 240.0, 30.0, 20.0 ],
+																	"text" : "sel 1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-9",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"patching_rect" : [ 119.833333333333371, 220.0, 29.5, 20.0 ],
+																	"text" : "!= 0."
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-7",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 320.0, 190.0, 141.0, 20.0 ],
+																	"text" : "if $f1 > 0. && $f1 < 1. then $i2"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-1",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 340.0, 260.0, 28.0, 20.0 ],
+																	"text" : "print"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-8",
+																	"maxclass" : "button",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "bang" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 280.0, 20.0, 24.0, 24.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-6",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 119.833333333333371, 280.0, 81.0, 20.0 ],
+																	"text" : "prepend remove"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-5",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"patching_rect" : [ 119.833333333333371, 200.0, 29.5, 20.0 ],
+																	"text" : "% 1."
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 109.333333333333371, 180.0, 40.0, 20.0 ],
+																	"text" : "unjoin"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-3",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 4,
+																	"outlettype" : [ "", "", "", "" ],
+																	"patching_rect" : [ 109.333333333333371, 160.0, 151.833336353302002, 20.0 ],
+																	"saved_object_attributes" : 																	{
+																		"embed" : 0,
+																		"precision" : 6
+																	}
+,
+																	"text" : "coll"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-2",
+																	"maxclass" : "message",
+																	"numinlets" : 2,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 109.333333333333371, 120.0, 74.0, 20.0 ],
+																	"text" : "refer $1, dump"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-17",
+																	"maxclass" : "newobj",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 180.0, 50.0, 71.0, 20.0 ],
+																	"text" : "r clear_scores"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-13",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 109.333333333333371, 100.0, 41.0, 20.0 ],
+																	"text" : "zl.iter 1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-15",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 109.333333333333371, 80.0, 44.0, 20.0 ],
+																	"text" : "zl.group"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-16",
+																	"index" : 1,
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "bang" ],
+																	"patching_rect" : [ 109.333333333333371, 20.0, 30.0, 30.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-12", 0 ],
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-6", 0 ],
+																	"source" : [ "obj-12", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-2", 0 ],
+																	"source" : [ "obj-13", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-13", 0 ],
+																	"source" : [ "obj-15", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"source" : [ "obj-16", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-3", 0 ],
+																	"source" : [ "obj-2", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-12", 1 ],
+																	"source" : [ "obj-3", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"source" : [ "obj-3", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-5", 0 ],
+																	"source" : [ "obj-4", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-9", 0 ],
+																	"source" : [ "obj-5", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-1", 0 ],
+																	"order" : 0,
+																	"source" : [ "obj-6", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-3", 0 ],
+																	"midpoints" : [ 129.333333333333371, 319.666668444871902, 98.166665891806304, 319.666668444871902, 98.166665891806304, 149.0, 118.833333333333371, 149.0 ],
+																	"order" : 1,
+																	"source" : [ "obj-6", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"source" : [ "obj-8", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"source" : [ "obj-9", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 240.0, 290.0, 101.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"description" : "",
+														"digest" : "",
+														"fontsize" : 10.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p clear_auto_scores"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-114",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 570.0, 180.0, 30.0, 20.0 ],
+													"text" : "sel 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-112",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 570.0, 160.0, 56.0, 20.0 ],
+													"text" : "r exporting"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-111",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 583.0, 390.0, 139.0, 20.0 ],
+													"text" : "logExternally(Frame+Phasor)"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-110",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 586.0, 420.0, 28.0, 20.0 ],
+													"text" : "print"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-80",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 583.0, 330.0, 96.0, 20.0 ],
+													"text" : "prepend script send"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-79",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 570.0, 250.0, 82.0, 20.0 ],
+													"text" : "t s s"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-77",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 5,
+													"outlettype" : [ "", "", "", "", "" ],
+													"patching_rect" : [ 583.0, 290.0, 147.0, 20.0 ],
+													"text" : "regexp (txt) @substitute scores"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-78",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 5,
+													"outlettype" : [ "", "", "", "", "" ],
+													"patching_rect" : [ 570.0, 270.0, 71.0, 20.0 ],
+													"text" : "regexp .+_(.+)"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-73",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 570.0, 230.0, 41.0, 20.0 ],
+													"text" : "zl.iter 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-74",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 570.0, 210.0, 44.0, 20.0 ],
+													"text" : "zl.group"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-28",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 238.0, 40.0, 34.0, 20.0 ],
+													"text" : "dump"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-19",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 556.5, 340.0, 24.0, 24.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-29",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 298.583333333333371, 30.0, 30.0, 20.0 ],
+													"text" : "write"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-27",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 706.0, 160.0, 24.0, 24.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-21",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 583.0, 350.0, 57.0, 20.0 ],
+													"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+													"text" : "thispatcher"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-22",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 583.0, 310.0, 69.0, 20.0 ],
+													"text" : "pack s write s"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-4",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -6676,24 +8164,13 @@
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 350.0, 110.0, 50.5, 20.0 ],
+													"patching_rect" : [ 487.5, 30.0, 50.5, 20.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0,
 														"precision" : 6
 													}
 ,
 													"text" : "coll blank"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-20",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 500.0, 370.0, 28.0, 20.0 ],
-													"text" : "print"
 												}
 
 											}
@@ -6717,7 +8194,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 450.0, 280.0, 52.0, 20.0 ],
+													"patching_rect" : [ 390.0, 260.0, 52.0, 20.0 ],
 													"text" : "savebang"
 												}
 
@@ -6786,7 +8263,7 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "description.txt", ",", "log [2024-09-08-18-58-15].txt", ",", "log [2024-09-09-18-30-46].txt", ",", "passes_2024-9-5-16-51-38.txt", ",", "passes_2024-9-5-20-50-54.txt", ",", "passes_2024-9-8-18-57-46.txt", ",", "passes_2024-9-9-18-30-19.txt", ",", "scores_2024-9-5-16-51-38.txt", ",", "scores_2024-9-5-20-50-54.txt", ",", "scores_2024-9-8-18-57-46.txt", ",", "scores_2024-9-9-18-30-19.txt", ",", "top_sounds.txt" ],
+													"items" : [ "description.txt", ",", "log [2024-10-28-16-28-54].txt", ",", "passes_2024-10-28-16-9-12.txt", ",", "passes_HeavenFallenVoice-s-s[2024-10-24193910].txt", ",", "passes_vox2-s-s[2024-10-24193910].txt", ",", "passes_vox3[2024-10-24193910].txt", ",", "passes_vox4-s[2024-10-24193910].txt", ",", "passes_vox5[2024-10-24193910].txt", ",", "passes_zdm48x2[2024-10-18233033]-1.txt", ",", "passes_zdm48x[2024-09-22211535]-1.txt", ",", "scores_2024-10-28-16-9-12.txt", ",", "scores_HeavenFallenVoice-s-s[2024-10-24193910].txt", ",", "scores_vox2-s-s[2024-10-24193910].txt", ",", "scores_vox3[2024-10-24193910].txt", ",", "scores_vox4-s[2024-10-24193910].txt", ",", "scores_vox5[2024-10-24193910].txt", ",", "scores_zdm48x2[2024-10-18233033]-1.txt", ",", "scores_zdm48x[2024-09-22211535]-1.txt", ",", "top_sounds.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -6830,7 +8307,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 500.0, 113.0, 125.0, 66.0 ],
+													"patching_rect" : [ 620.0, 10.0, 125.0, 66.0 ],
 													"text" : "\"D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2022-12-28-17-42-6]/passes [2022-12-28-17-40-36].txt\""
 												}
 
@@ -6866,7 +8343,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 269.5, 280.000000298023224, 176.0, 20.0 ],
+													"patching_rect" : [ 380.0, 240.0, 176.0, 20.0 ],
 													"text" : "r remove_abstractions_before_saving"
 												}
 
@@ -6890,7 +8367,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 269.5, 370.0, 57.0, 20.0 ],
+													"patching_rect" : [ 362.0, 349.999999701976776, 57.0, 20.0 ],
 													"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 													"text" : "thispatcher"
 												}
@@ -6903,7 +8380,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 269.5, 350.0, 102.0, 20.0 ],
+													"patching_rect" : [ 362.0, 329.999999701976776, 102.0, 20.0 ],
 													"text" : "prepend script delete"
 												}
 
@@ -6915,7 +8392,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 269.5, 330.000000298023224, 41.0, 20.0 ],
+													"patching_rect" : [ 362.0, 310.0, 41.0, 20.0 ],
 													"text" : "zl.iter 1"
 												}
 
@@ -6927,7 +8404,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 269.5, 310.000000298023224, 44.0, 20.0 ],
+													"patching_rect" : [ 362.0, 290.0, 44.0, 20.0 ],
 													"text" : "zl.group"
 												}
 
@@ -6939,7 +8416,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 260.0, 440.0, 57.0, 20.0 ],
+													"patching_rect" : [ 150.0, 410.0, 57.0, 20.0 ],
 													"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 													"text" : "thispatcher"
 												}
@@ -6952,7 +8429,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 260.0, 420.0, 256.0, 20.0 ],
+													"patching_rect" : [ 150.0, 390.0, 256.0, 20.0 ],
 													"text" : "script newdefault $2 0 $3 coll $2, script send $2 read $1"
 												}
 
@@ -6966,6 +8443,528 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 150.0, 370.0, 50.0, 20.0 ],
 													"text" : "pack s s i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-81",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 580.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-1-13-42-29.scores",
+													"varname" : "2024-10-1-13-42-29.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-82",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 600.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-10-12-0-41.scores",
+													"varname" : "2024-10-10-12-0-41.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-83",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 620.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-11-16-4-31.scores",
+													"varname" : "2024-10-11-16-4-31.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-84",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 640.0, 153.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-12-15-15-59.scores",
+													"varname" : "2024-10-12-15-15-59.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-85",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 660.0, 152.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-13-13-13-11.scores",
+													"varname" : "2024-10-13-13-13-11.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-86",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 680.0, 142.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-15-14-8-6.scores",
+													"varname" : "2024-10-15-14-8-6.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-87",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 700.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-16-16-6-58.scores",
+													"varname" : "2024-10-16-16-6-58.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-88",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 720.0, 153.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-17-13-22-50.scores",
+													"varname" : "2024-10-17-13-22-50.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-89",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 740.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-2-13-12-57.scores",
+													"varname" : "2024-10-2-13-12-57.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-90",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 760.0, 142.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-3-12-54-1.scores",
+													"varname" : "2024-10-3-12-54-1.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-91",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 780.0, 142.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-4-14-1-42.scores",
+													"varname" : "2024-10-4-14-1-42.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-92",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 800.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-5-12-42-24.scores",
+													"varname" : "2024-10-5-12-42-24.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-93",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 820.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-6-12-12-26.scores",
+													"varname" : "2024-10-6-12-12-26.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-94",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 840.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-7-11-32-36.scores",
+													"varname" : "2024-10-7-11-32-36.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-95",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 860.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-8-14-42-35.scores",
+													"varname" : "2024-10-8-14-42-35.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-96",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 880.0, 136.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-10-9-13-4-2.scores",
+													"varname" : "2024-10-9-13-4-2.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-97",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 900.0, 136.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-18-16-1-2.scores",
+													"varname" : "2024-9-18-16-1-2.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-98",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 920.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-19-13-12-56.scores",
+													"varname" : "2024-9-19-13-12-56.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-99",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 940.0, 142.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-20-14-7-35.scores",
+													"varname" : "2024-9-20-14-7-35.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-100",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 960.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-21-13-47-19.scores",
+													"varname" : "2024-9-21-13-47-19.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-101",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 980.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-22-12-47-49.scores",
+													"varname" : "2024-9-22-12-47-49.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-102",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 1000.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-23-13-11-36.scores",
+													"varname" : "2024-9-23-13-11-36.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-103",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 1020.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-24-13-25-48.scores",
+													"varname" : "2024-9-24-13-25-48.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-104",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 1040.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-25-13-10-21.scores",
+													"varname" : "2024-9-25-13-10-21.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-105",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 1060.0, 142.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-26-13-4-30.scores",
+													"varname" : "2024-9-26-13-4-30.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-106",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 1080.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-27-16-26-38.scores",
+													"varname" : "2024-9-27-16-26-38.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-107",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 1100.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-28-12-24-30.scores",
+													"varname" : "2024-9-28-12-24-30.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-108",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 1120.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-29-12-46-38.scores",
+													"varname" : "2024-9-29-12-46-38.scores[1]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-109",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 0.0, 1140.0, 147.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll 2024-9-30-13-18-11.scores",
+													"varname" : "2024-9-30-13-18-11.scores[1]"
 												}
 
 											}
@@ -6986,6 +8985,34 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-110", 0 ],
+													"source" : [ "obj-111", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-114", 0 ],
+													"source" : [ "obj-112", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-74", 0 ],
+													"source" : [ "obj-114", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-20", 0 ],
+													"source" : [ "obj-19", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-4", 0 ],
 													"source" : [ "obj-2", 1 ]
 												}
@@ -6993,8 +9020,29 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-80", 0 ],
+													"source" : [ "obj-22", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-41", 0 ],
 													"source" : [ "obj-25", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-74", 0 ],
+													"source" : [ "obj-27", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-31", 0 ],
+													"source" : [ "obj-28", 0 ]
 												}
 
 											}
@@ -7036,6 +9084,15 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-30", 0 ],
+													"order" : 1,
+													"source" : [ "obj-32", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-74", 0 ],
+													"order" : 0,
 													"source" : [ "obj-32", 0 ]
 												}
 
@@ -7070,6 +9127,14 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-20", 0 ],
+													"order" : 1,
+													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-41", 0 ],
 													"order" : 0,
 													"source" : [ "obj-4", 0 ]
@@ -7079,7 +9144,8 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-46", 1 ],
-													"order" : 1,
+													"midpoints" : [ 222.5, 324.5, 175.0, 324.5 ],
+													"order" : 2,
 													"source" : [ "obj-4", 0 ]
 												}
 
@@ -7135,8 +9201,66 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-79", 0 ],
+													"source" : [ "obj-73", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-73", 0 ],
+													"source" : [ "obj-74", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-22", 0 ],
+													"source" : [ "obj-77", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-77", 0 ],
+													"source" : [ "obj-78", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-22", 2 ],
+													"source" : [ "obj-79", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-78", 0 ],
+													"source" : [ "obj-79", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-31", 0 ],
 													"source" : [ "obj-8", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-111", 0 ],
+													"order" : 0,
+													"source" : [ "obj-80", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"order" : 1,
+													"source" : [ "obj-80", 0 ]
 												}
 
 											}
@@ -12060,7 +14184,7 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "glued.wav", ",", "palette_2024-9-5-16-51-38.wav", ",", "palette_2024-9-5-20-50-54.wav", ",", "palette_2024-9-8-18-57-46.wav", ",", "palette_2024-9-9-18-30-19.wav", ",", "preserves.wav", ",", "preview.wav" ],
+													"items" : [ "glued.wav", ",", "palette_2024-10-28-16-9-12.wav", ",", "palette_HeavenFallenVoice-s-s[2024-10-24193910].wav", ",", "palette_vox2-s-s[2024-10-24193910].wav", ",", "palette_vox3[2024-10-24193910].wav", ",", "palette_vox4-s[2024-10-24193910].wav", ",", "palette_vox5[2024-10-24193910].wav", ",", "palette_zdm48x2[2024-10-18233033]-1.wav", ",", "palette_zdm48x[2024-09-22211535]-1.wav", ",", "preserves.wav", ",", "preview.wav" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -17386,7 +19510,7 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "description.txt", ",", "log [2024-09-08-18-58-15].txt", ",", "log [2024-09-09-18-30-46].txt", ",", "passes_2024-9-5-16-51-38.txt", ",", "passes_2024-9-5-20-50-54.txt", ",", "passes_2024-9-8-18-57-46.txt", ",", "passes_2024-9-9-18-30-19.txt", ",", "scores_2024-9-5-16-51-38.txt", ",", "scores_2024-9-5-20-50-54.txt", ",", "scores_2024-9-8-18-57-46.txt", ",", "scores_2024-9-9-18-30-19.txt", ",", "top_sounds.txt" ],
+													"items" : [ "description.txt", ",", "log [2024-10-28-16-28-54].txt", ",", "passes_2024-10-28-16-9-12.txt", ",", "passes_HeavenFallenVoice-s-s[2024-10-24193910].txt", ",", "passes_vox2-s-s[2024-10-24193910].txt", ",", "passes_vox3[2024-10-24193910].txt", ",", "passes_vox4-s[2024-10-24193910].txt", ",", "passes_vox5[2024-10-24193910].txt", ",", "passes_zdm48x2[2024-10-18233033]-1.txt", ",", "passes_zdm48x[2024-09-22211535]-1.txt", ",", "scores_2024-10-28-16-9-12.txt", ",", "scores_HeavenFallenVoice-s-s[2024-10-24193910].txt", ",", "scores_vox2-s-s[2024-10-24193910].txt", ",", "scores_vox3[2024-10-24193910].txt", ",", "scores_vox4-s[2024-10-24193910].txt", ",", "scores_vox5[2024-10-24193910].txt", ",", "scores_zdm48x2[2024-10-18233033]-1.txt", ",", "scores_zdm48x[2024-09-22211535]-1.txt", ",", "top_sounds.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -46186,7 +48310,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 101.0, 380.0, 96.0, 20.0 ],
-					"prefix" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/",
+					"prefix_mode" : 2,
 					"presentation" : 1,
 					"presentation_rect" : [ 685.0, 480.0, 211.0, 20.0 ],
 					"types" : "fold"
@@ -46282,7 +48406,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "clear" ],
+					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -46294,7 +48418,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 466.0, 230.0, 788.0, 480.0 ],
+						"rect" : [ 466.0, 230.0, 788.0, 563.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -46324,12 +48448,619 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-57",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 5,
+											"revision" : 3,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 794.0, 310.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 2,
+										"gridsize" : [ 10.0, 10.0 ],
+										"gridsnaponopen" : 2,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "Size 10 grid",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-8",
+													"index" : 1,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 50.0, 420.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-7",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "int", "int" ],
+													"patching_rect" : [ 50.0, 330.0, 29.5, 20.0 ],
+													"text" : "t 0 i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-6",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "" ],
+													"patching_rect" : [ 50.0, 300.0, 40.0, 20.0 ],
+													"text" : "unjoin"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 50.0, 280.0, 77.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll top_passes"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-4",
+													"index" : 2,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 130.0, 280.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 80.0, 380.0, 37.0, 20.0 ],
+													"text" : "s pass"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 210.0, 290.0, 50.0, 20.0 ],
+													"text" : "84"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-70",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 50.0, 200.0, 77.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll top_passes"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-69",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 50.0, 180.0, 29.5, 20.0 ],
+													"text" : "- 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-68",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 180.0, 220.0, 50.0, 20.0 ],
+													"text" : "17"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-66",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "int", "int" ],
+													"patching_rect" : [ 50.0, 260.0, 60.0, 20.0 ],
+													"text" : "t 1 3"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-64",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 50.0, 240.0, 95.5, 20.0 ],
+													"text" : "sel"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-63",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "" ],
+													"patching_rect" : [ 50.0, 220.0, 40.0, 20.0 ],
+													"text" : "unjoin"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-62",
+													"maxclass" : "number",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 125.5, 110.0, 50.0, 20.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-60",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 120.0, 37.0, 20.0 ],
+													"text" : "v pass"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 10.0,
+													"id" : "obj-78",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 41.0, 40.0, 69.0, 20.0 ],
+													"text" : "r A_songStart"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-58",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "length", "int" ],
+													"patching_rect" : [ 50.0, 140.0, 95.333334803581238, 20.0 ],
+													"text" : "t length i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-57",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 50.0, 160.0, 77.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll top_passes"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"source" : [ "obj-5", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-68", 1 ],
+													"order" : 0,
+													"source" : [ "obj-57", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-69", 0 ],
+													"order" : 1,
+													"source" : [ "obj-57", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-57", 0 ],
+													"source" : [ "obj-58", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-64", 1 ],
+													"source" : [ "obj-58", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-7", 0 ],
+													"source" : [ "obj-6", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-58", 0 ],
+													"source" : [ "obj-60", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-58", 0 ],
+													"source" : [ "obj-62", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 1 ],
+													"order" : 0,
+													"source" : [ "obj-63", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-64", 0 ],
+													"order" : 1,
+													"source" : [ "obj-63", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-66", 0 ],
+													"source" : [ "obj-64", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"source" : [ "obj-66", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"source" : [ "obj-66", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-70", 0 ],
+													"source" : [ "obj-69", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"source" : [ "obj-7", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-8", 0 ],
+													"source" : [ "obj-7", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-63", 0 ],
+													"source" : [ "obj-70", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-60", 0 ],
+													"disabled" : 1,
+													"source" : [ "obj-78", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 460.0, 50.0, 79.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"fontsize" : 10.0,
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p resort_at_end"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-56",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 374.0, 100.0, 82.0, 20.0 ],
+									"text" : "s refresh_scores"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 162.0, 420.0, 46.0, 20.0 ],
+									"text" : "s scores"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-52",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 162.0, 400.0, 66.0, 20.0 ],
+									"text" : "append clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-47",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 230.0, 400.0, 79.0, 20.0 ],
+									"text" : "join @triggers 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-54",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 325.5, 330.0, 93.0, 29.0 ],
+									"text" : "- from so it fits on the function graph "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-53",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 322.0, 310.0, 44.666663527488708, 18.0 ],
+									"text" : "- offset "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-51",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 290.0, 310.0, 30.0, 20.0 ],
+									"text" : "- 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-50",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 230.0, 420.0, 46.0, 20.0 ],
+									"text" : "s scores"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-49",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 300.5, 330.0, 35.0, 20.0 ],
+									"text" : "r from"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-48",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 290.0, 350.0, 29.5, 20.0 ],
+									"text" : "- 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-46",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 290.0, 380.0, 29.5, 20.0 ],
+									"text" : "join"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "dump", "bang", "dump", "int" ],
+									"patching_rect" : [ 374.0, 80.0, 97.0, 20.0 ],
+									"text" : "t dump bang dump i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-44",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 6.666666666666671, 120.0, 77.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"precision" : 6
+									}
+,
+									"text" : "coll top_passes"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-43",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 6.666666666666671, 100.0, 34.0, 20.0 ],
+									"text" : "dump"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-42",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 6.666666666666671, 80.0, 81.0, 20.0 ],
+									"text" : "r refresh_scores"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-41",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 402.0, 130.0, 41.0, 20.0 ],
+									"patching_rect" : [ 402.0, 150.0, 41.0, 20.0 ],
 									"text" : "zl.reg 0"
 								}
 
@@ -46341,7 +49072,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 433.0, 100.0, 89.5, 20.0 ],
+									"patching_rect" : [ 374.0, 50.0, 89.5, 20.0 ],
 									"text" : "-68"
 								}
 
@@ -46353,7 +49084,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 433.0, 80.0, 41.0, 20.0 ],
+									"patching_rect" : [ 374.0, 30.0, 41.0, 20.0 ],
 									"text" : "sel 512"
 								}
 
@@ -46365,7 +49096,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 503.5, 80.0, 29.5, 20.0 ],
+									"patching_rect" : [ 444.5, 30.0, 29.5, 20.0 ],
 									"text" : "- 48"
 								}
 
@@ -46377,7 +49108,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "int", "int", "int" ],
-									"patching_rect" : [ 433.0, 50.0, 89.5, 20.0 ],
+									"patching_rect" : [ 374.0, 0.0, 89.5, 20.0 ],
 									"text" : "key"
 								}
 
@@ -46389,7 +49120,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 613.0, 50.0, 150.0, 29.0 ],
+									"patching_rect" : [ 613.0, 70.0, 150.0, 29.0 ],
 									"text" : " track comes after to, so it's too late to be useful here"
 								}
 
@@ -46401,7 +49132,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 670.0, 140.0, 77.0, 20.0 ],
+									"patching_rect" : [ 670.0, 160.0, 77.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -46418,7 +49149,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 670.0, 120.0, 90.0, 20.0 ],
+									"patching_rect" : [ 670.0, 140.0, 90.0, 20.0 ],
 									"text" : "prepend nsub -9 3"
 								}
 
@@ -46430,7 +49161,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 670.0, 100.0, 93.0, 20.0 ],
+									"patching_rect" : [ 670.0, 120.0, 93.0, 20.0 ],
 									"text" : "sprintf sequence%i"
 								}
 
@@ -46442,7 +49173,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 670.0, 80.0, 36.0, 20.0 ],
+									"patching_rect" : [ 670.0, 100.0, 36.0, 20.0 ],
 									"text" : "r track"
 								}
 
@@ -46453,7 +49184,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 442.0, 270.0, 71.0, 20.0 ],
+									"patching_rect" : [ 442.0, 290.0, 71.0, 20.0 ],
 									"text" : "s rank_offset"
 								}
 
@@ -46465,7 +49196,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 330.0, 230.0, 55.0, 20.0 ],
+									"patching_rect" : [ 330.0, 250.0, 55.0, 20.0 ],
 									"text" : "route -1 -2"
 								}
 
@@ -46477,7 +49208,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.0, 260.0, 81.0, 20.0 ],
+									"patching_rect" : [ 330.0, 280.0, 81.0, 20.0 ],
 									"text" : "prepend append"
 								}
 
@@ -46489,7 +49220,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 330.0, 210.0, 77.0, 20.0 ],
+									"patching_rect" : [ 330.0, 230.0, 77.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -46507,7 +49238,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 419.5, 370.0, 30.0, 30.0 ]
+									"patching_rect" : [ 419.5, 390.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -46518,7 +49249,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "dump", "clear", "int", "int" ],
-									"patching_rect" : [ 402.0, 160.0, 77.0, 20.0 ],
+									"patching_rect" : [ 402.0, 180.0, 77.0, 20.0 ],
 									"text" : "t dump clear 0 i"
 								}
 
@@ -46987,14 +49718,14 @@
 																"box" : 																{
 																	"autopopulate" : 1,
 																	"id" : "obj-31",
-																	"items" : [ "description.txt", ",", "log [2024-09-08-18-58-15].txt", ",", "log [2024-09-09-18-30-46].txt", ",", "passes_2024-9-5-16-51-38.txt", ",", "passes_2024-9-5-20-50-54.txt", ",", "passes_2024-9-8-18-57-46.txt", ",", "passes_2024-9-9-18-30-19.txt", ",", "scores_2024-9-5-16-51-38.txt", ",", "scores_2024-9-5-20-50-54.txt", ",", "scores_2024-9-8-18-57-46.txt", ",", "scores_2024-9-9-18-30-19.txt", ",", "top_sounds.txt" ],
+																	"items" : [ "description.txt", ",", "log [2024-08-04-20-32-10].txt", ",", "log [2024-08-06-20-32-32].txt", ",", "passes_2024-8-4-20-31-36.txt", ",", "passes_2024-8-4-20-31-39.txt", ",", "passes_2024-8-6-20-32-41.txt", ",", "scores_2024-8-4-20-31-36.txt", ",", "scores_2024-8-4-20-31-39.txt", ",", "scores_2024-8-6-20-32-41.txt", ",", "sounds - Copy.txt", ",", "sounds.txt", ",", "top_sounds.txt" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "int", "", "" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 50.0, 150.0, 100.0, 20.0 ],
-																	"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/Heaven Fallen/",
+																	"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/[2024-8-4-20-32-0]/",
 																	"types" : "TEXT"
 																}
 
@@ -51896,7 +54627,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 330.0, 50.0, 20.0 ],
-													"text" : "12"
+													"text" : "182"
 												}
 
 											}
@@ -57102,7 +59833,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 329.0, 80.0, 80.0, 20.0 ],
+									"patching_rect" : [ 329.0, 120.0, 80.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -57122,7 +59853,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 308.0, 50.0, 40.0, 20.0 ],
+									"patching_rect" : [ 308.0, 60.0, 40.0, 20.0 ],
 									"text" : "unjoin"
 								}
 
@@ -57136,7 +59867,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 308.0, 20.0, 30.0, 30.0 ]
+									"patching_rect" : [ 308.0, 30.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -57147,7 +59878,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 200.0, 56.0, 20.0 ],
+									"patching_rect" : [ 150.0, 220.0, 56.0, 20.0 ],
 									"text" : "refer blank"
 								}
 
@@ -57159,7 +59890,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 86.0, 400.0, 54.0, 20.0 ],
+									"patching_rect" : [ 86.0, 420.0, 54.0, 20.0 ],
 									"text" : "prepend 4"
 								}
 
@@ -57171,7 +59902,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 240.0, 200.0, 69.0, 20.0 ],
+									"patching_rect" : [ 240.0, 220.0, 69.0, 20.0 ],
 									"text" : "prepend refer"
 								}
 
@@ -57183,7 +59914,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 240.0, 180.0, 147.0, 20.0 ],
+									"patching_rect" : [ 240.0, 200.0, 147.0, 20.0 ],
 									"text" : "regexp (txt) @substitute scores"
 								}
 
@@ -57195,7 +59926,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 510.0, 390.0, 150.0, 29.0 ],
+									"patching_rect" : [ 510.0, 410.0, 150.0, 29.0 ],
 									"text" : " actually need to go AFTER from and to come in"
 								}
 
@@ -57207,7 +59938,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 460.0, 200.0, 77.0, 20.0 ],
+									"patching_rect" : [ 460.0, 220.0, 77.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -57224,8 +59955,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 460.0, 180.0, 225.0, 20.0 ],
-									"text" : "sort 1 $1, renumber 1, 0 -1 0. na 0., -2 -2 0. na 0."
+									"patching_rect" : [ 460.0, 200.0, 323.0, 20.0 ],
+									"text" : "sort 1 $1, remove -2, remove 0, renumber 1, 0 -1 0. na 0., -2 -2 0. na 0."
 								}
 
 							}
@@ -57236,7 +59967,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 26.0, 460.0, 77.0, 20.0 ],
+									"patching_rect" : [ 26.0, 480.0, 77.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -57253,7 +59984,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 26.0, 440.0, 70.0, 20.0 ],
+									"patching_rect" : [ 26.0, 460.0, 70.0, 20.0 ],
 									"text" : "prepend nsub"
 								}
 
@@ -57265,7 +59996,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 26.0, 420.0, 79.0, 20.0 ],
+									"patching_rect" : [ 26.0, 440.0, 79.0, 20.0 ],
 									"text" : "join @triggers 1"
 								}
 
@@ -57277,7 +60008,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 86.0, 380.0, 33.0, 20.0 ],
+									"patching_rect" : [ 86.0, 400.0, 33.0, 20.0 ],
 									"text" : "zl.reg"
 								}
 
@@ -57289,7 +60020,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "int" ],
-									"patching_rect" : [ 100.0, 350.0, 34.0, 20.0 ],
+									"patching_rect" : [ 100.0, 370.0, 34.0, 20.0 ],
 									"text" : "mean"
 								}
 
@@ -57301,8 +60032,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 120.0, 320.0, 143.0, 20.0 ],
-									"text" : "0.021775"
+									"patching_rect" : [ 120.0, 340.0, 143.0, 20.0 ],
+									"text" : "7."
 								}
 
 							}
@@ -57313,7 +60044,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 119.999987999999973, 270.0, 40.0, 20.0 ],
+									"patching_rect" : [ 119.999987999999973, 290.0, 40.0, 20.0 ],
 									"text" : "unjoin"
 								}
 
@@ -57325,7 +60056,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "float" ],
-									"patching_rect" : [ 119.999987999999973, 300.0, 128.500012000000027, 20.0 ],
+									"patching_rect" : [ 119.999987999999973, 320.0, 128.500012000000027, 20.0 ],
 									"text" : "split 0. 0."
 								}
 
@@ -57337,7 +60068,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 219.0, 160.0, 50.5, 20.0 ],
+									"patching_rect" : [ 219.0, 180.0, 50.5, 20.0 ],
 									"text" : "unjoin 3"
 								}
 
@@ -57349,7 +60080,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 229.5, 270.0, 29.5, 20.0 ],
+									"patching_rect" : [ 229.5, 290.0, 29.5, 20.0 ],
 									"text" : "+ 0."
 								}
 
@@ -57361,7 +60092,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 174.749993999999987, 270.0, 29.5, 20.0 ],
+									"patching_rect" : [ 174.749993999999987, 290.0, 29.5, 20.0 ],
 									"text" : "+ 0."
 								}
 
@@ -57373,7 +60104,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "dump", "", "clear", "float" ],
-									"patching_rect" : [ 120.0, 130.0, 80.0, 20.0 ],
+									"patching_rect" : [ 120.0, 150.0, 80.0, 20.0 ],
 									"text" : "t dump l clear 0."
 								}
 
@@ -57386,7 +60117,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 120.0, 50.0, 24.0, 24.0 ]
+									"patching_rect" : [ 120.0, 60.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -57397,7 +60128,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 119.999987999999973, 230.0, 56.0, 20.0 ],
+									"patching_rect" : [ 119.999987999999973, 250.0, 56.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -57414,7 +60145,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "dump", "length", "clear" ],
-									"patching_rect" : [ 120.0, 80.0, 94.0, 20.0 ],
+									"patching_rect" : [ 120.0, 90.0, 94.0, 20.0 ],
 									"text" : "t dump length clear"
 								}
 
@@ -57425,7 +60156,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 564.0, 450.0, 28.0, 20.0 ],
+									"patching_rect" : [ 564.0, 470.0, 28.0, 20.0 ],
 									"text" : "print"
 								}
 
@@ -57437,7 +60168,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 120.0, 100.0, 160.0, 20.0 ],
+									"patching_rect" : [ 120.0, 120.0, 160.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -57749,6 +60480,34 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-40", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-40", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-41", 1 ],
+									"source" : [ "obj-40", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-56", 0 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-41", 0 ]
 								}
@@ -57756,15 +60515,99 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-41", 0 ],
+									"destination" : [ "obj-43", 0 ],
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-44", 0 ],
+									"source" : [ "obj-43", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-44", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
+									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
 									"source" : [ "obj-45", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-47", 1 ],
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"source" : [ "obj-47", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"source" : [ "obj-48", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-48", 1 ],
+									"source" : [ "obj-49", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-48", 0 ],
+									"source" : [ "obj-51", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"source" : [ "obj-52", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-57", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-6", 1 ]
 								}
 
@@ -57779,8 +60622,32 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
+									"order" : 1,
+									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-47", 0 ],
+									"order" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-51", 1 ],
 									"order" : 0,
 									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"order" : 1,
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -57794,6 +60661,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
+									"order" : 1,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-51", 0 ],
+									"order" : 0,
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -57801,6 +60677,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 1 ],
+									"order" : 1,
+									"source" : [ "obj-9", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 1 ],
+									"order" : 0,
 									"source" : [ "obj-9", 1 ]
 								}
 
@@ -62761,7 +65646,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 359.0, 170.0, 170.0, 20.0 ],
-					"text" : "0 -4999. 1000003999."
+					"text" : "1 -4000. 4000."
 				}
 
 			}
@@ -62928,7 +65813,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-29",
-					"items" : [ "(Un)bound", ",", "1970s Peruvian Hotel", ",", "[2024-8-26-20-46-3]", ",", "[2024-8-4-20-32-0]", ",", "[2024-9-1-21-34-41]", ",", "[Archives]", ",", "A Pitiful Soul", ",", "A Slick Slope into a Dark Abyss", ",", "Allen Ginsberg Armageddon", ",", "An End Table Forged from Yggdrasil Itself", ",", "Anathema", ",", "And Then Day Turned to Night", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "As Seraphim Saunter", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Blight-Emitting Diode", ",", "Blind", ",", "C'mon Night", ",", "Cakes!", ",", "Candy Apple Island", ",", "Caprice", ",", "Catharsis", ",", "Circles", ",", "Connected Human World Beast", ",", "Convalescence", ",", "Craterian Underworld", ",", "Deep Space Disco", ",", "Disengagement by Shipwreck", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "Dum Casi Transeunt", ",", "dying satellites", ",", "Echoing", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "End of an Era Pt. 1", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Fear of a Name", ",", "Felmar", ",", "Flowers in the Street", ",", "Forced Providence", ",", "Frost", ",", "Harmless", ",", "Hate the Bear", ",", "Heaven Fallen", ",", "High Resolution (Rising)", ",", "High Resolution (Sinking)", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "I Can't See What You Need", ",", "I Know My Price", ",", "Imparted", ",", "Impermanence", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Life", ",", "Interior Frontier", ",", "Interspecies Intrigue", ",", "It's Snowing Outside Give Me Soup", ",", "Jabberwocky Cipher", ",", "Jericho's Grin", ",", "Jezebel", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Landmine", ",", "Lifting", ",", "Long Ago Lost", ",", "Lums", ",", "Means", ",", "Mind in Void", ",", "Miserable", ",", "Miter Saw of Yore", ",", "Ocean of Silence (We Will All Burn)", ",", "Old Map of the Abyss", ",", "Operator Drone", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Perfectly Lost", ",", "Permafrost", ",", "Pixilated Reverie", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Relentless Renaissance", ",", "Reticent", ",", "Roboticized Break-In", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Severance", ",", "Shady Wells of Amber", ",", "Sidereal Scatter", ",", "Snowing Spores", ",", "Solitude", ",", "Sonder March", ",", "Space Whales Have Blowhole Thrusters", ",", "Stagger Proudly on", ",", "Staring at the Sun", ",", "Starter Town Yoshiro Region Theme", ",", "Static Confluence (With Hells Aligned)", ",", "Steam-Powered Stupor", ",", "Street Spirit (Fade Out)", ",", "Stunningly Lost", ",", "Submit and Be Crushed", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Conscious Mind", ",", "The Flowing Light", ",", "The Long Fall", ",", "The Machinist Fir", ",", "The Pavilion Bells", ",", "The Scalar", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Through", ",", "Transcendental Takeover", ",", "Transmogrified", ",", "Triangle God", ",", "Triptych", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Untitled", ",", "Vacant in Name, Vacant in Deed", ",", "Visions", ",", "Webs and Schisms", ",", "Werewolves and Time Travel Won't Keep Me Away", ",", "Whenever I Die I Wake up Some Place Else", ",", "Whether", ",", "Whittling Away the Day", ",", "Wistful, Sulfurous", ",", "WXA", ",", "Your Eyes Remind Me of Something", ",", "Your Eyes Remind Me of Something [Sound of Unknowing Mix]", ",", "▼Telekinesis▼" ],
+					"items" : [ "(un)Bound", ",", "1970s Peruvian Hotel", ",", "[2024-10-23-21-0-53]", ",", "[2024-8-26-20-46-3]", ",", "[2024-8-4-20-32-0]", ",", "[2024-9-1-21-34-41]", ",", "[2024-9-26-21-57-19]", ",", "[Archives]", ",", "A Pitiful Soul", ",", "A Slick Slope into a Dark Abyss", ",", "Allen Ginsberg Armageddon", ",", "An End Table Forged from Yggdrasil Itself", ",", "Anathema", ",", "And Then Day Turned to Night", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "As Seraphim Saunter", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Blight-Emitting Diode", ",", "Blind", ",", "C'mon Night", ",", "Cakes!", ",", "Candy Apple Island", ",", "Caprice", ",", "Catharsis", ",", "Circles", ",", "Connected Human World Beast", ",", "Convalescence", ",", "Craterian Underworld", ",", "Deep Space Disco", ",", "Disengagement by Shipwreck", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "Dum Casi Transeunt", ",", "dying satellites", ",", "Echoing", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "End of an Era Pt. 1", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Fear of a Name", ",", "Felmar", ",", "Flowers in the Street", ",", "Forced Providence", ",", "Frost", ",", "Harmless", ",", "Hate the Bear", ",", "Heaven Fallen", ",", "High Resolution (Rising)", ",", "High Resolution (Sinking)", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "I Can't See What You Need", ",", "I Dreamed of What I Was before I Was Made into This", ",", "I Know My Price", ",", "Imparted", ",", "Impermanence", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Life", ",", "Interior Frontier", ",", "Interspecies Intrigue", ",", "It's Snowing Outside Give Me Soup", ",", "Jabberwocky Cipher", ",", "Jericho's Grin", ",", "Jezebel", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Landmine", ",", "Lifting", ",", "Long ago Lost", ",", "Lums", ",", "Means", ",", "Mind in Void", ",", "Miserable", ",", "Miter Saw of Yore", ",", "Ocean of Silence (We Will All Burn)", ",", "Old Map of the Abyss", ",", "Operator Drone", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Perfectly Lost", ",", "Permafrost", ",", "Pixilated Reverie", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Relentless Renaissance", ",", "Reticent", ",", "Roboticized Break-In", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Severance", ",", "Shady Wells of Amber", ",", "Sidereal Scatter", ",", "Snowing Spores", ",", "Solitude", ",", "Sonder March", ",", "Space Whales Have Blowhole Thrusters", ",", "Stagger Proudly on", ",", "Staring at the Sun", ",", "Starter Town Yoshiro Region Theme", ",", "Static Confluence (With Hells Aligned)", ",", "Steam-Powered Stupor", ",", "Street Spirit (Fade Out)", ",", "Stunningly Lost", ",", "Submit and Be Crushed", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Conscious Mind", ",", "The Flowing Light", ",", "The Long Fall", ",", "The Machinist Fir", ",", "The Pavilion Bells", ",", "The Scalar", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Through", ",", "Transcendental Takeover", ",", "Transmogrified", ",", "Triangle God", ",", "Triptych", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Untitled", ",", "Vacant in Name, Vacant in Deed", ",", "Visions", ",", "Webs and Schisms", ",", "Werewolves and Time Travel Won't Keep Me Away", ",", "Whenever I Die I Wake up Some Place Else", ",", "Whether", ",", "Whittling Away the Day", ",", "Wistful, Sulfurous", ",", "WXA", ",", "Your Eyes Remind Me of Something", ",", "Your Eyes Remind Me of Something [Sound of Unknowing Mix]", ",", "▼Telekinesis▼" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -75021,6 +77906,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-72", 1 ],
+					"source" : [ "obj-133", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-137", 0 ],
 					"source" : [ "obj-136", 0 ]
 				}
@@ -75490,6 +78382,34 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-73", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-75", 0 ]
 				}
@@ -75504,8 +78424,61 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"order" : 1,
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"order" : 0,
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 0 ],
+					"order" : 2,
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"disabled" : 1,
+					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 1 ],
+					"source" : [ "obj-83", 0 ]
 				}
 
 			}
@@ -75522,6 +78495,20 @@
 					"destination" : [ "obj-95", 0 ],
 					"order" : 0,
 					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 1 ],
+					"source" : [ "obj-87", 0 ]
 				}
 
 			}
@@ -75628,10 +78615,6 @@
 			"obj-13::obj-159::obj-70::obj-14::obj-12" : [ "toggle[25]", "toggle", 0 ],
 			"obj-13::obj-161::obj-12" : [ "toggle[23]", "toggle", 0 ],
 			"obj-13::obj-185::obj-22::obj-12" : [ "toggle[22]", "toggle", 0 ],
-			"obj-13::obj-33.1::obj-26::obj-12" : [ "toggle[5]", "toggle", 0 ],
-			"obj-13::obj-33.2::obj-26::obj-12" : [ "toggle[6]", "toggle", 0 ],
-			"obj-13::obj-33.3::obj-26::obj-12" : [ "toggle[7]", "toggle", 0 ],
-			"obj-13::obj-33.4::obj-26::obj-12" : [ "toggle[8]", "toggle", 0 ],
 			"obj-13::obj-42::obj-12::obj-12" : [ "toggle[4]", "toggle", 0 ],
 			"obj-13::obj-42::obj-3::obj-13::obj-12" : [ "toggle[3]", "toggle", 0 ],
 			"obj-13::obj-86::obj-13::obj-12" : [ "toggle[17]", "toggle", 0 ],
@@ -75649,6 +78632,7 @@
 			"obj-180" : [ "live.text[20]", "live.text", 0 ],
 			"obj-192::obj-16::obj-12" : [ "toggle", "toggle", 0 ],
 			"obj-22" : [ "slider[26]", "slider", 0 ],
+			"obj-2::obj-39::obj-111::obj-12" : [ "toggle[26]", "toggle", 0 ],
 			"obj-3" : [ "live.text[36]", "live.text", 0 ],
 			"obj-30::obj-29" : [ "Monitoring[12]", "Gain", 0 ],
 			"obj-30::obj-84" : [ "slider[23]", "slider", 0 ],
@@ -75748,13 +78732,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "TDR VOS SlickEQ.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "arrangement.maxpat",
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
 				"patcherrelativepath" : ".",
@@ -75818,13 +78795,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "polyinput~.maxpat",
-				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/[Archives]",
-				"patcherrelativepath" : "../[Archives]",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "queue.maxpat",
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
 				"patcherrelativepath" : ".",
@@ -75839,21385 +78809,3948 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708.maxsnap",
+				"name" : "soothe2_20241025.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_1.maxsnap",
+				"name" : "soothe2_20241025_1.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_10.maxsnap",
+				"name" : "soothe2_20241025_10.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_11.maxsnap",
+				"name" : "soothe2_20241025_100.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_12.maxsnap",
+				"name" : "soothe2_20241025_101.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_13.maxsnap",
+				"name" : "soothe2_20241025_102.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_14.maxsnap",
+				"name" : "soothe2_20241025_103.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_15.maxsnap",
+				"name" : "soothe2_20241025_104.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_16.maxsnap",
+				"name" : "soothe2_20241025_105.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_17.maxsnap",
+				"name" : "soothe2_20241025_106.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_18.maxsnap",
+				"name" : "soothe2_20241025_107.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_19.maxsnap",
+				"name" : "soothe2_20241025_108.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_2.maxsnap",
+				"name" : "soothe2_20241025_109.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_20.maxsnap",
+				"name" : "soothe2_20241025_11.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_21.maxsnap",
+				"name" : "soothe2_20241025_110.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_22.maxsnap",
+				"name" : "soothe2_20241025_111.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_23.maxsnap",
+				"name" : "soothe2_20241025_112.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_24.maxsnap",
+				"name" : "soothe2_20241025_113.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_25.maxsnap",
+				"name" : "soothe2_20241025_114.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_26.maxsnap",
+				"name" : "soothe2_20241025_115.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_27.maxsnap",
+				"name" : "soothe2_20241025_116.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_28.maxsnap",
+				"name" : "soothe2_20241025_117.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_29.maxsnap",
+				"name" : "soothe2_20241025_118.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_3.maxsnap",
+				"name" : "soothe2_20241025_119.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_30.maxsnap",
+				"name" : "soothe2_20241025_12.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_31.maxsnap",
+				"name" : "soothe2_20241025_120.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_32.maxsnap",
+				"name" : "soothe2_20241025_121.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_33.maxsnap",
+				"name" : "soothe2_20241025_122.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_34.maxsnap",
+				"name" : "soothe2_20241025_123.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_35.maxsnap",
+				"name" : "soothe2_20241025_124.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_36.maxsnap",
+				"name" : "soothe2_20241025_125.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_37.maxsnap",
+				"name" : "soothe2_20241025_126.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_38.maxsnap",
+				"name" : "soothe2_20241025_13.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_39.maxsnap",
+				"name" : "soothe2_20241025_14.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_4.maxsnap",
+				"name" : "soothe2_20241025_15.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_40.maxsnap",
+				"name" : "soothe2_20241025_16.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_41.maxsnap",
+				"name" : "soothe2_20241025_17.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_42.maxsnap",
+				"name" : "soothe2_20241025_18.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_43.maxsnap",
+				"name" : "soothe2_20241025_19.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_44.maxsnap",
+				"name" : "soothe2_20241025_2.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_45.maxsnap",
+				"name" : "soothe2_20241025_20.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_46.maxsnap",
+				"name" : "soothe2_20241025_21.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_47.maxsnap",
+				"name" : "soothe2_20241025_22.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_48.maxsnap",
+				"name" : "soothe2_20241025_23.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_49.maxsnap",
+				"name" : "soothe2_20241025_24.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_5.maxsnap",
+				"name" : "soothe2_20241025_25.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_50.maxsnap",
+				"name" : "soothe2_20241025_26.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_51.maxsnap",
+				"name" : "soothe2_20241025_27.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_52.maxsnap",
+				"name" : "soothe2_20241025_28.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_53.maxsnap",
+				"name" : "soothe2_20241025_29.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_54.maxsnap",
+				"name" : "soothe2_20241025_3.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_55.maxsnap",
+				"name" : "soothe2_20241025_30.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_56.maxsnap",
+				"name" : "soothe2_20241025_31.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_57.maxsnap",
+				"name" : "soothe2_20241025_32.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_58.maxsnap",
+				"name" : "soothe2_20241025_33.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_59.maxsnap",
+				"name" : "soothe2_20241025_34.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_6.maxsnap",
+				"name" : "soothe2_20241025_35.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_60.maxsnap",
+				"name" : "soothe2_20241025_36.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_61.maxsnap",
+				"name" : "soothe2_20241025_37.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_62.maxsnap",
+				"name" : "soothe2_20241025_38.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_63.maxsnap",
+				"name" : "soothe2_20241025_39.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_64.maxsnap",
+				"name" : "soothe2_20241025_4.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_65.maxsnap",
+				"name" : "soothe2_20241025_40.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_66.maxsnap",
+				"name" : "soothe2_20241025_41.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_67.maxsnap",
+				"name" : "soothe2_20241025_42.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_7.maxsnap",
+				"name" : "soothe2_20241025_43.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_8.maxsnap",
+				"name" : "soothe2_20241025_44.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240708_9.maxsnap",
+				"name" : "soothe2_20241025_45.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709.maxsnap",
+				"name" : "soothe2_20241025_46.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_1.maxsnap",
+				"name" : "soothe2_20241025_47.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_10.maxsnap",
+				"name" : "soothe2_20241025_48.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_11.maxsnap",
+				"name" : "soothe2_20241025_49.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_12.maxsnap",
+				"name" : "soothe2_20241025_5.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_13.maxsnap",
+				"name" : "soothe2_20241025_50.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_14.maxsnap",
+				"name" : "soothe2_20241025_51.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_15.maxsnap",
+				"name" : "soothe2_20241025_52.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_16.maxsnap",
+				"name" : "soothe2_20241025_53.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_17.maxsnap",
+				"name" : "soothe2_20241025_54.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_18.maxsnap",
+				"name" : "soothe2_20241025_55.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_19.maxsnap",
+				"name" : "soothe2_20241025_56.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_2.maxsnap",
+				"name" : "soothe2_20241025_57.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_20.maxsnap",
+				"name" : "soothe2_20241025_58.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_21.maxsnap",
+				"name" : "soothe2_20241025_59.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_22.maxsnap",
+				"name" : "soothe2_20241025_6.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_23.maxsnap",
+				"name" : "soothe2_20241025_60.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_24.maxsnap",
+				"name" : "soothe2_20241025_61.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_25.maxsnap",
+				"name" : "soothe2_20241025_62.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_26.maxsnap",
+				"name" : "soothe2_20241025_63.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_27.maxsnap",
+				"name" : "soothe2_20241025_64.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_28.maxsnap",
+				"name" : "soothe2_20241025_65.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_29.maxsnap",
+				"name" : "soothe2_20241025_66.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_3.maxsnap",
+				"name" : "soothe2_20241025_67.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_30.maxsnap",
+				"name" : "soothe2_20241025_68.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_31.maxsnap",
+				"name" : "soothe2_20241025_69.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_32.maxsnap",
+				"name" : "soothe2_20241025_7.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_33.maxsnap",
+				"name" : "soothe2_20241025_70.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_34.maxsnap",
+				"name" : "soothe2_20241025_71.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_35.maxsnap",
+				"name" : "soothe2_20241025_72.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_36.maxsnap",
+				"name" : "soothe2_20241025_73.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_37.maxsnap",
+				"name" : "soothe2_20241025_74.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_38.maxsnap",
+				"name" : "soothe2_20241025_75.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_39.maxsnap",
+				"name" : "soothe2_20241025_76.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_4.maxsnap",
+				"name" : "soothe2_20241025_77.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_40.maxsnap",
+				"name" : "soothe2_20241025_78.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_41.maxsnap",
+				"name" : "soothe2_20241025_79.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_42.maxsnap",
+				"name" : "soothe2_20241025_8.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_43.maxsnap",
+				"name" : "soothe2_20241025_80.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_44.maxsnap",
+				"name" : "soothe2_20241025_81.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_45.maxsnap",
+				"name" : "soothe2_20241025_82.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_46.maxsnap",
+				"name" : "soothe2_20241025_83.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_47.maxsnap",
+				"name" : "soothe2_20241025_84.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_48.maxsnap",
+				"name" : "soothe2_20241025_85.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_49.maxsnap",
+				"name" : "soothe2_20241025_86.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_5.maxsnap",
+				"name" : "soothe2_20241025_87.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_50.maxsnap",
+				"name" : "soothe2_20241025_88.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_51.maxsnap",
+				"name" : "soothe2_20241025_89.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_52.maxsnap",
+				"name" : "soothe2_20241025_9.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_53.maxsnap",
+				"name" : "soothe2_20241025_90.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_54.maxsnap",
+				"name" : "soothe2_20241025_91.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_55.maxsnap",
+				"name" : "soothe2_20241025_92.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_56.maxsnap",
+				"name" : "soothe2_20241025_93.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_57.maxsnap",
+				"name" : "soothe2_20241025_94.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_58.maxsnap",
+				"name" : "soothe2_20241025_95.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_59.maxsnap",
+				"name" : "soothe2_20241025_96.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_6.maxsnap",
+				"name" : "soothe2_20241025_97.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_60.maxsnap",
+				"name" : "soothe2_20241025_98.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_61.maxsnap",
+				"name" : "soothe2_20241025_99.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_62.maxsnap",
+				"name" : "soothe2_20241026.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_63.maxsnap",
+				"name" : "soothe2_20241026_1.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_64.maxsnap",
+				"name" : "soothe2_20241026_10.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_7.maxsnap",
+				"name" : "soothe2_20241026_100.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_8.maxsnap",
+				"name" : "soothe2_20241026_101.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240709_9.maxsnap",
+				"name" : "soothe2_20241026_102.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710.maxsnap",
+				"name" : "soothe2_20241026_103.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_1.maxsnap",
+				"name" : "soothe2_20241026_104.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_10.maxsnap",
+				"name" : "soothe2_20241026_105.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_11.maxsnap",
+				"name" : "soothe2_20241026_106.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_12.maxsnap",
+				"name" : "soothe2_20241026_107.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_13.maxsnap",
+				"name" : "soothe2_20241026_108.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_14.maxsnap",
+				"name" : "soothe2_20241026_109.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_15.maxsnap",
+				"name" : "soothe2_20241026_11.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_16.maxsnap",
+				"name" : "soothe2_20241026_110.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_17.maxsnap",
+				"name" : "soothe2_20241026_111.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_18.maxsnap",
+				"name" : "soothe2_20241026_112.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_19.maxsnap",
+				"name" : "soothe2_20241026_113.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_2.maxsnap",
+				"name" : "soothe2_20241026_114.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_20.maxsnap",
+				"name" : "soothe2_20241026_115.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_21.maxsnap",
+				"name" : "soothe2_20241026_116.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_22.maxsnap",
+				"name" : "soothe2_20241026_117.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_23.maxsnap",
+				"name" : "soothe2_20241026_118.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_24.maxsnap",
+				"name" : "soothe2_20241026_119.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_25.maxsnap",
+				"name" : "soothe2_20241026_12.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_26.maxsnap",
+				"name" : "soothe2_20241026_120.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_27.maxsnap",
+				"name" : "soothe2_20241026_121.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_28.maxsnap",
+				"name" : "soothe2_20241026_122.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_29.maxsnap",
+				"name" : "soothe2_20241026_123.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_3.maxsnap",
+				"name" : "soothe2_20241026_124.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_30.maxsnap",
+				"name" : "soothe2_20241026_125.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_31.maxsnap",
+				"name" : "soothe2_20241026_126.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_32.maxsnap",
+				"name" : "soothe2_20241026_127.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_33.maxsnap",
+				"name" : "soothe2_20241026_128.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_34.maxsnap",
+				"name" : "soothe2_20241026_129.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_35.maxsnap",
+				"name" : "soothe2_20241026_13.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_36.maxsnap",
+				"name" : "soothe2_20241026_130.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_37.maxsnap",
+				"name" : "soothe2_20241026_131.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_38.maxsnap",
+				"name" : "soothe2_20241026_132.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_39.maxsnap",
+				"name" : "soothe2_20241026_133.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_4.maxsnap",
+				"name" : "soothe2_20241026_134.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_40.maxsnap",
+				"name" : "soothe2_20241026_135.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_41.maxsnap",
+				"name" : "soothe2_20241026_136.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_42.maxsnap",
+				"name" : "soothe2_20241026_137.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_43.maxsnap",
+				"name" : "soothe2_20241026_138.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_44.maxsnap",
+				"name" : "soothe2_20241026_139.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_45.maxsnap",
+				"name" : "soothe2_20241026_14.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_46.maxsnap",
+				"name" : "soothe2_20241026_140.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_47.maxsnap",
+				"name" : "soothe2_20241026_141.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_48.maxsnap",
+				"name" : "soothe2_20241026_142.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_49.maxsnap",
+				"name" : "soothe2_20241026_143.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_5.maxsnap",
+				"name" : "soothe2_20241026_144.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_50.maxsnap",
+				"name" : "soothe2_20241026_145.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_51.maxsnap",
+				"name" : "soothe2_20241026_146.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_52.maxsnap",
+				"name" : "soothe2_20241026_147.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_53.maxsnap",
+				"name" : "soothe2_20241026_148.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_54.maxsnap",
+				"name" : "soothe2_20241026_149.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_55.maxsnap",
+				"name" : "soothe2_20241026_15.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_56.maxsnap",
+				"name" : "soothe2_20241026_150.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_57.maxsnap",
+				"name" : "soothe2_20241026_151.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_58.maxsnap",
+				"name" : "soothe2_20241026_152.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_59.maxsnap",
+				"name" : "soothe2_20241026_153.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_6.maxsnap",
+				"name" : "soothe2_20241026_154.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_60.maxsnap",
+				"name" : "soothe2_20241026_155.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_61.maxsnap",
+				"name" : "soothe2_20241026_156.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_62.maxsnap",
+				"name" : "soothe2_20241026_157.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_63.maxsnap",
+				"name" : "soothe2_20241026_158.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_64.maxsnap",
+				"name" : "soothe2_20241026_159.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_65.maxsnap",
+				"name" : "soothe2_20241026_16.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_66.maxsnap",
+				"name" : "soothe2_20241026_160.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_67.maxsnap",
+				"name" : "soothe2_20241026_161.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_68.maxsnap",
+				"name" : "soothe2_20241026_162.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_69.maxsnap",
+				"name" : "soothe2_20241026_163.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_7.maxsnap",
+				"name" : "soothe2_20241026_164.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_70.maxsnap",
+				"name" : "soothe2_20241026_165.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_71.maxsnap",
+				"name" : "soothe2_20241026_166.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_72.maxsnap",
+				"name" : "soothe2_20241026_167.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_73.maxsnap",
+				"name" : "soothe2_20241026_168.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_74.maxsnap",
+				"name" : "soothe2_20241026_169.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_75.maxsnap",
+				"name" : "soothe2_20241026_17.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_76.maxsnap",
+				"name" : "soothe2_20241026_170.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_77.maxsnap",
+				"name" : "soothe2_20241026_171.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_78.maxsnap",
+				"name" : "soothe2_20241026_172.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_79.maxsnap",
+				"name" : "soothe2_20241026_173.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_8.maxsnap",
+				"name" : "soothe2_20241026_174.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_80.maxsnap",
+				"name" : "soothe2_20241026_175.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_81.maxsnap",
+				"name" : "soothe2_20241026_176.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_82.maxsnap",
+				"name" : "soothe2_20241026_177.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_83.maxsnap",
+				"name" : "soothe2_20241026_178.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_84.maxsnap",
+				"name" : "soothe2_20241026_179.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_85.maxsnap",
+				"name" : "soothe2_20241026_18.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_86.maxsnap",
+				"name" : "soothe2_20241026_180.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_87.maxsnap",
+				"name" : "soothe2_20241026_181.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_88.maxsnap",
+				"name" : "soothe2_20241026_182.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_89.maxsnap",
+				"name" : "soothe2_20241026_183.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_9.maxsnap",
+				"name" : "soothe2_20241026_184.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_90.maxsnap",
+				"name" : "soothe2_20241026_185.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_91.maxsnap",
+				"name" : "soothe2_20241026_186.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_92.maxsnap",
+				"name" : "soothe2_20241026_187.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_93.maxsnap",
+				"name" : "soothe2_20241026_188.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240710_94.maxsnap",
+				"name" : "soothe2_20241026_189.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711.maxsnap",
+				"name" : "soothe2_20241026_19.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_1.maxsnap",
+				"name" : "soothe2_20241026_190.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_10.maxsnap",
+				"name" : "soothe2_20241026_191.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_11.maxsnap",
+				"name" : "soothe2_20241026_192.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_12.maxsnap",
+				"name" : "soothe2_20241026_193.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_13.maxsnap",
+				"name" : "soothe2_20241026_194.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_14.maxsnap",
+				"name" : "soothe2_20241026_195.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_15.maxsnap",
+				"name" : "soothe2_20241026_196.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_16.maxsnap",
+				"name" : "soothe2_20241026_197.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_17.maxsnap",
+				"name" : "soothe2_20241026_198.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_18.maxsnap",
+				"name" : "soothe2_20241026_199.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_19.maxsnap",
+				"name" : "soothe2_20241026_2.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_2.maxsnap",
+				"name" : "soothe2_20241026_20.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_20.maxsnap",
+				"name" : "soothe2_20241026_200.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_21.maxsnap",
+				"name" : "soothe2_20241026_201.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_22.maxsnap",
+				"name" : "soothe2_20241026_202.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_23.maxsnap",
+				"name" : "soothe2_20241026_203.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_24.maxsnap",
+				"name" : "soothe2_20241026_204.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_25.maxsnap",
+				"name" : "soothe2_20241026_205.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_26.maxsnap",
+				"name" : "soothe2_20241026_206.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_27.maxsnap",
+				"name" : "soothe2_20241026_207.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_28.maxsnap",
+				"name" : "soothe2_20241026_209.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_29.maxsnap",
+				"name" : "soothe2_20241026_21.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_3.maxsnap",
+				"name" : "soothe2_20241026_210.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_30.maxsnap",
+				"name" : "soothe2_20241026_211.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_31.maxsnap",
+				"name" : "soothe2_20241026_212.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_32.maxsnap",
+				"name" : "soothe2_20241026_213.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_33.maxsnap",
+				"name" : "soothe2_20241026_214.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_34.maxsnap",
+				"name" : "soothe2_20241026_215.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_35.maxsnap",
+				"name" : "soothe2_20241026_216.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_36.maxsnap",
+				"name" : "soothe2_20241026_217.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_37.maxsnap",
+				"name" : "soothe2_20241026_218.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_38.maxsnap",
+				"name" : "soothe2_20241026_219.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_39.maxsnap",
+				"name" : "soothe2_20241026_22.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_4.maxsnap",
+				"name" : "soothe2_20241026_220.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_40.maxsnap",
+				"name" : "soothe2_20241026_221.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_41.maxsnap",
+				"name" : "soothe2_20241026_222.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_42.maxsnap",
+				"name" : "soothe2_20241026_223.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_43.maxsnap",
+				"name" : "soothe2_20241026_224.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_44.maxsnap",
+				"name" : "soothe2_20241026_225.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_45.maxsnap",
+				"name" : "soothe2_20241026_226.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_46.maxsnap",
+				"name" : "soothe2_20241026_227.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_47.maxsnap",
+				"name" : "soothe2_20241026_228.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_48.maxsnap",
+				"name" : "soothe2_20241026_229.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_49.maxsnap",
+				"name" : "soothe2_20241026_23.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_5.maxsnap",
+				"name" : "soothe2_20241026_230.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_50.maxsnap",
+				"name" : "soothe2_20241026_231.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_51.maxsnap",
+				"name" : "soothe2_20241026_232.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_52.maxsnap",
+				"name" : "soothe2_20241026_233.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_53.maxsnap",
+				"name" : "soothe2_20241026_234.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_54.maxsnap",
+				"name" : "soothe2_20241026_235.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_55.maxsnap",
+				"name" : "soothe2_20241026_236.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_56.maxsnap",
+				"name" : "soothe2_20241026_237.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_57.maxsnap",
+				"name" : "soothe2_20241026_238.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_58.maxsnap",
+				"name" : "soothe2_20241026_239.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_59.maxsnap",
+				"name" : "soothe2_20241026_24.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_6.maxsnap",
+				"name" : "soothe2_20241026_240.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_60.maxsnap",
+				"name" : "soothe2_20241026_241.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_7.maxsnap",
+				"name" : "soothe2_20241026_242.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_8.maxsnap",
+				"name" : "soothe2_20241026_243.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240711_9.maxsnap",
+				"name" : "soothe2_20241026_244.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712.maxsnap",
+				"name" : "soothe2_20241026_245.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_1.maxsnap",
+				"name" : "soothe2_20241026_246.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_10.maxsnap",
+				"name" : "soothe2_20241026_247.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_11.maxsnap",
+				"name" : "soothe2_20241026_248.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_12.maxsnap",
+				"name" : "soothe2_20241026_249.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_13.maxsnap",
+				"name" : "soothe2_20241026_25.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_14.maxsnap",
+				"name" : "soothe2_20241026_250.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_15.maxsnap",
+				"name" : "soothe2_20241026_251.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_16.maxsnap",
+				"name" : "soothe2_20241026_252.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_17.maxsnap",
+				"name" : "soothe2_20241026_253.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_18.maxsnap",
+				"name" : "soothe2_20241026_254.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_19.maxsnap",
+				"name" : "soothe2_20241026_255.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_2.maxsnap",
+				"name" : "soothe2_20241026_256.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_20.maxsnap",
+				"name" : "soothe2_20241026_257.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_21.maxsnap",
+				"name" : "soothe2_20241026_258.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_22.maxsnap",
+				"name" : "soothe2_20241026_259.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_23.maxsnap",
+				"name" : "soothe2_20241026_26.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_24.maxsnap",
+				"name" : "soothe2_20241026_260.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_25.maxsnap",
+				"name" : "soothe2_20241026_261.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_26.maxsnap",
+				"name" : "soothe2_20241026_262.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_27.maxsnap",
+				"name" : "soothe2_20241026_27.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_28.maxsnap",
+				"name" : "soothe2_20241026_28.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_29.maxsnap",
+				"name" : "soothe2_20241026_29.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_3.maxsnap",
+				"name" : "soothe2_20241026_3.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_30.maxsnap",
+				"name" : "soothe2_20241026_30.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_31.maxsnap",
+				"name" : "soothe2_20241026_31.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_32.maxsnap",
+				"name" : "soothe2_20241026_32.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_33.maxsnap",
+				"name" : "soothe2_20241026_33.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_34.maxsnap",
+				"name" : "soothe2_20241026_34.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_35.maxsnap",
+				"name" : "soothe2_20241026_35.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_36.maxsnap",
+				"name" : "soothe2_20241026_36.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_37.maxsnap",
+				"name" : "soothe2_20241026_37.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_38.maxsnap",
+				"name" : "soothe2_20241026_38.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_39.maxsnap",
+				"name" : "soothe2_20241026_39.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_4.maxsnap",
+				"name" : "soothe2_20241026_4.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_40.maxsnap",
+				"name" : "soothe2_20241026_40.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_41.maxsnap",
+				"name" : "soothe2_20241026_41.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_42.maxsnap",
+				"name" : "soothe2_20241026_42.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_43.maxsnap",
+				"name" : "soothe2_20241026_43.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_44.maxsnap",
+				"name" : "soothe2_20241026_44.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_45.maxsnap",
+				"name" : "soothe2_20241026_45.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_46.maxsnap",
+				"name" : "soothe2_20241026_46.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_47.maxsnap",
+				"name" : "soothe2_20241026_47.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_48.maxsnap",
+				"name" : "soothe2_20241026_48.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_49.maxsnap",
+				"name" : "soothe2_20241026_49.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_5.maxsnap",
+				"name" : "soothe2_20241026_5.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_50.maxsnap",
+				"name" : "soothe2_20241026_50.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_51.maxsnap",
+				"name" : "soothe2_20241026_51.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_52.maxsnap",
+				"name" : "soothe2_20241026_52.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_53.maxsnap",
+				"name" : "soothe2_20241026_53.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_54.maxsnap",
+				"name" : "soothe2_20241026_54.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_55.maxsnap",
+				"name" : "soothe2_20241026_55.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_56.maxsnap",
+				"name" : "soothe2_20241026_56.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_57.maxsnap",
+				"name" : "soothe2_20241026_57.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_58.maxsnap",
+				"name" : "soothe2_20241026_58.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_59.maxsnap",
+				"name" : "soothe2_20241026_59.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_6.maxsnap",
+				"name" : "soothe2_20241026_6.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_60.maxsnap",
+				"name" : "soothe2_20241026_60.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_61.maxsnap",
+				"name" : "soothe2_20241026_61.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_62.maxsnap",
+				"name" : "soothe2_20241026_62.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_63.maxsnap",
+				"name" : "soothe2_20241026_63.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_64.maxsnap",
+				"name" : "soothe2_20241026_64.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_65.maxsnap",
+				"name" : "soothe2_20241026_65.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_66.maxsnap",
+				"name" : "soothe2_20241026_66.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_67.maxsnap",
+				"name" : "soothe2_20241026_67.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_68.maxsnap",
+				"name" : "soothe2_20241026_68.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_69.maxsnap",
+				"name" : "soothe2_20241026_69.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_7.maxsnap",
+				"name" : "soothe2_20241026_7.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_70.maxsnap",
+				"name" : "soothe2_20241026_70.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_71.maxsnap",
+				"name" : "soothe2_20241026_71.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_8.maxsnap",
+				"name" : "soothe2_20241026_72.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240712_9.maxsnap",
+				"name" : "soothe2_20241026_73.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713.maxsnap",
+				"name" : "soothe2_20241026_74.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_1.maxsnap",
+				"name" : "soothe2_20241026_75.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_10.maxsnap",
+				"name" : "soothe2_20241026_76.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_11.maxsnap",
+				"name" : "soothe2_20241026_77.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_12.maxsnap",
+				"name" : "soothe2_20241026_78.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_13.maxsnap",
+				"name" : "soothe2_20241026_79.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_14.maxsnap",
+				"name" : "soothe2_20241026_8.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_15.maxsnap",
+				"name" : "soothe2_20241026_80.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_16.maxsnap",
+				"name" : "soothe2_20241026_81.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_17.maxsnap",
+				"name" : "soothe2_20241026_82.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_18.maxsnap",
+				"name" : "soothe2_20241026_83.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_19.maxsnap",
+				"name" : "soothe2_20241026_84.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_2.maxsnap",
+				"name" : "soothe2_20241026_85.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_20.maxsnap",
+				"name" : "soothe2_20241026_86.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_3.maxsnap",
+				"name" : "soothe2_20241026_87.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_4.maxsnap",
+				"name" : "soothe2_20241026_88.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_5.maxsnap",
+				"name" : "soothe2_20241026_89.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_6.maxsnap",
+				"name" : "soothe2_20241026_9.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_7.maxsnap",
+				"name" : "soothe2_20241026_90.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_8.maxsnap",
+				"name" : "soothe2_20241026_91.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240713_9.maxsnap",
+				"name" : "soothe2_20241026_92.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714.maxsnap",
+				"name" : "soothe2_20241026_93.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_1.maxsnap",
+				"name" : "soothe2_20241026_94.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_10.maxsnap",
+				"name" : "soothe2_20241026_95.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_11.maxsnap",
+				"name" : "soothe2_20241026_96.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_12.maxsnap",
+				"name" : "soothe2_20241026_97.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_13.maxsnap",
+				"name" : "soothe2_20241026_98.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_14.maxsnap",
+				"name" : "soothe2_20241026_99.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_15.maxsnap",
+				"name" : "soothe2_20241027.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_16.maxsnap",
+				"name" : "soothe2_20241027_1.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_17.maxsnap",
+				"name" : "soothe2_20241027_10.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_18.maxsnap",
+				"name" : "soothe2_20241027_100.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_19.maxsnap",
+				"name" : "soothe2_20241027_101.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_2.maxsnap",
+				"name" : "soothe2_20241027_102.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_20.maxsnap",
+				"name" : "soothe2_20241027_103.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_21.maxsnap",
+				"name" : "soothe2_20241027_104.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_22.maxsnap",
+				"name" : "soothe2_20241027_105.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_23.maxsnap",
+				"name" : "soothe2_20241027_106.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_24.maxsnap",
+				"name" : "soothe2_20241027_107.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_25.maxsnap",
+				"name" : "soothe2_20241027_108.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_26.maxsnap",
+				"name" : "soothe2_20241027_109.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_27.maxsnap",
+				"name" : "soothe2_20241027_11.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_28.maxsnap",
+				"name" : "soothe2_20241027_110.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_29.maxsnap",
+				"name" : "soothe2_20241027_111.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_3.maxsnap",
+				"name" : "soothe2_20241027_112.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_30.maxsnap",
+				"name" : "soothe2_20241027_113.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_31.maxsnap",
+				"name" : "soothe2_20241027_114.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_32.maxsnap",
+				"name" : "soothe2_20241027_115.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_33.maxsnap",
+				"name" : "soothe2_20241027_116.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_34.maxsnap",
+				"name" : "soothe2_20241027_117.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_35.maxsnap",
+				"name" : "soothe2_20241027_118.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_36.maxsnap",
+				"name" : "soothe2_20241027_119.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_37.maxsnap",
+				"name" : "soothe2_20241027_12.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_38.maxsnap",
+				"name" : "soothe2_20241027_120.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_39.maxsnap",
+				"name" : "soothe2_20241027_121.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_4.maxsnap",
+				"name" : "soothe2_20241027_122.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_40.maxsnap",
+				"name" : "soothe2_20241027_123.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_41.maxsnap",
+				"name" : "soothe2_20241027_124.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_42.maxsnap",
+				"name" : "soothe2_20241027_125.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_43.maxsnap",
+				"name" : "soothe2_20241027_126.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_44.maxsnap",
+				"name" : "soothe2_20241027_127.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_45.maxsnap",
+				"name" : "soothe2_20241027_128.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_46.maxsnap",
+				"name" : "soothe2_20241027_129.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_47.maxsnap",
+				"name" : "soothe2_20241027_13.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_48.maxsnap",
+				"name" : "soothe2_20241027_130.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_49.maxsnap",
+				"name" : "soothe2_20241027_131.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_5.maxsnap",
+				"name" : "soothe2_20241027_132.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_50.maxsnap",
+				"name" : "soothe2_20241027_133.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_51.maxsnap",
+				"name" : "soothe2_20241027_134.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_52.maxsnap",
+				"name" : "soothe2_20241027_135.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_53.maxsnap",
+				"name" : "soothe2_20241027_136.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_54.maxsnap",
+				"name" : "soothe2_20241027_137.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_55.maxsnap",
+				"name" : "soothe2_20241027_138.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_56.maxsnap",
+				"name" : "soothe2_20241027_139.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_57.maxsnap",
+				"name" : "soothe2_20241027_14.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_58.maxsnap",
+				"name" : "soothe2_20241027_140.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_59.maxsnap",
+				"name" : "soothe2_20241027_141.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_6.maxsnap",
+				"name" : "soothe2_20241027_142.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_60.maxsnap",
+				"name" : "soothe2_20241027_143.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_61.maxsnap",
+				"name" : "soothe2_20241027_144.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_62.maxsnap",
+				"name" : "soothe2_20241027_145.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_63.maxsnap",
+				"name" : "soothe2_20241027_146.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_64.maxsnap",
+				"name" : "soothe2_20241027_147.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_65.maxsnap",
+				"name" : "soothe2_20241027_148.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_66.maxsnap",
+				"name" : "soothe2_20241027_149.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_67.maxsnap",
+				"name" : "soothe2_20241027_15.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_68.maxsnap",
+				"name" : "soothe2_20241027_150.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_69.maxsnap",
+				"name" : "soothe2_20241027_151.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_7.maxsnap",
+				"name" : "soothe2_20241027_152.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_70.maxsnap",
+				"name" : "soothe2_20241027_153.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_71.maxsnap",
+				"name" : "soothe2_20241027_154.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_72.maxsnap",
+				"name" : "soothe2_20241027_155.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_73.maxsnap",
+				"name" : "soothe2_20241027_156.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_74.maxsnap",
+				"name" : "soothe2_20241027_157.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_75.maxsnap",
+				"name" : "soothe2_20241027_158.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_76.maxsnap",
+				"name" : "soothe2_20241027_159.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_77.maxsnap",
+				"name" : "soothe2_20241027_16.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_78.maxsnap",
+				"name" : "soothe2_20241027_160.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_79.maxsnap",
+				"name" : "soothe2_20241027_161.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_8.maxsnap",
+				"name" : "soothe2_20241027_17.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_80.maxsnap",
+				"name" : "soothe2_20241027_18.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_81.maxsnap",
+				"name" : "soothe2_20241027_19.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_82.maxsnap",
+				"name" : "soothe2_20241027_2.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_83.maxsnap",
+				"name" : "soothe2_20241027_20.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_84.maxsnap",
+				"name" : "soothe2_20241027_21.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_85.maxsnap",
+				"name" : "soothe2_20241027_22.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_86.maxsnap",
+				"name" : "soothe2_20241027_23.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240714_9.maxsnap",
+				"name" : "soothe2_20241027_24.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715.maxsnap",
+				"name" : "soothe2_20241027_25.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_1.maxsnap",
+				"name" : "soothe2_20241027_26.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_10.maxsnap",
+				"name" : "soothe2_20241027_27.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_11.maxsnap",
+				"name" : "soothe2_20241027_28.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_12.maxsnap",
+				"name" : "soothe2_20241027_29.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_13.maxsnap",
+				"name" : "soothe2_20241027_3.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_14.maxsnap",
+				"name" : "soothe2_20241027_30.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_15.maxsnap",
+				"name" : "soothe2_20241027_31.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_16.maxsnap",
+				"name" : "soothe2_20241027_32.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_17.maxsnap",
+				"name" : "soothe2_20241027_33.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_18.maxsnap",
+				"name" : "soothe2_20241027_34.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_19.maxsnap",
+				"name" : "soothe2_20241027_35.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_2.maxsnap",
+				"name" : "soothe2_20241027_36.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_20.maxsnap",
+				"name" : "soothe2_20241027_37.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_21.maxsnap",
+				"name" : "soothe2_20241027_38.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_22.maxsnap",
+				"name" : "soothe2_20241027_39.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_23.maxsnap",
+				"name" : "soothe2_20241027_4.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_24.maxsnap",
+				"name" : "soothe2_20241027_40.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_25.maxsnap",
+				"name" : "soothe2_20241027_41.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_26.maxsnap",
+				"name" : "soothe2_20241027_42.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_27.maxsnap",
+				"name" : "soothe2_20241027_43.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_28.maxsnap",
+				"name" : "soothe2_20241027_44.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_29.maxsnap",
+				"name" : "soothe2_20241027_45.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_3.maxsnap",
+				"name" : "soothe2_20241027_46.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_30.maxsnap",
+				"name" : "soothe2_20241027_47.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_31.maxsnap",
+				"name" : "soothe2_20241027_48.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_32.maxsnap",
+				"name" : "soothe2_20241027_49.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_33.maxsnap",
+				"name" : "soothe2_20241027_5.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_34.maxsnap",
+				"name" : "soothe2_20241027_50.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_35.maxsnap",
+				"name" : "soothe2_20241027_51.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_36.maxsnap",
+				"name" : "soothe2_20241027_52.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_37.maxsnap",
+				"name" : "soothe2_20241027_53.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_38.maxsnap",
+				"name" : "soothe2_20241027_54.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_39.maxsnap",
+				"name" : "soothe2_20241027_55.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_4.maxsnap",
+				"name" : "soothe2_20241027_56.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_40.maxsnap",
+				"name" : "soothe2_20241027_57.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_41.maxsnap",
+				"name" : "soothe2_20241027_58.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_42.maxsnap",
+				"name" : "soothe2_20241027_59.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_43.maxsnap",
+				"name" : "soothe2_20241027_6.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_44.maxsnap",
+				"name" : "soothe2_20241027_60.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_45.maxsnap",
+				"name" : "soothe2_20241027_61.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_46.maxsnap",
+				"name" : "soothe2_20241027_62.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_47.maxsnap",
+				"name" : "soothe2_20241027_63.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_48.maxsnap",
+				"name" : "soothe2_20241027_64.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_49.maxsnap",
+				"name" : "soothe2_20241027_65.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_5.maxsnap",
+				"name" : "soothe2_20241027_66.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_50.maxsnap",
+				"name" : "soothe2_20241027_67.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_51.maxsnap",
+				"name" : "soothe2_20241027_68.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_52.maxsnap",
+				"name" : "soothe2_20241027_69.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_53.maxsnap",
+				"name" : "soothe2_20241027_7.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_54.maxsnap",
+				"name" : "soothe2_20241027_70.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_55.maxsnap",
+				"name" : "soothe2_20241027_71.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_56.maxsnap",
+				"name" : "soothe2_20241027_72.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_57.maxsnap",
+				"name" : "soothe2_20241027_73.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_58.maxsnap",
+				"name" : "soothe2_20241027_74.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_59.maxsnap",
+				"name" : "soothe2_20241027_75.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_6.maxsnap",
+				"name" : "soothe2_20241027_76.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_60.maxsnap",
+				"name" : "soothe2_20241027_77.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_61.maxsnap",
+				"name" : "soothe2_20241027_78.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_62.maxsnap",
+				"name" : "soothe2_20241027_79.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_63.maxsnap",
+				"name" : "soothe2_20241027_8.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_64.maxsnap",
+				"name" : "soothe2_20241027_80.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_65.maxsnap",
+				"name" : "soothe2_20241027_81.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_66.maxsnap",
+				"name" : "soothe2_20241027_82.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_67.maxsnap",
+				"name" : "soothe2_20241027_83.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_68.maxsnap",
+				"name" : "soothe2_20241027_84.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_69.maxsnap",
+				"name" : "soothe2_20241027_85.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_7.maxsnap",
+				"name" : "soothe2_20241027_86.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_70.maxsnap",
+				"name" : "soothe2_20241027_87.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_71.maxsnap",
+				"name" : "soothe2_20241027_88.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_72.maxsnap",
+				"name" : "soothe2_20241027_89.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_73.maxsnap",
+				"name" : "soothe2_20241027_9.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_74.maxsnap",
+				"name" : "soothe2_20241027_90.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_75.maxsnap",
+				"name" : "soothe2_20241027_91.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_8.maxsnap",
+				"name" : "soothe2_20241027_92.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240715_9.maxsnap",
+				"name" : "soothe2_20241027_93.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716.maxsnap",
+				"name" : "soothe2_20241027_94.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_1.maxsnap",
+				"name" : "soothe2_20241027_95.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_10.maxsnap",
+				"name" : "soothe2_20241027_96.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_11.maxsnap",
+				"name" : "soothe2_20241027_97.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_12.maxsnap",
+				"name" : "soothe2_20241027_98.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_13.maxsnap",
+				"name" : "soothe2_20241027_99.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_14.maxsnap",
+				"name" : "soothe2_20241028.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_15.maxsnap",
+				"name" : "soothe2_20241028_1.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_16.maxsnap",
+				"name" : "soothe2_20241028_10.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_17.maxsnap",
+				"name" : "soothe2_20241028_11.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_18.maxsnap",
+				"name" : "soothe2_20241028_12.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_19.maxsnap",
+				"name" : "soothe2_20241028_2.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_2.maxsnap",
+				"name" : "soothe2_20241028_3.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_20.maxsnap",
+				"name" : "soothe2_20241028_4.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_21.maxsnap",
+				"name" : "soothe2_20241028_5.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_22.maxsnap",
+				"name" : "soothe2_20241028_6.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_23.maxsnap",
+				"name" : "soothe2_20241028_7.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_24.maxsnap",
+				"name" : "soothe2_20241028_8.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "soothe2_20240716_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_70.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_71.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_72.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_73.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_74.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240716_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240717_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240718_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240720_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240724_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240725_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240726_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240727_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240728_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_70.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_71.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_72.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_73.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_74.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_75.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_76.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240730_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240801_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240802_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_70.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_71.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_72.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_73.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_74.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240803_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240804_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240805_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240806_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_70.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_71.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_72.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_73.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_74.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_75.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_76.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_77.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_78.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_79.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_80.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_81.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_82.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_83.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_84.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240807_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240808_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240809_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240810_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240811_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240812_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240813_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240814_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240815_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240816_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240817_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240818_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240819_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240820_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_70.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_71.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_72.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_73.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_74.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_75.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_76.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_77.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_78.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_79.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_80.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_81.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_82.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_83.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_84.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_85.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_86.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_87.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_88.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_89.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_90.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_91.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_92.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_93.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_94.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240821_95.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_70.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_71.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_72.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_73.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_74.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_75.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_76.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_77.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_78.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_79.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_80.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_81.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_82.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_83.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_84.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_85.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240822_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240823_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240824_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240825_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240826_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240828_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240829_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240830_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240831_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240901_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_70.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_71.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_72.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_73.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_74.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_75.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_76.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_77.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_78.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_79.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_80.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_81.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_82.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_83.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_84.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_85.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_86.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_87.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_88.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_89.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_90.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_91.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240902_92.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_100.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_101.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_102.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_103.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_104.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_105.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_106.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_107.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_108.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_109.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_110.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_111.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_112.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_113.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_114.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_115.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_70.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_71.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_72.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_73.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_74.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_75.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_76.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_77.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_78.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_79.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_80.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_81.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_82.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_83.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_84.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_85.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_86.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_87.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_88.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_89.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_90.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_91.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_92.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_93.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_94.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_95.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_96.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_97.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_98.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240903_99.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_100.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_101.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_102.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_103.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_104.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_105.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_106.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_107.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_108.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_109.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_110.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_111.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_112.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_113.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_114.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_115.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_116.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_117.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_118.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_119.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_120.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_121.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_122.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_123.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_124.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_125.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_126.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_127.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_128.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_129.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_130.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_131.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_132.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_133.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_134.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_135.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_136.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_137.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_138.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_139.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_140.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_141.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_70.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_71.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_72.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_73.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_74.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_75.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_76.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_77.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_78.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_79.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_80.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_81.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_82.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_83.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_84.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_85.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_86.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_87.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_88.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_89.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_90.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_91.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_92.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_93.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_94.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_95.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_96.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_97.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_98.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240904_99.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_70.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_71.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_72.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_73.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_74.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_75.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240905_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_100.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_101.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_102.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_103.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_104.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_105.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_106.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_107.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_108.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_70.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_71.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_72.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_73.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_74.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_75.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_76.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_77.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_78.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_79.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_80.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_81.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_82.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_83.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_84.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_85.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_86.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_87.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_88.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_89.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_90.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_91.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_92.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_93.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_94.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_95.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_96.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_97.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_98.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240906_99.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_100.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_101.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_102.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_103.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_104.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_105.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_106.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_107.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_108.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_109.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_70.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_71.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_72.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_73.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_74.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_75.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_76.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_77.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_78.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_79.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_80.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_81.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_82.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_83.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_84.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_85.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_86.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_87.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_88.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_89.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_90.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_91.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_92.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_93.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_94.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_95.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_96.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_97.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_98.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240907_99.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_27.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_28.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_29.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_30.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_31.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_32.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_33.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_34.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_35.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_36.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_37.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_38.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_39.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_40.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_41.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_42.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_43.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_44.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_45.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_46.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_47.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_48.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_49.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_50.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_51.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_52.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_53.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_54.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_55.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_56.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_57.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_58.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_59.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_60.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_61.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_62.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_63.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_64.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_65.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_66.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_67.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_68.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_69.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240908_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_14.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_15.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_16.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_17.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_18.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_19.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_20.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_21.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_22.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_23.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_24.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_25.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_26.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240909_9.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_1.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_10.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_11.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_12.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_13.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_2.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_3.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_4.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_5.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_6.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_7.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_8.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soothe2_20240910_9.maxsnap",
+				"name" : "soothe2_20241028_9.maxsnap",
 				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
 				"type" : "mx@s",

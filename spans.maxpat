@@ -82,8 +82,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.000000000000057, 850.0, 361.999999999999943, 64.0 ],
-					"text" : "only releases song lengths if ready (in theory this check shouldn't be necessary; in practice it is) – Try to locate the origin of the errant length message in the first place. Comes from the [edge~] in [real-time_comp-in] (not [fill]). Looks like there is a race between ready and the errant message. Sloppy, but a [deferlow] locally on ready seems to work",
+					"patching_rect" : [ 48.000000000000057, 850.0, 366.0, 64.0 ],
+					"text" : "only releases song lengths if ready (in theory this check shouldn't be necessary; in practice it is) – Try to locate the origin of the errant length message in the first place. Comes from the [edge~] in [real-time_comp-in] (not [fill]). Looks like there is a race between ready and the errant message. Sloppy, but a [deferlow] locally on ready seems to work (mostly?) Userinput perhaps more reliable",
 					"textcolor" : [ 0.980392156862745, 0.317647058823529, 0.317647058823529, 1.0 ]
 				}
 
@@ -96,7 +96,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 37.000000000000057, 830.0, 93.000000000000028, 20.0 ],
-					"text" : "gate 1 1",
+					"text" : "gate",
 					"textcolor" : [ 0.980392156862745, 0.317647058823529, 0.317647058823529, 1.0 ]
 				}
 
@@ -108,7 +108,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.000000000000057, 790.0, 77.0, 20.0 ],
+					"patching_rect" : [ 37.000000000000057, 810.0, 77.0, 20.0 ],
 					"text" : "r ---userInput?",
 					"textcolor" : [ 0.980392156862745, 0.317647058823529, 0.317647058823529, 1.0 ]
 				}
@@ -29213,11 +29213,11 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "in 1",
-														"numinlets" : 0,
-														"id" : "obj-1",
 														"numoutlets" : 1,
+														"outlettype" : [ "" ],
+														"id" : "obj-1",
 														"patching_rect" : [ 50.0, 14.0, 25.0, 20.0 ],
-														"outlettype" : [ "" ]
+														"numinlets" : 0
 													}
 
 												}
@@ -29225,25 +29225,25 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "in 2",
-														"numinlets" : 0,
-														"id" : "obj-2",
 														"numoutlets" : 1,
+														"outlettype" : [ "" ],
+														"id" : "obj-2",
 														"patching_rect" : [ 305.0, 14.0, 25.0, 20.0 ],
-														"outlettype" : [ "" ]
+														"numinlets" : 0
 													}
 
 												}
 , 												{
 													"box" : 													{
 														"maxclass" : "codebox",
+														"numoutlets" : 1,
 														"fontname" : "<Monospaced>",
-														"numinlets" : 2,
+														"outlettype" : [ "" ],
 														"fontface" : 0,
 														"id" : "obj-3",
-														"numoutlets" : 1,
 														"patching_rect" : [ 50.0, 40.0, 530.0, 330.0 ],
-														"outlettype" : [ "" ],
 														"fontsize" : 10.0,
+														"numinlets" : 2,
 														"code" : "Buffer preserves(\"preserves\");\r\npreserve = peek(preserves, in2, mc_channel);\r\nif(preserve) {\r\n\tout1 = -9;\r\n}\r\nelse {\r\n\tout1 = in1;\r\n}"
 													}
 
@@ -29252,18 +29252,18 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "out 1",
-														"numinlets" : 1,
-														"id" : "obj-4",
 														"numoutlets" : 0,
-														"patching_rect" : [ 176.0, 418.0, 31.0, 20.0 ]
+														"id" : "obj-4",
+														"patching_rect" : [ 176.0, 418.0, 31.0, 20.0 ],
+														"numinlets" : 1
 													}
 
 												}
  ],
 											"lines" : [ 												{
 													"patchline" : 													{
-														"source" : [ "obj-1", 0 ],
-														"destination" : [ "obj-3", 0 ]
+														"source" : [ "obj-3", 0 ],
+														"destination" : [ "obj-4", 0 ]
 													}
 
 												}
@@ -29276,8 +29276,8 @@
 												}
 , 												{
 													"patchline" : 													{
-														"source" : [ "obj-3", 0 ],
-														"destination" : [ "obj-4", 0 ]
+														"source" : [ "obj-1", 0 ],
+														"destination" : [ "obj-3", 0 ]
 													}
 
 												}
@@ -29293,7 +29293,7 @@
 									"outlettype" : [ "multichannelsignal" ],
 									"patching_rect" : [ 49.999996111111102, 160.0, 47.0, 20.0 ],
 									"text" : "mc.gen~",
-									"wrapper_uniquekey" : "u719012886"
+									"wrapper_uniquekey" : "u067024895"
 								}
 
 							}
@@ -37680,7 +37680,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"order" : 0,
+					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
+					"order" : 1,
 					"source" : [ "obj-106", 0 ]
 				}
 
@@ -38484,6 +38493,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-108", 0 ],
+					"order" : 0,
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -38491,7 +38501,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
-					"disabled" : 1,
+					"order" : 1,
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -38567,16 +38577,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-105", 0 ],
-					"order" : 0,
-					"source" : [ "obj-88", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
-					"order" : 1,
 					"source" : [ "obj-88", 0 ]
 				}
 
