@@ -1,18 +1,5 @@
-# The Amanuensis
-*NOTE: Despite what these tutorials say, the system now is actually cross-platform, doesn't require Python and [doesn't require a separate synthTaste.txt file](https://steemit.com/utopian-io/@to-the-sun/vsts-auto-count-their-presets-and-can-be-found-within-subfolders-a-new-feature-for-the-open-source-project-the-amanuensis).*
-
-- [Tutorial #1 - Getting Up and Running](https://steemit.com/utopian-io/@to-the-sun/getting-up-and-running-a-tutorial-for-the-open-source-project-the-amanuensis-automated-songwriting-and-recording)
-- [Tutorial #2 - Setting Up Tracks' Recording Sources](https://steemit.com/utopian-io/@to-the-sun/setting-up-tracks-recording-sources-a-tutorial-for-the-open-source-project-the-amanuensis-automated-songwriting-and-recording)
-- [Tutorial #3 - Setting Up Tracks' MIDI Sources](https://steemit.com/utopian-io/@to-the-sun/setting-up-tracks-midi-sources-a-tutorial-for-the-open-source-project-the-amanuensis-automated-songwriting-and-recording)
-- [Feature #1 - Track Mixing Controls](https://steemit.com/utopian-io/@to-the-sun/individual-track-mixing-controls-a-new-feature-for-the-open-source-project-the-amanuensis-automated-songwriting-and-recording)
-- [Feature #2 - The Projects Menu](https://steemit.com/utopian-io/@to-the-sun/a-new-projects-menu-a-new-feature-for-the-open-source-project-the-amanuensis-automated-songwriting-and-recording)
-- For a complete history of new features, system updates, blog posts, demo songs, etc., you can follow [my Steemit blog](https://steemit.com/@to-the-sun).
-
-Currently The Amanuensis is in a version 1.x beta. **Playtesters wanted!**
 
 ## Version 2.0
-
-At this point perhaps one use of an open-source effort might be in creating a brand-new version 2.0 from the ground up. One major upgrade would be to decouple The Amanuensis from its reliance on MIDI. Although more difficult to get working correctly, this would be more streamlined and straightforward from a user's perspective, as well as address certain idiosyncrasies such as what happens when MIDI notes have long attacks or when dealing with glissando in vocals or other instruments. This could be accomplished by reworking the algorithm that judges what parts of the music are best. Instead of relying entirely on analyzing rhythm, i.e. specific moments in time, a more comprehensive machine learning approach could be implemented.
 
 I imagine a deep neural net focused on spectral analysis that on the lowest level is looking at a period of time equivalent to that of maybe a beat, determining where in that window an onset is likely to occur. This would be the layer that judges rhythm, by taking notice of any deviance in their positions. The next layer might look at windows the length of a measure and be able to identify repeated riffs and the like. Additional layers would find patterns on the scale of whole choruses and verses. In theory, deviations in pitch from an established scale could also be detected implicitly. A rating could then be derived based more heavily on the essentials like rhythm, but also taking into account the repetition of higher-level motifs.
 
