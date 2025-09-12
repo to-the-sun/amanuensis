@@ -11761,6 +11761,18 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-94",
+													"maxclass" : "newobj",
+													"numinlets" : 5,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 470.0, 580.0, 92.0, 20.0 ],
+													"text" : "pack f f i OfFSET: f"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-70",
 													"maxclass" : "newobj",
 													"numinlets" : 0,
@@ -16632,6 +16644,37 @@
 														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
+																	"id" : "obj-34",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 5,
+																	"outlettype" : [ "dictionary", "", "", "", "" ],
+																	"patching_rect" : [ 660.0, 280.0, 68.0, 20.0 ],
+																	"saved_object_attributes" : 																	{
+																		"embed" : 0,
+																		"legacy" : 0,
+																		"parameter_enable" : 0,
+																		"parameter_mappable" : 0
+																	}
+,
+																	"text" : "dict transcript"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-23",
+																	"maxclass" : "message",
+																	"numinlets" : 2,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 660.0, 240.0, 91.0, 20.0 ],
+																	"text" : "write prerebar.json"
+																}
+
+															}
+, 															{
+																"box" : 																{
 																	"id" : "obj-56",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
@@ -17858,6 +17901,14 @@
 															}
 , 															{
 																"patchline" : 																{
+																	"destination" : [ "obj-23", 0 ],
+																	"order" : 0,
+																	"source" : [ "obj-22", 5 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
 																	"destination" : [ "obj-3", 0 ],
 																	"source" : [ "obj-22", 2 ]
 																}
@@ -17911,7 +17962,15 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-94", 0 ],
+																	"order" : 1,
 																	"source" : [ "obj-22", 5 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-34", 0 ],
+																	"source" : [ "obj-23", 0 ]
 																}
 
 															}
@@ -19426,6 +19485,15 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-9", 0 ],
+													"order" : 1,
+													"source" : [ "obj-13", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-94", 4 ],
+													"order" : 0,
 													"source" : [ "obj-13", 0 ]
 												}
 
@@ -19733,6 +19801,15 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-90", 0 ],
+													"order" : 1,
+													"source" : [ "obj-41", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-94", 0 ],
+													"order" : 0,
 													"source" : [ "obj-41", 0 ]
 												}
 
@@ -20164,6 +20241,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-86", 0 ],
 													"source" : [ "obj-92", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-66", 0 ],
+													"source" : [ "obj-94", 0 ]
 												}
 
 											}
@@ -32912,6 +32996,170 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 479.266666666666652, 640.0, 145.0, 20.0 ],
 					"restore" : [ 						{
+							"current" : 							{
+								"playtester" : 20
+							}
+,
+							"scale" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
+							"1" : 							{
+								"samples" : [ "Leaf Crunch 1.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "kick 2 inside - 22in pearl master custom.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "kick-stomp.wav", "kick 2 inside - 22in pearl master custom.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "kick-stomp.wav", "kick-stomp.wav", "Leaf Crunch 1.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "kick 2 inside - 22in pearl master custom.wav", "kick-stomp.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "kick-stomp.wav", "kick-stomp.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "kick 2 inside - 22in pearl master custom.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "kick-stomp.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "kick-stomp.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "kick 2 inside - 22in pearl master custom.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "kick-stomp.wav", "Leaf Crunch 1.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "kick-stomp.wav", "Leaf Crunch 1.wav", "kick 2 inside - 22in pearl master custom.wav", "Leaf Crunch 1.wav", "MLPERC_Clang_6.wav", "Leaf Crunch 1.wav", "kick 2 inside - 22in pearl master custom.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav", "Leaf Crunch 1.wav" ],
+								"plays" : "vsti",
+								"vst" : "TAL-NoiseMaker.dll",
+								"pre-set" : 98,
+								"octave" : -4
+							}
+,
+							"2" : 							{
+								"octave" : 2,
+								"pre-set" : 167,
+								"vst" : "TAL-NoiseMaker.dll",
+								"samples" : [ "snare-pinch.wav", "tom-acoustic01.wav", "tom-acoustic01.wav", "hihat-808.wav", "808-Kicks18.wav", "hihat-plain.wav", "tom-acoustic01.wav", "hihat-plain.wav", "hihat-plain.wav", "tom-acoustic01.wav", "hihat-808.wav", "hihat-plain.wav", "808-Kicks18.wav", "no snare snare 1 - 14in pearl master custom.wav", "snare-pinch.wav", "tom-acoustic01.wav", "tom-acoustic01.wav", "snare-pinch.wav", "808-Kicks18.wav", "808-Kicks01.wav", "hihat-plain.wav", "snare-pinch.wav", "no snare snare 5 - 14in pearl master custom.wav", "snare-pinch.wav", "snare-pinch.wav", "hihat-plain.wav", "hihat-plain.wav", "no snare snare 5 - 14in pearl master custom.wav", "snare-pinch.wav", "hihat-plain.wav", "tom-acoustic01.wav", "no snare snare 5 - 14in pearl master custom.wav", "808-Kicks01.wav", "tom-acoustic01.wav", "tom-acoustic01.wav", "hihat-plain.wav", "perc-laser.wav", "snare-pinch.wav", "hihat-plain.wav", "snare bottom 2 - 14in pearl master custom.wav", "tom-acoustic01.wav", "Glorkglunk - Wet vocal.wav", "hihat-plain.wav", "808-Kicks18.wav", "tom-acoustic01.wav", "snare-pinch.wav", "snare-pinch.wav", "tom-acoustic01.wav", "snare-pinch.wav", "808-Kicks18.wav", "no snare snare 1 - 14in pearl master custom.wav", "hihat-plain.wav", "808-Snare31.wav", "no snare snare 1 - 14in pearl master custom.wav", "tom-acoustic01.wav", "hihat-plain.wav", "808-Kicks01.wav", "snare-pinch.wav", "snare-pinch.wav", "tom-acoustic01.wav", "tom-acoustic01.wav", "snare-pinch.wav", "tom-acoustic01.wav", "hihat-plain.wav", "snare bottom 2 - 14in pearl master custom.wav", "no snare snare 5 - 14in pearl master custom.wav", "snare-pinch.wav", "tom-acoustic01.wav", "808-Kicks18.wav", "Man From Sol ---+- [F].wav", "snare-pinch.wav", "808-Kicks01.wav", "808-Kicks01.wav", "hihat-plain.wav", "snare-pinch.wav", "snare-pinch.wav", "no snare snare 5 - 14in pearl master custom.wav", "tom-acoustic01.wav", "tom-acoustic01.wav", "tom-acoustic01.wav", "tom-acoustic01.wav", "808-Kicks18.wav", "tom-acoustic01.wav", "snare-pinch.wav", "tom-acoustic01.wav", "hihat-808.wav", "snare-pinch.wav", "no snare snare 1 - 14in pearl master custom.wav", "perc-laser.wav", "808-Snare31.wav", "snare-pinch.wav", "808-Kicks18.wav", "snare bottom 2 - 14in pearl master custom.wav", "hihat-plain.wav", "808-Kicks01.wav", "no snare snare 5 - 14in pearl master custom.wav", "perc-laser.wav", "tom-acoustic01.wav", "snare-pinch.wav", "Man From Sol - Ew Blip.wav", "no snare snare 5 - 14in pearl master custom.wav", "tom-acoustic01.wav", "tom-acoustic01.wav", "tom-acoustic01.wav", "Man From Sol - Ew Blip.wav", "tom-acoustic01.wav", "no snare snare 1 - 14in pearl master custom.wav", "hihat-plain.wav", "808-Kicks01.wav", "snare-pinch.wav", "808-Kicks18.wav", "808-Kicks18.wav", "808-Kicks01.wav", "no snare snare 5 - 14in pearl master custom.wav", "tom-acoustic01.wav", "tom-acoustic01.wav", "tom-acoustic01.wav", "hihat-plain.wav", "tom-acoustic01.wav", "808-Kicks18.wav", "tom-acoustic01.wav", "808-Kicks01.wav", "no snare snare 1 - 14in pearl master custom.wav", "snare bottom 2 - 14in pearl master custom.wav", "tom-acoustic01.wav", "Man From Sol - Ew Blip.wav", "no snare snare 5 - 14in pearl master custom.wav", "808-Kicks01.wav" ],
+								"plays" : "vsti"
+							}
+,
+							"3" : 							{
+								"octave" : 5,
+								"pre-set" : 54,
+								"vst" : "Iota Mini.dll",
+								"samples" : [ "808-Kicks17.wav", "kick-tron.wav", "kick-tron.wav", "kick-acoustic02.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Kicks17.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Kicks17.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "kick-tron.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-tron.wav", "kick 4 outside - 22in pearl master custom.wav", "kick-tron.wav", "kick-tron.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-tron.wav", "808-Kicks17.wav", "kick 4 outside - 22in pearl master custom.wav", "808-Kicks17.wav", "kick 4 outside - 22in pearl master custom.wav", "kick-tron.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-tron.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "808-HiHats12.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "808-HiHats12.wav", "kick-tron.wav", "kick-tron.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "808-HiHats12.wav", "kick 4 outside - 22in pearl master custom.wav", "kick-acoustic02.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Kicks17.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-tron.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Kicks17.wav", "808-Kicks17.wav", "kick-acoustic02.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-acoustic02.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Kicks17.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-tron.wav", "kick-tron.wav", "808-Kicks17.wav", "808-HiHats12.wav", "floor tom 5 - 14in pearl master custom.wav", "808-HiHats12.wav", "kick-tron.wav", "kick-tron.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Kicks17.wav", "808-Kicks17.wav", "808-HiHats12.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Kicks17.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "808-Kicks17.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "808-HiHats12.wav", "808-HiHats12.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "808-HiHats12.wav", "kick 4 outside - 22in pearl master custom.wav", "808-Kicks17.wav", "kick-tron.wav", "kick 4 outside - 22in pearl master custom.wav", "808-HiHats12.wav", "808-Kicks17.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "808-Kicks17.wav", "kick 4 outside - 22in pearl master custom.wav", "808-Kicks17.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-acoustic02.wav", "808-Kicks17.wav", "kick-acoustic02.wav", "808-HiHats12.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Kicks17.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-tron.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-tron.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Kicks17.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "kick-tron.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "kick-acoustic02.wav" ],
+								"plays" : "sampler"
+							}
+,
+							"4" : 							{
+								"octave" : -2,
+								"pre-set" : 1,
+								"vst" : "AGML2.dll",
+								"samples" : [ "tom-lofi.wav", "perc-laser.wav", "kick-acoustic02.wav", "snare-acoustic01.wav", "808-Snare23.wav", "kick-acoustic02.wav", "hihat-electro.wav", "tom-lofi.wav", "snare-808.wav", "snare-acoustic01.wav", "hihat-electro.wav", "large china 6 - 22in zildjian.wav", "snare-acoustic01.wav", "tom-lofi.wav", "large china 6 - 22in zildjian.wav", "snare-808.wav", "large china 6 - 22in zildjian.wav", "large china 6 - 22in zildjian.wav", "med tom 1 - 12in pearl master custom.wav", "snare-808.wav", "hihat-electro.wav", "large china 6 - 22in zildjian.wav", "808-Tom5.wav", "tom-lofi.wav", "snare-acoustic01.wav", "808-Snare20.wav", "snare-acoustic01.wav", "large china 6 - 22in zildjian.wav", "hihat-electro.wav", "808-Clap07.wav", "large china 6 - 22in zildjian.wav", "snare-acoustic01.wav", "large china 6 - 22in zildjian.wav", "kick-acoustic02.wav", "tom-lofi.wav", "med tom 1 - 12in pearl master custom.wav", "large china 6 - 22in zildjian.wav", "med tom 1 - 12in pearl master custom.wav", "snare-808.wav", "snare-electro.wav", "snare-808.wav", "hihat-electro.wav", "808-Snare23.wav", "snare-808.wav", "sunnk - hat 05.wav", "perc-laser.wav", "tom-lofi.wav", "kick-acoustic02.wav", "large china 6 - 22in zildjian.wav", "808-Snare23.wav", "snare-808.wav", "tom-lofi.wav", "snare-acoustic01.wav", "hihat-electro.wav", "large china 6 - 22in zildjian.wav", "snare-808.wav", "kick-acoustic02.wav", "808-Snare23.wav", "kick-acoustic02.wav", "med tom 1 - 12in pearl master custom.wav", "snare-808.wav", "snare-808.wav", "tom-lofi.wav", "hihat-electro.wav", "snare-electro.wav", "large china 6 - 22in zildjian.wav", "large china 6 - 22in zildjian.wav", "large china 6 - 22in zildjian.wav", "808-Snare23.wav", "large china 6 - 22in zildjian.wav", "MLPERC_Spring_9.wav", "808-Snare20.wav", "large china 6 - 22in zildjian.wav", "808-Snare28.wav", "snare-electro.wav", "large china 6 - 22in zildjian.wav", "snare-acoustic01.wav", "large china 6 - 22in zildjian.wav", "large china 6 - 22in zildjian.wav", "snare-electro.wav", "large china 6 - 22in zildjian.wav", "snare-808.wav", "large china 6 - 22in zildjian.wav", "sunnk - snare 21.wav", "large china 6 - 22in zildjian.wav", "tom-lofi.wav", "large china 6 - 22in zildjian.wav", "large china 6 - 22in zildjian.wav", "tom-lofi.wav", "kick-acoustic02.wav", "large china 6 - 22in zildjian.wav", "snare-acoustic01.wav", "snare-electro.wav", "large china 6 - 22in zildjian.wav", "snare-808.wav", "med tom 1 - 12in pearl master custom.wav", "tom-lofi.wav", "meii - v3_Snare25.wav", "kick-acoustic02.wav", "snare-808.wav", "large china 6 - 22in zildjian.wav", "large china 6 - 22in zildjian.wav", "med tom 1 - 12in pearl master custom.wav", "med tom 1 - 12in pearl master custom.wav", "hihat-electro.wav", "808-Snare20.wav", "snare-808.wav", "snare-acoustic01.wav", "tom-lofi.wav", "hihat-electro.wav", "snare-acoustic01.wav", "large china 6 - 22in zildjian.wav", "snare-808.wav", "tom-lofi.wav", "large china 6 - 22in zildjian.wav", "snare-808.wav", "large china 6 - 22in zildjian.wav", "large china 6 - 22in zildjian.wav", "snare-acoustic01.wav", "snare-electro.wav", "snare-electro.wav", "large china 6 - 22in zildjian.wav", "tom-lofi.wav", "large china 6 - 22in zildjian.wav", "808-Snare20.wav", "808-Snare23.wav", "808-Snare20.wav", "808-Snare20.wav" ],
+								"plays" : "vsti"
+							}
+,
+							"5" : 							{
+								"octave" : 5,
+								"pre-set" : 174,
+								"vst" : "TAL-NoiseMaker.dll",
+								"samples" : [ "MLPERC_Clang_3.wav", "Dem Rocks 5.wav", "snare-modular.wav", "Dem Rocks 5.wav", "snare-modular.wav", "MLPERC_Clang_3.wav", "snare-modular.wav", "MLPERC_Clang_3.wav", "Dem Rocks 5.wav", "MLPERC_Clang_3.wav", "Dem Rocks 5.wav", "snare-modular.wav", "snare-modular.wav", "MLPERC_Clang_3.wav", "MLPERC_Clang_3.wav", "MLPERC_Clang_3.wav", "Abroxis - Perc 006.wav", "Dem Rocks 5.wav", "MLPERC_Clang_3.wav", "MLPERC_Short_6.wav", "snare-acoustic01.wav", "MLPERC_Clang_3.wav", "snare-modular.wav", "snare-modular.wav", "Dem Rocks 5.wav", "snare-modular.wav", "snare-acoustic01.wav", "Jim Kimchi - tambourine perc23.wav", "Jim Kimchi - tambourine perc23.wav", "clap-slapper.wav", "snare-acoustic01.wav", "Jim Kimchi - e_perc2.wav", "snare-modular.wav", "Dem Rocks 5.wav", "808-Kicks10.wav", "sunnk - kick 13.wav", "MLPERC_Clang_3.wav", "MLPERC_Clang_3.wav", "Dem Rocks 5.wav", "snare-acoustic01.wav", "MLPERC_Clang_3.wav", "808-Kicks10.wav", "perc-hollow.wav", "snare-acoustic01.wav", "Dem Rocks 5.wav", "MLPERC_Clang_3.wav", "meii - v3_Snare6.wav", "MLPERC_Clang_3.wav", "perc-hollow.wav", "snare-modular.wav", "MLPERC_Clang_3.wav", "MLPERC_Clang_3.wav", "Jim Kimchi - tambourine perc23.wav", "snare-modular.wav", "Dem Rocks 5.wav", "Dem Rocks 5.wav", "sunnk - kick 13.wav", "Dem Rocks 5.wav", "clap-slapper.wav", "Dem Rocks 5.wav", "Jim Kimchi - tambourine perc23.wav", "MLPERC_Clang_3.wav", "MLPERC_Clang_3.wav", "Jim Kimchi - e_perc2.wav", "Jim Kimchi - tambourine perc23.wav", "MLPERC_Clang_3.wav", "Dem Rocks 5.wav", "clap-slapper.wav", "Dem Rocks 5.wav", "MLPERC_Clang_3.wav", "MLPERC_Clang_3.wav", "snare-modular.wav", "perc-hollow.wav", "snare-modular.wav", "snare-modular.wav", "MLPERC_Clang_3.wav", "Dem Rocks 5.wav", "MLPERC_Clang_3.wav", "Jim Kimchi - tambourine perc23.wav", "MLPERC_Clang_3.wav", "snare-acoustic01.wav", "clap-slapper.wav", "Dem Rocks 5.wav", "MLPERC_Clang_3.wav", "808-Kicks10.wav", "Dem Rocks 5.wav", "snare-modular.wav", "snare-modular.wav", "Dem Rocks 5.wav", "MLPERC_Clang_3.wav", "clap-slapper.wav", "snare-acoustic01.wav", "Jim Kimchi - tambourine perc23.wav", "snare-acoustic01.wav", "Dem Rocks 5.wav", "snare-acoustic01.wav", "Dem Rocks 5.wav", "Dem Rocks 5.wav", "MLPERC_Clang_3.wav", "snare-modular.wav", "Jim Kimchi - tambourine perc25.wav", "Dem Rocks 5.wav", "snare-modular.wav", "808-Kicks10.wav", "snare-modular.wav", "MLPERC_Clang_3.wav", "clap-slapper.wav", "Dem Rocks 5.wav", "Dem Rocks 5.wav", "snare-modular.wav", "MLPERC_Clang_3.wav", "snare-modular.wav", "perc-hollow.wav", "Jim Kimchi - tambourine perc23.wav", "MLPERC_Clang_3.wav", "MLPERC_Clang_3.wav", "MLPERC_Clang_3.wav", "sunnk - carved kick [D 37.8].wav", "MLPERC_Clang_3.wav", "MLPERC_Clang_3.wav", "snare-acoustic01.wav", "Dem Rocks 5.wav", "Jim Kimchi - nicesnare1.wav", "MLPERC_Clang_3.wav", "snare-modular.wav", "snare-modular.wav", "snare-modular.wav", "MLPERC_Clang_3.wav" ],
+								"plays" : "sampler"
+							}
+,
+							"6" : 							{
+								"octave" : -7,
+								"pre-set" : 28,
+								"vst" : "TAL-NoiseMaker.dll",
+								"samples" : [ "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-OpenHiHats18.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "808-Clap03.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-OpenHiHats18.wav", "hihat-ring.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Ride2.wav", "808-OpenHiHats18.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "kick 2 inside - 22in pearl master custom.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "kick 2 inside - 22in pearl master custom.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "hihat-ring.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "kick 2 inside - 22in pearl master custom.wav", "808-Clap03.wav", "808-Clap03.wav", "kick 2 inside - 22in pearl master custom.wav", "808-Clap03.wav", "hihat-ring.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "Abroxis - Extended Oneshot 022.wav", "808-Clap03.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "808-Clap03.wav", "kick 2 inside - 22in pearl master custom.wav", "kick 2 inside - 22in pearl master custom.wav", "808-Clap03.wav", "Glorkglunk - Pond Experiment.wav", "meii - v3_Snare23.wav", "kick 2 inside - 22in pearl master custom.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "kick 2 inside - 22in pearl master custom.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "kick 2 inside - 22in pearl master custom.wav", "808-Clap03.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "hihat-ring.wav", "808-Clap03.wav", "808-Clap03.wav", "808-OpenHiHats18.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "kick 2 inside - 22in pearl master custom.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-OpenHiHats18.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Clap03.wav", "808-Ride2.wav", "Abroxis - Extended Oneshot 022.wav", "kick 2 inside - 22in pearl master custom.wav", "808-Clap03.wav", "808-Clap03.wav", "808-OpenHiHats18.wav" ],
+								"plays" : "vsti"
+							}
+,
+							"7" : 							{
+								"octave" : 9,
+								"pre-set" : 6,
+								"vst" : "TAL-NoiseMaker.dll",
+								"samples" : [ "no snare snare 2 - 14in pearl master custom.wav", "808-Clap13.wav", "snare-dist01.wav", "snare_layer_19.WAV", "snare-dist01.wav", "808-Clap13.wav", "snare-dist01.wav", "snare-dist01.wav", "kick-tron.wav", "808-Snare04.wav", "snare-dist01.wav", "no snare snare 5 - 14in pearl master custom.wav", "snare-dist01.wav", "snare-dist01.wav", "soup - kick 1 [C].wav", "808-Clap13.wav", "snare-dist01.wav", "808-Clap13.wav", "snare-dist01.wav", "808-Clap13.wav", "snare-dist01.wav", "no snare snare 5 - 14in pearl master custom.wav", "808-Snare04.wav", "snare-dist01.wav", "snare-dist01.wav", "snare_layer_19.WAV", "snare-dist01.wav", "snare-dist01.wav", "kick-tron.wav", "Abroxis - Meta Kick 11.wav", "no snare snare 5 - 14in pearl master custom.wav", "snare-dist01.wav", "kick-tron.wav", "808-Snare04.wav", "snare-dist01.wav", "snare-dist01.wav", "snare-dist01.wav", "snare_layer_19.WAV", "snare-dist01.wav", "no snare snare 2 - 14in pearl master custom.wav", "kick-tron.wav", "Nuan Sonar - Slop Kick.wav", "kick-tron.wav", "808-Clap13.wav", "snare-dist01.wav", "snare-dist01.wav", "808-Clap13.wav", "no snare snare 2 - 14in pearl master custom.wav", "snare-dist01.wav", "snare-dist01.wav", "808-Clap13.wav", "snare_layer_19.WAV", "26 - Rusty Train Rattle.wav", "kick-tron.wav", "no snare snare 5 - 14in pearl master custom.wav", "808-Clap13.wav", "snare-dist01.wav", "kick-tron.wav", "snare-dist01.wav", "kick-tron.wav", "no snare snare 2 - 14in pearl master custom.wav", "808-Snare04.wav", "snare-dist01.wav", "snare-dist01.wav", "kick-tron.wav", "snare-dist01.wav", "Nuan Sonar - Slop Kick.wav", "808-Snare04.wav", "kick-tron.wav", "no snare snare 5 - 14in pearl master custom.wav", "Abroxis - Meta Kick 11.wav", "snare-dist01.wav", "no snare snare 2 - 14in pearl master custom.wav", "snare-dist01.wav", "808-Clap13.wav", "snare-dist01.wav", "Abroxis - Meta Kick 11.wav", "kick-tron.wav", "snare-dist01.wav", "kick-tron.wav", "snare_layer_19.WAV", "snare_layer_19.WAV", "808-Clap13.wav", "snare-dist01.wav", "kick-tron.wav", "snare-dist01.wav", "snare-dist01.wav", "Abroxis - Meta Kick 11.wav", "snare-dist01.wav", "snare-dist01.wav", "snare_layer_19.WAV", "no snare snare 5 - 14in pearl master custom.wav", "808-Clap13.wav", "808-Snare04.wav", "kick-tron.wav", "Nuan Sonar - Slop Kick.wav", "snare-dist01.wav", "kick-tron.wav", "snare-dist01.wav", "no snare snare 5 - 14in pearl master custom.wav", "808-Clap13.wav", "snare-dist01.wav", "808-Snare04.wav", "Abroxis - Meta Kick 11.wav", "kick-tron.wav", "kick-tron.wav", "no snare snare 2 - 14in pearl master custom.wav", "kick-tron.wav", "snare-dist01.wav", "kick-tron.wav", "snare-dist01.wav", "snare-dist01.wav", "808-Snare04.wav", "kick-tron.wav", "snare-dist01.wav", "kick-tron.wav", "snare-dist01.wav", "snare-dist01.wav", "808-Snare04.wav", "kick-tron.wav", "snare-dist01.wav", "snare-dist01.wav", "snare-dist01.wav", "snare-dist01.wav", "snare-dist01.wav", "snare-dist01.wav", "Nuan Sonar - Slop Kick.wav", "808-Clap13.wav" ],
+								"plays" : "sampler"
+							}
+,
+							"8" : 							{
+								"octave" : -1,
+								"pre-set" : 126,
+								"vst" : "TAL-NoiseMaker.dll",
+								"samples" : [ "meii - v3_HiHat5.wav", "kick-zapper.wav", "clap-slapper.wav", "808-Ride1.wav", "meii - v3_HiHat5.wav", "ride 3 - 18in zildjian.wav", "808-Ride1.wav", "small crash 6 - 16in zildjian.wav", "808-HiHats11.wav", "tom-lofi.wav", "small crash 6 - 16in zildjian.wav", "small crash 6 - 16in zildjian.wav", "clap-tape.wav", "meii - v3_HiHat12.wav", "808-Ride1.wav", "meii - v3_HiHat12.wav", "clap-slapper.wav", "Abroxis - Meta Kick 02.wav", "small crash 6 - 16in zildjian.wav", "808-Ride1.wav", "perc-nasty.wav", "tom-lofi.wav", "kick-zapper.wav", "Jim Kimchi - snapsnare2.wav", "clap-tape.wav", "kick-zapper.wav", "perc-nasty.wav", "clap-slapper.wav", "small crash 6 - 16in zildjian.wav", "808-HiHats04.wav", "clap-tape.wav", "kick-zapper.wav", "clap-slapper.wav", "med tom 3 - 12in pearl master custom.wav", "Abroxis - Updated Snare 02.wav", "meii - v3_HiHat12.wav", "tom-lofi.wav", "808-HiHats11.wav", "clap-slapper.wav", "kick-zapper.wav", "Can Cruncha.wav", "808-Kicks19.wav", "clap-slapper.wav", "meii - v3_HiHat12.wav", "kick-zapper.wav", "perc-nasty.wav", "808-Ride1.wav", "perc-nasty.wav", "small crash 6 - 16in zildjian.wav", "tom-lofi.wav", "clap-tape.wav", "perc-nasty.wav", "kick 6 outside - 22in pearl master custom.wav", "808-Ride1.wav", "perc-nasty.wav", "kick 6 outside - 22in pearl master custom.wav", "small crash 6 - 16in zildjian.wav", "small crash 6 - 16in zildjian.wav", "kick-zapper.wav", "perc-nasty.wav", "clap-slapper.wav", "808-HiHats11.wav", "meii - v3_HiHat12.wav", "small crash 6 - 16in zildjian.wav", "small crash 6 - 16in zildjian.wav", "small crash 6 - 16in zildjian.wav", "perc-nasty.wav", "clap-tape.wav", "perc-nasty.wav", "kick-zapper.wav", "perc-nasty.wav", "tom-lofi.wav", "kick-zapper.wav", "808-HiHats04.wav", "small crash 6 - 16in zildjian.wav", "clap-slapper.wav", "clap-slapper.wav", "clap-tape.wav", "meii - v3_HiHat12.wav", "meii - v3_Kick6 [D].wav", "kick-zapper.wav", "clap-tape.wav", "808-Ride1.wav", "kick-zapper.wav", "808-Ride1.wav", "kick-zapper.wav", "kick-zapper.wav", "tom-lofi.wav", "clap-slapper.wav", "Jim Kimchi - snapsnare2.wav", "small crash 6 - 16in zildjian.wav", "kick-zapper.wav", "kick-zapper.wav", "kick 6 outside - 22in pearl master custom.wav", "808-Ride1.wav", "meii - v3_HiHat5.wav", "808-Ride1.wav", "meii - v3_HiHat12.wav", "meii - v3_HiHat5.wav", "small crash 6 - 16in zildjian.wav", "meii - v3_Kick2 [B].wav", "clap-tape.wav", "kick 6 outside - 22in pearl master custom.wav", "small crash 6 - 16in zildjian.wav", "808-HiHats04.wav", "small crash 6 - 16in zildjian.wav", "clap-tape.wav", "meii - v3_HiHat12.wav", "meii - v3_HiHat12.wav", "kick-zapper.wav", "808-Ride1.wav", "med tom 3 - 12in pearl master custom.wav", "perc-nasty.wav", "clap-tape.wav", "perc-nasty.wav", "kick-zapper.wav", "808-HiHats04.wav", "Jim Kimchi - snapsnare2.wav", "perc-nasty.wav", "small crash 6 - 16in zildjian.wav", "808-Ride1.wav", "clap-slapper.wav", "808-Ride1.wav", "808-HiHats04.wav", "kick-zapper.wav", "tom-lofi.wav", "small crash 6 - 16in zildjian.wav", "clap-tape.wav" ],
+								"plays" : "vsti"
+							}
+,
+							"9" : 							{
+								"octave" : 1,
+								"pre-set" : 17,
+								"vst" : "TAL-NoiseMaker.dll",
+								"samples" : [ "snare_layer_48.WAV", "kick-tron.wav", "Glorkglunk - UI 3.wav", "Dem Rocks 2.wav", "kick-dry.wav", "kick-dry.wav", "Glorkglunk - UI 3.wav", "kick-dry.wav", "kick-dry.wav", "kick-tron.wav", "soup - flap.wav", "Dem Rocks 2.wav", "Abroxis - Extended Oneshot 039.wav", "kick-dry.wav", "Dem Rocks 2.wav", "kick-dry.wav", "hat loose 2 - 13in zildjian remix.wav", "Dem Rocks 2.wav", "Abroxis - Extended Oneshot 022.wav", "kick-tron.wav", "Jim Kimchi - tambourine perc8.wav", "kick-dry.wav", "kick 2 inside - 22in pearl master custom.wav", "Dem Rocks 2.wav", "kick-tron.wav", "hat loose 2 - 13in zildjian remix.wav", "Dem Rocks 2.wav", "808-HiHats02.wav", "808-HiHats02.wav", "sunnk - snare 1A.wav", "808-HiHats13.wav", "Man From Sol ---- [D#].wav", "808-HiHats02.wav", "Dem Rocks 2.wav", "kick-dry.wav", "kick-dry.wav", "Abroxis - Extended Oneshot 039.wav", "kick-dry.wav", "soup - flap.wav", "hat loose 2 - 13in zildjian remix.wav", "Glorkglunk - Snare Weirdo.wav", "kick-dry.wav", "kick-tron.wav", "kick 2 inside - 22in pearl master custom.wav", "kick-tron.wav", "kick 2 inside - 22in pearl master custom.wav", "Dem Rocks 2.wav", "Abroxis - Extended Oneshot 039.wav", "kick 2 inside - 22in pearl master custom.wav", "splash 2 - 6in zildjian.wav", "kick-tron.wav", "Dem Rocks 2.wav", "Dem Rocks 2.wav", "kick-dry.wav", "kick 2 inside - 22in pearl master custom.wav", "kick-dry.wav", "kick-tron.wav", "Dem Rocks 2.wav", "hat loose 2 - 13in zildjian remix.wav", "kick-dry.wav", "Glorkglunk - Water Beeping.wav", "kick-tron.wav", "808-HiHats13.wav", "kick-tron.wav", "Abroxis - Extended Oneshot 039.wav", "kick-tron.wav", "Glorkglunk - UI 3.wav", "sunnk - dead kick 00.wav", "kick-tron.wav", "Dem Rocks 2.wav", "snare_layer_48.WAV", "808-HiHats13.wav", "Dem Rocks 2.wav", "kick-tron.wav", "kick-tron.wav", "808-HiHats02.wav", "kick-tron.wav", "kick-dry.wav", "Dem Rocks 2.wav", "Glorkglunk - UI 3.wav", "808-HiHats02.wav", "Dem Rocks 2.wav", "Dem Rocks 2.wav", "kick 2 inside - 22in pearl master custom.wav", "splash 2 - 6in zildjian.wav", "Dem Rocks 2.wav", "Abroxis - Extended Oneshot 039.wav", "Glorkglunk - Water Beeping.wav", "kick-dry.wav", "Dem Rocks 2.wav", "Dem Rocks 2.wav", "kick 2 inside - 22in pearl master custom.wav", "kick-tron.wav", "Dem Rocks 2.wav", "sunnk - snare 1A.wav", "Dem Rocks 2.wav", "sunnk - snare 1A.wav", "splash 2 - 6in zildjian.wav", "kick-tron.wav", "kick 2 inside - 22in pearl master custom.wav", "kick-tron.wav", "kick-tron.wav", "Dem Rocks 2.wav", "kick 2 inside - 22in pearl master custom.wav", "Dem Rocks 2.wav", "kick-tron.wav", "Dem Rocks 2.wav", "splash 2 - 6in zildjian.wav", "kick-dry.wav", "808-HiHats13.wav", "Dem Rocks 2.wav", "kick-tron.wav", "kick-dry.wav", "808-OpenHiHats17.wav", "808-HiHats02.wav", "Dem Rocks 2.wav", "kick 2 inside - 22in pearl master custom.wav", "Dem Rocks 2.wav", "808-OpenHiHats17.wav", "808-OpenHiHats17.wav", "kick-dry.wav", "Glorkglunk - UI 3.wav", "Dem Rocks 2.wav", "hat loose 2 - 13in zildjian remix.wav", "kick 2 inside - 22in pearl master custom.wav", "kick-dry.wav", "808-HiHats13.wav", "kick 2 inside - 22in pearl master custom.wav" ],
+								"plays" : "sampler"
+							}
+,
+							"10" : 							{
+								"octave" : 3,
+								"pre-set" : 227,
+								"vst" : "TAL-NoiseMaker.dll",
+								"samples" : [ "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "kick-tron.wav", "Jim Kimchi - lofiperc2.wav", "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "ride 6 - 18in zildjian.wav", "snare bottom 1 - 14in pearl master custom.wav", "snare bottom 1 - 14in pearl master custom.wav", "Abroxis - Meta Kick 01.wav", "snare bottom 1 - 14in pearl master custom.wav", "Jim Kimchi - spaceperc1.wav", "snare bottom 1 - 14in pearl master custom.wav", "snare bottom 1 - 14in pearl master custom.wav", "ride 6 - 18in zildjian.wav", "kick-tron.wav", "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "kick-tron.wav", "snare bottom 1 - 14in pearl master custom.wav", "snare bottom 1 - 14in pearl master custom.wav", "snare bottom 1 - 14in pearl master custom.wav", "Jim Kimchi - lofiperc2.wav", "snare bottom 1 - 14in pearl master custom.wav", "Jim Kimchi - jingle bells perc3.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "kick-tron.wav", "snare bottom 1 - 14in pearl master custom.wav", "ride 6 - 18in zildjian.wav", "snare bottom 1 - 14in pearl master custom.wav", "snare bottom 1 - 14in pearl master custom.wav", "ride 6 - 18in zildjian.wav", "kick-tron.wav", "Jim Kimchi - lofiperc2.wav", "snare bottom 1 - 14in pearl master custom.wav", "ride 6 - 18in zildjian.wav", "kick-tron.wav", "kick-tron.wav", "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "snare bottom 1 - 14in pearl master custom.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "snare bottom 1 - 14in pearl master custom.wav", "ride 6 - 18in zildjian.wav", "Jim Kimchi - lofiperc2.wav", "kick-tron.wav", "808-Rim1.wav", "kick-tron.wav", "Jim Kimchi - lofiperc2.wav", "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "ride 6 - 18in zildjian.wav", "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "kick-tron.wav", "kick-tron.wav", "kick-tron.wav", "Jim Kimchi - lofiperc2.wav", "snare bottom 1 - 14in pearl master custom.wav", "snare bottom 1 - 14in pearl master custom.wav", "snare bottom 1 - 14in pearl master custom.wav", "ride 6 - 18in zildjian.wav", "snare bottom 1 - 14in pearl master custom.wav", "ride 6 - 18in zildjian.wav", "Jim Kimchi - lofiperc2.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "snare bottom 1 - 14in pearl master custom.wav", "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "kick-tron.wav", "snare bottom 1 - 14in pearl master custom.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "kick-tron.wav", "snare bottom 1 - 14in pearl master custom.wav", "ride 6 - 18in zildjian.wav", "kick-tron.wav", "kick-tron.wav", "kick-tron.wav", "snare bottom 1 - 14in pearl master custom.wav", "snare bottom 1 - 14in pearl master custom.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "808-Rim1.wav", "kick-tron.wav", "kick-tron.wav", "meii - v3_Kick10 [D].wav", "snare bottom 1 - 14in pearl master custom.wav", "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "kick-tron.wav", "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "kick-tron.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "kick-tron.wav", "ride 6 - 18in zildjian.wav", "ride 6 - 18in zildjian.wav", "kick-tron.wav", "kick-tron.wav", "kick-tron.wav", "Jim Kimchi - lofiperc2.wav", "snare bottom 1 - 14in pearl master custom.wav", "kick-tron.wav", "kick-tron.wav", "ride 6 - 18in zildjian.wav", "kick-tron.wav", "ride 6 - 18in zildjian.wav", "snare bottom 1 - 14in pearl master custom.wav", "snare bottom 1 - 14in pearl master custom.wav", "Abroxis - Updated Snare 04.wav", "kick-tron.wav" ],
+								"plays" : "sampler"
+							}
+,
+							"11" : 							{
+								"octave" : 5,
+								"pre-set" : 23,
+								"vst" : "Dexed.dll",
+								"samples" : [ "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "808-HiHats23.wav", "kick-zapper.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Snare34.wav", "floor tom 5 - 14in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "Jim Kimchi - spaceperc7.wav", "kick-zapper.wav", "kick-zapper.wav", "floor tom 5 - 14in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "meii - v3_HiHat13.wav", "808-Snare19.wav", "808-Snare34.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-zapper.wav", "floor tom 5 - 14in pearl master custom.wav", "808-HiHats23.wav", "808-Snare34.wav", "kick 4 outside - 22in pearl master custom.wav", "808-Snare19.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Snare19.wav", "floor tom 5 - 14in pearl master custom.wav", "808-HiHats23.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "kick-zapper.wav", "kick-zapper.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "meii - v3_HiHat13.wav", "meii - v3_HiHat13.wav", "openhat-808.wav", "floor tom 5 - 14in pearl master custom.wav", "hihat-reso.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "808-HiHats23.wav", "kick-zapper.wav", "kick-zapper.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "meii - v3_HiHat13.wav", "kick 4 outside - 22in pearl master custom.wav", "hihat-reso.wav", "kick 4 outside - 22in pearl master custom.wav", "808-Snare34.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Snare34.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-zapper.wav", "808-Snare34.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-zapper.wav", "808-Snare19.wav", "snare bottom 5 - 14in pearl master custom.wav", "meii - v3_HiHat13.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick-zapper.wav", "808-HiHats23.wav", "kick-zapper.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Snare19.wav", "kick-zapper.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Snare19.wav", "kick-zapper.wav", "Jim Kimchi - tambourine perc14.wav", "floor tom 5 - 14in pearl master custom.wav", "meii - v3_HiHat13.wav", "kick-zapper.wav", "meii - v3_HiHat13.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "meii - v3_HiHat13.wav", "808-Snare34.wav", "meii - v3_HiHat13.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "808-HiHats23.wav", "kick-zapper.wav", "kick 4 outside - 22in pearl master custom.wav", "kick 4 outside - 22in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "floor tom 5 - 14in pearl master custom.wav", "808-OpenHiHats04.wav", "808-Snare19.wav", "floor tom 5 - 14in pearl master custom.wav", "808-Snare34.wav", "kick-zapper.wav", "kick-zapper.wav", "kick 4 outside - 22in pearl master custom.wav", "kick-zapper.wav", "floor tom 5 - 14in pearl master custom.wav", "meii - v3_HiHat13.wav", "small tom 5 - 10in pearl master custom.wav", "808-HiHats23.wav", "kick 4 outside - 22in pearl master custom.wav", "kick-zapper.wav", "kick-zapper.wav", "808-Snare19.wav", "kick 4 outside - 22in pearl master custom.wav" ],
+								"plays" : "sampler"
+							}
+,
+							"12" : 							{
+								"octave" : -4,
+								"pre-set" : 68,
+								"vst" : "TAL-NoiseMaker.dll",
+								"samples" : [ "ride-acoustic02.wav", "MLPERC_Thud_4.wav", "MLPERC_Thud_11.wav", "hat tight 3 - 13in zildjian remix.wav", "808-Clap06.wav", "hat tight 3 - 13in zildjian remix.wav", "Man From Sol - Bowler.wav", "hat tight 3 - 13in zildjian remix.wav", "Man From Sol - Bowler.wav", "hat tight 3 - 13in zildjian remix.wav", "Man From Sol - Bowler.wav", "MLPERC_Thud_11.wav", "MLPERC_Thud_11.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "808-Clap06.wav", "ride-acoustic02.wav", "meii - v3_HiHat6.wav", "hat tight 3 - 13in zildjian remix.wav", "ride-acoustic02.wav", "808-Clap06.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "MLPERC_Thud_4.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "ride-acoustic02.wav", "MLPERC_Thud_4.wav", "small tom 1 - 10in pearl master custom.wav", "small tom 1 - 10in pearl master custom.wav", "hat tight 3 - 13in zildjian remix.wav", "808-Clap06.wav", "ride-acoustic02.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "MLPERC_Thud_11.wav", "ride-acoustic02.wav", "hat tight 3 - 13in zildjian remix.wav", "small tom 1 - 10in pearl master custom.wav", "MLPERC_Thud_4.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "MLPERC_Thud_11.wav", "hat tight 3 - 13in zildjian remix.wav", "MLPERC_Thud_11.wav", "hat tight 3 - 13in zildjian remix.wav", "ride-acoustic02.wav", "Man From Sol - Bowler.wav", "hat tight 3 - 13in zildjian remix.wav", "snare-lofi02.wav", "hat tight 3 - 13in zildjian remix.wav", "MLPERC_Thud_11.wav", "hat tight 3 - 13in zildjian remix.wav", "small tom 1 - 10in pearl master custom.wav", "ride-acoustic02.wav", "small tom 1 - 10in pearl master custom.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "snare-lofi02.wav", "Man From Sol - Bowler.wav", "ride-acoustic02.wav", "MLPERC_Thud_11.wav", "ride-acoustic02.wav", "hat tight 3 - 13in zildjian remix.wav", "ride-acoustic02.wav", "snare-lofi02.wav", "MLPERC_Thud_5.wav", "hat tight 3 - 13in zildjian remix.wav", "Man From Sol - Bowler.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "ride-acoustic02.wav", "snare_layer_13.WAV", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "snare_layer_13.WAV", "Man From Sol - Bowler.wav", "ride-acoustic02.wav", "MLPERC_Thud_4.wav", "hat tight 3 - 13in zildjian remix.wav", "ride-acoustic02.wav", "snare_layer_13.WAV", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "ride-acoustic02.wav", "MLPERC_Thud_4.wav", "hat tight 3 - 13in zildjian remix.wav", "MLPERC_Thud_11.wav", "808-Clap06.wav", "hat tight 3 - 13in zildjian remix.wav", "ride-acoustic02.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "ride-acoustic02.wav", "MLPERC_Thud_11.wav", "MLPERC_Thud_4.wav", "hat tight 3 - 13in zildjian remix.wav", "MLPERC_Thud_4.wav", "MLPERC_Thud_11.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "MLPERC_Thud_5.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "meii - v3_HiHat6.wav", "ride-acoustic02.wav", "ride-acoustic02.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "ride-acoustic02.wav", "MLPERC_Thud_11.wav", "hat tight 3 - 13in zildjian remix.wav", "hat tight 3 - 13in zildjian remix.wav", "MLPERC_Thud_4.wav", "ride-acoustic02.wav", "ride-acoustic02.wav", "ride-acoustic02.wav", "hat tight 3 - 13in zildjian remix.wav" ],
+								"plays" : "vsti"
+							}
+,
+							"13" : 							{
+								"octave" : 5,
+								"pre-set" : 17,
+								"vst" : "Iota Mini.dll",
+								"samples" : [ "sunnk - clap 03.wav", "808-Conga2.wav", "perc-nasty.wav", "sunnk - kick 21.wav", "808-Conga2.wav", "808-Conga4.wav", "clap-slapper.wav", "perc-nasty.wav", "large china 2 - 22in zildjian.wav", "808-Conga2.wav", "Leaf Crunch 2.wav", "808-Conga2.wav", "clap-slapper.wav", "808-Conga2.wav", "808-Conga2.wav", "Leaf Crunch 2.wav", "clap-slapper.wav", "Leaf Crunch 2.wav", "808-Conga2.wav", "808-Conga2.wav", "perc-nasty.wav", "808-Conga2.wav", "clap-slapper.wav", "snare-pinch.wav", "808-Conga2.wav", "snare-pinch.wav", "perc-nasty.wav", "clap-slapper.wav", "snare-pinch.wav", "hihat-acoustic02.wav", "808-Conga2.wav", "808-Conga2.wav", "808-Conga2.wav", "808-Conga2.wav", "808-Conga2.wav", "clap-slapper.wav", "808-Conga4.wav", "Leaf Crunch 2.wav", "hihat-acoustic02.wav", "large china 2 - 22in zildjian.wav", "snare-pinch.wav", "808-Conga2.wav", "808-Conga2.wav", "808-Conga2.wav", "clap-slapper.wav", "snare-pinch.wav", "hihat-acoustic02.wav", "hihat-acoustic02.wav", "808-Conga2.wav", "Leaf Crunch 2.wav", "808-Conga2.wav", "808-Conga2.wav", "perc-nasty.wav", "808-Conga4.wav", "hihat-acoustic02.wav", "808-Conga2.wav", "808-Conga2.wav", "snare-pinch.wav", "hihat-acoustic02.wav", "808-Conga2.wav", "Leaf Crunch 2.wav", "808-Conga2.wav", "snare-pinch.wav", "hihat-acoustic02.wav", "clap-slapper.wav", "snare-pinch.wav", "snare-pinch.wav", "perc-nasty.wav", "hihat-acoustic02.wav", "snare-pinch.wav", "hihat-acoustic02.wav", "808-Conga2.wav", "hihat-acoustic02.wav", "snare-pinch.wav", "808-Conga2.wav", "perc-nasty.wav", "perc-nasty.wav", "snare-pinch.wav", "hat loose 4 - 13in zildjian remix.wav", "808-Conga2.wav", "808-Conga2.wav", "snare-pinch.wav", "snare-pinch.wav", "808-Conga2.wav", "snare-pinch.wav", "808-Conga2.wav", "808-Conga2.wav", "snare-pinch.wav", "snare-pinch.wav", "hihat-acoustic02.wav", "808-Conga2.wav", "808-Conga2.wav", "hihat-acoustic02.wav", "clap-slapper.wav", "808-Conga2.wav", "hihat-acoustic02.wav", "snare-pinch.wav", "808-Conga2.wav", "808-Conga2.wav", "808-Conga2.wav", "808-Conga2.wav", "808-Conga2.wav", "hihat-acoustic02.wav", "808-Conga2.wav", "808-Conga2.wav", "snare-pinch.wav", "808-Conga2.wav", "snare-pinch.wav", "808-Conga4.wav", "snare-pinch.wav", "snare-pinch.wav", "808-Conga2.wav", "snare-pinch.wav", "808-Conga2.wav", "hihat-acoustic02.wav", "808-Snare25.wav", "808-Conga2.wav", "hihat-acoustic02.wav", "808-Conga2.wav", "large china 2 - 22in zildjian.wav", "snare-pinch.wav", "808-Conga2.wav", "808-Conga4.wav", "Leaf Crunch 2.wav", "hihat-acoustic02.wav", "perc-nasty.wav", "perc-nasty.wav", "hihat-acoustic02.wav" ],
+								"plays" : "vsti"
+							}
+,
+							"14" : 							{
+								"octave" : -7,
+								"pre-set" : 47,
+								"vst" : "Iota Mini.dll",
+								"samples" : [ "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "hihat-electro.wav", "808-OpenHiHats01.wav", "hihat-808.wav", "hihat-808.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "hihat-808.wav", "808-OpenHiHats01.wav", "hihat-808.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "sunnk - dead kick 00.wav", "808-OpenHiHats01.wav", "hihat-808.wav", "hihat-electro.wav", "hat open 1 - 13in zildjian remix.wav", "hihat-electro.wav", "808-OpenHiHats01.wav", "hihat-808.wav", "808-OpenHiHats01.wav", "808-Maracas2.wav", "808-OpenHiHats01.wav", "hihat-electro.wav", "hihat-electro.wav", "meii - v3_HiHat18.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "Jim Kimchi - beetle.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "hihat-808.wav", "hihat-digital.wav", "hihat-808.wav", "808-OpenHiHats01.wav", "hihat-808.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats14.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats14.wav", "hat open 1 - 13in zildjian remix.wav", "hihat-808.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "hihat-digital.wav", "808-OpenHiHats01.wav", "hihat-808.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "hat open 1 - 13in zildjian remix.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats14.wav", "808-Maracas2.wav", "hat open 1 - 13in zildjian remix.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats14.wav", "808-OpenHiHats01.wav", "hihat-digital.wav", "808-OpenHiHats01.wav", "hihat-808.wav", "808-OpenHiHats01.wav", "808-Maracas2.wav", "808-OpenHiHats01.wav", "hat open 1 - 13in zildjian remix.wav", "meii - v3_HiHat18.wav", "hihat-808.wav", "808-Maracas2.wav", "808-OpenHiHats01.wav", "808-Maracas2.wav", "808-OpenHiHats14.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "hihat-808.wav", "808-OpenHiHats01.wav", "hihat-808.wav", "808-Maracas2.wav", "hat open 1 - 13in zildjian remix.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-Maracas2.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-Maracas2.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "hihat-digital.wav", "hat open 1 - 13in zildjian remix.wav", "808-OpenHiHats01.wav", "hat open 1 - 13in zildjian remix.wav", "808-Maracas2.wav", "hihat-808.wav", "hihat-808.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "sunnk - perc 0B.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-Maracas2.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "808-OpenHiHats01.wav", "hihat-808.wav" ],
+								"plays" : "vsti"
+							}
+,
+							"15" : 							{
+								"octave" : 9,
+								"pre-set" : 17,
+								"vst" : "Iota Mini.dll",
+								"samples" : [ "kick-808.wav", "hihat-acoustic02.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "hihat-acoustic02.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "hihat-acoustic02.wav", "MLPERC_Thud_9.wav", "MLPERC_Thud_9.wav", "snare-brute.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "snare-brute.wav", "MLPERC_Thud_9.wav", "MLPERC_Thud_9.wav", "MLPERC_Thud_9.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "hihat-acoustic02.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "MLPERC_Thud_9.wav", "hihat-acoustic02.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "hihat-acoustic02.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "snare-brute.wav", "MLPERC_Thud_9.wav", "hihat-acoustic02.wav", "hihat-acoustic02.wav", "hihat-acoustic02.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "hihat-acoustic02.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "MLPERC_Thud_9.wav", "MLPERC_Thud_9.wav", "hihat-acoustic02.wav", "MLPERC_Thud_9.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "MLPERC_Thud_9.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "hihat-acoustic02.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "snare-brute.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "hihat-acoustic02.wav", "kick-808.wav", "kick-808.wav", "hihat-acoustic02.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "MLPERC_Thud_9.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "kick-808.wav", "MLPERC_Thud_9.wav" ],
+								"plays" : "sampler"
+							}
+,
+							"16" : 							{
+								"octave" : 5,
+								"pre-set" : 91,
+								"vst" : "TAL-NoiseMaker.dll",
+								"samples" : [ "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "Rock Droppa.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Conga6.wav", "meii - v3_KickK5 [D].wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-HiHats07.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-HiHats07.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-HiHats07.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "Rock Droppa.wav", "808-Kicks11.wav", "808-Kicks11.wav", "Rock Droppa.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-HiHats07.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "Rock Droppa.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Conga6.wav", "808-Kicks11.wav", "808-Kicks11.wav", "808-Kicks11.wav", "meii - v3_KickK5 [D].wav" ],
+								"plays" : "sampler"
+							}
+,
+							"17" : 							{
+								"octave" : -5,
+								"pre-set" : 229,
+								"vst" : "TAL-NoiseMaker.dll",
+								"samples" : [ "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "hihat-ring.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "meii - v3_Kick3 [D].wav", "large crash 4 - 18in zildjian.wav", "hihat-ring.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "meii - v3_Kick3 [D].wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "hihat-ring.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "Leaf Crunch 1.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "Leaf Crunch 1.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav", "large crash 4 - 18in zildjian.wav" ],
+								"plays" : "vsti"
+							}
+,
+							"18" : 							{
+								"octave" : 8,
+								"pre-set" : 17,
+								"vst" : "Iota Mini.dll",
+								"samples" : [ "large china 4 - 22in zildjian.wav", "snare_layer_13.WAV", "808-Stick2.wav", "808-Stick2.wav", "808-Snare04.wav", "snare_layer_13.WAV", "snare_layer_13.WAV", "snare_layer_13.WAV", "large china 4 - 22in zildjian.wav", "808-Stick2.wav", "808-Snare04.wav", "snare_layer_13.WAV", "808-Snare04.wav", "snare_layer_13.WAV", "snare_layer_13.WAV", "808-Stick2.wav", "large china 4 - 22in zildjian.wav", "MLPERC_Clamp_1.wav", "snare_layer_13.WAV", "large china 4 - 22in zildjian.wav", "Jim Kimchi - e_perc5.wav", "808-HiHats04.wav", "snare_layer_13.WAV", "snare_layer_13.WAV", "large china 4 - 22in zildjian.wav", "snare_layer_13.WAV", "snare_layer_13.WAV", "808-Snare04.wav", "snare_layer_13.WAV", "snare_layer_13.WAV", "snare_layer_13.WAV", "sunnk - snare 21.wav", "snare_layer_13.WAV", "large china 4 - 22in zildjian.wav", "large china 4 - 22in zildjian.wav", "snare_layer_13.WAV", "large china 4 - 22in zildjian.wav", "snare_layer_13.WAV", "kick-stomp.wav", "snare_layer_13.WAV", "808-Stick2.wav", "808-Stick2.wav", "snare_layer_13.WAV", "808-HiHats04.wav", "snare_layer_13.WAV", "808-Stick2.wav", "808-Stick2.wav", "kick-stomp.wav", "kick-stomp.wav", "large china 4 - 22in zildjian.wav", "808-Stick2.wav", "large china 4 - 22in zildjian.wav", "large china 4 - 22in zildjian.wav", "large china 4 - 22in zildjian.wav", "snare_layer_13.WAV", "snare_layer_13.WAV", "snare_layer_13.WAV", "MLPERC_Clamp_1.wav", "snare_layer_13.WAV", "kick-stomp.wav", "808-Stick2.wav", "large china 4 - 22in zildjian.wav", "Glorkglunk - Cliunksy.wav", "808-Snare04.wav", "snare_layer_13.WAV", "808-Stick2.wav", "splash 2 - 6in zildjian.wav", "Jim Kimchi - weirdsnare2.wav", "snare_layer_13.WAV", "large china 4 - 22in zildjian.wav", "snare_layer_13.WAV", "MLPERC_Clamp_1.wav", "MLPERC_Clamp_1.wav", "808-Snare04.wav", "large china 4 - 22in zildjian.wav", "808-Snare04.wav", "kick-stomp.wav", "large china 4 - 22in zildjian.wav", "large china 4 - 22in zildjian.wav", "808-Tom1.wav", "snare_layer_13.WAV", "snare_layer_13.WAV", "Rock Droppa 3.wav", "808-Snare04.wav", "snare_layer_13.WAV", "snare_layer_13.WAV", "large china 4 - 22in zildjian.wav", "808-Stick2.wav", "snare_layer_13.WAV", "snare_layer_13.WAV", "808-Stick2.wav", "large china 4 - 22in zildjian.wav", "large china 4 - 22in zildjian.wav", "Jim Kimchi - weirdsnare2.wav", "snare_layer_13.WAV", "kick-stomp.wav", "snare_layer_13.WAV", "snare_layer_13.WAV", "large china 4 - 22in zildjian.wav", "808-Snare04.wav", "large china 4 - 22in zildjian.wav", "snare_layer_13.WAV", "808-Stick2.wav", "snare_layer_13.WAV", "large china 4 - 22in zildjian.wav", "snare_layer_13.WAV", "808-Stick2.wav", "808-Stick2.wav", "kick-stomp.wav", "snare_layer_13.WAV", "808-Snare04.wav", "snare_layer_13.WAV", "808-Stick2.wav", "snare_layer_13.WAV", "large china 4 - 22in zildjian.wav", "808-Stick2.wav", "large china 4 - 22in zildjian.wav", "splash 2 - 6in zildjian.wav", "808-Snare04.wav", "kick-stomp.wav", "soup - kick 10 [F#].wav", "snare_layer_13.WAV", "large china 4 - 22in zildjian.wav", "808-Stick2.wav", "snare_layer_13.WAV", "snare_layer_13.WAV", "808-Snare04.wav", "808-Snare04.wav" ],
+								"plays" : "sampler"
+							}
+,
+							"19" : 							{
+								"octave" : 5,
+								"pre-set" : 15,
+								"vst" : "TAL-NoiseMaker.dll",
+								"samples" : [ "kick-deep.wav", "kick-floppy.wav", "large china 4 - 22in zildjian.wav", "snare-dist02.wav", "MLPERC_Thud_2.wav", "Jim Kimchi - daxophone kick.wav", "snare-dist02.wav", "Jim Kimchi - daxophone kick.wav", "Man From Sol - Cyber Hype [D].wav", "hat tight 4 - 13in zildjian remix.wav", "kick-floppy.wav", "hihat-electro.wav", "808-HiHats21.wav", "Abroxis - Perc 008.wav", "hat tight 4 - 13in zildjian remix.wav", "kick-dry.wav", "hat tight 4 - 13in zildjian remix.wav", "large china 4 - 22in zildjian.wav", "kick-dry.wav", "kick-dry.wav", "MLPERC_Thud_2.wav", "kick-dry.wav", "snare-dist02.wav", "snare-dist02.wav", "hat tight 4 - 13in zildjian remix.wav", "snare-dist02.wav", "Glorkglunk - Water Beeping.wav", "Abroxis - Perc 008.wav", "Abroxis - Perc 008.wav", "kick-floppy.wav", "kick-dry.wav", "large china 4 - 22in zildjian.wav", "large china 4 - 22in zildjian.wav", "kick-floppy.wav", "snare-dist02.wav", "large china 4 - 22in zildjian.wav", "kick-dry.wav", "snare-dist02.wav", "large china 4 - 22in zildjian.wav", "Abroxis - Perc 008.wav", "kick-floppy.wav", "snare-dist02.wav", "large china 4 - 22in zildjian.wav", "hat tight 4 - 13in zildjian remix.wav", "hat tight 4 - 13in zildjian remix.wav", "kick-floppy.wav", "kick-floppy.wav", "kick-dry.wav", "kick-dry.wav", "kick-dry.wav", "snare-dist02.wav", "kick-dry.wav", "snare-dist02.wav", "hat tight 4 - 13in zildjian remix.wav", "kick-dry.wav", "hihat-electro.wav", "kick-dry.wav", "kick-dry.wav", "MLPERC_Thud_2.wav", "hat tight 4 - 13in zildjian remix.wav", "kick-dry.wav", "MLPERC_Thud_2.wav", "kick-dry.wav", "large china 4 - 22in zildjian.wav", "snare-dist02.wav", "kick-dry.wav", "snare-dist02.wav", "kick-dry.wav", "kick-dry.wav", "large china 4 - 22in zildjian.wav", "kick-dry.wav", "hat tight 4 - 13in zildjian remix.wav", "snare-dist02.wav", "Man From Sol - Fedora.wav", "snare-dist02.wav", "kick-floppy.wav", "kick-dry.wav", "kick-dry.wav", "snare bottom 5 - 14in pearl master custom.wav", "kick-floppy.wav", "hihat-electro.wav", "MLPERC_Thud_2.wav", "large china 4 - 22in zildjian.wav", "kick-deep.wav", "kick-deep.wav", "MLPERC_Thud_2.wav", "snare-dist02.wav", "kick-dry.wav", "kick-floppy.wav", "large china 4 - 22in zildjian.wav", "sunnk - kick 10.wav", "Jim Kimchi - jingle bells perc9.wav", "snare-dist02.wav", "Jim Kimchi - daxophone kick.wav", "snare-dist02.wav", "MLPERC_Thud_2.wav", "kick-dry.wav", "Jim Kimchi - daxophone kick.wav", "kick-deep.wav", "large china 4 - 22in zildjian.wav", "large china 4 - 22in zildjian.wav", "kick-dry.wav", "large china 4 - 22in zildjian.wav", "large china 4 - 22in zildjian.wav", "Abroxis - Perc 008.wav", "kick-dry.wav", "snare-dist02.wav", "snare bottom 5 - 14in pearl master custom.wav", "kick-dry.wav", "Abroxis - Perc 008.wav", "snare-dist02.wav", "MLPERC_Thud_2.wav", "hihat-electro.wav", "Abroxis - Perc 008.wav", "large china 4 - 22in zildjian.wav", "hat tight 4 - 13in zildjian remix.wav", "large china 4 - 22in zildjian.wav", "large china 4 - 22in zildjian.wav", "large china 4 - 22in zildjian.wav", "snare-dist02.wav", "hat tight 4 - 13in zildjian remix.wav", "large china 4 - 22in zildjian.wav", "kick-dry.wav", "kick-deep.wav", "snare-dist02.wav", "kick-dry.wav", "kick-dry.wav", "large china 4 - 22in zildjian.wav" ],
+								"plays" : "sampler"
+							}
+,
+							"20" : 							{
+								"octave" : 0,
+								"pre-set" : 69,
+								"vst" : "TAL-NoiseMaker.dll",
+								"samples" : [ "MLPERC_Clamp_1.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-HiHats18.wav", "hihat-808.wav", "808-Snare08.wav", "808-HiHats18.wav", "hat open 3 - 13in zildjian remix.wav", "808-HiHats18.wav", "MLPERC_Clamp_1.wav", "snare-dist02.wav", "hihat-808.wav", "808-Snare08.wav", "808-HiHats18.wav", "808-Snare08.wav", "808-HiHats18.wav", "808-Snare08.wav", "808-Snare08.wav", "808-HiHats18.wav", "snare-dist02.wav", "808-Snare08.wav", "snare-dist02.wav", "808-Snare08.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-HiHats18.wav", "hihat-808.wav", "808-Snare08.wav", "808-Snare08.wav", "hihat-808.wav", "808-HiHats18.wav", "hihat-808.wav", "808-HiHats18.wav", "808-Snare08.wav", "808-HiHats18.wav", "808-Snare08.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-Snare08.wav", "808-Snare08.wav", "808-HiHats18.wav", "808-Snare08.wav", "808-Snare08.wav", "snare-dist02.wav", "MLPERC_Clamp_1.wav", "MLPERC_Clamp_1.wav", "808-HiHats18.wav", "snare-dist02.wav", "808-Snare08.wav", "808-HiHats18.wav", "Glorkglunk - Snare Weirdo 2.wav", "808-Snare08.wav", "808-Snare08.wav", "hihat-808.wav", "snare-dist02.wav", "sunnk - perc 09.wav", "808-HiHats18.wav", "hihat-808.wav", "snare-dist02.wav", "808-HiHats18.wav", "hat open 3 - 13in zildjian remix.wav", "808-HiHats18.wav", "hihat-808.wav", "snare-dist02.wav", "snare-dist02.wav", "Glorkglunk - Snare Weirdo 2.wav", "snare-dist02.wav", "snare-dist02.wav", "hihat-808.wav", "808-Snare08.wav", "808-HiHats18.wav", "hat open 3 - 13in zildjian remix.wav", "808-HiHats18.wav", "Glorkglunk - Snare Weirdo 2.wav", "hihat-808.wav", "808-Snare08.wav", "hat open 3 - 13in zildjian remix.wav", "808-Snare08.wav", "snare-dist02.wav", "808-HiHats18.wav", "808-HiHats18.wav", "snare-dist02.wav", "808-HiHats18.wav", "808-HiHats18.wav", "Man From Sol - Ass Cheeks [D].wav", "808-Snare08.wav", "snare-dist02.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-HiHats18.wav", "snare-dist02.wav", "snare-dist02.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-HiHats18.wav", "Glorkglunk - Snare Weirdo 2.wav", "808-Snare08.wav", "808-Snare08.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-HiHats18.wav", "808-HiHats18.wav", "snare-dist02.wav", "hihat-808.wav", "808-Snare08.wav", "808-Snare08.wav", "808-Snare08.wav", "Man From Sol - Ass Cheeks [D].wav", "808-Snare08.wav", "808-Snare08.wav", "808-Snare08.wav", "snare-dist02.wav", "808-Snare08.wav", "808-Snare08.wav", "hihat-808.wav", "hat open 3 - 13in zildjian remix.wav", "808-HiHats18.wav", "Glorkglunk - Snare Weirdo 2.wav", "808-HiHats18.wav", "hihat-808.wav", "808-HiHats18.wav", "808-Snare08.wav" ],
+								"plays" : "vsti"
+							}
 
 						}
  ],
@@ -54198,6 +54446,17 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 271.5, 370.0, 79.0, 20.0 ],
+									"text" : "s export_scores"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-181",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -71203,14 +71462,14 @@
 , 																{
 																	"box" : 																	{
 																		"maxclass" : "codebox",
+																		"fontsize" : 10.0,
 																		"numoutlets" : 2,
-																		"fontface" : 0,
 																		"outlettype" : [ "", "" ],
+																		"fontname" : "<Monospaced>",
+																		"fontface" : 0,
 																		"id" : "obj-3",
 																		"patching_rect" : [ 30.0, 50.0, 820.0, 420.0 ],
-																		"fontsize" : 10.0,
 																		"numinlets" : 1,
-																		"fontname" : "<Monospaced>",
 																		"code" : "require(\"log\");\r\nlimit(buf, sum, i) {\r\n    History xing(0);\r\n    History peak(0);\r\n    History polarity(0);\r\n    //Buffer product(\"product\");\r\n    //Buffer test(\"test\");\r\n    //sum = s1 + s2 + s3 + s4;\r\n    polarity = sign(sum);\r\n\tpeak = max(peak, abs(sum));\r\n    //poke(test, excess, i);\r\n    if(change(polarity)) {\r\n        if(peak > 1) {\r\n            attenuation = .99 / peak;\r\n            for(j = xing; j < i; j += 1) {\r\n                //poke(test, attenuation, j);\r\n                attenuated = peek(buf, j) * attenuation;\r\n                poke(buf, attenuated, j, 0);\r\n                poke(buf, attenuated, j, 1);\r\n            }\r\n        }\r\n        xing = i;\r\n        peak = 0;\r\n    }\r\n    return sum;\r\n}\r\nBuffer stem(\"stem\");\r\nBuffer product(\"product\");\r\nBuffer stats(\"stats\");\r\nParam iteration(0);\r\nHistory finished(1);\r\nif(in1) {\r\n    finished = 0;\r\n    for(i = 99999 * iteration; i < 99999 * (iteration + 1); i += 1) {\r\n        _track = peek(stem, i);\r\n        track = limit(stem, _track, i);\r\n        //poke(product, .2, i, 0);\r\n        poke(stem, track, i);\r\n        bounce = peek(product, i) + track;\t//\"track\" is cursed\r\n        //bounce = peek(product, i) + .1;\t//this proves the summing works \r\n        poke(product, bounce, i, 0);\r\n        //bounce = track;\r\n        //poke(product, bounce, i, 1);\r\n\t\tif(i >= round(mstosamps(peek(stats, 1)))) {\r\n\t\t\tfinished = 1;\r\n\t\t\tbreak;\r\n\t\t}\r\n    }\r\n}\r\nout1 = finished;\r\n//if(!finished) {\r\n\tout2 = iteration;\r\n//}\r\n//else {\r\n//\tout2 = -9;\r\n//}"
 																	}
 
@@ -71229,8 +71488,8 @@
  ],
 															"lines" : [ 																{
 																	"patchline" : 																	{
-																		"source" : [ "obj-3", 1 ],
-																		"destination" : [ "obj-6", 0 ]
+																		"source" : [ "obj-3", 0 ],
+																		"destination" : [ "obj-4", 0 ]
 																	}
 
 																}
@@ -71243,8 +71502,8 @@
 																}
 , 																{
 																	"patchline" : 																	{
-																		"source" : [ "obj-3", 0 ],
-																		"destination" : [ "obj-4", 0 ]
+																		"source" : [ "obj-3", 1 ],
+																		"destination" : [ "obj-6", 0 ]
 																	}
 
 																}
@@ -71260,7 +71519,7 @@
 													"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
 													"patching_rect" : [ 81.5, 330.0, 108.5, 20.0 ],
 													"text" : "mc.gen~",
-													"wrapper_uniquekey" : "u476002234"
+													"wrapper_uniquekey" : "u263010847"
 												}
 
 											}
@@ -99574,7 +99833,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-111", 0 ],
-									"order" : 2,
+									"order" : 3,
 									"source" : [ "obj-110", 0 ]
 								}
 
@@ -99582,7 +99841,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-185", 0 ],
-									"order" : 1,
+									"order" : 2,
+									"source" : [ "obj-110", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"order" : 0,
 									"source" : [ "obj-110", 0 ]
 								}
 
@@ -99590,7 +99857,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-88", 0 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-110", 0 ]
 								}
 
@@ -109644,14 +109911,14 @@
 , 																{
 																	"box" : 																	{
 																		"maxclass" : "codebox",
+																		"fontsize" : 10.0,
 																		"numoutlets" : 1,
-																		"fontface" : 0,
 																		"outlettype" : [ "" ],
+																		"fontname" : "<Monospaced>",
+																		"fontface" : 0,
 																		"id" : "obj-3",
 																		"patching_rect" : [ 7.5, 26.0, 712.5, 500.0 ],
-																		"fontsize" : 10.0,
 																		"numinlets" : 2,
-																		"fontname" : "<Monospaced>",
 																		"code" : "Param track_volume(1);\r\nParam base(0);\r\nout1 = in1 * track_volume;\r\nout1 *= max(base, slide(abs(in2) < .0009, 99999, 99999));"
 																	}
 
@@ -109670,8 +109937,8 @@
  ],
 															"lines" : [ 																{
 																	"patchline" : 																	{
-																		"source" : [ "obj-1", 0 ],
-																		"destination" : [ "obj-3", 0 ]
+																		"source" : [ "obj-3", 0 ],
+																		"destination" : [ "obj-4", 0 ]
 																	}
 
 																}
@@ -109684,8 +109951,8 @@
 																}
 , 																{
 																	"patchline" : 																	{
-																		"source" : [ "obj-3", 0 ],
-																		"destination" : [ "obj-4", 0 ]
+																		"source" : [ "obj-1", 0 ],
+																		"destination" : [ "obj-3", 0 ]
 																	}
 
 																}
@@ -109701,7 +109968,7 @@
 													"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 													"patching_rect" : [ 187.35714285714289, 250.0, 113.5, 20.0 ],
 													"text" : "mc.gen~",
-													"wrapper_uniquekey" : "u856002457"
+													"wrapper_uniquekey" : "u728010625"
 												}
 
 											}
@@ -123494,14 +123761,14 @@
 , 								{
 									"box" : 									{
 										"maxclass" : "codebox",
+										"fontsize" : 10.0,
 										"numoutlets" : 7,
-										"fontface" : 0,
 										"outlettype" : [ "", "", "", "", "", "", "" ],
+										"fontname" : "<Monospaced>",
+										"fontface" : 0,
 										"id" : "obj-3",
 										"patching_rect" : [ 10.0, 30.0, 590.0, 360.0 ],
-										"fontsize" : 10.0,
 										"numinlets" : 1,
-										"fontname" : "<Monospaced>",
 										"code" : "require(\"dynamic_crossfade\")\r\nBuffer stem(\"_s\");\r\nBuffer palette(\"_p\");\r\nBuffer product(\"_p\");\r\nBuffer comp(\"comp\");\r\nBuffer stats(\"stats\");\r\nBuffer following(\"following\");\r\nParam tracks(0);\r\nParam track(0);\r\nParam bar(0);\r\nParam gain1(1);\r\nParam gain2(1);\r\nParam gain(1);\r\nParam offset(0);\r\nParam rt_exporting(0);\r\nParam ready(0);\r\nParam auditioning(0);\r\nParam lead(44);\r\nParam interpolation(0);\r\nHistory leads(44100);\r\nHistory from(0);\r\nHistory to(0);\r\nHistory go(0);\r\nHistory extended_t(0);   //for smooth loop interpolation\r\nHistory delayed_go(0);   //for smooth loop interpolation\r\nHistory loops(0);   //for smooth loop interpolation\r\nHistory zoom1(0);\r\nHistory zoom2(1);\r\nHistory t(0);\r\nHistory debug(0);\r\nHistory domain(0);\r\nHistory restart(0);\r\nif(ready || rt_exporting) {\r\n\tif(!domain) {\t//sets initially if !following\r\n    \tdomain = round(mstosamps(peek(stats, 1))); \r\n\t}\r\n    follow = to - from == domain;\r\n    if(follow) {   //following\r\n    \tdomain = round(mstosamps(peek(stats, 1)));  //only updates song length if following\r\n        to = domain;\r\n        zoom1 = max(0, t - max(lead, 88200));\t//default lead minimum\r\n        zoom2 = min(domain, t + max(lead, 88200)) - zoom1;\r\n    }\r\n    poke(stats, domain > 0, 10);    //temporary\r\n    start = max(0, round(from - lead, bar, mode = \"floor\"));    //– quantize loop by bar. In just 2 places ([loop] in record_palette and here) round start down and end up to bar, which essentially changes lead to a MINIMUM lead\r\n    end = min(domain, round(to + lead, bar, mode = \"ceil\"));    //min/max here means !following can't lead beyond song either\r\n    length = end - start;\r\n    t = elapsed - go + start;\r\n    extended_t = elapsed - delayed_go + start;  //for smooth loop interpolation\r\n    if(((change(from) || change(to)) && from) || t > end || restart) {\t//&& from prevents happening again next sample... \r\n\t\trestart = 0;\r\n        go = elapsed;\r\n        loops += 1;   //for smooth loop interpolation\r\n        zoom1 = max(0, start);\r\n        zoom2 = min(domain, end) - zoom1;\r\n        if(from == to) {                        //...after this triggers\r\n            go -= from;\r\n            from = 0;\r\n            to = domain;\r\n        }\r\n    }\r\n    if(track == mc_channel && auditioning) {\r\n        on = t > from && t < to;\r\n        surround = peek(stem, t);\r\n        m = (gain2 - gain1) / (to - from);\r\n        comp_gain = (t - from) * m + gain1;\r\n        audition = peek(palette, t + offset) * comp_gain;\r\n        _l, out4, out1, out6 = dynamic_crossfade(on, surround, audition);\r\n        if(!on && change(out6) < 0) {\r\n            poke(comp, t, 1);\r\n        }\r\n    }\r\n    else {\r\n        out1 = peek(stem, t);   \r\n    }\r\n    if(interpolation) { //smooth loop interpolation\r\n        trail = peek(stem, extended_t) * gain2;\r\n        _l, _r, out1, fading = dynamic_crossfade(loops, trail, out1);\r\n        if(change(fading) < 0) {\r\n            delayed_go = go;\r\n        }\r\n    }\r\n}\r\nt *= domain > 0;\r\nout1 *= gain;\r\nout2 = t;\r\nout3 = zoom1;\r\nout5 = zoom2; \r\nout6 = delta(t) < 0;\r\nout7=domain;"
 									}
 
@@ -123520,36 +123787,8 @@
  ],
 							"lines" : [ 								{
 									"patchline" : 									{
-										"source" : [ "obj-3", 1 ],
-										"destination" : [ "obj-5", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 0 ],
-										"destination" : [ "obj-4", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-1", 0 ],
-										"destination" : [ "obj-3", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 2 ],
-										"destination" : [ "obj-6", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 3 ],
-										"destination" : [ "obj-7", 0 ]
+										"source" : [ "obj-3", 5 ],
+										"destination" : [ "obj-10", 0 ]
 									}
 
 								}
@@ -123562,8 +123801,36 @@
 								}
 , 								{
 									"patchline" : 									{
-										"source" : [ "obj-3", 5 ],
-										"destination" : [ "obj-10", 0 ]
+										"source" : [ "obj-3", 3 ],
+										"destination" : [ "obj-7", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 2 ],
+										"destination" : [ "obj-6", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-1", 0 ],
+										"destination" : [ "obj-3", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 0 ],
+										"destination" : [ "obj-4", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 1 ],
+										"destination" : [ "obj-5", 0 ]
 									}
 
 								}
@@ -123579,7 +123846,7 @@
 					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 337.0, 420.0, 343.0, 20.0 ],
 					"text" : "mc.gen~ @chans 4",
-					"wrapper_uniquekey" : "u691002511"
+					"wrapper_uniquekey" : "u274010571"
 				}
 
 			}
@@ -132107,53 +132374,61 @@
 			"obj-113::obj-31::obj-3::obj-69::obj-12" : [ "toggle[11]", "toggle", 0 ],
 			"obj-113::obj-31::obj-91::obj-21::obj-12" : [ "toggle[9]", "toggle", 0 ],
 			"obj-113::obj-96::obj-49::obj-12" : [ "toggle[6]", "toggle", 0 ],
-			"obj-157::obj-33::obj-21" : [ "vst~[3]", "vst~[3]", 0 ],
+			"obj-157::obj-33::obj-21" : [ "vst~[2]", "vst~[2]", 0 ],
 			"obj-157::obj-5" : [ "vst~[8]", "vst~", 0 ],
 			"obj-159::obj-1::obj-12" : [ "toggle[19]", "toggle", 0 ],
 			"obj-159::obj-70::obj-14::obj-12" : [ "toggle[20]", "toggle", 0 ],
 			"obj-161::obj-12" : [ "toggle[18]", "toggle", 0 ],
 			"obj-185::obj-22::obj-12" : [ "toggle[17]", "toggle", 0 ],
-			"obj-189::obj-23::obj-11::obj-12" : [ "toggle[61]", "toggle", 0 ],
-			"obj-189::obj-27::obj-30::obj-47::obj-1::obj-12" : [ "toggle[37]", "toggle", 0 ],
-			"obj-189::obj-27::obj-30::obj-47::obj-33::obj-33::obj-12" : [ "toggle[32]", "toggle", 0 ],
-			"obj-189::obj-27::obj-30::obj-5::obj-12" : [ "toggle[22]", "toggle", 0 ],
-			"obj-189::obj-27::obj-30::obj-84::obj-70::obj-12" : [ "toggle[63]", "toggle", 0 ],
-			"obj-189::obj-27::obj-42::obj-12" : [ "toggle[59]", "toggle", 0 ],
+			"obj-189::obj-23::obj-11::obj-12" : [ "toggle[22]", "toggle", 0 ],
+			"obj-189::obj-27::obj-30::obj-47::obj-1::obj-12" : [ "toggle[24]", "toggle", 0 ],
+			"obj-189::obj-27::obj-30::obj-47::obj-33::obj-33::obj-12" : [ "toggle[23]", "toggle", 0 ],
+			"obj-189::obj-27::obj-30::obj-5::obj-12" : [ "toggle[25]", "toggle", 0 ],
+			"obj-189::obj-27::obj-30::obj-84::obj-70::obj-12" : [ "toggle[26]", "toggle", 0 ],
+			"obj-189::obj-27::obj-42::obj-12" : [ "toggle[27]", "toggle", 0 ],
 			"obj-189::obj-59::obj-102::obj-98::obj-33::obj-4::obj-12" : [ "toggle[67]", "toggle", 0 ],
 			"obj-189::obj-59::obj-102::obj-98::obj-5::obj-12" : [ "toggle[66]", "toggle", 0 ],
 			"obj-189::obj-59::obj-102::obj-98::obj-7::obj-47::obj-1::obj-12" : [ "toggle[69]", "toggle", 0 ],
 			"obj-189::obj-59::obj-102::obj-98::obj-7::obj-47::obj-33::obj-33::obj-12" : [ "toggle[68]", "toggle", 0 ],
 			"obj-189::obj-59::obj-102::obj-98::obj-7::obj-5::obj-12" : [ "toggle[70]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.1::obj-77::obj-17::obj-1::obj-12" : [ "toggle[28]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.1::obj-77::obj-2::obj-12" : [ "toggle[29]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.1::obj-90::obj-70::obj-10::obj-33::obj-33::obj-12" : [ "toggle[25]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.1::obj-90::obj-70::obj-10::obj-64::obj-3::obj-12" : [ "toggle[26]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.1::obj-90::obj-70::obj-33::obj-12" : [ "toggle[24]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.1::obj-90::obj-70::obj-45::obj-12" : [ "toggle[23]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.1::obj-90::obj-8::obj-12" : [ "toggle[27]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.2::obj-77::obj-17::obj-1::obj-12" : [ "toggle[40]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.2::obj-77::obj-2::obj-12" : [ "toggle[34]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.2::obj-90::obj-70::obj-10::obj-33::obj-33::obj-12" : [ "toggle[33]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.2::obj-90::obj-70::obj-10::obj-64::obj-3::obj-12" : [ "toggle[31]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.2::obj-90::obj-70::obj-33::obj-12" : [ "toggle[30]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.2::obj-90::obj-70::obj-45::obj-12" : [ "toggle[38]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.2::obj-90::obj-8::obj-12" : [ "toggle[39]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.3::obj-77::obj-17::obj-1::obj-12" : [ "toggle[44]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.3::obj-77::obj-2::obj-12" : [ "toggle[45]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.3::obj-90::obj-70::obj-10::obj-33::obj-33::obj-12" : [ "toggle[36]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.3::obj-90::obj-70::obj-10::obj-64::obj-3::obj-12" : [ "toggle[41]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.3::obj-90::obj-70::obj-33::obj-12" : [ "toggle[35]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.3::obj-90::obj-70::obj-45::obj-12" : [ "toggle[42]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.3::obj-90::obj-8::obj-12" : [ "toggle[43]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.4::obj-77::obj-17::obj-1::obj-12" : [ "toggle[51]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.4::obj-77::obj-2::obj-12" : [ "toggle[52]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.4::obj-90::obj-70::obj-10::obj-33::obj-33::obj-12" : [ "toggle[47]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.4::obj-90::obj-70::obj-10::obj-64::obj-3::obj-12" : [ "toggle[48]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.4::obj-90::obj-70::obj-33::obj-12" : [ "toggle[46]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.4::obj-90::obj-70::obj-45::obj-12" : [ "toggle[49]", "toggle", 0 ],
-			"obj-189::obj-59::obj-34.4::obj-90::obj-8::obj-12" : [ "toggle[50]", "toggle", 0 ],
-			"obj-189::obj-59::obj-66::obj-12" : [ "toggle[53]", "toggle", 0 ],
-			"obj-189::obj-59::obj-93::obj-5::obj-12" : [ "toggle[62]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.1::obj-77::obj-17::obj-1::obj-12" : [ "toggle[35]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.1::obj-77::obj-2::obj-12" : [ "toggle[36]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.1::obj-90::obj-70::obj-10::obj-33::obj-33::obj-12" : [ "toggle[29]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.1::obj-90::obj-70::obj-10::obj-63::obj-15::obj-12" : [ "toggle[32]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.1::obj-90::obj-70::obj-10::obj-64::obj-3::obj-12" : [ "toggle[30]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.1::obj-90::obj-70::obj-10::obj-68::obj-15::obj-12" : [ "toggle[31]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.1::obj-90::obj-70::obj-33::obj-12" : [ "toggle[28]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.1::obj-90::obj-70::obj-45::obj-12" : [ "toggle[33]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.1::obj-90::obj-8::obj-12" : [ "toggle[34]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.2::obj-77::obj-17::obj-1::obj-12" : [ "toggle[44]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.2::obj-77::obj-2::obj-12" : [ "toggle[45]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.2::obj-90::obj-70::obj-10::obj-33::obj-33::obj-12" : [ "toggle[38]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.2::obj-90::obj-70::obj-10::obj-63::obj-15::obj-12" : [ "toggle[41]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.2::obj-90::obj-70::obj-10::obj-64::obj-3::obj-12" : [ "toggle[39]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.2::obj-90::obj-70::obj-10::obj-68::obj-15::obj-12" : [ "toggle[40]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.2::obj-90::obj-70::obj-33::obj-12" : [ "toggle[37]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.2::obj-90::obj-70::obj-45::obj-12" : [ "toggle[42]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.2::obj-90::obj-8::obj-12" : [ "toggle[43]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.3::obj-77::obj-17::obj-1::obj-12" : [ "toggle[53]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.3::obj-77::obj-2::obj-12" : [ "toggle[54]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.3::obj-90::obj-70::obj-10::obj-33::obj-33::obj-12" : [ "toggle[47]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.3::obj-90::obj-70::obj-10::obj-63::obj-15::obj-12" : [ "toggle[50]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.3::obj-90::obj-70::obj-10::obj-64::obj-3::obj-12" : [ "toggle[48]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.3::obj-90::obj-70::obj-10::obj-68::obj-15::obj-12" : [ "toggle[49]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.3::obj-90::obj-70::obj-33::obj-12" : [ "toggle[46]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.3::obj-90::obj-70::obj-45::obj-12" : [ "toggle[51]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.3::obj-90::obj-8::obj-12" : [ "toggle[52]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.4::obj-77::obj-17::obj-1::obj-12" : [ "toggle[62]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.4::obj-77::obj-2::obj-12" : [ "toggle[63]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.4::obj-90::obj-70::obj-10::obj-33::obj-33::obj-12" : [ "toggle[56]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.4::obj-90::obj-70::obj-10::obj-63::obj-15::obj-12" : [ "toggle[59]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.4::obj-90::obj-70::obj-10::obj-64::obj-3::obj-12" : [ "toggle[57]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.4::obj-90::obj-70::obj-10::obj-68::obj-15::obj-12" : [ "toggle[58]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.4::obj-90::obj-70::obj-33::obj-12" : [ "toggle[55]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.4::obj-90::obj-70::obj-45::obj-12" : [ "toggle[60]", "toggle", 0 ],
+			"obj-189::obj-59::obj-34.4::obj-90::obj-8::obj-12" : [ "toggle[61]", "toggle", 0 ],
+			"obj-189::obj-59::obj-66::obj-12" : [ "toggle[64]", "toggle", 0 ],
+			"obj-189::obj-59::obj-93::obj-5::obj-12" : [ "toggle[65]", "toggle", 0 ],
 			"obj-40::obj-12" : [ "toggle[21]", "toggle", 0 ],
 			"obj-42::obj-12::obj-12" : [ "toggle[3]", "toggle", 0 ],
 			"obj-42::obj-3::obj-13::obj-12" : [ "toggle[2]", "toggle", 0 ],
