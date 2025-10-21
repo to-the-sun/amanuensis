@@ -243,6 +243,13 @@ function draw() {
         sketch.moveto(gridLeft + 0.02, labelY, 0);
         sketch.text("Track " + (row + 1));
     }
+
+    // Always refresh the jsui after a draw so the UI updates immediately
+    try {
+        refresh();
+    } catch (e) {
+        // In case refresh isn't available in some contexts, fail silently
+    }
 }
 
 // Reference to the Max dict named "transcript"
@@ -262,28 +269,65 @@ function dictnotify(dictname) {
     if (dictname === "transcript") {
         transcriptDict = new Dict("transcript");
         logTranscript();
-        // Optionally, update GUI here if needed
-        draw();
-        refresh();
+        // NOTE: do not automatically redraw here. Drawing will occur only
+        // when an explicit 'draw' message is received or when
+        // 'nonexistent_recitation' is invoked.
     }
 }
 
-// Redraw every x ms
-var redrawTask = new Task(function() {
-    draw();
-    refresh();
-}, this);
-redrawTask.interval = 500;
-redrawTask.repeat();
+// Removed periodic redraw task. Drawing now only happens when an external
+// 'draw' message is received by this script or when
+// 'nonexistent_recitation' is called.
 
-draw();
+function nonexistent_recitation() {
+	// Accept whatever tokens Max gives us and be tolerant of the odd ",s" tokens.
+	// Join all args, replace ",s" (and variants) with spaces, collapse runs of spaces,
+	// then look for the first token that contains "::" (expected "track::measure").
+	var args = arrayfromargs(arguments);
+	var joined = args.map(function (x) { return (x === null || x === undefined) ? "" : String(x); }).join(" ");
+	// Normalize common Max tokenization of spaces (e.g. " ,s " or ",s")
+	joined = joined.replace(/,\s*s/g, " ").replace(/,s/g, " ").replace(/\s+/g, " ").trim();
 
-function nonexistent_recitation(trackNum, timestamp) {
-    var trackKey = trackNum.toString();
-    var measureStart = timestamp.toString();
-    var cellKey = trackKey + "_" + measureStart;
-    if (!cellFlashState[cellKey]) cellFlashState[cellKey] = {};
-    cellFlashState[cellKey].flashX = true;
-    draw();
-    refresh();
+	// Find a token that looks like "N::M"
+	var tokens = joined.split(" ");
+	var coord = null;
+	for (var i = 0; i < tokens.length; i++) {
+		if (tokens[i].indexOf("::") >= 0) {
+			coord = tokens[i];
+			break;
+		}
+	}
+	// If nothing found, but there's exactly one token, try that
+	if (!coord && tokens.length === 1) coord = tokens[0];
+
+	if (coord && coord.indexOf("::") >= 0) {
+		var parts = coord.split("::");
+		var t = parseInt(parts[0], 10);
+		var m = parseInt(parts[1], 10);
+		if (!isNaN(t) && !isNaN(m)) {
+			var trackKey = String(t);
+			var measureStart = String(m);
+			var cellKey = trackKey + "_" + measureStart;
+			if (!cellFlashState[cellKey]) cellFlashState[cellKey] = {};
+			cellFlashState[cellKey].flashX = true;
+			// Trigger a draw which will perform refresh() internally
+			draw();
+			return;
+		}
+	}
+
+	// Fallback: maybe the function was called with two numeric args directly
+	if (args.length >= 2) {
+		var t0 = parseInt(args[0], 10);
+		var m0 = parseInt(args[1], 10);
+		if (!isNaN(t0) && !isNaN(m0)) {
+			var cellKey2 = String(t0) + "_" + String(m0);
+			if (!cellFlashState[cellKey2]) cellFlashState[cellKey2] = {};
+			cellFlashState[cellKey2].flashX = true;
+			draw();
+			return;
+		}
+	}
+
+	post("nonexistent_recitation: couldn't parse coords from: " + joined + "\n");
 }
