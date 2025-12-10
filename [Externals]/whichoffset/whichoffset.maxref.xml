@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<c74object name="whichoffset">
+    <digest>Calculates an optimal offset from a dictionary based on timestamps.</digest>
+    <description>
+        The `whichoffset` object is designed to find an optimal "offset" value from a nested Max dictionary. It takes a list of timestamps, finds a corresponding "loop length" and "absolute timestamps" from the dictionary, and calculates which of the provided timestamp offsets results in the minimum "excess time" outside the absolute timestamp range.
+    </description>
+    
+    <!-- Creation Argument -->
+    <objarg name="dictionary-name" type="symbol" optional="0">
+        <digest>The name of the dictionary to query.</digest>
+        <description>You must provide the name of a registered dictionary (e.g., one created by a `dict` object) as a creation argument.</description>
+    </objarg>
+    
+    <!-- Messages -->
+    <method name="bang">
+        <digest>Print dictionary contents.</digest>
+        <description>Sends a `bang` to this object to print the entire contents of its associated dictionary to the Max console, formatted for readability.</description>
+    </method>
+    
+    <method name="int">
+        <digest>Set the track number.</digest>
+        <description>Send an `int` to set the internal "track" number. This track number is used to construct the keys for subsequent dictionary lookups when a `span` message is received.</description>
+        <arg name="track-number" type="int" optional="0" />
+    </method>
+    
+    <method name="span">
+        <digest>Calculate the optimal offset from a list of timestamps.</digest>
+        <description>
+            This is the main function of the object. Send the message `span` followed by a list of integer timestamps (e.g., `span 100 250 500`). The object will perform the following steps:
+            1. Find the minimum and maximum timestamps from the input list.
+            2. Look up the `absolute_ts` values in the dictionary using the keys `track::min_ts::absolute_ts` and `track::max_ts::absolute_ts`.
+            3. Gather all `offset` values from the dictionary for each timestamp in the input list (e.g., `track::ts::offset`).
+            4. Calculate the `loop_length` based on the unique sorted offsets.
+            5. For each gathered offset, calculate the "excess time" (the amount of time the loop falls outside the `absolute_ts` range).
+            6. The offset that results in the smallest total excess time is considered the optimal offset and is sent out the outlet.
+        </description>
+        <arg name="timestamp-list" type="list" optional="0" />
+    </method>
+    
+    <!-- Inlets -->
+    <inlet name="in" type="bang, int, list">
+        <digest>Input for messages: bang, int, span.</digest>
+        <description>Accepts `bang` to print, an `int` to set the track, and a `span` message followed by a list of timestamps to perform the calculation.</description>
+    </inlet>
+    
+    <!-- Outlets -->
+    <outlet name="out" type="float">
+        <digest>The calculated optimal offset.</digest>
+        <description>Outputs a single float representing the optimal offset found by the `span` message.</description>
+    </outlet>
+    
+    <seealso>
+        <see name="dict"/>
+    </seealso>
+</c74object>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<c74object name="createproject">
+    <digest>Creates a new project folder from a template.</digest>
+    <description>
+        This object is a utility for automating project setup. When it receives a `create` message with a valid destination path, it creates the specified folder and then recursively copies all files and subfolders from a hardcoded template directory into it.
+    </description>
+    
+    <!-- Messages -->
+    <method name="create">
+        <digest>Create a new project directory and copy template files.</digest>
+        <description>
+            Send the message `create` followed by a symbol representing the absolute path for the new project folder. The path must use forward slashes (`/`).
+            
+            **Important Path Requirement:** The direct parent folder of the new project directory must be named exactly `[Projects]`. For example, `D:/.../[Projects]/MyNewProject` is a valid path, but `D:/.../SomeFolder/MyNewProject` is not.
+            
+            If the path is valid, the object will create the new folder and then copy the entire contents of the template directory (`D:\[Library]\[Audio]\[Works]\[Projects]\[Template]`) into it.
+        </description>
+        <arg name="destination-path" type="symbol" optional="0" />
+    </method>
+    
+    <!-- Inlets -->
+    <inlet name="in" type="symbol">
+        <digest>Input for the `create` message.</digest>
+        <description>Accepts the `create` message followed by the absolute path for the new project.</description>
+    </inlet>
+    
+</c74object>

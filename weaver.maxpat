@@ -1064,10 +1064,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 8",
-										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-11",
-										"patching_rect" : [ 570.0, 420.0, 31.0, 20.0 ]
+										"numinlets" : 1,
+										"patching_rect" : [ 570.0, 420.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -1075,10 +1075,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 7",
-										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-9",
-										"patching_rect" : [ 499.428571428571445, 410.0, 31.0, 20.0 ]
+										"numinlets" : 1,
+										"patching_rect" : [ 499.428571428571445, 410.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -1086,10 +1086,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 6",
-										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-10",
-										"patching_rect" : [ 423.666666666666686, 420.0, 31.0, 20.0 ]
+										"numinlets" : 1,
+										"patching_rect" : [ 423.666666666666686, 420.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -1097,10 +1097,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 5",
-										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-8",
-										"patching_rect" : [ 390.666666666666686, 400.0, 31.0, 20.0 ]
+										"numinlets" : 1,
+										"patching_rect" : [ 390.666666666666686, 400.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -1108,10 +1108,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 4",
-										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-7",
-										"patching_rect" : [ 352.600000000000023, 400.0, 31.0, 20.0 ]
+										"numinlets" : 1,
+										"patching_rect" : [ 352.600000000000023, 400.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -1119,10 +1119,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 3",
-										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-6",
-										"patching_rect" : [ 173.142857142857139, 400.0, 31.0, 20.0 ]
+										"numinlets" : 1,
+										"patching_rect" : [ 173.142857142857139, 400.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -1130,10 +1130,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 2",
-										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-5",
-										"patching_rect" : [ 91.571428571428569, 400.0, 31.0, 20.0 ]
+										"numinlets" : 1,
+										"patching_rect" : [ 91.571428571428569, 400.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -1141,10 +1141,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "in 1",
-										"numinlets" : 0,
-										"numoutlets" : 1,
 										"id" : "obj-1",
+										"numinlets" : 0,
 										"patching_rect" : [ 10.0, 10.0, 25.0, 20.0 ],
+										"numoutlets" : 1,
 										"outlettype" : [ "" ]
 									}
 
@@ -1153,10 +1153,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "in 2",
-										"numinlets" : 0,
-										"numoutlets" : 1,
 										"id" : "obj-2",
+										"numinlets" : 0,
 										"patching_rect" : [ 265.0, 10.0, 25.0, 20.0 ],
+										"numoutlets" : 1,
 										"outlettype" : [ "" ]
 									}
 
@@ -1164,15 +1164,15 @@
 , 								{
 									"box" : 									{
 										"maxclass" : "codebox",
-										"fontsize" : 10.0,
 										"fontname" : "<Monospaced>",
-										"numinlets" : 2,
-										"numoutlets" : 8,
 										"fontface" : 0,
 										"id" : "obj-3",
+										"numinlets" : 2,
 										"patching_rect" : [ 10.0, 30.0, 590.0, 360.0 ],
+										"numoutlets" : 8,
+										"fontsize" : 10.0,
 										"outlettype" : [ "", "", "", "", "", "", "", "" ],
-										"code" : "require(\"dynamic_crossfade\")\r\nBuffer thread(\"script.0\");\r\nBuffer palette(\"_p\");\r\nBuffer stem(\"_s\");\r\nBuffer fin(\"fin\");\r\nParam channels(1);\r\nParam paused(0);\r\nHistory t(0);\r\nHistory l_at(-99999999);\r\nHistory r_at(-99999999);\r\nHistory switch(0);\r\nHistory next(0);\r\nHistory cursor(9999);\r\nHistory ending(0);\r\nHistory ready(0);\r\nchannel = mc_channel - 1;\r\nif(t != cursor) {\r\n    if(in2) {       \r\n        t = in2 + 99;\r\n    }\r\n    t += 1;\r\n    t %= dim(thread);\r\n    if(!paused) {\r\n        if(in1) {\r\n            l_in = peek(palette, l_at + t);\r\n            r_in = peek(palette, r_at + t);\r\n            out4, out5, out8, out7 = dynamic_crossfade(switch, l_in, r_in);\r\n            poke(stem, out8, t, channel);\r\n//Best I can tell, each channel is done in parallel and samples are NOT guaranteed to be\r\n//synchronous across channels. Probably many samples off, 9999 enough lead time in practice\r\n            if(!ending) {\r\n                cursor = (t + 9999) % dim(thread);\r\n                poke(fin, 0, cursor);\t//Clears 9999 samples ahead. Creates a cool cursor effect\r\n            }\r\n            bounce = peek(stem, t, channel) + peek(fin, t);\r\n            poke(fin, bounce, t);\r\n            l_amp = slide(abs(out4), 0, 99);\r\n            r_amp = slide(abs(out5), 0, 99);\r\n            cue = peek(thread, t, channel);\r\n\t\t\tfadeout = mstosamps(1999);\r\n            if(t >= dim(thread) - fadeout && dim(thread) > fadeout * 2) {  //max possible fadeout in dynamic_crossfade\r\n                cue = -99999999;\r\n            }\r\n            out1 = cue;\r\n            if(cue && (cue != next)) {\r\n                ready = 1;\r\n                next = cue;\r\n            }\r\n            if(ready) {\r\n                if(switch && l_amp < .00009) {\r\n                    l_at = next;\r\n                    switch = 0;\r\n                    ready = 0;\r\n                }\r\n                else if(!switch && r_amp < .00009) {\r\n                    r_at = next;\r\n                    switch = 1;\r\n                    ready = 0;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n//out1 = ready;\r\nout2 = sampstoms(t);\r\nout3 = t/(dim(thread));\r\nout4 = l_at;\r\nout5 = r_at;\r\nout6 = switch;\r\nout8 = t != cursor;"
+										"code" : "require(\"dynamic_crossfade\")\r\nBuffer thread(\"script.0\");\r\nBuffer palette(\"_p\");\r\nBuffer stem(\"_s\");\r\nBuffer fin(\"fin\");\r\nParam channels(1);\r\nParam paused(0);\r\nHistory t(0);\r\nHistory l_at(-99999999);\r\nHistory r_at(-99999999);\r\nHistory switch(0);\r\nHistory next(0);\r\nHistory cursor(9999);\r\nHistory ending(0);\r\nHistory ready(0);\r\nchannel = mc_channel - 1;\r\nif(t != cursor) {\r\n    if(in2) {       \r\n        t = in2 + 99;\r\n    }\r\n    t += 1;\r\n    t %= dim(thread);\r\n    if(!paused) {\r\n        if(in1) {\r\n            l_in = peek(palette, l_at + t);\r\n            r_in = peek(palette, r_at + t);\r\n            out4, out5, out8, out7 = dynamic_crossfade(switch, l_in, r_in);\r\n            poke(stem, out8, t, channel);\r\n//Best I can tell, each channel is done in parallel and samples are NOT guaranteed to be\r\n//synchronous across channels. Probably many samples off, 9999 enough lead time in practice\r\n            if(!ending) {\r\n                cursor = (t + 9999) % dim(thread);\r\n                poke(fin, 0, cursor);\t//Clears 9999 samples ahead. Creates a cool cursor effect\r\n            }\r\n            bounce = peek(stem, t, channel) + peek(fin, t);\r\n            poke(fin, bounce, t);\r\n            l_amp = slide(abs(out4), 0, 99);\r\n            r_amp = slide(abs(out5), 0, 99);\r\n            cue = peek(thread, t, channel);\r\n\t\t\tfadeout = mstosamps(1999);\r\n            if(dim(thread) > fadeout * 2) {\r\n                if(t >= dim(thread) - fadeout || t < fadeout) { \r\n                    cue = -99999999;\r\n                }\r\n            }\r\n            out1 = cue;\r\n            if(cue && (cue != next)) {\r\n                ready = 1;\r\n                next = cue;\r\n            }\r\n            if(ready) {\r\n                if(switch && l_amp < .00009) {\r\n                    l_at = next;\r\n                    switch = 0;\r\n                    ready = 0;\r\n                }\r\n                else if(!switch && r_amp < .00009) {\r\n                    r_at = next;\r\n                    switch = 1;\r\n                    ready = 0;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n//out1 = ready;\r\nout2 = sampstoms(t);\r\nout3 = t/(dim(thread));\r\nout4 = l_at;\r\nout5 = r_at;\r\nout6 = switch;\r\nout8 = t != cursor;"
 									}
 
 								}
@@ -1180,67 +1180,18 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 1",
-										"numinlets" : 1,
-										"numoutlets" : 0,
 										"id" : "obj-4",
-										"patching_rect" : [ 10.0, 390.0, 31.0, 20.0 ]
+										"numinlets" : 1,
+										"patching_rect" : [ 10.0, 390.0, 31.0, 20.0 ],
+										"numoutlets" : 0
 									}
 
 								}
  ],
 							"lines" : [ 								{
 									"patchline" : 									{
-										"source" : [ "obj-3", 4 ],
-										"destination" : [ "obj-8", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 3 ],
-										"destination" : [ "obj-7", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 2 ],
-										"destination" : [ "obj-6", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-1", 0 ],
-										"destination" : [ "obj-3", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 1 ],
-										"destination" : [ "obj-5", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 0 ],
-										"destination" : [ "obj-4", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 5 ],
-										"destination" : [ "obj-10", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-3", 6 ],
-										"destination" : [ "obj-9", 0 ]
+										"source" : [ "obj-2", 0 ],
+										"destination" : [ "obj-3", 1 ]
 									}
 
 								}
@@ -1253,8 +1204,57 @@
 								}
 , 								{
 									"patchline" : 									{
-										"source" : [ "obj-2", 0 ],
-										"destination" : [ "obj-3", 1 ]
+										"source" : [ "obj-3", 6 ],
+										"destination" : [ "obj-9", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 5 ],
+										"destination" : [ "obj-10", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 0 ],
+										"destination" : [ "obj-4", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 1 ],
+										"destination" : [ "obj-5", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-1", 0 ],
+										"destination" : [ "obj-3", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 2 ],
+										"destination" : [ "obj-6", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 3 ],
+										"destination" : [ "obj-7", 0 ]
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-3", 4 ],
+										"destination" : [ "obj-8", 0 ]
 									}
 
 								}
@@ -1270,7 +1270,7 @@
 					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 239.000005632638931, 280.0, 320.200008976459571, 20.0 ],
 					"text" : "mc.gen~ @chans #1",
-					"wrapper_uniquekey" : "u245001403"
+					"wrapper_uniquekey" : "u491003500"
 				}
 
 			}
