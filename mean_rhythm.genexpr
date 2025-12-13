@@ -1,0 +1,39 @@
+mean_rhythm(frame, excluding) {
+    Buffer j_rhythm("j_rhythm");
+    Buffer r_rhythm("r_rhythm");
+    Buffer j_max("j_max");
+    Buffer r_max("r_max");
+    of = 1;
+    mean = 0;
+    tracks = 4;
+    bands = 2;
+    quantity = tracks * bands * 2;
+    for(track = 1; track <= tracks * bands; track += bands) {
+        if(excluding != track) {
+            for(band = track; band < track + bands; band += 1) {
+                if(excluding) {
+                    of = peek(r_max, band);	// Don't normalize if it's determining the universal `mode_interval`. 
+                    if(!of) {           //Empty space on a track shouldn't count towards the average. 
+                        quantity -= 1;
+                    }
+                }
+                mean += peek(r_rhythm, frame, band) / of;
+            }
+        }
+    }
+    for(track = 1; track <= tracks * bands; track += bands) {
+        if(excluding != -track) {
+            for(band = track; band < track + bands; band += 1) {
+                if(excluding) {
+                    of = peek(j_max, band);	// Don't normalize if it's determining the universal `mode_interval`. 
+                    if(!of) {           //Empty space on a track shouldn't count towards the average. 
+                        quantity -= 1;
+                    }
+                }
+                mean += peek(j_rhythm, frame, band) / of;
+            }
+        }
+    }
+    mean /= quantity - (excluding != 0);   // ((tracks * 2) - (excluding != 0)) * bands;
+    return mean;
+}

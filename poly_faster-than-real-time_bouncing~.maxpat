@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 626.0, 247.0, 640.0, 441.0 ],
+		"rect" : [ 626.0, 247.0, 753.0, 441.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,41 @@
 		"subpatcher_template" : "Size 10 grid",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 71.0, 290.0, 97.0, 20.0 ],
+					"text" : "s normalize_stems?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 92.0, 240.0, 64.0, 20.0 ],
+					"text" : "r normalize?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 71.0, 270.0, 55.0, 20.0 ],
+					"text" : "peakamp~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
@@ -94,7 +129,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 130.0, 200.0, 50.0, 20.0 ]
+					"patching_rect" : [ 190.0, 230.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -106,7 +141,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 218.0, 190.0, 50.0, 20.0 ]
+					"patching_rect" : [ 278.0, 220.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -118,7 +153,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-					"patching_rect" : [ 130.0, 230.0, 500.0, 120.0 ],
+					"patching_rect" : [ 190.0, 260.0, 500.0, 120.0 ],
 					"voffset" : 1.0
 				}
 
@@ -226,7 +261,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 35.5, 280.0, 37.0, 20.0 ],
+					"patching_rect" : [ 1.0, 280.0, 37.0, 20.0 ],
 					"text" : "edge~"
 				}
 
@@ -308,20 +343,20 @@
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 548.0, 290.0, 975.0, 484.0 ],
+						"rect" : [ 331.0, 185.0, 975.0, 484.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -350,6 +385,17 @@
 						"subpatcher_template" : "Size 10 grid",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 880.0, 420.0, 31.0, 20.0 ],
+									"text" : "out 2"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "newobj",
@@ -399,15 +445,15 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "require(\"log\");\r\nlimit(buf, sum, i) {\r\n    History xing(0);\r\n    History peak(0);\r\n    History polarity(0);\r\n    //Buffer product(\"product\");\r\n    //Buffer test(\"test\");\r\n    //sum = s1 + s2 + s3 + s4;\r\n    polarity = sign(sum);\r\n\tpeak = max(peak, abs(sum));\r\n    //poke(test, excess, i);\r\n    if(change(polarity)) {\r\n        if(peak > 1) {\r\n            attenuation = .99 / peak;\r\n            for(j = xing; j < i; j += 1) {\r\n                //poke(test, attenuation, j);\r\n                attenuated = peek(buf, j) * attenuation;\r\n                poke(buf, attenuated, j, 0);\r\n                poke(buf, attenuated, j, 1);\r\n            }\r\n        }\r\n        xing = i;\r\n        peak = 0;\r\n    }\r\n    return sum;\r\n}\r\nBuffer stem(\"stem\");\r\nBuffer product(\"product\");\r\nBuffer stats(\"stats\");\r\nParam iteration(0);\r\nHistory finished(0);\r\nif(in1) {\r\n    finished = 0;\r\n    for(i = 99999 * iteration; i < 99999 * (iteration + 1); i += 1) {\r\n        track = peek(stem, i);\r\n        track = limit(stem, track, i);\r\n        poke(stem, track, i);\r\n        bounce = peek(product, i) + track;\r\n        poke(product, bounce, i, 0);\r\n        poke(product, bounce, i, 1);\r\n\t\tif(i >= round(mstosamps(peek(stats, 1)))) {\r\n\t\t\tfinished = 1;\r\n\t\t\tbreak;\r\n\t\t}\r\n    }\r\n}\r\nout1 = finished;",
+									"code" : "require(\"log\");\r\nlimit(buf, sum, i) {\r\n    History xing(0);\r\n    History peak(0);\r\n    History polarity(0);\r\n    //Buffer product(\"product\");\r\n    //Buffer test(\"test\");\r\n    //sum = s1 + s2 + s3 + s4;\r\n    polarity = sign(sum);\r\n\tpeak = max(peak, abs(sum));\r\n    //poke(test, excess, i);\r\n    if(change(polarity)) {\r\n        if(peak > 1) {\r\n            attenuation = .99 / peak;\r\n            for(j = xing; j < i; j += 1) {\r\n                //poke(test, attenuation, j);\r\n                attenuated = peek(buf, j) * attenuation;\r\n                poke(buf, attenuated, j, 0);\r\n                poke(buf, attenuated, j, 1);\r\n            }\r\n        }\r\n        xing = i;\r\n        peak = 0;\r\n    }\r\n    return sum;\r\n}\r\nBuffer stem(\"stem\");\r\nBuffer product(\"product\");\r\nBuffer stats(\"stats\");\r\nParam iteration(0);\r\nHistory finished(0);\r\nHistory hi(0);\r\nif(in1) {\r\n\thi = 0;\r\n    finished = 0;\r\n    for(i = 99999 * iteration; i < 99999 * (iteration + 1); i += 1) {\r\n        track = peek(stem, i);\r\n        //track = limit(stem, track, i);  //My brilliant limiting works but it just over-compresses things which can result in very shrill sounds \r\n        poke(stem, track, i);\r\n        bounce = peek(product, i) + track;\r\n        poke(product, bounce, i, 0);\r\n        poke(product, bounce, i, 1);\r\n\t\thi = max(hi, abs(bounce));\r\n\t\tif(i >= round(mstosamps(peek(stats, 1)))) {\r\n\t\t\tfinished = 1;\r\n\t\t\tbreak;\r\n\t\t}\r\n    }\r\n}\r\nout1 = finished;\r\nout2 = hi > .99999;",
 									"fontface" : 0,
 									"fontname" : "<Monospaced>",
 									"fontsize" : 10.0,
 									"id" : "obj-3",
 									"maxclass" : "codebox",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 30.0, 50.0, 820.0, 420.0 ]
 								}
 
@@ -438,10 +484,17 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
  ]
 					}
 ,
-					"patching_rect" : [ 35.5, 240.0, 31.0, 20.0 ],
+					"patching_rect" : [ 35.5, 240.0, 54.5, 20.0 ],
 					"text" : "gen~"
 				}
 
@@ -488,7 +541,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 70.0, 280.0, 37.0, 20.0 ],
+					"patching_rect" : [ 35.5, 280.0, 37.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"attr_comment" : ""
 					}
@@ -535,8 +588,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-24", 1 ]
 				}
 
 			}

@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -69,8 +69,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 170.0, 190.0, 146.0, 20.0 ],
-					"text" : "\"p txt_backwards-compatibility\""
+					"patching_rect" : [ 206.0, 210.0, 146.0, 20.0 ],
+					"text" : "[ Untitled1 ]"
 				}
 
 			}
@@ -85,8 +85,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -316,6 +316,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "toggle",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle",
 							"parameter_type" : 3
 						}
@@ -392,8 +393,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -446,7 +447,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 138.0, 44.0, 52.0, 20.0 ],
+									"patching_rect" : [ 149.933334000000002, 64.0, 52.0, 20.0 ],
 									"text" : "receive~ t"
 								}
 
@@ -472,8 +473,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 104.333336000000003, 180.0, 34.0, 20.0 ],
-									"text" : "join 2"
+									"patching_rect" : [ 104.333336000000003, 180.0, 87.0, 20.0 ],
+									"text" : "join 2 @triggers 1"
 								}
 
 							}
@@ -498,9 +499,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
-									"outlettype" : [ "bang", "", "int", "bang" ],
-									"patching_rect" : [ 50.0, 60.0, 75.0, 20.0 ],
-									"text" : "t bang l 5 bang"
+									"outlettype" : [ "", "bang", "| t|", "bang" ],
+									"patching_rect" : [ 50.0, 60.0, 87.0, 20.0 ],
+									"text" : "t l bang \"| t|\" bang"
 								}
 
 							}
@@ -539,7 +540,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 50.0, 115.0, 47.0, 20.0 ],
+									"patching_rect" : [ 104.333336000000003, 114.5, 47.0, 20.0 ],
 									"text" : "cpuclock"
 								}
 
@@ -569,14 +570,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
-									"source" : [ "obj-3", 0 ]
+									"source" : [ "obj-3", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 1 ],
-									"source" : [ "obj-3", 1 ]
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
