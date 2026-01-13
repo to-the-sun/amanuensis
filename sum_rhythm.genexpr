@@ -1,0 +1,35 @@
+blog(buf, value) {
+	idx = counter(1, 0, dim(buf));
+	poke(buf, value, idx, 0, 0, 0);
+	poke(buf, elapsed, idx, 1, 0, 0);
+	return value;
+}
+
+sum_rhythm(frame, excluding) {
+    Buffer j_rhythm("j_rhythm");
+    Buffer r_rhythm("r_rhythm");
+    Buffer r_checks_log("r_checks_log");
+    Buffer j_checks_log("j_checks_log");
+    Buffer j_scores_log("j_scores_log");
+    Buffer r_scores_log("r_scores_log");
+    tracks = 4;
+    bands = 2;
+    sum = 0;
+    for(track = 1; track <= tracks * bands; track += bands) {
+        if(excluding != track) {
+            for(band = track; band < track + bands; band += 1) {
+                vibe = peek(r_rhythm, frame, band);
+                sum += vibe;
+            }
+        }
+    }
+    for(track = 1; track <= tracks * bands; track += bands) {
+        if(excluding != -track) {
+            for(band = track; band < track + bands; band += 1) {
+                vibe = peek(j_rhythm, frame, band);
+                sum += vibe;
+            }
+        }
+    }
+    return sum;
+}
