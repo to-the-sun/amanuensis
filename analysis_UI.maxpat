@@ -40,6 +40,46 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-177",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1230.0, 70.0, 83.0, 20.0 ],
+					"text" : "r palette-channel"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-179",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1174.0, 70.0, 50.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 806.0, 40.000001192092896, 50.0, 20.0 ],
+					"text" : "transcript"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-180",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1118.0, 90.0, 131.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 810.0, 60.0, 131.0, 20.0 ],
+					"text" : "threads~ script @verbose 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-152",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -11049,6 +11089,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-180", 2 ],
+					"source" : [ "obj-177", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-180", 1 ],
+					"source" : [ "obj-179", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"order" : 2,
 					"source" : [ "obj-18", 0 ]
@@ -11682,6 +11736,10 @@
 			}
 , 			{
 				"name" : "mxj.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "threads~.mxe64",
 				"type" : "mx64"
 			}
  ],
