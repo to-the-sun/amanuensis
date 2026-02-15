@@ -40,6 +40,33 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-182",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1320.0, 78.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 925.49995082616806, 30.0, 20.25, 20.25 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-181",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1320.0, 110.0, 64.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 950.0, 30.0, 64.0, 20.0 ],
+					"text" : "s reset_bars"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-177",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -69,12 +96,12 @@
 					"id" : "obj-180",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 1118.0, 90.0, 131.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 810.0, 60.0, 131.0, 20.0 ],
-					"text" : "threads~ script @verbose 1"
+					"text" : "threads~ script @log 1"
 				}
 
 			}
@@ -11122,6 +11149,13 @@
 					"destination" : [ "obj-174", 0 ],
 					"order" : 0,
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-181", 0 ],
+					"source" : [ "obj-182", 0 ]
 				}
 
 			}
