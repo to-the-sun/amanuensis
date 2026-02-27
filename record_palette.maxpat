@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 420.0, 590.0, 84.0, 20.0 ],
+					"text" : "substitute 0 clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 420.0, 570.0, 56.0, 20.0 ],
+					"text" : "r exporting"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-79",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -302,7 +326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 430.0, 590.0, 47.0, 20.0 ],
+					"patching_rect" : [ 509.0, 590.0, 47.0, 20.0 ],
 					"text" : "t 0. bang"
 				}
 
@@ -326,7 +350,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.0, 570.0, 68.0, 20.0 ],
+					"patching_rect" : [ 509.0, 570.0, 68.0, 20.0 ],
 					"text" : "r flush_spans"
 				}
 
@@ -372,7 +396,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 506.0, 550.0, 151.0, 110.0 ],
+					"patching_rect" : [ 590.0, 650.0, 151.0, 110.0 ],
 					"text" : "Bars that have been duplicated by filling may have spans that are incomplete if they were cut off in the new destination, but this shouldn't matter because the span should be irrelevant at that point. Same outside of filling since bars can overwrite spans right in the middle. "
 				}
 
@@ -408,8 +432,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "int", "", "" ],
-					"patching_rect" : [ 171.000005096197128, 620.0, 305.666666666666686, 20.0 ],
-					"text" : "buildspans @visualize 0 @log 1 @defer 1"
+					"patching_rect" : [ 171.000005096197128, 620.0, 195.0, 20.0 ],
+					"text" : "buildspans @visualize 1 @log 1 @defer 1"
 				}
 
 			}
@@ -494,30 +518,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 190.0, 180.0, 72.0, 20.0 ],
 					"text" : "r #0timestamp"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 399.0, 150.0, 41.0 ],
-					"text" : "Offset should never be zero because zeros are ignored by the script"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 235.0, 420.0, 74.0, 20.0 ],
-					"text" : "substitute 0. 1."
 				}
 
 			}
@@ -692,7 +692,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 320.0, 400.0, 154.0, 87.0 ],
+									"patching_rect" : [ 320.0, 400.0, 156.0, 87.0 ],
 									"text" : " – A blank 1 hour and 39 minute palette. Did it reset before it was able to export? Maybe all buffer functions (instead of just export, which is necessary) should go through deferlow to ensure order is preserved"
 								}
 
@@ -1569,7 +1569,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.000003725290298, 540.000016093254089, 200.0, 18.0 ],
+					"patching_rect" : [ 125.0, 550.0, 200.0, 18.0 ],
 					"text" : " [pass], [palette offset] [song offset]"
 				}
 
@@ -2494,6 +2494,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-37",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 84.0, 260.0, 29.5, 20.0 ],
+									"text" : "== 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "",
 									"id" : "obj-19",
 									"index" : 2,
@@ -2559,7 +2571,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 3.200000047683716, 230.400003433227539, 50.0, 20.0 ],
+									"patching_rect" : [ 32.0, 210.0, 50.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -2571,8 +2583,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.200000047683716, 250.400003731250763, 59.0, 20.0 ],
-									"text" : "v cant_lock"
+									"patching_rect" : [ 32.0, 230.0, 70.0, 20.0 ],
+									"text" : "v #1cant_lock"
 								}
 
 							}
@@ -2595,8 +2607,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 54.400000810623169, 250.400003731250763, 57.0, 20.0 ],
-									"text" : "r cant_lock"
+									"patching_rect" : [ 84.0, 210.0, 68.0, 20.0 ],
+									"text" : "r #1cant_lock"
 								}
 
 							}
@@ -2893,7 +2905,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 27.0, 180.0, 150.0, 52.0 ],
+									"patching_rect" : [ 27.0, 160.0, 150.0, 52.0 ],
 									"text" : "For backwards compatibility, the position is still stored in element 0, but also in the index as an integer."
 								}
 
@@ -3164,7 +3176,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
+									"destination" : [ "obj-37", 0 ],
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -3199,7 +3211,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
+									"destination" : [ "obj-37", 0 ],
 									"source" : [ "obj-25", 0 ]
 								}
 
@@ -3280,6 +3292,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-26", 0 ],
 									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-37", 0 ]
 								}
 
 							}
@@ -8150,7 +8169,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 171.000005096197128, 560.000016689300537, 234.0, 20.0 ],
+					"patching_rect" : [ 171.0, 570.0, 234.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -8340,7 +8359,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 290.000008642673492, 540.000016093254089, 59.0, 20.0 ],
+					"patching_rect" : [ 290.0, 550.0, 59.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -8449,20 +8468,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-18", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -8479,6 +8484,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"order" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"order" : 1,
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -8512,7 +8533,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -8573,7 +8594,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -8625,7 +8646,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
-					"order" : 2,
+					"disabled" : 1,
 					"source" : [ "obj-40", 2 ]
 				}
 
@@ -8640,7 +8661,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"disabled" : 1,
 					"source" : [ "obj-45", 3 ]
 				}
 
@@ -8790,6 +8810,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-65", 1 ],
 					"source" : [ "obj-68", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
