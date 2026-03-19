@@ -211,6 +211,54 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 260.0, 219.999998211860657, 50.0, 20.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 260.0, 259.999999403953552, 87.0, 20.0 ],
+									"text" : "sel \"Rapid Comp\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 260.0, 280.0, 295.0, 20.0 ],
+									"text" : "plug D:/[Library]/[Tools]/[VSTs]/[Effects]/[Utilities]/soothe2_x64.dll"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 260.0, 239.999998807907104, 49.0, 20.0 ],
+									"text" : "v in_app"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-35",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
@@ -226,7 +274,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 337.0, 383.0, 640.0, 480.0 ],
+										"rect" : [ 560.0, 361.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -261,8 +309,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 458.0, 222.0, 57.0, 20.0 ],
-													"text" : "snapshot 1"
+													"patching_rect" : [ 410.0, 210.0, 31.0, 20.0 ],
+													"text" : "open"
 												}
 
 											}
@@ -297,7 +345,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 230.0, 60.0, 46.0, 20.0 ],
+													"patching_rect" : [ 244.0, 421.0, 46.0, 20.0 ],
 													"text" : "deferlow"
 												}
 
@@ -310,7 +358,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 230.0, 19.0, 380.0, 31.0 ],
+													"patching_rect" : [ 244.0, 380.0, 380.0, 31.0 ],
 													"text" : "plug D:/[Library]/[Tools]/[VSTs]/[Effects]/[Utilities]/soothe2_x64.dll, importsnapshot 1 D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis/soothe2.maxsnap, restore 1"
 												}
 
@@ -501,6 +549,13 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-32", 0 ],
+													"source" : [ "obj-5", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-9", 0 ],
 													"source" : [ "obj-6", 0 ]
 												}
@@ -628,7 +683,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 219.666666666666657, 170.0, 87.0, 20.0 ],
+									"patching_rect" : [ 170.0, 169.999998807907104, 87.0, 20.0 ],
 									"text" : "loadmess length"
 								}
 
@@ -640,7 +695,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 219.666666666666657, 210.0, 80.0, 20.0 ],
+									"patching_rect" : [ 170.0, 210.0, 80.0, 20.0 ],
 									"text" : "prepend chans"
 								}
 
@@ -652,7 +707,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 219.666666666666657, 190.0, 76.0, 20.0 ],
+									"patching_rect" : [ 170.0, 189.999999403953552, 76.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -720,10 +775,10 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "out 2",
-														"numoutlets" : 0,
+														"numinlets" : 1,
 														"id" : "obj-5",
 														"patching_rect" : [ 390.0, 430.0, 31.0, 20.0 ],
-														"numinlets" : 1
+														"numoutlets" : 0
 													}
 
 												}
@@ -731,11 +786,11 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "in 1",
-														"numoutlets" : 1,
+														"numinlets" : 0,
 														"id" : "obj-1",
-														"outlettype" : [ "" ],
 														"patching_rect" : [ 50.0, 14.0, 25.0, 20.0 ],
-														"numinlets" : 0
+														"numoutlets" : 1,
+														"outlettype" : [ "" ]
 													}
 
 												}
@@ -743,25 +798,25 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "in 2",
-														"numoutlets" : 1,
+														"numinlets" : 0,
 														"id" : "obj-2",
-														"outlettype" : [ "" ],
 														"patching_rect" : [ 305.0, 14.0, 25.0, 20.0 ],
-														"numinlets" : 0
+														"numoutlets" : 1,
+														"outlettype" : [ "" ]
 													}
 
 												}
 , 												{
 													"box" : 													{
 														"maxclass" : "codebox",
-														"numoutlets" : 1,
+														"fontname" : "<Monospaced>",
+														"numinlets" : 2,
 														"fontface" : 0,
 														"id" : "obj-3",
-														"outlettype" : [ "" ],
 														"patching_rect" : [ 50.0, 40.0, 570.0, 360.0 ],
+														"numoutlets" : 1,
 														"fontsize" : 10.0,
-														"numinlets" : 2,
-														"fontname" : "<Monospaced>",
+														"outlettype" : [ "" ],
 														"code" : "this_env = slide(abs(in1), 0, 9999);\r\nenv = slide(abs(in2), 0, 9999);\r\nif(env < this_env) {\r\n\tout1 = in2;\r\n}"
 													}
 
@@ -770,10 +825,10 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "out 1",
-														"numoutlets" : 0,
+														"numinlets" : 1,
 														"id" : "obj-4",
 														"patching_rect" : [ 50.0, 410.0, 31.0, 20.0 ],
-														"numinlets" : 1
+														"numoutlets" : 0
 													}
 
 												}
@@ -811,7 +866,7 @@
 									"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
 									"patching_rect" : [ 157.0, 280.0, 47.0, 20.0 ],
 									"text" : "mc.gen~",
-									"wrapper_uniquekey" : "u002008714"
+									"wrapper_uniquekey" : "u328005570"
 								}
 
 							}
@@ -834,7 +889,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 365.0, 290.0, 29.5, 20.0 ],
+									"patching_rect" : [ 542.0, 70.0, 29.5, 20.0 ],
 									"text" : "front"
 								}
 
@@ -846,7 +901,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 365.0, 310.0, 57.0, 20.0 ],
+									"patching_rect" : [ 542.0, 90.0, 57.0, 20.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -861,7 +916,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 295.0, 250.0, 30.0, 30.0 ]
+									"patching_rect" : [ 542.0, 40.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -980,38 +1035,14 @@
 							}
 , 							{
 								"box" : 								{
-									"autosave" : 0,
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 4,
-									"numoutlets" : 8,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-									"patching_rect" : [ 25.0, 340.0, 311.0, 20.0 ],
-									"save" : [ "#N", "vst~", "loaduniqueid", 0, 4, 2, ";" ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_invisible" : 1,
-											"parameter_longname" : "vst~",
-											"parameter_modmode" : 0,
-											"parameter_shortname" : "vst~",
-											"parameter_type" : 3
-										}
-
-									}
-,
-									"saved_object_attributes" : 									{
-										"autosave" : 0,
-										"parameter_enable" : 1,
-										"parameter_mappable" : 0
-									}
-,
-									"text" : "vst~ 4 2",
-									"varname" : "vst~",
-									"viewvisibility" : 0
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "signal" ],
+									"patching_rect" : [ 25.0, 340.0, 312.0, 20.0 ],
+									"text" : "lazyvst~",
+									"varname" : "vst~"
 								}
 
 							}
@@ -1059,8 +1090,22 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
-									"source" : [ "obj-1", 2 ]
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -1171,6 +1216,13 @@
 									"destination" : [ "obj-22", 0 ],
 									"order" : 0,
 									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -8941,7 +8993,6 @@
 			"obj-37" : [ "live.text[58]", "live.text", 0 ],
 			"obj-54" : [ "slider[9]", "slider", 0 ],
 			"obj-73" : [ "live.text[61]", "live.text", 0 ],
-			"obj-90::obj-1" : [ "vst~", "vst~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -8955,6 +9006,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "lazyvst~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
 				"name" : "logExternally(Frame+Phasor).maxpat",
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
 				"patcherrelativepath" : ".",

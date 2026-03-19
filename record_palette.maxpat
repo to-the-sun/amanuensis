@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 570.0, 55.0, 20.0 ],
+					"text" : "r rebarring"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -306,7 +318,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 396.0, 670.0, 26.0, 20.0 ],
+					"patching_rect" : [ 715.0, 780.0, 26.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -338,8 +350,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.000006437301636, 640.000019073486328, 150.0, 41.0 ],
-					"text" : "Crucible sends reach for each bar when it really only needs to be for each span. "
+					"patching_rect" : [ 142.33333757519722, 640.000019073486328, 150.0, 41.0 ],
+					"text" : "Crucible sends reach for each bar when it really only needs to be for each span. (?)"
 				}
 
 			}
@@ -384,7 +396,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 430.0, 670.0, 41.0, 20.0 ],
+					"patching_rect" : [ 386.333344846963882, 660.000019669532776, 41.0, 20.0 ],
 					"text" : "s reach"
 				}
 
@@ -408,8 +420,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 362.000010788440704, 640.000019073486328, 166.0, 20.0 ],
-					"text" : "crucible transcript @log 1 @defer 1"
+					"patching_rect" : [ 288.333341926336288, 640.000019073486328, 166.0, 20.0 ],
+					"text" : "crucible transcript @log 1 @defer 0"
 				}
 
 			}
@@ -433,7 +445,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "int", "", "" ],
 					"patching_rect" : [ 171.000005096197128, 620.0, 195.0, 20.0 ],
-					"text" : "buildspans @visualize 1 @log 1 @defer 1"
+					"text" : "buildspans @visualize 1 @log 1 @defer 0"
 				}
 
 			}
@@ -8623,6 +8635,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"disabled" : 1,
 					"source" : [ "obj-40", 3 ]
 				}
 
@@ -8630,7 +8643,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"order" : 0,
+					"disabled" : 1,
 					"source" : [ "obj-40", 2 ]
 				}
 
@@ -8638,7 +8651,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
-					"order" : 1,
 					"source" : [ "obj-40", 2 ]
 				}
 
@@ -8661,6 +8673,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"disabled" : 1,
 					"source" : [ "obj-45", 3 ]
 				}
 
