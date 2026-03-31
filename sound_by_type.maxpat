@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 423.0, 353.0, 897.0, 662.0 ],
+		"rect" : [ 314.0, 257.0, 897.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -1150,7 +1150,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 4.5, 440.0, 135.0, 20.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2178,7 +2178,7 @@
 					"patching_rect" : [ 689.5, 380.0, 26.5, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 241.0, 114.0, 120.0, 18.0 ],
-					"text" : "of 0:"
+					"text" : "of 1:"
 				}
 
 			}
@@ -2188,8 +2188,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 640.0, 20.0, 55.0, 20.0 ],
-					"text" : "s end_file"
+					"patching_rect" : [ 640.0, 20.0, 66.0, 20.0 ],
+					"text" : "s #2end_file"
 				}
 
 			}
@@ -2207,7 +2207,7 @@
 					"depth" : 4,
 					"elementcolor" : [ 0.936553, 0.9512, 0.726506, 1.0 ],
 					"id" : "obj-74",
-					"items" : [ "repeating indefinitely", ",", "ending immediately" ],
+					"items" : [ "playing once", ",", "repeating indefinitely", ",", "ending immediately" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -15779,7 +15779,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-24",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -27881,7 +27881,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -27906,7 +27906,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -33551,7 +33551,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-38",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -33571,7 +33571,7 @@
 					"patching_rect" : [ 625.0, 380.0, 26.5, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 241.0, 58.0, 120.0, 18.0 ],
-					"text" : "of 0:"
+					"text" : "of 1:"
 				}
 
 			}
@@ -33616,7 +33616,7 @@
 					"patching_rect" : [ 660.0, 380.0, 26.5, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 241.0, 30.0, 120.0, 18.0 ],
-					"text" : "of 0:"
+					"text" : "of 1:"
 				}
 
 			}
@@ -34272,46 +34272,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-103::obj-2::obj-12" : [ "toggle[6]", "toggle", 0 ],
-			"obj-134::obj-11::obj-12" : [ "toggle[5]", "toggle", 0 ],
-			"obj-17" : [ "1_Duration[2]", "Duration", 0 ],
-			"obj-170::obj-7::obj-12" : [ "toggle[4]", "toggle", 0 ],
-			"obj-27" : [ "1_Duration[4]", "Duration", 0 ],
-			"obj-3" : [ "Current[51]", "Current", 0 ],
-			"obj-33::obj-12" : [ "toggle[3]", "toggle", 0 ],
-			"obj-5" : [ "Current[50]", "Current", 0 ],
-			"obj-77::obj-2::obj-12" : [ "toggle", "toggle", 0 ],
-			"obj-93::obj-2::obj-12" : [ "toggle[2]", "toggle", 0 ],
-			"obj-98" : [ "Current[1]", "Current", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "logExternally(Frame+Phasor).maxpat",
-				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "parentname.js",
-				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Custom Default",
 				"default" : 				{
