@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ 493.0, 229.0, 826.0, 617.0 ],
+		"rect" : [ 85.0, 212.0, 826.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "To the Sun",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"linecount" : 22,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 730.0, 260.0, 150.0, 259.0 ],
+					"text" : "- It should be (normalized) cumulative rhythm rather than mean rhythm because silence should count for nothing and every bit of sound is additive. Then it should take the largest check found not the average. Average punishes for a complex pattern of beats because there will be many smaller peaks in that case whereas repetitive trance will just be a bunch of big peaks.\n- Big transients should matter more when scoring and little transients matter less, so a big transient has more to lose: Score should range from -1 to 1 (Actually, 0 to 2, so none are negative) instead of 0 to 1. scale(score, 0, 1, -transient, transient). "
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
