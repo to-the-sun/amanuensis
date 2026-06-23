@@ -286,8 +286,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 171.333338439464569, 660.0, 225.0, 20.0 ],
-					"text" : "crucible transcript @log 0 @defer 0 @visualize 1",
+					"patching_rect" : [ 171.333338439464569, 660.0, 228.0, 20.0 ],
+					"text" : "crucible transcript @log 0 @async 1 @visualize 1",
 					"varname" : "#0crucible"
 				}
 
@@ -311,8 +311,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 171.333338439464569, 630.000018775463104, 231.0, 20.0 ],
-					"text" : "buildspans @visualize 1 @log 0 @bind #0crucible"
+					"patching_rect" : [ 171.333338439464569, 630.000018775463104, 278.0, 20.0 ],
+					"text" : "buildspans @visualize 1 @log 0 @async 1 @bind #0crucible"
 				}
 
 			}
@@ -8534,7 +8534,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"disabled" : 1,
 					"source" : [ "obj-40", 3 ]
 				}
 

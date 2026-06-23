@@ -40,6 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 221.0, 50.0, 70.0, 20.0 ],
+					"text" : "s prep_export"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-78",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 134.0, 30.0, 106.0, 20.0 ],
+					"text" : "t bang bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-48",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -80483,7 +80506,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 369.000010997056961, 170.000005066394806, 170.0, 20.0 ],
-					"text" : "0 -3999. 4001."
+					"text" : "0 0 0"
 				}
 
 			}
@@ -80651,7 +80674,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-29",
-					"items" : [ "(un)Bound", ",", "1970s Peruvian Hotel", ",", "[2025-12-29-22-19-46]", ",", "[2025-12-30-20-45-33]", ",", "[2026-4-23-22-16-31]", ",", "[2026-4-26-20-57-24]", ",", "[2026-4-27-18-59-47]", ",", "[2026-5-18-21-8-50]", ",", "[2026-5-19-20-49-29]", ",", "[Archives]", ",", "[Template]", ",", "A Pitiful Soul", ",", "A Slick Slope into a Dark Abyss", ",", "Allen Ginsberg Armageddon", ",", "An Abacus, or Your Fingers", ",", "An End Table Forged from Yggdrasil Itself", ",", "Anathema", ",", "And Then Day Turned to Night", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "Artificial Death", ",", "As Seraphim Saunter", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Blight-Emitting Diode", ",", "Blind", ",", "C'mon Night", ",", "Cakes!", ",", "Candy Apple Island", ",", "Caprice", ",", "Casino", ",", "Catharsis", ",", "Circles", ",", "Classical Firmament", ",", "Convalescence", ",", "Corporate Warfare", ",", "Craterian Underworld", ",", "Crawl Away", ",", "Deep Space Disco", ",", "Disengagement by Shipwreck", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "Dum Casi Transeunt", ",", "dying satellites", ",", "Echoing", ",", "Elevator Music", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "End of an Era Pt. 1", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Fear of a Name", ",", "Felmar", ",", "Flowers in the Street", ",", "Forced Providence", ",", "Frost", ",", "Ghost Tavern", ",", "Grand Prix", ",", "H", ",", "H. [scream]", ",", "Hallow Enough", ",", "Harmless", ",", "Hate the Bear", ",", "Head Full of Real Chills", ",", "Heaven Fallen", ",", "High Resolution (Rising)", ",", "High Resolution (Sinking)", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "I Can't See What You Need", ",", "I Dreamed of What I Was Before I Was Made into This", ",", "I Know My Price", ",", "Imparted", ",", "Impermanence", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Sunrise", ",", "Interior Frontier", ",", "Interspecies Intrigue", ",", "It's Snowing Outside Give Me Soup", ",", "Jabberwocky Cipher", ",", "Jericho's Grin", ",", "Jezebel", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Landmine", ",", "Lifting", ",", "Long Ago Lost", ",", "Love Leaves Its Abusers", ",", "Lums", ",", "Lux Aeterna", ",", "Means", ",", "Mind in Void", ",", "Miserable", ",", "Miter Saw of Yore", ",", "Ocean of Silence (We Will All Burn)", ",", "Old Map of the Abyss", ",", "Operator Drone", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Pending Familiarity", ",", "Perfectly Lost", ",", "Permafrost", ",", "Pixilated Reverie", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Rainy Weather", ",", "Relentless Renaissance", ",", "Residex", ",", "Reticent", ",", "Ring the Changes", ",", "Roboticized Break-In", ",", "Rose Tinted Glasses", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Set Sail", ",", "Severance", ",", "Shady Wells of Amber", ",", "Shop Theme", ",", "Sidereal Scatter", ",", "Smells like Teen Spirit", ",", "Snowing Spores", ",", "Solitude", ",", "Somatic Memory", ",", "Sonder March", ",", "Space Whales Have Blowhole Thrusters", ",", "Stagger Proudly on", ",", "Staring at the Sun", ",", "Starter Town Yoshiro Region Theme", ",", "Static Confluence (With Hells Aligned)", ",", "Steam-Powered Stupor", ",", "Stepping on a Lego", ",", "Street Spirit (Fade Out)", ",", "Stunningly Lost", ",", "Submit and Be Crushed", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Cage of Spires", ",", "The Conscious Mind", ",", "The Fate of Artax and the Wisdom of Morla", ",", "The Flowing Light", ",", "The Long Fall", ",", "The Machinist Fir", ",", "The Pavilion Bells", ",", "The Scalar", ",", "The Shepherd and the Slaver", ",", "There Stalks a Daeva This Azimuth", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Through", ",", "Transcendental Takeover", ",", "Transmogrified", ",", "Triangle God", ",", "Triptych", ",", "Triumph in a Vacuum", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Underwater", ",", "Untitled", ",", "Vacant in Name, Vacant in Deed", ",", "Visions", ",", "Webs and Schisms", ",", "Werewolves and Time Travel Won't Keep Me Away", ",", "What I", ",", "Whenever I Die I Wake up Some Place Else", ",", "Whether", ",", "Whimsy Dancer of the Mystic Undergrowth", ",", "Whittling Away the Day", ",", "Wistful, Sulfurous", ",", "With Regret and Nihilistic", ",", "WXA", ",", "Your Eyes Remind Me of Something", ",", "Your Eyes Remind Me of Something [Sound of Unknowing Mix]", ",", "▼Telekinesis▼" ],
+					"items" : [ "(un)Bound", ",", "1970s Peruvian Hotel", ",", "[2025-12-29-22-19-46]", ",", "[2026-6-10-20-1-40]", ",", "[2026-6-10-20-26-53]", ",", "[2026-6-13-19-51-10]", ",", "[2026-6-13-21-12-49]", ",", "[2026-6-16-20-12-49]", ",", "[2026-6-19-18-50-0]", ",", "[2026-6-19-19-2-22]", ",", "[2026-6-20-18-13-3]", ",", "[2026-6-21-20-51-1]", ",", "[2026-6-22-19-0-43]", ",", "[Archives]", ",", "[Template]", ",", "A Pitiful Soul", ",", "A Slick Slope into a Dark Abyss", ",", "Allen Ginsberg Armageddon", ",", "An Abacus, or Your Fingers", ",", "An End Table Forged from Yggdrasil Itself", ",", "Anathema", ",", "And Then Day Turned to Night", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "Artificial Death", ",", "As Seraphim Saunter", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Blight-Emitting Diode", ",", "Blind", ",", "C'mon Night", ",", "Cakes!", ",", "Candy Apple Island", ",", "Caprice", ",", "Casino", ",", "Catharsis", ",", "Circles", ",", "Circles [Instrumental]", ",", "Classical Firmament", ",", "Connected Human World Beast", ",", "Convalescence", ",", "Corporate Warfare", ",", "Craterian Underworld", ",", "Crawl Away", ",", "Deep Space Disco", ",", "Disengagement by Shipwreck", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "Dum Casi Transeunt", ",", "dying satellites", ",", "Echoing", ",", "Elevator Music", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "End of an Era Pt. 1", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Fear of a Name", ",", "Felmar", ",", "Flowers in the Street", ",", "Forced Providence", ",", "Frost", ",", "Ghost Tavern", ",", "Grand Prix", ",", "H", ",", "H. [scream]", ",", "Hallow Enough", ",", "Harmless", ",", "Hate the Bear", ",", "Head Full of Real Chills", ",", "Heaven Fallen", ",", "Heaven Fallen [Instrumental]", ",", "High Resolution (Rising)", ",", "High Resolution (Sinking)", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "I Can't See What You Need", ",", "I Dreamed of What I Was Before I Was Made into This", ",", "I Know My Price", ",", "Imparted", ",", "Impermanence", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Sunrise", ",", "Interior Frontier", ",", "Interspecies Intrigue", ",", "It's Snowing Outside Give Me Soup", ",", "Jabberwocky Cipher", ",", "Jericho's Grin", ",", "Jezebel", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Landmine", ",", "Lifting", ",", "Long Ago Lost", ",", "Love Leaves Its Abusers", ",", "Lums", ",", "Lux Aeterna", ",", "Means", ",", "Mind in Void", ",", "Miserable", ",", "Miter Saw of Yore", ",", "Ocean of Silence (We Will All Burn)", ",", "Old Map of the Abyss", ",", "Operator Drone", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Pending Familiarity", ",", "Perfectly Lost", ",", "Permafrost", ",", "Pixilated Reverie", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Rainy Weather", ",", "Relentless Renaissance", ",", "Residex", ",", "Reticent", ",", "Ring the Changes", ",", "Roboticized Break-In", ",", "Rose Tinted Glasses", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Set Sail", ",", "Severance", ",", "Shady Wells of Amber", ",", "Shop Theme", ",", "Sidereal Scatter", ",", "Smells like Teen Spirit", ",", "Snowing Spores", ",", "Snowing Spores [Anti Inverse Remix]", ",", "Solitude", ",", "Somatic Memory", ",", "Sonder March", ",", "Space Whales Have Blowhole Thrusters", ",", "Stagger Proudly on", ",", "Staring at the Sun", ",", "Starter Town Yoshiro Region Theme", ",", "Static Confluence (With Hells Aligned)", ",", "Static Confluence (With Hells Aligned) [Inchoate]", ",", "Steam-Powered Stupor", ",", "Stepping on a Lego", ",", "Street Spirit (Fade Out)", ",", "Stunningly Lost", ",", "Submit and Be Crushed", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Cage of Spires", ",", "The Conscious Mind", ",", "The Fate of Artax and the Wisdom of Morla", ",", "The Flowing Light", ",", "The Long Fall", ",", "The Machinist Fir", ",", "The Pavilion Bells", ",", "The Scalar", ",", "The Scalar [Demo]", ",", "The Shepherd and the Slaver", ",", "There Stalks a Daeva This Azimuth", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Through", ",", "Transcendental Takeover", ",", "Transmogrified", ",", "Triangle God", ",", "Triptych", ",", "Triumph in a Vacuum", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Underwater", ",", "Untitled", ",", "Vacant in Name, Vacant in Deed", ",", "Visions", ",", "Webs and Schisms", ",", "Werewolves and Time Travel Won't Keep Me Away", ",", "What I", ",", "Whenever I Die I Wake up Some Place Else", ",", "Whether", ",", "Whimsy Dancer of the Mystic Undergrowth", ",", "Whittling Away the Day", ",", "Wistful, Sulfurous", ",", "With Regret and Nihilistic", ",", "WXA", ",", "Your Eyes Remind Me of Something", ",", "Your Eyes Remind Me of Something [Demo]", ",", "Your Eyes Remind Me of Something [Sound of Unknowing Mix]", ",", "▼Telekinesis▼" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -80684,7 +80707,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 134.0, 20.0, 57.0, 20.0 ],
+					"patching_rect" : [ 134.0, 10.0, 57.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 480.0, 57.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -92708,7 +92731,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-191", 0 ],
-					"midpoints" : [ 99.5, 121.5, 82.25, 121.5, 82.25, 32.0, 29.5, 32.0 ],
+					"midpoints" : [ 99.5, 121.5, 82.25, 121.5, 82.25, 34.75, 29.5, 34.75 ],
 					"order" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
@@ -92899,7 +92922,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 1,
-					"midpoints" : [ 99.5, 180.0, 217.75, 180.0, 217.75, 49.0, 159.5, 49.0 ],
+					"midpoints" : [ 99.5, 180.0, 217.75, 180.0, 217.75, 52.5, 159.5, 52.5 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -92970,7 +92993,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 29.5, 84.5, 121.5, 84.5 ],
+					"midpoints" : [ 29.5, 84.25, 121.5, 84.25 ],
 					"source" : [ "obj-180", 0 ]
 				}
 
@@ -93296,6 +93319,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 2 ],
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-78", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
@@ -93381,7 +93418,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 2 ],
+					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-92", 0 ]
 				}
 
@@ -93416,7 +93453,7 @@
 			"obj-13::obj-113::obj-17::obj-12" : [ "toggle[13]", "toggle", 0 ],
 			"obj-13::obj-113::obj-21::obj-1::obj-12" : [ "toggle[12]", "toggle", 0 ],
 			"obj-13::obj-113::obj-96::obj-49::obj-12" : [ "toggle[11]", "toggle", 0 ],
-			"obj-13::obj-157::obj-33::obj-21" : [ "vst~[2]", "vst~[2]", 0 ],
+			"obj-13::obj-157::obj-33::obj-21" : [ "vst~[1]", "vst~[1]", 0 ],
 			"obj-13::obj-157::obj-5" : [ "vst~[8]", "vst~", 0 ],
 			"obj-13::obj-159::obj-1::obj-12" : [ "toggle[24]", "toggle", 0 ],
 			"obj-13::obj-159::obj-70::obj-14::obj-12" : [ "toggle[25]", "toggle", 0 ],
@@ -93629,6 +93666,10 @@
 			}
 , 			{
 				"name" : "rebar.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "smartloop~.mxe64",
 				"type" : "mx64"
 			}
 , 			{
