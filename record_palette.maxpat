@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.0, 640.0, 38.0, 20.0 ],
+					"text" : "r rebar"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -286,8 +298,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 171.333338439464569, 660.0, 228.0, 20.0 ],
-					"text" : "crucible transcript @log 0 @async 1 @visualize 1",
+					"patching_rect" : [ 171.333338439464569, 660.0, 259.0, 20.0 ],
+					"text" : "crucible transcript @log 1 @async 1 @visualize 1 @fill 0",
 					"varname" : "#0crucible"
 				}
 
@@ -8892,6 +8904,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-23", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
