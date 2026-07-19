@@ -40,6 +40,62 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-223",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 470.0, 750.0, 64.0, 20.0 ],
+					"text" : "r pattr_solo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-222",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 470.0, 790.0, 65.0, 20.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-221",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 470.0, 770.0, 130.0, 20.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr solo @autorestore 0",
+					"varname" : "solo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-218",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 470.0, 810.0, 37.0, 20.0 ],
+					"text" : "s solo"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-206",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -8135,14 +8191,14 @@
 								"box" : 								{
 									"autopopulate" : 1,
 									"id" : "obj-31",
-									"items" : [ "palette_2025-4-22-23-6-37.wav", ",", "preview.wav" ],
+									"items" : [ "glued.wav", ",", "palette_2026-7-19-14-49-35.wav", ",", "palette_vox-01-warped-w-warped-w-w[2026-07-18144048].wav", ",", "preserves.wav", ",", "preview.wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 149.0, 160.0, 100.0, 20.0 ],
-									"prefix" : "D:/[Library]/[Audio]/[Works]/[Experiments]/[Projects]/[2025-4-22-23-6-45]/",
+									"prefix" : "D:/[Library]/[Audio]/[Works]/[Projects]/(Un)Bound/",
 									"types" : "WAVE"
 								}
 
@@ -13417,11 +13473,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 440.0, 50.0, 20.0 ]
+									"patching_rect" : [ 150.0, 440.0, 50.0, 20.0 ],
+									"text" : "D:/[Library]/[Audio]/[Works]/[Projects]/(Un)Bound/"
 								}
 
 							}
@@ -15144,13 +15202,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-199",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1000.0, 570.0, 172.0, 31.0 ],
-					"text" : "client_add mode_duration::transcription::bar"
+					"patching_rect" : [ 1000.0, 570.0, 172.0, 20.0 ],
+					"text" : "client_add solo"
 				}
 
 			}
@@ -61452,7 +61509,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 416.75, 290.0, 50.0, 20.0 ],
-									"text" : "0"
+									"text" : "1"
 								}
 
 							}
@@ -69622,6 +69679,28 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 20.0, 70.0, 130.0, 20.0 ],
+									"restore" : [ 										{
+											"filetype" : "C74Snapshot",
+											"version" : 2,
+											"minorversion" : 0,
+											"name" : "TDR VOS SlickEQ",
+											"origin" : "TDR VOS SlickEQ.dll",
+											"type" : "VST",
+											"subtype" : "AudioEffect",
+											"embed" : 1,
+											"snapshot" : 											{
+												"pluginname" : "TDR VOS SlickEQ.dll",
+												"plugindisplayname" : "TDR VOS SlickEQ",
+												"pluginsavedname" : "D:/[Library]/[Tools]/[VSTs]/[Effects]/[Utilities]/Tokyo Dawn Labs/TDR VOS SlickEQ.dll",
+												"pluginsaveduniqueid" : 0,
+												"version" : 1,
+												"isbank" : 0,
+												"isbase64" : 1,
+												"blob" : "2271.CMlaKA....fQPMDZ....APEYw.C.AL.B....dXjbkMGZsE1ZkIG..........................fvnVMjLgnIB...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOTQjTV8zTSwVZisVQQABaucmPg4FYGEVZtAUXxEVa8HRK43RNh.BaucmPg4FYFIWYwAUXxEVa8HhM2HBHr81cBElajMEZgAWYPElbg0VOhLEZkwlYh.RaoQlPg4FYGEVZtAUXxEVa8HhLt.iHfzVZjITXtQlQxUVbPElbg0VOhTCLv.iHffVZmglPg4FYGEVZtAUXxEVa8HhLt.iHffVZmglPg4FYFIWYwAUXxEVa8HRLv.CLvHBHnk1YnITXtQ1TnEFbkAUXxEVa8HxTnUFalIBHkEWSuQVYrAUXxEVa8HhPxkFcoMGZh.RYwMUXzAUXxEVa8HxStIBHnAmQxUVbPElbg0VOhPCLh.xa0Q2TgQWSuQVYrAUXxEVa8HRSkwFaucmHf7VczMUXzQjboYWYPElbg0VOhDiLt.iHf7VczcTXo4FTgIWXs0iHv3BLh.hX4AWXyMGTgIWXs0iHOYlYh.RauQVYPElbg0VOhLEckIWYuIBHr81cBElajITdvE1byAUXxEVa8HxSlYlHfzVZjITXtQlP4AWXyMGTgIWXs0iHOYlYh.BZocFZBElajITdvE1byAUXxEVa8HxSlYlHfDVcz81QgklaPElbg0VOh7jah.Rb0EFaoQWdPElbg0VOhXTcrwlH9vCaucVZiEFafv1a2ITXtQ1QgklaPElbg0VOhzRNtjiHfv1a2ITXtQlQxUVbPElbg0VOhXyMt.iHfv1a2ITXtQ1TnEFbkAUXxEVa8HBLt.iHfzVZjITXtQ1QgklaPElbg0VOhHiKvHBHskFYBElajYjbkEGTgIWXs0iH0.CLv3BLh.BZocFZBElajcTXo4FTgIWXs0iHx3BLh.BZocFZBElajYjbkEGTgIWXs0iHw.CLv.iKvHBHnk1YnITXtQ1TnEFbkAUXxEVa8HBLt.iHfTVbM8FYkwFTgIWXs0iHw3BLh.RYwMUXzAUXxEVa8HRLt.iHffFbFIWYwAUXxEVa8HBMv3BLh.xa0Q2TgQWSuQVYrAUXxEVa8HhLt.iHf7VczMUXzQjboYWYPElbg0VOhDiLt.iHf7VczcTXo4FTgIWXs0iHv3BLh.hX4AWXyMGTgIWXs0iHv3BLh.RauQVYPElbg0VOhDiKvHBHr81cBElajITdvE1byAUXxEVa8HBLt.iHfzVZjITXtQlP4AWXyMGTgIWXs0iHv3BLh.BZocFZBElajITdvE1byAUXxEVa8HBLt.iHfDVcz81QgklaPElbg0VOhDiKvHBHwUWXrkFc4AUXxEVa8HBLt.iHu3COvIWYyUFcyARXiQWZ1UVOhfiH9vCbxU1bkQGHe4zae0iHwHBHe4TXsU1W8HBQkYVX0wFch.BaucmPg4FYGEVZtAUXxEVa8HRKwfiKvHBHr81cBElajYjbkEGTgIWXs0iH3TiHfv1a2ITXtQ1TnEFbkAUXxEVa8HxTnUFalIBHskFYBElajcTXo4FTgIWXs0iHv3BLh.RaoQlPg4FYFIWYwAUXxEVa8HhL0.CLh.BZocFZBElajcTXo4FTgIWXs0iHv3BLh.BZocFZBElajYjbkEGTgIWXs0iHw.CLv.iHffVZmglPg4FYSgVXvUFTgIWXs0iHSgVYrYlHfTVbM8FYkwFTgIWXs0iHA0VYxk1Xg4lHfTVbSEFcPElbg0VOh7jYlIBHnAmQxUVbPElbg0VOh7jYlIBHuUGcSEFcM8FYkwFTgIWXs0iHLklakElbh.xa0Q2TgQGQxklckAUXxEVa8HhMt.iHf7VczcTXo4FTgIWXs0iHv3BLh.hX4AWXyMGTgIWXs0iHOYlYh.RauQVYPElbg0VOhLEckIWYuIBHr81cBElajITdvE1byAUXxEVa8HxSlYlHfzVZjITXtQlP4AWXyMGTgIWXs0iHOYlYh.BZocFZBElajITdvE1byAUXxEVa8HxSlYlHfDVcz81QgklaPElbg0VOh7jah.Rb0EFaoQWdPElbg0VOhXTcrwlH9vCaucVZiEFafv1a2ITXtQ1QgklaPElbg0VOhzRL33BLh.BaucmPg4FYFIWYwAUXxEVa8HBN03BLh.BaucmPg4FYSgVXvUFTgIWXs0iHv3BLh.RaoQlPg4FYGEVZtAUXxEVa8HBLt.iHfzVZjITXtQlQxUVbPElbg0VOhHSMv.iKvHBHnk1YnITXtQ1QgklaPElbg0VOh.iKvHBHnk1YnITXtQlQxUVbPElbg0VOhDCLv.CLt.iHffVZmglPg4FYSgVXvUFTgIWXs0iHv3BLh.RYw0zajUFaPElbg0VOh.iKvHBHkE2TgQGTgIWXs0iHv3BLh.BZvYjbkEGTgIWXs0iHw.iKvHBHuUGcSEFcM8FYkwFTgIWXs0iHv3BLh.xa0Q2TgQGQxklckAUXxEVa8HhMt.iHf7VczcTXo4FTgIWXs0iHv3BLh.hX4AWXyMGTgIWXs0iHv3BLh.RauQVYPElbg0VOhDiKvHBHr81cBElajITdvE1byAUXxEVa8HBLt.iHfzVZjITXtQlP4AWXyMGTgIWXs0iHv3BLh.BZocFZBElajITdvE1byAUXxEVa8HBLt.iHfDVcz81QgklaPElbg0VOhDiKvHBHwUWXrkFc4AUXxEVa8HBLt.iHu3COu.mbkMWYz4COvIWYyUFcf7kSu8UOhfiHf7kSg0VYe0iHFIWYygVagsVYxIxK9vyKvIWYyUFcy4COAAxWAMFcoYWYe0iHwHxK9viPf7UPiQWZ1U1W8HBLh.xWLklaqUFYe0iHwHxK9vSctQ1au3COo4lYuAhckI2bo8la8HRLtLiK3HxK9vCbgIWXsARZtMGcg41Xk0iHTQjTfX0SSAxTrk1XqUTTffRLoHxK9vyKTQjTV8zTSwVZisVQQ4C."
+											}
+
+										}
+ ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -69917,11 +69996,11 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "in 7",
-																		"numoutlets" : 1,
+																		"outlettype" : [ "" ],
 																		"id" : "obj-18",
 																		"patching_rect" : [ 701.0, 0.0, 25.0, 20.0 ],
-																		"outlettype" : [ "" ],
-																		"numinlets" : 0
+																		"numinlets" : 0,
+																		"numoutlets" : 1
 																	}
 
 																}
@@ -69929,10 +70008,10 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "out 9",
-																		"numoutlets" : 0,
 																		"id" : "obj-17",
 																		"patching_rect" : [ 671.0, 540.0, 31.0, 20.0 ],
-																		"numinlets" : 1
+																		"numinlets" : 1,
+																		"numoutlets" : 0
 																	}
 
 																}
@@ -69940,10 +70019,10 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "out 8",
-																		"numoutlets" : 0,
 																		"id" : "obj-16",
 																		"patching_rect" : [ 631.0, 540.0, 31.0, 20.0 ],
-																		"numinlets" : 1
+																		"numinlets" : 1,
+																		"numoutlets" : 0
 																	}
 
 																}
@@ -69951,10 +70030,10 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "out 7",
-																		"numoutlets" : 0,
 																		"id" : "obj-15",
 																		"patching_rect" : [ 600.0, 550.0, 31.0, 20.0 ],
-																		"numinlets" : 1
+																		"numinlets" : 1,
+																		"numoutlets" : 0
 																	}
 
 																}
@@ -69962,11 +70041,11 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "in 6",
-																		"numoutlets" : 1,
+																		"outlettype" : [ "" ],
 																		"id" : "obj-14",
 																		"patching_rect" : [ 595.0, 0.0, 25.0, 20.0 ],
-																		"outlettype" : [ "" ],
-																		"numinlets" : 0
+																		"numinlets" : 0,
+																		"numoutlets" : 1
 																	}
 
 																}
@@ -69974,11 +70053,11 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "buffer recitation_log",
-																		"numoutlets" : 2,
+																		"outlettype" : [ "", "" ],
 																		"id" : "obj-13",
 																		"patching_rect" : [ 920.0, 90.0, 96.0, 20.0 ],
-																		"outlettype" : [ "", "" ],
-																		"numinlets" : 0
+																		"numinlets" : 0,
+																		"numoutlets" : 2
 																	}
 
 																}
@@ -69986,10 +70065,10 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "out 6",
-																		"numoutlets" : 0,
 																		"id" : "obj-12",
 																		"patching_rect" : [ 510.0, 560.0, 31.0, 20.0 ],
-																		"numinlets" : 1
+																		"numinlets" : 1,
+																		"numoutlets" : 0
 																	}
 
 																}
@@ -69997,11 +70076,11 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "in 5",
-																		"numoutlets" : 1,
+																		"outlettype" : [ "" ],
 																		"id" : "obj-11",
 																		"patching_rect" : [ 451.0, 0.0, 25.0, 20.0 ],
-																		"outlettype" : [ "" ],
-																		"numinlets" : 0
+																		"numinlets" : 0,
+																		"numoutlets" : 1
 																	}
 
 																}
@@ -70009,11 +70088,11 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "in 4",
-																		"numoutlets" : 1,
+																		"outlettype" : [ "" ],
 																		"id" : "obj-10",
 																		"patching_rect" : [ 427.625, 0.0, 25.0, 20.0 ],
-																		"outlettype" : [ "" ],
-																		"numinlets" : 0
+																		"numinlets" : 0,
+																		"numoutlets" : 1
 																	}
 
 																}
@@ -70021,10 +70100,10 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "out 5",
-																		"numoutlets" : 0,
 																		"id" : "obj-9",
 																		"patching_rect" : [ 410.0, 550.0, 31.0, 20.0 ],
-																		"numinlets" : 1
+																		"numinlets" : 1,
+																		"numoutlets" : 0
 																	}
 
 																}
@@ -70032,11 +70111,11 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "in 3",
-																		"numoutlets" : 1,
+																		"outlettype" : [ "" ],
 																		"id" : "obj-8",
 																		"patching_rect" : [ 401.0, 0.0, 25.0, 20.0 ],
-																		"outlettype" : [ "" ],
-																		"numinlets" : 0
+																		"numinlets" : 0,
+																		"numoutlets" : 1
 																	}
 
 																}
@@ -70044,10 +70123,10 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "out 4",
-																		"numoutlets" : 0,
 																		"id" : "obj-7",
 																		"patching_rect" : [ 310.0, 560.0, 31.0, 20.0 ],
-																		"numinlets" : 1
+																		"numinlets" : 1,
+																		"numoutlets" : 0
 																	}
 
 																}
@@ -70055,10 +70134,10 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "out 3",
-																		"numoutlets" : 0,
 																		"id" : "obj-6",
 																		"patching_rect" : [ 205.642857142857139, 560.0, 31.0, 20.0 ],
-																		"numinlets" : 1
+																		"numinlets" : 1,
+																		"numoutlets" : 0
 																	}
 
 																}
@@ -70066,10 +70145,10 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "out 2",
-																		"numoutlets" : 0,
 																		"id" : "obj-5",
 																		"patching_rect" : [ 120.0, 550.0, 31.0, 20.0 ],
-																		"numinlets" : 1
+																		"numinlets" : 1,
+																		"numoutlets" : 0
 																	}
 
 																}
@@ -70077,11 +70156,11 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "in 1",
-																		"numoutlets" : 1,
+																		"outlettype" : [ "" ],
 																		"id" : "obj-1",
 																		"patching_rect" : [ 10.0, 4.0, 25.0, 20.0 ],
-																		"outlettype" : [ "" ],
-																		"numinlets" : 0
+																		"numinlets" : 0,
+																		"numoutlets" : 1
 																	}
 
 																}
@@ -70089,11 +70168,11 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "in 2",
-																		"numoutlets" : 1,
+																		"outlettype" : [ "" ],
 																		"id" : "obj-2",
 																		"patching_rect" : [ 175.0, 4.0, 25.0, 20.0 ],
-																		"outlettype" : [ "" ],
-																		"numinlets" : 0
+																		"numinlets" : 0,
+																		"numoutlets" : 1
 																	}
 
 																}
@@ -70101,24 +70180,24 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "out 1",
-																		"numoutlets" : 0,
 																		"id" : "obj-4",
 																		"patching_rect" : [ 0.0, 532.0, 31.0, 20.0 ],
-																		"numinlets" : 1
+																		"numinlets" : 1,
+																		"numoutlets" : 0
 																	}
 
 																}
 , 																{
 																	"box" : 																	{
 																		"maxclass" : "codebox",
-																		"numoutlets" : 1,
+																		"outlettype" : [ "" ],
 																		"fontface" : 0,
 																		"id" : "obj-3",
 																		"patching_rect" : [ 7.5, 26.0, 712.5, 500.0 ],
-																		"outlettype" : [ "" ],
 																		"fontsize" : 10.0,
-																		"fontname" : "<Monospaced>",
 																		"numinlets" : 2,
+																		"numoutlets" : 1,
+																		"fontname" : "<Monospaced>",
 																		"code" : "Param track_volume(1);\r\nParam base(0);\r\nout1 = in1 * track_volume;\r\nout1 *= max(base, slide(abs(in2) < .0009, 99999, 99999));"
 																	}
 
@@ -70127,10 +70206,10 @@
 																	"box" : 																	{
 																		"maxclass" : "newobj",
 																		"text" : "out 10",
-																		"numoutlets" : 0,
 																		"id" : "obj-20",
 																		"patching_rect" : [ 701.0, 540.0, 36.0, 20.0 ],
-																		"numinlets" : 1
+																		"numinlets" : 1,
+																		"numoutlets" : 0
 																	}
 
 																}
@@ -70168,7 +70247,7 @@
 													"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 													"patching_rect" : [ 187.35714285714289, 250.0, 113.5, 20.0 ],
 													"text" : "mc.gen~",
-													"wrapper_uniquekey" : "u617000843"
+													"wrapper_uniquekey" : "u964008240"
 												}
 
 											}
@@ -70402,6 +70481,62 @@
 										"bypass" : 1,
 										"parameter_enable" : 1,
 										"parameter_mappable" : 0
+									}
+,
+									"snapshot" : 									{
+										"filetype" : "C74Snapshot",
+										"version" : 2,
+										"minorversion" : 0,
+										"name" : "snapshotlist",
+										"origin" : "vst~",
+										"type" : "list",
+										"subtype" : "Undefined",
+										"embed" : 1,
+										"snapshot" : 										{
+											"pluginname" : "TDR VOS SlickEQ.dll",
+											"plugindisplayname" : "TDR VOS SlickEQ",
+											"pluginsavedname" : "D:/[Library]/[Tools]/[VSTs]/[Effects]/[Utilities]/Tokyo Dawn Labs/TDR VOS SlickEQ.dll",
+											"pluginsaveduniqueid" : 0,
+											"version" : 1,
+											"isbank" : 0,
+											"isbase64" : 1,
+											"blob" : "2271.CMlaKA....fQPMDZ....APEYw.C.AL.B....dXjbkMGZsE1ZkIG..........................fvnVMjLgnIB...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOTQjTV8zTSwVZisVQQABaucmPg4FYGEVZtAUXxEVa8HRK43RNh.BaucmPg4FYFIWYwAUXxEVa8HhM2HBHr81cBElajMEZgAWYPElbg0VOhLEZkwlYh.RaoQlPg4FYGEVZtAUXxEVa8HhLt.iHfzVZjITXtQlQxUVbPElbg0VOhTCLv.iHffVZmglPg4FYGEVZtAUXxEVa8HhLt.iHffVZmglPg4FYFIWYwAUXxEVa8HRLv.CLvHBHnk1YnITXtQ1TnEFbkAUXxEVa8HxTnUFalIBHkEWSuQVYrAUXxEVa8HhPxkFcoMGZh.RYwMUXzAUXxEVa8HxStIBHnAmQxUVbPElbg0VOhPCLh.xa0Q2TgQWSuQVYrAUXxEVa8HRSkwFaucmHf7VczMUXzQjboYWYPElbg0VOhDiLt.iHf7VczcTXo4FTgIWXs0iHv3BLh.hX4AWXyMGTgIWXs0iHOYlYh.RauQVYPElbg0VOhLEckIWYuIBHr81cBElajITdvE1byAUXxEVa8HxSlYlHfzVZjITXtQlP4AWXyMGTgIWXs0iHOYlYh.BZocFZBElajITdvE1byAUXxEVa8HxSlYlHfDVcz81QgklaPElbg0VOh7jah.Rb0EFaoQWdPElbg0VOhXTcrwlH9vCaucVZiEFafv1a2ITXtQ1QgklaPElbg0VOhzRNtjiHfv1a2ITXtQlQxUVbPElbg0VOhXyMt.iHfv1a2ITXtQ1TnEFbkAUXxEVa8HBLt.iHfzVZjITXtQ1QgklaPElbg0VOhHiKvHBHskFYBElajYjbkEGTgIWXs0iH0.CLv3BLh.BZocFZBElajcTXo4FTgIWXs0iHx3BLh.BZocFZBElajYjbkEGTgIWXs0iHw.CLv.iKvHBHnk1YnITXtQ1TnEFbkAUXxEVa8HBLt.iHfTVbM8FYkwFTgIWXs0iHw3BLh.RYwMUXzAUXxEVa8HRLt.iHffFbFIWYwAUXxEVa8HBMv3BLh.xa0Q2TgQWSuQVYrAUXxEVa8HhLt.iHf7VczMUXzQjboYWYPElbg0VOhDiLt.iHf7VczcTXo4FTgIWXs0iHv3BLh.hX4AWXyMGTgIWXs0iHv3BLh.RauQVYPElbg0VOhDiKvHBHr81cBElajITdvE1byAUXxEVa8HBLt.iHfzVZjITXtQlP4AWXyMGTgIWXs0iHv3BLh.BZocFZBElajITdvE1byAUXxEVa8HBLt.iHfDVcz81QgklaPElbg0VOhDiKvHBHwUWXrkFc4AUXxEVa8HBLt.iHu3COvIWYyUFcyARXiQWZ1UVOhfiH9vCbxU1bkQGHe4zae0iHwHBHe4TXsU1W8HBQkYVX0wFch.BaucmPg4FYGEVZtAUXxEVa8HRKwfiKvHBHr81cBElajYjbkEGTgIWXs0iH3TiHfv1a2ITXtQ1TnEFbkAUXxEVa8HxTnUFalIBHskFYBElajcTXo4FTgIWXs0iHv3BLh.RaoQlPg4FYFIWYwAUXxEVa8HhL0.CLh.BZocFZBElajcTXo4FTgIWXs0iHv3BLh.BZocFZBElajYjbkEGTgIWXs0iHw.CLv.iHffVZmglPg4FYSgVXvUFTgIWXs0iHSgVYrYlHfTVbM8FYkwFTgIWXs0iHA0VYxk1Xg4lHfTVbSEFcPElbg0VOh7jYlIBHnAmQxUVbPElbg0VOh7jYlIBHuUGcSEFcM8FYkwFTgIWXs0iHLklakElbh.xa0Q2TgQGQxklckAUXxEVa8HhMt.iHf7VczcTXo4FTgIWXs0iHv3BLh.hX4AWXyMGTgIWXs0iHOYlYh.RauQVYPElbg0VOhLEckIWYuIBHr81cBElajITdvE1byAUXxEVa8HxSlYlHfzVZjITXtQlP4AWXyMGTgIWXs0iHOYlYh.BZocFZBElajITdvE1byAUXxEVa8HxSlYlHfDVcz81QgklaPElbg0VOh7jah.Rb0EFaoQWdPElbg0VOhXTcrwlH9vCaucVZiEFafv1a2ITXtQ1QgklaPElbg0VOhzRL33BLh.BaucmPg4FYFIWYwAUXxEVa8HBN03BLh.BaucmPg4FYSgVXvUFTgIWXs0iHv3BLh.RaoQlPg4FYGEVZtAUXxEVa8HBLt.iHfzVZjITXtQlQxUVbPElbg0VOhHSMv.iKvHBHnk1YnITXtQ1QgklaPElbg0VOh.iKvHBHnk1YnITXtQlQxUVbPElbg0VOhDCLv.CLt.iHffVZmglPg4FYSgVXvUFTgIWXs0iHv3BLh.RYw0zajUFaPElbg0VOh.iKvHBHkE2TgQGTgIWXs0iHv3BLh.BZvYjbkEGTgIWXs0iHw.iKvHBHuUGcSEFcM8FYkwFTgIWXs0iHv3BLh.xa0Q2TgQGQxklckAUXxEVa8HhMt.iHf7VczcTXo4FTgIWXs0iHv3BLh.hX4AWXyMGTgIWXs0iHv3BLh.RauQVYPElbg0VOhDiKvHBHr81cBElajITdvE1byAUXxEVa8HBLt.iHfzVZjITXtQlP4AWXyMGTgIWXs0iHv3BLh.BZocFZBElajITdvE1byAUXxEVa8HBLt.iHfDVcz81QgklaPElbg0VOhDiKvHBHwUWXrkFc4AUXxEVa8HBLt.iHu3COu.mbkMWYz4COvIWYyUFcf7kSu8UOhfiHf7kSg0VYe0iHFIWYygVagsVYxIxK9vyKvIWYyUFcy4COAAxWAMFcoYWYe0iHwHxK9viPf7UPiQWZ1U1W8HBLh.xWLklaqUFYe0iHwHxK9vSctQ1au3COo4lYuAhckI2bo8la8HRLtLiK3HxK9vCbgIWXsARZtMGcg41Xk0iHTQjTfX0SSAxTrk1XqUTTffRLoHxK9vyKTQjTV8zTSwVZisVQQ4C."
+										}
+,
+										"snapshotlist" : 										{
+											"current_snapshot" : 0,
+											"entries" : [ 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "TDR VOS SlickEQ",
+													"origin" : "TDR VOS SlickEQ.dll",
+													"type" : "VST",
+													"subtype" : "AudioEffect",
+													"embed" : 0,
+													"snapshot" : 													{
+														"pluginname" : "TDR VOS SlickEQ.dll",
+														"plugindisplayname" : "TDR VOS SlickEQ",
+														"pluginsavedname" : "D:/[Library]/[Tools]/[VSTs]/[Effects]/[Utilities]/Tokyo Dawn Labs/TDR VOS SlickEQ.dll",
+														"pluginsaveduniqueid" : 0,
+														"version" : 1,
+														"isbank" : 0,
+														"isbase64" : 1,
+														"blob" : "2271.CMlaKA....fQPMDZ....APEYw.C.AL.B....dXjbkMGZsE1ZkIG..........................fvnVMjLgnIB...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOTQjTV8zTSwVZisVQQABaucmPg4FYGEVZtAUXxEVa8HRK43RNh.BaucmPg4FYFIWYwAUXxEVa8HhM2HBHr81cBElajMEZgAWYPElbg0VOhLEZkwlYh.RaoQlPg4FYGEVZtAUXxEVa8HhLt.iHfzVZjITXtQlQxUVbPElbg0VOhTCLv.iHffVZmglPg4FYGEVZtAUXxEVa8HhLt.iHffVZmglPg4FYFIWYwAUXxEVa8HRLv.CLvHBHnk1YnITXtQ1TnEFbkAUXxEVa8HxTnUFalIBHkEWSuQVYrAUXxEVa8HhPxkFcoMGZh.RYwMUXzAUXxEVa8HxStIBHnAmQxUVbPElbg0VOhPCLh.xa0Q2TgQWSuQVYrAUXxEVa8HRSkwFaucmHf7VczMUXzQjboYWYPElbg0VOhDiLt.iHf7VczcTXo4FTgIWXs0iHv3BLh.hX4AWXyMGTgIWXs0iHOYlYh.RauQVYPElbg0VOhLEckIWYuIBHr81cBElajITdvE1byAUXxEVa8HxSlYlHfzVZjITXtQlP4AWXyMGTgIWXs0iHOYlYh.BZocFZBElajITdvE1byAUXxEVa8HxSlYlHfDVcz81QgklaPElbg0VOh7jah.Rb0EFaoQWdPElbg0VOhXTcrwlH9vCaucVZiEFafv1a2ITXtQ1QgklaPElbg0VOhzRNtjiHfv1a2ITXtQlQxUVbPElbg0VOhXyMt.iHfv1a2ITXtQ1TnEFbkAUXxEVa8HBLt.iHfzVZjITXtQ1QgklaPElbg0VOhHiKvHBHskFYBElajYjbkEGTgIWXs0iH0.CLv3BLh.BZocFZBElajcTXo4FTgIWXs0iHx3BLh.BZocFZBElajYjbkEGTgIWXs0iHw.CLv.iKvHBHnk1YnITXtQ1TnEFbkAUXxEVa8HBLt.iHfTVbM8FYkwFTgIWXs0iHw3BLh.RYwMUXzAUXxEVa8HRLt.iHffFbFIWYwAUXxEVa8HBMv3BLh.xa0Q2TgQWSuQVYrAUXxEVa8HhLt.iHf7VczMUXzQjboYWYPElbg0VOhDiLt.iHf7VczcTXo4FTgIWXs0iHv3BLh.hX4AWXyMGTgIWXs0iHv3BLh.RauQVYPElbg0VOhDiKvHBHr81cBElajITdvE1byAUXxEVa8HBLt.iHfzVZjITXtQlP4AWXyMGTgIWXs0iHv3BLh.BZocFZBElajITdvE1byAUXxEVa8HBLt.iHfDVcz81QgklaPElbg0VOhDiKvHBHwUWXrkFc4AUXxEVa8HBLt.iHu3COvIWYyUFcyARXiQWZ1UVOhfiH9vCbxU1bkQGHe4zae0iHwHBHe4TXsU1W8HBQkYVX0wFch.BaucmPg4FYGEVZtAUXxEVa8HRKwfiKvHBHr81cBElajYjbkEGTgIWXs0iH3TiHfv1a2ITXtQ1TnEFbkAUXxEVa8HxTnUFalIBHskFYBElajcTXo4FTgIWXs0iHv3BLh.RaoQlPg4FYFIWYwAUXxEVa8HhL0.CLh.BZocFZBElajcTXo4FTgIWXs0iHv3BLh.BZocFZBElajYjbkEGTgIWXs0iHw.CLv.iHffVZmglPg4FYSgVXvUFTgIWXs0iHSgVYrYlHfTVbM8FYkwFTgIWXs0iHA0VYxk1Xg4lHfTVbSEFcPElbg0VOh7jYlIBHnAmQxUVbPElbg0VOh7jYlIBHuUGcSEFcM8FYkwFTgIWXs0iHLklakElbh.xa0Q2TgQGQxklckAUXxEVa8HhMt.iHf7VczcTXo4FTgIWXs0iHv3BLh.hX4AWXyMGTgIWXs0iHOYlYh.RauQVYPElbg0VOhLEckIWYuIBHr81cBElajITdvE1byAUXxEVa8HxSlYlHfzVZjITXtQlP4AWXyMGTgIWXs0iHOYlYh.BZocFZBElajITdvE1byAUXxEVa8HxSlYlHfDVcz81QgklaPElbg0VOh7jah.Rb0EFaoQWdPElbg0VOhXTcrwlH9vCaucVZiEFafv1a2ITXtQ1QgklaPElbg0VOhzRL33BLh.BaucmPg4FYFIWYwAUXxEVa8HBN03BLh.BaucmPg4FYSgVXvUFTgIWXs0iHv3BLh.RaoQlPg4FYGEVZtAUXxEVa8HBLt.iHfzVZjITXtQlQxUVbPElbg0VOhHSMv.iKvHBHnk1YnITXtQ1QgklaPElbg0VOh.iKvHBHnk1YnITXtQlQxUVbPElbg0VOhDCLv.CLt.iHffVZmglPg4FYSgVXvUFTgIWXs0iHv3BLh.RYw0zajUFaPElbg0VOh.iKvHBHkE2TgQGTgIWXs0iHv3BLh.BZvYjbkEGTgIWXs0iHw.iKvHBHuUGcSEFcM8FYkwFTgIWXs0iHv3BLh.xa0Q2TgQGQxklckAUXxEVa8HhMt.iHf7VczcTXo4FTgIWXs0iHv3BLh.hX4AWXyMGTgIWXs0iHv3BLh.RauQVYPElbg0VOhDiKvHBHr81cBElajITdvE1byAUXxEVa8HBLt.iHfzVZjITXtQlP4AWXyMGTgIWXs0iHv3BLh.BZocFZBElajITdvE1byAUXxEVa8HBLt.iHfDVcz81QgklaPElbg0VOhDiKvHBHwUWXrkFc4AUXxEVa8HBLt.iHu3COu.mbkMWYz4COvIWYyUFcf7kSu8UOhfiHf7kSg0VYe0iHFIWYygVagsVYxIxK9vyKvIWYyUFcy4COAAxWAMFcoYWYe0iHwHxK9viPf7UPiQWZ1U1W8HBLh.xWLklaqUFYe0iHwHxK9vSctQ1au3COo4lYuAhckI2bo8la8HRLtLiK3HxK9vCbgIWXsARZtMGcg41Xk0iHTQjTfX0SSAxTrk1XqUTTffRLoHxK9vyKTQjTV8zTSwVZisVQQ4C."
+													}
+,
+													"fileref" : 													{
+														"name" : "TDR VOS SlickEQ",
+														"filename" : "TDR VOS SlickEQ.maxsnap",
+														"filepath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "16acfba3763a8a15554588efb44cb5fc"
+													}
+
+												}
+ ]
+										}
+
 									}
 ,
 									"text" : "vst~",
@@ -77070,7 +77205,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 0.0, 20.0, 104.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 1000.0, 250.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 1000.0, 450.0 ],
 					"varname" : "selector"
 				}
 
@@ -84369,10 +84504,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 6",
-										"numoutlets" : 0,
 										"id" : "obj-10",
 										"patching_rect" : [ 480.0, 400.0, 31.0, 20.0 ],
-										"numinlets" : 1
+										"numinlets" : 1,
+										"numoutlets" : 0
 									}
 
 								}
@@ -84380,10 +84515,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 5",
-										"numoutlets" : 0,
 										"id" : "obj-8",
 										"patching_rect" : [ 390.666666666666686, 400.0, 31.0, 20.0 ],
-										"numinlets" : 1
+										"numinlets" : 1,
+										"numoutlets" : 0
 									}
 
 								}
@@ -84391,10 +84526,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 4",
-										"numoutlets" : 0,
 										"id" : "obj-7",
 										"patching_rect" : [ 352.600000000000023, 400.0, 31.0, 20.0 ],
-										"numinlets" : 1
+										"numinlets" : 1,
+										"numoutlets" : 0
 									}
 
 								}
@@ -84402,10 +84537,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 3",
-										"numoutlets" : 0,
 										"id" : "obj-6",
 										"patching_rect" : [ 240.0, 430.0, 31.0, 20.0 ],
-										"numinlets" : 1
+										"numinlets" : 1,
+										"numoutlets" : 0
 									}
 
 								}
@@ -84413,10 +84548,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 2",
-										"numoutlets" : 0,
 										"id" : "obj-5",
 										"patching_rect" : [ 110.0, 410.0, 31.0, 20.0 ],
-										"numinlets" : 1
+										"numinlets" : 1,
+										"numoutlets" : 0
 									}
 
 								}
@@ -84424,11 +84559,11 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "in 1",
-										"numoutlets" : 1,
+										"outlettype" : [ "" ],
 										"id" : "obj-1",
 										"patching_rect" : [ 10.0, 10.0, 25.0, 20.0 ],
-										"outlettype" : [ "" ],
-										"numinlets" : 0
+										"numinlets" : 0,
+										"numoutlets" : 1
 									}
 
 								}
@@ -84436,25 +84571,25 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "in 2",
-										"numoutlets" : 1,
+										"outlettype" : [ "" ],
 										"id" : "obj-2",
 										"patching_rect" : [ 265.0, 10.0, 25.0, 20.0 ],
-										"outlettype" : [ "" ],
-										"numinlets" : 0
+										"numinlets" : 0,
+										"numoutlets" : 1
 									}
 
 								}
 , 								{
 									"box" : 									{
 										"maxclass" : "codebox",
-										"numoutlets" : 7,
+										"outlettype" : [ "", "", "", "", "", "", "" ],
 										"fontface" : 0,
 										"id" : "obj-3",
 										"patching_rect" : [ 10.0, 30.0, 590.0, 360.0 ],
-										"outlettype" : [ "", "", "", "", "", "", "" ],
 										"fontsize" : 10.0,
-										"fontname" : "<Monospaced>",
 										"numinlets" : 1,
+										"numoutlets" : 7,
+										"fontname" : "<Monospaced>",
 										"code" : "require(\"dynamic_crossfade\")\r\nBuffer stem(\"_s\");\r\nBuffer palette(\"_p\");\r\nBuffer product(\"_p\");\r\nBuffer comp(\"comp\");\r\nBuffer stats(\"stats\");\r\nBuffer following(\"following\");\r\nBuffer bar(\"bar\");\r\nParam tracks(0);\r\nParam track(0);\r\nParam gain1(1);\r\nParam gain2(1);\r\nParam gain(1);\r\nParam offset(0);\r\nParam rt_exporting(0);\r\nParam ready(0);\r\nParam auditioning(0);\r\nParam lead(44);\r\nParam interpolation(0);\r\nHistory leads(44100);\r\nHistory from(0);\r\nHistory to(0);\r\nHistory go(0);\r\nHistory extended_t(0);   //for smooth loop interpolation\r\nHistory delayed_go(0);   //for smooth loop interpolation\r\nHistory loops(0);   //for smooth loop interpolation\r\nHistory zoom1(0);\r\nHistory zoom2(1);\r\nHistory t(0);\r\nHistory debug(0);\r\nHistory domain(0);\r\nHistory restart(0);\r\nif(ready || rt_exporting) {\r\n\tif(!domain) {\t//sets initially if !following\r\n    \tdomain = round(mstosamps(peek(stats, 1))); //Needs to update outside of follow for smartloop to grow (?) \r\n\t}\r\n    follow = to - from == domain;\r\n    if(follow) {   //following\r\n    \tdomain = round(mstosamps(peek(stats, 1)));  //only updates song length if following\r\n        to = domain;\r\n        zoom1 = max(0, t - max(lead, 88200));\t//default lead minimum\r\n        zoom2 = min(domain, t + max(lead, 88200)) - zoom1;\r\n    }\r\n    poke(stats, domain > 0, 10);    //temporary\r\n    bar_length = mstosamps(peek(bar, 0)); \r\n    start = max(0, round(from - lead, bar_length, mode = \"floor\"));    //– quantize loop by bar_length. In just 2 places ([loop] in record_palette and here) round start down and end up to bar_length, which essentially changes lead to a MINIMUM lead\r\n    end = min(domain, round(to + lead, bar_length, mode = \"ceil\"));    //min/max here means !following can't lead beyond song either\r\n    length = end - start;\r\n    t = elapsed - go + start;\r\n    extended_t = elapsed - delayed_go + start;  //for smooth loop interpolation\r\n    if(((change(from) || change(to)) && from) || t > end || restart) {\t//&& from prevents happening again next sample... \r\n\t\trestart = 0;\r\n        go = elapsed;\r\n        loops += 1;   //for smooth loop interpolation\r\n        zoom1 = max(0, start);\r\n        zoom2 = min(domain, end) - zoom1;\r\n        if(from == to) {                        //...after this triggers\r\n            go -= from;\r\n            from = 0;\r\n            to = domain;\r\n        }\r\n    }\r\n    if(track == mc_channel && auditioning) {\r\n        on = t > from && t < to;\r\n        surround = peek(stem, t);\r\n        m = (gain2 - gain1) / (to - from);\r\n        comp_gain = (t - from) * m + gain1;\r\n        audition = peek(palette, t + offset) * comp_gain;\r\n        _l, out4, out1, out6 = dynamic_crossfade(on, surround, audition);\r\n        if(!on && change(out6) < 0) {\r\n            poke(comp, t, 1);\r\n        }\r\n    }\r\n    else {\r\n        out1 = peek(stem, t);   \r\n    }\r\n    if(interpolation) { //smooth loop interpolation\r\n        trail = peek(stem, extended_t) * gain2;\r\n        _l, _r, out1, fading = dynamic_crossfade(loops, trail, out1);\r\n        if(change(fading) < 0) {\r\n            delayed_go = go;\r\n        }\r\n    }\r\n}\r\nt *= domain > 0;\r\nout1 *= gain;\r\nout2 = t;\r\nout3 = zoom1;\r\nout5 = zoom2; \r\nout6 = delta(t) < 0;\r\nout7=domain;"
 									}
 
@@ -84463,10 +84598,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "out 1",
-										"numoutlets" : 0,
 										"id" : "obj-4",
 										"patching_rect" : [ 10.0, 390.0, 31.0, 20.0 ],
-										"numinlets" : 1
+										"numinlets" : 1,
+										"numoutlets" : 0
 									}
 
 								}
@@ -84532,7 +84667,7 @@
 					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 337.0, 420.0, 343.0, 20.0 ],
 					"text" : "mc.gen~ @chans 4",
-					"wrapper_uniquekey" : "u952000901"
+					"wrapper_uniquekey" : "u738007991"
 				}
 
 			}
@@ -84618,7 +84753,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 220.000006556510925, 89.666669338941574, 20.0 ],
-					"text" : "3"
+					"text" : "15"
 				}
 
 			}
@@ -85379,7 +85514,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 280.0, 230.0, 50.0, 20.0 ],
-													"text" : "0:00"
+													"text" : "7:06"
 												}
 
 											}
@@ -86182,7 +86317,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 280.0, 230.0, 50.0, 20.0 ],
-													"text" : "0:00"
+													"text" : "7:06"
 												}
 
 											}
@@ -91655,7 +91790,7 @@
 					"patching_rect" : [ 429.0, 50.0, 39.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 30.0, 1000.0, 20.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
+					"setminmax" : [ 1.0, 426720.0 ],
 					"slidercolor" : [ 0.0, 0.0, 0.0, 0.51 ],
 					"thickness" : 1,
 					"varname" : "progression"
@@ -91672,7 +91807,7 @@
 					"patching_rect" : [ 451.0, 30.0, 54.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 865.0, 30.0, 135.0, 18.0 ],
-					"text" : "0:00 :||",
+					"text" : "7:06 :||",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -92567,6 +92702,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-222", 0 ],
+					"source" : [ "obj-221", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-218", 0 ],
+					"source" : [ "obj-222", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-221", 0 ],
+					"source" : [ "obj-223", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-23", 0 ]
 				}
@@ -93119,7 +93275,7 @@
 			"obj-159::obj-1::obj-12" : [ "toggle[16]", "toggle", 0 ],
 			"obj-159::obj-70::obj-14::obj-12" : [ "toggle[17]", "toggle", 0 ],
 			"obj-161::obj-12" : [ "toggle[15]", "toggle", 0 ],
-			"obj-181::obj-59::obj-4::obj-12" : [ "toggle[21]", "toggle", 0 ],
+			"obj-181::obj-59::obj-4::obj-12" : [ "toggle[19]", "toggle", 0 ],
 			"obj-185::obj-22::obj-12" : [ "toggle[14]", "toggle", 0 ],
 			"obj-40::obj-12" : [ "toggle[18]", "toggle", 0 ],
 			"obj-42::obj-12::obj-12" : [ "toggle[3]", "toggle", 0 ],
@@ -93130,7 +93286,7 @@
 			"obj-86::obj-25::obj-15::obj-1::obj-12" : [ "toggle[10]", "toggle", 0 ],
 			"obj-86::obj-62::obj-8::obj-12" : [ "toggle[11]", "toggle", 0 ],
 			"obj-8::obj-36::obj-12" : [ "toggle", "toggle", 0 ],
-			"obj-91::obj-21::obj-12" : [ "toggle[22]", "toggle", 0 ],
+			"obj-91::obj-21::obj-12" : [ "toggle[1]", "toggle", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -93144,6 +93300,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "TDR VOS SlickEQ.maxsnap",
+				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bounce~.mxe64",
 				"type" : "mx64"
 			}
