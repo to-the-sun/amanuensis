@@ -1772,10 +1772,10 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "out 2",
-														"numinlets" : 1,
 														"id" : "obj-5",
-														"numoutlets" : 0,
-														"patching_rect" : [ 390.0, 430.0, 31.0, 20.0 ]
+														"patching_rect" : [ 390.0, 430.0, 31.0, 20.0 ],
+														"numinlets" : 1,
+														"numoutlets" : 0
 													}
 
 												}
@@ -1783,10 +1783,10 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "in 1",
-														"numinlets" : 0,
 														"id" : "obj-1",
-														"numoutlets" : 1,
 														"patching_rect" : [ 50.0, 14.0, 25.0, 20.0 ],
+														"numinlets" : 0,
+														"numoutlets" : 1,
 														"outlettype" : [ "" ]
 													}
 
@@ -1795,10 +1795,10 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "in 2",
-														"numinlets" : 0,
 														"id" : "obj-2",
-														"numoutlets" : 1,
 														"patching_rect" : [ 305.0, 14.0, 25.0, 20.0 ],
+														"numinlets" : 0,
+														"numoutlets" : 1,
 														"outlettype" : [ "" ]
 													}
 
@@ -1806,14 +1806,14 @@
 , 												{
 													"box" : 													{
 														"maxclass" : "codebox",
-														"numinlets" : 2,
 														"fontface" : 0,
 														"id" : "obj-3",
-														"numoutlets" : 1,
 														"patching_rect" : [ 50.0, 40.0, 570.0, 360.0 ],
-														"outlettype" : [ "" ],
 														"fontsize" : 10.0,
+														"numinlets" : 2,
+														"numoutlets" : 1,
 														"fontname" : "<Monospaced>",
+														"outlettype" : [ "" ],
 														"code" : "this_env = slide(abs(in1), 0, 9999);\r\nenv = slide(abs(in2), 0, 9999);\r\nif(env < this_env) {\r\n\tout1 = in2;\r\n}"
 													}
 
@@ -1822,18 +1822,18 @@
 													"box" : 													{
 														"maxclass" : "newobj",
 														"text" : "out 1",
-														"numinlets" : 1,
 														"id" : "obj-4",
-														"numoutlets" : 0,
-														"patching_rect" : [ 50.0, 410.0, 31.0, 20.0 ]
+														"patching_rect" : [ 50.0, 410.0, 31.0, 20.0 ],
+														"numinlets" : 1,
+														"numoutlets" : 0
 													}
 
 												}
  ],
 											"lines" : [ 												{
 													"patchline" : 													{
-														"source" : [ "obj-2", 0 ],
-														"destination" : [ "obj-3", 1 ]
+														"source" : [ "obj-3", 0 ],
+														"destination" : [ "obj-4", 0 ]
 													}
 
 												}
@@ -1846,8 +1846,8 @@
 												}
 , 												{
 													"patchline" : 													{
-														"source" : [ "obj-3", 0 ],
-														"destination" : [ "obj-4", 0 ]
+														"source" : [ "obj-2", 0 ],
+														"destination" : [ "obj-3", 1 ]
 													}
 
 												}
@@ -1863,7 +1863,7 @@
 									"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
 									"patching_rect" : [ 157.0, 280.0, 47.0, 20.0 ],
 									"text" : "mc.gen~",
-									"wrapper_uniquekey" : "u410000301"
+									"wrapper_uniquekey" : "u775010383"
 								}
 
 							}
@@ -9406,7 +9406,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-152", 0 ],
-					"source" : [ "obj-90", 0 ]
+					"source" : [ "obj-90", 1 ]
 				}
 
 			}
