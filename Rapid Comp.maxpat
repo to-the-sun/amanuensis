@@ -40,11 +40,22 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 287.000008553266525, 60.000001788139343, 61.0, 20.0 ],
+					"text" : "s do_export"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 221.0, 50.0, 70.0, 20.0 ],
+					"patching_rect" : [ 221.000006586313248, 60.000001788139343, 70.0, 20.0 ],
 					"text" : "s prep_export"
 				}
 
@@ -9495,13 +9506,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-15",
-													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 141.333337545394897, 70.000002086162567, 30.0, 31.0 ],
-													"text" : "3050.322"
+													"text" : "0."
 												}
 
 											}
@@ -21877,7 +21887,7 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "description.txt", ",", "passes_vox-01-warped-w-warped-w-w[2026-07-18144048].txt", ",", "ratings.txt", ",", "scores_vox-01-warped-w-warped-w-w[2026-07-18144048].txt", ",", "top_sounds.txt" ],
+													"items" : [ "description.txt", ",", "passes_[Broad2].txt", ",", "passes_[Broad2]1-vox-01-warped-w-warped-w-w[2024-10-20184915].txt", ",", "passes_[Broad2]2-vox-02-warped-w-warped-w-w-w-w[2024-10-20184915].txt", ",", "passes_[Broad2]3-vox-03-warped-warped-w[2024-10-20184915].txt", ",", "passes_vox-01-warped-w-warped-w-Copy[2024-10-20184915].txt", ",", "passes_vox-01-warped-w-warped-w-w[2024-10-20184915].txt", ",", "passes_vox-01-warped-w-warped-w-w[2026-07-18144048].txt", ",", "passes_vox-02-warped-w-warped-w-w-w-w[2024-10-20184915].txt", ",", "passes_vox-02-warped-w-warped-w-w-w-w[2024-10-20184915]2.txt", ",", "passes_vox-03-warped-warped-w[2024-10-20184915].txt", ",", "ratings.txt", ",", "scores_[Broad2].txt", ",", "scores_[Broad2]1-vox-01-warped-w-warped-w-w[2024-10-20184915].txt", ",", "scores_[Broad2]2-vox-02-warped-w-warped-w-w-w-w[2024-10-20184915].txt", ",", "scores_[Broad2]3-vox-03-warped-warped-w[2024-10-20184915].txt", ",", "scores_vox-01-warped-w-warped-w-Copy[2024-10-20184915].txt", ",", "scores_vox-01-warped-w-warped-w-w[2024-10-20184915].txt", ",", "scores_vox-01-warped-w-warped-w-w[2026-07-18144048].txt", ",", "scores_vox-02-warped-w-warped-w-w-w-w[2024-10-20184915].txt", ",", "scores_vox-02-warped-w-warped-w-w-w-w[2024-10-20184915]2.txt", ",", "scores_vox-03-warped-warped-w[2024-10-20184915].txt", ",", "top_sounds.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -32567,7 +32577,7 @@
 												"box" : 												{
 													"autopopulate" : 1,
 													"id" : "obj-31",
-													"items" : [ "description.txt", ",", "passes_vox-01-warped-w-warped-w-w[2026-07-18144048].txt", ",", "ratings.txt", ",", "scores_vox-01-warped-w-warped-w-w[2026-07-18144048].txt", ",", "top_sounds.txt" ],
+													"items" : [ "description.txt", ",", "passes_[Broad2].txt", ",", "passes_[Broad2]1-vox-01-warped-w-warped-w-w[2024-10-20184915].txt", ",", "passes_[Broad2]2-vox-02-warped-w-warped-w-w-w-w[2024-10-20184915].txt", ",", "passes_[Broad2]3-vox-03-warped-warped-w[2024-10-20184915].txt", ",", "passes_vox-01-warped-w-warped-w-Copy[2024-10-20184915].txt", ",", "passes_vox-01-warped-w-warped-w-w[2024-10-20184915].txt", ",", "passes_vox-01-warped-w-warped-w-w[2026-07-18144048].txt", ",", "passes_vox-02-warped-w-warped-w-w-w-w[2024-10-20184915].txt", ",", "passes_vox-02-warped-w-warped-w-w-w-w[2024-10-20184915]2.txt", ",", "passes_vox-03-warped-warped-w[2024-10-20184915].txt", ",", "ratings.txt", ",", "scores_[Broad2].txt", ",", "scores_[Broad2]1-vox-01-warped-w-warped-w-w[2024-10-20184915].txt", ",", "scores_[Broad2]2-vox-02-warped-w-warped-w-w-w-w[2024-10-20184915].txt", ",", "scores_[Broad2]3-vox-03-warped-warped-w[2024-10-20184915].txt", ",", "scores_vox-01-warped-w-warped-w-Copy[2024-10-20184915].txt", ",", "scores_vox-01-warped-w-warped-w-w[2024-10-20184915].txt", ",", "scores_vox-01-warped-w-warped-w-w[2026-07-18144048].txt", ",", "scores_vox-02-warped-w-warped-w-w-w-w[2024-10-20184915].txt", ",", "scores_vox-02-warped-w-warped-w-w-w-w[2024-10-20184915]2.txt", ",", "scores_vox-03-warped-warped-w[2024-10-20184915].txt", ",", "top_sounds.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -37895,7 +37905,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 6,
 					"outlettype" : [ "bang", "bang", "", "", "signal", "signal" ],
-					"patching_rect" : [ 90.0, 90.0, 107.000000000000028, 20.0 ],
+					"patching_rect" : [ 90.0, 90.0, 107.0, 20.0 ],
 					"text" : "arrangement",
 					"varname" : "arrangement"
 				}
@@ -61299,7 +61309,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-133",
-					"items" : [ 0, 0.0, "vox-01-warped-w-warped-w-w[2026-07-18144048].txt", 9.0, 0.0, 0.0, 0.0 ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -64269,7 +64279,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 94.0, 60.0, 89.5, 20.0 ],
-													"text" : "-68"
+													"text" : "-59"
 												}
 
 											}
@@ -65233,7 +65243,7 @@
 																"box" : 																{
 																	"autopopulate" : 1,
 																	"id" : "obj-31",
-																	"items" : [ "description.txt", ",", "passes_vox-01-warped-w-warped-w-w[2026-07-18144048].txt", ",", "ratings.txt", ",", "scores_vox-01-warped-w-warped-w-w[2026-07-18144048].txt", ",", "top_sounds.txt" ],
+																	"items" : [ "description.txt", ",", "passes_[Broad2].txt", ",", "passes_[Broad2]1-vox-01-warped-w-warped-w-w[2024-10-20184915].txt", ",", "passes_[Broad2]2-vox-02-warped-w-warped-w-w-w-w[2024-10-20184915].txt", ",", "passes_[Broad2]3-vox-03-warped-warped-w[2024-10-20184915].txt", ",", "passes_vox-01-warped-w-warped-w-Copy[2024-10-20184915].txt", ",", "passes_vox-01-warped-w-warped-w-w[2024-10-20184915].txt", ",", "passes_vox-01-warped-w-warped-w-w[2026-07-18144048].txt", ",", "passes_vox-02-warped-w-warped-w-w-w-w[2024-10-20184915].txt", ",", "passes_vox-02-warped-w-warped-w-w-w-w[2024-10-20184915]2.txt", ",", "passes_vox-03-warped-warped-w[2024-10-20184915].txt", ",", "ratings.txt", ",", "scores_[Broad2].txt", ",", "scores_[Broad2]1-vox-01-warped-w-warped-w-w[2024-10-20184915].txt", ",", "scores_[Broad2]2-vox-02-warped-w-warped-w-w-w-w[2024-10-20184915].txt", ",", "scores_[Broad2]3-vox-03-warped-warped-w[2024-10-20184915].txt", ",", "scores_vox-01-warped-w-warped-w-Copy[2024-10-20184915].txt", ",", "scores_vox-01-warped-w-warped-w-w[2024-10-20184915].txt", ",", "scores_vox-01-warped-w-warped-w-w[2026-07-18144048].txt", ",", "scores_vox-02-warped-w-warped-w-w-w-w[2024-10-20184915].txt", ",", "scores_vox-02-warped-w-warped-w-w-w-w[2024-10-20184915]2.txt", ",", "scores_vox-03-warped-warped-w[2024-10-20184915].txt", ",", "top_sounds.txt" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -70141,8 +70151,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 28.000000834465027, 400.000011920928955, 50.0, 20.0 ],
-													"text" : "0"
+													"patching_rect" : [ 28.000000834465027, 400.000011920928955, 50.0, 20.0 ]
 												}
 
 											}
@@ -80528,7 +80537,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 369.000010997056961, 170.000005066394806, 170.0, 20.0 ],
-					"text" : "4 162689.69 173740.012"
+					"text" : "0 0 0"
 				}
 
 			}
@@ -80696,7 +80705,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-29",
-					"items" : [ "(Un)Bound", ",", "1970s Peruvian Hotel", ",", "[2025-12-29-22-19-46]", ",", "[2026-6-10-20-1-40]", ",", "[2026-6-10-20-26-53]", ",", "[2026-6-13-19-51-10]", ",", "[2026-6-13-21-12-49]", ",", "[2026-6-16-20-12-49]", ",", "[2026-6-19-18-50-0]", ",", "[2026-6-19-19-2-22]", ",", "[2026-6-20-18-13-3]", ",", "[2026-6-21-20-51-1]", ",", "[2026-6-22-19-0-43]", ",", "[2026-6-23-18-16-1]", ",", "[2026-6-23-18-28-32]", ",", "[2026-6-23-18-35-46]", ",", "[2026-6-23-18-39-40]", ",", "[2026-6-23-18-49-49]", ",", "[2026-6-24-10-50-51]", ",", "[2026-6-24-18-18-47]", ",", "[2026-6-24-18-19-53]", ",", "[2026-6-24-18-37-20]", ",", "[2026-6-24-18-42-35]", ",", "[2026-6-24-18-6-2]", ",", "[2026-6-25-19-33-27]", ",", "[2026-6-25-20-19-0]", ",", "[2026-6-26-18-3-32]", ",", "[2026-6-27-20-53-44]", ",", "[2026-6-27-21-19-19]", ",", "[2026-6-27-21-7-55]", ",", "[2026-6-27-21-8-53]", ",", "[2026-6-28-19-12-20]", ",", "[2026-6-28-19-22-54]", ",", "[2026-6-28-19-39-12]", ",", "[2026-6-28-19-47-4]", ",", "[2026-6-29-11-15-15]", ",", "[2026-6-29-20-31-36]", ",", "[2026-6-30-19-59-56]", ",", "[2026-7-10-20-4-0]", ",", "[2026-7-11-18-31-27]", ",", "[2026-7-11-18-43-59]", ",", "[2026-7-11-18-55-27]", ",", "[2026-7-12-18-9-39]", ",", "[2026-7-13-19-7-16]", ",", "[2026-7-14-15-31-24]", ",", "[2026-7-14-15-48-17]", ",", "[2026-7-14-15-58-39]", ",", "[2026-7-15-15-25-9]", ",", "[2026-7-15-15-41-36]", ",", "[2026-7-15-16-4-58]", ",", "[2026-7-15-20-7-3]", ",", "[2026-7-17-20-42-13]", ",", "[2026-7-17-20-43-51]", ",", "[2026-7-17-20-57-39]", ",", "[2026-7-18-10-52-10]", ",", "[2026-7-18-18-56-22]", ",", "[2026-7-18-19-15-42]", ",", "[2026-7-2-21-15-39]", ",", "[2026-7-3-20-11-51]", ",", "[2026-7-4-20-17-52]", ",", "[2026-7-5-21-40-26]", ",", "[2026-7-7-19-7-37]", ",", "[2026-7-8-20-8-12]", ",", "[Archives]", ",", "[Template]", ",", "A Pitiful Soul", ",", "A Slick Slope into a Dark Abyss", ",", "A Tension", ",", "Allen Ginsberg Armageddon", ",", "An Abacus, or Your Fingers", ",", "An End Table Forged from Yggdrasil Itself", ",", "Anathema", ",", "And Then Day Turned to Night", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "Artificial Death", ",", "As Seraphim Saunter", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Blight-Emitting Diode", ",", "Blind", ",", "C'mon Night", ",", "Cakes!", ",", "Candy Apple Island", ",", "Caprice", ",", "Casino", ",", "Catharsis", ",", "Circles", ",", "Circles [Instrumental]", ",", "Classical Firmament", ",", "Connected Human World Beast", ",", "Convalescence", ",", "Corporate Warfare", ",", "Craterian Underworld", ",", "Crawl Away", ",", "Deep Space Disco", ",", "Disengagement by Shipwreck", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "Dum Casi Transeunt", ",", "dying satellites", ",", "Echoing", ",", "Elevator Music", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "End of an Era Pt. 1", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Fear of a Name", ",", "Felmar", ",", "Flowers in the Street", ",", "Forced Providence", ",", "Frost", ",", "Ghost Tavern", ",", "Grand Prix", ",", "H", ",", "H. [scream]", ",", "Hallow Enough", ",", "Harmless", ",", "Hate the Bear", ",", "Head Full of Real Chills", ",", "Heaven Fallen", ",", "Heaven Fallen [Instrumental]", ",", "High Resolution (Rising)", ",", "High Resolution (Sinking)", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "I Can't See What You Need", ",", "I Dreamed of What I Was Before I Was Made into This", ",", "I Know My Price", ",", "Imparted", ",", "Impermanence", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Sunrise", ",", "Interior Frontier", ",", "Interspecies Intrigue", ",", "It's Snowing Outside Give Me Soup", ",", "Jabberwocky Cipher", ",", "Jericho's Grin", ",", "Jezebel", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Landmine", ",", "Lifting", ",", "Long Ago Lost", ",", "Love Leaves Its Abusers", ",", "Lums", ",", "Lux Aeterna", ",", "Means", ",", "Mind in Void", ",", "Miserable", ",", "Miter Saw of Yore", ",", "Ocean of Silence (We Will All Burn)", ",", "Old Map of the Abyss", ",", "Operator Drone", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Pending Familiarity", ",", "Perfectly Lost", ",", "Permafrost", ",", "Pixilated Reverie", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Rainy Weather", ",", "Relentless Renaissance", ",", "Residex", ",", "Reticent", ",", "Ring the Changes", ",", "Roboticized Break-In", ",", "Rose Tinted Glasses", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Set Sail", ",", "Severance", ",", "Shady Wells of Amber", ",", "Shop Theme", ",", "Sidereal Scatter", ",", "Smells like Teen Spirit", ",", "Snowing Spores", ",", "Snowing Spores [Anti Inverse Remix]", ",", "Solitude", ",", "Somatic Memory", ",", "Sonder March", ",", "Space Whales Have Blowhole Thrusters", ",", "Stagger Proudly on", ",", "Staring at the Sun", ",", "Starter Town Yoshiro Region Theme", ",", "Static Confluence (With Hells Aligned)", ",", "Static Confluence (With Hells Aligned) [Inchoate]", ",", "Steam-Powered Stupor", ",", "Stepping on a Lego", ",", "Street Spirit (Fade Out)", ",", "Stunningly Lost", ",", "Submit and Be Crushed", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Cage of Spires", ",", "The Conscious Mind", ",", "The Fate of Artax and the Wisdom of Morla", ",", "The Flowing Light", ",", "The Long Fall", ",", "The Machinist Fir", ",", "The Pavilion Bells", ",", "The Scalar", ",", "The Scalar [Demo]", ",", "The Shepherd and the Slaver", ",", "There Stalks a Daeva This Azimuth", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Through", ",", "Transcendental Takeover", ",", "Transmogrified", ",", "Triangle God", ",", "Triptych", ",", "Triumph in a Vacuum", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Underwater", ",", "Untitled", ",", "Vacant in Name, Vacant in Deed", ",", "Visions", ",", "Webs and Schisms", ",", "Werewolves and Time Travel Won't Keep Me Away", ",", "What I", ",", "Whenever I Die I Wake up Some Place Else", ",", "Whether", ",", "Whimsy Dancer of the Mystic Undergrowth", ",", "Whittling Away the Day", ",", "Wistful, Sulfurous", ",", "With Regret and Nihilistic", ",", "WXA", ",", "Your Eyes Remind Me of Something", ",", "Your Eyes Remind Me of Something [Demo]", ",", "Your Eyes Remind Me of Something [Sound of Unknowing Mix]", ",", "▼Telekinesis▼" ],
+					"items" : [ "(Un)Bound", ",", "1970s Peruvian Hotel", ",", "[2026-7-28-15-25-22]", ",", "[2026-7-31-18-15-20]", ",", "[2026-8-27-18-27-52]", ",", "[2026-8-4-15-26-24]", ",", "[2026-9-6-19-34-31]", ",", "[2026-9-8-12-4-58]", ",", "[2026-9-9-15-23-35]", ",", "[Archives]", ",", "[Template]", ",", "A Pitiful Soul", ",", "A Slick Slope into a Dark Abyss", ",", "A Tension", ",", "Allen Ginsberg Armageddon", ",", "An Abacus, or Your Fingers", ",", "An End Table Forged from Yggdrasil Itself", ",", "Anathema", ",", "And Then Day Turned to Night", ",", "Angelic Anatomy", ",", "Annoyingly Lost", ",", "Anyway", ",", "Archipelago", ",", "Artificial Death", ",", "As Seraphim Saunter", ",", "Auspicious in Discretion", ",", "Bafflingly Lost", ",", "Blight-Emitting Diode", ",", "Blind", ",", "Brinstar Reclaimed", ",", "C'mon Night", ",", "Cakes!", ",", "Candy Apple Island", ",", "Caprice", ",", "Casino", ",", "Catharsis", ",", "Circles", ",", "Classical Firmament", ",", "clean 7.16, 140 bpm", ",", "Connected Human World Beast", ",", "Convalescence", ",", "Corporate Warfare", ",", "Craterian Underworld", ",", "Crawl Away", ",", "Deep Space Disco", ",", "Derelict Discretion", ",", "Disengagement by Shipwreck", ",", "Divergence in F#", ",", "Dreaming", ",", "Drifter's Dungeon", ",", "Dum Casi Transeunt", ",", "dying satellites", ",", "Echoing", ",", "Elevator Music", ",", "Emblazoned", ",", "Eminence and Immunity", ",", "End of an Era Pt. 1", ",", "Etching", ",", "Evangeline", ",", "Evernow", ",", "Everything Is Teeth", ",", "Exogenesis", ",", "Exquisitely Lost", ",", "Fatal Conversion", ",", "Fear of a Name", ",", "Felmar", ",", "Flowers in the Street", ",", "Forced Providence", ",", "Frost", ",", "Ghost Tavern", ",", "Grand Prix", ",", "H", ",", "Hallow Enough", ",", "Harmless", ",", "Hate the Bear", ",", "Head Full of Real Chills", ",", "Heaven Fallen", ",", "High Resolution (Rising)", ",", "High Resolution (Sinking)", ",", "Hnnnng.wav", ",", "Hollow", ",", "Hope Hangs", ",", "I Can't See What You Need", ",", "I Dreamed of What I Was Before I Was Made into This", ",", "I Know My Price", ",", "Imparted", ",", "Impermanence", ",", "In Retrograde", ",", "In the Dust", ",", "Indelibly Lost", ",", "Inflatable Sunrise", ",", "Interior Frontier", ",", "Interspecies Intrigue", ",", "It's Snowing Outside Give Me Soup", ",", "Jabberwocky Cipher", ",", "Jericho's Grin", ",", "Jezebel", ",", "Ketamine Dreams", ",", "Keyboard Garage Matrix", ",", "Landmine", ",", "Lifting", ",", "Long Ago Lost", ",", "Love Leaves Its Abusers", ",", "Lums", ",", "Lux Aeterna", ",", "Means", ",", "Mind in Void", ",", "Miserable", ",", "Miter Saw of Yore", ",", "Ocean of Silence (We Will All Burn)", ",", "Old Map of the Abyss", ",", "Operator Drone", ",", "Outset", ",", "Overstood", ",", "Paralysis Mode", ",", "Pending Familiarity", ",", "Perfectly Lost", ",", "Permafrost", ",", "Pixilated Reverie", ",", "Powder Snow Jaunt", ",", "Preserve All Things", ",", "Psychic2", ",", "Purpose (No. 1)", ",", "Purpose (No. 2)", ",", "Push to Exit", ",", "Rainy Weather", ",", "Relentless Renaissance", ",", "Residex", ",", "Reticent", ",", "Ring the Changes", ",", "Roboticized Break-In", ",", "Rose Tinted Glasses", ",", "Rusted Inward", ",", "Samurai Planeswalk", ",", "Semblance", ",", "Sepspirial", ",", "Set Sail", ",", "Severance", ",", "Shady Wells of Amber", ",", "Shop Theme", ",", "Sidereal Scatter", ",", "Smells like Teen Spirit", ",", "Snowing Spores", ",", "Snowing Spores [Anti Inverse Remix]", ",", "Solitude", ",", "Somatic Memory", ",", "Sonder March", ",", "Space Whales Have Blowhole Thrusters", ",", "Stagger Proudly on", ",", "Staring at the Sun", ",", "Starter Town Yoshiro Region Theme", ",", "Static Confluence (With Hells Aligned)", ",", "Steam-Powered Stupor", ",", "Stepping on a Lego", ",", "Street Spirit (Fade Out)", ",", "Stunningly Lost", ",", "Submit and Be Crushed", ",", "Sufficiently Lost", ",", "Temple of the Shrew", ",", "Termina", ",", "Tesseract", ",", "The 97th Earth, 2133 B.C.E., Egypt", ",", "The Cage of Spires", ",", "The Conscious Mind", ",", "The Fate of Artax and the Wisdom of Morla", ",", "The Flowing Light", ",", "The Long Fall", ",", "The Machinist Fir", ",", "The Pavilion Bells", ",", "The Scalar", ",", "The Shepherd and the Slaver", ",", "There Stalks a Daeva This Azimuth", ",", "this thing I'm working on", ",", "Thousand-Year Morning", ",", "Through", ",", "Transcendental Takeover", ",", "Transmogrified", ",", "Triangle God", ",", "Triptych", ",", "Triumph in a Vacuum", ",", "Twilight Shimmer", ",", "Two Tongues And Three Eyes Intertwined", ",", "Unassociated", ",", "Underwater", ",", "Untitled", ",", "Vacant in Name, Vacant in Deed", ",", "Visions", ",", "Webs and Schisms", ",", "Werewolves and Time Travel Won't Keep Me Away", ",", "What I", ",", "Whenever", ",", "Whenever I Die I Wake up Some Place Else", ",", "Whether", ",", "Whimsy Dancer of the Mystic Undergrowth", ",", "Whittling Away the Day", ",", "Wistful, Sulfurous", ",", "With Regret and Nihilistic", ",", "WXA", ",", "Your Eyes Remind Me of Something", ",", "Your Eyes Remind Me of Something [Sound of Unknowing Mix]", ",", "▼Telekinesis▼" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -93348,7 +93357,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"order" : 0,
+					"source" : [ "obj-78", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
+					"order" : 1,
 					"source" : [ "obj-78", 1 ]
 				}
 
@@ -93470,27 +93488,26 @@
 		"parameters" : 		{
 			"obj-110" : [ "live.text[1]", "live.text", 0 ],
 			"obj-132" : [ "live.text[24]", "live.text", 0 ],
-			"obj-13::obj-104::obj-4::obj-12" : [ "toggle[21]", "toggle", 0 ],
+			"obj-13::obj-104::obj-4::obj-12" : [ "toggle[14]", "toggle", 0 ],
 			"obj-13::obj-113::obj-111::obj-37::obj-12" : [ "toggle[5]", "toggle", 0 ],
-			"obj-13::obj-113::obj-17::obj-12" : [ "toggle[13]", "toggle", 0 ],
-			"obj-13::obj-113::obj-21::obj-1::obj-12" : [ "toggle[12]", "toggle", 0 ],
-			"obj-13::obj-113::obj-96::obj-49::obj-12" : [ "toggle[11]", "toggle", 0 ],
-			"obj-13::obj-157::obj-33::obj-21" : [ "vst~[1]", "vst~[1]", 0 ],
+			"obj-13::obj-113::obj-17::obj-12" : [ "toggle[8]", "toggle", 0 ],
+			"obj-13::obj-113::obj-21::obj-1::obj-12" : [ "toggle[7]", "toggle", 0 ],
+			"obj-13::obj-113::obj-96::obj-49::obj-12" : [ "toggle[6]", "toggle", 0 ],
+			"obj-13::obj-157::obj-33::obj-21" : [ "vst~[2]", "vst~[2]", 0 ],
 			"obj-13::obj-157::obj-5" : [ "vst~[8]", "vst~", 0 ],
-			"obj-13::obj-159::obj-1::obj-12" : [ "toggle[24]", "toggle", 0 ],
-			"obj-13::obj-159::obj-70::obj-14::obj-12" : [ "toggle[25]", "toggle", 0 ],
-			"obj-13::obj-161::obj-12" : [ "toggle[23]", "toggle", 0 ],
-			"obj-13::obj-181::obj-59::obj-4::obj-12" : [ "toggle[27]", "toggle", 0 ],
-			"obj-13::obj-185::obj-22::obj-12" : [ "toggle[22]", "toggle", 0 ],
-			"obj-13::obj-220" : [ "live.text[47]", "live.text", 0 ],
-			"obj-13::obj-40::obj-12" : [ "toggle[26]", "toggle", 0 ],
+			"obj-13::obj-159::obj-1::obj-12" : [ "toggle[17]", "toggle", 0 ],
+			"obj-13::obj-159::obj-70::obj-14::obj-12" : [ "toggle[18]", "toggle", 0 ],
+			"obj-13::obj-161::obj-12" : [ "toggle[16]", "toggle", 0 ],
+			"obj-13::obj-181::obj-59::obj-4::obj-12" : [ "toggle[20]", "toggle", 0 ],
+			"obj-13::obj-185::obj-22::obj-12" : [ "toggle[15]", "toggle", 0 ],
+			"obj-13::obj-40::obj-12" : [ "toggle[19]", "toggle", 0 ],
 			"obj-13::obj-42::obj-12::obj-12" : [ "toggle[4]", "toggle", 0 ],
 			"obj-13::obj-42::obj-3::obj-13::obj-12" : [ "toggle[3]", "toggle", 0 ],
-			"obj-13::obj-86::obj-13::obj-12" : [ "toggle[17]", "toggle", 0 ],
-			"obj-13::obj-86::obj-1::obj-12" : [ "toggle[20]", "toggle", 0 ],
-			"obj-13::obj-86::obj-25::obj-10::obj-12" : [ "toggle[18]", "toggle", 0 ],
-			"obj-13::obj-86::obj-25::obj-15::obj-1::obj-12" : [ "toggle[19]", "toggle", 0 ],
-			"obj-13::obj-86::obj-62::obj-8::obj-12" : [ "toggle[6]", "toggle", 0 ],
+			"obj-13::obj-86::obj-13::obj-12" : [ "toggle[9]", "toggle", 0 ],
+			"obj-13::obj-86::obj-1::obj-12" : [ "toggle[13]", "toggle", 0 ],
+			"obj-13::obj-86::obj-25::obj-10::obj-12" : [ "toggle[10]", "toggle", 0 ],
+			"obj-13::obj-86::obj-25::obj-15::obj-1::obj-12" : [ "toggle[11]", "toggle", 0 ],
+			"obj-13::obj-86::obj-62::obj-8::obj-12" : [ "toggle[12]", "toggle", 0 ],
 			"obj-13::obj-8::obj-36::obj-12" : [ "toggle[1]", "toggle", 0 ],
 			"obj-13::obj-91::obj-21::obj-12" : [ "toggle[2]", "toggle", 0 ],
 			"obj-141::obj-29" : [ "Monitoring[11]", "Gain", 0 ],
@@ -93553,14 +93570,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-13::obj-220" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[47]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
 				"obj-141::obj-29" : 				{
 					"parameter_longname" : "Monitoring[11]"
 				}
@@ -93611,13 +93620,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "TDR VOS SlickEQ.maxsnap",
-				"bootpath" : "D:/[Library]/[Documents]/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../[Documents]/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "arrangement.maxpat",
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
 				"patcherrelativepath" : ".",
@@ -93686,24 +93688,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "passes_vox-01-warped-w-warped-w-w[2026-07-18144048].txt",
-				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/(Un)Bound",
-				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/(Un)Bound",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "queue.maxpat",
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scores_vox-01-warped-w-warped-w-w[2026-07-18144048].txt",
-				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/(Un)Bound",
-				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/(Un)Bound",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -93714,13 +93702,6 @@
 				"name" : "specialBuddy.maxpat",
 				"bootpath" : "D:/[Library]/[Tools]/[Max]/Amanuensis/Amanuensis",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "specs.json",
-				"bootpath" : "D:/[Library]/[Audio]/[Works]/[Projects]/(Un)Bound",
-				"patcherrelativepath" : "../../../../[Audio]/[Works]/[Projects]/(Un)Bound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
