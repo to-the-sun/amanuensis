@@ -2,7 +2,7 @@
 
 The Amanuensis is an automated songwriting and recording system aimed at ridding the process of anything left-brained, so one need never leave a creative, spontaneous and improvisational state of mind, from the inception of the song until its final master. All you have to do is jam and music will flow out from you wherever you go.
 
-- Requires https://www.github.com/to-the-sun/amanuensis-externals to be extracted or cloned to your *Documents/Max 8+/Library* folder
+- Requires `externals 1.3.zip` to be extracted to your *Documents/Max 8+/Library* folder
 - Created with Max 8.6.5 on Windows 10
 
 ## Versions Beyond
